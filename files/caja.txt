@@ -1,0 +1,1 @@
+﻿Fecha,Referencia Primaria,Referencia Secundaria,Persona,Medio de Pago,Comprobante,Tipo,Monto,Destino

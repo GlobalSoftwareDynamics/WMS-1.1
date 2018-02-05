@@ -1,0 +1,6 @@
+Ventas
+Item,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
+1,OV17J30M0616,30/10/2017,Unquecil Rímel Máxima Definición Negro,1,35,35
+2,OV17J30M0616,30/10/2017,Catálogo 2017C11 Negro,1,5,5
+3,OV17J30M0616,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,2,22.5,45
+4,OV17J30M3000,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,1,22.5,22.5

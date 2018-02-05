@@ -1,0 +1,39 @@
+﻿Ingresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+1,30/10/2017,MOV17J30N2701,Directora Dueña,Ignacio Rondon Gonzalez,Otros Ingreso,,500
+2,30/10/2017,MOV17J30N1840,Directora Dueña,Gleny Vasquez de Carrera,Pago Préstamo Efectivo,,78
+3,30/10/2017,MOV17J30M4644,Directora Dueña,Colaborador Interno,Pago Préstamo Producto,Pago Prestamo,30.5
+4,30/10/2017,MOV17J30M4553,Directora Dueña,Colaborador Interno,Pago Préstamo Producto,Pago Prestamo,25
+5,30/10/2017,MOV17J30M3159,Directora Dueña,Joaquin Rivera Lopez,Venta,,22.95
+6,30/10/2017,MOV17J30M1436,Directora Dueña,Colaborador Interno,Venta,,50
+
+Total,706.45
+
+
+Egresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+0,30/10/2017,MOV17J30M4803,Directora Dueña,Gleny Vasquez de Carrera,Préstamos de Efectivo,Pasajes a Moquegua,100
+
+Total,100
+
+
+Cupones
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+0,30/10/2017,MOV17J30P2507,OV17J30M0616,OC17J30L3121,Colaborador Interno,36.7
+
+Total,36.7
+
+
+Saldos
+
+Caja Chica
+
+-25
+
+Gleny
+
+108.5
+
+Cuenta BCP
+
+21500

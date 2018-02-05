@@ -1,0 +1,204 @@
+/*Generales*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body.portrait {
+    position: relative;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+body.landscape {
+    position: relative;
+    width: 29.7cm;
+    height: 21cm;
+    margin: 0 auto;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+}
+body.cap {
+    position: relative;
+    width: 10.2cm;
+    height: 15.3cm;
+    margin: 0 auto;
+}
+body.ocurrencia {
+    position: relative;
+    width: 12.5cm;
+    height: 18.5cm;
+    margin: 0 auto;
+}
+section {
+    display: block;
+}
+h5 {
+    padding-top: -0.3cm;
+    padding-bottom: -0.3cm;
+}
+.tituloseccion {
+    background-color: #ED6C23;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.bordes {
+    border: 1px solid black;
+    background-color: #ED6C23;
+}
+.bordeslados {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.middlealign {
+    vertical-align: middle;
+}
+.col-sm-6 {
+    width: 50%;
+}
+.col-sm-12 {
+    width: 100%;
+}
+.contenedor {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.4cm;
+    padding-right: 0.4cm;
+}
+.label {
+    font-weight: bold;
+    font-size: 12px;
+}
+/* Encabezado formatos */
+header {
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #ED6C23;
+}
+#descripcionbrand {
+     float: left;
+     text-align: left;
+     width: 10cm;
+     height: 2cm;
+     margin-bottom: 0.2cm;
+ }
+
+#tituloreporte {
+    float: right;
+    width: 7cm;
+    height: 2cm;
+    padding-top: 0.2cm;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.desctitulo {
+    text-align: center;
+    font-size: 10px;
+}
+/*Tablas*/
+.tabla {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+th, td {
+    text-align: center;
+    font-size: 12px;
+}
+table td {
+    padding: 5px;
+}
+table th {
+    padding: 5px 20px;
+    white-space: nowrap;
+}
+.trborder {
+    border: 1px solid black;
+}
+tr.trborder td, tr.trborder th {
+    border: 1px solid black;
+}
+/*Cuerpo de Formatos*/
+.descladoizquierdo {
+    text-align: left;
+    float: left;
+    width: 8cm;
+    font-size: 12px;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+}
+.descladoizquierdoul {
+    text-align: left;
+    float: left;
+    width: 6cm;
+    font-size: 12px;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+    padding-left: 1.5cm;
+}
+.descladoderecho {
+    text-align: left;
+    float: right;
+    width: 8cm;
+    font-size: 12px;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+}
+.descladoderechoul {
+    text-align: left;
+    float: right;
+    width: 6.5cm;
+    font-size: 12px;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+}
+
+.spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer15 { height: 15px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer25 { height: 25px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer30 { height: 30px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer35 { height: 35px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer40 { height: 40px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+/*Footer*/
+.footer {
+    border-top: 1px solid #ED6C23;
+    text-align: left;
+}
+/*Cuerpo Formato SE*/
+.pdtoplider {
+    padding-top: 0.4cm;
+}
+.descripcion {
+    border: 1px solid black;
+    width: 17cm;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+    font-size: 12px;
+}
+/*Cuerpo Formato CAP*/
+.derecha {
+    float: right;
+}
+.izquierda {
+    float: left;
+}

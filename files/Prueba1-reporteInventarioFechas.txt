@@ -1,0 +1,29 @@
+﻿Ingresos
+Item,Transacción,Referencia,Fecha,Producto,Almacén,Ubicación,Cantidad,Valor Unitario,Total
+1,CPP17J30M4525,-,30/10/2017,Unquecil Rímel Máxima Definición Negro,Almacén Principal,A2-U1,1,24.5,24.5
+2,CPD17J30M4451,-,30/10/2017,Unquecil Rímel Máxima Definición Negro,Almacén Principal,A2-U1,1,35,35
+3,OR17J30M0021,OC17J30L5922,30/10/2017,Catálogo 2017C11 ,Almacén Principal,A2-U4,5,4,20
+4,OR17J30L5824,OCP17J30L5749,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,Almacén Principal,A2-U1,3,0,0
+5,OR17J30L4201,OC17J30L3121,30/10/2017,Unquecil Rímel Máxima Definición Negro,Almacén Principal,A2-U1,5,24.5,122.5
+6,OR17J30L4201,OC17J30L3121,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,Almacén Principal,A2-U2,3,31.5,94.5
+
+
+Salidas
+Item,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
+1,PS17J30M4313,30/10/2017,Unquecil Rímel Máxima Definición Negro,2,35,70
+2,PS17J30M4313,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,2,22.5,45
+3,OV17J30M3000,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,1,22.5,22.5
+4,OV17J30M0616,30/10/2017,Unquecil Rímel Máxima Definición Negro,1,35,35
+5,OV17J30M0616,30/10/2017,Catálogo 2017C11 ,1,5,5
+6,OV17J30M0616,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,2,22.5,45
+
+
+Transferencias
+Item,Transacción,Fecha,Producto,Almacén de Salida,Ubicación de Salida,Almacén de Ingreso,Ubicación de Ingreso,Cantidad
+1,TU17J30O2527,30/10/2017,Unquecil Rímel Máxima Definición Negro,Almacén Principal,A2-U1,Almacén Principal,A2-U4,5
+
+
+Correcciones
+Item,Transacción,Fecha,Producto,Almacén,Ubicación,Cantidad Inicial,Cantidad Final,Motivo
+1,CI17J30O2504,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,Almacén Principal,A2-U2,1,6,
+2,CI17J30O2440,30/10/2017,Unquecil Rímel Máxima Definición Negro,Almacén Principal,A2-U1,4,10,

@@ -1,0 +1,7 @@
+﻿Compras
+Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
+1,Directora Dueña,OC17J30L3121,30/10/2017,Unquecil Rímel Máxima Definición Negro,5,24.5,122.5
+2,Directora Dueña,OC17J30L3121,30/10/2017,Ultra Definition Delineador en Lápiz para Ojos Negro,4,17.5,70
+3,Directora Dueña,OC17J30L3121,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,3,31.5,94.5
+4,Directora Dueña,OC17J30L5922,30/10/2017,Catálogo 2017C11 Alto Contraste,5,4,20
+5,Directora Dueña,OCP17J30L5749,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,3,0,0

@@ -1,0 +1,4 @@
+Préstamos
+Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
+1,Directora Dueña,PS17J30M4313,30/10/2017,Unquecil Rímel Máxima Definición Negro,2,35,70
+2,Directora Dueña,PS17J30M4313,30/10/2017,Color Effect Cuarteto de Sombras Alto Contraste,2,22.5,45

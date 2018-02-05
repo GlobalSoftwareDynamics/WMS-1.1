@@ -1,0 +1,30 @@
+﻿Ingresos
+Item,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+1,MOV17P1525J27,Directora Dueña,Gleny Vasquez de Carrera,Pago Préstamo Efectivo,,150
+2,MOV17P0756J27,Directora Dueña,Gleny Vasquez de Carrera,Pago Préstamo Efectivo,,300
+3,MOV17P0518J27,Directora Dueña,Colaborador Externo,Pago Préstamo Producto,Pago Prestamo,50
+4,MOV17A3129J27,Directora Dueña,Gleny Vasquez de Carrera,Venta,,50
+
+Total,550
+
+
+Egresos
+Item,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+1,MOV17O3308J27,Directora Dueña,Gleny Vasquez de Carrera,Préstamos de Efectivo,Observación de Prueba,500
+2,MOV17A3654J27,Directora Dueña,Directora Externa,Otros Egreso,WErt,1300
+
+Total,1800
+
+
+Cupones
+Item,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+1,MOV17A3738J27,OV17A3045J27,OC17T3035J26,Colaborador Externo,300
+
+Total,300
+
+
+Saldos
+
+Caja Chica
+
+645

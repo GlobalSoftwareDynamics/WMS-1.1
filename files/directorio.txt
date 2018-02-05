@@ -1,0 +1,3 @@
+﻿Nombre Completo,Correo Electrónico,Tipo,Fecha de Nacimiento
+Unique S.A.,contacto@yanbal.com,Proveedor,04/07/1980
+Carvasq E.I.R.L.,uniquegleny@hotmail.com,Propio,03/09/2012
