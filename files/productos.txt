@@ -1,89 +1,316 @@
 ﻿SKU,Nombre Corto,Atributo,Subcategoría,Género,Fecha de Creación,Estado
+0000872,Solo for men cologne spray ,Negro,Collares,Unisex,Sprio Spra,Activo
 0000883,OHM COLOGNE SPRAY,Salvia, toronja, lavanda.,Perfumería Varón,Varón,2017-12-07,Activo
 0001390,DENDUR COLOGNE FOR MEN,Pimienta negra, jengibre, tabaco.,Perfumería Varón,Varón,07/11/2017,Activo
+0001831,Solo Talco para el Cuerpo Hombre,Negro,Collares,Unisex,Adrenaline,Activo
+0001891,Expect for men ,Negro,Collares,Unisex,Perfect Te,Activo
 0002183,GAIA EAU DE PARFUM,Negro,Perfumería Dama,Unisex,2017-12-07,Activo
+0002187,O2xigen Gel After Shave,Negro,Collares,Unisex,Xool Desod,Activo
 0002279,OSADIA EAU DE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
+0002410,Prolong Color Rosa Romántico,Negro,Collares,Unisex,Prolong Co,Activo
 0002426,CIELO EAU DE PARFUM,Flor de loto, jazmín, sándalo.,Perfumería Dama,Dama,2017-12-13,Activo
 0002645,OHM BLACK COLOGNE SPRAY,Negro,Collares,Unisex,2017-12-07,Activo
+0002647,Bs Uña de Gato Crema para Manos,Negro,Collares,Unisex,Uña de Gat,Activo
 0002683,COLONIA ALEGRÍA PETIT PON PON,Aroma de lavanda, vainilla y flor de naranja.,Colonia,Niños,07/11/2017,Activo
 0002710,COLONIA SWEETY,Melón de la jungla y bambú africano,Colonia,Dama,07/11/2017,Activo
 0002711,COLONIA SPORTY,Envase celeste,Colonia,Varón,07/11/2017,Activo
+0002777,Dimention 3D Caramel,Negro,Collares,Unisex,Dimention ,Activo
+0002781,Dimention 3D Almendra,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0002816,Color Prisma Cuarteto de Sombras Toulousse,Negro,Collares,Unisex,Ultra Defi,Activo
 0002858,COLONIA TERNURA PETIT PON PON,Aroma de manzanilla, limón y agua de rosas,Colonia,Niños,07/11/2017,Activo
 0002901,SEXY UNIQUE WOMAN,Bergamota, acasias brasileras, rosas turcas, jazmines indios, pachuli y cacao,Perfumería Dama,Dama,07/11/2017,Activo
 0002920,CCORI PASIÓN LE PARFUM,Anís estrella, flor de azahar, orquídea negra.,Perfumería Dama,Dama,07/11/2017,Activo
 0002924,OHM BLACK GEL AFTER SHAVE,Negro,Collares,Unisex,2017-12-07,Activo
+0002928,Gaia Eau De Perfum 7.5 ml.,Negro,Collares,Unisex,Ccori Cris,Activo
+0002947,Total Block spf 30,Negro,Collares,Unisex,Total Bloc,Activo
 0002949,MUSK EAU DE PARFUM,Almizcle, ylang ylang, lila.,Perfumería Dama,Dama,07/11/2017,Activo
 0002950,MUSK HOMBRE COLOGNE SPRAY,Negro,Collares,Unisex,2017-12-07,Activo
+0002994,Top Modeling Crema Lippo-reductora (antigua presentación),Negro,Collares,Unisex,Bio Fruit ,Activo
 0002998,OSADIA HOMBRE COLOGNE SPRAY,Negro,Collares,Unisex,2017-12-07,Activo
+0002999,Musk Desodorante,Negro,Collares,Unisex,Osadía Des,Activo
+0003018,Top Modeling Gl Anti-celulitis (antigua presentación),Negro,Collares,Unisex,Bio Milk C,Activo
+0003034,Sentiva Sistema Skin 24,Negro,Collares,Unisex,Sentiva El,Activo
+0003037,Dimention 3D Consentida por tus Besos,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0003074,Extra Xool Eau de Toleitte,Negro,Collares,Unisex,Jaque Gel ,Activo
 0003092,DULCE VANIDAD EAU DE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
+0003116,Bs Uña de Gato Gel Exfoliante para Baño,Negro,Collares,Unisex,Bs Uña de ,Activo
 0003119,LLUVIA D/LOS ANDES COL ABSOLUT,Negro,Collares,Unisex,2017-12-07,Activo
+0003128,Clic Labial Liquido Escarchado Talento Natural,Negro,Collares,Unisex,Clic Labia,Activo
+0003129,Clic Labial Liquido Escarchado Luces Camaras Accion,Negro,Collares,Unisex,Clic Labia,Activo
+0003130,Clic Labial Liquido Escarchado Besos de Pelicula,Negro,Collares,Unisex,Clic Labia,Activo
+0003138,Clic Brillo Labial Mordisco,Negro,Collares,Unisex,Clic Delin,Activo
+0003165,Clic Lapiz Delineador Mar Adentro,Negro,Collares,Unisex,Clic Sombr,Activo
+0003166,Clic Lapiz Delineador Naufraga de Amor,Negro,Collares,Unisex,Clic Sombr,Activo
+0003172,Clic Delinedor Liquido Metalico Reflejo de Lun,Negro,Collares,Unisex,Clic Delin,Activo
+0003193,Clic Delineador Liquido Escarchado Noche de Estreno,Negro,Collares,Unisex,Clic Delin,Activo
+0003195,Clic Delineador Liquido Escarchado Fiebre de Oro,Negro,Collares,Unisex,Clic Gloss,Activo
+0003196,Clic Delineador Liquido Escarchado Verde Envidia,Negro,Collares,Unisex,Clic Delin,Activo
 0003236,TEMPTATION GEL AFTER SHAVE,Negro,Collares,Unisex,2017-12-07,Activo
 0003249,NO LIMITS COLONIA EN SPRAY PARA HOMBRES,Geranio, lavanda, limón.,Perfumería Varón,Varón,07/11/2017,Activo
 0003258,TEMPTATION COLOGNE FOR MEN,Menta, flor de naranja, sándalo.,Perfumería Varón,Varón,07/11/2017,Activo
+0003259,Temptation Perfume en Spray (antigua presentación),Negro,Collares,Unisex,Puro Amor ,Activo
+0003269,Clic Delineador Liquido Escarchado Brillos y Lentejuelas,Negro,Collares,Unisex,Clic Delin,Activo
+0003272,Clic Base de Maquillaje Bronce,Negro,Collares,Unisex,Ultra Defi,Activo
+0003280,Clic Lapiz Delineador MIRADA PROFUNDA,Negro,Collares,Unisex,Clic Lapiz,Activo
+0003283,Clic Delineador Liquido Escarchado Bella y Famosa,Negro,Collares,Unisex,Clic Gloss,Activo
+0003286,Clic Brillo Labial Vodka Limon,Negro,Collares,Unisex,Clic Brill,Activo
+0003287,Clic Labial Liquido Escarchado Comedia Romantica,Negro,Collares,Unisex,Clic Brill,Activo
+0003288,Clic Labial Liquido Escarchado Fucsia de Estreno,Negro,Collares,Unisex,Clic Labia,Activo
+0003289,Clic Labial Liquido Escarchado Super Estrella,Negro,Collares,Unisex,Clic Labia,Activo
 0003370,JAQUE COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
+0003371,Jaque Gel After Shave,Negro,Collares,Unisex,Arom Shamp,Activo
+0003373,Jaque Desodorante ,Negro,Collares,Unisex,O2xigen Co,Activo
 0003385,COLONIA PRIMAVERA,margarita mágica y flor de cereza,Colonia,Dama,07/11/2017,Activo
 0003386,COLONIA MUNDO SAFARI,Envase verde,Colonia,Varón,07/11/2017,Activo
+0003404,Unicreme Loción Atringente,Negro,Collares,Unisex,Sentiva BB,Activo
+0003406,Unicreme Gel Invisible,Negro,Collares,Unisex,Sentiva Si,Activo
+0003418,Clic Labial Liquido Escarchado Amor de Telenovela,Negro,Collares,Unisex,Clic Brill,Activo
+0003424,Unicreme 2 en 1 Limpiador Facial,Negro,Collares,Unisex,Unicreme G,Activo
+0003428,Color Effect Rubor Compacto La Vida en Color de Rosa,Negro,Collares,Unisex,Ultra Defi,Activo
+0003440,Sprio Paraíso Escondido Spray Cologne,Negro,Collares,Unisex,Eau De Sed,Activo
+0003444,Musk Body Lotion,Negro,Collares,Unisex,Puro Amor ,Activo
+0003471,Sprio Spray Cologne ,Negro,Collares,Unisex,Hydra Lip ,Activo
+0003488,Clic Crystal Glossy Natural,Negro,Collares,Unisex,Clic Polvo,Activo
+0003493,Clic Glossy Brillo Labial Corazon de Melon,Negro,Collares,Unisex,Clic Cryst,Activo
+0003495,Clic Glossy Brillo Labial Besos que Matan,Negro,Collares,Unisex,Clic Labia,Activo
+0003496,Clic Glossy Brillo Labial Caramelo,Negro,Collares,Unisex,Clic Gloss,Activo
+0003504,Psicodelia Desodorante,Negro,Collares,Unisex,Adrenaline,Activo
 0003505,PSICODELIA EAU DE TOILETTE,Colonia para elllas,Perfumería Dama,Dama,07/11/2017,Activo
+0003506,CcORI Jabón Líquido,Negro,Collares,Unisex,Cielo Body,Activo
 0003507,EAU VITALE TE VERDE,Esencias cítricas y te verde,Colonia,Unisex,07/11/2017,Activo
 0003509,EAU VITALE LAVANDA,Esencia cítrica Lavanda,Colonia,Unisex,07/11/2017,Activo
+0003510,Eau Vitale Gel para Baño Lvanda,Negro,Collares,Unisex,Totalist A,Activo
 0003511,LESENCE BOUQUET ORIENTAL ,Aroma  de pera, fressia y tonka.,Colonia,Dama,07/11/2017,Activo
 0003513,LESENCE FLORES & FRUTAS ,Aroma de bergamota, lavanda y pachuli.,Colonia,Dama,07/11/2017,Activo
 0003529,ULTRA DEF DEL LIQ PINC NEGRO,Negro,Collares,Unisex,2017-12-07,Activo
+0003530,Ultra Definition Delineador Pincel Marron,Negro,Collares,Unisex,Color Pris,Activo
 0003587,COLONIA ZITRIKA LIMÓN,Cítrica con aroma a limón.,Colonia,Unisex,07/11/2017,Activo
 0003590,EFFECTIVE BRISA FLORAL DESOD,Negro,Collares,Unisex,2017-12-07,Activo
+0003591,Effective Desodorante Poder Absoluto,Negro,Collares,Unisex,Top Modeli,Activo
+0003592,Soy Fashion Desodorante,Negro,Collares,Unisex,Sexy Clic ,Activo
 0003597,ULTRA DEF DEL RETR NEGRO ABSOL,Negro,Collares,Unisex,2017-12-07,Activo
 0003598,ULTRA DEF DEL RETR MARRON,Negro,Collares,Unisex,2017-12-07,Activo
+0003600,Ultra Definition Delineador Retractil Ojos Verde Militar,Negro,Collares,Unisex,Ultra Defi,Activo
+0003601,Ultra Definition Dekiniador Ojos Negro Humo,Negro,Collares,Unisex,Ultra Defi,Activo
+0003603,Ultra Definition Delineador Lapiz Cejas Marron Claro,Negro,Collares,Unisex,Ultra Defi,Activo
 0003606,ULTRA DEF DEL LAB CHOCOLATE,Negro,Collares,Unisex,2017-12-07,Activo
+0003608,Ultra Definition Delineador Lapiz Labios Rojo Encendido,Negro,Collares,Unisex,Ultra Defi,Activo
+0003609,Ultra Definition Delineador Lapiz Labios Vino,Negro,Collares,Unisex,Cover Effe,Activo
+0003611,Ultra Definition Delineador Lapiz Labios Guinda,Negro,Collares,Unisex,Ultra Defi,Activo
+0003612,Ultra Definition Delineador en Lapiz Ojos Negro,Negro,Collares,Unisex,Ultra Defi,Activo
+0003613,Ultra Definition Delineador en Lapiz Ojos Marrón,Negro,Collares,Unisex,Ultra Defi,Activo
 0003614,ULTRA DEF DEL INTER OJO PERLA,Negro,Collares,Unisex,2017-12-07,Activo
+0003615,Ultra Definition Delineador Lapiz Ojos Negro Absoluto,Negro,Collares,Unisex,Ultra Defi,Activo
+0003616,Ultra Definition Delineador Lapiz Marrón,Negro,Collares,Unisex,Ultra Defi,Activo
 0003618,ULTRA DEF DEL OJO VERDE ESMER,Negro,Collares,Unisex,2017-12-07,Activo
+0003623,Cover Age Corrector Liquido Mediano 1,Negro,Collares,Unisex,Delineador,Activo
+0003624,Cover Age Corrector Liquido Mediano 2,Negro,Collares,Unisex,Delineador,Activo
 0003631,ULTRA DEF DEL OJO VERDE OLIVO,Negro,Collares,Unisex,2017-12-07,Activo
+0003640,Sentiva Mascarilla Purificante Cutis Mixto a Graso,Negro,Collares,Unisex,Bs Uña de ,Activo
+0003642,Sentiva Exfoliage,Negro,Collares,Unisex,Bs Uña de ,Activo
+0003648,Natural Effect Polvos Compactos Oscuro 1,Negro,Collares,Unisex,Color Effe,Activo
 0003658,UNIQUECIL EXTRA XL RIMEL P/PES,Negro,Collares,Unisex,2017-12-07,Activo
+0003659,Puro Amor Eau De Parfum,Negro,Collares,Unisex,Gaia Eau D,Activo
+0003663,Puro Amor Body Lotion,Negro,Collares,Unisex,Osadía Bod,Activo
+0003665,Puro Amor Desodorante,Negro,Collares,Unisex,Brillo de ,Activo
 0003668,AROM GEL AFTER SHAVE,Negro,Collares,Unisex,2017-12-07,Activo
 0003669,OHM GEL AFTER SHAVE,Negro,Collares,Unisex,2017-12-07,Activo
 0003671,SOLO GEL AFTER SHAVE,Negro,Collares,Unisex,2017-12-07,Activo
 0003679,TEMPTATION MUJ BODY LOTION CF,Negro,Collares,Unisex,2017-12-07,Activo
+0003680,Osadía Body Lotion,Negro,Collares,Unisex,CcORI Jabó,Activo
+0003693,Sensual Bronz Polvos Bronceadores Sexy Miel ,Negro,Collares,Unisex,Traveler D,Activo
 0003701,EFFECTIVE ORIGINAL DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
+0003713,Clic Brillo Labial Algodón de Azucar,Negro,Collares,Unisex,Clic Labia,Activo
+0003716,Clic Brillo Labial Manzana Acaramelada,Negro,Collares,Unisex,Clic Labia,Activo
+0003717,Clic Brillo Labial Toffee Tentacion,Negro,Collares,Unisex,Clic Brill,Activo
+0003722,Extra Xool Eau de Toleitte,Negro,Collares,Unisex,Expect for,Activo
 0003724,XISS EAU DE TOILETTE,Negro,Collares,Unisex,2017-12-07,Activo
 0003725,XOOL EAU DE TOILETTE,Negro,Collares,Unisex,2017-12-07,Activo
 0003726,AROM POUR HOMME COLONIA,Negro,Collares,Unisex,2017-12-07,Activo
+0003727,Arom Sport Colonia Spray Hombre,Negro,Collares,Unisex,Soy Fashio,Activo
+0003732,Clic Esmalte Green Paradise,Negro,Collares,Unisex,Clic Delin,Activo
+0003737,Clic Rimel Morado,Negro,Collares,Unisex,Clic Lapiz,Activo
 0003740,AROM DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
 0003741,SOLO DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
 0003743,OHM DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
+0003746,Cielo Desodorante,Negro,Collares,Unisex,Musk Colon,Activo
 0003747,GAIA DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
 0003748,CCORI DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
+0003749,Adrenaline Mujer Desodorante,Negro,Collares,Unisex,Sexy Clic ,Activo
 0003751,OHM BLACK DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
+0003752,Osadía Desodorante,Negro,Collares,Unisex,Puro Amor ,Activo
+0003754,Musk Desodorante,Negro,Collares,Unisex,Musk Body ,Activo
+0003756,Irreverent Desodorante,Negro,Collares,Unisex,Adrenaline,Activo
 0003757,TEMPTATION HOMBRE DESOD,Negro,Collares,Unisex,2017-12-07,Activo
 0003760,CCORI PASION DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
 0003762,TEMPTATION MUJER DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
+0003764,Dulce Vanidad Desodorante,Negro,Collares,Unisex,Soy Irresi,Activo
+0003765,No Limits Desodorante,Negro,Collares,Unisex,Jaque Deso,Activo
+0003767,Xool Desodorante,Negro,Collares,Unisex,No Limits ,Activo
 0003784,EAU DE SEDA,Flor de seda, durazno y mimosa sensual.,Perfumería Dama,Dama,07/11/2017,Activo
+0003797,O2xigen Cologne Spray,Negro,Collares,Unisex,No Limits ,Activo
+0003801,Ultra Definition Delineador Lapiz Labios Toffee Imperial,Negro,Collares,Unisex,Natural Ef,Activo
 0003813,PERFECT TEN REMOVEDOR ESMALTE,Negro,Collares,Unisex,2017-12-07,Activo
+0003823,Shampoo Kids 2 en 1 Manzana,Negro,Collares,Unisex,Total Bloc,Activo
 0003824,SHAMPOO ALEGRÍA PETIT PON PON,No lágrimas aroma a lavanda, flor de naranja y vainilla,Shampoo,Niños,07/11/2017,Activo
 0003825,SHAMPOO TERNURA PETIT PON PON,No lágrimas con aroma a manzanilla, limón y agua de rosas ,Shampoo,Niños,07/11/2017,Activo
+0003830,Ultra Definition Delineador en Lapiz Ojos Marrón Cobrizo,Negro,Collares,Unisex,Prolong Co,Activo
+0003831,Ultra Definition Delineador en Lapiz Ojos Verde Jade,Negro,Collares,Unisex,Curva Lash,Activo
+0003832,Delineador Punta Pincel Dorado,Negro,Collares,Unisex,Delineador,Activo
+0003854,Shampoo Kids 2 en 1 Uva,Negro,Collares,Unisex,Sun Block ,Activo
+0003857,Sexy Clic Colonia con Escarchas Luminosas,Negro,Collares,Unisex,Soy Libre ,Activo
+0003858,Sexy Clic Loción Hidratante con Escarchas Luminosas,Negro,Collares,Unisex,Dulce Vani,Activo
+0003860,Soy Irresistible Fresh Cologne,Negro,Collares,Unisex,Brillo de ,Activo
+0003875,Matifix Base de Maquillaje Mixto a Graso T1,Negro,Collares,Unisex,Hydro-Acti,Activo
+0003887,Ultra Definition Delineador Retractil Ojos Violeta ,Negro,Collares,Unisex,Ultra Defi,Activo
+0003906,Professional Maricure Esmalte para Manicure Francesa ,Negro,Collares,Unisex,Ultra Defi,Activo
+0003910,Delineador Liquido Punta Plumon Mirame a los Ojos,Negro,Collares,Unisex,Delineador,Activo
 0003911,ULTRA DEF DEL LIQ PLUM NEGRO,Negro,Collares,Unisex,2017-12-07,Activo
+0003914,Clic Labial Liquido Escarchado Admirador Secreto,Negro,Collares,Unisex,Clic Brill,Activo
+0003915,Clic Labial Liquido Escarchado Ampay Violeta,Negro,Collares,Unisex,Clic Labia,Activo
+0003916,Clic Labial Liquido Escarchado Detrás de Camaras,Negro,Collares,Unisex,Clic Labia,Activo
+0003917,Clic Labial Liquido Escarchado Paparazzi,Negro,Collares,Unisex,Clic Labia,Activo
+0003918,Clic Labial Liquido Escarchado Ultima Funcion,Negro,Collares,Unisex,Clic Brill,Activo
+0003919,Clic Labial Liquido Escarchado Naranja Sexy,Negro,Collares,Unisex,Clic Labia,Activo
+0003921,Esmalte para Diseño de Uñas Negro ,Negro,Collares,Unisex,Perfect Te,Activo
+0003929,Clic Delineador en Lapiz para Ojos Azul Electrico,Negro,Collares,Unisex,Clic Lapiz,Activo
+0003930,Clic Delineador en Lapiz para Ojos Sexy Bronz,Negro,Collares,Unisex,Clic Delin,Activo
+0003931,Clic Delineador en Lapiz para Ojos Morado Profundo,Negro,Collares,Unisex,Clic Delin,Activo
+0003932,Clic Delineador en Lapiz para Ojos Negro Malicia,Negro,Collares,Unisex,Clic Delin,Activo
+0003933,Clic Delineador en Lapiz para Ojos Luna Plateado,Negro,Collares,Unisex,Clic Labia,Activo
+0003940,Lesence Flores y Frutas Crema Hidratante Cuerpo,Negro,Collares,Unisex,Eau Vitale,Activo
+0003953,Perfect Ten Removedor de Cutícula ,Negro,Collares,Unisex,Prolong Co,Activo
+0003974,Delineador Liquido Punta Pincel Azul de Madrugada,Negro,Collares,Unisex,Sombra Cre,Activo
+0003997,Adrenaline Hombre Desodorante,Negro,Collares,Unisex,Extra Xool,Activo
 0004002,ADRENALINE FOR MEN COLOGNE,Negro,Collares,Unisex,2017-12-07,Activo
 0004003,MUSK EAU DE PARFUM,Almizcle, ylang ylang, lila.,Perfumería Dama,Dama,07/11/2017,Activo
+0004004,Dulce Rebeldía Perfume mágico,Negro,Collares,Unisex,Cielo De N,Activo
+0004008,Clic Brillo Labial Liquido Atraccion Canela,Negro,Collares,Unisex,Clic Labia,Activo
+0004017,Clic Polvos Compactos Natural,Negro,Collares,Unisex,Clic Base ,Activo
+0004018,Clic Polvos Compactos Bronce,Negro,Collares,Unisex,Clic Corre,Activo
+0004028,Clic Rubor Compacto Candel Sexy,Negro,Collares,Unisex,Clic Labia,Activo
+0004031,Clic Rubor Compacto Dias Felices,Negro,Collares,Unisex,Clic Labia,Activo
 0004049,SENTIR , aroma oriental floral con notas de praliné, flor de mariposa blanca y papiro.,Perfumería Dama,Dama,07/11/2017,Activo
+0004055,Clic Sombras Compactas Metalico Verde Shock,Negro,Collares,Unisex,Clic Delin,Activo
+0004056,Clic Sombras Compactas Metalico Presiento tu Amor,Negro,Collares,Unisex,Clic Sombr,Activo
+0004059,Clic Sombras Compactas Metalico Hechizo de Luna,Negro,Collares,Unisex,Clic Delin,Activo
+0004063,Clic Sombras Compactas Perdida en la Selva,Negro,Collares,Unisex,Clic Sombr,Activo
+0004067,Clic Sombras Compactas Algodón de Azucar ,Negro,Collares,Unisex,Clic Sombr,Activo
+0004068,Clic Sombras Compactas Noche Traviesa ,Negro,Collares,Unisex,Clic Delin,Activo
+0004072,Clic Sombras Compactas Tu me Gustas,Negro,Collares,Unisex,Clic Sombr,Activo
+0004082,Clic Brillo Color Mix En la Luna,Negro,Collares,Unisex,Clic Brill,Activo
+0004083,Clic Brillo Color Mix Corazon de Melon,Negro,Collares,Unisex,Clic Sexte,Activo
+0004085,Clic Brillo Color Mix Toque de Sol,Negro,Collares,Unisex,Clic Gel D,Activo
+0004096,Clic Labial Amigas Intimas,Negro,Collares,Unisex,Clic Brill,Activo
+0004097,Clic Labial Confidencias,Negro,Collares,Unisex,Clic Brill,Activo
+0004098,Clic Labial Montaña Rusa,Negro,Collares,Unisex,Clic Labia,Activo
+0004099,Clic Labial Sellado con un Beso,Negro,Collares,Unisex,Clic Brill,Activo
+0004102,Clic Labial Rebelde sin Causa,Negro,Collares,Unisex,Clic Labia,Activo
+0004104,Clic Labial Vive Ahora,Negro,Collares,Unisex,Clic Polvo,Activo
+0004105,Clic Labial Dulce Vanidad,Negro,Collares,Unisex,Clic Labia,Activo
+0004107,Clic Labial Rojo Explosion,Negro,Collares,Unisex,Clic Labia,Activo
+0004120,Delineador Pinta Pincel Plata Vibrante,Negro,Collares,Unisex,Delineador,Activo
+0004140,Prolong Color Amantes y Enemigos,Negro,Collares,Unisex,Prolong Co,Activo
+0004146,Prolong Color Princesa,Negro,Collares,Unisex,Esmalte pa,Activo
+0004151,Prolong Color Vals,Negro,Collares,Unisex,Prolong Co,Activo
 0004153,DUETTE MARRON / NEGRO HUMO,Negro,Collares,Unisex,2017-12-07,Activo
+0004155,Matifix Base de Maquillaje Mixto a Graso T6,Negro,Collares,Unisex,Hydro-Acti,Activo
+0004156,Clic Gel Desmaquillador Ojos, Labios y Rostro,Negro,Collares,Unisex,Clic Sexte,Activo
+0004159,Color Prisma Duo de Sombras Tierra de Oro,Negro,Collares,Unisex,Color Pris,Activo
 0004164,DI QUE SI EAU DE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
+0004165,Cielo De Noche Parfum,Negro,Collares,Unisex,2018-02-01,Activo
+0004183,Delineador Punta Pincel Azul Metalico,Negro,Collares,Unisex,Delineador,Activo
+0004185,Delineador Punta Pincel Guinda Metalico,Negro,Collares,Unisex,Delineador,Activo
 0004195,ULTRA DEF DEL LAB PIEL,Negro,Collares,Unisex,2017-12-07,Activo
+0004199,Prolong Color Princesa (antigua presentación),Negro,Collares,Unisex,Forte Dix ,Activo
+0004221,Hydra-Lip Labial Humect Puro Sentimiento,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004227,Delineador Punta Pincel Morado,Negro,Collares,Unisex,Delineador,Activo
+0004232,Hydra-Lip Ultra Hidrat Ultra Amor Secreto,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004236,Hydra-Lip Labial Humect Ultra Jugar con Fuego,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004237,Hydra-Lip Ultra Mora Mia,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0004266,TOTALIST 4 CREMA MULTIACTIVA ALOE VERA,Hidrata, nutre, protege, suaviza,Cremas y Sueros,Dama,07/11/2017,Activo
+0004267,Totalist Aloe Vera Crema Manos y Cuerpo,Negro,Collares,Unisex,Maca Exper,Activo
 0004268,TOTALIST 4 CREMA MULTIACTIVA CONCHA DE NÁCAR,Aclara, reafirma, alisa arruga,  nutre,Cremas y Sueros,Dama,07/11/2017,Activo
+0004269,Totalist Concha de Nácar Crema Manos y Cuerpo,Negro,Collares,Unisex,Kera Exper,Activo
+0004279,Color Prisma Cuarteto de Sombras Gold Lights,Negro,Collares,Unisex,Color Pris,Activo
+0004281,Color Prisma Cuarteto de Sombras Neo Chic,Negro,Collares,Unisex,Color Pris,Activo
+0004283,Color Prisma Cuarteto de Sombras Toulousse,Negro,Collares,Unisex,Ultra Defi,Activo
+0004291,Prolong Color La pura Verdad ,Negro,Collares,Unisex,Perfect Te,Activo
 0004305,CRECE EXTREME RIMEL ACE D CREC,Negro,Collares,Unisex,2017-12-07,Activo
+0004306,Clic Corrector Retractil para Barritos ,Negro,Collares,Unisex,Color Effe,Activo
+0004307,Kera Expert Shampoo Liso Profesional,Negro,Collares,Unisex,Acerk.te E,Activo
+0004308,Kera expert Acondicionador Liso Profesional,Negro,Collares,Unisex,Acerk.te F,Activo
+0004309,Maca Expert Acondicionador Reparación Prefesional,Negro,Collares,Unisex,Kera exper,Activo
+0004330,Clic Esmalte Eco Fan,Negro,Collares,Unisex,Clic Esmal,Activo
+0004331,Clic Esmalte Ratatui,Negro,Collares,Unisex,Clic Esmal,Activo
+0004332,Clic Esmalte Tinky Winky,Negro,Collares,Unisex,Clic Esmal,Activo
+0004333,Clic Esmalte Cruela,Negro,Collares,Unisex,Clic Esmal,Activo
+0004343,Prolong Color Crush,Negro,Collares,Unisex,Prololong ,Activo
 0004347,ADRENALINE EAU DE TOILETTE,Negro,Collares,Unisex,2017-12-07,Activo
 0004348,CREMA ACLARANTE CONTROL BLANC RX,Con Albacinol RX-11** Además contiene ácido hialurónico y filtros solares. ,Antimanchas y Aclarantes,Unisex,2017-11-07,Activo
+0004354,Prolong Color Jungla de Cemento ,Negro,Collares,Unisex,Prolong Co,Activo
+0004358,Prolong Color Deseos de Arena,Negro,Collares,Unisex,Prolong Co,Activo
+0004360,Prolong Color Brillo por Ti,Negro,Collares,Unisex,Prolong Co,Activo
+0004365,Hydro-Active Base de maquillaje T1,Negro,Collares,Unisex,Hydro-Acti,Activo
+0004368,Hydro-Active Base de Maquillaje T4,Negro,Collares,Unisex,Hydro-Acti,Activo
+0004369,Hydro-Active Base de Maquillaje T5,Negro,Collares,Unisex,Unicreme 2,Activo
+0004370,Hydro-Active Base de Maquillaje T6,Negro,Collares,Unisex,Unicreme L,Activo
+0004375,Clic Brillo Labial Natural y Delineador Negro,Negro,Collares,Unisex,Clic Brill,Activo
+0004376,Clic Brillo Labial Natural y Delineador Verde,Negro,Collares,Unisex,Clic Labia,Activo
+0004377,Clic Brillo Natural y Delineador Marron ,Negro,Collares,Unisex,Clic Brill,Activo
+0004379,Clic Brillo Natural y Delineador Azul,Negro,Collares,Unisex,Clic Brill,Activo
+0004394,Bio fruit Shampoo y Acondicionador Mandarina tropical (antigua presentación),Negro,Collares,Unisex,O2xigen Ge,Activo
+0004395,Bio Fruit Shampoo y Acondicionador Coco Caribeño (antigua presentación),Negro,Collares,Unisex,Solo Talco,Activo
+0004405,Prolong Color Verde Africa ,Negro,Collares,Unisex,Perfect Te,Activo
+0004408,Hydra-Lip Humect Junto a Ti Dlux,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004414,Prolong Color Dorado Metálico,Negro,Collares,Unisex,Perfect Te,Activo
+0004415,Prolong Color Arenha,Negro,Collares,Unisex,Perfect Te,Activo
 0004422,LASH FICTION RIMEL PEST D PELI,Negro,Collares,Unisex,2017-12-07,Activo
+0004459,Clic Esmalte Cotton Candy,Negro,Collares,Unisex,Clic Esmal,Activo
+0004469,Bs Uña de Gato Crema para Manos,Negro,Collares,Unisex,Primavera ,Activo
+0004470,Uña de Gato Exfoliante en Gel para Manos y Cuerpo,Negro,Collares,Unisex,Limpiador ,Activo
+0004471,Desodorante Acerk.te Fuego,Negro,Collares,Unisex,Rodillo Ma,Activo
 0004476,CCORI CRISTAL LEAU DE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
+0004480,Lpstay Larga Duración Sun Bronz,Negro,Collares,Unisex,Lipstay La,Activo
+0004483,Lipstay Larga Duración Rosa de mis Sueños,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004486,Lipstay Larga Duración Beso Volado,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0004493,SPRIO BLUE SPRAY COLOGNE,Negro,Collares,Unisex,2017-12-07,Activo
+00044948,Hydra-Lip Ultra Miel en tus Labios,Negro,Collares,Unisex,Perfect Te,Activo
 0004495,ZENTRO COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
+0004497,Cielo Body Lotion ,Negro,Collares,Unisex,Temptation,Activo
 0004498,CCORI BODY LOTION NF,Negro,Collares,Unisex,2017-12-07,Activo
 0004500,GAIA BODY LOTION NF,Negro,Collares,Unisex,2017-12-07,Activo
 0004502,CCORI PASION BODY LOTION NF,Negro,Collares,Unisex,2017-12-07,Activo
+0004515,Acerk.te Energía Desodorante,Negro,Collares,Unisex,Exfoliante,Activo
+0004516,Acerk.te Fresh Desodorante,Negro,Collares,Unisex,Effective ,Activo
+0004517,Sun Block spf 30 ,Negro,Collares,Unisex,Total Bloc,Activo
+0004531,Prolong Color Oro Bling,Negro,Collares,Unisex,Perfect Te,Activo
+0004539,Hydra-Lip Ultra Vainilla Rosa,Negro,Collares,Unisex,Perfect Te,Activo
+0004541,Clic Esmalte Blue Blue,Negro,Collares,Unisex,Clic Esmal,Activo
+0004542,Clic Esmalte Mandarin,Negro,Collares,Unisex,Clic Esmal,Activo
+0004543,Forte Dix Fortalecedor de uñas,Negro,Collares,Unisex,Esmalte pa,Activo
+0004548,Hydra-Lip Ultra Vainilla Intimo,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004551,Prolong Color Perlas Y Cristales ,Negro,Collares,Unisex,Prolong Co,Activo
+0004553,Eau Vitale Gel para Baño Te Verde,Negro,Collares,Unisex,Totalist A,Activo
+0004562,Limpiador Exfoliante para Rostro Titanium (antigua presentación),Negro,Collares,Unisex,Swetty Col,Activo
+0004566,Color Prisma Duo de Sombras Carnaval de Rio,Negro,Collares,Unisex,Clic Sombr,Activo
+0004567,Color Prisma Duo de Sombras Viva Marrakech,Negro,Collares,Unisex,Clic Sombr,Activo
+0004568,Color Prisma Duo de Sombras NY NY,Negro,Collares,Unisex,Color Pris,Activo
+0004569,Color Prisma Duo de Sombras Made in Tokio,Negro,Collares,Unisex,Color Pris,Activo
+0004570,Color Prisma Duo de Sombras Romance en Paris,Negro,Collares,Unisex,Color Pris,Activo
 0004576,MISS AMOUR EAU DE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
+0004578,Clic Esmalte Galactic Green,Negro,Collares,Unisex,Clic Esmal,Activo
+0004588,Prolong Color Oh Divina!,Negro,Collares,Unisex,Perfect Te,Activo
+0004621,Clic Esmalte Metal Glam,Negro,Collares,Unisex,Clic Esmal,Activo
 0004630,REVITALIST SUERO,Negro,Collares,Unisex,2017-12-07,Activo
+0004635,Prolong Color Escarcha Bronz,Negro,Collares,Unisex,Matifix Ba,Activo
+0004636,Bs Crema para Cuerpo Leche & Avena (antigua presentación),Negro,Collares,Unisex,Top Modeli,Activo
+0004638,Prolong Color Dunas (antigua presentación),Negro,Collares,Unisex,Perfect Te,Activo
 0004639,BODY SPA UÑA DE GATO EXFOLIANTE EN GEL PARA MANOS Y CUERPO,exfolia la piel seca y extra seca.,Cuidado de la Piel,Unisex,07/11/2017,Activo
 0004640,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS,hidrata y repara la piel seca y extra seca.,Cuidado de la Piel,Unisex,07/11/2017,Activo
 0004641,XISS 2.0 EAU DE TOILETTE,Aroma frutal floral con notas de mandarina, albaricoque y madera de cedro,Perfumería Dama,Dama,07/11/2017,Activo
 0004642,XOOL 2.0 EAU DE TOILETTE,Negro,Collares,Unisex,2017-12-07,Activo
+0004643,Curva Lash Rimel Curvas Extremas,Negro,Collares,Unisex,Cover Age ,Activo
 0004645,CCORI PASION LE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
 0004646,CCORI LE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
 0004647,TITANIUM HIDRATANTE ENERGIZANT,Negro,Collares,Unisex,2017-12-07,Activo
@@ -94,26 +321,62 @@
 0004654,REVITALIST LIMPIADOR,Negro,Collares,Unisex,2017-12-07,Activo
 0004655,ELIXIR DE VIDA LIMPIADOR,Negro,Collares,Unisex,2017-12-07,Activo
 0004656,BODY SPA UÑA DE GATO CREMA REPARADORA,Repara e hidrata la piel.,Cuidado de la Piel,Unisex,07/11/2017,Activo
+0004657,Hydra-Lip Ultra Ultra Delicatta FR Delux,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004661,Hydra-Lip Ultra Hidrat Ultra Atardecer Caribe,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004665,Prolong Color Naranja Do Brazil,Negro,Collares,Unisex,Prolong Co,Activo
+0004666,Prolong Color Danza Carioca,Negro,Collares,Unisex,Prolong Co,Activo
+0004668,Ultra Definition Plumon Ojos Marron,Negro,Collares,Unisex,Ultra Defi,Activo
 0004669,ULTRA DEF DEL PLUMON AZUL,Negro,Collares,Unisex,2017-12-07,Activo
 0004670,REVITALIST TONICO,Negro,Collares,Unisex,2017-12-07,Activo
 0004671,ELIXIR DE VIDA GEL TONICO,Negro,Collares,Unisex,2017-12-07,Activo
 0004683,43 N PARALEL COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
 0004684,LIBERATTA PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
+0004686,Brillo de Seda Loción Hidratante,Negro,Collares,Unisex,Cielo Deso,Activo
+0004687,Brillo de Seda Diamantes Loción Hidratante,Negro,Collares,Unisex,Sexy Eau d,Activo
 0004694,TOP MODELING CR ANTI-CELULITIS,Negro,Collares,Unisex,2017-12-07,Activo
+0004699,Prolong Color Intensity,Negro,Collares,Unisex,Prolong Co,Activo
+0004701,Prolong Color Instito Animal,Negro,Collares,Unisex,Perfect Te,Activo
+0004709,Clic Esmalte Aqua Shock,Negro,Collares,Unisex,Clic Esmal,Activo
+0004710,Soy Fashion Fresh Colonia,Negro,Collares,Unisex,Porta Cuar,Activo
+0004713,Clic Esmalte Hot Pink,Negro,Collares,Unisex,Clic Esmal,Activo
+0004714,Clic Esmalte Cool Yellow,Negro,Collares,Unisex,Clic Esmal,Activo
+0004717,Soy Libre Fresh Cologne,Negro,Collares,Unisex,Soy Dulce ,Activo
 0004718,SOY DULCE FRESH COLOGNE,Frambuesa azucarada, madera blanca, vainilla.,Perfumería Dama,Dama,2017-11-07,Activo
+0004724,Hydra-Lip Ultra Ultra Lady Rose,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004729,Clic Esmalte Blue Punch,Negro,Collares,Unisex,Clic Esmal,Activo
 0004733,ELIXIR DE VIDA ROSTRO,Negro,Collares,Unisex,2017-12-07,Activo
 0004734,ELIXIR DE VIDA CR DE OJOS 15 G,Negro,Collares,Unisex,2017-12-07,Activo
+0004736,Prolong Color Azzule,Negro,Collares,Unisex,Prolong Co,Activo
+0004737,Prolong Color Luxury,Negro,Collares,Unisex,Prolong Co,Activo
+0004738,Prolong Color Oscura Tentación,Negro,Collares,Unisex,Perfect Te,Activo
+0004739,Prolong Color Morado Top,Negro,Collares,Unisex,Prolong Co,Activo
+0004741,Prolong Color Noctambul,Negro,Collares,Unisex,Prolong Co,Activo
+0004742,Prolong Color City Star,Negro,Collares,Unisex,Prolong Co,Activo
+0004744,Hydra-Lip Ultra Ultra Fucsia Opulento DX,Negro,Collares,Unisex,Dimention ,Activo
+0004749,Hydra-Lip Ultra Ultra Lujo Malva,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0004750,CONTROL BLANC RX LIM-EXF-TON,Negro,Collares,Unisex,2017-12-07,Activo
+0004761,Clic Esmalte Party Mood,Negro,Collares,Unisex,Clic Esmal,Activo
+0004762,Clic Esmalte Black Glow,Negro,Collares,Unisex,Clic Esmal,Activo
 0004768,BS LECHE & AVENA CREMA CUERPO,Negro,Collares,Unisex,2017-12-07,Activo
 0004769,BS LECHE & AVENA EXFOLIANTE,Negro,Collares,Unisex,2017-12-07,Activo
 0004770,ADRENALINE URBANO COLOGNE,Negro,Collares,Unisex,2017-12-07,Activo
+0004771,Color Prisma Cuarteto de Sombras Urbana,Negro,Collares,Unisex,Color Pris,Activo
+0004772,Bio Milk Crema Hidratante Vainilla francesa,Negro,Collares,Unisex,Brio Fruit,Activo
 0004773,BS LECHE & AVENA CREMA MANOS,Negro,Collares,Unisex,2017-12-07,Activo
+0004774,Prolong Color Zul Style,Negro,Collares,Unisex,Prolong Co,Activo
+0004776,Prolong Color Verdezza,Negro,Collares,Unisex,Perfect Te,Activo
+0004780,Hydra-Lip Ultra Hidrat Ultra Rosa Lip,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0004791,PERFECT TEN BARNIZ UÑAS MATE,Negro,Collares,Unisex,2017-12-07,Activo
+0004792,Delineador Liquido punta Plumon Metalico Gris Urbano,Negro,Collares,Unisex,Delineador,Activo
+0004816,Clic Sombras Compactas Bicolor Tropical Colors,Negro,Collares,Unisex,Clic Delin,Activo
+0004817,Clic Esmalte Black Attack,Negro,Collares,Unisex,Clic Esmal,Activo
+0004819,Clic Esmalte Kilimanjaro,Negro,Collares,Unisex,Clic Delin,Activo
 0004826,BIO FRUIT 2EN1 GRANADA EXOTICA,Negro,Collares,Unisex,2017-12-07,Activo
 0004827,TOTAL BLOCK ACTIVE DEF SPF 50,Negro,Collares,Unisex,2017-12-07,Activo
 0004828,CONTROL BLANC RX ACLA ANT-EDAD,Negro,Collares,Unisex,2017-12-07,Activo
 0004829,SENTIVA DESMAQ AGUA MICELAR,Negro,Collares,Unisex,2017-12-07,Activo
 0004830,SENTIVA DESMAQUILLA DOBLE FASE,Negro,Collares,Unisex,2017-12-07,Activo
+0004831,Fresh Mousse Sobras Crema Dark Mousse,Negro,Collares,Unisex,Color Pris,Activo
 0004833,REVITALIST GEL ENERGIZANTE,Negro,Collares,Unisex,2017-12-07,Activo
 0004834,NO LIMITS FUTBOL EDITION,Negro,Collares,Unisex,2017-12-07,Activo
 0004836,C/S COLOR EFFECT ALTO CONTRAST,Negro,Collares,Unisex,2017-12-07,Activo
@@ -123,10 +386,20 @@
 0004841,C/S COLOR EFFECT SMOKY GLAM,Negro,Collares,Unisex,2017-12-07,Activo
 0004843,C/S COLOR EFFECT ROMANTIC ROSE,Negro,Collares,Unisex,2017-12-07,Activo
 0004845,C/S COLOR EFFECT FUROR AZUL,Negro,Collares,Unisex,2017-12-07,Activo
+0004848,Color Prisma Cuarteto de Sombras Miami Pop ,Negro,Collares,Unisex,Color Pris,Activo
 0004849,P/C PERFECT COVER CLARO 1,Negro,Collares,Unisex,2017-12-07,Activo
 0004850,P/C PERFECT COVER MEDIANO 1,Negro,Collares,Unisex,2017-12-07,Activo
 0004851,P/C PERFECT COVER MEDIANO 2,Negro,Collares,Unisex,2017-12-07,Activo
 0004852,P/C PERFECT COVER OSCURO 1,Negro,Collares,Unisex,2017-12-07,Activo
+0004854,Lipstay Larga Duracion Rojo Apasionado ,Negro,Collares,Unisex,Lipstay La,Activo
+0004855,Lispstay Larga Duración Rojo Destello,Negro,Collares,Unisex,Lipstay La,Activo
+0004857,Lipstay Larga Duración Canela Intenso,Negro,Collares,Unisex,Lipstay La,Activo
+0004859,Prololong Color Tangerin Pop FR,Negro,Collares,Unisex,Perfect Te,Activo
+0004860,Prolong Color Aquarium,Negro,Collares,Unisex,Prolong Co,Activo
+0004862,Prolong Color Miami Aqua ,Negro,Collares,Unisex,Prolong Co,Activo
+0004866,Hydra-Lip Ultra Ultra Rosa Pop,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004868,Hydra-Lip Ultra Pop Style,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004869,Hydra-Lip Ultra Ultra Florida Love,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0004880,AROM ABSOLUT COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
 0004881,PD BAILAMOS EN RIO COLOGNE,Negro,Collares,Unisex,2017-12-07,Activo
 0004882,PD TE ESPERO EN ESTAMBUL COLOG,Negro,Collares,Unisex,2017-12-07,Activo
@@ -151,10 +424,13 @@
 0004901,L/L HYDRA-LIP COLOR GUINDA ETN,Negro,Collares,Unisex,2017-12-07,Activo
 0004902,L/L HYDRA-LIP COLOR ALMENDRADO,Negro,Collares,Unisex,2017-12-07,Activo
 0004904,UNIQ WOMAN INFINITY EAU PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
+0004905,Color Prisma Cuarteto de Sombras Miami Beach,Negro,Collares,Unisex,Color Pris,Activo
 0004921,CCORI CRISTAL BODY LOTION,Negro,Collares,Unisex,2017-12-07,Activo
 0004922,ZENTRO GEL AFTER SHAVE,Negro,Collares,Unisex,2017-12-07,Activo
+0004932,Adrenaline Urbano Desodorante,Negro,Collares,Unisex,Irreverent,Activo
 0004933,CCORI CRISTAL DESODORANTE,Negro,Collares,Unisex,2017-12-07,Activo
 0004934,BALSAMO BELLEZA BB CREAM,Negro,Collares,Unisex,2017-12-07,Activo
+0004935,Ccori Cristal Leau Parfum 7.5 ml.,Negro,Collares,Unisex,Sentir Uni,Activo
 0004936,B/L PERFECT COVER HIDRA T1,Negro,Collares,Unisex,2017-12-07,Activo
 0004937,B/L PERFECT COVER HIDRA T2,Negro,Collares,Unisex,2017-12-07,Activo
 0004938,B/L PERFECT COVER HIDRA T3,Negro,Collares,Unisex,2017-12-07,Activo
@@ -165,17 +441,41 @@
 0004944,B/L PERFECT COVER MAT T3,Negro,Collares,Unisex,2017-12-07,Activo
 0004945,B/L PERFECT COVER MAT T4,Negro,Collares,Unisex,2017-12-07,Activo
 0004946,B/L PERFECT COVER MAT T5,Negro,Collares,Unisex,2017-12-07,Activo
+0004951,Hydra-Lip Ultra Hidrat Ultra Rojo Euforia,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0004959,UNIQUE WOMAN EAU DE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
 0004962,SPRIO PINK COLOGNE FOR HER,Negro,Collares,Unisex,2017-12-07,Activo
 0004963,C/S COLOR EFFECT LONDON LOVE,Negro,Collares,Unisex,2017-12-07,Activo
+0004964,Clic Sexteto de Sombras Cool&Sexy,Negro,Collares,Unisex,Clic Esmal,Activo
+0004965,Clic Sexteto de Sombras Funny&Trendy,Negro,Collares,Unisex,Clic Esmal,Activo
 0004966,L/L HYDRA-LIP COLOR ROJO PASIO,Negro,Collares,Unisex,2017-12-07,Activo
+0004969,Hydra-Lip Ultra Hidrat Ultra Classic Fem,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004970,Hydra-Lip Ultra Rock and Ros,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004971,Hydra-Lip Ultra Hidrat Ultra Lady Pink,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0004975,Prolong Color London Night,Negro,Collares,Unisex,Perfect Te,Activo
+0004976,Prololong Color London City,Negro,Collares,Unisex,Prolong Co,Activo
+0004977,Prolong Color Alma Dorada,Negro,Collares,Unisex,Prolong Co,Activo
+0004978,Prolong Color Lila Romantic,Negro,Collares,Unisex,Perfect Te,Activo
+0004982,Prolong Color Verde Etnico,Negro,Collares,Unisex,Prolong Co,Activo
+0004983,Acento Parfum,Negro,Collares,Unisex,DESCRIPCIO,Activo
+0004984,Clic Esmalte Mango Frozen,Negro,Collares,Unisex,Clic Esmal,Activo
+0004987,Clic Esmalte Silver Way!,Negro,Collares,Unisex,Clic Esmal,Activo
+0004994,Prolong Color Rojo Etnico,Negro,Collares,Unisex,Perfect Te,Activo
+0005003,Hydra-Lip Color Intenso Rosa Paris,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0005004,Hydra-Lip Color Intenso Fucsia Boheme,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0005005,Hydra-Lip Color Intenso Alma Guinda,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0005008,Color Effect Cuarteto de Sombras Boheme,Negro,Collares,Unisex,Color Pris,Activo
 0005009,SET ANTIMANCH CONTROL BLANC RX,Negro,Collares,Unisex,2017-12-07,Activo
 0005017,CREMA HIDRATANTE BIO MILK PERA MANZANA,Con proteinas de yogurt probiotico,Cuidado de la Piel,Unisex,07/11/2017,Activo
 0005018,CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA,Con proteinas de yogurt probiotico,Cuidado de la Piel,Unisex,07/11/2017,Activo
 0005029,SOLO COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
 0005030,DENDUR COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
 0005032,O2XYGEN BLANC COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
+0005034,Hydra-Lip Color Intenso Coral Hindu,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0005035,L/L HYDRA-LIP COL ROSE D ORIEN,Negro,Collares,Unisex,2017-12-07,Activo
+0005040,Hydra-Lip Color Intenso Piel de Durazno,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0005041,Hydra-Lip Color Intenso Rosa Esencial,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0005045,Cover Effect Cuarteto de Sombras Essencia,Negro,Collares,Unisex,Ultra Defi,Activo
+0005046,Prolong Color Oro & Encanto,Negro,Collares,Unisex,Prolong Co,Activo
 0005050,L/L HYDRA-LIP CRAYON SEXY RED,Negro,Collares,Unisex,2017-12-07,Activo
 0005051,L/L HYDRA-LIP CRAYON RED ELEGA,Negro,Collares,Unisex,2017-12-07,Activo
 0005052,L/L HYDRA-LIP CRAYON FUCS GLAM,Negro,Collares,Unisex,2017-12-07,Activo
@@ -221,6 +521,8 @@
 0005138,ACNI-DERM CREMA HIDRATANTE,Negro,Collares,Unisex,2017-12-07,Activo
 0005139,O/S COLOR EFFECT NATURAL DIVA,Negro,Collares,Unisex,2017-12-07,Activo
 0005140,O/S COLOR EFFECT GLAM FEM,Negro,Collares,Unisex,2017-12-07,Activo
+0005141,Bio Fruit 2 en 1 Pera Manzana (antigua presentación),Negro,Collares,Unisex,Bio Fruit ,Activo
+0005142,Brio Fruit 2 en 1 Coco Caribeño (antigua presentación),Negro,Collares,Unisex,Bio Fruit ,Activo
 0005144,BIO FRUIT COCO CARIBEÑO FRESH COLOGNE,Aroma coco,Colonia,Dama,07/11/2017,Activo
 0005145,BIO FRUIT GRANADA EXOTICA FRESH COLOGNE,Aroma granada ,Colonia,Dama,07/11/2017,Activo
 0005146,BIO FRUIT PERA MANZANA FRESH COLOGNE,Aroma pera, manzana,Colonia,Dama,07/11/2017,Activo
@@ -236,6 +538,7 @@
 0005156,PERFECT TEN CORRECTOR ESMALTE,Negro,Collares,Unisex,2017-12-07,Activo
 0005157,TITANIUM SHAMPOO,Negro,Collares,Unisex,2017-12-07,Activo
 0005158,C/S COLOR EFFECT URBANA,Negro,Collares,Unisex,2017-12-07,Activo
+0005161,Hydra-Lip Color Intenso Femme Rose,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0011001,ZENTRO BLACK COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
 0011002,BS UÑA DE GATO SHAMPOO,Negro,Collares,Unisex,2017-12-07,Activo
 0011004,LESENCE BOUQUET ORIENTAL COL,Negro,Collares,Unisex,2017-12-07,Activo
@@ -249,6 +552,7 @@
 0011013,EAU VITALE LAVANDA COLONIA,Negro,Collares,Unisex,2017-12-07,Activo
 0011014,EAU VITALE TE VERDE COLONIA,Negro,Collares,Unisex,2017-12-07,Activo
 0011017,TITANIUM DESODORANTE ANTITRANS,Negro,Collares,Unisex,2017-12-07,Activo
+0011020,Ultra Defition Delineador Liquido Ojos Azul Metal,Negro,Collares,Unisex,Ultra Defi,Activo
 0011024,ULTRA DEF DEL LAP OJO NEGRO AB,Negro,Collares,Unisex,2017-12-07,Activo
 0011025,BIO EFFECTIVE DEO ORIGINAL,Negro,Collares,Unisex,2017-12-07,Activo
 0011026,BIO EFFECTIVE DEO GRANADA EXOT,Negro,Collares,Unisex,2017-12-07,Activo
@@ -257,9 +561,15 @@
 0011029,PERFECT COVER CORRECTOR CLARO1,Negro,Collares,Unisex,2017-12-07,Activo
 0011030,PERFECT COVER CORRECTOR MEDIA1,Negro,Collares,Unisex,2017-12-07,Activo
 0011031,PERFECT COVER CORRECTOR MEDIA2,Negro,Collares,Unisex,2017-12-07,Activo
+0011032,Color Effect Cuarteto de Sombras Oceanía Ultra,Negro,Collares,Unisex,Color Pris,Activo
 0011034,L/L HYDRA-LIP COL ESTRE COR FR,Negro,Collares,Unisex,2017-12-07,Activo
 0011035,L/L HYDRA-LIP COL ROSA SIRE FR,Negro,Collares,Unisex,2017-12-07,Activo
+0011039,Perfect Ten Azul Profundo,Negro,Collares,Unisex,Perfect Te,Activo
+0011040,Perfect Ten Reflejos Marinos FR,Negro,Collares,Unisex,Perfect Te,Activo
 0011041,ESM PERFECT TEN ALGAS MARIN FR,Negro,Collares,Unisex,2017-12-07,Activo
+0011042,Perfect Ten Rosa Tornasol,Negro,Collares,Unisex,Perfect Te,Activo
+0011043,Perfect Ten Spondylus FR,Negro,Collares,Unisex,Perfect Te,Activo
+0011046,Clic Rimel Negro,Negro,Collares,Unisex,Clic Lapiz,Activo
 0011047,ESM PERFECT TEN LILA RETRO,Negro,Collares,Unisex,2017-12-07,Activo
 0011048,ESM PERFECT TEN BURGUNDY,Negro,Collares,Unisex,2017-12-07,Activo
 0011049,ESM PERFECT TEN PASION,Negro,Collares,Unisex,2017-12-07,Activo
@@ -282,6 +592,11 @@
 0011066,FORTE COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
 0011071,PD ME QUEDO EN SANTORINI COLOG,Negro,Collares,Unisex,2017-12-07,Activo
 0011072,ESM PERFECT TEN AMANT D MEDIAN,Negro,Collares,Unisex,2017-12-07,Activo
+0011073,Hydra-Lip Color Intenso Marsala,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0011075,Gaia Set Hydra Lip y Esmalte,Negro,Collares,Unisex,Ultra Defi,Activo
+0011076,Ccori Cristal Set Hydra-lip y Esmalte,Negro,Collares,Unisex,Elixir de ,Activo
+0011077,Osadia Set Hydra Lip y Esmalte,Negro,Collares,Unisex,Gaia Set H,Activo
+0011078,Ccori Set Hydra Lip y Esmalte,Negro,Collares,Unisex,Ccori Cris,Activo
 0011083,BS KIDS COLONIA NIÑOS,Negro,Collares,Unisex,2017-12-07,Activo
 0011084,BS KIDS COLONIA NIÑAS,Negro,Collares,Unisex,2017-12-07,Activo
 0011085,ULTRA DEF DEL LD OJOS NEGRO,Negro,Collares,Unisex,2017-12-07,Activo
@@ -293,16 +608,31 @@
 0011091,TOTALIST CONCHA D NACAR LIMPIA,Negro,Collares,Unisex,2017-12-07,Activo
 0011092,TOTALIST ALOE LIMPIADOR MULTIA,Negro,Collares,Unisex,2017-12-07,Activo
 0011093,C/S COLOR EFFECT ETEREA,Negro,Collares,Unisex,2017-12-07,Activo
+0011096,Perfect Ten Rosado Ballet,Negro,Collares,Unisex,Perfect Te,Activo
+0011097,Hydra-Lip Color Intenso Guinda del Oeste,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0011098,Hydra-Lip Color Intenso Cobre del Oeste,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0011099,Hydra-Lip Color Intenso Rojo del Oeste,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0011101,Perfect Ten Lila Etereo,Negro,Collares,Unisex,Perfect Te,Activo
 0011102,ESM PERFECT TEN VERDE FEM,Negro,Collares,Unisex,2017-12-07,Activo
+0011104,Perfect Ten Azul Denim,Negro,Collares,Unisex,Prolong Co,Activo
+0011105,Perfect Ten Guinda Tejano,Negro,Collares,Unisex,Prolong Co,Activo
+0011106,Perfect Ten Ecuestre Chic ,Negro,Collares,Unisex,Matifix Ba,Activo
 0011110,PERFECT TEN FORTALECEDOR UÑAS,Negro,Collares,Unisex,2017-12-07,Activo
 0011111,PERFECT TEN BRI SECAN&PROT ESM,Negro,Collares,Unisex,2017-12-07,Activo
 0011112,ULTRA DEF DEL LD OJOS MARRON,Negro,Collares,Unisex,2017-12-07,Activo
 0011113,ULTRA DEF DEL LIQ PLU AZUL FRO,Negro,Collares,Unisex,2017-12-07,Activo
 0011114,ULTRA DEF DEL LIQ PLU MARR FRO,Negro,Collares,Unisex,2017-12-07,Activo
+0011117,Color Effect Cuarteto de Sombras Retro Chic,Negro,Collares,Unisex,Color Effe,Activo
+0011118,Perfect Ten Supernova,Negro,Collares,Unisex,Perfect Te,Activo
+0011119,Perfect Ten Psicodelico,Negro,Collares,Unisex,Prolong Co,Activo
+0011122,Perfect Ten Sudio 54,Negro,Collares,Unisex,Prolong Co,Activo
+0011123,Hydra-Lip Color Intenso Rosa Soft,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0011124,L/L HYDRA-LIP COLOR ROSE CORAL,Negro,Collares,Unisex,2017-12-07,Activo
 0011125,L/L HYDRA-LIP COLOR ROJO ABBA,Negro,Collares,Unisex,2017-12-07,Activo
 0011126,L/L HYDRA-LIP COLOR ROJO DISCO,Negro,Collares,Unisex,2017-12-07,Activo
 0011127,PD SANTORINI BODY LOTION,Negro,Collares,Unisex,2017-12-07,Activo
+0011129,Hydra-Lip Color Intenso Rosa Light,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0011130,Hydra-Lip Color Intenso Mitica,Negro,Collares,Unisex,Hydra-Lip ,Activo
 0011131,GAIA EAU DE PARFUM EDIC LIMIT,Negro,Collares,Unisex,2017-12-07,Activo
 0011132,ACENTO INTENSE EAU DE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
 0011136,L/L HYDRA-LIP LD ROJO APASIONA MY,Negro,Collares,Unisex,2017-12-07,Activo
@@ -313,6 +643,7 @@
 0011141,L/L HYDRA-LIP LD BESO GITANO MY,Negro,Collares,Unisex,2017-12-07,Activo
 0011142,L/L HYDRA-LIP LD ROJO INTENSO MY,Negro,Collares,Unisex,2017-12-07,Activo
 0011143,L/L HYDRA-LIP LD FUCS ENSUEÑO MY,Negro,Collares,Unisex,2017-12-07,Activo
+0011144,Hydra-Lip Color Intenso Kaki,Negro,Collares,Unisex,Dimention ,Activo
 0011145,L/L HYDRA-LIP COLOR MALVA LEYE,Negro,Collares,Unisex,2017-12-07,Activo
 0011146,L/L HYDRA-LIP COLOR ROJO SALVA,Negro,Collares,Unisex,2017-12-07,Activo
 0011147,L/L HYDRA-LIP COLOR GUIN SALVA,Negro,Collares,Unisex,2017-12-07,Activo
@@ -321,10 +652,15 @@
 0011150,L/L HYDRA-LIP COLOR ROJO ZEN,Negro,Collares,Unisex,2017-12-07,Activo
 0011151,C/S COLOR EFFECT JUNGLARIA,Negro,Collares,Unisex,2017-12-07,Activo
 0011152,C/S COLOR EFFECT SAKURA,Negro,Collares,Unisex,2017-12-07,Activo
+0011155,Perfect Ten Selva Nocturna,Negro,Collares,Unisex,Prolong Co,Activo
 0011157,ESM PERFECT TEN FLORESTA,Negro,Collares,Unisex,2017-12-07,Activo
+0011158,Perfect Ten Verde Tropical,Negro,Collares,Unisex,Prolong Co,Activo
+0011161,Perfect Ten Fucsia Imperio,Negro,Collares,Unisex,Perfect Te,Activo
+0011162,Perfect Ten Noche En Tokio ,Negro,Collares,Unisex,Prolong Co,Activo
 0011163,L/LIQ HYDRA-LIP FLOR CEREZO,Negro,Collares,Unisex,2017-12-07,Activo
 0011164,L/LIQ HYDRA-LIP MORA CALMA,Negro,Collares,Unisex,2017-12-07,Activo
 0011180,SENTIVA EXFOLIANTE FACIAL,Negro,Collares,Unisex,2017-12-07,Activo
+0011183,Ultra Definitior Delineador en Lapiz Labios Almendra,Negro,Collares,Unisex,Color Pris,Activo
 0011196,TOTAL BLOCK REPELENTE SPF 30,Negro,Collares,Unisex,2017-12-07,Activo
 0011197,ZITRIKA COLONIA LIMON,Negro,Collares,Unisex,2017-12-07,Activo
 0011198,ZITRIKA COLONIA MANDARINA,Negro,Collares,Unisex,2017-12-07,Activo
@@ -368,6 +704,7 @@
 0011245,BIO MILK MANOS FRESA FRAMBUESA,Negro,Collares,Unisex,2017-12-07,Activo
 0011246,BIO FRUIT COCO CARIBEÑO,Negro,Collares,Unisex,2017-12-07,Activo
 0011247,BIO FRUIT PERA MANZANA,Negro,Collares,Unisex,2017-12-07,Activo
+0011248,Bio Fruit Shampoo y Acondicionar Granada Exótica (antigua presentación),Negro,Collares,Unisex,Bio fruit ,Activo
 0011250,BIO FRUIT ORIGINAL ACONDICIONA,Negro,Collares,Unisex,2017-12-07,Activo
 0011251,ULTRA DEF DEL PLUM OJOS NEGRO,Negro,Collares,Unisex,2017-12-07,Activo
 0011252,ULTRA DEF DEL PLUM OJOS MARRON,Negro,Collares,Unisex,2017-12-07,Activo
@@ -380,6 +717,7 @@
 0011266,SENTIVA EXTRACTO DIVINO CONCEN,Negro,Collares,Unisex,2017-12-07,Activo
 0011268,L/L HYDRA-LIP CRAYON FUCS ORIE,Negro,Collares,Unisex,2017-12-07,Activo
 0011269,L/L HYDRA-LIP CRAYON LILA ASIA,Negro,Collares,Unisex,2017-12-07,Activo
+0011270,Perfect Ten Marsala Indomable ,Negro,Collares,Unisex,Prolong Co,Activo
 0011272,SENTIVA MASCARILLA FACIAL,Negro,Collares,Unisex,2017-12-07,Activo
 0011273,LOCION DE SEDA,Negro,Collares,Unisex,2017-12-07,Activo
 0011274,LOCION DE SEDA DIAMANTES,Negro,Collares,Unisex,2017-12-07,Activo
@@ -387,6 +725,7 @@
 0011277,UNIQUECIL ROLL RIMEL RIZAD EXT,Negro,Collares,Unisex,2017-12-07,Activo
 0011278,S/S Y. URBANA FEMME,Negro,Collares,Unisex,2017-12-07,Activo
 0011279,S/S Y. AVENTURA CHIC,Negro,Collares,Unisex,2017-12-07,Activo
+0011281,Perfect Ten Exotica Pasion ,Negro,Collares,Unisex,Prolong Co,Activo
 0011282,Y. LABIAL FUCSIA POP,Negro,Collares,Unisex,2017-12-07,Activo
 0011283,Y. LABIAL NARANJA FUN,Negro,Collares,Unisex,2017-12-07,Activo
 0011284,Y. LABIAL ROSA LOVE,Negro,Collares,Unisex,2017-12-07,Activo
@@ -402,6 +741,8 @@
 0011301,MUSK BLANC EAU DE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
 0011302,LIBERATTA NOIRE PARFUM,Negro,Collares,Unisex,2017-12-07,Activo
 0011304,INDOMITO COLOGNE FOR MEN,Negro,Collares,Unisex,2017-12-07,Activo
+0011305,Vivo Terra Cologne for Men,Negro,Collares,Unisex,Reloj Silv,Activo
+0011306,Vivo Herve Cologne for Men,Negro,Collares,Unisex,Reloj Gold,Activo
 0011308,C/S COLOR EFFECT HABANA,Negro,Collares,Unisex,2017-12-07,Activo
 0011309,ESM PERFECT TEN SON DE MORA,Negro,Collares,Unisex,2017-12-07,Activo
 0011310,ESM PERFECT TEN MAAAMBO,Negro,Collares,Unisex,2017-12-07,Activo
@@ -416,10 +757,15 @@
 0011319,L/LIQ HYDRA-LIP AZUUUCAR,Negro,Collares,Unisex,2017-12-07,Activo
 0011320,ESM PERFECT TEN BRILLO D ESTRE,Negro,Collares,Unisex,2017-12-07,Activo
 0011321,ESM PERFECT TEN ROJO DE GALA,Negro,Collares,Unisex,2017-12-07,Activo
+0011322,Perfect Ten Miss Elengance,Negro,Collares,Unisex,Prolong Co,Activo
+0011323,Perfect Ten Seda Diamante,Negro,Collares,Unisex,Prololong ,Activo
 0011324,ESM PERFECT TEN PURPURA GLAMOU,Negro,Collares,Unisex,2017-12-07,Activo
 0011325,ESM PERFECT TEN AZUL MAGICO,Negro,Collares,Unisex,2017-12-07,Activo
 0011326,L/L HYDRA-LIP LD SUEÑO D BRONC,Negro,Collares,Unisex,2017-12-07,Activo
 0011327,L/L HYDRA-LIP LD ROJO CARAMEL0,Negro,Collares,Unisex,2017-12-07,Activo
+0011328,Lipstay Larga Duración Fiesta Purpura,Negro,Collares,Unisex,Lipstay La,Activo
+0011329,Lipstay Larga Duración Rosa Festiva,Negro,Collares,Unisex,Lipstay La,Activo
+0011330,Lipstay Larga Duración Fucsia Encendido,Negro,Collares,Unisex,Lipstay La,Activo
 0011331,UNIQUECIL RIMEL NEGRO,Negro,Collares,Unisex,2017-12-07,Activo
 0011333,UNIQUECIL RIMEL EXTRA XL NEGRO MY,Negro,Collares,Unisex,2017-12-07,Activo
 0011334,CRECE EXTREME RIMEL ACELERADOR MY,Negro,Collares,Unisex,2017-12-07,Activo
@@ -429,7 +775,7 @@
 0011342,Y. BRILLO LABIAL FUCSIA KISS,Negro,Collares,Unisex,2017-12-07,Activo
 0011343,Y. BRILLO LABIAL ROSA CHIC,Negro,Collares,Unisex,2017-12-07,Activo
 0011344,Y. BRILLO LABIAL ROSALICIOUS,Negro,Collares,Unisex,2017-12-07,Activo
-0011345,Y. BRILLO LABIAL LOVELY CORAL,Negro,Collares,Unisex,2017-12-07,Activo
+0011345,Y. BRILLO LABIAL LOVELY CORAL,Negro,Collares,Unisex,2017-12-07,Activo
 0011346,Y. BRILLO LABIAL ANGEL NUDE,Negro,Collares,Unisex,2017-12-07,Activo
 0011347,ESM PERFECT TEN RED LINE,Negro,Collares,Unisex,2017-12-07,Activo
 0011348,ESM PERFECT TEN FRAMBUESA 180,Negro,Collares,Unisex,2017-12-07,Activo
@@ -537,8 +883,11 @@
 0011474,L/L HYDRA-LIP CRAY RED ELEGANC MY,Negro,Collares,Unisex,2017-12-07,Activo
 0011476,L/L HYDRA-LIP CRAY ALMEND CHIC MY,Negro,Collares,Unisex,2017-12-07,Activo
 0011478,L/L HYDRA-LIP CRAY LIL ASIATIC MY,Negro,Collares,Unisex,2017-12-07,Activo
+0011486,Exfoliante Gommage en Crema Quinua,Negro,Collares,Unisex,Bs Crema p,Activo
 0011487,EAU DE SEDA EAU D PARFUM ANIV,Negro,Collares,Unisex,2017-12-07,Activo
 0011488,EAU DE SEDA DIAM EAU D PARF ANIV,Negro,Collares,Unisex,2017-12-07,Activo
+0011490,Lesence Orquídeas Exóticas Cologne,Negro,Collares,Unisex,Lesence Fl,Activo
+0011493,Elixir de Vida Polvos Compactos Anti-edad Mediano 1,Negro,Collares,Unisex,Color Effe,Activo
 0011501,BIO MILK CREMA HIDRATANTE ORI,Negro,Collares,Unisex,2017-12-07,Activo
 0011503,L/L HYDRA-LIP LD AMOR PICANTE MY,Negro,Collares,Unisex,2017-12-07,Activo
 0011504,L/L HYDRA-LIP LD ROJO APASIONA MY,Negro,Collares,Unisex,2017-12-07,Activo
@@ -546,23 +895,51 @@
 0011507,L/L HYDRA-LIP LD ROSA D M SUEÑOS MY,Negro,Collares,Unisex,2017-12-07,Activo
 0011510,L/L HYDRA-LIP LD FUCSIA ENSUEÑO MY,Negro,Collares,Unisex,2017-12-07,Activo
 0011512,O/S COLOR EFFECT DIVINA BLUE,Negro,Collares,Unisex,2017-12-07,Activo
+0011514,Total Block Kids Spf 70,Negro,Collares,Unisex,Lesence Or,Activo
+0011516,Total Block Anti-edad spf 50+,Negro,Collares,Unisex,Colonia Cí,Activo
 0011517,CONTROL BLANC RX DIA,Negro,Collares,Unisex,2017-12-07,Activo
 0011532,ESM PERFECT TEN BEIGE ETRN,Negro,Collares,Unisex,2017-12-07,Activo
 0011533,ESM PERFECT TEN PARTY RED,Negro,Collares,Unisex,2017-12-07,Activo
 0011536,L/L HYDRA-LIP COLOR ROSA TOSC,Negro,Collares,Unisex,2017-12-07,Activo
+001154,Perfect Ten Jungla de Cristal,Negro,Collares,Unisex,Prolong Co,Activo
 0011543,L/L HYDRA-LIP LD CIRUELA LOVE,Negro,Collares,Unisex,2017-12-07,Activo
 0011545,L/L HYDRA-LIP LD RED SHINE,Negro,Collares,Unisex,2017-12-07,Activo
 0011546,L/L HYDRA-LIP LD FUCSIA SHOCK,Negro,Collares,Unisex,2017-12-07,Activo
 0011547,LIBERATTA CREMA PERFUM ORIGI,Negro,Collares,Unisex,2017-12-07,Activo
+0011548,Liberatta Noire Creme Parfumee,Negro,Collares,Unisex,Ccori Pasi,Activo
+0011552,Perfect Ten Rojo Sunset,Negro,Collares,Unisex,Perfect Te,Activo
+0011553,Perfect Ten Aqua Menta,Negro,Collares,Unisex,Prolong Co,Activo
+0011554,Perfect Ten Art Sky ,Negro,Collares,Unisex,Perfect Te,Activo
+0011555,Perfect Ten Blanc Harmony,Negro,Collares,Unisex,Perfect Te,Activo
+0011556,Perfect Ten Acrylic Blue,Negro,Collares,Unisex,Perfect Te,Activo
+0011557,Color Effect Cuarteto de Sombras Arty Femme,Negro,Collares,Unisex,Vivo Herve,Activo
+0011558,Hydra-Lip Color Intenso Vivid Fucsia,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0011559,Hydra-Lip Color Intenso Aquarela Rose,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0011560,Hydra Lip Arty Pink,Negro,Collares,Unisex,Osadia Set,Activo
+0011561,Hydra-Lip Color Intenso CoRAL Art,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0011562,Hydra-Lip Color Intenso Rojo Palette,Negro,Collares,Unisex,Hydra-Lip ,Activo
+0011566,Ultra Definition Delineador en lapiz para Ojos Graffino,Negro,Collares,Unisex,Color Effe,Activo
+0011573,Color Effect Rubor Compacto Iluminart,Negro,Collares,Unisex,Sentiva De,Activo
+0011580,Total Block spf 50 Rostro y Cuerpo,Negro,Collares,Unisex,Total Bloc,Activo
+0011581,Sentiva Desmaquillador para ojos y fortalecedor pestañas,Negro,Collares,Unisex,Vivo Terra,Activo
 0011588,ESM PERFECT TEN GOLD SHIM,Negro,Collares,Unisex,2017-12-07,Activo
 0011589,ESM PERFECT TEN DARK RED,Negro,Collares,Unisex,2017-12-07,Activo
 0011590,ESM PERFECT TEN BLC CHERRY,Negro,Collares,Unisex,2017-12-07,Activo
 0011639,O/S COLOR EFFECT GOLDEN PARTY,Negro,Collares,Unisex,2017-12-07,Activo
+0011678,Perfect Ten Salvaje,Negro,Collares,Unisex,Prolong Co,Activo
+0011683,Perfect Ten Esmalte Amantes de Medianoche,Negro,Collares,Unisex,Set de Bel,Activo
 0011822,TE DESEO EXITO COLOGNE,Negro,Collares,Unisex,2017-12-07,Activo
 0011823,TE DESEO AMOR COLOGNE,Negro,Collares,Unisex,2017-12-07,Activo
 0011824,TE DESEO FELICIDAD COLOGNE,Negro,Collares,Unisex,2017-12-07,Activo
+001550,Perfect Ten Fucsia Femme ,Negro,Collares,Unisex,Prolong Co,Activo
+003910,Delineador Liquido Punta Plumon Mirame a los Ojos,Negro,Collares,Unisex,Delineador,Activo
+004280,Color Prisma Cuarteto de Sombras Oasis,Negro,Collares,Unisex,Color Effe,Activo
+2021755,ARETES NATURAL CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+2024184,ARETES COINCIDIR,Negro,Collares,Unisex,2018-02-01,Activo
+2129031,SET ARETES  CRISTAL FEM,Negro,Collares,Unisex,2018-02-01,Activo
 2301261,INFORMES DE SIT.D/SERV. X 50UN.,Negro,Collares,Unisex,2017-12-07,Activo
 2301563,STICKERS MIL DISCULPAS,Negro,Collares,Unisex,2017-12-07,Activo
+2304313,Arom Shampoo,Negro,Collares,Unisex,Dendur Col,Activo
 2313321,COLECCION AL AZAR,Negro,Collares,Unisex,2017-12-07,Activo
 2313876,MAQUILLAJE PARA OF. ESP.,Negro,Collares,Unisex,2017-12-07,Activo
 2313877,BODY LOTION PARA OF. ESP.,Negro,Collares,Unisex,2017-12-07,Activo
@@ -572,6 +949,7 @@
 2314122,DEMO 2ML PARA OF. ESP.,Negro,Collares,Unisex,2017-12-07,Activo
 2314154,FRAGANCIA 1 PARA MEGA C3-16,Negro,Collares,Unisex,2017-12-07,Activo
 2314885,DEMOS PARA INCORPORAR,Negro,Collares,Unisex,2017-12-07,Activo
+2315756,COLECCIÓN TAHITI CHIC,Negro,Collares,Unisex,2018-02-01,Activo
 2316867,MEDIDOR DE SORTIJAS SUNCH 2007,Negro,Collares,Unisex,2017-12-07,Activo
 2319969,ARETES PARA O.E.,Negro,Collares,Unisex,2017-12-07,Activo
 2319974,ARETES LIQUIDAC. 16.90 1,Negro,Collares,Unisex,2017-12-07,Activo
@@ -613,9 +991,13 @@
 2353529,PROB PD NEW YORK 1ML,Negro,Collares,Unisex,2017-12-07,Activo
 2353564,SCH BS BABY SHAMPOO,Negro,Collares,Unisex,2017-12-07,Activo
 2363895,SACHET PARA O.E,Negro,Collares,Unisex,2017-12-07,Activo
+2364009,Esmalte para Diseño de Uñas Blanco,Negro,Collares,Unisex,Prolong Co,Activo
+2364181,Sentiva Elixir de Vida Comp Reconst Rostro y Cuello 6.5g. ,Negro,Collares,Unisex,Sentiva Ex,Activo
 2364456,CAPA CON ISOTIPO YANBAL,Negro,Collares,Unisex,2017-12-07,Activo
 2364459,VINCHA O BALACA YANBAL,Negro,Collares,Unisex,2017-12-07,Activo
 2364623,TAJADOR CORPORATIVO,Negro,Collares,Unisex,2017-12-07,Activo
+2364753,Esmalte para Diseño de Uñas Oro,Negro,Collares,Unisex,Esmalte pa,Activo
+2366120,Rodillo Masajeador Top Modeling,Negro,Collares,Unisex,Sensual Br,Activo
 2366279,SOLIC.DE INCORPORACION X 10 UN,Negro,Collares,Unisex,2017-12-07,Activo
 2366307,SCH CONTROL BLANC RX ACLARANTE,Negro,Collares,Unisex,2017-12-07,Activo
 2366389,SCH B/M ELIXIR DE VIDA TONO 2,Negro,Collares,Unisex,2017-12-07,Activo
@@ -625,12 +1007,18 @@
 2366471,SCH ELIXIR DE VIDA LIMPIADOR,Negro,Collares,Unisex,2017-12-07,Activo
 2366509,SCH CONTROL BLANC RX LIM-EX-TO,Negro,Collares,Unisex,2017-12-07,Activo
 2366515,SCH ELIXIR DE VIDA ROSTRO,Negro,Collares,Unisex,2017-12-07,Activo
+2366816,Alto Contraste Lima de Uñas,Negro,Collares,Unisex,Profession,Activo
+2367378,Set de Belleza Zenya Rostro Manos y Pies,Negro,Collares,Unisex,Ccori Set ,Activo
 2367444,RIZADOR PLATE,Negro,Collares,Unisex,2017-12-07,Activo
+2367723,Porta Cuartetos de Sombras,Negro,Collares,Unisex,Alto Contr,Activo
+2367762,Traveler Dispersador de Perfume Recargable para Mujer,Negro,Collares,Unisex,Fresh Mous,Activo
 2367962,SCH SENTIVA BB CREAM,Negro,Collares,Unisex,2017-12-07,Activo
+2367963,Sentiva BB Cream 5g.,Negro,Collares,Unisex,Sentiva Co,Activo
 2368051,SET MINIATURAS CCORI,Negro,Collares,Unisex,2017-12-07,Activo
 2368052,SCH TOTAL BLOCK ANT-E M SPF50+,Negro,Collares,Unisex,2017-12-07,Activo
 2368053,SCH TOTAL BLOCK SPF 100,Negro,Collares,Unisex,2017-12-07,Activo
 2368250,SCH CONTROL BLANC RX ANTI-EDAD,Negro,Collares,Unisex,2017-12-07,Activo
+2368251,Sentiva Control Blanc RX 6.5g.,Negro,Collares,Unisex,Sentiva Ma,Activo
 2368263,SCH REVITALIST NUTRITIVA ENERG,Negro,Collares,Unisex,2017-12-07,Activo
 2368452,FLYER DE ANFITRIONA X 6 2016,Negro,Collares,Unisex,2017-12-07,Activo
 2368478,FRAGANCIA 1 PARA O.E. C02 17,Negro,Collares,Unisex,2017-12-07,Activo
@@ -686,6 +1074,7 @@
 2368582,LISTADO DE PRECIOS C11-2017,Negro,Collares,Unisex,2017-12-07,Activo
 2368583,LISTADO DE PRECIOS C12-2017,Negro,Collares,Unisex,2017-12-07,Activo
 2368584,LISTADO DE PRECIOS C13-2017,Negro,Collares,Unisex,2017-12-07,Activo
+2368780,Prolong Color Set de Esmaltes Manicure Degrade,Negro,Collares,Unisex,Cover Age ,Activo
 2368834,MINI SET SENTIVA ELIXIR D VIDA,Negro,Collares,Unisex,2017-12-07,Activo
 2368835,MINI SET SENTIVA REVITALIST,Negro,Collares,Unisex,2017-12-07,Activo
 2368928,MASAJEADOR TOP MODELING 2014,Negro,Collares,Unisex,2017-12-07,Activo
@@ -713,7 +1102,7 @@
 2370644,BOLSA DE EMTREGA X 8 50 AÑOS 2017,Negro,Collares,Unisex,2017-12-07,Activo
 2370665,JOYA AL AZAR A 29.9,Negro,Collares,Unisex,2017-12-07,Activo
 2370670,GUIA UNIQUE EXPRESS,Negro,Collares,Unisex,2017-12-07,Activo
-2370755,BOLSA ENTREGA X 8  2017 50 AÑOS,Negro,Collares,Unisex,2017-12-07,Activo
+2370755,BOLSA ENTREGA X 8  2017 50 AÑOS,Negro,Collares,Unisex,2017-12-07,Activo
 2370790,MINI PARA O.E C2 17,Negro,Collares,Unisex,2017-12-07,Activo
 2370835,GUIA DE MAQUILLAJE IDEAL A,Negro,Collares,Unisex,2017-12-07,Activo
 2370836,SELECTOR DE TONOS BASE IDEAL,Negro,Collares,Unisex,2017-12-07,Activo
@@ -731,7 +1120,7 @@
 2371003,EAU DE SEDA DIAM PARA OE,Negro,Collares,Unisex,2017-12-07,Activo
 2371004,MN TOT BLOCK KIDS SPF 70 P OE,Negro,Collares,Unisex,2017-12-07,Activo
 2371005,BRILLO DE SEDA PARA OE,Negro,Collares,Unisex,2017-12-07,Activo
-2371006,FRAGANCIA 2  PARA O.E. C06 17,Negro,Collares,Unisex,2017-12-07,Activo
+2371006,FRAGANCIA 2  PARA O.E. C06 17,Negro,Collares,Unisex,2017-12-07,Activo
 2371090,FLYER DE INCORPORACION X8,Negro,Collares,Unisex,2017-12-07,Activo
 2371091,CARTILLA MIS PRIMEROS PASOS X8,Negro,Collares,Unisex,2017-12-07,Activo
 2371186,TOT BLOCK ACT DEF SPF 50 PARA OE,Negro,Collares,Unisex,2017-12-07,Activo
@@ -745,34 +1134,146 @@
 2371232,FRAGANCIA 1 PARA O.E C11-17,Negro,Collares,Unisex,2017-12-07,Activo
 2371233,FRAGANCIA 2 PARA O.E C10-17,Negro,Collares,Unisex,2017-12-07,Activo
 2372383,BOLSA COLECCION DESEO,Negro,Collares,Unisex,2017-12-07,Activo
+2426200,COLECCIÓN DECO COLOR,Negro,Collares,Unisex,2018-02-01,Activo
+2426470,COLECCIÓN CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+2426491,ARETES CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+2428454,ARETES SUEÑOS DE CONQUISTA,Negro,Collares,Unisex,2018-02-01,Activo
+2428874,COLECCIÓN CONQUISTARTE,Negro,Collares,Unisex,2018-02-01,Activo
+2428977,ARETES ELEGANCE PERLA,Negro,Collares,Unisex,2018-02-01,Activo
+2428995,COLECCIÓN PERLA FEM,Negro,Collares,Unisex,2018-02-01,Activo
+2429031,ARETES FANTAZZI,Negro,Collares,Unisex,2018-02-01,Activo
+2429629,COLECCIÓN DIVA DIAMOND,Negro,Collares,Unisex,2018-02-01,Activo
+2429678,COLECCIÓN BLAC ELEGANCE,Negro,Collares,Unisex,2018-02-01,Activo
+2430162,COLECCIÓN ELEFANTE MILENARIO,Negro,Collares,Unisex,2018-02-01,Activo
 2430241,COLLAR COSMOPOLITAN J14541,Negro,Collares,Unisex,2017-12-07,Activo
 2430409,ARGOLLAS COSMOPOLITAN J14759,Negro,Collares,Unisex,2017-12-07,Activo
+2430595,ARETES DIAMANTE CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+2431060,PULSERA RECONOCIMIENTO CNS DORE,Negro,Collares,Unisex,2018-02-01,Activo
+2431061,PULSERA RECONOCIMIENTO CNS ROSE,Negro,Collares,Unisex,2018-02-01,Activo
+2431112,COLECCIÓN TRESSOR PERLA,Negro,Collares,Unisex,2018-02-01,Activo
+2431542,COLECCIÓN CORAZON DICRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+2431546,SET ARETES LLUVIA AMATIST,Negro,Collares,Unisex,2018-02-01,Activo
+2432583,COLECCIÓN AMATISTA DELUXE,Negro,Collares,Unisex,2018-02-01,Activo
+2439025,ARETES RED FLOR,Negro,Collares,Unisex,2018-02-01,Activo
+2464098,Reloj Plateado Hombre,Negro,Collares,Unisex,Soy Fashio,Activo
+2464099,Reloj Dorado Mujer ,Negro,Collares,Unisex,Reloj Aniv,Activo
+2464256,Reloj Silver ALT,Negro,Collares,Unisex,Reloj Plat,Activo
+2464257,Reloj Gold ALT,Negro,Collares,Unisex,Reloj Dora,Activo
+2464280,Reloj Aniversario Mujer,Negro,Collares,Unisex,Desodorant,Activo
 2467837,CARTILLA PRIMEROS PASOS X 8,Negro,Collares,Unisex,2017-12-07,Activo
 2467838,FLYER DE INCORPORACION X8,Negro,Collares,Unisex,2017-12-07,Activo
+25028100,ARETES DUBAI TOPAZ,Negro,Collares,Unisex,2018-02-01,Activo
+25028202,ARETES FLORE,Negro,Collares,Unisex,2018-02-01,Activo
+25028320,SET ARETES PETIT COLOR,Negro,Collares,Unisex,2018-02-01,Activo
+25028418,SORTIJA AMORE POP T-8,Negro,Collares,Unisex,2018-02-01,Activo
+25028469,COLLAR BALIC ELEFANT,Negro,Collares,Unisex,2018-02-01,Activo
+25028476,COLLAR AZULEYA,Negro,Collares,Unisex,2018-02-01,Activo
+25028479,SET ARETES ALONDRA,Negro,Collares,Unisex,2018-02-01,Activo
+25028514,ARETES BALIC,Negro,Collares,Unisex,2018-02-01,Activo
+25028542,ARETES ORIENT AZUL,Negro,Collares,Unisex,2018-02-01,Activo
+5008632,COLLAR URBAN EXPRESS,Negro,Collares,Unisex,2018-02-01,Activo
+5009439,ARETES SKALLI,Negro,Collares,Unisex,2018-02-01,Activo
+5015296,ARETES MELISSA SPORT,Negro,Collares,Unisex,2018-02-01,Activo
+5015641,ARETES MELODIA PERLA,Negro,Collares,Unisex,2018-02-01,Activo
+5016403,PULSERA RETRATO,Negro,Collares,Unisex,2018-02-01,Activo
+5016768,SORTIJA SIEMPRE T-9,Negro,Collares,Unisex,2018-02-01,Activo
+5017659,ARETES ROJO ROYAL,Negro,Collares,Unisex,2018-02-01,Activo
+5018425,COLLAR EXCENTRICA,Negro,Collares,Unisex,2018-02-01,Activo
+5018815,COLECCIÓN CRISTAL Y TU,Negro,Collares,Unisex,2018-02-01,Activo
+5018852,COLLAR MIL Y UNA NOCHES,Negro,Collares,Unisex,2018-02-01,Activo
+5019403,ARETES DULCE CORAZON,Negro,Collares,Unisex,2018-02-01,Activo
 5019557,SET ARETES ADORACION J5396,Negro,Collares,Unisex,2017-12-07,Activo
+5019691,ARETES PERLA DE ANGEL,Negro,Collares,Unisex,2018-02-01,Activo
+5019793,COLLAR ABANICO DE AMOR,Negro,Collares,Unisex,2018-02-01,Activo
 5020015,SORTIJA CIRCULO EDEN T5 J6961,Negro,Collares,Unisex,2017-12-07,Activo
 5020016,SORTIJA CIRCULO EDEN T6 J6961,Negro,Collares,Unisex,2017-12-07,Activo
 5020017,SORTIJA CIRCULO EDEN T7 J6961,Negro,Collares,Unisex,2017-12-07,Activo
 5020018,SORTIJA CIRCULO EDEN T8 J6961,Negro,Collares,Unisex,2017-12-07,Activo
 5020019,SORTIJA CIRCULO EDEN T9 J6961,Negro,Collares,Unisex,2017-12-07,Activo
+5020049,COLLAR ENAMORAME,Negro,Collares,Unisex,2018-02-01,Activo
+5020383,SET ARETES VALS PARA TI,Negro,Collares,Unisex,2018-02-01,Activo
+5020613,COLLAR ALEGRIA,Negro,Collares,Unisex,2018-02-01,Activo
+5020940,COLLAR RUEDA Y FORTUNA,Negro,Collares,Unisex,2018-02-01,Activo
+5020941,ARETES RUEDA Y FORTUNA,Negro,Collares,Unisex,2018-02-01,Activo
+5020990,PULSERA ENREDO DE AMOR,Negro,Collares,Unisex,2018-02-01,Activo
+5021054,ARETES TE ENCUENTRO,Negro,Collares,Unisex,2018-02-01,Activo
+5021074,COLECCIÓN ALAS BONITAS,Negro,Collares,Unisex,2018-02-01,Activo
+5021075,SORTIJA CUADRATTI GLAM T-8,Negro,Collares,Unisex,2018-02-01,Activo
+5021113,COLLAR SENSA PERLA,Negro,Collares,Unisex,2018-02-01,Activo
+5021285,ARETES JARDIN CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5021414,ARETES SUPREMO DORE,Negro,Collares,Unisex,2018-02-01,Activo
+5021422,COLLAR MIL AMORES,Negro,Collares,Unisex,2018-02-01,Activo
+5021471,PULSERA M DE MUJER,Negro,Collares,Unisex,2018-02-01,Activo
+5021567,ARETES MEDITTERANEO,Negro,Collares,Unisex,2018-02-01,Activo
 5021582,COLLAR CRECE EL AMOR J7937,Negro,Collares,Unisex,2017-12-07,Activo
 5021583,ARETES AMOR QUE CRECE J7938,Negro,Collares,Unisex,2017-12-07,Activo
 5021584,ARETES CRECE EL AMOR J7939,Negro,Collares,Unisex,2017-12-07,Activo
 5021590,PULSERA CRECE EL AMOR J7940,Negro,Collares,Unisex,2017-12-07,Activo
+5021610,ARETES EL AMOR EXISTE,Negro,Collares,Unisex,2018-02-01,Activo
+5021641,ARETES CRUZADA DE AMOR,Negro,Collares,Unisex,2018-02-01,Activo
+5021686,ARETES NOCHE DE CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5021687,ARETES TODA LA NOCHE,Negro,Collares,Unisex,2018-02-01,Activo
+5021700,ARETES LIBRE EN FLOR,Negro,Collares,Unisex,2018-02-01,Activo
+5021713,ARETES ESTRENO CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+50217396,ARETES FLOR HIPNOTICA,Negro,Collares,Unisex,2018-02-01,Activo
+5021780,ARETES PERLAS DE MUJER,Negro,Collares,Unisex,2018-02-01,Activo
 5021878,DENARIO SANTA MADRE J8217,Negro,Collares,Unisex,2017-12-07,Activo
+5022039,ARETES VENECIA,Negro,Collares,Unisex,2018-02-01,Activo
+5022092,ARETES LUJO DORE,Negro,Collares,Unisex,2018-02-01,Activo
+5022097,ARETES CRISTAL DE LUJO,Negro,Collares,Unisex,2018-02-01,Activo
+5022099,ARETES AMOR AMOR,Negro,Collares,Unisex,2018-02-01,Activo
+5022173,SET ARETES MI PALOMITA,Negro,Collares,Unisex,2018-02-01,Activo
+5022299,ARETES VOLE,Negro,Collares,Unisex,2018-02-01,Activo
+5022304,ARETES CLARO Y LUNA,Negro,Collares,Unisex,2018-02-01,Activo
 5022410,ESCLAVA VIGO PJ8653,Negro,Collares,Unisex,2017-12-07,Activo
+5022461,ARETES VENUS DORE,Negro,Collares,Unisex,2018-02-01,Activo
 5022471,COLLAR CARELLI J8672,Negro,Collares,Unisex,2017-12-07,Activo
 5022474,ARETES CARELLI J8674,Negro,Collares,Unisex,2017-12-07,Activo
+5022542,ARETES SALVA BRILLO,Negro,Collares,Unisex,2018-02-01,Activo
+5022600,SET ARETES TUYA,Negro,Collares,Unisex,2018-02-01,Activo
+5022678,ARETES ARQUITEK,Negro,Collares,Unisex,2018-02-01,Activo
+5022759,ARETES RUMBO A TI,Negro,Collares,Unisex,2018-02-01,Activo
+5022817,ARETES LUNA BRILLANTE,Negro,Collares,Unisex,2018-02-01,Activo
+5022835,ARETES COLOR PARA AMAR,Negro,Collares,Unisex,2018-02-01,Activo
+5022853,ARETES DESTELLO DORADO,Negro,Collares,Unisex,2018-02-01,Activo
+5022883,ARETES CAPRICHOSA FLOR,Negro,Collares,Unisex,2018-02-01,Activo
+5022892,ARETES COLGANTE DORE,Negro,Collares,Unisex,2018-02-01,Activo
+5022988,ARETES BRONZ ROJO,Negro,Collares,Unisex,2018-02-01,Activo
+5022992,ARETES INAYA INTENSE,Negro,Collares,Unisex,2018-02-01,Activo
+5023021,ARETES TURQUESA CARIBE,Negro,Collares,Unisex,2018-02-01,Activo
+5023040,ARETES BURUNDI BLANCK,Negro,Collares,Unisex,2018-02-01,Activo
+5023107,COLLAR SALVAJE,Negro,Collares,Unisex,2018-02-01,Activo
+5023124,ARETES ARQUITEK CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5023138,ARETES MI LEALTAD,Negro,Collares,Unisex,2018-02-01,Activo
+5023193,ARETES BRASSIC,Negro,Collares,Unisex,2018-02-01,Activo
 5023201,COLLAR ENTRELAZADOS J9299,Negro,Collares,Unisex,2017-12-07,Activo
+5023290,ARETES LUNA DORE,Negro,Collares,Unisex,2018-02-01,Activo
 5023311,COLECCION ROJO DELIRIO J9365,Negro,Collares,Unisex,2017-12-07,Activo
 5023314,ARETES PERLA CORAZON J9368,Negro,Collares,Unisex,2017-12-07,Activo
+5023350,SET PULSERAS TRICOLOR,Negro,Collares,Unisex,2018-02-01,Activo
 5023351,ARETES TRICOLOR J9421,Negro,Collares,Unisex,2017-12-07,Activo
 5023497,COLLAR ORO Y CHAMPAGNE J9562,Negro,Collares,Unisex,2017-12-07,Activo
 5023498,ARETES FLOR Y CHAMPAGNE J9563,Negro,Collares,Unisex,2017-12-07,Activo
 5023499,ARETES ORO Y CHAMPAGNE J9564,Negro,Collares,Unisex,2017-12-07,Activo
+5023527,COLLAR ROSAZUL,Negro,Collares,Unisex,2018-02-01,Activo
+5023561,ARETES FLORAMA,Negro,Collares,Unisex,2018-02-01,Activo
+5023585,COLLAR ELEFANTE REAL,Negro,Collares,Unisex,2018-02-01,Activo
 5023589,COLECCION MARIQUITA DORE J9370,Negro,Collares,Unisex,2017-12-07,Activo
+5023612,ARETES FANTASIA,Negro,Collares,Unisex,2018-02-01,Activo
+5023675,ARETES MARIPI,Negro,Collares,Unisex,2018-02-01,Activo
+5023687,ARETES PARISTIEN,Negro,Collares,Unisex,2018-02-01,Activo
 5023784,ARETES ENTRELAZADOS J9784,Negro,Collares,Unisex,2017-12-07,Activo
+5023816,ARETES SOL Y MAR,Negro,Collares,Unisex,2018-02-01,Activo
+5023870,SET ARETES VINIA,Negro,Collares,Unisex,2018-02-01,Activo
+5023934,COLLAR COLOR GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5023935,ARETES METALIC GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5023936,ARETES COLOR GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5023939,ARETES ROMANIA,Negro,Collares,Unisex,2018-02-01,Activo
+5023947,ARETES GRINA,Negro,Collares,Unisex,2018-02-01,Activo
+5023973,ARETES LIBERTAD ROJO,Negro,Collares,Unisex,2018-02-01,Activo
 5023976,SET ARETES FLORICOLOR J9925,Negro,Collares,Unisex,2017-12-07,Activo
+5024023,ARETES TU AMOR,Negro,Collares,Unisex,2018-02-01,Activo
+5024040,ARETES MIRALIS,Negro,Collares,Unisex,2018-02-01,Activo
 5024043,COLLAR METALIK SUPRIM J9984,Negro,Collares,Unisex,2017-12-07,Activo
 5024045,SORTIJA METALIK SUPRIM T5 J9987,Negro,Collares,Unisex,2017-12-07,Activo
 5024046,SORTIJA METALIK SUPRIM T6 J9987,Negro,Collares,Unisex,2017-12-07,Activo
@@ -780,14 +1281,37 @@
 5024048,SORTIJA METALIK SUPRIM T8 J9987,Negro,Collares,Unisex,2017-12-07,Activo
 5024049,SORTIJA METALIK SUPRIM T9 J9987,Negro,Collares,Unisex,2017-12-07,Activo
 5024050,ARETES METALIK SUPRIM J9986A,Negro,Collares,Unisex,2017-12-07,Activo
+5024057,ARETES BERNI,Negro,Collares,Unisex,2018-02-01,Activo
+5024105,ARETES EMPORIUM,Negro,Collares,Unisex,2018-02-01,Activo
+5024120,ARETES STELLA,Negro,Collares,Unisex,2018-02-01,Activo
+5024136,ARETES PRIDA,Negro,Collares,Unisex,2018-02-01,Activo
+5024296,ARETES TATIANNE,Negro,Collares,Unisex,2018-02-01,Activo
+5024321,SET ARETES FORZ,Negro,Collares,Unisex,2018-02-01,Activo
 5024366,SET ARETES CIELA AJ10283,Negro,Collares,Unisex,2017-12-07,Activo
 5024391,ESCLAVA CRAOZ J10299,Negro,Collares,Unisex,2017-12-07,Activo
+5024434,ARETES TRIASH,Negro,Collares,Unisex,2018-02-01,Activo
+5024460,ARETES SANTISE,Negro,Collares,Unisex,2018-02-01,Activo
+5024462,ARETES VERSAY,Negro,Collares,Unisex,2018-02-01,Activo
+5024465,ARETES ANAIRE,Negro,Collares,Unisex,2018-02-01,Activo
+5024491,ARETES AZUL DECOR,Negro,Collares,Unisex,2018-02-01,Activo
+5024499,ARETES FESTIVA,Negro,Collares,Unisex,2018-02-01,Activo
 5024500,ARETES CUADRATO DORE J10412,Negro,Collares,Unisex,2017-12-07,Activo
 5024514,SET PULSERAS METALIK J10418,Negro,Collares,Unisex,2017-12-07,Activo
 5024530,COLLAR CELEBRITY PERLAS J10422,Negro,Collares,Unisex,2017-12-07,Activo
 5024531,ARETES CELEBRITY J10423,Negro,Collares,Unisex,2017-12-07,Activo
+5024575,COLECCIÓN VIVA MARIPOSA,Negro,Collares,Unisex,2018-02-01,Activo
 5024579,SET ARETES SUEÑOS ASI AJ10456,Negro,Collares,Unisex,2017-12-07,Activo
 5024602,SET PINES CELEBRITY J10426,Negro,Collares,Unisex,2017-12-07,Activo
+5024622,ARETES JUEGO DE GALA,Negro,Collares,Unisex,2018-02-01,Activo
+5024638,ARETES FLOR ROSE,Negro,Collares,Unisex,2018-02-01,Activo
+5024651,ARETES ZIEM DORE,Negro,Collares,Unisex,2018-02-01,Activo
+5024671,SET ARETES VIVES EN MI,Negro,Collares,Unisex,2018-02-01,Activo
+5024700,ARETES SHANELLE,Negro,Collares,Unisex,2018-02-01,Activo
+5024701,ARETES HINDI,Negro,Collares,Unisex,2018-02-01,Activo
+5024706,ARETES PLENA DORE,Negro,Collares,Unisex,2018-02-01,Activo
+5024714,ARETES ENSUEÑO DE PERLAS,Negro,Collares,Unisex,2018-02-01,Activo
+5024743,ARETES VIALE DORE,Negro,Collares,Unisex,2018-02-01,Activo
+5024760,COLLAR CORAZON CRISTALLI,Negro,Collares,Unisex,2018-02-01,Activo
 5025195,SET ARETES CELEBRITY J10982,Negro,Collares,Unisex,2017-12-07,Activo
 5025302,COLLAR GARLISH J11051,Negro,Collares,Unisex,2017-12-07,Activo
 5025303,ARETES GARLISH J11052,Negro,Collares,Unisex,2017-12-07,Activo
@@ -797,81 +1321,211 @@
 5025308,SORTIJA GARLISH T8 J11053,Negro,Collares,Unisex,2017-12-07,Activo
 5025309,SORTIJA GARLISH T9 J11053,Negro,Collares,Unisex,2017-12-07,Activo
 5025326,CADENA DARCO J11069,Negro,Collares,Unisex,2017-12-07,Activo
+5025374,ARETES MIA CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
 5025416,SET ARETES DELIRIO AJ11181,Negro,Collares,Unisex,2017-12-07,Activo
 5025420,SET ARETES BRILLO COLOR J11185,Negro,Collares,Unisex,2017-12-07,Activo
 5025464,COLECCION LUNA DE MIEL J11174,Negro,Collares,Unisex,2017-12-07,Activo
 5025482,ARETES FLORECIA J11219,Negro,Collares,Unisex,2017-12-07,Activo
 5025503,SET ARETES PLATA Y RUBI J11350,Negro,Collares,Unisex,2017-12-07,Activo
+5025563,SET ARETES LEONICA,Negro,Collares,Unisex,2018-02-01,Activo
+5025698,SET ARETES PERLI FEM,Negro,Collares,Unisex,2018-02-01,Activo
 5025713,ARETES TRIBALIZ GLAM J11328,Negro,Collares,Unisex,2017-12-07,Activo
+5025813,ARETES CITY AZUL,Negro,Collares,Unisex,2018-02-01,Activo
+5025814,ARETES CITY COLOR,Negro,Collares,Unisex,2018-02-01,Activo
+5025842,COLECCIÓN MAGIC GLAM,Negro,Collares,Unisex,2018-02-01,Activo
 5025878,COLLAR ILUSIONADA J11521,Negro,Collares,Unisex,2017-12-07,Activo
 5025879,ARETES ILUSIONADA CRISTAL J11522,Negro,Collares,Unisex,2017-12-07,Activo
 5025880,ARETES ILUSIONADA J11523,Negro,Collares,Unisex,2017-12-07,Activo
 5025881,PULSERA ILUSIONADA J11524,Negro,Collares,Unisex,2017-12-07,Activo
+5025933,ARETES URBANIC FEM,Negro,Collares,Unisex,2018-02-01,Activo
+5025957,SET ARETES OPULENCIA,Negro,Collares,Unisex,2018-02-01,Activo
+5025970,ARETES MILAN CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5025972,SET ARETES NEO CHIC,Negro,Collares,Unisex,2018-02-01,Activo
+5025993,PULSERA SAFARI BRIZ,Negro,Collares,Unisex,2018-02-01,Activo
+5026148,COLLAR LE ENCANT,Negro,Collares,Unisex,2018-02-01,Activo
+5026157,ARETES DORATA CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5026164,ARETES TRIBALIZ CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5026181,ARETES DECO CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5026188,ARETES MILAGRO PERLA,Negro,Collares,Unisex,2018-02-01,Activo
 5026195,PULSERA MILAGRO Y PERLAS J11957,Negro,Collares,Unisex,2017-12-07,Activo
 5026205,SORTIJA BLIZZ T5 J11760,Negro,Collares,Unisex,2017-12-07,Activo
 5026206,SORTIJA BLIZZ T6 J11760,Negro,Collares,Unisex,2017-12-07,Activo
 5026207,SORTIJA BLIZZ T7 J11760,Negro,Collares,Unisex,2017-12-07,Activo
 5026208,SORTIJA BLIZZ T8 J11760,Negro,Collares,Unisex,2017-12-07,Activo
 5026209,SORTIJA BLIZZ T9 J11760,Negro,Collares,Unisex,2017-12-07,Activo
+5026251,ARETES GLAMIER,Negro,Collares,Unisex,2018-02-01,Activo
+5026268,PULSERA COSMO IN,Negro,Collares,Unisex,2018-02-01,Activo
+5026363,COLLAR CORANTINE,Negro,Collares,Unisex,2018-02-01,Activo
+5026412,ARETES AZUL MIO,Negro,Collares,Unisex,2018-02-01,Activo
 5026483,ARETES CRISTAL AMORE J12048,Negro,Collares,Unisex,2017-12-07,Activo
+5026512,COLECCIÓN CRUZ DIVINA,Negro,Collares,Unisex,2018-02-01,Activo
+5026514,SET ARETES GLAM CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
 5026558,COLECCION MIAMI LOVE J12230,Negro,Collares,Unisex,2017-12-07,Activo
 5026574,ARETES DOLCETO CRISTAL AJ12246,Negro,Collares,Unisex,2017-12-07,Activo
+5026581,COLLAR MIAMI CIELO,Negro,Collares,Unisex,2018-02-01,Activo
+5026621,ARETES CRISTAL PARK,Negro,Collares,Unisex,2018-02-01,Activo
 5026662,ARETES LONDON ROCK J12102,Negro,Collares,Unisex,2017-12-07,Activo
+5026757,SET ARETES DULCINEA,Negro,Collares,Unisex,2018-02-01,Activo
+5026774,ARETES VIVA FLOR,Negro,Collares,Unisex,2018-02-01,Activo
 5026779,SET ARETES TRIENA J12289,Negro,Collares,Unisex,2017-12-07,Activo
+5026819,ARETES VERONZ FEM,Negro,Collares,Unisex,2018-02-01,Activo
+5026832,ARETES MIAMI CIELO,Negro,Collares,Unisex,2018-02-01,Activo
 5026925,CADENA FRANCIA J12387,Negro,Collares,Unisex,2017-12-07,Activo
+5026973,ARETES MARIPOSS PETIT,Negro,Collares,Unisex,2018-02-01,Activo
+5026981,SET ARETES ELISSE,Negro,Collares,Unisex,2018-02-01,Activo
+5028001,ARETES ROYALTI PERLA,Negro,Collares,Unisex,2018-02-01,Activo
 5028025,COLLAR ENIGMA GOLD J12496,Negro,Collares,Unisex,2017-12-07,Activo
 5028026,ARETES ENIGMA GOLD J12497,Negro,Collares,Unisex,2017-12-07,Activo
 5028028,PULSERA ENIGMA GOLD J12499,Negro,Collares,Unisex,2017-12-07,Activo
 5028085,ARETES TERRA ORIENT J12553,Negro,Collares,Unisex,2017-12-07,Activo
 5028129,COLLAR CUORE GLAM CJ12570,Negro,Collares,Unisex,2017-12-07,Activo
+5028130,ARETES CUORE GLAM,Negro,Collares,Unisex,2018-02-01,Activo
 5028185,SORTIJA ENIGMA GOLD T5 J12500,Negro,Collares,Unisex,2017-12-07,Activo
 5028186,SORTIJA ENIGMA GOLD T6 J12500,Negro,Collares,Unisex,2017-12-07,Activo
 5028187,SORTIJA ENIGMA GOLD T7 J12500,Negro,Collares,Unisex,2017-12-07,Activo
 5028188,SORTIJA ENIGMA GOLD T8 J12500,Negro,Collares,Unisex,2017-12-07,Activo
 5028189,SORTIJA ENIGMA GOLD T9 J12500,Negro,Collares,Unisex,2017-12-07,Activo
 5028199,ARGOLLAS FANT J12777,Negro,Collares,Unisex,2017-12-07,Activo
+5028264,ARETES PARIS PERLA,Negro,Collares,Unisex,2018-02-01,Activo
+5028273,ARETES CRISTAL ROYAL,Negro,Collares,Unisex,2018-02-01,Activo
+5028274,PULSERA MIA BELLA,Negro,Collares,Unisex,2018-02-01,Activo
+5028324,ARETES CRISTAL HIP,Negro,Collares,Unisex,2018-02-01,Activo
+5028339,SET ARETES BODAS,Negro,Collares,Unisex,2018-02-01,Activo
+5028343,COLECCIÓN DIVA CHIC,Negro,Collares,Unisex,2018-02-01,Activo
+5028380,ARETES PERLAS AVENTI,Negro,Collares,Unisex,2018-02-01,Activo
+5028395,COLECCIÓN CHANTEL,Negro,Collares,Unisex,2018-02-01,Activo
+5028403,ARETES HOJAS MIST,Negro,Collares,Unisex,2018-02-01,Activo
+5028422,ARETES BLUE ELISE FEM,Negro,Collares,Unisex,2018-02-01,Activo
 5028473,ARGOLLAS ENIGMA CRISTAL J13003,Negro,Collares,Unisex,2017-12-07,Activo
+5028506,ARETES ACENTO,Negro,Collares,Unisex,UBICACIÓN,Activo
 5028528,COLECCION ARBOL ILUSION J13054,Negro,Collares,Unisex,2017-12-07,Activo
 5028539,ARETES CRISTAL ENIGMA J13065,Negro,Collares,Unisex,2017-12-07,Activo
+5028553,COLLAR FANTAZZI,Negro,Collares,Unisex,2018-02-01,Activo
+5028578,COLLAR FEMINIST,Negro,Collares,Unisex,2018-02-01,Activo
+5028579,ARETES FEMINIST,Negro,Collares,Unisex,2018-02-01,Activo
 5028586,COLLAR PERLA DREAM J12897,Negro,Collares,Unisex,2017-12-07,Activo
+5028648,COLECCIÓN MARINNE,Negro,Collares,Unisex,2018-02-01,Activo
+5028651,ARETES STEFFI BLU,Negro,Collares,Unisex,2018-02-01,Activo
+5028659,PULSERA BENDITA BLU,Negro,Collares,Unisex,2018-02-01,Activo
+5028668,ARETES LUANA,Negro,Collares,Unisex,2018-02-01,Activo
+5028710,SET ARETES MARIELLE,Negro,Collares,Unisex,2018-02-01,Activo
+5028771,COLECCIÓN STAR CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
 5028775,COLLAR BELLA BLU CJ13124,Negro,Collares,Unisex,2017-12-07,Activo
+5028778,ARETES BELLA CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5028779,COLECCIÓN MARAINA,Negro,Collares,Unisex,2018-02-01,Activo
+5028783,SET ARETES NACAR GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5028803,PULSERA LOVE BLU,Negro,Collares,Unisex,2018-02-01,Activo
+5028805,COLECCIÓN LOVE BLU,Negro,Collares,Unisex,2018-02-01,Activo
 5028810,CADENA ANCLA J13157,Negro,Collares,Unisex,2017-12-07,Activo
+5028830,SET ARETES ESTRELLA GLITZ,Negro,Collares,Unisex,2018-02-01,Activo
+5028858,SET COLLARES BENDITOS,Negro,Collares,Unisex,2018-02-01,Activo
 5028874,COLECCION CONQUISTARTE J13288,Negro,Collares,Unisex,2017-12-07,Activo
+5028875,COLECCIÓN SEXY GLAM,Negro,Collares,Unisex,2018-02-01,Activo
 5028877,ARETES LIBERATTA AJ13291,Negro,Collares,Unisex,2017-12-07,Activo
+5028904,COLECCIÓN MARIPOSA BLIZ,Negro,Collares,Unisex,2018-02-01,Activo
+5028923,COLECCIÓN CAMELY BLU,Negro,Collares,Unisex,2018-02-01,Activo
+5028928,COLECCIÓN ELEFANTITO KISS,Negro,Collares,Unisex,2018-02-01,Activo
+5028945,COLECCIÓN CRISTALI BENDITA,Negro,Collares,Unisex,2018-02-01,Activo
+5028949,ARETES FANTAZZI BLANC,Negro,Collares,Unisex,2018-02-01,Activo
+5028953,COLECCIÓN CRISTAL FINNES,Negro,Collares,Unisex,2018-02-01,Activo
+5028960,COLECCIÓN ANGEL GLAM,Negro,Collares,Unisex,2018-02-01,Activo
 5028977,ARETES ELEGANCE PERLA J13317,Negro,Collares,Unisex,2017-12-07,Activo
+5028984,COLECCIÓN ALINNE,Negro,Collares,Unisex,2018-02-01,Activo
 5028995,COLECCION PERLA FEM COJ13455,Negro,Collares,Unisex,2017-12-07,Activo
+5029004,ARETES OCEANIC,Negro,Collares,Unisex,2018-02-01,Activo
 5029019,SET ARETES ETERNITY J13475,Negro,Collares,Unisex,2017-12-07,Activo
+5029027,PULSERA SEXY GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5029062,ARETES AMULET CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5029111,SET ARETES WESTERN,Negro,Collares,Unisex,2018-02-01,Activo
+5029112,COLLAR FRONTERA,Negro,Collares,Unisex,2018-02-01,Activo
+5029154,COLECCIÓN PERLA WESTERN,Negro,Collares,Unisex,2018-02-01,Activo
+5029165,ARETES ZAFIR CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5029230,SET ARETES SUERTE MAGICA,Negro,Collares,Unisex,2018-02-01,Activo
+5029235,COLLAR AMOR DI CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5029236,ARETES AMOR DICRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5029245,COLECCIÓN ANGEL PASTEL,Negro,Collares,Unisex,2018-02-01,Activo
 5029247,SET ARETES SORRENTO J13448,Negro,Collares,Unisex,2017-12-07,Activo
 5029313,ARETES NOVIA IMPERIAL AJ13679,Negro,Collares,Unisex,2017-12-07,Activo
 5029351,ARETES PERLAS ELISSE AJ13851,Negro,Collares,Unisex,2017-12-07,Activo
+5029362,ARETES SORRENTO FLOR,Negro,Collares,Unisex,2018-02-01,Activo
 5029396,COLLAR DISCOTEQUE J13635,Negro,Collares,Unisex,2017-12-07,Activo
 5029397,ARGOLLAS DISCOTEQUE AJ13636,Negro,Collares,Unisex,2017-12-07,Activo
 5029398,ARETES DISCOTEQUE J13637,Negro,Collares,Unisex,2017-12-07,Activo
+5029465,ARETES TU RETRATO,Negro,Collares,Unisex,2018-02-01,Activo
+5029468,COLECCIÓN I LOVE YOU,Negro,Collares,Unisex,2018-02-01,Activo
+5029470,COLECCIÓN CRUZ DIAMANTI,Negro,Collares,Unisex,2018-02-01,Activo
+5029472,ARETES VELVET LOVE,Negro,Collares,Unisex,2018-02-01,Activo
 5029524,SET COLLARES CRUZARO J13746,Negro,Collares,Unisex,2017-12-07,Activo
+5029530,COLECCIÓN GLITZY ROSE,Negro,Collares,Unisex,2018-02-01,Activo
+5029532,SET ARETES COLOR ZOO,Negro,Collares,Unisex,2018-02-01,Activo
+5029538,ARETES SUEÑO MIST,Negro,Collares,Unisex,2018-02-01,Activo
+5029547,COLECCIÓN DASH,Negro,Collares,Unisex,2018-02-01,Activo
+5029562,ARETES LIBELIZ CHIC,Negro,Collares,Unisex,2018-02-01,Activo
+5029579,COLLAR MANDALA FEM,Negro,Collares,Unisex,2018-02-01,Activo
+5029580,ARETES MANDALA FEM,Negro,Collares,Unisex,2018-02-01,Activo
+5029582,PULSERA MANDALA FEM,Negro,Collares,Unisex,2018-02-01,Activo
+5029593,ARETES BABILON,Negro,Collares,Unisex,2018-02-01,Activo
+5029618,COLECCIÓN PRINCI PINK,Negro,Collares,Unisex,2018-02-01,Activo
+5029619,SET ARETES PRINCI PINK,Negro,Collares,Unisex,2018-02-01,Activo
 5029627,ARETES MAVERICK CRISTAL AJ14031,Negro,Collares,Unisex,2017-12-07,Activo
 5029629,COLECCION DIVA DIAMOND J14033,Negro,Collares,Unisex,2017-12-07,Activo
 5029647,COLLAR CRISTAL RETRO CJ14047,Negro,Collares,Unisex,2017-12-07,Activo
 5029648,ARETES CRISTAL RETRO AJ14048,Negro,Collares,Unisex,2017-12-07,Activo
+5029649,COLLAR STAR ROSE,Negro,Collares,Unisex,2018-02-01,Activo
+5029650,ARETES STAR ROSE,Negro,Collares,Unisex,2018-02-01,Activo
+5029651,COLLAR ETERNO DIAMANTI,Negro,Collares,Unisex,2018-02-01,Activo
+5029675,SET ARETES RONDITA,Negro,Collares,Unisex,2018-02-01,Activo
+5029698,ARETES ETERNO DIAMANTI GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5029699,PULSERA ETERNO DIAMANTI,Negro,Collares,Unisex,2018-02-01,Activo
+5029736,ARGOLLAS DISCOTEQUE CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5029738,ARETES DISCOTEQUE CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5029759,ARETES RUBI HIT,Negro,Collares,Unisex,2018-02-01,Activo
 5029780,SET ARETES NAROMI J13905,Negro,Collares,Unisex,2017-12-07,Activo
 5029781,COLLAR SEXY DUAL J13906,Negro,Collares,Unisex,2017-12-07,Activo
 5029782,ARETES DUAL GLAM J13907,Negro,Collares,Unisex,2017-12-07,Activo
 5029783,ARETES SEXY DUAL J13908,Negro,Collares,Unisex,2017-12-07,Activo
+5029786,COLLAR SUAVE PETAL,Negro,Collares,Unisex,2018-02-01,Activo
 5029789,COLLAR CRISTAL ZEN J13914,Negro,Collares,Unisex,2017-12-07,Activo
 5029790,ARETES CRISTAL ZEN J13915,Negro,Collares,Unisex,2017-12-07,Activo
+5029794,ARETES SAMSARA,Negro,Collares,Unisex,2018-02-01,Activo
+5029804,COLLAR FLORINE,Negro,Collares,Unisex,2018-02-01,Activo
+5029820,COLECCIÓN FE AMATIST,Negro,Collares,Unisex,2018-02-01,Activo
+5029825,SET ARETES FLORECITA,Negro,Collares,Unisex,2018-02-01,Activo
 5029828,CADENA SABLE Y DRAGON J13946,Negro,Collares,Unisex,2017-12-07,Activo
+5029833,COLLAR DAISHI,Negro,Collares,Unisex,2018-02-01,Activo
+5029835,ARETES DAISHI FEM,Negro,Collares,Unisex,2018-02-01,Activo
+5029841,COLECCIÓN MAIA,Negro,Collares,Unisex,2018-02-01,Activo
+5029878,COLLAR MI GRAN DIA,Negro,Collares,Unisex,2018-02-01,Activo
+5029879,ARETES MI GRAN DIA ,Negro,Collares,Unisex,2018-02-01,Activo
+5029880,ARETES EL DIA,Negro,Collares,Unisex,2018-02-01,Activo
 5029883,COLECCION BODA J14012,Negro,Collares,Unisex,2017-12-07,Activo
 5029888,SET ARETES AMANTINO J14017,Negro,Collares,Unisex,2017-12-07,Activo
 5029921,SET ARETES SUEÑO BLU AJ14148,Negro,Collares,Unisex,2017-12-07,Activo
+5029922,ARETES VENETTO CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5029929,COLECCIÓN PERLIZZE,Negro,Collares,Unisex,2018-02-01,Activo
+5029942,COLECCIÓN LIBELU,Negro,Collares,Unisex,2018-02-01,Activo
+5029957,PULSERA AMORE TWIST,Negro,Collares,Unisex,2018-02-01,Activo
+5029958,PULSERA PROTECCION RWIST,Negro,Collares,Unisex,2018-02-01,Activo
+5029959,PULSERA FELICITY RWIST,Negro,Collares,Unisex,2018-02-01,Activo
+5029961,ARETES FLORA CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
 5029972,SET CLIPE ACJ14319,Negro,Collares,Unisex,2017-12-07,Activo
 5029981,COLECCION DIAMORE J14328,Negro,Collares,Unisex,2017-12-07,Activo
+5029988,SET ARETES RITZ,Negro,Collares,Unisex,2018-02-01,Activo
 5029992,COLLAR CORAL CARIBEAN J14339,Negro,Collares,Unisex,2017-12-07,Activo
 5029993,ARETES CRISTAL CARIBEAN J14340,Negro,Collares,Unisex,2017-12-07,Activo
 5029994,ARETES CORAL CARIBEAN J14341,Negro,Collares,Unisex,2017-12-07,Activo
+5029996,COLLAR VESTA BLU,Negro,Collares,Unisex,2018-02-01,Activo
 5030002,SET ARETES BIJOUX J13951,Negro,Collares,Unisex,2017-12-07,Activo
 5030013,COLECCION LEBLU J14179,Negro,Collares,Unisex,2017-12-07,Activo
+5030023,SET ARETES MAGNIFIC,Negro,Collares,Unisex,2018-02-01,Activo
 5030025,ARETES REDFLOR J14186,Negro,Collares,Unisex,2017-12-07,Activo
+5030039,SET ARETES DEMI BLU,Negro,Collares,Unisex,2018-02-01,Activo
+5030041,ARETES SATIZZE FLOR,Negro,Collares,Unisex,2018-02-01,Activo
+5030054,PULSERA ANGELICALI,Negro,Collares,Unisex,2018-02-01,Activo
 5030060,COLLAR GRAZZIA DIVINA J14218,Negro,Collares,Unisex,2017-12-07,Activo
 5030061,ARETES GRAZZIA J14219,Negro,Collares,Unisex,2017-12-07,Activo
+5030065,COLECCIÓN SANTI PERLA,Negro,Collares,Unisex,2018-02-01,Activo
+5030066,SET ARETES SANTI,Negro,Collares,Unisex,2018-02-01,Activo
 5030076,COLLAR SIENNA MIST J14232,Negro,Collares,Unisex,2017-12-07,Activo
 5030078,ARETES SIENNA MIST J14234,Negro,Collares,Unisex,2017-12-07,Activo
 5030082,COLLAR FEMME FLORI J14239,Negro,Collares,Unisex,2017-12-07,Activo
@@ -883,11 +1537,19 @@
 5030137,ARETES SAORI J14480,Negro,Collares,Unisex,2017-12-07,Activo
 5030138,ARETES SAORI COLOR J14481,Negro,Collares,Unisex,2017-12-07,Activo
 5030139,PULSERA SAORI J14482,Negro,Collares,Unisex,2017-12-07,Activo
+5030150,SET ARETES LUCIENNE,Negro,Collares,Unisex,2018-02-01,Activo
 5030160,ARETES BRILLA ZEN J14495,Negro,Collares,Unisex,2017-12-07,Activo
 5030162,COLECCION ELEFANTE MILENARIO J14497,Negro,Collares,Unisex,2017-12-07,Activo
+5030168,COLECCIÓN CAPRICCIO,Negro,Collares,Unisex,2018-02-01,Activo
 5030173,SET ARETES MARIPOSI J14272,Negro,Collares,Unisex,2017-12-07,Activo
 5030185,COLECCION LULI LAI J14278,Negro,Collares,Unisex,2017-12-07,Activo
 5030193,CADENA SAN MIGUEL J14290,Negro,Collares,Unisex,2017-12-07,Activo
+5030201,ARETES CRISTAL IMPACT,Negro,Collares,Unisex,2018-02-01,Activo
+5030202,ARETES ABSOLUT GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5030213,COLECCIÓN TRIVETI,Negro,Collares,Unisex,2018-02-01,Activo
+5030220,COLECCIÓN AMATIST FIORE,Negro,Collares,Unisex,2018-02-01,Activo
+5030242,ARETES DAISHI CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5030244,ARETES SUAVE COLOR,Negro,Collares,Unisex,2018-02-01,Activo
 5030247,COLLAR SIENNA CRISTAL J14591,Negro,Collares,Unisex,2017-12-07,Activo
 5030253,COLLAR LATIN FLORAL J14343,Negro,Collares,Unisex,2017-12-07,Activo
 5030254,ARETES LATIN ROSE J14344,Negro,Collares,Unisex,2017-12-07,Activo
@@ -910,6 +1572,7 @@
 5030288,SET ARETES DENIM CARIBE J14499,Negro,Collares,Unisex,2017-12-07,Activo
 5030290,ARGOLLAS HARMONIA J14367,Negro,Collares,Unisex,2017-12-07,Activo
 5030291,COLECCION MIRAGE J14368,Negro,Collares,Unisex,2017-12-07,Activo
+5030292,COLECCIÓN GOLD GLAM,Negro,Collares,Unisex,2018-02-01,Activo
 5030295,SET ARETES AQUAMARINE J14372,Negro,Collares,Unisex,2017-12-07,Activo
 5030298,COLLAR HARMONIA J14365,Negro,Collares,Unisex,2017-12-07,Activo
 5030312,COLLAR ALIZIA J14383,Negro,Collares,Unisex,2017-12-07,Activo
@@ -971,7 +1634,12 @@
 5030412,SET ARETES CANDY J14461,Negro,Collares,Unisex,2017-12-07,Activo
 5030415,CADENA GENOVA J14464,Negro,Collares,Unisex,2017-12-07,Activo
 5030416,ESCLAVA GENOVA J14465,Negro,Collares,Unisex,2017-12-07,Activo
+5030419,ARETES CUORE CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5030421,SET ARETES PERLI CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
+5030428,SET ARETES DUO GOLD,Negro,Collares,Unisex,2018-02-01,Activo
+5030429,SET ARETES DEMI SUN,Negro,Collares,Unisex,2018-02-01,Activo
 5030430,ARETES ZAFIR BACK J14773,Negro,Collares,Unisex,2017-12-07,Activo
+5030432,ARETES LEBLU,Negro,Collares,Unisex,2018-02-01,Activo
 5030441,COLECCION I LOVE YOU DORE J14784,Negro,Collares,Unisex,2017-12-07,Activo
 5030444,COLLAR INICIAL CRISTAL A J14787,Negro,Collares,Unisex,2017-12-07,Activo
 5030445,COLLAR INICIAL CRISTAL B J14788,Negro,Collares,Unisex,2017-12-07,Activo
@@ -996,6 +1664,7 @@
 5030469,PULSERA NEGRETI CRISTAL J14812,Negro,Collares,Unisex,2017-12-07,Activo
 5030472,ARETES LULI LAI J14815,Negro,Collares,Unisex,2017-12-07,Activo
 5030473,ARETES PETALI SEDA J14816,Negro,Collares,Unisex,2017-12-07,Activo
+5030490,ARETES PETALI CRISTAL,Negro,Collares,Unisex,2018-02-01,Activo
 5030492,COLLAR TECNO GLAM J14624,Negro,Collares,Unisex,2017-12-07,Activo
 5030493,ARETES TECNO CRISTAL J14543,Negro,Collares,Unisex,2017-12-07,Activo
 5030494,ARETES TECNO GLAM J14544,Negro,Collares,Unisex,2017-12-07,Activo
@@ -1050,6 +1719,7 @@
 5030572,ARETES DIA SOÑADO J14609,Negro,Collares,Unisex,2017-12-07,Activo
 5030574,ARETES SANDI J14821,Negro,Collares,Unisex,2017-12-07,Activo
 5030580,ARETES NEGRETI CRISTAL J14823,Negro,Collares,Unisex,2017-12-07,Activo
+5030583,ARETES PERLA ROSE,Negro,Collares,Unisex,2018-02-01,Activo
 5030603,ARETES ZULEIMA GLAM J14991,Negro,Collares,Unisex,2017-12-07,Activo
 5030607,ARETES CAPRI J14995,Negro,Collares,Unisex,2017-12-07,Activo
 5030608,ARGOLLAS CAPRI TWIST J14996,Negro,Collares,Unisex,2017-12-07,Activo
@@ -1172,6 +1842,8 @@
 5030830,ESCLAVA CAMELOTTI J14976,Negro,Collares,Unisex,2017-12-07,Activo
 5030831,PULSERA LUCKY COLOR J15194,Negro,Collares,Unisex,2017-12-07,Activo
 5030838,ARETES RED DELICAT J15201,Negro,Collares,Unisex,2017-12-07,Activo
+5030840,COLLAR PERLA DELUXE,Negro,Collares,Unisex,2018-02-01,Activo
+5030841,ARETES PERLAS DELUXE,Negro,Collares,Unisex,2018-02-01,Activo
 5030853,COLLAR BENDECIDA CHIC J15217,Negro,Collares,Unisex,2017-12-07,Activo
 5030854,BRAZALETE GRAPHIC J15218,Negro,Collares,Unisex,2017-12-07,Activo
 5030860,BRAZALETE OPT ART J15219,Negro,Collares,Unisex,2017-12-07,Activo
@@ -1608,12 +2280,20 @@
 5031681,PULSERA BLESS CRYSTAL J15754,Negro,Collares,Unisex,2017-12-07,Activo
 5031688,PULSERA ANGELI CRYSTAL J15761,Negro,Collares,Unisex,2017-12-07,Activo
 5031689,COLECCION FLORENCE CRYSTAL J15762,Negro,Collares,Unisex,2017-12-07,Activo
+5031692,ARETES ENIGMATICK,Negro,Collares,Unisex,2018-02-01,Activo
 5031695,COLECCION MY ANGEL J15767,Negro,Collares,Unisex,2017-12-07,Activo
 5031696,SET ARETES LIANNA J15768,Negro,Collares,Unisex,2017-12-07,Activo
 5031698,CADENA BONICCELI J15770,Negro,Collares,Unisex,2017-12-07,Activo
 5031699,ESCLAVA BONICCELI J15771,Negro,Collares,Unisex,2017-12-07,Activo
+5031703,COLLAR CRISTALINE GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5031704,ARETES CRISTALINE GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5031707,PULSERA CRISTALINE GLAM,Negro,Collares,Unisex,2018-02-01,Activo
+5031710,ARGOLLAS OLYMPIA,Negro,Collares,Unisex,2018-02-01,Activo
+5031723,PULSERA YAIZA STAR,Negro,Collares,Unisex,2018-02-01,Activo
+5031724,SET ARETES YAIZA STAR,Negro,Collares,Unisex,2018-02-01,Activo
 5031753,COLECCION IMMA LOVE J15817,Negro,Collares,Unisex,2017-12-07,Activo
 5031762,SET ARETES CRISTAL DREAM J15828,Negro,Collares,Unisex,2017-12-07,Activo
+5031771,ARETES CATERINA CRYSTAL,Negro,Collares,Unisex,2018-02-01,Activo
 5031782,ARETES FUTURIST CRISTAL J16032,Negro,Collares,Unisex,2017-12-07,Activo
 5031790,ARETES OPAL CRISTAL J16041,Negro,Collares,Unisex,2017-12-07,Activo
 5031791,PULSERA FLOR OPAL J16042,Negro,Collares,Unisex,2017-12-07,Activo
@@ -1632,6 +2312,9 @@
 5031840,ARETES TRAPIZZE J15875,Negro,Collares,Unisex,2017-12-07,Activo
 5031841,ARETES ROMBIAN J16082,Negro,Collares,Unisex,2017-12-07,Activo
 5031842,ARETES OVALDINE DUO J15878,Negro,Collares,Unisex,2017-12-07,Activo
+5031900,ARETES TOSCANE,Negro,Collares,Unisex,2018-02-01,Activo
+5031913,COLECCIÓN LOVE ROMANCE,Negro,Collares,Unisex,2018-02-01,Activo
+5031922,ARETES ALEXA BLANC,Negro,Collares,Unisex,A-3-1,Activo
 5031937,GARGANTILLA GRAZZI J16097,Negro,Collares,Unisex,2017-12-07,Activo
 5031938,ARETES GRAZZI J16098,Negro,Collares,Unisex,2017-12-07,Activo
 5031939,ARETES PERLE CHIC J16099,Negro,Collares,Unisex,2017-12-07,Activo
@@ -1694,5 +2377,20 @@
 5032222,COLLAR ELISSE GLAM J16439,Negro,Collares,Unisex,2017-12-07,Activo
 5032223,ARETES ELISSE CRISTAL J16440,Negro,Collares,Unisex,2017-12-07,Activo
 5032224,ARETES ELISSE CHIC J16441,Negro,Collares,Unisex,2017-12-07,Activo
+5032241,COLLAR YAIZA STAR,Negro,Collares,Unisex,2018-02-01,Activo
+5032242,ARETES YAIZA STAR,Negro,Collares,Unisex,2018-02-01,Activo
+5032245,ARETES ETERNI LOVE,Negro,Collares,Unisex,2018-02-01,Activo
+5032248,SET ARETES ISABELLE,Negro,Collares,Unisex,2018-02-01,Activo
+5032251,ARETES DELAILA,Negro,Collares,Unisex,2018-02-01,Activo
+5032260,COLECCIÓN FLORENCE,Negro,Collares,Unisex,2018-02-01,Activo
 5032265,SET ARETES PASSIONY J16474,Negro,Collares,Unisex,2017-12-07,Activo
 5032268,PULSERA Y ARETES NATIVITY DUO J16477,Negro,Collares,Unisex,2017-12-07,Activo
+5032281,ARETES BUHO LOVE,Negro,Collares,Unisex,2018-02-01,Activo
+5032289,COLECCIÓN FRESI BERRY,Negro,Collares,Unisex,2018-02-01,Activo
+5032290,SET ARETES FRESY BERRY,Negro,Collares,Unisex,2018-02-01,Activo
+5058970,SET ARETES PASTEL PARTY,Negro,Collares,Unisex,2018-02-01,Activo
+6120713,COLLAR STAR CHIC,Negro,Collares,Unisex,2018-02-01,Activo
+675028654,SET ARETES NINETTE,Negro,Collares,Unisex,2018-02-01,Activo
+7777777,COLLAR AMOR DELICAT,Negro,Collares,Unisex,2018-02-01,Activo
+8888888,ARETES BOUQUETTE,Negro,Collares,Unisex,2018-02-01,Activo
+9999999,COLLAR SOLAZZE,Negro,Collares,Unisex,2018-02-01,Activo

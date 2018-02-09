@@ -194,8 +194,7 @@ if(isset($_SESSION['login'])) {
                                         <table class="table text-center">
                                             <thead>
                                             <tr>
-                                                <th class="text-center" style="width: 10%"><label for="Productos">SKU</label></th>
-                                                <th class="text-center" style="width: 21%"><label for="nombreProducto">Producto</label></th>
+                                                <th class="text-center" style="width: 21%"><label for="Productos">Producto</label></th>
                                                 <th class="text-center" style="width: 12%"><label for="cantidad">Cantidad</label></th>
                                                 <th class="text-center" style="width: 17%"><label for="preciosugerido">Precio Unitario (S/.)</label></th>
                                                 <th class="text-center" style="width: 12%"><label for="descento">Promoción</label></th>
@@ -206,8 +205,7 @@ if(isset($_SESSION['login'])) {
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td id="productoID"><input type="text" class="form-control" name="producto" id="Productos" onchange="getcantidadprodID(this.value);getpreciopromID(this.value);getnombreprodID(this.value)"></td>
-                                                <td id="nombreProdID"><input type="text" class="form-control" name="nombreProducto" id="nombreProducto" onchange="getcantidadprod(this.value);getprecioprom(this.value);getidproducto(this.value)"></td>
+                                                <td id="nombreProdID"><input type="text" class="form-control" name="nombreProducto" id="Productos" onchange="getcantidadprod(this.value);getprecioprom(this.value);"></td>
                                                 <td id="maxcantidad"><input type="number" min="0" name="cantidad" class="form-control" id="cantidad"></td>
                                                 <td id="precioprom"><input type="text" name="precio" class="form-control" id="preciosugerido"></td>
                                                 <td>

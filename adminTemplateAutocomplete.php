@@ -73,7 +73,7 @@ include('funciones.php');
 	}
 
 	if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/nuevaOV_Productos.php'){
-		$arrayProductos =autocompletarProducto('Producto','nombreCorto',$link);
+		$arrayProductos =autocompletarProductoB('Producto','nombreCorto',$link);
 
 		?>
         <script>

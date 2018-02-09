@@ -187,6 +187,24 @@ function getSubcategoria(val) {
     });
 }
 
+function getComparacionSKU(val1,val2,indice) {
+
+    var producto = "Producto"+indice;
+    var producto1 = "idProducto"+indice;
+    console.log(producto);
+    console.log(val1);
+    console.log(String(val2));
+    console.log(document.getElementById(producto1).value);
+    if (val1 === document.getElementById(producto1).value) {
+        console.log("Si");
+        document.getElementById(indice).style.backgroundColor = "#8BFF9A";
+    }else{
+        console.log("No");
+        document.getElementById(indice).style.backgroundColor = "#FF615B";
+    }
+
+}
+
 function dias(total,cancelado) {
     $.ajax({
         type: "POST",

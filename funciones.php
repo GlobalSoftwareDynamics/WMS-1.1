@@ -22,6 +22,29 @@ function autocompletarProducto($table,$campo,$link){
 	return $array;
 }
 
+function autocompletarProductoB($table,$campo,$link){
+    $array = '[';
+    $query = mysqli_query($link,"SELECT {$campo}, idColor FROM {$table} WHERE idEstado = 1");
+    $aux = 0;
+    $color = 0;
+    $numrows = mysqli_num_rows($query);
+    while ($row = mysqli_fetch_array($query)){
+        $aux++;
+        $query2 = mysqli_query($link,"SELECT * FROM Color WHERE idColor = '{$row['idColor']}'");
+        while($row2 = mysqli_fetch_array($query2)){
+            $color = $row2['descripcion'];
+        }
+
+        if($aux == $numrows){
+            $array .= "'".$row[$campo]."_".$color."']";
+        }else{
+            $array .= "'".$row[$campo]."_".$color."',";
+        }
+        $color = "";
+    }
+    return $array;
+}
+
 function autocompletar($table,$campo,$link){
 	$array = '[';
 	$query = mysqli_query($link,"SELECT * FROM {$table}");
