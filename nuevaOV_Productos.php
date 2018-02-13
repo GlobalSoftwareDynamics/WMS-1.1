@@ -133,7 +133,6 @@ if(isset($_SESSION['login'])) {
         }
 
         $checkCatalogo=substr($idProducto,4,1);
-        echo $checkCatalogo;
         if($checkCatalogo=="C"){
             $precio=$_POST['precio'];
             $precioBase=$_POST['precio'];
@@ -144,10 +143,10 @@ if(isset($_SESSION['login'])) {
         }
 
         $add = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProducto}','{$_POST['idTransaccion']}',null,null,{$promocion},'{$precio}','{$_POST['cantidad']}',
-		'{$precioBase}','{$_POST['notas']}','{$stockinicial}','{$stockfinal}',false)");
+		'{$precioBase}','{$_POST['notas']}','{$stockinicial}','{$stockfinal}',false,'{$_POST['descMonetario']}')");
 
         $queryPerformed = "INSERT INTO TransaccionProducto VALUES ({$idProducto},{$_POST['idTransaccion']},null,null,{$promocion},{$precio},{$_POST['cantidad']},
-		{$precioBase},{$_POST['notas']},{$stockinicial},{$stockfinal},false)";
+		{$precioBase},{$_POST['notas']},{$stockinicial},{$stockfinal},false,{$_POST['descMonetario']})";
 
         $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','OV-addProducto','{$queryPerformed}')");
 
@@ -199,6 +198,7 @@ if(isset($_SESSION['login'])) {
                                                 <th class="text-center" style="width: 17%"><label for="preciosugerido">Precio Unitario (S/.)</label></th>
                                                 <th class="text-center" style="width: 12%"><label for="descento">Promoción</label></th>
                                                 <th class="text-center" style="width: 10%"><label for="promocion">Descuento (%)</label></th>
+                                                <th class="text-center" style="width: 10%"><label for="descMonetario">Ajuste (S/.)</label></th>
                                                 <th class="text-center" style="width: 10%"><label for="notas">Notas</label></th>
                                                 <th class="text-center" style="width: 8%"><label for="addProducto">Acciones</label></th>
                                             </tr>
@@ -217,6 +217,7 @@ if(isset($_SESSION['login'])) {
                                                     </select>
                                                 </td>
                                                 <td><input type="number" name="promocion" class="form-control" id="promocion" placeholder="xx%" min="0" max="100"></td>
+                                                <td><input type="number" name="descMonetario" class="form-control" id="descMonetario" placeholder="xx" min="0"></td>
                                                 <td><input type="text" name="notas" class="form-control" id="notas"></td>
                                                 <td><input type="submit" class="btn btn-primary" value="Agregar" name="addProducto" id="addProducto" formaction="#"></td>
                                             </tr>
@@ -269,11 +270,14 @@ if(isset($_SESSION['login'])) {
                 while($row2 = mysqli_fetch_array($query2)){
                     echo "<td>{$row2['idProducto']} - {$row2['nombreCorto']}</td>";
                 }
+
                 $valor=round($row['valorUnitario'],2);
                 $descuentocatalogoprodcuto = ($row['idPromocion']-$valor)*$row['cantidad'];
                 $totaldescuentocatalogo+=$descuentocatalogoprodcuto;
+
                 echo "<td>{$row['cantidad']}</td>";
                 echo "<td>S/. {$valor}</td>";
+
                 $descuento=1;
                 $descuentoneto=1;
                 $desc=mysqli_query($link,"SELECT * FROM Descuento WHERE idDescuento = '{$row['idDescuento']}'");
@@ -292,8 +296,8 @@ if(isset($_SESSION['login'])) {
                 $subtotalproducto=$row['cantidad'] * $row['valorUnitario'];
                 $subtotal=$subtotal+$subtotalproducto;
 
-                $descuentoproducto=$row['valorUnitario'] * $descuento;
-                $total = $row['cantidad'] * $descuentoproducto;
+                $descuentoproducto=($row['valorUnitario'] * $descuento) - $row['descuentoMonetario'];
+                $total = ($row['cantidad'] * $descuentoproducto);
 
                 $subtotalsinsunat=$subtotalsinsunat+$total;
 

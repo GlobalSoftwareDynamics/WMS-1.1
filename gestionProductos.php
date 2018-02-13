@@ -235,11 +235,11 @@ if(isset($_SESSION['login'])) {
                             <?php
                             $file = fopen("files/productos.txt","w") or die("No se encontró el archivo!");
                             fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-                            $txt = "SKU,Nombre Corto,Atributo,Subcategoría,Género,Fecha de Creación,Estado".PHP_EOL;
+                            $txt = "SKU,Nombre Corto,Atributo,Subcategoría,Género,Estado".PHP_EOL;
                             fwrite($file, $txt);
                             $categoria = null;
                             $estado = null;
-                            $query = mysqli_query($link, "SELECT * FROM Producto");
+                            $query = mysqli_query($link, "SELECT idProducto,idColor,idSubCategoria,idEstado,idGenero,nombreCorto FROM Producto");
                             while($row = mysqli_fetch_array($query)){
                                 if($row['idSubCategoria'] === '10'){
                                 }else{
@@ -260,14 +260,14 @@ if(isset($_SESSION['login'])) {
 		                                $genero = $row2['descripcion'];
 	                                }
 	                                echo "<tr>
-                                        <!--<td class=\"text-center\"><img src='{$row['urlImagen']}' class='thumbnail' width='40px' height='40px'></td>-->
-                                        <!--<td><a rel=\"popover\" data-img='{$row['urlImagen']}'><img src='{$row['urlImagen']}' width='40px' height='40px'></a></td>-->
+                                        <!--<td class=\"text-center\"><img src='{row['urlImagen']}' class='thumbnail' width='40px' height='40px'></td>-->
+                                        <!--<td><a rel=\"popover\" data-img='{row['urlImagen']}'><img src='{row['urlImagen']}' width='40px' height='40px'></a></td>-->
                                         <td class=\"text-center\">{$row['idProducto']}</td>
                                         <td class=\"text-center\">{$row['nombreCorto']}</td>
                                         <td class=\"text-center\">{$color}</td>
                                         <td class=\"text-center\">{$subcategoria}</td>
                                         <td class=\"text-center\">{$genero}</td>
-                                        <!--<td class=\"text-center\">{$row['descripcion']}</td>-->
+                                        <!--<td class=\"text-center\">{row['descripcion']}</td>-->
                                         <td class=\"text-center\">{$estado}</td>
                                         <td class=\"text-center\">
                                             <form method='post'>
@@ -287,7 +287,7 @@ if(isset($_SESSION['login'])) {
                                             </form>
                                         </td>
                                       </tr>";
-	                                $txt = $row['idProducto'].",".$row['nombreCorto'].",".$color.",".$subcategoria.",".$genero.",".$row['fechaCreacion'].",".$estado.PHP_EOL;
+	                                $txt = $row['idProducto'].",".$row['nombreCorto'].",".$color.",".$subcategoria.",".$genero.",".$estado.PHP_EOL;
 	                                fwrite($file, $txt);
                                 }
                             }

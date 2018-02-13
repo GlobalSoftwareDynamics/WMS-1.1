@@ -1,2 +1,2 @@
 ﻿Código,Campaña,Fecha de Inicio,Fecha de Cierre,Stock,Tipo
-2018C1,1,2018-01-01,2018-01-26,0,Productos
+2018C1,1,2018-02-01,2018-02-26,0,Productos

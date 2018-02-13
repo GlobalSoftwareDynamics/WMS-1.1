@@ -121,6 +121,8 @@ if(isset($_SESSION['login'])) {
                                     $subtotalsinsunat=0;
                                     $totalsunat=0;
                                     $descuentounitario=0;
+                                    $totaldescuentocatalogo = 0;
+                                    $subtotalcatalogo = 0;
                                     $query = mysqli_query($link, "SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$_POST['idTransaccion']}'");
                                     while($row = mysqli_fetch_array($query)){
                                         echo "<tr>";
@@ -130,7 +132,11 @@ if(isset($_SESSION['login'])) {
                                         while($row2 = mysqli_fetch_array($query2)){
                                             echo "<td>{$row2['idProducto']} - {$row2['nombreCorto']}</td>";
                                         }
+
                                         $valor=round($row['valorUnitario'],2);
+                                        $descuentocatalogoprodcuto = ($row['idPromocion']-$valor)*$row['cantidad'];
+                                        $totaldescuentocatalogo+=$descuentocatalogoprodcuto;
+
                                         echo "<td>{$row['cantidad']}</td>";
                                         echo "<td>S/. {$valor}</td>";
                                         $descuento=1;
@@ -144,20 +150,31 @@ if(isset($_SESSION['login'])) {
                                                 $totaldescuento=$totaldescuento+$descuentounitario;
                                             }
                                         }
+
+                                        $subtotalproductocatalogo=$row['cantidad'] * $row['idPromocion'];
+                                        $subtotalcatalogo=$subtotalcatalogo+$subtotalproductocatalogo;
+
                                         $subtotalproducto=$row['cantidad'] * $row['valorUnitario'];
                                         $subtotal=$subtotal+$subtotalproducto;
-                                        $descuentoproducto=$row['valorUnitario'] * $descuento;
-                                        $total = $row['cantidad'] * $descuentoproducto;
+
+                                        $descuentoproducto=($row['valorUnitario'] * $descuento) - $row['descuentoMonetario'];
+                                        $total = ($row['cantidad'] * $descuentoproducto);
+
                                         $subtotalsinsunat=$subtotalsinsunat+$total;
 
                                         $subtotalproductoround=round($subtotalproducto,2);
+
                                         echo "<td>S/. {$subtotalproductoround}</td>";
                                         echo "<td>{$row['observacion']}</td>";
                                         echo "</tr>";
                                     }
+
                                     $totalsunat=$subtotalsinsunat*0.02+$costoEnvio*0.02;
+
                                     $subtotalsinsunat=$subtotalsinsunat+$costoEnvio;
+
                                     $totalventa=$subtotalsinsunat+$totalsunat;
+
                                     ?>
                                     </tbody>
                                 </table>
@@ -227,10 +244,14 @@ if(isset($_SESSION['login'])) {
                         <tbody>
                         <tr>
                             <th>SubTotal Venta:</th>
-                            <td>S/. <?php echo round($subtotal,2)?></td>
+                            <td>S/. <?php echo round($subtotalcatalogo,2)?></td>
                         </tr>
                         <tr>
                             <th>Descuento:</th>
+                            <td>S/. <?php echo round($totaldescuentocatalogo,2)?></td>
+                        </tr>
+                        <tr>
+                            <th>Descuento Especial:</th>
                             <td>S/. <?php echo round($totaldescuento,2)?></td>
                         </tr>
                         <tr>

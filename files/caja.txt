@@ -1,1 +1,2 @@
 ﻿Fecha,Referencia Primaria,Referencia Secundaria,Persona,Medio de Pago,Comprobante,Tipo,Monto,Destino
+2018-02-08,MOV18B08W3336,OV18B08U0920,,Carvasq E.I.R.L.,Pago en Efectivo,Venta,+100,

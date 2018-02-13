@@ -1,8 +1,878 @@
 ﻿SKU,Nombre Corto,Atributo,Stock,Fecha de Modificación,Precio Promedio
+0000872,Solo for men cologne spray ,Negro,1,2018-02-01,0
+0000883,OHM COLOGNE SPRAY,Salvia, toronja, lavanda.,14,2018-02-08,0
+0001390,DENDUR COLOGNE FOR MEN,Pimienta negra, jengibre, tabaco.,22,2018-02-01,0
+0001831,Solo Talco para el Cuerpo Hombre,Negro,12,2018-02-01,0
+0001891,Expect for men ,Negro,5,2018-02-01,0
+0002183,GAIA EAU DE PARFUM,Negro,28,2018-02-12,0
+0002187,O2xigen Gel After Shave,Negro,2,2018-02-01,0
+0002279,OSADIA EAU DE PARFUM,Negro,20,2018-02-05,0
+0002410,Prolong Color Rosa Romántico,Negro,3,2018-02-01,0
+0002426,CIELO EAU DE PARFUM,Flor de loto, jazmín, sándalo.,18,2018-02-05,0
+0002645,OHM BLACK COLOGNE SPRAY,Negro,7,2018-02-05,0
+0002647,Bs Uña de Gato Crema para Manos,Negro,3,2018-02-01,0
+0002683,COLONIA ALEGRÍA PETIT PON PON,Aroma de lavanda, vainilla y flor de naranja.,16,2018-02-05,0
+0002710,COLONIA SWEETY,Melón de la jungla y bambú africano,20,2018-02-01,0
+0002711,COLONIA SPORTY,Envase celeste,15,2018-02-01,0
+0002777,Dimention 3D Caramel,Negro,3,2018-02-01,0
+0002781,Dimention 3D Almendra,Negro,1,2018-02-01,0
+0002816,Color Prisma Cuarteto de Sombras Toulousse,Negro,5,2018-02-01,0
+0002858,COLONIA TERNURA PETIT PON PON,Aroma de manzanilla, limón y agua de rosas,6,2018-02-05,0
+0002901,SEXY UNIQUE WOMAN,Bergamota, acasias brasileras, rosas turcas, jazmines indios, pachuli y cacao,12,2018-02-01,0
+0002920,CCORI PASIÓN LE PARFUM,Anís estrella, flor de azahar, orquídea negra.,1,2018-02-01,0
+0002924,OHM BLACK GEL AFTER SHAVE,Negro,2,2018-02-05,0
+0002928,Gaia Eau De Perfum 7.5 ml.,Negro,10,2018-02-01,0
+0002947,Total Block spf 30,Negro,1,2018-02-01,0
+0002950,MUSK HOMBRE COLOGNE SPRAY,Negro,20,2018-02-05,0
+0002994,Top Modeling Crema Lippo-reductora (antigua presentación),Negro,1,2018-02-01,0
+0002998,OSADIA HOMBRE COLOGNE SPRAY,Negro,39,2018-02-05,0
+0002999,Musk Desodorante,Negro,2,2018-02-01,0
+0003018,Top Modeling Gl Anti-celulitis (antigua presentación),Negro,3,2018-02-01,0
+0003034,Sentiva Sistema Skin 24,Negro,2,2018-02-01,0
+0003037,Dimention 3D Consentida por tus Besos,Negro,12,2018-02-01,0
+0003074,Extra Xool Eau de Toleitte,Negro,14,2018-02-01,0
+0003116,Bs Uña de Gato Gel Exfoliante para Baño,Negro,1,2018-02-01,0
+0003119,LLUVIA D/LOS ANDES COL ABSOLUT,Negro,23,2018-02-05,0
+0003128,Clic Labial Liquido Escarchado Talento Natural,Negro,1,2018-02-01,0
+0003129,Clic Labial Liquido Escarchado Luces Camaras Accion,Negro,4,2018-02-01,0
+0003130,Clic Labial Liquido Escarchado Besos de Pelicula,Negro,1,2018-02-01,0
+0003138,Clic Brillo Labial Mordisco,Negro,2,2018-02-01,0
+0003165,Clic Lapiz Delineador Mar Adentro,Negro,3,2018-02-01,0
+0003166,Clic Lapiz Delineador Naufraga de Amor,Negro,4,2018-02-01,0
+0003172,Clic Delinedor Liquido Metalico Reflejo de Lun,Negro,1,2018-02-01,0
+0003193,Clic Delineador Liquido Escarchado Noche de Estreno,Negro,2,2018-02-01,0
+0003195,Clic Delineador Liquido Escarchado Fiebre de Oro,Negro,3,2018-02-01,0
+0003196,Clic Delineador Liquido Escarchado Verde Envidia,Negro,1,2018-02-01,0
+0003249,NO LIMITS COLONIA EN SPRAY PARA HOMBRES,Geranio, lavanda, limón.,2,2018-02-01,0
+0003258,TEMPTATION COLOGNE FOR MEN,Menta, flor de naranja, sándalo.,20,2018-02-01,0
+0003259,Temptation Perfume en Spray (antigua presentación),Negro,13,2018-02-01,0
+0003269,Clic Delineador Liquido Escarchado Brillos y Lentejuelas,Negro,3,2018-02-01,0
+0003272,Clic Base de Maquillaje Bronce,Negro,1,2018-02-01,0
+0003280,Clic Lapiz Delineador MIRADA PROFUNDA,Negro,1,2018-02-01,0
+0003283,Clic Delineador Liquido Escarchado Bella y Famosa,Negro,3,2018-02-01,0
+0003286,Clic Brillo Labial Vodka Limon,Negro,1,2018-02-01,0
+0003287,Clic Labial Liquido Escarchado Comedia Romantica,Negro,1,2018-02-01,0
+0003288,Clic Labial Liquido Escarchado Fucsia de Estreno,Negro,1,2018-02-01,0
+0003289,Clic Labial Liquido Escarchado Super Estrella,Negro,1,2018-02-01,0
+0003370,JAQUE COLOGNE FOR MEN,Negro,5,2018-02-05,0
+0003371,Jaque Gel After Shave,Negro,1,2018-02-01,0
+0003373,Jaque Desodorante ,Negro,11,2018-02-01,0
+0003385,COLONIA PRIMAVERA,margarita mágica y flor de cereza,37,2018-02-01,0
+0003386,COLONIA MUNDO SAFARI,Envase verde,15,2018-02-01,0
+0003404,Unicreme Loción Atringente,Negro,3,2018-02-01,0
+0003406,Unicreme Gel Invisible,Negro,4,2018-02-01,0
+0003418,Clic Labial Liquido Escarchado Amor de Telenovela,Negro,5,2018-02-01,0
+0003424,Unicreme 2 en 1 Limpiador Facial,Negro,24,2018-02-01,0
+0003428,Color Effect Rubor Compacto La Vida en Color de Rosa,Negro,1,2018-02-01,0
+0003440,Sprio Paraíso Escondido Spray Cologne,Negro,2,2018-02-01,0
+0003444,Musk Body Lotion,Negro,2,2018-02-01,0
+0003471,Sprio Spray Cologne ,Negro,1,2018-02-01,0
+0003488,Clic Crystal Glossy Natural,Negro,7,2018-02-01,0
+0003493,Clic Glossy Brillo Labial Corazon de Melon,Negro,2,2018-02-01,0
+0003495,Clic Glossy Brillo Labial Besos que Matan,Negro,1,2018-02-01,0
+0003496,Clic Glossy Brillo Labial Caramelo,Negro,2,2018-02-01,0
+0003504,Psicodelia Desodorante,Negro,1,2018-02-01,0
+0003505,PSICODELIA EAU DE TOILETTE,Colonia para elllas,2,2018-02-01,0
+0003506,CcORI Jabón Líquido,Negro,1,2018-02-01,0
+0003507,EAU VITALE TE VERDE,Esencias cítricas y te verde,6,2018-02-05,0
+0003510,Eau Vitale Gel para Baño Lvanda,Negro,32,2018-02-01,0
+0003511,LESENCE BOUQUET ORIENTAL ,Aroma  de pera, fressia y tonka.,1,2018-02-01,0
+0003513,LESENCE FLORES & FRUTAS ,Aroma de bergamota, lavanda y pachuli.,13,2018-02-01,0
+0003529,ULTRA DEF DEL LIQ PINC NEGRO,Negro,159,2018-02-05,0
+0003530,Ultra Definition Delineador Pincel Marron,Negro,1,2018-02-01,0
+0003587,COLONIA ZITRIKA LIMÓN,Cítrica con aroma a limón.,6,2018-02-01,0
+0003590,EFFECTIVE BRISA FLORAL DESOD,Negro,27,2018-02-05,0
+0003591,Effective Desodorante Poder Absoluto,Negro,47,2018-02-01,0
+0003592,Soy Fashion Desodorante,Negro,1,2018-02-01,0
+0003598,ULTRA DEF DEL RETR MARRON,Negro,7,2018-02-05,0
+0003600,Ultra Definition Delineador Retractil Ojos Verde Militar,Negro,11,2018-02-01,0
+0003601,Ultra Definition Dekiniador Ojos Negro Humo,Negro,4,2018-02-01,0
+0003603,Ultra Definition Delineador Lapiz Cejas Marron Claro,Negro,5,2018-02-01,0
+0003606,ULTRA DEF DEL LAB CHOCOLATE,Negro,134,2018-02-05,0
+0003608,Ultra Definition Delineador Lapiz Labios Rojo Encendido,Negro,1,2018-02-01,0
+0003609,Ultra Definition Delineador Lapiz Labios Vino,Negro,12,2018-02-01,0
+0003611,Ultra Definition Delineador Lapiz Labios Guinda,Negro,3,2018-02-01,0
+0003612,Ultra Definition Delineador en Lapiz Ojos Negro,Negro,28,2018-02-01,0
+0003613,Ultra Definition Delineador en Lapiz Ojos Marrón,Negro,6,2018-02-01,0
+0003614,ULTRA DEF DEL INTER OJO PERLA,Negro,12,2018-02-05,0
+0003615,Ultra Definition Delineador Lapiz Ojos Negro Absoluto,Negro,1,2018-02-01,0
+0003616,Ultra Definition Delineador Lapiz Marrón,Negro,51,2018-02-01,0
+0003618,ULTRA DEF DEL OJO VERDE ESMER,Negro,4,2018-02-05,0
+0003623,Cover Age Corrector Liquido Mediano 1,Negro,1,2018-02-01,0
+0003624,Cover Age Corrector Liquido Mediano 2,Negro,15,2018-02-01,0
+0003631,ULTRA DEF DEL OJO VERDE OLIVO,Negro,2,2018-02-05,0
+0003640,Sentiva Mascarilla Purificante Cutis Mixto a Graso,Negro,2,2018-02-01,0
+0003642,Sentiva Exfoliage,Negro,2,2018-02-01,0
+0003648,Natural Effect Polvos Compactos Oscuro 1,Negro,1,2018-02-01,0
+0003658,UNIQUECIL EXTRA XL RIMEL P/PES,Negro,6,2018-02-05,0
+0003659,Puro Amor Eau De Parfum,Negro,10,2018-02-01,0
+0003663,Puro Amor Body Lotion,Negro,3,2018-02-01,0
+0003665,Puro Amor Desodorante,Negro,1,2018-02-01,0
+0003668,AROM GEL AFTER SHAVE,Negro,2,2018-02-05,0
+0003671,SOLO GEL AFTER SHAVE,Negro,14,2018-02-05,0
+0003680,Osadía Body Lotion,Negro,17,2018-02-01,0
+0003693,Sensual Bronz Polvos Bronceadores Sexy Miel ,Negro,4,2018-02-01,0
+0003701,EFFECTIVE ORIGINAL DESODORANTE,Negro,15,2018-02-05,0
+0003713,Clic Brillo Labial Algodón de Azucar,Negro,1,2018-02-01,0
+0003716,Clic Brillo Labial Manzana Acaramelada,Negro,1,2018-02-01,0
+0003717,Clic Brillo Labial Toffee Tentacion,Negro,1,2018-02-01,0
+0003722,Extra Xool Eau de Toleitte,Negro,1,2018-02-01,0
+0003724,XISS EAU DE TOILETTE,Negro,11,2018-02-05,0
+0003725,XOOL EAU DE TOILETTE,Negro,18,2018-02-05,0
+0003726,AROM POUR HOMME COLONIA,Negro,4,2018-02-05,0
+0003727,Arom Sport Colonia Spray Hombre,Negro,3,2018-02-01,0
+0003732,Clic Esmalte Green Paradise,Negro,2,2018-02-01,0
+0003737,Clic Rimel Morado,Negro,1,2018-02-01,0
+0003740,AROM DESODORANTE,Negro,5,2018-02-05,0
+0003741,SOLO DESODORANTE,Negro,14,2018-02-05,0
+0003746,Cielo Desodorante,Negro,21,2018-02-01,0
+0003747,GAIA DESODORANTE,Negro,28,2018-02-05,0
+0003748,CCORI DESODORANTE,Negro,10,2018-02-05,0
+0003749,Adrenaline Mujer Desodorante,Negro,1,2018-02-01,0
+0003751,OHM BLACK DESODORANTE,Negro,10,2018-02-05,0
+0003752,Osadía Desodorante,Negro,1,2018-02-01,0
+0003754,Musk Desodorante,Negro,3,2018-02-01,0
+0003756,Irreverent Desodorante,Negro,1,2018-02-01,0
+0003760,CCORI PASION DESODORANTE,Negro,30,2018-02-05,0
+0003764,Dulce Vanidad Desodorante,Negro,4,2018-02-01,0
+0003765,No Limits Desodorante,Negro,1,2018-02-01,0
+0003767,Xool Desodorante,Negro,1,2018-02-01,0
+0003784,EAU DE SEDA,Flor de seda, durazno y mimosa sensual.,1,2018-02-01,0
+0003797,O2xigen Cologne Spray,Negro,2,2018-02-01,0
+0003801,Ultra Definition Delineador Lapiz Labios Toffee Imperial,Negro,42,2018-02-01,0
+0003813,PERFECT TEN REMOVEDOR ESMALTE,Negro,26,2018-02-05,0
+0003823,Shampoo Kids 2 en 1 Manzana,Negro,8,2018-02-01,0
+0003824,SHAMPOO ALEGRÍA PETIT PON PON,No lágrimas aroma a lavanda, flor de naranja y vainilla,33,2018-02-05,0
+0003825,SHAMPOO TERNURA PETIT PON PON,No lágrimas con aroma a manzanilla, limón y agua de rosas ,1,2018-02-05,0
+0003830,Ultra Definition Delineador en Lapiz Ojos Marrón Cobrizo,Negro,8,2018-02-01,0
+0003831,Ultra Definition Delineador en Lapiz Ojos Verde Jade,Negro,10,2018-02-01,0
+0003832,Delineador Punta Pincel Dorado,Negro,1,2018-02-01,0
+0003854,Shampoo Kids 2 en 1 Uva,Negro,2,2018-02-01,0
+0003857,Sexy Clic Colonia con Escarchas Luminosas,Negro,2,2018-02-01,0
+0003858,Sexy Clic Loción Hidratante con Escarchas Luminosas,Negro,1,2018-02-01,0
+0003860,Soy Irresistible Fresh Cologne,Negro,13,2018-02-01,0
+0003875,Matifix Base de Maquillaje Mixto a Graso T1,Negro,7,2018-02-01,0
+0003887,Ultra Definition Delineador Retractil Ojos Violeta ,Negro,4,2018-02-01,0
+0003906,Professional Maricure Esmalte para Manicure Francesa ,Negro,1,2018-02-01,0
+0003910,Delineador Liquido Punta Plumon Mirame a los Ojos,Negro,2,2018-02-01,0
+0003911,ULTRA DEF DEL LIQ PLUM NEGRO,Negro,84,2018-02-12,0
+0003914,Clic Labial Liquido Escarchado Admirador Secreto,Negro,3,2018-02-01,0
+0003915,Clic Labial Liquido Escarchado Ampay Violeta,Negro,1,2018-02-01,0
+0003916,Clic Labial Liquido Escarchado Detrás de Camaras,Negro,3,2018-02-01,0
+0003917,Clic Labial Liquido Escarchado Paparazzi,Negro,1,2018-02-01,0
+0003918,Clic Labial Liquido Escarchado Ultima Funcion,Negro,1,2018-02-01,0
+0003919,Clic Labial Liquido Escarchado Naranja Sexy,Negro,6,2018-02-01,0
+0003921,Esmalte para Diseño de Uñas Negro ,Negro,6,2018-02-01,0
+0003929,Clic Delineador en Lapiz para Ojos Azul Electrico,Negro,3,2018-02-01,0
+0003930,Clic Delineador en Lapiz para Ojos Sexy Bronz,Negro,67,2018-02-01,0
+0003931,Clic Delineador en Lapiz para Ojos Morado Profundo,Negro,2,2018-02-01,0
+0003932,Clic Delineador en Lapiz para Ojos Negro Malicia,Negro,81,2018-02-01,0
+0003933,Clic Delineador en Lapiz para Ojos Luna Plateado,Negro,4,2018-02-01,0
+0003940,Lesence Flores y Frutas Crema Hidratante Cuerpo,Negro,1,2018-02-01,0
+0003953,Perfect Ten Removedor de Cutícula ,Negro,11,2018-02-01,0
+0003974,Delineador Liquido Punta Pincel Azul de Madrugada,Negro,1,2018-02-01,0
+0003997,Adrenaline Hombre Desodorante,Negro,1,2018-02-01,0
+0004002,ADRENALINE FOR MEN COLOGNE,Negro,9,2018-02-05,0
+0004003,MUSK EAU DE PARFUM,Almizcle, ylang ylang, lila.,17,2018-02-01,0
+0004004,Dulce Rebeldía Perfume mágico,Negro,10,2018-02-01,0
+0004008,Clic Brillo Labial Liquido Atraccion Canela,Negro,2,2018-02-01,0
+0004017,Clic Polvos Compactos Natural,Negro,1,2018-02-01,0
+0004018,Clic Polvos Compactos Bronce,Negro,5,2018-02-01,0
+0004028,Clic Rubor Compacto Candel Sexy,Negro,2,2018-02-01,0
+0004031,Clic Rubor Compacto Dias Felices,Negro,4,2018-02-01,0
+0004049,SENTIR , aroma oriental floral con notas de praliné, flor de mariposa blanca y papiro.,4,2018-02-01,0
+0004055,Clic Sombras Compactas Metalico Verde Shock,Negro,1,2018-02-01,0
+0004056,Clic Sombras Compactas Metalico Presiento tu Amor,Negro,1,2018-02-01,0
+0004059,Clic Sombras Compactas Metalico Hechizo de Luna,Negro,2,2018-02-01,0
+0004063,Clic Sombras Compactas Perdida en la Selva,Negro,1,2018-02-01,0
+0004067,Clic Sombras Compactas Algodón de Azucar ,Negro,1,2018-02-01,0
+0004068,Clic Sombras Compactas Noche Traviesa ,Negro,5,2018-02-01,0
+0004072,Clic Sombras Compactas Tu me Gustas,Negro,2,2018-02-01,0
+0004082,Clic Brillo Color Mix En la Luna,Negro,24,2018-02-01,0
+0004083,Clic Brillo Color Mix Corazon de Melon,Negro,1,2018-02-01,0
+0004085,Clic Brillo Color Mix Toque de Sol,Negro,15,2018-02-01,0
+0004096,Clic Labial Amigas Intimas,Negro,12,2018-02-01,0
+0004097,Clic Labial Confidencias,Negro,3,2018-02-01,0
+0004098,Clic Labial Montaña Rusa,Negro,2,2018-02-01,0
+0004099,Clic Labial Sellado con un Beso,Negro,1,2018-02-01,0
+0004102,Clic Labial Rebelde sin Causa,Negro,5,2018-02-01,0
+0004104,Clic Labial Vive Ahora,Negro,10,2018-02-01,0
+0004105,Clic Labial Dulce Vanidad,Negro,4,2018-02-01,0
+0004107,Clic Labial Rojo Explosion,Negro,24,2018-02-01,0
+0004120,Delineador Pinta Pincel Plata Vibrante,Negro,3,2018-02-01,0
+0004140,Prolong Color Amantes y Enemigos,Negro,1,2018-02-01,0
+0004146,Prolong Color Princesa,Negro,1,2018-02-01,0
+0004151,Prolong Color Vals,Negro,2,2018-02-01,0
+0004153,DUETTE MARRON / NEGRO HUMO,Negro,30,2018-02-05,0
+0004155,Matifix Base de Maquillaje Mixto a Graso T6,Negro,4,2018-02-01,0
+0004156,Clic Gel Desmaquillador Ojos, Labios y Rostro,Negro,2,2018-02-01,0
+0004159,Color Prisma Duo de Sombras Tierra de Oro,Negro,1,2018-02-01,0
+0004164,DI QUE SI EAU DE PARFUM,Negro,2,2018-02-05,0
+0004165,Cielo De Noche Parfum,Negro,8,2018-02-01,0
+0004183,Delineador Punta Pincel Azul Metalico,Negro,9,2018-02-01,0
+0004185,Delineador Punta Pincel Guinda Metalico,Negro,3,2018-02-01,0
+0004195,ULTRA DEF DEL LAB PIEL,Negro,4,2018-02-05,0
+0004199,Prolong Color Princesa (antigua presentación),Negro,2,2018-02-01,0
+0004221,Hydra-Lip Labial Humect Puro Sentimiento,Negro,12,2018-02-01,0
+0004227,Delineador Punta Pincel Morado,Negro,2,2018-02-01,0
+0004232,Hydra-Lip Ultra Hidrat Ultra Amor Secreto,Negro,5,2018-02-01,0
+0004236,Hydra-Lip Labial Humect Ultra Jugar con Fuego,Negro,4,2018-02-01,0
+0004237,Hydra-Lip Ultra Mora Mia,Negro,1,2018-02-01,0
+0004266,TOTALIST 4 CREMA MULTIACTIVA ALOE VERA,Hidrata, nutre, protege, suaviza,7,2018-02-01,0
+0004267,Totalist Aloe Vera Crema Manos y Cuerpo,Negro,3,2018-02-01,0
+0004269,Totalist Concha de Nácar Crema Manos y Cuerpo,Negro,1,2018-02-01,0
+0004279,Color Prisma Cuarteto de Sombras Gold Lights,Negro,8,2018-02-01,0
+0004281,Color Prisma Cuarteto de Sombras Neo Chic,Negro,4,2018-02-01,0
+0004283,Color Prisma Cuarteto de Sombras Toulousse,Negro,1,2018-02-01,0
+0004291,Prolong Color La pura Verdad ,Negro,4,2018-02-01,0
+0004306,Clic Corrector Retractil para Barritos ,Negro,20,2018-02-01,0
+0004307,Kera Expert Shampoo Liso Profesional,Negro,16,2018-02-01,0
+0004308,Kera expert Acondicionador Liso Profesional,Negro,9,2018-02-01,0
+0004309,Maca Expert Acondicionador Reparación Prefesional,Negro,5,2018-02-01,0
+0004330,Clic Esmalte Eco Fan,Negro,1,2018-02-01,0
+0004331,Clic Esmalte Ratatui,Negro,5,2018-02-01,0
+0004332,Clic Esmalte Tinky Winky,Negro,1,2018-02-01,0
+0004333,Clic Esmalte Cruela,Negro,3,2018-02-01,0
+0004343,Prolong Color Crush,Negro,3,2018-02-01,0
+0004347,ADRENALINE EAU DE TOILETTE,Negro,10,2018-02-05,0
+0004348,CREMA ACLARANTE CONTROL BLANC RX,Con Albacinol RX-11** Además contiene ácido hialurónico y filtros solares. ,47,2018-02-05,0
+0004354,Prolong Color Jungla de Cemento ,Negro,4,2018-02-01,0
+0004358,Prolong Color Deseos de Arena,Negro,9,2018-02-01,0
+0004360,Prolong Color Brillo por Ti,Negro,4,2018-02-01,0
+0004365,Hydro-Active Base de maquillaje T1,Negro,1,2018-02-01,0
+0004368,Hydro-Active Base de Maquillaje T4,Negro,1,2018-02-01,0
+0004369,Hydro-Active Base de Maquillaje T5,Negro,1,2018-02-01,0
+0004370,Hydro-Active Base de Maquillaje T6,Negro,1,2018-02-01,0
+0004375,Clic Brillo Labial Natural y Delineador Negro,Negro,1,2018-02-01,0
+0004376,Clic Brillo Labial Natural y Delineador Verde,Negro,2,2018-02-01,0
+0004377,Clic Brillo Natural y Delineador Marron ,Negro,1,2018-02-01,0
+0004379,Clic Brillo Natural y Delineador Azul,Negro,1,2018-02-01,0
+0004394,Bio fruit Shampoo y Acondicionador Mandarina tropical (antigua presentación),Negro,3,2018-02-01,0
+0004395,Bio Fruit Shampoo y Acondicionador Coco Caribeño (antigua presentación),Negro,1,2018-02-01,0
+0004405,Prolong Color Verde Africa ,Negro,2,2018-02-01,0
+0004408,Hydra-Lip Humect Junto a Ti Dlux,Negro,1,2018-02-01,0
+0004414,Prolong Color Dorado Metálico,Negro,4,2018-02-01,0
+0004415,Prolong Color Arenha,Negro,2,2018-02-01,0
+0004422,LASH FICTION RIMEL PEST D PELI,Negro,47,2018-02-05,0
+0004459,Clic Esmalte Cotton Candy,Negro,1,2018-02-01,0
+0004469,Bs Uña de Gato Crema para Manos,Negro,15,2018-02-01,0
+0004470,Uña de Gato Exfoliante en Gel para Manos y Cuerpo,Negro,33,2018-02-01,0
+0004471,Desodorante Acerk.te Fuego,Negro,1,2018-02-01,0
+0004476,CCORI CRISTAL LEAU DE PARFUM,Negro,34,2018-02-05,0
+0004480,Lpstay Larga Duración Sun Bronz,Negro,2,2018-02-01,0
+0004483,Lipstay Larga Duración Rosa de mis Sueños,Negro,9,2018-02-01,0
+0004486,Lipstay Larga Duración Beso Volado,Negro,2,2018-02-01,0
+0004493,SPRIO BLUE SPRAY COLOGNE,Negro,24,2018-02-05,0
+00044948,Hydra-Lip Ultra Miel en tus Labios,Negro,3,2018-02-01,0
+0004495,ZENTRO COLOGNE FOR MEN,Negro,3,2018-02-05,0
+0004497,Cielo Body Lotion ,Negro,28,2018-02-01,0
+0004515,Acerk.te Energía Desodorante,Negro,19,2018-02-01,0
+0004516,Acerk.te Fresh Desodorante,Negro,1,2018-02-01,0
+0004517,Sun Block spf 30 ,Negro,7,2018-02-01,0
+0004531,Prolong Color Oro Bling,Negro,3,2018-02-01,0
+0004539,Hydra-Lip Ultra Vainilla Rosa,Negro,2,2018-02-01,0
+0004541,Clic Esmalte Blue Blue,Negro,3,2018-02-01,0
+0004542,Clic Esmalte Mandarin,Negro,1,2018-02-01,0
+0004543,Forte Dix Fortalecedor de uñas,Negro,28,2018-02-01,0
+0004548,Hydra-Lip Ultra Vainilla Intimo,Negro,2,2018-02-01,0
+0004551,Prolong Color Perlas Y Cristales ,Negro,2,2018-02-01,0
+0004553,Eau Vitale Gel para Baño Te Verde,Negro,1,2018-02-01,0
+0004562,Limpiador Exfoliante para Rostro Titanium (antigua presentación),Negro,16,2018-02-01,0
+0004566,Color Prisma Duo de Sombras Carnaval de Rio,Negro,1,2018-02-01,0
+0004567,Color Prisma Duo de Sombras Viva Marrakech,Negro,1,2018-02-01,0
+0004568,Color Prisma Duo de Sombras NY NY,Negro,2,2018-02-01,0
+0004569,Color Prisma Duo de Sombras Made in Tokio,Negro,4,2018-02-01,0
+0004570,Color Prisma Duo de Sombras Romance en Paris,Negro,2,2018-02-01,0
+0004576,MISS AMOUR EAU DE PARFUM,Negro,3,2018-02-05,0
+0004578,Clic Esmalte Galactic Green,Negro,1,2018-02-01,0
+0004588,Prolong Color Oh Divina!,Negro,4,2018-02-01,0
+0004621,Clic Esmalte Metal Glam,Negro,2,2018-02-01,0
+0004630,REVITALIST SUERO,Negro,3,2018-02-05,0
+0004635,Prolong Color Escarcha Bronz,Negro,3,2018-02-01,0
+0004636,Bs Crema para Cuerpo Leche & Avena (antigua presentación),Negro,1,2018-02-01,0
+0004638,Prolong Color Dunas (antigua presentación),Negro,1,2018-02-01,0
+0004639,BODY SPA UÑA DE GATO EXFOLIANTE EN GEL PARA MANOS Y CUERPO,exfolia la piel seca y extra seca.,49,2018-02-05,0
+0004640,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS,hidrata y repara la piel seca y extra seca.,2,2018-02-05,0
+0004641,XISS 2.0 EAU DE TOILETTE,Aroma frutal floral con notas de mandarina, albaricoque y madera de cedro,8,2018-02-05,0
+0004642,XOOL 2.0 EAU DE TOILETTE,Negro,12,2018-02-05,0
+0004643,Curva Lash Rimel Curvas Extremas,Negro,2,2018-02-01,0
+0004645,CCORI PASION LE PARFUM,Negro,17,2018-02-05,0
+0004646,CCORI LE PARFUM,Negro,6,2018-02-05,0
+0004647,TITANIUM HIDRATANTE ENERGIZANT,Negro,13,2018-02-05,0
+0004649,REVITALIST CREMA NUTRITIVA,Negro,5,2018-02-05,0
+0004651,REVITALIST HIDRATANTE,Negro,21,2018-02-05,0
+0004652,ELIXIR DE VIDA HIDRATANTE,Negro,17,2018-02-05,0
+0004653,ELIXIR DE VIDA SUERO RECONSTIT,Negro,8,2018-02-05,0
+0004654,REVITALIST LIMPIADOR,Negro,30,2018-02-05,0
+0004655,ELIXIR DE VIDA LIMPIADOR,Negro,23,2018-02-05,0
+0004656,BODY SPA UÑA DE GATO CREMA REPARADORA,Repara e hidrata la piel.,14,2018-02-05,0
+0004657,Hydra-Lip Ultra Ultra Delicatta FR Delux,Negro,2,2018-02-01,0
+0004661,Hydra-Lip Ultra Hidrat Ultra Atardecer Caribe,Negro,1,2018-02-01,0
+0004665,Prolong Color Naranja Do Brazil,Negro,2,2018-02-01,0
+0004666,Prolong Color Danza Carioca,Negro,2,2018-02-01,0
+0004668,Ultra Definition Plumon Ojos Marron,Negro,5,2018-02-01,0
+0004669,ULTRA DEF DEL PLUMON AZUL,Negro,5,2018-02-05,0
+0004670,REVITALIST TONICO,Negro,24,2018-02-05,0
+0004671,ELIXIR DE VIDA GEL TONICO,Negro,9,2018-02-05,0
+0004683,43 N PARALEL COLOGNE FOR MEN,Negro,23,2018-02-05,0
+0004684,LIBERATTA PARFUM,Negro,19,2018-02-05,0
+0004686,Brillo de Seda Loción Hidratante,Negro,6,2018-02-01,0
+0004687,Brillo de Seda Diamantes Loción Hidratante,Negro,9,2018-02-01,0
+0004694,TOP MODELING CR ANTI-CELULITIS,Negro,28,2018-02-05,0
+0004699,Prolong Color Intensity,Negro,2,2018-02-01,0
+0004701,Prolong Color Instito Animal,Negro,14,2018-02-01,0
+0004709,Clic Esmalte Aqua Shock,Negro,1,2018-02-01,0
+0004710,Soy Fashion Fresh Colonia,Negro,3,2018-02-01,0
+0004713,Clic Esmalte Hot Pink,Negro,1,2018-02-01,0
+0004714,Clic Esmalte Cool Yellow,Negro,2,2018-02-01,0
+0004717,Soy Libre Fresh Cologne,Negro,5,2018-02-01,0
+0004718,SOY DULCE FRESH COLOGNE,Frambuesa azucarada, madera blanca, vainilla.,6,2018-02-01,0
+0004724,Hydra-Lip Ultra Ultra Lady Rose,Negro,3,2018-02-01,0
+0004729,Clic Esmalte Blue Punch,Negro,3,2018-02-01,0
+0004733,ELIXIR DE VIDA ROSTRO,Negro,28,2018-02-05,0
+0004734,ELIXIR DE VIDA CR DE OJOS 15 G,Negro,19,2018-02-05,0
+0004736,Prolong Color Azzule,Negro,1,2018-02-01,0
+0004737,Prolong Color Luxury,Negro,2,2018-02-01,0
+0004738,Prolong Color Oscura Tentación,Negro,3,2018-02-01,0
+0004739,Prolong Color Morado Top,Negro,10,2018-02-01,0
+0004741,Prolong Color Noctambul,Negro,1,2018-02-01,0
+0004742,Prolong Color City Star,Negro,4,2018-02-01,0
+0004744,Hydra-Lip Ultra Ultra Fucsia Opulento DX,Negro,2,2018-02-01,0
+0004749,Hydra-Lip Ultra Ultra Lujo Malva,Negro,3,2018-02-01,0
+0004750,CONTROL BLANC RX LIM-EXF-TON,Negro,15,2018-02-05,0
+0004761,Clic Esmalte Party Mood,Negro,1,2018-02-01,0
+0004762,Clic Esmalte Black Glow,Negro,2,2018-02-01,0
+0004768,BS LECHE & AVENA CREMA CUERPO,Negro,1,2018-02-05,0
+0004770,ADRENALINE URBANO COLOGNE,Negro,24,2018-02-05,0
+0004771,Color Prisma Cuarteto de Sombras Urbana,Negro,1,2018-02-01,0
+0004772,Bio Milk Crema Hidratante Vainilla francesa,Negro,4,2018-02-01,0
+0004773,BS LECHE & AVENA CREMA MANOS,Negro,8,2018-02-05,0
+0004774,Prolong Color Zul Style,Negro,6,2018-02-01,0
+0004776,Prolong Color Verdezza,Negro,4,2018-02-01,0
+0004780,Hydra-Lip Ultra Hidrat Ultra Rosa Lip,Negro,2,2018-02-01,0
+0004791,PERFECT TEN BARNIZ UÑAS MATE,Negro,20,2018-02-05,0
+0004792,Delineador Liquido punta Plumon Metalico Gris Urbano,Negro,4,2018-02-01,0
+0004816,Clic Sombras Compactas Bicolor Tropical Colors,Negro,2,2018-02-01,0
+0004817,Clic Esmalte Black Attack,Negro,2,2018-02-01,0
+0004819,Clic Esmalte Kilimanjaro,Negro,1,2018-02-01,0
+0004826,BIO FRUIT 2EN1 GRANADA EXOTICA,Negro,3,2018-02-05,0
+0004828,CONTROL BLANC RX ACLA ANT-EDAD,Negro,35,2018-02-05,0
+0004829,SENTIVA DESMAQ AGUA MICELAR,Negro,8,2018-02-05,0
+0004830,SENTIVA DESMAQUILLA DOBLE FASE,Negro,47,2018-02-05,0
+0004831,Fresh Mousse Sobras Crema Dark Mousse,Negro,2,2018-02-01,0
+0004833,REVITALIST GEL ENERGIZANTE,Negro,1,2018-02-05,0
+0004834,NO LIMITS FUTBOL EDITION,Negro,51,2018-02-05,0
+0004837,C/S COLOR EFFECT MORADO CHIC,Negro,3,2018-02-05,0
+0004838,C/S COLOR EFFECT VIVA JADE,Negro,3,2018-02-05,0
+0004839,C/S COLOR EFFECT SMOKY ARENHA,Negro,5,2018-02-05,0
+0004841,C/S COLOR EFFECT SMOKY GLAM,Negro,6,2018-02-05,0
+0004843,C/S COLOR EFFECT ROMANTIC ROSE,Negro,4,2018-02-05,0
+0004845,C/S COLOR EFFECT FUROR AZUL,Negro,3,2018-02-05,0
+0004848,Color Prisma Cuarteto de Sombras Miami Pop ,Negro,6,2018-02-01,0
+0004849,P/C PERFECT COVER CLARO 1,Negro,58,2018-02-05,0
+0004850,P/C PERFECT COVER MEDIANO 1,Negro,34,2018-02-05,0
+0004851,P/C PERFECT COVER MEDIANO 2,Negro,63,2018-02-05,0
+0004852,P/C PERFECT COVER OSCURO 1,Negro,2,2018-02-05,0
+0004854,Lipstay Larga Duracion Rojo Apasionado ,Negro,2,2018-02-01,0
+0004855,Lispstay Larga Duración Rojo Destello,Negro,2,2018-02-01,0
+0004857,Lipstay Larga Duración Canela Intenso,Negro,9,2018-02-01,0
+0004859,Prololong Color Tangerin Pop FR,Negro,2,2018-02-01,0
+0004860,Prolong Color Aquarium,Negro,12,2018-02-01,0
+0004862,Prolong Color Miami Aqua ,Negro,3,2018-02-01,0
+0004866,Hydra-Lip Ultra Ultra Rosa Pop,Negro,1,2018-02-01,0
+0004868,Hydra-Lip Ultra Pop Style,Negro,3,2018-02-01,0
+0004869,Hydra-Lip Ultra Ultra Florida Love,Negro,2,2018-02-01,0
+0004880,AROM ABSOLUT COLOGNE FOR MEN,Negro,4,2018-02-05,0
+0004882,PD TE ESPERO EN ESTAMBUL COLOG,Negro,17,2018-02-05,0
+0004883,PD UN BESO DESDE VENECIA COLOG,Negro,17,2018-02-05,0
+0004884,R/C COLOR EFFECT ROSA IRRESISTIBLE,Negro,5,2018-02-05,0
+0004886,R/C COLOR EFFECT BRIZZA MY,Negro,5,2018-02-05,0
+0004887,R/C COLOR EFFECT BRONZAGE MY,Negro,24,2018-02-05,0
+0004888,R/C COLOR EFFECT PETAL ROSE MY,Negro,11,2018-02-05,0
+0004889,R/C COLOR EFFECT TERRA,Negro,6,2018-02-05,0
+0004890,L/L HYDRA-LIP COLOR MUSA,Negro,12,2018-02-05,0
+0004891,L/L HYDRA-LIP COLOR BAILE ROSA,Negro,9,2018-02-05,0
+0004892,L/L HYDRA-LIP COLOR CHOC MOUSSE,Negro,27,2018-02-05,0
+0004893,L/L HYDRA-LIP COLOR TERC NEGRO,Negro,35,2018-02-05,0
+0004894,L/L HYDRA-LIP COLOR AMBRE,Negro,1,2018-02-05,0
+0004895,L/L HYDRA-LIP COLOR TENTACION,Negro,15,2018-02-05,0
+0004896,L/L HYDRA-LIP COLOR RUMORES,Negro,18,2018-02-05,0
+0004897,L/L HYDRA-LIP COLOR MORA ZEN,Negro,26,2018-02-05,0
+0004898,L/L HYDRA-LIP COLOR VAIN CORAL,Negro,12,2018-02-05,0
+0004899,L/L HYDRA-LIP COLOR CORAL&COLO,Negro,11,2018-02-05,0
+0004900,L/L HYDRA-LIP COLOR FUCSIA PEL,Negro,10,2018-02-05,0
+0004901,L/L HYDRA-LIP COLOR GUINDA ETN,Negro,34,2018-02-05,0
+0004902,L/L HYDRA-LIP COLOR ALMENDRADO,Negro,14,2018-02-05,0
+0004904,UNIQ WOMAN INFINITY EAU PARFUM,Negro,15,2018-02-05,0
+0004905,Color Prisma Cuarteto de Sombras Miami Beach,Negro,2,2018-02-01,0
+0004932,Adrenaline Urbano Desodorante,Negro,3,2018-02-01,0
+0004933,CCORI CRISTAL DESODORANTE,Negro,21,2018-02-05,0
+0004934,BALSAMO BELLEZA BB CREAM,Negro,4,2018-02-05,0
+0004935,Ccori Cristal Leau Parfum 7.5 ml.,Negro,1,2018-02-01,0
+0004936,B/L PERFECT COVER HIDRA T1,Negro,16,2018-02-05,0
+0004937,B/L PERFECT COVER HIDRA T2,Negro,50,2018-02-05,0
+0004938,B/L PERFECT COVER HIDRA T3,Negro,11,2018-02-05,0
+0004939,B/L PERFECT COVER HIDRA T4,Negro,2,2018-02-05,0
+0004940,B/L PERFECT COVER HIDRA T5,Negro,1,2018-02-05,0
+0004942,B/L PERFECT COVER MAT T1,Negro,15,2018-02-05,0
+0004943,B/L PERFECT COVER MAT T2,Negro,18,2018-02-05,0
+0004944,B/L PERFECT COVER MAT T3,Negro,2,2018-02-05,0
+0004945,B/L PERFECT COVER MAT T4,Negro,4,2018-02-05,0
+0004946,B/L PERFECT COVER MAT T5,Negro,2,2018-02-05,0
+0004951,Hydra-Lip Ultra Hidrat Ultra Rojo Euforia,Negro,5,2018-02-01,0
+0004959,UNIQUE WOMAN EAU DE PARFUM,Negro,6,2018-02-05,0
+0004962,SPRIO PINK COLOGNE FOR HER,Negro,1,2018-02-05,0
+0004964,Clic Sexteto de Sombras Cool&Sexy,Negro,1,2018-02-01,0
+0004965,Clic Sexteto de Sombras Funny&Trendy,Negro,1,2018-02-01,0
+0004966,L/L HYDRA-LIP COLOR ROJO PASIO,Negro,36,2018-02-05,0
+0004969,Hydra-Lip Ultra Hidrat Ultra Classic Fem,Negro,4,2018-02-01,0
+0004970,Hydra-Lip Ultra Rock and Ros,Negro,3,2018-02-01,0
+0004971,Hydra-Lip Ultra Hidrat Ultra Lady Pink,Negro,4,2018-02-01,0
+0004975,Prolong Color London Night,Negro,3,2018-02-01,0
+0004976,Prololong Color London City,Negro,4,2018-02-01,0
+0004977,Prolong Color Alma Dorada,Negro,2,2018-02-01,0
+0004978,Prolong Color Lila Romantic,Negro,2,2018-02-01,0
+0004982,Prolong Color Verde Etnico,Negro,1,2018-02-01,0
+0004983,Acento Parfum,Negro,22,2018-02-01,0
+0004984,Clic Esmalte Mango Frozen,Negro,1,2018-02-01,0
+0004987,Clic Esmalte Silver Way!,Negro,1,2018-02-01,0
+0004994,Prolong Color Rojo Etnico,Negro,2,2018-02-01,0
+0005003,Hydra-Lip Color Intenso Rosa Paris,Negro,2,2018-02-01,0
+0005004,Hydra-Lip Color Intenso Fucsia Boheme,Negro,3,2018-02-01,0
+0005005,Hydra-Lip Color Intenso Alma Guinda,Negro,5,2018-02-01,0
+0005008,Color Effect Cuarteto de Sombras Boheme,Negro,1,2018-02-01,0
+0005009,SET ANTIMANCH CONTROL BLANC RX,Negro,9,2018-02-05,0
+0005017,CREMA HIDRATANTE BIO MILK PERA MANZANA,Con proteinas de yogurt probiotico,12,2018-02-05,0
+0005018,CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA,Con proteinas de yogurt probiotico,18,2018-02-05,0
+0005029,SOLO COLOGNE FOR MEN,Negro,32,2018-02-05,0
+0005030,DENDUR COLOGNE FOR MEN,Negro,20,2018-02-05,0
+0005032,O2XYGEN BLANC COLOGNE FOR MEN,Negro,1,2018-02-05,0
+0005034,Hydra-Lip Color Intenso Coral Hindu,Negro,5,2018-02-01,0
+0005035,L/L HYDRA-LIP COL ROSE D ORIEN,Negro,3,2018-02-05,0
+0005040,Hydra-Lip Color Intenso Piel de Durazno,Negro,5,2018-02-01,0
+0005041,Hydra-Lip Color Intenso Rosa Esencial,Negro,5,2018-02-01,0
+0005045,Cover Effect Cuarteto de Sombras Essencia,Negro,2,2018-02-01,0
+0005046,Prolong Color Oro & Encanto,Negro,2,2018-02-01,0
+0005050,L/L HYDRA-LIP CRAYON SEXY RED,Negro,7,2018-02-05,0
+0005051,L/L HYDRA-LIP CRAYON RED ELEGA,Negro,1,2018-02-05,0
+0005053,L/L HYDRA-LIP CRAYON ALME CHIC,Negro,2,2018-02-05,0
+0005054,CREMA HIDRATANTE BIO MILK COCO CARIBEÑO,Con proteinas de yogurt probiotico,23,2018-02-05,0
+0005055,L/LIQ HYDRA-LIP FUCSIA TOTAL,Negro,3,2018-02-05,0
+0005056,L/LIQ HYDRA-LIP CREME D L FEME,Negro,3,2018-02-05,0
+0005057,L/LIQ HYDRA-LIP ROJO ETERNO,Negro,2,2018-02-05,0
+0005058,L/LIQ HYDRA-LIP COBRISIMO,Negro,2,2018-02-05,0
+0005059,L/LIQ HYDRA-LIP ROSA PICANTE,Negro,5,2018-02-05,0
+0005060,L/LIQ HYDRA-LIP UVA MERLOT,Negro,8,2018-02-05,0
+0005061,B/L HYDRA-LIP MELON CHIC,Negro,1,2018-02-05,0
+0005062,B/L HYDRA-LIP LILA VINTAGE,Negro,3,2018-02-05,0
+0005063,B/L HYDRA-LIP IMPULSO,Negro,24,2018-02-05,0
+0005064,B/L HYDRA-LIP ROSA LUMINOSA,Negro,12,2018-02-05,0
+0005065,B/L HYDRA-LIP MUJER DE ROJO,Negro,7,2018-02-05,0
+0005066,B/L HYDRA-LIP MORA INTENSE,Negro,3,2018-02-05,0
+0005083,BIO MILK CREMA HIDRAT ORIGINAL,Negro,7,2018-02-05,0
+0005087,TOP MODELING CR LIPO-REDUCTORA,Negro,34,2018-02-05,0
+0005099,B/C PERFECT COVER COMPACT CLA1,Negro,3,2018-02-05,0
+0005100,B/C PERFECT COVER COMPACT MED1,Negro,4,2018-02-05,0
+0005101,B/C PERFECT COVER COMPACT MED2,Negro,5,2018-02-05,0
+0005102,P/S PERFECT COVER CLARO 1,Negro,6,2018-02-05,0
+0005103,P/S PERFECT COVER MEDIANO 1,Negro,2,2018-02-05,0
+0005106,B/L ELIXIR DE VIDA ANTIEDAD T1,Negro,7,2018-02-05,0
+0005107,B/L ELIXIR DE VIDA ANTIEDAD T2,Negro,8,2018-02-05,0
+0005108,B/L ELIXIR DE VIDA ANTIEDAD T3,Negro,3,2018-02-05,0
+0005109,B/L ELIXIR DE VIDA ANTIEDAD T4,Negro,3,2018-02-05,0
+0005110,B/L ELIXIR DE VIDA ANTIEDAD T5,Negro,2,2018-02-05,0
+0005114,PERFECT TEN BASE ESMALTE UÑAS,Negro,8,2018-02-05,0
+0005120,FOCCO COLOGNE FOR MEN,Negro,10,2018-02-05,0
+0005121,L/L ELIXIR DE VIDA ENCANT ELIX,Negro,5,2018-02-05,0
+0005122,L/L ELIXIR DE VIDA ELIX D AMOR,Negro,2,2018-02-05,0
+0005125,L/L ELIXIR DE VIDA ELIXIR ROSE,Negro,5,2018-02-05,0
+0005126,L/L ELIXIR DE VIDA LUJO ELIXIR,Negro,3,2018-02-05,0
+0005127,L/L ELIXIR D VIDA TERRA ELIXIR,Negro,2,2018-02-05,0
+0005133,TEMPTATION EAU DE PARFUM,Negro,21,2018-02-05,0
+0005135,TEMPTATION COLOGNE FOR MEN,Negro,13,2018-02-05,0
+0005138,ACNI-DERM CREMA HIDRATANTE,Negro,11,2018-02-05,0
+0005139,O/S COLOR EFFECT NATURAL DIVA,Negro,30,2018-02-05,0
+0005141,Bio Fruit 2 en 1 Pera Manzana (antigua presentación),Negro,22,2018-02-01,0
+0005142,Brio Fruit 2 en 1 Coco Caribeño (antigua presentación),Negro,9,2018-02-01,0
+0005145,BIO FRUIT GRANADA EXOTICA FRESH COLOGNE,Aroma granada ,25,2018-02-05,0
+0005146,BIO FRUIT PERA MANZANA FRESH COLOGNE,Aroma pera, manzana,28,2018-02-05,0
+0005147,TITANIUM LIMPIADOR EXFOLIANTE,Negro,9,2018-02-05,0
+0005148,TITANIUM POST AFEI LOCION ENER,Negro,23,2018-02-05,0
+0005149,TOTAL BLOCK SPF 100,Negro,35,2018-02-05,0
+0005150,TOTAL BLOCK ANT-ED MATT SPF50+,Negro,16,2018-02-05,0
+0005151,ACNI-DERM LIMPIAD MASCAR EXFOL,Negro,5,2018-02-05,0
+0005152,ACNI-DERM TONICO ASTRINGENTE,Negro,6,2018-02-05,0
+0005153,ACNI-DERM CREMA CORRECTORA,Negro,7,2018-02-05,0
+0005154,BIO FRUIT ACONDICIONA ORIGINAL,Negro,2,2018-02-05,0
+0005155,BIO FRUIT SHAMPOO ORIGINAL,Negro,2,2018-02-05,0
+0005156,PERFECT TEN CORRECTOR ESMALTE,Negro,2,2018-02-05,0
+0005157,TITANIUM SHAMPOO,Negro,9,2018-02-05,0
+0005158,C/S COLOR EFFECT URBANA,Negro,1,2018-02-05,0
+0005161,Hydra-Lip Color Intenso Femme Rose,Negro,10,2018-02-01,0
+0011001,ZENTRO BLACK COLOGNE FOR MEN,Negro,18,2018-02-05,0
+0011002,BS UÑA DE GATO SHAMPOO,Negro,1,2018-02-05,0
+0011004,LESENCE BOUQUET ORIENTAL COL,Negro,36,2018-02-12,0
+0011005,LESENCE FLORES & FRUTAS COL,Negro,6,2018-02-05,0
+0011006,LESENCE FLORES DE CEREZO COL,Negro,42,2018-02-05,0
+0011007,BS UÑA DE GATO ACONDICIONADOR,Negro,7,2018-02-05,0
+0011009,PD BAILAMOS EN RIO BODY LOTION,Negro,8,2018-02-05,0
+0011010,PD TE ESP ESTAMBUL BODY LOTION,Negro,6,2018-02-05,0
+0011011,PD BESO DESD VENECIA BODY LOTI,Negro,2,2018-02-05,0
+0011012,BIO EFFECTIVE DEO COCO CARIBEÑO,Negro,29,2018-02-05,0
+0011013,EAU VITALE LAVANDA COLONIA,Negro,16,2018-02-05,0
+0011014,EAU VITALE TE VERDE COLONIA,Negro,28,2018-02-05,0
+0011017,TITANIUM DESODORANTE ANTITRANS,Negro,2,2018-02-05,0
+0011020,Ultra Defition Delineador Liquido Ojos Azul Metal,Negro,2,2018-02-01,0
+0011024,ULTRA DEF DEL LAP OJO NEGRO AB,Negro,296,2018-02-05,0
+0011025,BIO EFFECTIVE DEO ORIGINAL,Negro,54,2018-02-05,0
+0011026,BIO EFFECTIVE DEO GRANADA EXOT,Negro,34,2018-02-05,0
+0011027,BIO EFFECTIVE DEO PERA MANZANA,Negro,19,2018-02-05,0
+0011028,SENTIVA BB CREAM MATT,Negro,16,2018-02-05,0
+0011029,PERFECT COVER CORRECTOR CLARO1,Negro,15,2018-02-05,0
+0011030,PERFECT COVER CORRECTOR MEDIA1,Negro,16,2018-02-05,0
+0011031,PERFECT COVER CORRECTOR MEDIA2,Negro,14,2018-02-05,0
+0011032,Color Effect Cuarteto de Sombras Oceanía Ultra,Negro,4,2018-02-01,0
+0011034,L/L HYDRA-LIP COL ESTRE COR FR,Negro,2,2018-02-05,0
+0011035,L/L HYDRA-LIP COL ROSA SIRE FR,Negro,4,2018-02-05,0
+0011039,Perfect Ten Azul Profundo,Negro,5,2018-02-01,0
+0011040,Perfect Ten Reflejos Marinos FR,Negro,5,2018-02-01,0
+0011041,ESM PERFECT TEN ALGAS MARIN FR,Negro,1,2018-02-05,0
+0011042,Perfect Ten Rosa Tornasol,Negro,5,2018-02-01,0
+0011043,Perfect Ten Spondylus FR,Negro,7,2018-02-01,0
+0011046,Clic Rimel Negro,Negro,1,2018-02-01,0
+0011047,ESM PERFECT TEN LILA RETRO,Negro,7,2018-02-05,0
+0011048,ESM PERFECT TEN BURGUNDY,Negro,17,2018-02-05,0
+0011049,ESM PERFECT TEN PASION,Negro,16,2018-02-05,0
+0011050,ESM PERFECT TEN AMANTES Y ENEM,Negro,7,2018-02-05,0
+0011051,ESM PERFECT TEN PLACER ABSOLUT,Negro,29,2018-02-05,0
+0011052,ESM PERFECT TEN AZUL INFINITO,Negro,4,2018-02-05,0
+0011053,ESM PERFECT TEN INSTINTO ANIMA,Negro,10,2018-02-05,0
+0011054,ESM PERFECT TEN SALVAJE,Negro,2,2018-02-05,0
+0011056,ESM PERFECT TEN DUNAS,Negro,5,2018-02-05,0
+0011060,ESM PERFECT TEN WHITE ROSE,Negro,2,2018-02-05,0
+0011061,ESM PERFECT TEN BLANCO NIEVE,Negro,33,2018-02-05,0
+0011062,ESM PERFECT TEN BRILLOS DE ROS,Negro,6,2018-02-05,0
+0011063,ESM PERFECT TEN TE QUIERO ROSA,Negro,8,2018-02-05,0
+0011064,C/S COLOR EFFECT SAVANNA,Negro,8,2018-02-05,0
+0011065,ACENTO TRENDY EAU DE PARFUM,Negro,21,2018-02-05,0
+0011066,FORTE COLOGNE FOR MEN,Negro,7,2018-02-05,0
+0011071,PD ME QUEDO EN SANTORINI COLOG,Negro,2,2018-02-05,0
+0011072,ESM PERFECT TEN AMANT D MEDIAN,Negro,3,2018-02-05,0
+0011073,Hydra-Lip Color Intenso Marsala,Negro,30,2018-02-01,0
+0011075,Gaia Set Hydra Lip y Esmalte,Negro,2,2018-02-01,0
+0011076,Ccori Cristal Set Hydra-lip y Esmalte,Negro,2,2018-02-01,0
+0011077,Osadia Set Hydra Lip y Esmalte,Negro,1,2018-02-01,0
+0011078,Ccori Set Hydra Lip y Esmalte,Negro,1,2018-02-01,0
+0011083,BS KIDS COLONIA NIÑOS,Negro,41,2018-02-05,0
+0011084,BS KIDS COLONIA NIÑAS,Negro,21,2018-02-05,0
+0011086,BS KIDS PITAHA SH Y ACON NIÑO,Negro,12,2018-02-05,0
+0011087,BS KIDS PITAHA SH Y ACON NIÑA,Negro,22,2018-02-05,0
+0011088,TOTAL BLOCK KIDS SPF 70,Negro,3,2018-02-05,0
+0011089,TOTALIST CONCHA D NACAR CREMA,Negro,30,2018-02-05,0
+0011090,TOTALIST ALOE CREMA MULTIACCIO,Negro,14,2018-02-05,0
+0011091,TOTALIST CONCHA D NACAR LIMPIA,Negro,14,2018-02-05,0
+0011092,TOTALIST ALOE LIMPIADOR MULTIA,Negro,25,2018-02-05,0
+0011093,C/S COLOR EFFECT ETEREA,Negro,6,2018-02-05,0
+0011096,Perfect Ten Rosado Ballet,Negro,3,2018-02-01,0
+0011097,Hydra-Lip Color Intenso Guinda del Oeste,Negro,9,2018-02-01,0
+0011098,Hydra-Lip Color Intenso Cobre del Oeste,Negro,3,2018-02-01,0
+0011099,Hydra-Lip Color Intenso Rojo del Oeste,Negro,6,2018-02-01,0
+0011101,Perfect Ten Lila Etereo,Negro,4,2018-02-01,0
+0011102,ESM PERFECT TEN VERDE FEM,Negro,14,2018-02-05,0
+0011104,Perfect Ten Azul Denim,Negro,4,2018-02-01,0
+0011105,Perfect Ten Guinda Tejano,Negro,2,2018-02-01,0
+0011106,Perfect Ten Ecuestre Chic ,Negro,4,2018-02-01,0
+0011110,PERFECT TEN FORTALECEDOR UÑAS,Negro,3,2018-02-05,0
+0011111,PERFECT TEN BRI SECAN&PROT ESM,Negro,12,2018-02-05,0
+0011112,ULTRA DEF DEL LD OJOS MARRON,Negro,21,2018-02-05,0
+0011114,ULTRA DEF DEL LIQ PLU MARR FRO,Negro,1,2018-02-05,0
+0011117,Color Effect Cuarteto de Sombras Retro Chic,Negro,2,2018-02-01,0
+0011118,Perfect Ten Supernova,Negro,5,2018-02-01,0
+0011119,Perfect Ten Psicodelico,Negro,4,2018-02-01,0
+0011122,Perfect Ten Sudio 54,Negro,9,2018-02-01,0
+0011123,Hydra-Lip Color Intenso Rosa Soft,Negro,10,2018-02-01,0
+0011124,L/L HYDRA-LIP COLOR ROSE CORAL,Negro,6,2018-02-05,0
+0011125,L/L HYDRA-LIP COLOR ROJO ABBA,Negro,5,2018-02-05,0
+0011126,L/L HYDRA-LIP COLOR ROJO DISCO,Negro,5,2018-02-05,0
+0011127,PD SANTORINI BODY LOTION,Negro,1,2018-02-05,0
+0011129,Hydra-Lip Color Intenso Rosa Light,Negro,5,2018-02-01,0
+0011130,Hydra-Lip Color Intenso Mitica,Negro,8,2018-02-01,0
+0011131,GAIA EAU DE PARFUM EDIC LIMIT,Negro,11,2018-02-05,0
+0011132,ACENTO INTENSE EAU DE PARFUM,Negro,13,2018-02-05,0
+0011139,L/L HYDRA-LIP LD AMOR CHOCOLAT MY,Negro,8,2018-02-05,0
+0011140,L/L HYDRA-LIP LD ROSA SUEÑOS MY,Negro,1,2018-02-05,0
+0011141,L/L HYDRA-LIP LD BESO GITANO MY,Negro,4,2018-02-05,0
+0011142,L/L HYDRA-LIP LD ROJO INTENSO MY,Negro,3,2018-02-05,0
+0011144,Hydra-Lip Color Intenso Kaki,Negro,15,2018-02-01,0
+0011146,L/L HYDRA-LIP COLOR ROJO SALVA,Negro,2,2018-02-05,0
+0011148,L/L HYDRA-LIP COLOR REINO CORAL,Negro,2,2018-02-05,0
+0011150,L/L HYDRA-LIP COLOR ROJO ZEN,Negro,1,2018-02-05,0
+0011151,C/S COLOR EFFECT JUNGLARIA,Negro,7,2018-02-05,0
+0011152,C/S COLOR EFFECT SAKURA,Negro,2,2018-02-05,0
+0011155,Perfect Ten Selva Nocturna,Negro,3,2018-02-01,0
+0011157,ESM PERFECT TEN FLORESTA,Negro,3,2018-02-05,0
+0011158,Perfect Ten Verde Tropical,Negro,2,2018-02-01,0
+0011161,Perfect Ten Fucsia Imperio,Negro,2,2018-02-01,0
+0011162,Perfect Ten Noche En Tokio ,Negro,2,2018-02-01,0
+0011163,L/LIQ HYDRA-LIP FLOR CEREZO,Negro,6,2018-02-05,0
+0011164,L/LIQ HYDRA-LIP MORA CALMA,Negro,9,2018-02-05,0
+0011180,SENTIVA EXFOLIANTE FACIAL,Negro,5,2018-02-05,0
+0011183,Ultra Definitior Delineador en Lapiz Labios Almendra,Negro,1,2018-02-01,0
+0011196,TOTAL BLOCK REPELENTE SPF 30,Negro,15,2018-02-05,0
+0011197,ZITRIKA COLONIA LIMON,Negro,20,2018-02-05,0
+0011198,ZITRIKA COLONIA MANDARINA,Negro,13,2018-02-05,0
+0011199,EAU DE SEDA EAU DE PARFUM ORIGINAL,Negro,29,2018-02-05,0
+0011200,EAU DE SEDA DIAMA EAU D PARFUM,Negro,33,2018-02-05,0
+0011202,CCORI BODY LOTION,Negro,18,2018-02-05,0
+0011205,CCORI PASION BODY LOTION,Negro,17,2018-02-05,0
+0011208,TEMPTATION GEL DESPUES AFEITAR,Negro,1,2018-02-05,0
+0011209,AROM GEL DESPUES DE AFEITAR,Negro,1,2018-02-05,0
+0011212,ZENTRO GEL DESPUES DE AFEITAR,Negro,1,2018-02-05,0
+0011213,ULTRA DEF DEL LAP OJO MARRON,Negro,13,2018-02-05,0
+0011215,ULTRA DEF DEL LAP OJO AZU NOCH,Negro,20,2018-02-05,0
+0011216,ULTRA DEF DEL LAP INT OJ PERLA,Negro,4,2018-02-05,0
+0011218,ULTRA DEF DEL CEJAS MARRON MED,Negro,17,2018-02-05,0
+0011219,ULTRA DEF DEL LAB ROJO ENCENDI,Negro,33,2018-02-05,0
+0011222,ULTRA DEF DEL LAB TOFFEE IMPER,Negro,123,2018-02-05,0
+0011224,ULTRA DEF DEL LAB CHOCOLATE,Negro,44,2018-02-05,0
+0011226,ULTRA DEF DEL LAB PALO DE ROSA,Negro,19,2018-02-05,0
+0011227,ULTRA DEF DEL LAB VINO,Negro,68,2018-02-05,0
+0011229,AROM POUR HOMME DESODORANTE,Negro,20,2018-02-05,0
+0011231,SOLO DESODORANTE,Negro,4,2018-02-05,0
+0011233,TEMPTATION FOR MEN DESODORANTE,Negro,7,2018-02-05,0
+0011234,CCORI DESODORANTE,Negro,4,2018-02-05,0
+0011235,GAIA DESODORANTE,Negro,1,2018-02-05,0
+0011236,CCORI PASION DESODORANTE,Negro,5,2018-02-05,0
+0011240,ZENTRO DESODORANTE,Negro,3,2018-02-05,0
+0011243,BIO MILK MANOS PERA MANZANA,Negro,45,2018-02-05,0
+0011244,BIO MILK MANOS COCO CARIBEÑO,Negro,25,2018-02-05,0
+0011245,BIO MILK MANOS FRESA FRAMBUESA,Negro,35,2018-02-05,0
+0011248,Bio Fruit Shampoo y Acondicionar Granada Exótica (antigua presentación),Negro,8,2018-02-01,0
+0011251,ULTRA DEF DEL PLUM OJOS NEGRO,Negro,37,2018-02-05,0
+0011252,ULTRA DEF DEL PLUM OJOS MARRON,Negro,1,2018-02-05,0
+0011253,ULTRA DEF DEL PLUM OJOS AZUL,Negro,2,2018-02-05,0
+0011254,Y. LABIAL PINK CORAL,Negro,4,2018-02-05,0
+0011260,SOY DULCE FRESH COLOGNE,Negro,3,2018-02-05,0
+0011261,SOY FASHION FRESH COLOGNE,Negro,5,2018-02-05,0
+0011262,SOY SEXY FRESH COLOGNE,Negro,5,2018-02-05,0
+0011263,Y. RIMEL NEGRO,Negro,8,2018-02-05,0
+0011266,SENTIVA EXTRACTO DIVINO CONCEN,Negro,14,2018-02-05,0
+0011268,L/L HYDRA-LIP CRAYON FUCS ORIE,Negro,2,2018-02-05,0
+0011269,L/L HYDRA-LIP CRAYON LILA ASIA,Negro,2,2018-02-05,0
+0011270,Perfect Ten Marsala Indomable ,Negro,6,2018-02-01,0
+0011272,SENTIVA MASCARILLA FACIAL,Negro,11,2018-02-05,0
+0011273,LOCION DE SEDA,Negro,28,2018-02-05,0
+0011274,LOCION DE SEDA DIAMANTES,Negro,5,2018-02-05,0
+0011276,DULCE VANIDAD EAU DE PARFUM,Negro,21,2018-02-05,0
+0011277,UNIQUECIL ROLL RIMEL RIZAD EXT,Negro,148,2018-02-05,0
+0011278,S/S Y. URBANA FEMME,Negro,19,2018-02-05,0
+0011279,S/S Y. AVENTURA CHIC,Negro,20,2018-02-05,0
+0011281,Perfect Ten Exotica Pasion ,Negro,10,2018-02-01,0
+0011282,Y. LABIAL FUCSIA POP,Negro,7,2018-02-05,0
+0011283,Y. LABIAL NARANJA FUN,Negro,5,2018-02-05,0
+0011284,Y. LABIAL ROSA LOVE,Negro,2,2018-02-05,0
+0011285,Y. LABIAL FEMME NACAR,Negro,4,2018-02-05,0
+0011286,Y. LABIAL MALVA SPIRIT,Negro,5,2018-02-05,0
+0011287,Y. LABIAL ROJO FASHION,Negro,4,2018-02-05,0
+0011288,Y. LABIAL TERRA MYSTIC,Negro,5,2018-02-05,0
+0011289,BS UÑA DE GATO CREMA MANOS,Negro,20,2018-02-05,0
+0011290,BS UÑA DE GATO CREMA CUERPO,Negro,5,2018-02-05,0
+0011291,BS UÑA DE GATO GEL EXFOLIADOR,Negro,1,2018-02-05,0
+0011292,BS QUINUA CREMA MANOS,Negro,8,2018-02-05,0
+0011302,LIBERATTA NOIRE PARFUM,Negro,33,2018-02-05,0
+0011304,INDOMITO COLOGNE FOR MEN,Negro,19,2018-02-05,0
+0011305,Vivo Terra Cologne for Men,Negro,5,2018-02-01,0
+0011306,Vivo Herve Cologne for Men,Negro,5,2018-02-01,0
+0011308,C/S COLOR EFFECT HABANA,Negro,11,2018-02-05,0
+0011309,ESM PERFECT TEN SON DE MORA,Negro,4,2018-02-05,0
+0011310,ESM PERFECT TEN MAAAMBO,Negro,2,2018-02-05,0
+0011311,ESM PERFECT TEN COLORADA,Negro,8,2018-02-05,0
+0011312,ESM PERFECT TEN SOL DE CARIBE,Negro,3,2018-02-05,0
+0011313,ESM PERFECT TEN VERDE RUMBA,Negro,3,2018-02-05,0
+0011314,ESM PERFECT TEN MOJITO CARIBEÑ,Negro,4,2018-02-05,0
+0011315,L/L HYDRA-LIP COL CORA CAR FR,Negro,12,2018-02-05,0
+0011316,L/L HYDRA-LIP COLOR TROPIC FR,Negro,5,2018-02-05,0
+0011317,L/L HYDRA-LIP COL HABANERA FR,Negro,3,2018-02-05,0
+0011318,L/LIQ HYDRA-LIP VARADERO LOV,Negro,7,2018-02-05,0
+0011319,L/LIQ HYDRA-LIP AZUUUCAR,Negro,2,2018-02-05,0
+0011320,ESM PERFECT TEN BRILLO D ESTRE,Negro,3,2018-02-05,0
+0011321,ESM PERFECT TEN ROJO DE GALA,Negro,6,2018-02-05,0
+0011322,Perfect Ten Miss Elengance,Negro,1,2018-02-01,0
+0011323,Perfect Ten Seda Diamante,Negro,24,2018-02-01,0
+0011324,ESM PERFECT TEN PURPURA GLAMOU,Negro,12,2018-02-05,0
+0011325,ESM PERFECT TEN AZUL MAGICO,Negro,4,2018-02-05,0
+0011326,L/L HYDRA-LIP LD SUEÑO D BRONC,Negro,11,2018-02-05,0
+0011327,L/L HYDRA-LIP LD ROJO CARAMEL0,Negro,8,2018-02-05,0
+0011328,Lipstay Larga Duración Fiesta Purpura,Negro,2,2018-02-01,0
+0011329,Lipstay Larga Duración Rosa Festiva,Negro,1,2018-02-01,0
+0011330,Lipstay Larga Duración Fucsia Encendido,Negro,6,2018-02-01,0
+0011331,UNIQUECIL RIMEL NEGRO,Negro,48,2018-02-05,0
+0011333,UNIQUECIL RIMEL EXTRA XL NEGRO MY,Negro,46,2018-02-05,0
+0011341,Y. BRILLO LABIAL ROJO STOP,Negro,2,2018-02-05,0
+0011342,Y. BRILLO LABIAL FUCSIA KISS,Negro,2,2018-02-05,0
+0011343,Y. BRILLO LABIAL ROSA CHIC,Negro,2,2018-02-05,0
+0011344,Y. BRILLO LABIAL ROSALICIOUS,Negro,1,2018-02-05,0
+0011345,Y. BRILLO LABIAL LOVELY CORAL,Negro,3,2018-02-05,0
+0011347,ESM PERFECT TEN RED LINE,Negro,6,2018-02-05,0
+0011348,ESM PERFECT TEN FRAMBUESA 180,Negro,6,2018-02-05,0
+0011349,ESM PERFECT TEN ROSA ELECTRICO,Negro,23,2018-02-05,0
+0011350,ESM PERFECT TEN FUCSIA TECNOLO,Negro,4,2018-02-05,0
+0011351,ESM PERFECT TEN ROSA 3D,Negro,5,2018-02-05,0
+0011352,L/L HYDRA-LIP COLOR FUTUR RED,Negro,2,2018-02-05,0
+0011355,L/L HYDRA-LIP COL PSICODE FUCS,Negro,3,2018-02-05,0
+0011356,L/L HYDRA-LIP COLOR GEOME ROS,Negro,11,2018-02-05,0
+0011362,MUSK COLOGNE FOR MEN,Negro,17,2018-02-05,0
+0011363,BIO MILK CREMA MANGO MARAC,Negro,20,2018-02-05,0
+0011365,BIO FRUIT 2EN1 MANG MARAC,Negro,24,2018-02-05,0
+0011372,B/P Y. NUDE,Negro,12,2018-02-05,0
+0011373,B/P Y. BEIGE,Negro,6,2018-02-05,0
+0011375,L/L HYDRA-LIP COL ROJO PAS ANV,Negro,2,2018-02-05,0
+0011376,L/L HYDRA-LIP COL FUC PELI ANV,Negro,1,2018-02-05,0
+0011378,L/L HYDRA-LIP COL BAI ROSA ANV,Negro,2,2018-02-05,0
+0011379,ULTRA DEF DEL BIS OJOS NEGRO,Negro,5,2018-02-05,0
+0011380,C/S COLOR EFFECT FUROR AZUL,Negro,5,2018-02-05,0
+0011381,C/S COLOR EFFECT ROMANCE,Negro,7,2018-02-05,0
+0011382,L/L HYDRA-LIP COLOR VINO REAL,Negro,2,2018-02-05,0
+0011383,L/L HYDRA-LIP COLOR BESO FRAM,Negro,48,2018-02-05,0
+0011384,L/L HYDRA-LIP COLOR SUEÑO ROSE,Negro,51,2018-02-05,0
+0011385,L/L HYDRA-LIP COLOR CLARO ROMA,Negro,5,2018-02-05,0
+0011386,L/L HYDRA-LIP COLOR DULCE ROSA,Negro,3,2018-02-05,0
+0011387,ESM PERFECT TEN SUAVE LAVANDA,Negro,2,2018-02-05,0
+0011389,ESM PERFECT TEN MENTA CRISTAL,Negro,3,2018-02-05,0
+0011390,ESM PERFECT TEN DORADO VERSALLES,Negro,16,2018-02-05,0
+0011391,ESM PERFECT TEN FLOR DE CIRUELA,Negro,1,2018-02-05,0
+0011392,ESM PERFECT TEN SUSPIRO DE ROSA,Negro,2,2018-02-05,0
+0011393,R/CREM Y. ROSADO,Negro,3,2018-02-05,0
+0011394,R/CREM Y. BRONZE,Negro,3,2018-02-05,0
+0011395,R/CREM Y. CORAL,Negro,2,2018-02-05,0
+0011400,PD I LOVE NEW YORK COLOGNE,Negro,56,2018-02-05,0
+0011402,OHM COLOGNE SPRAY ANV,Negro,19,2018-02-05,0
+0011404,B/L HYDRA-LIP ROSA DIAMANTE,Negro,15,2018-02-05,0
+0011405,C/S COLOR EFFECT TERRANOVA,Negro,9,2018-02-05,0
+0011406,L/L HYDRA-LIP COLOR VINO SILVE,Negro,4,2018-02-05,0
+0011407,L/L HYDRA-LIP COLOR ROJO AFRIC,Negro,5,2018-02-05,0
+0011409,ESM PERFECT TEN PURPURA TRIBAL,Negro,7,2018-02-05,0
+0011410,ESM PERFECT TEN ROJO PRIMITIVO,Negro,8,2018-02-05,0
+0011411,ESM PERFECT TEN MADERA AFRICANA,Negro,4,2018-02-05,0
+0011412,ESM PERFECT TEN ARENA DEL DESIERTO,Negro,7,2018-02-05,0
+0011413,ESM PERFECT TEN TERRA AFRICANA,Negro,4,2018-02-05,0
+0011414,ESM PERFECT TEN SELVA MISTERIOSA,Negro,1,2018-02-05,0
+0011415,BIO FRUIT COCO CARIB SHAM & ACON,Negro,3,2018-02-05,0
+0011416,BIO FRUIT PERA MANZA SHAM & ACON,Negro,7,2018-02-05,0
+0011417,BIO FRUIT GRANADA SHAM & ACON,Negro,2,2018-02-05,0
+0011418,BIO MILK COCO CARIB CREMA,Negro,19,2018-02-05,0
+0011419,BIO MILK FRESA FRAM CREMA,Negro,4,2018-02-05,0
+0011421,BIO FRUIT ORIGINAL SHAMPOO,Negro,2,2018-02-05,0
+0011422,BIO FRUIT ORIGINAL ACONDICIONA,Negro,1,2018-02-05,0
+0011426,SOY FELIZ FRESH COLOGNE,Negro,17,2018-02-05,0
+0011427,ELIXIR DE VIDA ROSTRO ANV,Negro,20,2018-02-05,0
+0011429,L/L HYDRA-LIP CRAY MARRON TERR MY,Negro,2,2018-02-05,0
+0011430,L/L HYDRA-LIP CRAY ROJO SAFARI MY,Negro,4,2018-02-05,0
+0011432,L/L HYDRA-LIP LD CORAL ENCENDI MY,Negro,3,2018-02-05,0
+0011434,L/L HYDRA-LIP LD ROJO SILVESTR MY,Negro,2,2018-02-05,0
+0011435,L/L HYDRA-LIP LD TIERRA FUEGO MY,Negro,4,2018-02-05,0
+0011436,L/L HYDRA-LIP LD TIERRA MISTIC MY,Negro,8,2018-02-05,0
+0011437,L/L HYDRA-LIP CRAY PIEL CORAL MY,Negro,3,2018-02-05,0
+0011440,C/S COLOR EFFECT INDUSTRIAL,Negro,6,2018-02-05,0
+0011441,ESM PERFECT TEN TIERRA VOLCANI,Negro,7,2018-02-05,0
+0011442,ESM PERFECT TEN ROJO CUARZO,Negro,12,2018-02-05,0
+0011443,ESM PERFECT TEN INTENSO AMANEC,Negro,4,2018-02-05,0
+0011446,ESM PERFECT TEN BOSQUE D NOCHE,Negro,2,2018-02-05,0
+0011447,L/L HYDRA-LIP COLO COBRE GLAMO,Negro,33,2018-02-05,0
+0011448,L/L HYDRA-LIP COL MARRON INDUS,Negro,52,2018-02-05,0
+0011449,L/L HYDRA-LIP COLO DORADO D GA,Negro,16,2018-02-05,0
+0011450,L/L HYDRA-LIP COLOR ROSA GALAC,Negro,26,2018-02-05,0
+0011451,L/L HYDRA-LIP COLOR ROSADO ACE,Negro,20,2018-02-05,0
+0011452,B/L HYDRA-LIP BRILLANTINA,Negro,6,2018-02-05,0
+0011453,ESM PERFECT TEN METALICA ROSE,Negro,3,2018-02-05,0
+0011454,ESM PERFECT TEN MELON COBRIZO,Negro,49,2018-02-05,0
+0011455,ESM PERFECT TEN COBRE LIQUIDO,Negro,2,2018-02-05,0
+0011456,ESM PERFECT TEN ADAMANTIUM,Negro,2,2018-02-05,0
+0011458,ESM PERFECT TEN AZUL PLATINAD,Negro,6,2018-02-05,0
+0011459,C/S COLOR EFFECT DELUXE,Negro,1,2018-02-05,0
+0011460,CCORI LE PARFUM ANV,Negro,6,2018-02-05,0
+0011461,BS BABY COLONIA,Negro,12,2018-02-05,0
+0011462,BS BABY SHAMPOO,Negro,11,2018-02-05,0
+0011464,P/C Y. NUDE,Negro,10,2018-02-05,0
+0011465,P/C Y. BEIGE,Negro,4,2018-02-05,0
+0011471,SENTIVA BB CREAM,Negro,14,2018-02-05,0
+0011474,L/L HYDRA-LIP CRAY RED ELEGANC MY,Negro,21,2018-02-05,0
+0011476,L/L HYDRA-LIP CRAY ALMEND CHIC MY,Negro,40,2018-02-05,0
+0011478,L/L HYDRA-LIP CRAY LIL ASIATIC MY,Negro,2,2018-02-05,0
+0011486,Exfoliante Gommage en Crema Quinua,Negro,7,2018-02-01,0
+0011487,EAU DE SEDA EAU D PARFUM ANIV,Negro,2,2018-02-05,0
+0011490,Lesence Orquídeas Exóticas Cologne,Negro,6,2018-02-01,0
+0011493,Elixir de Vida Polvos Compactos Anti-edad Mediano 1,Negro,5,2018-02-01,0
+0011501,BIO MILK CREMA HIDRATANTE ORI,Negro,2,2018-02-05,0
+0011503,L/L HYDRA-LIP LD AMOR PICANTE MY,Negro,4,2018-02-05,0
+0011506,L/L HYDRA-LIP LD AMOR CHOCOLAT MY,Negro,18,2018-02-05,0
+0011510,L/L HYDRA-LIP LD FUCSIA ENSUEÑO MY,Negro,1,2018-02-05,0
+0011512,O/S COLOR EFFECT DIVINA BLUE,Negro,1,2018-02-05,0
+0011514,Total Block Kids Spf 70,Negro,11,2018-02-01,0
+0011516,Total Block Anti-edad spf 50+,Negro,7,2018-02-01,0
+0011517,CONTROL BLANC RX DIA,Negro,43,2018-02-05,0
+0011532,ESM PERFECT TEN BEIGE ETRN,Negro,5,2018-02-05,0
+0011533,ESM PERFECT TEN PARTY RED,Negro,3,2018-02-05,0
+0011536,L/L HYDRA-LIP COLOR ROSA TOSC,Negro,9,2018-02-05,0
+001154,Perfect Ten Jungla de Cristal,Negro,4,2018-02-01,0
+0011543,L/L HYDRA-LIP LD CIRUELA LOVE,Negro,12,2018-02-05,0
+0011545,L/L HYDRA-LIP LD RED SHINE,Negro,10,2018-02-05,0
+0011546,L/L HYDRA-LIP LD FUCSIA SHOCK,Negro,9,2018-02-05,0
+0011547,LIBERATTA CREMA PERFUM ORIGI,Negro,2,2018-02-05,0
+0011548,Liberatta Noire Creme Parfumee,Negro,9,2018-02-01,0
+0011552,Perfect Ten Rojo Sunset,Negro,1,2018-02-01,0
+0011553,Perfect Ten Aqua Menta,Negro,2,2018-02-01,0
+0011554,Perfect Ten Art Sky ,Negro,1,2018-02-01,0
+0011555,Perfect Ten Blanc Harmony,Negro,1,2018-02-01,0
+0011556,Perfect Ten Acrylic Blue,Negro,1,2018-02-01,0
+0011557,Color Effect Cuarteto de Sombras Arty Femme,Negro,4,2018-02-01,0
+0011558,Hydra-Lip Color Intenso Vivid Fucsia,Negro,2,2018-02-01,0
+0011559,Hydra-Lip Color Intenso Aquarela Rose,Negro,2,2018-02-01,0
+0011560,Hydra Lip Arty Pink,Negro,1,2018-02-01,0
+0011561,Hydra-Lip Color Intenso CoRAL Art,Negro,2,2018-02-01,0
+0011562,Hydra-Lip Color Intenso Rojo Palette,Negro,1,2018-02-01,0
+0011566,Ultra Definition Delineador en lapiz para Ojos Graffino,Negro,3,2018-02-01,0
+0011573,Color Effect Rubor Compacto Iluminart,Negro,4,2018-02-01,0
+0011580,Total Block spf 50 Rostro y Cuerpo,Negro,4,2018-02-01,0
+0011581,Sentiva Desmaquillador para ojos y fortalecedor pestañas,Negro,5,2018-02-01,0
+0011588,ESM PERFECT TEN GOLD SHIM,Negro,2,2018-02-05,0
+0011589,ESM PERFECT TEN DARK RED,Negro,4,2018-02-05,0
+0011590,ESM PERFECT TEN BLC CHERRY,Negro,7,2018-02-05,0
+0011639,O/S COLOR EFFECT GOLDEN PARTY,Negro,14,2018-02-05,0
+0011678,Perfect Ten Salvaje,Negro,2,2018-02-01,0
+0011683,Perfect Ten Esmalte Amantes de Medianoche,Negro,1,2018-02-01,0
+0011822,TE DESEO EXITO COLOGNE,Negro,14,2018-02-05,0
+0011823,TE DESEO AMOR COLOGNE,Negro,6,2018-02-05,0
+0011824,TE DESEO FELICIDAD COLOGNE,Negro,9,2018-02-05,0
+001550,Perfect Ten Fucsia Femme ,Negro,2,2018-02-01,0
+003910,Delineador Liquido Punta Plumon Mirame a los Ojos,Negro,2,2018-02-01,0
+004280,Color Prisma Cuarteto de Sombras Oasis,Negro,1,2018-02-01,0
 2021755,ARETES NATURAL CRISTAL,Negro,1,2018-02-01,0
 2024184,ARETES COINCIDIR,Negro,1,2018-02-01,0
 2129031,SET ARETES  CRISTAL FEM,Negro,25,2018-02-01,0
+2304313,Arom Shampoo,Negro,2,2018-02-01,0
 2315756,COLECCIÓN TAHITI CHIC,Negro,1,2018-02-01,0
+2353418,MN TOTAL BLOCK SPF 100 20 G,Negro,12,2018-02-05,0
+2353467,PERFECT TEN ESM DISEÑO NEGRO,Negro,1,2018-02-05,0
+2353484,MN SENTIVA EXTRACTO DIVINO CON,Negro,17,2018-02-05,0
+2353509,MN TOTAL BLOCK KIDS SPF 70,Negro,2,2018-02-05,0
+2353518,U/S COLOR EFFECT HABANO CENIZO,Negro,2,2018-02-05,0
+2353522,PERFECT TEN BARNIZ EFECTO MATE,Negro,4,2018-02-05,0
+2364009,Esmalte para Diseño de Uñas Blanco,Negro,2,2018-02-01,0
+2364181,Sentiva Elixir de Vida Comp Reconst Rostro y Cuello 6.5g. ,Negro,11,2018-02-01,0
+2364623,TAJADOR CORPORATIVO,Negro,75,2018-02-05,0
+2364753,Esmalte para Diseño de Uñas Oro,Negro,1,2018-02-01,0
+2366120,Rodillo Masajeador Top Modeling,Negro,1,2018-02-01,0
+2366816,Alto Contraste Lima de Uñas,Negro,1,2018-02-01,0
+2367378,Set de Belleza Zenya Rostro Manos y Pies,Negro,1,2018-02-01,0
+2367723,Porta Cuartetos de Sombras,Negro,8,2018-02-01,0
+2367762,Traveler Dispersador de Perfume Recargable para Mujer,Negro,1,2018-02-01,0
+2367963,Sentiva BB Cream 5g.,Negro,37,2018-02-01,0
+2368251,Sentiva Control Blanc RX 6.5g.,Negro,1,2018-02-01,0
+2368780,Prolong Color Set de Esmaltes Manicure Degrade,Negro,6,2018-02-01,0
+2369414,ESPONJA DE BAÑO KONJAC,Negro,2,2018-02-05,0
+2369694,BILLETERA HOMBRE BARLO,Negro,4,2018-02-05,0
+2372383,BOLSA COLECCION DESEO,Negro,34,2018-02-05,0
 2426200,COLECCIÓN DECO COLOR,Negro,1,2018-02-01,0
 2426470,COLECCIÓN CRISTAL,Negro,1,2018-02-01,0
 2426491,ARETES CRISTAL,Negro,4,2018-02-01,0
@@ -23,6 +893,11 @@
 2431546,SET ARETES LLUVIA AMATIST,Negro,13,2018-02-01,0
 2432583,COLECCIÓN AMATISTA DELUXE,Negro,1,2018-02-01,0
 2439025,ARETES RED FLOR,Negro,20,2018-02-01,0
+2464098,Reloj Plateado Hombre,Negro,6,2018-02-01,0
+2464099,Reloj Dorado Mujer ,Negro,9,2018-02-01,0
+2464256,Reloj Silver ALT,Negro,2,2018-02-01,0
+2464257,Reloj Gold ALT,Negro,1,2018-02-01,0
+2464280,Reloj Aniversario Mujer,Negro,10,2018-02-01,0
 25028100,ARETES DUBAI TOPAZ,Negro,1,2018-02-01,0
 25028202,ARETES FLORE,Negro,1,2018-02-01,0
 25028320,SET ARETES PETIT COLOR,Negro,1,2018-02-01,0

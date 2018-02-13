@@ -18,9 +18,9 @@ if(isset($_SESSION['login'])) {
             $descuento=1-($fila1['porcentaje']/100);
         }
 
-        $totalproducto=$fila['valorUnitario']*$fila['cantidad']*$descuento;
+        $totalproducto=(($fila['valorUnitario'] * $descuento) - $fila['descuentoMonetario']) * $fila['cantidad'];
 
-        $total=$total+$totalproducto;
+        $total=$total + $totalproducto;
 
         $cantidad=$fila['cantidad'];
         $query=mysqli_query($link,"SELECT * FROM Almacen ORDER BY prioridad ASC");

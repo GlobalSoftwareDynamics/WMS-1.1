@@ -22,7 +22,7 @@ if(isset($_SESSION['login'])) {
 
             // Loop through all table rows, and hide those who don't match the search query
             for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[1];
+                td = tr[i].getElementsByTagName("td")[0];
                 td2 = tr[i].getElementsByTagName("td")[2];
                 td3 = tr[i].getElementsByTagName("td")[4];
                 td4 = tr[i].getElementsByTagName("td")[5];
@@ -98,14 +98,14 @@ if(isset($_SESSION['login'])) {
                         <table class="table table-bordered" id="myTable">
                             <thead class="thead-default">
                             <tr>
-                                <th class="text-center">Imágen</th>
                                 <th class="text-center">SKU</th>
                                 <th class="text-center">ID Catálogo</th>
                                 <th class="text-center">Nombre de Producto</th>
                                 <th class="text-center">Atributo</th>
                                 <th class="text-center">Subcategoría</th>
                                 <th class="text-center">Género</th>
-                                <th class="text-center">Precio</th>
+                                <th class="text-center">Precio Base</th>
+                                <th class="text-center">Precio Oferta</th>
                                 <th class="text-center">Promoción</th>
                             </tr>
                             </thead>
@@ -113,9 +113,9 @@ if(isset($_SESSION['login'])) {
                             <?php
                             $categoria = null;
                             $estado = null;
-                            $query1 = mysqli_query($link, "SELECT * FROM CatalogoProducto WHERE idCatalogo = '{$_POST['idCatalogo']}'");
+                            $query1 = mysqli_query($link, "SELECT idCatalogoProducto,idProducto,precioBase,precio,promocion FROM CatalogoProducto WHERE idCatalogo = '{$_POST['idCatalogo']}'");
                             while ($fila=mysqli_fetch_array($query1)){
-                                $query=mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$fila['idProducto']}'");
+                                $query=mysqli_query($link,"SELECT idProducto,idColor,idSubCategoria,idGenero,nombreCorto FROM Producto WHERE idProducto = '{$fila['idProducto']}'");
                                 while($row = mysqli_fetch_array($query)){
                                     $query2 = mysqli_query($link,"SELECT * FROM Color WHERE idColor = '{$row['idColor']}'");
                                     while($row2 = mysqli_fetch_array($query2)){
@@ -130,15 +130,14 @@ if(isset($_SESSION['login'])) {
                                         $genero = $row2['descripcion'];
                                     }
                                     echo "<tr>
-                                        <!--<td class=\"text-center\"><img src='{$row['urlImagen']}' class='thumbnail' width='40px' height='40px'></td>-->
-                                        <td><a rel=\"popover\" data-img='{$row['urlImagen']}'><img src='{$row['urlImagen']}' width='40px' height='40px'></a></td>
                                         <td class=\"text-center\">{$row['idProducto']}</td>
                                         <td class=\"text-center\">{$fila['idCatalogoProducto']}</td>
                                         <td class=\"text-center\">{$row['nombreCorto']}</td>
                                         <td class=\"text-center\">{$color}</td>
                                         <td class=\"text-center\">{$subcategoria}</td>
                                         <td class=\"text-center\">{$genero}</td>
-                                        <td class=\"text-center\">{$fila['precio']}</td>
+                                        <td class=\"text-center\">{$fila['precioBase']}</td>
+                                        <td class=\"text - center\">{$fila['precio']}</td>
                                         <td class=\"text-center\">{$fila['promocion']}</td>
                                       </tr>";
                                 }

@@ -121,9 +121,9 @@ if(isset($_SESSION['login'])) {
 
             // Loop through all table rows, and hide those who don't match the search query
             for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[1];
-                td2 = tr[i].getElementsByTagName("td")[2];
-                td3 = tr[i].getElementsByTagName("td")[5];
+                td = tr[i].getElementsByTagName("td")[0];
+                td2 = tr[i].getElementsByTagName("td")[1];
+                td3 = tr[i].getElementsByTagName("td")[4];
                 if ((td)&&(td2)&&(td3)) {
                     if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
                         if(td2.innerHTML.toUpperCase().indexOf(filter2) > -1){
@@ -183,11 +183,10 @@ if(isset($_SESSION['login'])) {
                 </div>
                 <div class="spacer10"></div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12" style="overflow-y: scroll; height: 500px;">
                         <table class="table table-bordered" id="myTable">
                             <thead class="thead-default">
                             <tr>
-                                <th class="text-center">Imágen</th>
                                 <th class="text-center">SKU</th>
                                 <th class="text-center">Nombre de Producto</th>
                                 <th class="text-center">Atributo</th>
@@ -208,7 +207,7 @@ if(isset($_SESSION['login'])) {
                             $fechaActual = array();
                             $flag = true;
                             $fechaUltimaModificacion = array();
-                            $select = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto IN (SELECT idProducto FROM UbicacionProducto WHERE stock > 0)");
+                            $select = mysqli_query($link, "SELECT idProducto,idSubCategoria,idColor,nombreCorto,costoEstimado FROM Producto WHERE idProducto IN (SELECT idProducto FROM UbicacionProducto WHERE stock > 0)");
                             while($row = mysqli_fetch_array($select)){
                                 if($row['idSubCategoria'] === '10'){
                                 }else{
@@ -245,7 +244,6 @@ if(isset($_SESSION['login'])) {
 
                                     $costoEstimado = round($row['costoEstimado'],2);
                                     echo "<tr>
-                                        <td><a rel=\"popover\" data-img='{$row['urlImagen']}'><img src='{$row['urlImagen']}' width='40px' height='40px'></a></td>
                                         <td class=\"text-center\">{$row['idProducto']}</td>
                                         <td class=\"text-center\">{$row['nombreCorto']}</td>
                                         <td class=\"text-center\">{$color}</td>

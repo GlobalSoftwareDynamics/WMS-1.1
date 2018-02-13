@@ -1,1 +1,2 @@
 ﻿Transaccion,Responsable,Fecha de Vencimiento,Deudor,Monto (S/.)
+OV18B08U0920,Usuario Prueba,2018-02-11,Carvasq E.I.R.L.,35.66
