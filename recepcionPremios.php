@@ -22,9 +22,9 @@ if(isset($_SESSION['login'])) {
 		$escalaDescuento = 0;
 		$query = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$_POST['idTransaccion']}'");
 		$add = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$_POST['idProductoAdd']}','{$_POST['idTransaccion']}',null,null,null,0,{$_POST['cantidad']},
-		null,'{$_POST['notas']}',null,null,null)");
+		null,'{$_POST['notas']}',null,null,null,0)");
 		$queryPerformed = "INSERT INTO TransaccionProducto VALUES ({$_POST['idProductoAdd']},{$_POST['idTransaccion']},null,null,null,0,{$_POST['cantidad']},
-		null,{$_POST['notas']},null,null,null)";
+		null,{$_POST['notas']},null,null,null,0)";
 		$databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','OCP-addProducto','{$queryPerformed}')");
 	}
 

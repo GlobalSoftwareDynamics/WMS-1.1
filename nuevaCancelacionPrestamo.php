@@ -43,7 +43,7 @@ if(isset($_SESSION['login'])) {
 
 	    $insert = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$idPago}',5,'{$idDeudor}',2,'{$_SESSION['user']}',null,null,'{$dateTime}',null,null,0,'{$_POST['idProductoSelect']}','{$_POST['idTransaccion']}',null,null)");
 	    $insert = mysqli_query($link,"INSERT INTO TransaccionProducto VALUES ('{$_POST['idProductoSelect']}','{$idPago}',null,'{$_POST['ubicacionAlmacen']}',null,
-                  {$valorUnitarioPrestamo},{$_POST['cantidadDevuelta']},null,'{$_POST['idProductoSelect']}',{$stockTotal},{$stockFinal},null)");
+                  {$valorUnitarioPrestamo},{$_POST['cantidadDevuelta']},null,'{$_POST['idProductoSelect']}',{$stockTotal},{$stockFinal},null,0)");
 	    $update = mysqli_query($link,"UPDATE Transaccion SET montoRestante = {$montoRestante} WHERE idTransaccion = '{$_POST['idTransaccion']}'");
 	    if($flagUbicacion){
 		    $update = mysqli_query($link, "UPDATE UbicacionProducto SET stock = '{$stockUbicacion}', fechaModificacion = '{$date}' WHERE idProducto = '{$_POST['idProductoSelect']}' AND idUbicacion = '{$_POST['ubicacionAlmacen']}'");
@@ -116,7 +116,7 @@ if(isset($_SESSION['login'])) {
 	        $insert = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$idPago}',5,'{$idDeudor}',2,'{$_SESSION['user']}',null,null,'{$dateTime}',null,null,0,'{$idProductoPago}','{$_POST['idTransaccion']}',null,null)");
 
 	        $insert = mysqli_query($link,"INSERT INTO TransaccionProducto VALUES ('{$idProductoPago}','{$idPago}',null,'{$_POST['ubicacionAlmacen']}',null,{$_POST['precio']},{$_POST['cantidadProducto']},null,
-                                                '{$idProductoPago}',{$stockTotal},{$stockFinal},null)");
+                                                '{$idProductoPago}',{$stockTotal},{$stockFinal},null,0)");
 	        $update = mysqli_query($link,"UPDATE Transaccion SET montoRestante = '{$montoRestanteFinal}' WHERE idTransaccion = '{$_POST['idTransaccion']}'");
         }
 

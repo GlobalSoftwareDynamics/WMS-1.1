@@ -70,7 +70,7 @@ if(isset($_SESSION['login'])) {
         }
 
         $insert = mysqli_query($link,"INSERT INTO TransaccionProducto VALUES ('{$_POST['idProducto']}','{$_POST['idOrdenRecepcion']}',null,'{$_POST['ubicacionAlmacen']}',
-        null,null,'{$_POST['cantidadRecibida']}',null,'{$_POST['observacion']}','{$stockTotal}',{$stockTotalUpdate},FALSE)");
+        null,null,'{$_POST['cantidadRecibida']}',null,'{$_POST['observacion']}','{$stockTotal}',{$stockTotalUpdate},FALSE,0)");
         if(!$insert){
             $cantidadRecibidaTotal = $_POST['cantidadRecibida'];
             $search = mysqli_query($link, "SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$_POST['idOrdenRecepcion']}' AND idProducto = '{$_POST['idProducto']}'");
