@@ -51,10 +51,13 @@ function promocionCatalogo(val,val2){
 }
 
 function conteoInventarioStock(producto,val) {
+
+    var idproducto = document.getElementById("idProducto").value;
+
     $.ajax({
         type: "POST",
         url: "getAjax.php",
-        data:{'conteoInventarioStock':producto, 'ubicacion':val},
+        data:{'conteoInventarioStock':idproducto, 'ubicacion':val},
         success: function(data){
             $("#stockfinal").html(data);
         }
@@ -89,6 +92,9 @@ function getubicacionprod(val) {
 }
 
 function getUbicacionAlmacen(val) {
+
+    console.log(val);
+
     $.ajax({
         type: "POST",
         url: "getAjax.php",

@@ -46,14 +46,13 @@ if(isset($_SESSION['login'])) {
                                     <input type="hidden" name="idProducto" id="idProducto" value="<?php echo $_POST['idProducto'];?>">
                                     <div class="form-group row">
                                         <?php
-                                        $producto = $_POST['idProducto'];
                                         $clase="TU";
                                         $codigo=idgen($clase);
                                         echo "<input type='hidden' name='codigo' value='{$codigo}' readonly>"
                                         ?>
                                         <label for="ubiini" class="col-3 col-form-label">Ubicación Inicial:</label>
                                         <div class="col-9">
-                                            <select name='ubicacioninicial' id='ubiini' class='form-control' onchange="conteoInventarioStock(<?php echo $producto;?>,this.value)">
+                                            <select name='ubicacioninicial' id='ubiini' class='form-control' onchange="conteoInventarioStock(<?php echo $_POST['idProducto'];?>,this.value)">
                                                 <option>Seleccionar</option>
                                                 <?php
                                                 $result1=mysqli_query($link,"SELECT * FROM UbicacionProducto WHERE idProducto ='{$_POST['idProducto']}'");

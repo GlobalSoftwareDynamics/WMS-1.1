@@ -934,6 +934,7 @@
 001550,Perfect Ten Fucsia Femme ,Negro,Collares,Unisex,Activo
 003910,Delineador Liquido Punta Plumon Mirame a los Ojos,Negro,Collares,Unisex,Activo
 004280,Color Prisma Cuarteto de Sombras Oasis,Negro,Collares,Unisex,Activo
+0091390,Total Block, SPF 100 x 2,Capitalización,Protectores Solares,Unisex,Activo
 2021755,ARETES NATURAL CRISTAL,Negro,Collares,Unisex,Activo
 2024184,ARETES COINCIDIR,Negro,Collares,Unisex,Activo
 2129031,SET ARETES  CRISTAL FEM,Negro,Collares,Unisex,Activo

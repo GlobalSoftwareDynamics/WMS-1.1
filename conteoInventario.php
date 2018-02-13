@@ -43,7 +43,7 @@ if(isset($_SESSION['login'])) {
                             <div class="col-12">
                                 <div class="spacer10"></div>
                                 <form method='post' action="gestionInventario.php" id="formConteo">
-                                    <input type="hidden" name="idProducto" value="<?php echo $_POST['idProducto'];?>">
+                                    <input type="hidden" name="idProducto" id="idProducto" value="<?php echo $_POST['idProducto'];?>">
                                     <div class="form-group row">
                                         <?php
                                         $clase="CI";
