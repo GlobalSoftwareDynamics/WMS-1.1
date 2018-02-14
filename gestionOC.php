@@ -41,15 +41,17 @@ if(isset($_SESSION['login'])) {
     <script>
         function myFunction() {
             // Declare variables
-            var input, input2, input3, input4, filter, filter2, filter3, filter4, table, tr, td, td2, td3, td4, i;
+            var input, input2, input3, input4, input5, filter, filter2, filter3, filter4, filter5, table, tr, td, td2, td3, td4, td5, i;
             input = document.getElementById("idTransaccion");
-            input2 = document.getElementById("fechaCreacion");
-            input3 = document.getElementById("fechaRecepcion");
-            input4 = document.getElementById("estado");
+            input2 = document.getElementById("persona");
+            input3 = document.getElementById("fechaCreacion");
+            input4 = document.getElementById("fechaRecepcion");
+            input5 = document.getElementById("estado");
             filter = input.value.toUpperCase();
             filter2 = input2.value.toUpperCase();
             filter3 = input3.value.toUpperCase();
             filter4 = input4.value.toUpperCase();
+            filter5 = input5.value.toUpperCase();
             table = document.getElementById("myTable");
             tr = table.getElementsByTagName("tr");
 
@@ -59,12 +61,17 @@ if(isset($_SESSION['login'])) {
                 td2 = tr[i].getElementsByTagName("td")[1];
                 td3 = tr[i].getElementsByTagName("td")[2];
                 td4 = tr[i].getElementsByTagName("td")[3];
+                td5 = tr[i].getElementsByTagName("td")[4];
                 if ((td)&&(td2)) {
                     if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
                         if(td2.innerHTML.toUpperCase().indexOf(filter2) > -1){
                             if(td3.innerHTML.toUpperCase().indexOf(filter3) > -1){
                                 if(td4.innerHTML.toUpperCase().indexOf(filter4) > -1){
-                                    tr[i].style.display = "";
+                                    if(td4.innerHTML.toUpperCase().indexOf(filter4) > -1){
+                                        tr[i].style.display = "";
+                                    }else{
+                                        tr[i].style.display = "none";
+                                    }
                                 }else{
                                     tr[i].style.display = "none";
                                 }
@@ -74,7 +81,7 @@ if(isset($_SESSION['login'])) {
                         }else{
                             tr[i].style.display = "none";
                         }
-                    } else {
+                    }else {
                         tr[i].style.display = "none";
                     }
                 }
@@ -111,7 +118,9 @@ if(isset($_SESSION['login'])) {
 							<form class="form-inline justify-content-center" method="post" action="#">
 								<label class="sr-only" for="idTransaccion">Orden #</label>
 								<input type="text" class="form-control mt-2 mb-2 mr-2" id="idTransaccion" placeholder="Orden #" onkeyup="myFunction()">
-								<label class="sr-only" for="fechaCreacion">Fecha de Creación</label>
+                                <label class="sr-only" for="persona">Persona</label>
+                                <input type="text" class="form-control mt-2 mb-2 mr-2" id="persona" placeholder="Nombre" onkeyup="myFunction()">
+                                <label class="sr-only" for="fechaCreacion">Fecha de Creación</label>
 								<input type="text" class="form-control mt-2 mb-2 mr-2" id="fechaCreacion" placeholder="Fecha de Creación" onkeyup="myFunction()">
 								<label class="sr-only" for="fechaRecepcion">Fecha Estimada</label>
 								<input type="text" class="search-key form-control mt-2 mb-2 mr-2" id="fechaRecepcion" placeholder="Fecha Estimada/OC Relacionada" onkeyup="myFunction()">
@@ -137,6 +146,7 @@ if(isset($_SESSION['login'])) {
 						<thead class="thead-default">
 						<tr>
 							<th class="text-center">Orden #</th>
+                            <th class="text-center">Persona</th>
 							<th class="text-center">Fecha de Creación</th>
 							<th class="text-center">Fecha Estimada de Recepción/OC Relacionada</th>
 							<th class="text-center">Estado</th>
@@ -157,8 +167,13 @@ if(isset($_SESSION['login'])) {
 							while($row2 = mysqli_fetch_array($query2)){
 								$estado = $row2['descripcion'];
 							}
+                            $query2 = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+                            while($row2 = mysqli_fetch_array($query2)){
+                                $nombreProveedor = $row2['nombre'];
+                            }
 							echo "<tr>
                                         <td class=\"text-center\">{$row['idTransaccion']}</td>
+                                        <td class=\"text - center\">{$nombreProveedor}</td>
                                         <td class=\"text-center\">{$fechaTransaccion[0]} - {$fechaTransaccion[1]}</td>
                                         <td class=\"text-center\">{$row['fechaEstimada']}</td>
                                         <td class=\"text-center\">{$estado}</td>

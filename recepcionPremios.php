@@ -8,12 +8,16 @@ if(isset($_SESSION['login'])) {
 	$proveedor = null;
 	if(!isset($_POST['recProd'])){
 	    if(isset($_GET['idTransaccionRel'])){
-		    $recProd = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$idOCP}','4','Proveedor1','1','{$_SESSION['user']}', null, null,'{$dateTime}', '{$_GET['idTransaccionRel']}', null, null, null, NULL, null, null)");
-		    $queryPerformed = "INSERT INTO Transaccion VALUES ({$idOCP},4,Proveedor1,1,{$_SESSION['user']}, null, null,{$dateTime}, OC - Premios, null, null, null, null, null, null)";
+	        $result = mysqli_query($link,"SELECT idProveedor FROM Transaccion WHERE idTransaccion = '{$_GET['idTransaccionRel']}'");
+	        while ($fila = mysqli_fetch_array($result)){
+	            $idProveedor = $fila['idProveedor'];
+            }
+		    $recProd = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$idOCP}','4','{$idProveedor}','1','{$_SESSION['user']}', null, null,'{$dateTime}', '{$_GET['idTransaccionRel']}', null, null, null, NULL, null, null)");
+		    $queryPerformed = "INSERT INTO Transaccion VALUES ({$idOCP},4,{$idProveedor},1,{$_SESSION['user']}, null, null,{$dateTime}, OC - Premios, null, null, null, null, null, null)";
 		    $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','OCP','{$queryPerformed}')");
         }else{
-		    $recProd = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$idOCP}','4','Proveedor1','1','{$_SESSION['user']}', null, null,'{$dateTime}', 'OC - Premios', null, null, null, NULL, null, null)");
-		    $queryPerformed = "INSERT INTO Transaccion VALUES ({$idOCP},4,Proveedor1,1,{$_SESSION['user']}, null, null,{$dateTime}, OC - Premios, null, null, null, null, null, null)";
+		    $recProd = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$idOCP}','4','20100102413','1','{$_SESSION['user']}', null, null,'{$dateTime}', 'OC - Premios', null, null, null, NULL, null, null)");
+		    $queryPerformed = "INSERT INTO Transaccion VALUES ({$idOCP},4,20100102413,1,{$_SESSION['user']}, null, null,{$dateTime}, OC - Premios, null, null, null, null, null, null)";
 		    $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','OCP','{$queryPerformed}')");
         }
 	}
