@@ -179,9 +179,9 @@ if (!empty($_POST['getprecioprom'])) {
             while ($row1=mysqli_fetch_array($catalogoscampana)){
                 $aux++;
                 if(!empty($row1['promocion'])){
-                    $array[$aux]=array($row1['precio'],$row1['promocion'],$row1['precioBase']);
+                    $array[$aux]=array($campanaanterior,$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
                 }else{
-                    $array[$aux]=array($row1['precio'],"NA",$row1['precioBase']);
+                    $array[$aux]=array($campanaanterior,$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
                 }
             }
         }else{
@@ -196,9 +196,9 @@ if (!empty($_POST['getprecioprom'])) {
             while ($row1=mysqli_fetch_array($catalogoscampana1)){
                 $aux++;
                 if(!empty($row1['promocion'])){
-                    $array[$aux]=array($row1['precio'],$row1['promocion'],$row1['precioBase']);
+                    $array[$aux]=array($campanaactual,$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
                 }else{
-                    $array[$aux]=array($row1['precio'],"NA",$row1['precioBase']);
+                    $array[$aux]=array($campanaactual,$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
                 }
             }
         }else{
@@ -212,9 +212,9 @@ if (!empty($_POST['getprecioprom'])) {
             while ($row1=mysqli_fetch_array($catalogoscampana1)){
                 $aux++;
                 if(!empty($row1['promocion'])){
-                    $array[$aux]=array($row1['precio'],$row1['promocion'],$row1['precioBase']);
+                    $array[$aux]=array($campanasiguiente,$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
                 }else{
-                    $array[$aux]=array($row1['precio'],"NA",$row1['precioBase']);
+                    $array[$aux]=array($campanasiguiente,$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
                 }
             }
         }else{
@@ -225,23 +225,15 @@ if (!empty($_POST['getprecioprom'])) {
         echo "
             <select class='form-control' name='precio'>
                 <option disabled>Opciones</option>";
-        for ($i=0;$i<4;$i++){
+        for ($i = 0; $i < $aux; $i++){
             if($i===0){
                 echo "
                 <option value='{$array[$i][0]}'>Precio Promedio: S/.{$array[$i][0]}</option>
             ";
-            }elseif ($i===1){
+            }else{
                 echo "
-                <option value='{$array[$i][0]}|{$array[$i][2]}'>Catálogo Anterior: S/.{$array[$i][0]} ({$array[$i][1]})</option>
-            ";
-            }elseif ($i===2){
-                echo "
-                <option value='{$array[$i][0]}|{$array[$i][2]}'>Catálogo Actual: S/.{$array[$i][0]} ({$array[$i][1]})</option>
-            ";
-            }elseif ($i===3){
-                echo "
-                <option value='{$array[$i][0]}|{$array[$i][2]}'>Catálogo Siguiente: S/.{$array[$i][0]} ({$array[$i][1]})</option>
-            ";
+                    <option value='{$array[$i][2]}|{$array[$i][4]}'>C{$array[$i][0]}({$array[$i][1]}): S/.{$array[$i][0]} ({$array[$i][3]})</option>
+                ";
             }
         }
         echo "
