@@ -934,7 +934,15 @@
 001550,Perfect Ten Fucsia Femme ,Negro,Collares,Unisex,Activo
 003910,Delineador Liquido Punta Plumon Mirame a los Ojos,Negro,Collares,Unisex,Activo
 004280,Color Prisma Cuarteto de Sombras Oasis,Negro,Collares,Unisex,Activo
-0091390,Total Block, SPF 100 x 2,Capitalización,Protectores Solares,Unisex,Activo
+0091022,SET TEMPTATION MUJER,SET,Perfumería Dama,Dama,Activo
+0091031,SET EAU DE SEDA,SET,Perfumería Dama,Dama,Activo
+0091185,Total Block, Spf 100 x 2 unidades,2 x 1,Protectores Solares,Unisex,Activo
+0091390,Total Block, Spf 100   2x1,2 X 1,Protectores Solares,Unisex,Activo
+0091400,SET AROM,SET,Perfumería Varón,Varón,Activo
+0092633,SET TEMPTATION VARON,SET,Perfumería Varón,Varón,Activo
+0093577,BS QUINUA CREMA MANOS   2x1,2 X 1,Cuidado de la Piel,Unisex,Activo
+0093595,SET EAU DE SEDA DIAMANTES,SET,Perfumería Dama,Dama,Activo
+0095883,SET WOMAN,SET,Perfumería Dama,Dama,Activo
 2021755,ARETES NATURAL CRISTAL,Negro,Collares,Unisex,Activo
 2024184,ARETES COINCIDIR,Negro,Collares,Unisex,Activo
 2129031,SET ARETES  CRISTAL FEM,Negro,Collares,Unisex,Activo

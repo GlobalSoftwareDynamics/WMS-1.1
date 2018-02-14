@@ -132,6 +132,7 @@ if(isset($_SESSION['login'])) {
 				$idProdAdd = 0;
 				$producto = $data -> val($row,$codigo);
 				$cant = $data -> val($row,$cantidad);
+				$tipoProd = $data -> val($row,'F');
 				$search = mysqli_query($link, "SELECT * FROM CatalogoProducto WHERE idCatalogoProducto = '{$producto}'");
 				if (!$search) {
 					echo "<script>alert('La lista de Excel contiene productos que no existen en el catálogo actual. La carga se ha interrumpido.');</script>";
@@ -141,12 +142,12 @@ if(isset($_SESSION['login'])) {
 						$idProdAdd = $searchIndex['idProducto'];
 						$search2 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$idProdAdd}'");
 						while($searchIndex2 = mysqli_fetch_array($search2)){
-						    if($searchIndex2['idTipoProducto'] == 1){
+						    if($tipoProd == 1){
 							    $precioUnitario = (((substr($data -> val($row,$pu),1)) * (100 - $escalaDscto)) / 100);
-							    $insert = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProdAdd}','{$_POST['idTransaccion']}',null,null,null,{$precioUnitario},{$cant},null,'Excel',null,null,TRUE)");
+							    $insert = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProdAdd}','{$_POST['idTransaccion']}',null,null,null,{$precioUnitario},{$cant},null,'Excel',null,null,TRUE,0)");
                             }else{
 							    $precioUnitario = (substr($data -> val($row,$pu),1));
-							    $insert = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProdAdd}','{$_POST['idTransaccion']}',null,null,null,{$precioUnitario},{$cant},null,'Excel',null,null,FALSE)");
+							    $insert = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProdAdd}','{$_POST['idTransaccion']}',null,null,null,{$precioUnitario},{$cant},null,'Excel',null,null,FALSE,0)");
                             }
                         }
 					}
