@@ -200,7 +200,7 @@ if(isset($_SESSION['login'])) {
                                                         }else{
 								                            if($estado == 'Abierta'){
 									                            echo "<button name='emitir' class=\"dropdown-item\" type=\"submit\" formaction='#'>Emitir</button>";
-									                            echo "<button name='delete' class=\"dropdown-item\" type=\"submit\" formaction='#'>Eliminar</button>";
+									                            echo "<button name='delete' style='color: red' class=\"dropdown-item\" type=\"submit\" formaction='#'>Eliminar</button>";
 								                            }elseif($estado == 'Emitida'){
 									                            echo "<button name='recepcion' class=\"dropdown-item\" type=\"submit\" formaction='nuevaOR.php'>Registrar Recepción</button>";
 									                            echo "<button name='recepcion' class=\"dropdown-item\" type=\"submit\" formaction='recepcionPremios.php?idTransaccionRel=".$row['idTransaccion']."'>Registrar OC Premios</button>";

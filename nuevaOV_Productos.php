@@ -193,10 +193,11 @@ if(isset($_SESSION['login'])) {
                                         <table class="table text-center">
                                             <thead>
                                             <tr>
-                                                <th class="text-center" style="width: 21%"><label for="Productos">Producto</label></th>
+                                                <th class="text-center" style="width: 10%"><label for="idCatalogo">Cód. Catalogo</label></th>
+                                                <th class="text-center" style="width: 17%"><label for="Productos">Producto</label></th>
                                                 <th class="text-center" style="width: 12%"><label for="cantidad">Cantidad</label></th>
-                                                <th class="text-center" style="width: 17%"><label for="preciosugerido">Precio Unitario (S/.)</label></th>
-                                                <th class="text-center" style="width: 12%"><label for="descento">Promoción</label></th>
+                                                <th class="text-center" style="width: 14%"><label for="preciosugerido">Precio Unitario (S/.)</label></th>
+                                                <th class="text-center" style="width: 10%"><label for="descento">Promoción</label></th>
                                                 <th class="text-center" style="width: 10%"><label for="promocion">Descuento (%)</label></th>
                                                 <th class="text-center" style="width: 10%"><label for="descMonetario">Ajuste (S/.)</label></th>
                                                 <th class="text-center" style="width: 10%"><label for="notas">Notas</label></th>
@@ -205,6 +206,7 @@ if(isset($_SESSION['login'])) {
                                             </thead>
                                             <tbody>
                                             <tr>
+                                                <td id="codigoCatalogo"><input type="number" min="0" class="form-control" name="idCatalogo" id="idCatalogo" onchange="getproductoCatalogo(this.value);"></td>
                                                 <td id="nombreProdID"><input type="text" class="form-control" name="nombreProducto" id="Productos" onchange="getcantidadprod(this.value);getprecioprom(this.value);"></td>
                                                 <td id="maxcantidad"><input type="number" min="0" name="cantidad" class="form-control" id="cantidad"></td>
                                                 <td id="precioprom"><input type="text" name="precio" class="form-control" id="preciosugerido"></td>
@@ -296,7 +298,7 @@ if(isset($_SESSION['login'])) {
                 $subtotalproducto=$row['cantidad'] * $row['valorUnitario'];
                 $subtotal=$subtotal+$subtotalproducto;
 
-                $descuentoproducto=($row['valorUnitario'] * $descuento) - $row['descuentoMonetario'];
+                $descuentoproducto=($row['valorUnitario'] - $row['descuentoMonetario']) * $descuento;
                 $total = ($row['cantidad'] * $descuentoproducto);
 
                 $subtotalsinsunat=$subtotalsinsunat+$total;
@@ -331,31 +333,31 @@ if(isset($_SESSION['login'])) {
                     <tbody>
                     <tr>
                         <th>Venta Público:</th>
-                        <td>S/. <?php echo round($subtotalcatalogo,2)?></td>
+                        <td>S/. <?php echo round($subtotalcatalogo,1)?></td>
                     </tr>
                     <tr>
                         <th>Descuento:</th>
-                        <td>S/. <?php echo round($totaldescuentocatalogo,2)?></td>
+                        <td>S/. <?php echo round($totaldescuentocatalogo,1)?></td>
                     </tr>
                     <tr>
                         <th>Descuento Especial:</th>
-                        <td>S/. <?php echo round($totaldescuento,2)?></td>
+                        <td>S/. <?php echo round($totaldescuento,1)?></td>
                     </tr>
                     <tr>
                         <th>Costo de Envío:</th>
-                        <td>S/. <?php echo round($costoEnvio,2);?></td>
+                        <td>S/. <?php echo round($costoEnvio,1);?></td>
                     </tr>
                     <tr>
                         <th>Sub Total sin Impuestos:</th>
-                        <td>S/. <?php echo round($subtotalsinsunat,2);?></td>
+                        <td>S/. <?php echo round($subtotalsinsunat,1);?></td>
                     </tr>
                     <tr>
                         <th>Percepción RS.261-2005 SUNAT 2%:</th>
-                        <td>S/. <?php echo round($totalsunat,2);?></td>
+                        <td>S/. <?php echo round($totalsunat,1);?></td>
                     </tr>
                     <tr>
                         <th>Total Venta:</th>
-                        <td>S/. <?php echo round($totalventa,2)?></td>
+                        <td>S/. <?php echo round($totalventa,1)?></td>
                     </tr>
                     </tbody>
                 </table>

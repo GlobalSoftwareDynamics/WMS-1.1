@@ -232,7 +232,7 @@ if (!empty($_POST['getprecioprom'])) {
             ";
             }else{
                 echo "
-                    <option value='{$array[$i][2]}|{$array[$i][4]}'>C{$array[$i][0]}({$array[$i][1]}): S/.{$array[$i][0]} ({$array[$i][3]})</option>
+                    <option value='{$array[$i][2]}|{$array[$i][4]}'>C{$array[$i][0]}({$array[$i][1]}): S/.{$array[$i][2]} ({$array[$i][3]})</option>
                 ";
             }
         }
@@ -370,7 +370,7 @@ if (!empty($_POST['getpreciopromID'])) {
 }
 
 if (!empty($_POST['montorestante'])) {
-    $resta=round($_POST['montorestante']-$_POST['cancelado'],2);
+    $resta=round($_POST['montorestante']-$_POST['cancelado'],1);
     if($resta<0){
         $resta=0;
     }
@@ -382,6 +382,22 @@ if (!empty($_POST['categoria'])) {
     while ($fila = mysqli_fetch_array($ubicacion)) {
         echo "<option value='{$fila['idSubCategoria']}'>{$fila['descripcion']}</option>";
     }
+}
+
+if (!empty($_POST['idCatalogoGetProducto'])) {
+    echo "<select class='form-control' name='nombreProducto' id='Productos' onchange='getcantidadprod(this.value);getprecioprom(this.value);'>";
+    echo "<option selected disabled>Seleccionar</option>";
+    $ubicacion = mysqli_query($link, "SELECT * FROM CatalogoProducto WHERE idCatalogoProducto = '{$_POST['idCatalogoGetProducto']}'");
+    while ($fila = mysqli_fetch_array($ubicacion)) {
+        $result = mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$fila['idProducto']}' AND idProducto IN (SELECT idProducto FROM UbicacionProducto WHERE idProducto = '{$fila['idProducto']}')");
+        while ($fila1 = mysqli_fetch_array($result)){
+            $query2 = mysqli_query($link,"SELECT * FROM Color WHERE idColor = '{$fila1['idColor']}'");
+            while($row2 = mysqli_fetch_array($query2)){
+                echo "<option value='{$fila1['nombreCorto']}_{$row2['descripcion']}'>{$fila1['nombreCorto']}_{$row2['descripcion']}</option>";
+            }
+        }
+    }
+    echo "</select>";
 }
 
 if (!empty($_POST['dias'])) {

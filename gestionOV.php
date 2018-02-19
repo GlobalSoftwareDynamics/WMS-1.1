@@ -643,15 +643,15 @@ if(isset($_SESSION['login'])) {
                                                     </button>
                                                     <div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
                                                         <button name='verProductos' class='dropdown-item' type='submit' formaction='detalleOV.php'>Ver Detalle</button>
+                                                        <button href='#' onclick='javascript:doClientPrint();' class='dropdown-item'>Imprimir</button>
                                                         ";
-								if ($estado=='Abierta'){
-									echo "<button name='delete' class='dropdown-item' type='submit' formaction='gestionOV.php'>Eliminar</button>";
-								}
 								if($estado == 'Parcial'){
 									echo "<button name='cancelacion' class='dropdown-item' type='submit' formaction='nuevoMovimiento.php'>Registrar Pago</button>";
 								}
+                                if ($estado=='Abierta'){
+                                    echo "<button name='delete' style='color: red' class='dropdown-item' type='submit' formaction='gestionOV.php'>Eliminar</button>";
+                                }
 								echo "                  
-                                                        <button href='#' onclick='javascript:doClientPrint();' class='dropdown-item'>Imprimir</button>
                                                     </div>
                                                 </div>
                                             </form>

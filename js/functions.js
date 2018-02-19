@@ -203,9 +203,11 @@ function getComparacionSKU(val1,val2,indice) {
     console.log(document.getElementById(producto1).value);
     if (val1 === document.getElementById(producto1).value) {
         console.log("Si");
+        console.log(indice);
         document.getElementById(indice).style.backgroundColor = "#8BFF9A";
     }else{
         console.log("No");
+        console.log(indice);
         document.getElementById(indice).style.backgroundColor = "#FF615B";
     }
 
@@ -218,6 +220,17 @@ function dias(total,cancelado) {
         data:{'dias':total, 'cancelado':cancelado},
         success: function(data){
             $("#fechadias").html(data);
+        }
+    });
+}
+
+function getproductoCatalogo(idCatalogo) {
+    $.ajax({
+        type: "POST",
+        url: "getAjax.php",
+        data:{'idCatalogoGetProducto':idCatalogo},
+        success: function(data){
+            $("#nombreProdID").html(data);
         }
     });
 }

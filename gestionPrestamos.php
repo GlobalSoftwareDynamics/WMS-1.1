@@ -572,12 +572,13 @@ if(isset($_SESSION['login'])) {
 	                            if($estado == 'Parcial'){
 		                            echo "<button name='recepcion' class='dropdown-item' type='submit' formaction='".$sendlink."'>Registrar Devolución</button>";
 	                            }
-	                            if($estado=='Abierta'){
-		                            echo "<button name='delete' class='dropdown-item' type='submit' formaction='#'>Eliminar</button>";
-	                            }
-	                            echo "                 <button name='verProductos' class='dropdown-item' type='submit' formaction='detallePrestamo.php'>Ver Detalle</button>";?>
+	                            echo "  
+                                <button name='verProductos' class='dropdown-item' type='submit' formaction='detallePrestamo.php'>Ver Detalle</button>";?>
                                 <button formaction="#" onclick="javascript:doClientPrint();" class="dropdown-item">Imprimir</button>
 	                            <?php
+                                if($estado=='Abierta'){
+                                    echo "<button name='delete' style='color: red' class='dropdown-item' type='submit' formaction='#'>Eliminar</button>";
+                                }
 	                            echo "                  </div>
                                                 </div>
                                             </form>

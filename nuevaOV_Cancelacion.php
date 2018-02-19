@@ -18,7 +18,7 @@ if(isset($_SESSION['login'])) {
             $descuento=1-($fila1['porcentaje']/100);
         }
 
-        $totalproducto=(($fila['valorUnitario'] * $descuento) - $fila['descuentoMonetario']) * $fila['cantidad'];
+        $totalproducto=(($fila['valorUnitario'] - $fila['descuentoMonetario']) * $descuento)  * $fila['cantidad'];
 
         $total=$total + $totalproducto;
 
@@ -84,7 +84,7 @@ if(isset($_SESSION['login'])) {
                                         <div class="form-group row">
                                             <label for="total" class="col-4 col-form-label">Total:</label>
                                             <div class="col-8 row">
-                                                <input class="form-control" type="text" id="total" name="montototal" value="<?php echo round($totalconflete,2);?>" readonly>
+                                                <input class="form-control" type="text" id="total" name="montototal" value="<?php echo round($totalconflete,1);?>" readonly>
                                             </div>
                                         </div>
                                         <div class="form-group row">
@@ -173,12 +173,12 @@ if(isset($_SESSION['login'])) {
                                         <tbody>
                                         <?php
                                         for ($row = 0; $row < $i; $row++) {
-                                            echo "<tr id='{$i}'>";
+                                            echo "<tr id='{$row}'>";
                                             for ($col = 0; $col < 4; $col++) {
                                                 echo "<td>".$array[$row][$col]."</td>";
                                             }
                                             $sku = strval($array[$row][0]);
-                                            echo "<td><input type='text' name='Producto{$i}' style='background-color: white' class='form-control' form='formOV' onchange='getComparacionSKU(this.value,{$sku},{$i})'><input type='hidden' id='idProducto{$i}' value='{$sku}'></td>";
+                                            echo "<td><input type='text' name='Producto{$row}' style='background-color: white' class='form-control' form='formOV' onchange='getComparacionSKU(this.value,{$sku},{$row})'><input type='hidden' id='idProducto{$row}' value='{$sku}'></td>";
                                             echo "</tr>";
                                         }
                                         ?>

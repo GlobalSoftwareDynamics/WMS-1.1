@@ -1,1 +1,4 @@
 ﻿Nro. Orden,Fecha,Cliente,Estado
+OV18B18V2633,2018-02-18 - 22:27:03,Carvasq E.I.R.L.,Completa
+OV18B12R3356,2018-02-12 - 18:34:02,Carvasq E.I.R.L.,Completa
+OV18B08U0920,2018-02-08 - 21:09:29,Carvasq E.I.R.L.,Parcial

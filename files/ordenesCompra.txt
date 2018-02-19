@@ -1,1 +1,3 @@
 ﻿Nro. Orden,Fecha de Creación,Fecha Estimada de Recepción/OC Relacionada,Estado
+OC18B14W0145,2018-02-14 - 23:02:01,2018-02-17,Parcial
+OC18B14V5547,2018-02-14 - 22:56:16,2018-02-17,Emitida

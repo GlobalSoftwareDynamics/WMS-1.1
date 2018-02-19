@@ -157,12 +157,12 @@ if(isset($_SESSION['login'])) {
                                         $subtotalproducto=$row['cantidad'] * $row['valorUnitario'];
                                         $subtotal=$subtotal+$subtotalproducto;
 
-                                        $descuentoproducto=($row['valorUnitario'] * $descuento) - $row['descuentoMonetario'];
+                                        $descuentoproducto=($row['valorUnitario'] - $row['descuentoMonetario']) * $descuento ;
                                         $total = ($row['cantidad'] * $descuentoproducto);
 
                                         $subtotalsinsunat=$subtotalsinsunat+$total;
 
-                                        $subtotalproductoround=round($subtotalproducto,2);
+                                        $subtotalproductoround=round($subtotalproducto,1);
 
                                         echo "<td>S/. {$subtotalproductoround}</td>";
                                         echo "<td>{$row['observacion']}</td>";
@@ -244,31 +244,31 @@ if(isset($_SESSION['login'])) {
                         <tbody>
                         <tr>
                             <th>SubTotal Venta:</th>
-                            <td>S/. <?php echo round($subtotalcatalogo,2)?></td>
+                            <td>S/. <?php echo round($subtotalcatalogo,1)?></td>
                         </tr>
                         <tr>
                             <th>Descuento:</th>
-                            <td>S/. <?php echo round($totaldescuentocatalogo,2)?></td>
+                            <td>S/. <?php echo round($totaldescuentocatalogo,1)?></td>
                         </tr>
                         <tr>
                             <th>Descuento Especial:</th>
-                            <td>S/. <?php echo round($totaldescuento,2)?></td>
+                            <td>S/. <?php echo round($totaldescuento,1)?></td>
                         </tr>
                         <tr>
                             <th>Costo de Envío:</th>
-                            <td>S/. <?php echo round($costoEnvio,2);?></td>
+                            <td>S/. <?php echo round($costoEnvio,1);?></td>
                         </tr>
                         <tr>
                             <th>Sub Total sin Impuestos:</th>
-                            <td>S/. <?php echo round($subtotalsinsunat,2);?></td>
+                            <td>S/. <?php echo round($subtotalsinsunat,1);?></td>
                         </tr>
                         <tr>
                             <th>Percepción RS.261-2005 SUNAT 2%:</th>
-                            <td>S/. <?php echo round($totalsunat,2);?></td>
+                            <td>S/. <?php echo round($totalsunat,1);?></td>
                         </tr>
                         <tr>
                             <th>Total Venta:</th>
-                            <td>S/. <?php echo round($totalventa,2);?></td>
+                            <td>S/. <?php echo round($totalventa,1);?></td>
                         </tr>
                         </tbody>
                     </table>

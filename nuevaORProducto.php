@@ -83,6 +83,12 @@ if(isset($_SESSION['login'])) {
                                         <div class='col-10'>
                                             <select class='form-control' id='ubicacionAlmacen' name='ubicacionAlmacen'>
                                                 <option selected>Seleccionar</option>
+                                                <?php
+                                                $query2 = mysqli_query($link,"SELECT * FROM UbicacionProducto WHERE idProducto = '{$_POST['idProducto']}'");
+                                                while($row2 = mysqli_fetch_array($query2)){
+                                                    echo "<option value='{$row2['idUbicacion']}'>{$row2['idUbicacion']}</option>";
+                                                }
+                                                ?>
                                             </select>
                                         </div>
 									</div>
