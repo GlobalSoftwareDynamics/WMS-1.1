@@ -23,7 +23,7 @@ if(isset($_SESSION['login'])) {
 
 	if(isset($_POST['addProducto'])){
 
-		$nombreProducto = explode("_",$_POST['producto']);
+		$nombreProducto = explode("_",$_POST['nombreProducto']);
 		$id=mysqli_query($link,"SELECT * FROM Producto WHERE nombreCorto = '{$nombreProducto[0]}'");
 		while ($fila=mysqli_fetch_array($id)){
 			$idProducto = $fila['idProducto'];
@@ -113,17 +113,19 @@ if(isset($_SESSION['login'])) {
                                         <table class="table text-center">
                                             <thead>
                                             <tr>
-                                                <th class="text-center" style="width: 30%"><label for="Productos">Producto</label></th>
+                                            	<th class="text-center" style="width: 10%"><label for="idCatalogo">Cód. Catalogo</label></th>
+                                                <th class="text-center" style="width: 25%"><label for="Productos">Producto</label></th>
                                                 <th class="text-center" style="width: 15%"><label for="cantidad">Cantidad</label></th>
-                                                <th class="text-center" style="width: 25%"><label for="precio">Precio Unitario (S/.)</label></th>
+                                                <th class="text-center" style="width: 20%"><label for="precio">Precio Unitario (S/.)</label></th>
                                                 <th class="text-center" style="width: 15%"><label for="descento">Promoción</label></th>
-                                                <th class="text-center" style="width: 15%"><label for="notas">Notas</label></th>
+                                                <th class="text-center" style="width: 10%"><label for="notas">Notas</label></th>
                                                 <th class="text-center" style="width: 10%"><label for="addProducto">Acciones</label></th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td><input type="text" class="form-control" name="producto" id="Productos" onchange="getcantidadprod(this.value);getprecioprom(this.value)"></td>
+                                            <td id="codigoCatalogo"><input type="number" min="0" class="form-control" name="idCatalogo" id="idCatalogo" onchange="getproductoCatalogo(this.value);"></td>
+                                                <td id="nombreProdID"><input type="text" class="form-control" name="nombreProducto" id="Productos" onchange="getcantidadprod(this.value);getprecioprom(this.value)"></td>
                                                 <td id="maxcantidad"><input type="number" min="0" name="cantidad" class="form-control" id="cantidad"></td>
                                                 <td id="precioprom"><input type="text" name="precio" class="form-control" id="precio"></td>
                                                 <td>

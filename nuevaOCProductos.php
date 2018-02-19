@@ -5,6 +5,7 @@ if(isset($_SESSION['login'])) {
 	include('adminTemplateAutocomplete.php');
 	$idOC = idgen("OC");
 	$proveedor = null;
+
 	if(isset($_POST['addOC'])){
 		$observacion = str_replace(array_keys($replace2),$replace2,$_POST['observaciones']);
 
@@ -15,10 +16,10 @@ if(isset($_SESSION['login'])) {
 
         $costoEnvio = $_POST['costoEnvio'];
 
-		$addOC = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$_POST['idTransaccion']}','4','{$proveedor}','1','{$_SESSION['user']}',null,'{$_POST['tipoOC']}','{$dateTime}','{$_POST['fechaEstimada']}',
+		$addOC = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$_POST['idTransaccion']}','4','{$proveedor}','1','{$_SESSION['user']}','{$_POST['escalaDescuento']}','{$_POST['tipoOC']}','{$dateTime}','{$_POST['fechaEstimada']}',
 		'{$_POST['fechaVencimiento']}','{$costoEnvio}','{$observacion}',NULL,null,null)");
 
-		$queryPerformed = "INSERT INTO Transaccion VALUES ({$_POST['idTransaccion']},4,{$proveedor},1,{$_SESSION['user']},null,{$_POST['tipoOC']},{$dateTime},{$_POST['fechaEstimada']},
+		$queryPerformed = "INSERT INTO Transaccion VALUES ({$_POST['idTransaccion']},4,{$proveedor},1,{$_SESSION['user']},{$_POST['escalaDescuento']},{$_POST['tipoOC']},{$dateTime},{$_POST['fechaEstimada']},
 		{$_POST['fechaVencimiento']},{$costoEnvio},{$observacion},NULL,null,null)";
 
 		$databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','OC','{$queryPerformed}')");

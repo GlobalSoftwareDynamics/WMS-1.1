@@ -387,13 +387,20 @@ if (!empty($_POST['categoria'])) {
 if (!empty($_POST['idCatalogoGetProducto'])) {
     echo "<select class='form-control' name='nombreProducto' id='Productos' onchange='getcantidadprod(this.value);getprecioprom(this.value);'>";
     echo "<option selected disabled>Seleccionar</option>";
-    $ubicacion = mysqli_query($link, "SELECT * FROM CatalogoProducto WHERE idCatalogoProducto = '{$_POST['idCatalogoGetProducto']}'");
+    $ubicacion = mysqli_query($link, "SELECT DISTINCT idProducto FROM CatalogoProducto WHERE idCatalogoProducto = '{$_POST['idCatalogoGetProducto']}'");
     while ($fila = mysqli_fetch_array($ubicacion)) {
         $result = mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$fila['idProducto']}' AND idProducto IN (SELECT idProducto FROM UbicacionProducto WHERE idProducto = '{$fila['idProducto']}')");
         while ($fila1 = mysqli_fetch_array($result)){
             $query2 = mysqli_query($link,"SELECT * FROM Color WHERE idColor = '{$fila1['idColor']}'");
             while($row2 = mysqli_fetch_array($query2)){
                 echo "<option value='{$fila1['nombreCorto']}_{$row2['descripcion']}'>{$fila1['nombreCorto']}_{$row2['descripcion']}</option>";
+            }
+			$query2 = mysqli_query($link,"SELECT * FROM Producto WHERE nombreCorto LIKE '%{$fila1['nombreCorto']}%' AND nombreCorto != '{$fila1['nombreCorto']}'");
+            while($row2 = mysqli_fetch_array($query2)){
+                $query3 = mysqli_query($link,"SELECT * FROM Color WHERE idColor = '{$row2['idColor']}'");
+            while($row3 = mysqli_fetch_array($query3)){
+                echo "<option value='{$row2['nombreCorto']}_{$row3['descripcion']}'>{$row2['nombreCorto']}_{$row3['descripcion']}</option>";
+            }
             }
         }
     }

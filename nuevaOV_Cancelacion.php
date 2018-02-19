@@ -31,7 +31,7 @@ if(isset($_SESSION['login'])) {
                 while ($row2 = mysqli_fetch_array($query2)){
                     $query3 = mysqli_query($link,"SELECT descripcion FROM Color WHERE idColor = '{$row2['idColor']}'");
                     while ($row3 = mysqli_fetch_array($query3)){
-                        $nombre = $row2['nombreCorto']."_".$row3['descripcion'];
+                        $nombre = $row2['nombreCorto'];
                     }
                 }
                 if($cantidad>0&&$row1['stock']>0){

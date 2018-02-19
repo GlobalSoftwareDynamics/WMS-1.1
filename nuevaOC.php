@@ -90,6 +90,12 @@ if(isset($_SESSION['login'])) {
                                             </div>
                                         </div>
                                         <div class="form-group row">
+                                            <label for="escalaDesc" class="col-3 col-form-label">Escala de Desc.:</label>
+                                            <div class="col-9">
+                                                <input class="form-control" type="number" id="escalaDesc" name="escalaDescuento" min='0' max='100'>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
                                             <label for="observaciones" class="col-3 col-form-label">Observaciones:</label>
                                             <div class="col-9">
                                                 <input class="form-control" type="text" id="observaciones" name="observaciones">
