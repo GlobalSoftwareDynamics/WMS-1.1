@@ -15,14 +15,21 @@ if(isset($_SESSION['login'])) {
         while ($row=mysqli_fetch_array($query)){
             $query1=mysqli_query($link,"SELECT * FROM UbicacionProducto WHERE idProducto = '{$fila['idProducto']}' AND idUbicacion IN (SELECT idUbicacion FROM Ubicacion WHERE idAlmacen = '{$row['idAlmacen']}') ORDER BY idUbicacion");
             while ($row1=mysqli_fetch_array($query1)){
+				$query2 = mysqli_query($link,"SELECT nombreCorto, idColor FROM Producto WHERE idProducto = '{$row1['idProducto']}'");
+                while ($row2 = mysqli_fetch_array($query2)){
+                    $query3 = mysqli_query($link,"SELECT descripcion FROM Color WHERE idColor = '{$row2['idColor']}'");
+                    while ($row3 = mysqli_fetch_array($query3)){
+                        $nombre = $row2['nombreCorto'];
+                    }
+                }
                 if($cantidad>0&&$row1['stock']>0){
                     if ($row1['stock']>$cantidad||$row1['stock']===$cantidad){
-                        $array[$i]=array("{$row1['idProducto']}","{$row1['idUbicacion']}",$cantidad);
+                        $array[$i]=array("{$row1['idProducto']}","{$nombre}","{$row1['idUbicacion']}",$cantidad);
                         $cantidad=0;
                         $i++;
                     }else{
                         $cantidad=$cantidad-$row1['stock'];
-                        $array[$i]=array("{$row1['idProducto']}","{$row1['idUbicacion']}",$row1['stock']);
+                        $array[$i]=array("{$row1['idProducto']}","{$nombre}","{$row1['idUbicacion']}",$row1['stock']);
                         $i++;
                     }
                 }
@@ -63,20 +70,24 @@ if(isset($_SESSION['login'])) {
                                             <thead>
                                             <tr>
                                                 <th class="text-center">Producto</th>
+                                                <th class="text-center">Nombre</th>
                                                 <th class="text-center">Ubicación</th>
                                                 <th class="text-center">Cantidad</th>
+                                                <th class="text-center">Comprobación</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <?php
-                                            for ($row = 0; $row < $i; $row++) {
-                                                echo "<tr>";
-                                                for ($col = 0; $col < 3; $col++) {
-                                                    echo "<td>".$array[$row][$col]."</td>";
-                                                }
-                                                echo "</tr>";
-                                            }
-                                            ?>
+											for ($row = 0; $row < $i; $row++) {
+												echo "<tr id='{$row}'>";
+												for ($col = 0; $col < 4; $col++) {
+													echo "<td>".$array[$row][$col]."</td>";
+												}
+												$sku = strval($array[$row][0]);
+												echo "<td><input type='text' name='Producto{$row}' style='background-color: white' class='form-control' form='formOV' onchange='getComparacionSKU(this.value,{$sku},{$row})'><input type='hidden' id='idProducto{$row}' value='{$sku}'></td>";
+												echo "</tr>";
+											}
+											?>
                                             </tbody>
                                         </table>
                                     </form>

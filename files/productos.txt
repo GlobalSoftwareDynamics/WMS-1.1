@@ -2,6 +2,7 @@
 0000872,Solo for men cologne spray ,Negro,Collares,Unisex,Activo
 0000883,OHM COLOGNE SPRAY,Salvia, toronja, lavanda.,Perfumería Varón,Varón,Activo
 0001390,DENDUR COLOGNE FOR MEN,Pimienta negra, jengibre, tabaco.,Perfumería Varón,Varón,Activo
+0001618,Sentiva Hydra-tonic Locion Tonica Cutis Normal O Mixto 180ml,Negro,Limpiadores y Tónicos,Dama,Activo
 0001831,Solo Talco para el Cuerpo Hombre,Negro,Collares,Unisex,Activo
 0001891,Expect for men ,Negro,Collares,Unisex,Activo
 0002183,GAIA EAU DE PARFUM,Negro,Perfumería Dama,Unisex,Activo
@@ -85,6 +86,7 @@
 0003529,ULTRA DEF DEL LIQ PINC NEGRO,Negro,Collares,Unisex,Activo
 0003530,Ultra Definition Delineador Pincel Marron,Negro,Collares,Unisex,Activo
 0003587,COLONIA ZITRIKA LIMÓN,Cítrica con aroma a limón.,Colonia,Unisex,Activo
+0003588,Colonia Ternura Petit Pon Pon 750ml,Negro,Perfumería Dama,Dama,Activo
 0003590,EFFECTIVE BRISA FLORAL DESOD,Negro,Collares,Unisex,Activo
 0003591,Effective Desodorante Poder Absoluto,Negro,Collares,Unisex,Activo
 0003592,Soy Fashion Desodorante,Negro,Collares,Unisex,Activo
@@ -143,7 +145,7 @@
 0003756,Irreverent Desodorante,Negro,Collares,Unisex,Activo
 0003757,TEMPTATION HOMBRE DESOD,Negro,Collares,Unisex,Activo
 0003760,CCORI PASION DESODORANTE,Negro,Collares,Unisex,Activo
-0003762,TEMPTATION MUJER DESODORANTE,Negro,Collares,Unisex,Activo
+0003762,TEMPTATION MUJER DESODORANTE A/P,Negro,Collares,Unisex,Activo
 0003764,Dulce Vanidad Desodorante,Negro,Collares,Unisex,Activo
 0003765,No Limits Desodorante,Negro,Collares,Unisex,Activo
 0003767,Xool Desodorante,Negro,Collares,Unisex,Activo
@@ -228,6 +230,7 @@
 0004232,Hydra-Lip Ultra Hidrat Ultra Amor Secreto,Negro,Collares,Unisex,Activo
 0004236,Hydra-Lip Labial Humect Ultra Jugar con Fuego,Negro,Collares,Unisex,Activo
 0004237,Hydra-Lip Ultra Mora Mia,Negro,Collares,Unisex,Activo
+0004240,BIO MILK CREMA HIDRATANTE ORIGINAL 750 ML,Negro,Cuidado de la Piel,Unisex,Activo
 0004266,TOTALIST 4 CREMA MULTIACTIVA ALOE VERA,Hidrata, nutre, protege, suaviza,Cremas y Sueros,Dama,Activo
 0004267,Totalist Aloe Vera Crema Manos y Cuerpo,Negro,Collares,Unisex,Activo
 0004268,TOTALIST 4 CREMA MULTIACTIVA CONCHA DE NÁCAR,Aclara, reafirma, alisa arruga,  nutre,Cremas y Sueros,Dama,Activo
@@ -342,6 +345,8 @@
 0004714,Clic Esmalte Cool Yellow,Negro,Collares,Unisex,Activo
 0004717,Soy Libre Fresh Cologne,Negro,Collares,Unisex,Activo
 0004718,SOY DULCE FRESH COLOGNE,Frambuesa azucarada, madera blanca, vainilla.,Perfumería Dama,Dama,Activo
+0004719,SOY FASHION FRESH COLOGNE,Negro,Perfumería Dama,Dama,Activo
+0004720,SOY SEXY FRESH COLOGNE,Negro,Perfumería Dama,Dama,Activo
 0004724,Hydra-Lip Ultra Ultra Lady Rose,Negro,Collares,Unisex,Activo
 0004729,Clic Esmalte Blue Punch,Negro,Collares,Unisex,Activo
 0004733,ELIXIR DE VIDA ROSTRO,Negro,Collares,Unisex,Activo
@@ -466,7 +471,7 @@
 0005008,Color Effect Cuarteto de Sombras Boheme,Negro,Collares,Unisex,Activo
 0005009,SET ANTIMANCH CONTROL BLANC RX,Negro,Collares,Unisex,Activo
 0005017,CREMA HIDRATANTE BIO MILK PERA MANZANA,Con proteinas de yogurt probiotico,Cuidado de la Piel,Unisex,Activo
-0005018,CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA,Con proteinas de yogurt probiotico,Cuidado de la Piel,Unisex,Activo
+0005018,CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA A/P,Con proteinas de yogurt probiotico,Cuidado de la Piel,Unisex,Activo
 0005029,SOLO COLOGNE FOR MEN,Negro,Collares,Unisex,Activo
 0005030,DENDUR COLOGNE FOR MEN,Negro,Collares,Unisex,Activo
 0005032,O2XYGEN BLANC COLOGNE FOR MEN,Negro,Collares,Unisex,Activo
@@ -695,7 +700,7 @@
 0011234,CCORI DESODORANTE,Negro,Collares,Unisex,Activo
 0011235,GAIA DESODORANTE,Negro,Collares,Unisex,Activo
 0011236,CCORI PASION DESODORANTE,Negro,Collares,Unisex,Activo
-0011237,TEMPTATION DESODORANTE,Negro,Collares,Unisex,Activo
+0011237,TEMPTATION MUJER DESODORANTE,Negro,Collares,Unisex,Activo
 0011238,UNIQUE WOMAN DESODORANTE,Negro,Collares,Unisex,Activo
 0011239,CCORI CRISTAL DESODORANTE,Negro,Collares,Unisex,Activo
 0011240,ZENTRO DESODORANTE,Negro,Collares,Unisex,Activo
@@ -705,6 +710,7 @@
 0011246,BIO FRUIT COCO CARIBEÑO,Negro,Collares,Unisex,Activo
 0011247,BIO FRUIT PERA MANZANA,Negro,Collares,Unisex,Activo
 0011248,Bio Fruit Shampoo y Acondicionar Granada Exótica (antigua presentación),Negro,Collares,Unisex,Activo
+0011249,BIO FRUIT SHAMPOO ORIGINAL 350 ML,Negro,Cabello,Unisex,Activo
 0011250,BIO FRUIT ORIGINAL ACONDICIONA,Negro,Collares,Unisex,Activo
 0011251,ULTRA DEF DEL PLUM OJOS NEGRO,Negro,Collares,Unisex,Activo
 0011252,ULTRA DEF DEL PLUM OJOS MARRON,Negro,Collares,Unisex,Activo
@@ -837,7 +843,7 @@
 0011416,BIO FRUIT PERA MANZA SHAM & ACON,Negro,Collares,Unisex,Activo
 0011417,BIO FRUIT GRANADA SHAM & ACON,Negro,Collares,Unisex,Activo
 0011418,BIO MILK COCO CARIB CREMA,Negro,Collares,Unisex,Activo
-0011419,BIO MILK FRESA FRAM CREMA,Negro,Collares,Unisex,Activo
+0011419,CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA,Negro,Collares,Unisex,Activo
 0011420,BIO MILK PERA MANZ CREMA,Negro,Collares,Unisex,Activo
 0011421,BIO FRUIT ORIGINAL SHAMPOO,Negro,Collares,Unisex,Activo
 0011422,BIO FRUIT ORIGINAL ACONDICIONA,Negro,Collares,Unisex,Activo
@@ -966,6 +972,7 @@
 2353424,SCH BS KIDS PITA SH Y ACO NIÑA,Negro,Collares,Unisex,Activo
 2353425,SCH BS KIDS PITA SH Y ACO NIÑO,Negro,Collares,Unisex,Activo
 2353445,DM B/M ELIXIR DE VIDA TONO 2,Negro,Collares,Unisex,Activo
+2353453,EAU DE SEDA DIAMANTES EAU DE PARFUM,Negro,Perfumería Dama,Dama,Activo
 2353467,PERFECT TEN ESM DISEÑO NEGRO,Negro,Collares,Unisex,Activo
 2353483,SCH SENTIVA EXTRACTO DIVINO CO,Negro,Collares,Unisex,Activo
 2353484,MN SENTIVA EXTRACTO DIVINO CON,Negro,Collares,Unisex,Activo
@@ -1181,6 +1188,7 @@
 25028479,SET ARETES ALONDRA,Negro,Collares,Unisex,Activo
 25028514,ARETES BALIC,Negro,Collares,Unisex,Activo
 25028542,ARETES ORIENT AZUL,Negro,Collares,Unisex,Activo
+32256,COLECCION VIRGEN DEVINE,COLECCION,Collares,Unisex,Activo
 50031910,PULSERA DEZZEO MAGIC,PULSERA DORADA,Pulseras,Dama,Activo
 5008632,COLLAR URBAN EXPRESS,Negro,Collares,Unisex,Activo
 5009439,ARETES SKALLI,Negro,Collares,Unisex,Activo
@@ -2323,7 +2331,9 @@
 5031840,ARETES TRAPIZZE J15875,Negro,Collares,Unisex,Activo
 5031841,ARETES ROMBIAN J16082,Negro,Collares,Unisex,Activo
 5031842,ARETES OVALDINE DUO J15878,Negro,Collares,Unisex,Activo
+5031857,ARETES ROSATTI PETAL,ARETES,Aretes,Dama,Activo
 5031858,COLLAR ROSATTI PETAL,COLLAR,Collares,Dama,Activo
+5031859,ARETES ROSATTI,ARETES,Aretes,Dama,Activo
 5031869,SORTIJA ROSATTI PETAL T9,SORTIJA,Sortijas,Dama,Activo
 5031879,ARETES CAUTIVANT ,ARETES,Aretes,Dama,Activo
 5031896,COLECCION PERLA BELLE,COLECCION,Colecciones,Dama,Activo
@@ -2331,6 +2341,7 @@
 5031909,SET ARETES INFINITE COLOR,SET ARETES,Aretes,Dama,Activo
 5031913,COLECCIÓN LOVE ROMANCE,Negro,Collares,Unisex,Activo
 5031915,CADENA CESARI,COLLAR,Collares,Dama,Activo
+5031917,SET ARETES DESIREE,SET ARETES,Aretes,Dama,Activo
 5031922,ARETES ALEXA BLANC,Negro,Collares,Unisex,Activo
 5031937,GARGANTILLA GRAZZI J16097,Negro,Collares,Unisex,Activo
 5031938,ARETES GRAZZI J16098,Negro,Collares,Unisex,Activo
@@ -2402,6 +2413,7 @@
 5032260,COLECCIÓN FLORENCE,Negro,Collares,Unisex,Activo
 5032265,SET ARETES PASSIONY J16474,Negro,Collares,Unisex,Activo
 5032268,PULSERA Y ARETES NATIVITY DUO J16477,Negro,Collares,Unisex,Activo
+5032279,ARETES COLOR POP,ARETES,Aretes,Dama,Activo
 5032281,ARETES BUHO LOVE,Negro,Collares,Unisex,Activo
 5032289,COLECCIÓN FRESI BERRY,Negro,Collares,Unisex,Activo
 5032290,SET ARETES FRESY BERRY,Negro,Collares,Unisex,Activo

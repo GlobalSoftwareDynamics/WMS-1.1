@@ -14,6 +14,18 @@ if (!empty($_POST['transferenciaUbicacionUbicacion'])) {
     }
 }
 
+if (!empty($_POST['getubicacionprod'])) {
+	$nombre = explode("_",$_POST['getubicacionprod']);
+	$query = mysqli_query($link, "SELECT idProducto FROM Producto WHERE nombreCorto = '{$nombre[0]}'");
+    while ($row = mysqli_fetch_array($query)) {
+        $idProducto = $row['idProducto'];
+    }
+    $query = mysqli_query($link, "SELECT idUbicacion FROM UbicacionProducto WHERE idProducto = '{$idProducto}'");
+    while ($row = mysqli_fetch_array($query)) {
+        echo "<option value='{$row['idUbicacion']}'>{$row['idUbicacion']}</option>";
+    }
+}
+
 if (!empty($_POST['clasecliente'])) {
     if ($_POST['clasecliente']==="Interno"){
         /*echo "
@@ -224,8 +236,9 @@ if (!empty($_POST['getprecioprom'])) {
 
         echo "
             <select class='form-control' name='precio'>
-                <option disabled>Opciones</option>";
-        for ($i = 0; $i < $aux; $i++){
+                <option disabled>Opciones</option>
+		";
+        for ($i = 0; $i < $aux+1; $i++){
             if($i===0){
                 echo "
                 <option value='{$array[$i][0]}'>Precio Promedio: S/.{$array[$i][0]}</option>
@@ -389,7 +402,7 @@ if (!empty($_POST['idCatalogoGetProducto'])) {
     echo "<option selected disabled>Seleccionar</option>";
     $ubicacion = mysqli_query($link, "SELECT DISTINCT idProducto FROM CatalogoProducto WHERE idCatalogoProducto = '{$_POST['idCatalogoGetProducto']}'");
     while ($fila = mysqli_fetch_array($ubicacion)) {
-        $result = mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$fila['idProducto']}' AND idProducto IN (SELECT idProducto FROM UbicacionProducto WHERE idProducto = '{$fila['idProducto']}')");
+        $result = mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$fila['idProducto']}'");
         while ($fila1 = mysqli_fetch_array($result)){
             $query2 = mysqli_query($link,"SELECT * FROM Color WHERE idColor = '{$fila1['idColor']}'");
             while($row2 = mysqli_fetch_array($query2)){

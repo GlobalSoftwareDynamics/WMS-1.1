@@ -86,7 +86,7 @@ function getubicacionprod(val) {
         url: "getAjax.php",
         data:{'getubicacionprod':val},
         success: function(data){
-            $("#clasecliente").html(data);
+            $("#ubicacionAlmacen").html(data);
         }
     });
 }

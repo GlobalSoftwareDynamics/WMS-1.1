@@ -1,7 +1,7 @@
 <?php
 function autocompletarProducto($table,$campo,$link){
 	$array = '[';
-	$query = mysqli_query($link,"SELECT * FROM {$table} WHERE idEstado = 1 AND idProducto IN (SELECT idProducto FROM UbicacionProducto)");
+	$query = mysqli_query($link,"SELECT * FROM {$table} WHERE idEstado = 1");
 	$aux = 0;
 	$color = 0;
 	$numrows = mysqli_num_rows($query);
@@ -24,7 +24,7 @@ function autocompletarProducto($table,$campo,$link){
 
 function autocompletarProductoB($table,$campo,$link){
     $array = '[';
-    $query = mysqli_query($link,"SELECT {$campo}, idColor FROM {$table} WHERE idEstado = 1 AND idProducto IN (SELECT idProducto FROM UbicacionProducto)");
+    $query = mysqli_query($link,"SELECT {$campo}, idColor FROM {$table} WHERE idEstado = 1");
     $aux = 0;
     $color = 0;
     $numrows = mysqli_num_rows($query);

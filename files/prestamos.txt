@@ -1,1 +1,3 @@
 ﻿Nro. Orden,Responsable,Fecha de Préstamo,Fecha de Vencimiento,Deudor,Estado
+PS18B20R4710,Jessica Adriana Salas Pacheco,2018-02-20,2018-02-21,LIDIA CONDORI ( ROSA NAJAR),Parcial
+PS18B20R2915,Usuario Prueba,2018-02-20,2018-02-21,PATRICIA MEDINA,Parcial

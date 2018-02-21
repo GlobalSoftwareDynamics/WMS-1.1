@@ -115,7 +115,7 @@ include('funciones.php');
 	}
 
 	if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/nuevaOV_DatosGenerales.php'){
-		$arrayProveedoresNoClientes =autocompletarDiferenteAUnaCondicion('Proveedor','nombre',$link,'idTipoProveedor','3');
+		$arrayProveedoresNoClientes =autocompletar('Proveedor','nombre',$link);
 	}
 
 	if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/nuevaOC.php'){
@@ -133,7 +133,7 @@ include('funciones.php');
 	}
 
 	if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/nuevoPrestamoEfectivo.php'){
-		$arrayProveedoresNoClientes =autocompletarDiferenteAUnaCondicion('Proveedor','nombre',$link,'idTipoProveedor','3');
+		$arrayProveedoresNoClientes =autocompletar('Proveedor','nombre',$link);
 
 		?>
         <script>
@@ -147,7 +147,7 @@ include('funciones.php');
 	}
 
     if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/cancelacionPrestamoEfectivo.php'){
-        $arrayProveedoresNoClientes =autocompletarDiferenteAUnaCondicion('Proveedor','nombre',$link,'idTipoProveedor','3');
+        $arrayProveedoresNoClientes =autocompletar('Proveedor','nombre',$link);
 
         ?>
         <script>
@@ -161,7 +161,7 @@ include('funciones.php');
     }
 
 	if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/nuevoPrestamo_DatosGenerales.php'){
-		$arrayProveedoresNoClientes =autocompletarDiferenteAUnaCondicion('Proveedor','nombre',$link,'idTipoProveedor','3');
+		$arrayProveedoresNoClientes =autocompletar('Proveedor','nombre',$link);
 
 		?>
         <script>

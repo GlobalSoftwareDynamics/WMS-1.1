@@ -279,10 +279,10 @@ if(isset($_SESSION['login'])) {
 			echo "<td class='text-center'>{$row2['idProducto']} - {$row2['nombreCorto']}</td>";
 		}
 		echo "<td class='text-center'>{$row['cantidad']}</td>";
-		echo "<td class='text-center'>{$row['valorUnitario']}</td>";
+		echo "<td class='text-center'>S/. {$row['valorUnitario']}</td>";
 		$total = $row['cantidad'] * $row['valorUnitario'];
 		$sumaTotal += $total;
-		echo "<td class='text-center'>{$total}</td>";
+		echo "<td class='text-center'>S/. {$total}</td>";
 		$review2 = mysqli_query($link,"SELECT * FROM Transaccion WHERE referenciaTransaccion = '{$_POST['idTransaccion']}'");
 		while($reviewIndex2 = mysqli_fetch_array($review2)){
 			$review3 = mysqli_query($link, "SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$reviewIndex2['idTransaccion']}' AND idProducto = '{$row['idProducto']}'");
@@ -320,7 +320,7 @@ if(isset($_SESSION['login'])) {
                     <tbody>
                     <tr>
                         <th>Total (S/.)</th>
-                        <td><?php echo $sumaTotal;?></td>
+                        <td>S/. <?php echo $sumaTotal;?></td>
                     </tr>
 
                     <?php
@@ -332,7 +332,7 @@ if(isset($_SESSION['login'])) {
 
                     <tr>
                         <th>Restante (S/.)</th>
-                        <td><?php echo $montoRestanteShow;?></td>
+                        <td>S/. <?php echo $montoRestanteShow;?></td>
                     </tr>
                     </tbody>
                 </table>

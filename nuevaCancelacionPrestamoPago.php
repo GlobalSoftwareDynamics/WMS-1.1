@@ -57,11 +57,11 @@ if(isset($_SESSION['login'])) {
 							</div>
 							<div class="row">
 								<div class="col-3"><p><b>Monto Total: S/.</b></p></div>
-								<div class="col-9"><p><?php echo $montoTotal; ?></p></div>
+								<div class="col-9"><p>S/. <?php echo $montoTotal; ?></p></div>
 							</div>
 							<div class="row">
 								<div class="col-3"><p><b>Monto Restante: S/.</b></p></div>
-								<div class="col-9"><p><?php echo $montoRestante; ?></p></div>
+								<div class="col-9"><p>S/. <?php echo $montoRestante; ?></p></div>
 							</div>
 						</div>
 					</div>
@@ -108,7 +108,7 @@ if(isset($_SESSION['login'])) {
 												<label for="Productos">Producto:</label>
 											</div>
 											<div class="col-8">
-												<input type="text" name="productoSelect" id="Productos" class="form-control" onchange="getprecioprom(this.value)">
+												<input type="text" name="productoSelect" id="Productos" class="form-control" onchange="getprecioprom(this.value);getubicacionprod(this.value)">
 											</div>
 										</div>
 										<div class="row form-group">

@@ -96,13 +96,13 @@ if(isset($_SESSION['login'])) {
 								</div>
 								<div class="row">
 									<div class="col-3"><p><b>Total (S/.):</b></p></div>
-									<div class="col-9"><p><?php $totalPrestado = $cantidadPrestada * $valorUnitario; echo $totalPrestado; ?></p></div>
+									<div class="col-9"><p>S/. <?php $totalPrestado = $cantidadPrestada * $valorUnitario; echo $totalPrestado; ?></p></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-4 offset-1">
+				<div class="col-5">
 					<div class="card">
 						<div class="card-header card-inverse card-info">
 							<div class="float-left">
@@ -112,27 +112,27 @@ if(isset($_SESSION['login'])) {
 						</div>
 						<div class="card-block">
 							<div class="col-12">
-                                <table class="table-striped">
+                                <table class="table-striped text-center" style='width: 100%'>
                                     <tbody>
                                     <tr>
-                                        <td class="col-5"><p><b>Valor Unitario de Préstamo:</b></p></td>
-                                        <td class="col-7"><p><?php echo $valorUnitario; ?></p></td>
+                                        <td><p><b>Valor Unitario de Préstamo:</b></p></td>
+                                        <td><p>S/. <?php echo $valorUnitario; ?></p></td>
                                     </tr>
                                     <tr>
-                                        <td class="col-5"><p><b>Valor Promedio:</b></p></td>
-                                        <td class="col-7"><p><?php echo $valorPromedio; ?></p></td>
+                                        <td><p><b>Valor Promedio:</b></p></td>
+                                        <td><p>S/. <?php echo $valorPromedio; ?></p></td>
                                     </tr>
                                     <tr>
-                                        <td class="col-5"><p><b>Valor Catálogo Anterior:</b></p></td>
-                                        <td class="col-7"><p><?php echo $precioAnterior; ?></p></td>
+                                        <td><p><b>Valor Catálogo Anterior:</b></p></td>
+                                        <td><p>S/. <?php echo $precioAnterior; ?></p></td>
                                     </tr>
                                     <tr>
-                                        <td class="col-5"><p><b>Valor Catálogo Actual:</b></p></td>
-                                        <td class="col-7"><p><?php echo $precioActual; ?></p></td>
+                                        <td><p><b>Valor Catálogo Actual:</b></p></td>
+                                        <td><p>S/. <?php echo $precioActual; ?></p></td>
                                     </tr>
                                     <tr>
-                                        <td class="col-5"><p><b>Valor Catálogo Siguiente:</b></p></td>
-                                        <td class="col-7"><p><?php echo $precioSiguiente; ?></p></td>
+                                        <td><p><b>Valor Catálogo Siguiente:</b></p></td>
+                                        <td><p>S/. <?php echo $precioSiguiente; ?></p></td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -184,6 +184,12 @@ if(isset($_SESSION['login'])) {
                                         <label for="ubicacionAlmacen" class="col-2 col-form-label">Selección de Ubicación:</label>
                                         <div class="col-10">
                                             <select id="ubicacionAlmacen" name="ubicacionAlmacen" class="form-control">
+                                            <?php
+                                                $search = mysqli_query($link,"SELECT idUbicacion FROM UbicacionProducto WHERE idProducto = '{$_POST['idProducto']}'");
+                                                while($searchIndex = mysqli_fetch_array($search)){
+                                                echo "<option value='{$searchIndex['idUbicacion']}'>{$searchIndex['idUbicacion']}</option>";
+                                                }
+                                            ?>
                                             </select>
                                         </div>
                                     </div>

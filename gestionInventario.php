@@ -101,13 +101,15 @@ if(isset($_SESSION['login'])) {
     <script>
         function myFunction() {
             // Declare variables
-            var input, input2, input3, filter, filter2, filter3, table, tr, td, td2, td3, i;
+            var input, input2, input3, input4, filter, filter2, filter3, filter4, table, tr, td, td2, td3, td4, i;
             input = document.getElementById("SKU");
             input2 = document.getElementById("nombre");
-            input3 = document.getElementById("FechaVariacion");
+            input3 = document.getElementById("subCategoria");
+			input4 = document.getElementById("FechaVariacion");
             filter = input.value.toUpperCase();
             filter2 = input2.value.toUpperCase();
             filter3 = input3.value.toUpperCase();
+			filter4 = input4.value.toUpperCase();
             table = document.getElementById("myTable");
             tr = table.getElementsByTagName("tr");
 
@@ -115,12 +117,17 @@ if(isset($_SESSION['login'])) {
             for (i = 0; i < tr.length; i++) {
                 td = tr[i].getElementsByTagName("td")[0];
                 td2 = tr[i].getElementsByTagName("td")[1];
-                td3 = tr[i].getElementsByTagName("td")[4];
+                td3 = tr[i].getElementsByTagName("td")[3];
+				td4 = tr[i].getElementsByTagName("td")[5];
                 if ((td)&&(td2)&&(td3)) {
                     if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
                         if(td2.innerHTML.toUpperCase().indexOf(filter2) > -1){
                             if(td3.innerHTML.toUpperCase().indexOf(filter3) > -1){
-                                tr[i].style.display = "";
+								if(td4.innerHTML.toUpperCase().indexOf(filter4) > -1){
+                                	tr[i].style.display = "";
+								}else{
+                                	tr[i].style.display = "none";
+                            	}
                             }else{
                                 tr[i].style.display = "none";
                             }
@@ -166,6 +173,8 @@ if(isset($_SESSION['login'])) {
                                 <input type="text" class="form-control mt-2 mb-2 mr-2" id="SKU" placeholder="SKU" onkeyup="myFunction()">
                                 <label class="sr-only" for="Nombre">Nombre de Producto</label>
                                 <input type="text" class="form-control mt-2 mb-2 mr-2" id="nombre" placeholder="Nombre" onkeyup="myFunction()">
+                                <label class="sr-only" for="subCategoria">SubCategoría</label>
+                                <input type="text" class="form-control mt-2 mb-2 mr-2" id="subCategoria" placeholder="SubCategoría" onkeyup="myFunction()">
                                 <label class="sr-only" for="FechaVariacion">Fecha de Variación</label>
                                 <input type="text" class="search-key form-control mt-2 mb-2 mr-2" id="FechaVariacion" placeholder="Año-Mes-Día" onkeyup="myFunction()">
                                 <input type="submit" class="btn btn-primary" value="Limpiar" style="padding-left:28px; padding-right: 28px;">
@@ -182,6 +191,7 @@ if(isset($_SESSION['login'])) {
                                 <th class="text-center">SKU</th>
                                 <th class="text-center">Nombre de Producto</th>
                                 <th class="text-center">Atributo</th>
+                                <th class="text-center">SubCategoría</th>
                                 <th class="text-center">Cantidad</th>
                                 <th class="text-center">Última Variación</th>
                                 <th class="text-center">V.U. Promedio</th>
@@ -233,12 +243,18 @@ if(isset($_SESSION['login'])) {
                                     while($row2 = mysqli_fetch_array($select2)){
                                         $color = $row2['descripcion'];
                                     }
+									
+									$select2 = mysqli_query($link,"SELECT * FROM SubCategoria WHERE idSubCategoria = {$row['idColor']}");
+                                    while($row2 = mysqli_fetch_array($select2)){
+                                        $subCategoria = $row2['descripcion'];
+                                    }
 
                                     $costoEstimado = round($row['costoEstimado'],2);
                                     echo "<tr>
                                         <td class=\"text-center\">{$row['idProducto']}</td>
                                         <td class=\"text-center\">{$row['nombreCorto']}</td>
                                         <td class=\"text-center\">{$color}</td>
+										<td class=\"text-center\">{$subCategoria}</td>
                                         <td class=\"text-center\">{$stock}</td>
                                         <td class=\"text-center\">{$mostrarFecha}</td>
                                         <td class=\"text-center\">S/. {$costoEstimado}</td>
@@ -254,6 +270,7 @@ if(isset($_SESSION['login'])) {
                                                         <button name='comprobarInventario' class=\"dropdown-item\" type=\"submit\" formaction='conteoInventario.php'>Comprobación de Inventario</button>
                                                         <button name='transferirProducto' class=\"dropdown-item\" type=\"submit\" formaction='transferenciaUbicacion.php'>Transferencia de Ubicación</button>
                                                         <button name='verProducto' class=\"dropdown-item\" type=\"submit\" formaction='detalleProducto.php'>Ver Detalles de Producto</button>
+														<button name='editar' class=\"dropdown-item\" type=\"submit\" formaction='editarProducto.php'>Editar Producto</button>
                                                         <button name='verUbicacionProducto' class=\"dropdown-item\" type=\"submit\" formaction='ubicacionProducto.php'>Ver Ubicaciones de Producto</button>
                                                         <button name='historialProductoInv' class=\"dropdown-item\" type=\"submit\" formaction='historialTransacciones.php'>Historial de Transacciones</button>
                                                     </div>
