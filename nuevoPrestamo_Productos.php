@@ -12,11 +12,9 @@ if(isset($_SESSION['login'])) {
 			$idProveedor = $fila['idProveedor'];
 		}
 
-		$addOV = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$_POST['idTransaccion']}',4,'{$idProveedor}',6,'{$_SESSION['user']}',null,null,'{$dateTime}',null,
-		'{$_POST['fechaVencimiento']}',null,'{$_POST['observaciones']}',NULL,NULL,NULL)");
+		$addOV = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$_POST['idTransaccion']}',4,'{$idProveedor}',6,'{$_SESSION['user']}',null,null,'{$dateTime}',null,'{$_POST['fechaVencimientoPrestamo']}',null,'{$_POST['observaciones']}',NULL,NULL,NULL)");
 
-		$queryPerformed = "INSERT INTO Transaccion VALUES ({$_POST['idTransaccion']},4,{$idProveedor},6,{$_SESSION['user']},null,null,{$dateTime},null,
-		{$_POST['fechaVencimiento']},null,{$_POST['observaciones']},NULL,NULL,NULL)";
+		$queryPerformed = "INSERT INTO Transaccion VALUES ({$_POST['idTransaccion']},4,{$idProveedor},6,{$_SESSION['user']},null,null,{$dateTime},null,{$_POST['fechaVencimientoPrestamo']},null,{$_POST['observaciones']},NULL,NULL,NULL)";
 
 		$databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','Prestamo','{$queryPerformed}')");
 	}
@@ -64,10 +62,10 @@ if(isset($_SESSION['login'])) {
 
 		$precio=$_POST['precio']*$_POST['promo'];
 
-		$add = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProducto}','{$_POST['idTransaccion']}',null,null,null,'{$precio}','{$_POST['cantidad']}',
+		$add = mysqli_query($link, "INSERT INTO TransaccionProducto(idProducto,idTransaccion,idUbicacionInicial,idUbicacionFinal,idDescuento,valorUnitario,cantidad,idPromocion,observacion,stockInicial,stockFinal,descuento,descuentoMonetario) VALUES ('{$idProducto}','{$_POST['idTransaccion']}',null,null,null,'{$precio}','{$_POST['cantidad']}',
 		null,'{$_POST['notas']}','{$stockinicial}','{$stockfinal}',false,0)");
 
-		$queryPerformed = "INSERT INTO TransaccionProducto VALUES ({$idProducto},{$_POST['idTransaccion']},null,null,null,{$precio},{$_POST['cantidad']},
+		$queryPerformed = "INSERT INTO TransaccionProducto(idProducto,idTransaccion,idUbicacionInicial,idUbicacionFinal,idDescuento,valorUnitario,cantidad,idPromocion,observacion,stockInicial,stockFinal,descuento,descuentoMonetario) VALUES ({$idProducto},{$_POST['idTransaccion']},null,null,null,{$precio},{$_POST['cantidad']},
 		null,{$_POST['notas']},{$stockinicial},{$stockfinal},false,0)";
 
 		$databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','Préstamos-addProducto','{$queryPerformed}')");

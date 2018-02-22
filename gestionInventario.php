@@ -202,7 +202,7 @@ if(isset($_SESSION['login'])) {
                             <?php
                             $file = fopen("files/inventario.txt","w") or die("No se encontró el archivo!");
                             fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-                            $txt = "SKU,Nombre Corto,Atributo,Stock,Fecha de Modificación,Precio Promedio".PHP_EOL;
+                            $txt = "SKU;Nombre Corto;Atributo;SubCategoría;Stock;Fecha de Modificación;Precio Promedio".PHP_EOL;
                             fwrite($file, $txt);
                             $stock = 0;
                             $color = null;
@@ -278,7 +278,7 @@ if(isset($_SESSION['login'])) {
                                             </form>
                                         </td>
                                       </tr>";
-	                                $txt = $row['idProducto'].",".$row['nombreCorto'].",".$color.",".$stock.",".$mostrarFecha.",".$costoEstimado.PHP_EOL;
+	                                $txt = $row['idProducto'].";".$row['nombreCorto'].";".$color.";".$subCategoria.";".$stock.";".$mostrarFecha.";".$costoEstimado.PHP_EOL;
 	                                fwrite($file, $txt);
                                 }
                             }

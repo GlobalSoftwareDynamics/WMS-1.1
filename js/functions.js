@@ -224,6 +224,17 @@ function dias(total,cancelado) {
     });
 }
 
+function fechavencPrestamoProductos(dias) {
+    $.ajax({
+        type: 'POST',
+        url: 'getAjax.php',
+        data:{'fechavencPrestamoProductos':dias},
+        success: function(data){
+        	$('#fechavencPrestamo').html(data);
+        }
+    });
+}
+
 function getproductoCatalogo(idCatalogo) {
     $.ajax({
         type: "POST",

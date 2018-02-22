@@ -1,4 +1,4 @@
 ﻿Código,Campaña,Fecha de Inicio,Fecha de Cierre,Stock,Tipo
 2018C1,1,2018-01-01,2018-01-28,0,Productos
-2018C2,2,2018-01-29,2018-02-25,0,Productos
-2018C3,3,2018-02-26,2018-03-25,0,Productos
+2018C2,2,2018-01-29,2018-02-25,30,Productos
+2018C3,3,2018-02-26,2018-03-25,30,Productos

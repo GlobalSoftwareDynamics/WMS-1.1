@@ -10,14 +10,14 @@ if(isset($_SESSION['login'])) {
             <div class="col-12">
                 <div class="card">
                     <div class="card-header card-inverse card-info">
-                        <form method="post" action="nuevoPrestamo_Productos.php" id="formOC">
+                        
                             <div class="float-left">
                                 <i class="fa fa-shopping-cart"></i>
                                 Agregar Préstamo
                             </div>
                             <div class="float-right">
 								<div class="dropdown">
-									<input type="submit" value="Guardar" name="addPS" class="btn btn-secondary btn-sm">
+									<input type="submit" value="Guardar" name="addPS" form="formOC" class="btn btn-secondary btn-sm">
                                 </div>
                             </div>
                     </div>
@@ -31,6 +31,7 @@ if(isset($_SESSION['login'])) {
                             <div class="tab-content">
                                 <div class="tab-pane active" id="general" role="tabpanel">
                                     <div class="spacer30"></div>
+                                    <form method="post" action="nuevoPrestamo_Productos.php" id="formOC">
                                     <div class="form-group row">
                                         <label for="idTransaccion" class="col-2 col-form-label">Código de Préstamo:</label>
                                         <div class="col-10">
@@ -43,24 +44,24 @@ if(isset($_SESSION['login'])) {
                                             <input type="text" name="nombreProveedorNoCliente" id="nombreProveedorNoCliente" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <label for="fechaVencimiento" class="col-2 col-form-label">Fecha de Devolución</label>
-                                        <div class="col-10">
-                                            <input class="form-control" type="date" id="fechaVencimiento" name="fechaVencimiento">
+                                    <div class='form-group row'>
+                                        <label for='dias' class='col-2 col-form-label'>Días:</label>
+                                        <div class='col-10'>
+                                            <input type='number' min='0' name='dias' id='dias' class='form-control col-1' onchange="fechavencPrestamoProductos(this.value)">
                                         </div>
                                     </div>
-                                    <div id="clasecliente"></div>
+                                    <div id="fechavencPrestamo"></div>
                                     <div class="form-group row">
                                         <label for="observaciones" class="col-2 col-form-label">Observaciones:</label>
                                         <div class="col-10">
                                             <input class="form-control" type="text" id="observaciones" name="observaciones">
                                         </div>
                                     </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    </form>
                 </div>
             </div>
         </div>

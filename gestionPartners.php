@@ -6,9 +6,9 @@ if(isset($_SESSION['login'])) {
 
     if(isset($_POST['editarPartner'])){
 
-        $insert = mysqli_query($link, "UPDATE Proveedor SET idProveedor = '{$_POST['idProveedor']}', idTipoProveedor = '{$_POST['tipo']}', nombre = '{$_POST['nombre']}', correoElectronico = '{$_POST['email']}',
+        $insert = mysqli_query($link, "UPDATE Proveedor SET idProveedor = '{$_POST['idProveedorNuevo']}', idTipoProveedor = '{$_POST['tipo']}', nombre = '{$_POST['nombre']}', correoElectronico = '{$_POST['email']}',
          fechaNacimiento = '{$_POST['fechaNacimiento']}' WHERE idProveedor = '{$_POST['idProveedor']}'");
-        $queryPerformed = "UPDATE Proveedor SET idProveedor = {$_POST['idProveedor']}, idTipoProveedor = {$_POST['tipo']}, nombre = {$_POST['nombre']}, correoElectronico = {$_POST['email']},
+        $queryPerformed = "UPDATE Proveedor SET idProveedor = {$_POST['idProveedorNuevo']}, idTipoProveedor = {$_POST['tipo']}, nombre = {$_POST['nombre']}, correoElectronico = {$_POST['email']},
          fechaNacimiento = {$_POST['fechaNacimiento']} WHERE idProveedor = {$_POST['idProveedor']}";
         $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','UPDATE','Proveedor','{$queryPerformed}')");
 

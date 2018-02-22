@@ -90,7 +90,8 @@ if(isset($_SESSION['login'])) {
                                         <?php
                                         $query = mysqli_query($link, "SELECT * FROM Proveedor WHERE idProveedor = '{$_POST['idProveedor']}'");
                                         while($row = mysqli_fetch_array($query)){
-                                            $nombre = $row['nombre'];
+                                            $id = $row['idProveedor'];
+											$nombre = $row['nombre'];
                                             $correo = $row['correoElectronico'];
                                             $fechaNacimiento = $row['fechaNacimiento'];
                                             $tipo = $row['idTipoProveedor'];
@@ -98,6 +99,12 @@ if(isset($_SESSION['login'])) {
                                         ?>
                                         <div class="form-group row">
                                             <input type='hidden' name='idProveedor' value='<?php echo $_POST['idProveedor'];?>'>
+                                            <label for="idProveedorNuevo" class="col-2 col-form-label">DNI/RUC:</label>
+                                            <div class="col-10">
+                                                <input class="form-control" type="text" id="idProveedorNuevo" name="idProveedorNuevo" value="<?php echo $id;?>">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
                                             <label for="nombre" class="col-2 col-form-label">Nombre Completo:</label>
                                             <div class="col-10">
                                                 <input class="form-control" type="text" id="nombre" name="nombre" value="<?php echo $nombre;?>">
@@ -196,8 +203,8 @@ if(isset($_SESSION['login'])) {
                                 </tbody>
                             </table>
                         </div>
-                        <div class="col-2">
-                            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modalDireccion">Agregar Dirección</button>
+                        <div class="col-12">
+                            <button type="button" class="btn btn-outline-primary col-4 offset-4" data-toggle="modal" data-target="#modalDireccion">Agregar Dirección</button>
                         </div>
                     </div>
                 </div>
@@ -250,8 +257,8 @@ if(isset($_SESSION['login'])) {
                                 </tbody>
                             </table>
                         </div>
-                        <div class="col-2">
-                            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modalTelefono">Agregar Teléfono</button>
+                        <div class="col-12">
+                            <button type="button" class="btn btn-outline-primary col-4 offset-4" data-toggle="modal" data-target="#modalTelefono">Agregar Teléfono</button>
                         </div>
                     </div>
                 </div>

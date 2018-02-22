@@ -456,6 +456,19 @@ if (!empty($_POST['fechavenc'])) {
     ";
 }
 
+if (!empty($_POST['fechavencPrestamoProductos'])) {
+    $fechaInicioDeudas = date("Y-m-d");
+    $fechaFinDeudas = date('Y-m-d', strtotime($fechaInicioDeudas. ' + '.$_POST['fechavencPrestamoProductos'].' days'));
+    echo "
+		<div class='form-group row'>
+             <label for='fechaVencimientoPrestamo' class='col-2 col-form-label'>Fecha de Pago:</label>
+             <div class='col-10'>
+        		<input type='date' name='fechaVencimientoPrestamo' id='fechaVencimientoPrestamo' class='form-control col-5' value='{$fechaFinDeudas}'>
+			 </div>
+		</div>
+    ";
+}
+
 if (!empty($_POST['diasPrestamo'])) {
     if( $_POST['diasPrestamo']>$_POST['cancelado']){
         echo "

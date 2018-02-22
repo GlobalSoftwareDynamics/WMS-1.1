@@ -93,7 +93,7 @@
 0003597,ULTRA DEF DEL RETR NEGRO ABSOL,Negro,Collares,Unisex,Activo
 0003598,ULTRA DEF DEL RETR MARRON,Negro,Collares,Unisex,Activo
 0003600,Ultra Definition Delineador Retractil Ojos Verde Militar,Negro,Collares,Unisex,Activo
-0003601,Ultra Definition Dekiniador Ojos Negro Humo,Negro,Collares,Unisex,Activo
+0003601,Ultra Definition Deliniador Ojos Negro Humo,Negro,Collares,Unisex,Activo
 0003603,Ultra Definition Delineador Lapiz Cejas Marron Claro,Negro,Collares,Unisex,Activo
 0003606,ULTRA DEF DEL LAB CHOCOLATE,Negro,Collares,Unisex,Activo
 0003608,Ultra Definition Delineador Lapiz Labios Rojo Encendido,Negro,Collares,Unisex,Activo
