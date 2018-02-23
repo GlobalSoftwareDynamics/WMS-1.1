@@ -47,6 +47,7 @@ $flag = true;
                         <a class="dropdown-item" href="gestionProductos.php">Productos y Premios</a>
                         <a class="dropdown-item" href="gestionInventario.php">Inventario</a>
                         <a class="dropdown-item" href="gestionCatalogos.php">Catálogos</a>
+                        <a class="dropdown-item" href="CorreccionProductos.php">Corrección Productos</a>
                     </div>
                 </li>
 				<li class="nav-item">

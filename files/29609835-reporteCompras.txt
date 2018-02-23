@@ -1,0 +1,2 @@
+﻿Compras
+Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total

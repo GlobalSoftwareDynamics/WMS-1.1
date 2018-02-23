@@ -1,0 +1,5 @@
+Préstamos
+Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
+1,Roxana Hinojosa Menendez,PS18B23K2306,2018-02-23,ELIXIR DE VIDA CR DE OJOS 15 G Negro,1,72,72
+2,Roxana Hinojosa Menendez,PS18B23K2306,2018-02-23,DULCE VANIDAD EAU DE PARFUM Negro,1,78,78
+3,Jessica Adriana Salas Pacheco,PS18B23L3754,2018-02-23,ULTRA DEF DEL LIQ PLUM NEGRO Negro,1,32,32

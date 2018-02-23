@@ -1,0 +1,23 @@
+Resumen
+
+Total Compras,0
+Total Ventas,567.5
+Total Préstamos,182
+
+
+Compras
+
+
+Ventas
+
+Nombre,Código,Monto
+Jessica Adriana Salas Pacheco,29609835,567.5
+
+
+Préstamos
+
+Nombre,Código,Monto
+Roxana Hinojosa Menendez,29625258,150
+
+Nombre,Código,Monto
+Jessica Adriana Salas Pacheco,29609835,32

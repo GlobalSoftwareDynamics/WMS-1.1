@@ -1,4 +1,8 @@
 ﻿Nro. Orden,Responsable,Fecha de Préstamo,Fecha de Vencimiento,Deudor,Estado
+PS18B23L3754,Jessica Adriana Salas Pacheco,2018-02-23,2018-03-10,HILDA CAYLLAHUA ALARCON,Parcial
+PS18B23K2306,Roxana Hinojosa Menendez,2018-02-23,2018-03-10,MARLENI HUAMANI ALVAREZ,Parcial
+PS18B22S2825,Jessica Adriana Salas Pacheco,2018-02-22,2018-03-09,DANITZA FERNANDEZ,Parcial
+PS18B22S2755,Jessica Adriana Salas Pacheco,2018-02-22,2018-03-09,DANITZA FERNANDEZ,Abierta
 PS18B22S1351,Jessica Adriana Salas Pacheco,2018-02-22,2018-02-24,LUCIA CRUCES,Parcial
 PS18B22R5326,Jessica Adriana Salas Pacheco,2018-02-22,2018-02-24,SANDRA VALDERRAMA ,Parcial
 PS18B22R3931,Jessica Adriana Salas Pacheco,2018-02-22,2018-02-24,SONIA APAZA,Parcial

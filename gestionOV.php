@@ -593,7 +593,7 @@ if(isset($_SESSION['login'])) {
                                         }
                                     }
 
-                                    $descuentoproducto=$fila1['valorUnitario'] * $descuento;
+                                    $descuentoproducto=($fila1['valorUnitario'] - $fila1['descuentoMonetario']) * $descuento;
                                     $totalfinal = $fila1['cantidad'] * $descuentoproducto;
 
                                     $subtotalsinsunat=$subtotalsinsunat+$totalfinal;

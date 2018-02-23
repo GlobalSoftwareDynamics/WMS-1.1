@@ -137,7 +137,7 @@
 0003743,OHM DESODORANTE,Negro,Collares,Unisex,Activo
 0003746,Cielo Desodorante,Negro,Collares,Unisex,Activo
 0003747,GAIA DESODORANTE A/P,Negro,Collares,Unisex,Activo
-0003748,CCORI DESODORANTE,Negro,Collares,Unisex,Activo
+0003748,CCORI DESODORANTE A/P,Negro,Desodorantes,Unisex,Activo
 0003749,Adrenaline Mujer Desodorante,Negro,Collares,Unisex,Activo
 0003751,OHM BLACK DESODORANTE,Negro,Collares,Unisex,Activo
 0003752,Osadía Desodorante,Negro,Collares,Unisex,Activo
@@ -333,7 +333,7 @@
 0004670,REVITALIST TONICO,Negro,Collares,Unisex,Activo
 0004671,ELIXIR DE VIDA GEL TONICO,Negro,Collares,Unisex,Activo
 0004683,43 N PARALEL COLOGNE FOR MEN,Negro,Collares,Unisex,Activo
-0004684,LIBERATTA PARFUM,Negro,Collares,Unisex,Activo
+0004684,LIBERATTA PARFUM,Negro,Perfumería Dama,Unisex,Activo
 0004686,Brillo de Seda Loción Hidratante,Negro,Collares,Unisex,Activo
 0004687,Brillo de Seda Diamantes Loción Hidratante,Negro,Collares,Unisex,Activo
 0004694,TOP MODELING CR ANTI-CELULITIS,Negro,Collares,Unisex,Activo
@@ -697,7 +697,7 @@
 0011231,SOLO DESODORANTE,Negro,Collares,Unisex,Activo
 0011232,OHM BLACK DESODORANTE,Negro,Collares,Unisex,Activo
 0011233,TEMPTATION FOR MEN DESODORANTE,Negro,Collares,Unisex,Activo
-0011234,CCORI DESODORANTE,Negro,Collares,Unisex,Activo
+0011234,CCORI DESODORANTE,Negro,Desodorantes,Unisex,Activo
 0011235,GAIA DESODORANTE,Negro,Collares,Unisex,Activo
 0011236,CCORI PASION DESODORANTE,Negro,Collares,Unisex,Activo
 0011237,TEMPTATION MUJER DESODORANTE,Negro,Collares,Unisex,Activo
@@ -745,7 +745,7 @@
 0011292,BS QUINUA CREMA MANOS,Negro,Collares,Unisex,Activo
 0011293,BS QUINUA CREMA CUERPO,Negro,Collares,Unisex,Activo
 0011301,MUSK BLANC EAU DE PARFUM,Negro,Collares,Unisex,Activo
-0011302,LIBERATTA NOIRE PARFUM,Negro,Collares,Unisex,Activo
+0011302,LIBERATTA NOIRE PARFUM,Negro,Perfumería Dama,Unisex,Activo
 0011304,INDOMITO COLOGNE FOR MEN,Negro,Collares,Unisex,Activo
 0011305,Vivo Terra Cologne for Men,Negro,Collares,Unisex,Activo
 0011306,Vivo Herve Cologne for Men,Negro,Collares,Unisex,Activo
@@ -912,8 +912,8 @@
 0011543,L/L HYDRA-LIP LD CIRUELA LOVE,Negro,Collares,Unisex,Activo
 0011545,L/L HYDRA-LIP LD RED SHINE,Negro,Collares,Unisex,Activo
 0011546,L/L HYDRA-LIP LD FUCSIA SHOCK,Negro,Collares,Unisex,Activo
-0011547,LIBERATTA CREMA PERFUM ORIGI,Negro,Collares,Unisex,Activo
-0011548,Liberatta Noire Creme Parfumee,Negro,Collares,Unisex,Activo
+0011547,LIBERATTA CREMA PERFUM ORIGI,Negro,Cuidado de la Piel,Unisex,Activo
+0011548,Liberatta Noire Creme Parfumee,Negro,Cuidado de la Piel,Unisex,Activo
 0011552,Perfect Ten Rojo Sunset,Negro,Collares,Unisex,Activo
 0011553,Perfect Ten Aqua Menta,Negro,Collares,Unisex,Activo
 0011554,Perfect Ten Art Sky ,Negro,Collares,Unisex,Activo
@@ -983,7 +983,7 @@
 2353493,SCH BS UÑA D GATO CREMA CUERPO,Negro,Collares,Unisex,Activo
 2353494,SCH BS UÑA D GATO GEL EXFOLIA,Negro,Collares,Unisex,Activo
 2353495,DM MUSK BLANC EAU DE PARF 2ML,Negro,Collares,Unisex,Activo
-2353496,DM LIBERATTA NOIRE PARFUM 2ML,Negro,Collares,Unisex,Activo
+2353496,DM LIBERATTA NOIRE PARFUM 2ML,Negro,Perfumería Dama,Unisex,Activo
 2353498,DM INDOMITO COLOGNE MEN 2ML,Negro,Collares,Unisex,Activo
 2353503,DM DULCE VANI EAU DE PARF 2ML,Negro,Collares,Unisex,Activo
 2353504,PROB PD LA HABANA 1ML,Negro,Collares,Unisex,Activo
@@ -1467,7 +1467,7 @@
 5028861,SET ARETES MARIPOSITA,Negro,Collares,Unisex,Activo
 5028874,COLECCION CONQUISTARTE J13288,Negro,Collares,Unisex,Activo
 5028875,COLECCIÓN SEXY GLAM,Negro,Collares,Unisex,Activo
-5028877,ARETES LIBERATTA AJ13291,Negro,Collares,Unisex,Activo
+5028877,ARETES LIBERATTA AJ13291,Negro,Aretes,Unisex,Activo
 5028904,COLECCIÓN MARIPOSA BLIZ,Negro,Collares,Unisex,Activo
 5028923,COLECCIÓN CAMELY BLU,Negro,Collares,Unisex,Activo
 5028928,COLECCIÓN ELEFANTITO KISS,Negro,Collares,Unisex,Activo

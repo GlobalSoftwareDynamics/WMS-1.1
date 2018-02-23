@@ -1,0 +1,32 @@
+﻿Ingresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+1,2018-02-23,MOV18B23L5917,Jessica Adriana Salas Pacheco,GUADALUPE CHACON QUIROZ,Venta,,26.8
+2,2018-02-23,MOV18B23L4817,Jessica Adriana Salas Pacheco,SILVIA SULLA TARIFA,Venta,,18.4
+3,2018-02-23,MOV18B23L4325,Jessica Adriana Salas Pacheco,KATHERIN QUIROZ,Venta,,24.50
+4,2018-02-23,MOV18B23K3051,Jessica Adriana Salas Pacheco,EIKA MORENO,Venta,,252.7
+5,2018-02-23,MOV18B23J0425,Jessica Adriana Salas Pacheco,ROSA ESPINOZA,Venta,,0
+
+Total,322.4
+
+
+Egresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+
+Total,0
+
+
+Cupones
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+
+Total,0
+
+
+Saldos
+
+CAJA CHICA
+
+0
+
+VISA
+
+10
