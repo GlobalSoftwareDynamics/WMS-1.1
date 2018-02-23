@@ -136,7 +136,7 @@
 0003741,SOLO DESODORANTE,Negro,Collares,Unisex,Activo
 0003743,OHM DESODORANTE,Negro,Collares,Unisex,Activo
 0003746,Cielo Desodorante,Negro,Collares,Unisex,Activo
-0003747,GAIA DESODORANTE,Negro,Collares,Unisex,Activo
+0003747,GAIA DESODORANTE A/P,Negro,Collares,Unisex,Activo
 0003748,CCORI DESODORANTE,Negro,Collares,Unisex,Activo
 0003749,Adrenaline Mujer Desodorante,Negro,Collares,Unisex,Activo
 0003751,OHM BLACK DESODORANTE,Negro,Collares,Unisex,Activo
@@ -275,7 +275,7 @@
 0004471,Desodorante Acerk.te Fuego,Negro,Collares,Unisex,Activo
 0004476,CCORI CRISTAL LEAU DE PARFUM,Negro,Collares,Unisex,Activo
 0004480,Lpstay Larga Duración Sun Bronz,Negro,Collares,Unisex,Activo
-0004483,Lipstay Larga Duración Rosa de mis Sueños,Negro,Collares,Unisex,Activo
+0004483,L/L HYDRA-LIP LD ROSA D M SUEÑOS MY A/P,Negro,Collares,Unisex,Activo
 0004486,Lipstay Larga Duración Beso Volado,Negro,Collares,Unisex,Activo
 0004493,SPRIO BLUE SPRAY COLOGNE,Negro,Collares,Unisex,Activo
 00044948,Hydra-Lip Ultra Miel en tus Labios,Negro,Collares,Unisex,Activo
@@ -1146,6 +1146,7 @@
 2426470,COLECCIÓN CRISTAL,Negro,Collares,Unisex,Activo
 2426491,ARETES CRISTAL,Negro,Collares,Unisex,Activo
 2428454,ARETES SUEÑOS DE CONQUISTA,Negro,Collares,Unisex,Activo
+2428710,SET ARETES MARIELLE,Negro,Collares,Unisex,Activo
 2428874,COLECCIÓN CONQUISTARTE,Negro,Collares,Unisex,Activo
 2428977,ARETES ELEGANCE PERLA,Negro,Collares,Unisex,Activo
 2428995,COLECCIÓN PERLA FEM,Negro,Collares,Unisex,Activo
@@ -1194,6 +1195,7 @@
 5009439,ARETES SKALLI,Negro,Collares,Unisex,Activo
 5015296,ARETES MELISSA SPORT,Negro,Collares,Unisex,Activo
 5015641,ARETES MELODIA PERLA,Negro,Collares,Unisex,Activo
+5016270,PULSERA FLOR DENDITA,Negro,Collares,Unisex,Activo
 5016403,PULSERA RETRATO,Negro,Collares,Unisex,Activo
 5016768,SORTIJA SIEMPRE T-9,Negro,Collares,Unisex,Activo
 5017659,ARETES ROJO ROYAL,Negro,Collares,Unisex,Activo
@@ -1201,6 +1203,7 @@
 5018815,COLECCIÓN CRISTAL Y TU,Negro,Collares,Unisex,Activo
 5018852,COLLAR MIL Y UNA NOCHES,Negro,Collares,Unisex,Activo
 5019403,ARETES DULCE CORAZON,Negro,Collares,Unisex,Activo
+5019429,SORTIJA COMPROMETIDA T9,Negro,Collares,Unisex,Activo
 5019557,SET ARETES ADORACION J5396,Negro,Collares,Unisex,Activo
 5019691,ARETES PERLA DE ANGEL,Negro,Collares,Unisex,Activo
 5019793,COLLAR ABANICO DE AMOR,Negro,Collares,Unisex,Activo
@@ -1210,15 +1213,20 @@
 5020018,SORTIJA CIRCULO EDEN T8 J6961,Negro,Collares,Unisex,Activo
 5020019,SORTIJA CIRCULO EDEN T9 J6961,Negro,Collares,Unisex,Activo
 5020049,COLLAR ENAMORAME,Negro,Collares,Unisex,Activo
+5020176,COLLAR TENTACION AZUL,Negro,Collares,Unisex,Activo
 5020383,SET ARETES VALS PARA TI,Negro,Collares,Unisex,Activo
 5020613,COLLAR ALEGRIA,Negro,Collares,Unisex,Activo
+5020855,COLLAR AL NATURAL DORE,Negro,Collares,Unisex,Activo
 5020940,COLLAR RUEDA Y FORTUNA,Negro,Collares,Unisex,Activo
 5020941,ARETES RUEDA Y FORTUNA,Negro,Collares,Unisex,Activo
 5020990,PULSERA ENREDO DE AMOR,Negro,Collares,Unisex,Activo
 5021054,ARETES TE ENCUENTRO,Negro,Collares,Unisex,Activo
 5021074,COLECCIÓN ALAS BONITAS,Negro,Collares,Unisex,Activo
 5021075,SORTIJA CUADRATTI GLAM T-8,Negro,Collares,Unisex,Activo
+5021076,SORTIJA FLOR MARINA T-6,Negro,Collares,Unisex,Activo
 5021113,COLLAR SENSA PERLA,Negro,Collares,Unisex,Activo
+5021190,COLLAR ROSA DE AMOR,Negro,Collares,Unisex,Activo
+5021193,PULSERA ROSA DE AMOR,Negro,Collares,Unisex,Activo
 5021285,ARETES JARDIN CRISTAL,Negro,Collares,Unisex,Activo
 5021414,ARETES SUPREMO DORE,Negro,Collares,Unisex,Activo
 5021422,COLLAR MIL AMORES,Negro,Collares,Unisex,Activo
@@ -1230,6 +1238,7 @@
 5021590,PULSERA CRECE EL AMOR J7940,Negro,Collares,Unisex,Activo
 5021610,ARETES EL AMOR EXISTE,Negro,Collares,Unisex,Activo
 5021641,ARETES CRUZADA DE AMOR,Negro,Collares,Unisex,Activo
+5021666,SORTIJA ARTE CRISTAL T-6,Negro,Collares,Unisex,Activo
 5021686,ARETES NOCHE DE CRISTAL,Negro,Collares,Unisex,Activo
 5021687,ARETES TODA LA NOCHE,Negro,Collares,Unisex,Activo
 5021700,ARETES LIBRE EN FLOR,Negro,Collares,Unisex,Activo
@@ -1244,7 +1253,9 @@
 5022173,SET ARETES MI PALOMITA,Negro,Collares,Unisex,Activo
 5022299,ARETES VOLE,Negro,Collares,Unisex,Activo
 5022304,ARETES CLARO Y LUNA,Negro,Collares,Unisex,Activo
+5022308,SORTIJA VOLE T8,Negro,Collares,Unisex,Activo
 5022410,ESCLAVA VIGO PJ8653,Negro,Collares,Unisex,Activo
+5022422,ARETES BRILLA,Negro,Collares,Unisex,Activo
 5022461,ARETES VENUS DORE,Negro,Collares,Unisex,Activo
 5022471,COLLAR CARELLI J8672,Negro,Collares,Unisex,Activo
 5022474,ARETES CARELLI J8674,Negro,Collares,Unisex,Activo
@@ -1257,6 +1268,7 @@
 5022853,ARETES DESTELLO DORADO,Negro,Collares,Unisex,Activo
 5022883,ARETES CAPRICHOSA FLOR,Negro,Collares,Unisex,Activo
 5022892,ARETES COLGANTE DORE,Negro,Collares,Unisex,Activo
+5022958,SORTIJA SEMSES T8,Negro,Collares,Unisex,Activo
 5022988,ARETES BRONZ ROJO,Negro,Collares,Unisex,Activo
 5022992,ARETES INAYA INTENSE,Negro,Collares,Unisex,Activo
 5023021,ARETES TURQUESA CARIBE,Negro,Collares,Unisex,Activo
@@ -1266,6 +1278,7 @@
 5023138,ARETES MI LEALTAD,Negro,Collares,Unisex,Activo
 5023193,ARETES BRASSIC,Negro,Collares,Unisex,Activo
 5023201,COLLAR ENTRELAZADOS J9299,Negro,Collares,Unisex,Activo
+5023281,ARETES METALIC DORE,Negro,Collares,Unisex,Activo
 5023290,ARETES LUNA DORE,Negro,Collares,Unisex,Activo
 5023311,COLECCION ROJO DELIRIO J9365,Negro,Collares,Unisex,Activo
 5023314,ARETES PERLA CORAZON J9368,Negro,Collares,Unisex,Activo
@@ -1304,6 +1317,7 @@
 5024105,ARETES EMPORIUM,Negro,Collares,Unisex,Activo
 5024120,ARETES STELLA,Negro,Collares,Unisex,Activo
 5024136,ARETES PRIDA,Negro,Collares,Unisex,Activo
+5024198,SORTIJA CHANELLE T8,Negro,Collares,Unisex,Activo
 5024296,ARETES TATIANNE,Negro,Collares,Unisex,Activo
 5024321,SET ARETES FORZ,Negro,Collares,Unisex,Activo
 5024366,SET ARETES CIELA AJ10283,Negro,Collares,Unisex,Activo
@@ -1318,6 +1332,7 @@
 5024514,SET PULSERAS METALIK J10418,Negro,Collares,Unisex,Activo
 5024530,COLLAR CELEBRITY PERLAS J10422,Negro,Collares,Unisex,Activo
 5024531,ARETES CELEBRITY J10423,Negro,Collares,Unisex,Activo
+5024572,SET ARETES MAGIA Y SUEÑOS,Negro,Collares,Unisex,Activo
 5024575,COLECCIÓN VIVA MARIPOSA,Negro,Collares,Unisex,Activo
 5024579,SET ARETES SUEÑOS ASI AJ10456,Negro,Collares,Unisex,Activo
 5024602,SET PINES CELEBRITY J10426,Negro,Collares,Unisex,Activo
@@ -1332,6 +1347,7 @@
 5024743,ARETES VIALE DORE,Negro,Collares,Unisex,Activo
 5024760,COLLAR CORAZON CRISTALLI,Negro,Collares,Unisex,Activo
 5025195,SET ARETES CELEBRITY J10982,Negro,Collares,Unisex,Activo
+5025203,ARGOLLAS SIEMPRE SUERTE,Negro,Collares,Unisex,Activo
 5025302,COLLAR GARLISH J11051,Negro,Collares,Unisex,Activo
 5025303,ARETES GARLISH J11052,Negro,Collares,Unisex,Activo
 5025305,SORTIJA GARLISH T5 J11053,Negro,Collares,Unisex,Activo
@@ -1347,6 +1363,8 @@
 5025482,ARETES FLORECIA J11219,Negro,Collares,Unisex,Activo
 5025503,SET ARETES PLATA Y RUBI J11350,Negro,Collares,Unisex,Activo
 5025563,SET ARETES LEONICA,Negro,Collares,Unisex,Activo
+5025570,COLECCIÓN BELLO ZAFIRO,Negro,Collares,Unisex,Activo
+5025686,SORTIJA ELEGANCIA ROSE T6,Negro,Collares,Unisex,Activo
 5025698,SET ARETES PERLI FEM,Negro,Collares,Unisex,Activo
 5025713,ARETES TRIBALIZ GLAM J11328,Negro,Collares,Unisex,Activo
 5025813,ARETES CITY AZUL,Negro,Collares,Unisex,Activo
@@ -1360,6 +1378,7 @@
 5025957,SET ARETES OPULENCIA,Negro,Collares,Unisex,Activo
 5025970,ARETES MILAN CRISTAL,Negro,Collares,Unisex,Activo
 5025972,SET ARETES NEO CHIC,Negro,Collares,Unisex,Activo
+5025991,ARETES SAFARI BRIZ,Negro,Collares,Unisex,Activo
 5025993,PULSERA SAFARI BRIZ,Negro,Collares,Unisex,Activo
 5026148,COLLAR LE ENCANT,Negro,Collares,Unisex,Activo
 5026157,ARETES DORATA CRISTAL,Negro,Collares,Unisex,Activo
@@ -1372,9 +1391,11 @@
 5026207,SORTIJA BLIZZ T7 J11760,Negro,Collares,Unisex,Activo
 5026208,SORTIJA BLIZZ T8 J11760,Negro,Collares,Unisex,Activo
 5026209,SORTIJA BLIZZ T9 J11760,Negro,Collares,Unisex,Activo
+5026223,COLLAR DELEITE CRISTAL,Negro,Collares,Unisex,Activo
 5026251,ARETES GLAMIER,Negro,Collares,Unisex,Activo
 5026268,PULSERA COSMO IN,Negro,Collares,Unisex,Activo
 5026363,COLLAR CORANTINE,Negro,Collares,Unisex,Activo
+5026378,SORTIJA CORATINA T8,Negro,Collares,Unisex,Activo
 5026412,ARETES AZUL MIO,Negro,Collares,Unisex,Activo
 5026483,ARETES CRISTAL AMORE J12048,Negro,Collares,Unisex,Activo
 5026512,COLECCIÓN CRUZ DIVINA,Negro,Collares,Unisex,Activo
@@ -1384,15 +1405,19 @@
 5026581,COLLAR MIAMI CIELO,Negro,Collares,Unisex,Activo
 5026621,ARETES CRISTAL PARK,Negro,Collares,Unisex,Activo
 5026662,ARETES LONDON ROCK J12102,Negro,Collares,Unisex,Activo
+5026709,SORTIJA DELICADEZA T9,Negro,Collares,Unisex,Activo
 5026757,SET ARETES DULCINEA,Negro,Collares,Unisex,Activo
 5026774,ARETES VIVA FLOR,Negro,Collares,Unisex,Activo
 5026779,SET ARETES TRIENA J12289,Negro,Collares,Unisex,Activo
 5026819,ARETES VERONZ FEM,Negro,Collares,Unisex,Activo
 5026832,ARETES MIAMI CIELO,Negro,Collares,Unisex,Activo
+5026888, COLECCIÓN CONCORDE,Negro,Collares,Unisex,Activo
+5026924,SET ARETES PETIR PARIS,Negro,Collares,Unisex,Activo
 5026925,CADENA FRANCIA J12387,Negro,Collares,Unisex,Activo
 5026973,ARETES MARIPOSS PETIT,Negro,Collares,Unisex,Activo
 5026981,SET ARETES ELISSE,Negro,Collares,Unisex,Activo
 5028001,ARETES ROYALTI PERLA,Negro,Collares,Unisex,Activo
+5028021,ARETES BEIRUT DELUXE,Negro,Collares,Unisex,Activo
 5028025,COLLAR ENIGMA GOLD J12496,Negro,Collares,Unisex,Activo
 5028026,ARETES ENIGMA GOLD J12497,Negro,Collares,Unisex,Activo
 5028028,PULSERA ENIGMA GOLD J12499,Negro,Collares,Unisex,Activo
@@ -1405,6 +1430,7 @@
 5028188,SORTIJA ENIGMA GOLD T8 J12500,Negro,Collares,Unisex,Activo
 5028189,SORTIJA ENIGMA GOLD T9 J12500,Negro,Collares,Unisex,Activo
 5028199,ARGOLLAS FANT J12777,Negro,Collares,Unisex,Activo
+5028208,SET DE SORTIJAS DIAMON T8,Negro,Collares,Unisex,Activo
 5028264,ARETES PARIS PERLA,Negro,Collares,Unisex,Activo
 5028273,ARETES CRISTAL ROYAL,Negro,Collares,Unisex,Activo
 5028274,PULSERA MIA BELLA,Negro,Collares,Unisex,Activo
@@ -1438,6 +1464,7 @@
 5028810,CADENA ANCLA J13157,Negro,Collares,Unisex,Activo
 5028830,SET ARETES ESTRELLA GLITZ,Negro,Collares,Unisex,Activo
 5028858,SET COLLARES BENDITOS,Negro,Collares,Unisex,Activo
+5028861,SET ARETES MARIPOSITA,Negro,Collares,Unisex,Activo
 5028874,COLECCION CONQUISTARTE J13288,Negro,Collares,Unisex,Activo
 5028875,COLECCIÓN SEXY GLAM,Negro,Collares,Unisex,Activo
 5028877,ARETES LIBERATTA AJ13291,Negro,Collares,Unisex,Activo
@@ -1451,12 +1478,14 @@
 5028977,ARETES ELEGANCE PERLA J13317,Negro,Collares,Unisex,Activo
 5028984,COLECCIÓN ALINNE,Negro,Collares,Unisex,Activo
 5028995,COLECCION PERLA FEM COJ13455,Negro,Collares,Unisex,Activo
+5029002,ARETES ATARDECER GLAM,Negro,Collares,Unisex,Activo
 5029004,ARETES OCEANIC,Negro,Collares,Unisex,Activo
 5029019,SET ARETES ETERNITY J13475,Negro,Collares,Unisex,Activo
 5029027,PULSERA SEXY GLAM,Negro,Collares,Unisex,Activo
 5029062,ARETES AMULET CRISTAL,Negro,Collares,Unisex,Activo
 5029111,SET ARETES WESTERN,Negro,Collares,Unisex,Activo
 5029112,COLLAR FRONTERA,Negro,Collares,Unisex,Activo
+5029143,COLLAR AMOR WEST,Negro,Collares,Unisex,Activo
 5029154,COLECCIÓN PERLA WESTERN,Negro,Collares,Unisex,Activo
 5029165,ARETES ZAFIR CRISTAL,Negro,Collares,Unisex,Activo
 5029230,SET ARETES SUERTE MAGICA,Negro,Collares,Unisex,Activo
@@ -1464,9 +1493,13 @@
 5029236,ARETES AMOR DICRISTAL,Negro,Collares,Unisex,Activo
 5029245,COLECCIÓN ANGEL PASTEL,Negro,Collares,Unisex,Activo
 5029247,SET ARETES SORRENTO J13448,Negro,Collares,Unisex,Activo
+5029268,COLLAR STUDIO TOPAZ,Negro,Collares,Unisex,Activo
+5029270,ARETES STUDIO TOPAZ,Negro,Collares,Unisex,Activo
+5029288,SET DE SORTIJAS PIASENSA T-8,Negro,Collares,Unisex,Activo
 5029313,ARETES NOVIA IMPERIAL AJ13679,Negro,Collares,Unisex,Activo
 5029351,ARETES PERLAS ELISSE AJ13851,Negro,Collares,Unisex,Activo
 5029362,ARETES SORRENTO FLOR,Negro,Collares,Unisex,Activo
+5029380,SET ARETES STAR STUDIO,Negro,Collares,Unisex,Activo
 5029396,COLLAR DISCOTEQUE J13635,Negro,Collares,Unisex,Activo
 5029397,ARGOLLAS DISCOTEQUE AJ13636,Negro,Collares,Unisex,Activo
 5029398,ARETES DISCOTEQUE J13637,Negro,Collares,Unisex,Activo
@@ -1478,6 +1511,7 @@
 5029530,COLECCIÓN GLITZY ROSE,Negro,Collares,Unisex,Activo
 5029532,SET ARETES COLOR ZOO,Negro,Collares,Unisex,Activo
 5029538,ARETES SUEÑO MIST,Negro,Collares,Unisex,Activo
+5029540,PULSERA SUEÑO CONTIGO,Negro,Collares,Unisex,Activo
 5029547,COLECCIÓN DASH,Negro,Collares,Unisex,Activo
 5029562,ARETES LIBELIZ CHIC,Negro,Collares,Unisex,Activo
 5029579,COLLAR MANDALA FEM,Negro,Collares,Unisex,Activo
@@ -1496,6 +1530,7 @@
 5029675,SET ARETES RONDITA,Negro,Collares,Unisex,Activo
 5029698,ARETES ETERNO DIAMANTI GLAM,Negro,Collares,Unisex,Activo
 5029699,PULSERA ETERNO DIAMANTI,Negro,Collares,Unisex,Activo
+5029700,SET ARETES AMADA,Negro,Collares,Unisex,Activo
 5029736,ARGOLLAS DISCOTEQUE CRISTAL,Negro,Collares,Unisex,Activo
 5029738,ARETES DISCOTEQUE CRISTAL,Negro,Collares,Unisex,Activo
 5029759,ARETES RUBI HIT,Negro,Collares,Unisex,Activo
@@ -1538,8 +1573,13 @@
 5030013,COLECCION LEBLU J14179,Negro,Collares,Unisex,Activo
 5030023,SET ARETES MAGNIFIC,Negro,Collares,Unisex,Activo
 5030025,ARETES REDFLOR J14186,Negro,Collares,Unisex,Activo
+5030031,COLLAR MARIAT,Negro,Collares,Unisex,Activo
+5030032,ARETES MARIAT FLOR,Negro,Collares,Unisex,Activo
+5030034,PULSERA MARIAT,Negro,Collares,Unisex,Activo
 5030039,SET ARETES DEMI BLU,Negro,Collares,Unisex,Activo
 5030041,ARETES SATIZZE FLOR,Negro,Collares,Unisex,Activo
+5030043,COLLAR CUORE FIESTA,Negro,Collares,Unisex,Activo
+5030044,ARETES CUORE FIESTA,Negro,Collares,Unisex,Activo
 5030054,PULSERA ANGELICALI,Negro,Collares,Unisex,Activo
 5030060,COLLAR GRAZZIA DIVINA J14218,Negro,Collares,Unisex,Activo
 5030061,ARETES GRAZZIA J14219,Negro,Collares,Unisex,Activo
@@ -1547,6 +1587,8 @@
 5030066,SET ARETES SANTI,Negro,Collares,Unisex,Activo
 5030076,COLLAR SIENNA MIST J14232,Negro,Collares,Unisex,Activo
 5030078,ARETES SIENNA MIST J14234,Negro,Collares,Unisex,Activo
+5030080,ARETES ANITTE GLAM,Negro,Collares,Unisex,Activo
+5030081,COLLAR ANITTE,Negro,Collares,Unisex,Activo
 5030082,COLLAR FEMME FLORI J14239,Negro,Collares,Unisex,Activo
 5030083,ARETES FEMME FLORI J14240,Negro,Collares,Unisex,Activo
 5030084,ARETES FEMME LUXE J14241,Negro,Collares,Unisex,Activo
@@ -1563,6 +1605,7 @@
 5030173,SET ARETES MARIPOSI J14272,Negro,Collares,Unisex,Activo
 5030185,COLECCION LULI LAI J14278,Negro,Collares,Unisex,Activo
 5030193,CADENA SAN MIGUEL J14290,Negro,Collares,Unisex,Activo
+5030197,SET ARETES CHIKI LOVE,Negro,Collares,Unisex,Activo
 5030201,ARETES CRISTAL IMPACT,Negro,Collares,Unisex,Activo
 5030202,ARETES ABSOLUT GLAM,Negro,Collares,Unisex,Activo
 5030213,COLECCIÓN TRIVETI,Negro,Collares,Unisex,Activo
@@ -1683,6 +1726,7 @@
 5030469,PULSERA NEGRETI CRISTAL J14812,Negro,Collares,Unisex,Activo
 5030472,ARETES LULI LAI J14815,Negro,Collares,Unisex,Activo
 5030473,ARETES PETALI SEDA J14816,Negro,Collares,Unisex,Activo
+5030484,ARETES AMBAR GLAM,Negro,Collares,Unisex,Activo
 5030490,ARETES PETALI CRISTAL,Negro,Collares,Unisex,Activo
 5030492,COLLAR TECNO GLAM J14624,Negro,Collares,Unisex,Activo
 5030493,ARETES TECNO CRISTAL J14543,Negro,Collares,Unisex,Activo
@@ -2186,6 +2230,7 @@
 5031470,ARETES OPAL CHIC J15540,Negro,Collares,Unisex,Activo
 5031471,ARETES FLOR OPAL J15541,Negro,Collares,Unisex,Activo
 5031475,SET ARETES SYNTEX J15545,Negro,Collares,Unisex,Activo
+5031478,ARETES MEXAGON GLAM,Negro,Collares,Unisex,Activo
 5031485,COLLAR MAIA DELUXE J15555,Negro,Collares,Unisex,Activo
 5031486,ARETES MAIA DELUXE J15556,Negro,Collares,Unisex,Activo
 5031490,SET ARETES ARANTXA J15561,Negro,Collares,Unisex,Activo
@@ -2297,6 +2342,7 @@
 5031679,ARETES BLESS CRYSTAL J15752,Negro,Collares,Unisex,Activo
 5031680,SET ARETES BLESS CRYSTAL J15753,Negro,Collares,Unisex,Activo
 5031681,PULSERA BLESS CRYSTAL J15754,Negro,Collares,Unisex,Activo
+5031684,ARETES ENAMORATI CHIC,Negro,Collares,Unisex,Activo
 5031688,PULSERA ANGELI CRYSTAL J15761,Negro,Collares,Unisex,Activo
 5031689,COLECCION FLORENCE CRYSTAL J15762,Negro,Collares,Unisex,Activo
 5031692,ARETES ENIGMATICK,Negro,Collares,Unisex,Activo
@@ -2407,7 +2453,9 @@
 5032224,ARETES ELISSE CHIC J16441,Negro,Collares,Unisex,Activo
 5032241,COLLAR YAIZA STAR,Negro,Collares,Unisex,Activo
 5032242,ARETES YAIZA STAR,Negro,Collares,Unisex,Activo
+5032244,COLECCIÓN POTOGRAPHY LOVE,Negro,Collares,Unisex,Activo
 5032245,ARETES ETERNI LOVE,Negro,Collares,Unisex,Activo
+5032246,PULSERA PHOTOGRAPHY,Negro,Collares,Unisex,Activo
 5032248,SET ARETES ISABELLE,Negro,Collares,Unisex,Activo
 5032251,ARETES DELAILA,Negro,Collares,Unisex,Activo
 5032260,COLECCIÓN FLORENCE,Negro,Collares,Unisex,Activo
@@ -2422,6 +2470,7 @@
 5032303,ARETES TAZALY,ARETE,Aretes,Dama,Activo
 5058970,SET ARETES PASTEL PARTY,Negro,Collares,Unisex,Activo
 6120713,COLLAR STAR CHIC,Negro,Collares,Unisex,Activo
+6541237,ARETES DELEITE CRISTAL,Negro,Collares,Unisex,Activo
 675028654,SET ARETES NINETTE,Negro,Collares,Unisex,Activo
 7777777,COLLAR AMOR DELICAT,Negro,Collares,Unisex,Activo
 8888888,ARETES BOUQUETTE,Negro,Collares,Unisex,Activo

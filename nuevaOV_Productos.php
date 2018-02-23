@@ -219,7 +219,7 @@ if(isset($_SESSION['login'])) {
                                                     </select>
                                                 </td>
                                                 <td><input type="number" name="promocion" class="form-control" id="promocion" placeholder="xx%" min="0" max="100"></td>
-                                                <td><input type="number" name="descMonetario" class="form-control" id="descMonetario" placeholder="xx" min="0"></td>
+                                                <td><input type="number" step='0.1' name="descMonetario" class="form-control" id="descMonetario" placeholder="xx" min="0"></td>
                                                 <td><input type="text" name="notas" class="form-control" id="notas"></td>
                                                 <td><input type="submit" class="btn btn-primary" value="Agregar" name="addProducto" id="addProducto" formaction="#"></td>
                                             </tr>

@@ -415,9 +415,17 @@ if(isset($_SESSION['login'])) {
 	                            if(substr($row['idTransaccion'],0,2) == 'PS'){
 		                            $query5 = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$row['idTransaccion']}'");
 		                            while($row5 = mysqli_fetch_array($query5)){
-			                            $colaborador = $row5['idColaborador'];
+										
+										$result1 = mysqli_query($link,"SELECT nombres FROM Colaborador WHERE idColaborador = '{$row5['idColaborador']}'");
+									while($fila3 = mysqli_fetch_array($result1)){
+											$colaborador = substr($fila3['nombres'],0,25);
+									}
+									$result1 = mysqli_query($link,"SELECT nombre FROM Proveedor WHERE idProveedor = '{$row5['idProveedor']}'");
+									while($fila3 = mysqli_fetch_array($result1)){
+											$cliente = substr($fila3['nombre'],0,30);
+									}
+									
 			                            $fechaTransaccion = $row5['fechaTransaccion'];
-			                            $cliente = $row5['idProveedor'];
 			                            $montoTotal = round($row5['montoTotal'],2);
 			                            $montoRestante = round($row5['montoRestante'],2);
 			                            $fechaVencimiento = $row5['fechaVencimiento'];

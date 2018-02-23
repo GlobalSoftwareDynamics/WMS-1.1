@@ -1,5 +1,12 @@
 ﻿Nro. Orden,Responsable,Fecha de Préstamo,Fecha de Vencimiento,Deudor,Estado
-PS18B21R5058,Jessica Adriana Salas Pacheco,2018-02-21,,ROXANA HINOJOSA MENENDEZ,Parcial
+PS18B22S1351,Jessica Adriana Salas Pacheco,2018-02-22,2018-02-24,LUCIA CRUCES,Parcial
+PS18B22R5326,Jessica Adriana Salas Pacheco,2018-02-22,2018-02-24,SANDRA VALDERRAMA ,Parcial
+PS18B22R3931,Jessica Adriana Salas Pacheco,2018-02-22,2018-02-24,SONIA APAZA,Parcial
+PS18B22R3454,Jessica Adriana Salas Pacheco,2018-02-22,2018-02-24,JUDITH SIMBORT,Parcial
+PS18B22R2826,Jessica Adriana Salas Pacheco,2018-02-22,2018-02-24,LUPE REYNOSO,Parcial
+PS18B22R1857,Jessica Adriana Salas Pacheco,2018-02-22,2018-03-09,NEREYDA DIAZ,Parcial
+PS18B22M0847,Jessica Adriana Salas Pacheco,2018-02-22,2018-03-09,MARIA ELENA QUIROZ,Parcial
+PS18B21R5058,Jessica Adriana Salas Pacheco,2018-02-21,2018-02-24,ROXANA HINOJOSA MENENDEZ,Parcial
 PS18B21R4308,Jessica Adriana Salas Pacheco,2018-02-21,2018-02-23,ELIDA GOMEZ,Parcial
 PS18B21R3907,Jessica Adriana Salas Pacheco,2018-02-21,2018-02-23,GLENY VASQUEZ DE CARRERA,Parcial
 PS18B21R3705,Jessica Adriana Salas Pacheco,2018-02-21,2018-02-23,NORMA PERALTA,Parcial
