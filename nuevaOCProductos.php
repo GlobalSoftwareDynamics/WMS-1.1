@@ -134,7 +134,9 @@ if(isset($_SESSION['login'])) {
 				$producto = $data -> val($row,$codigo);
 				$cant = $data -> val($row,$cantidad);
 				$tipoProd = $data -> val($row,'F');
-				$search = mysqli_query($link, "SELECT * FROM CatalogoProducto WHERE idCatalogoProducto = '{$producto}'");
+				$year = explode("-",$date);
+				$search = mysqli_query($link, "SELECT * FROM CatalogoProducto WHERE idCatalogoProducto = '{$producto}' AND idCatalogo = '{$year[0]}C{$_POST['campana']}'");
+				
 				if (!$search) {
 					echo "<script>alert('La lista de Excel contiene productos que no existen en el catálogo actual. La carga se ha interrumpido.');</script>";
 				    break;

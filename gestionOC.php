@@ -134,7 +134,7 @@ if(isset($_SESSION['login'])) {
 			<div class="spacer10"></div>
 			<div class="row">
 				<div class="col-12">
-					<table class="table table-bordered" id="myTable">
+					<table class="table table-bordered text-center" id="myTable">
 						<thead class="thead-default">
 						<tr>
 							<th class="text-center">Orden #</th>

@@ -51,8 +51,6 @@ if(isset($_SESSION['login'])) {
 
         $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','ConteoInventario','{$queryPerformed}')");
 
-        echo $queryPerformed." ";
-
         $stockinicial1 = 0;
         $stockinicial2 = 0;
         $tabla = mysqli_query($link, "SELECT * FROM UbicacionProducto WHERE idProducto = '{$_POST['idProducto']}' AND idUbicacion = '{$_POST['ubicacioninicial']}'");
@@ -83,8 +81,6 @@ if(isset($_SESSION['login'])) {
         $query = mysqli_query($link,"INSERT INTO TransaccionProducto VALUES ('{$_POST['idProducto']}','{$_POST['codigo']}','{$_POST['ubicacioninicial']}','{$_POST['ubicaciondestino']}',null,0,{$_POST['stock']},null,'{$_POST['observaciones']}',{$stockinventario},{$stockinventario},null,0)");
 
         $queryPerformed = "INSERT INTO TransaccionProducto VALUES ({$_POST['idProducto']},{$_POST['codigo']},{$_POST['ubicacioninicial']},{$_POST['ubicaciondestino']},null,0,{$_POST['stock']},null,{$_POST['observaciones']},{$stockinventario},{$stockinventario},null,0)";
-
-        echo $queryPerformed;
 
         $update = mysqli_query($link, "UPDATE UbicacionProducto SET stock = '{$stockFinalInicial}', fechaModificacion = '{$date}' WHERE idProducto = '{$_POST['idProducto']}' AND idUbicacion = '{$_POST['ubicacioninicial']}'");
         $queryPerformed = "UPDATE UbicacionProducto SET stock = {$stockFinalInicial}, fechaModificacion = {$date} WHERE idProducto = {$_POST['idProducto']} AND idUbicacion = {$_POST['ubicacioninicial']}";
