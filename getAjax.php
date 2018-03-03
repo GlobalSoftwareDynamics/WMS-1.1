@@ -150,109 +150,134 @@ if (!empty($_POST['getprecioprom'])) {
         $idProducto = $fila['idProducto'];
         $array[$aux]=array($fila['costoEstimado'],'NA');
         $tipoProducto = $fila['idTipoProducto'];
+		$result = mysqli_query($link,"SELECT idCategoria FROM Categoria WHERE idCategoria IN (SELECT idCategoria FROM SubCategoria WHERE idSubCategoria = '{$fila['idSubCategoria']}')");
+		while($fila1 =  mysqli_fetch_array($result)){
+			$idCategoria = $fila1['idCategoria'];
+		}
     }
-    if($tipoProducto==2||$tipoProducto==3){
-        echo "<input type='text' name='precio' class='form-control'>";
-    }else{
-        $catalogos=mysqli_query($link,"SELECT * FROM Catalogo WHERE fechaInicio <= '{$date}' AND fechaFin >= '{$date}' AND tipo != 'Entrenos'");
-        while ($row=mysqli_fetch_array($catalogos)){
-            $campanaactual=$row['idCampana'];
-            $idcatalogoactual=$row['idCatalogo'];
-        }
-
-        if($campanaactual==1){
-
-            $anioanterior=$anio[0]-1;
-            $campanasiguiente=$campanaactual+1;
-            $campanaanterior=13;
-            $idCatalogoSiguiente="{$anio[0]}C{$campanasiguiente}";
-            $idCatalogoAnterior="{$anioanterior}C{$campanaanterior}";
-
-        }elseif ($campanaactual==13){
-
-            $aniosiguiente=$anio[0]+1;
-            $campanasiguiente=1;
-            $campanaanterior=$campanaactual-1;
-            $idCatalogoSiguiente="{$aniosiguiente}C{$campanasiguiente}";
-            $idCatalogoAnterior="{$anio[0]}C{$campanaanterior}";
-
-        }else{
-
-            $campanasiguiente=$campanaactual+1;
-            $campanaanterior=$campanaactual-1;
-            $idCatalogoAnterior="{$anio[0]}C{$campanaanterior}";
-            $idCatalogoSiguiente="{$anio[0]}C{$campanasiguiente}";
-
-        }
-
-        $catalogoscampana=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$idProducto}' AND idCatalogo = '{$idCatalogoAnterior}'");
-        $numrows=mysqli_num_rows($catalogoscampana);
-        if($numrows>0){
-            while ($row1=mysqli_fetch_array($catalogoscampana)){
-                $aux++;
-                if(!empty($row1['promocion'])){
-                    $array[$aux]=array($campanaanterior,$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
-                }else{
-                    $array[$aux]=array($campanaanterior,$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
-                }
-            }
-        }else{
-            $aux++;
-            $array[$aux]=array("NA","","");
-        }
-
-
-        $catalogoscampana1=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$idProducto}' AND idCatalogo = '{$idcatalogoactual}'");
-        $numrows=mysqli_num_rows($catalogoscampana1);
-        if($numrows>0){
-            while ($row1=mysqli_fetch_array($catalogoscampana1)){
-                $aux++;
-                if(!empty($row1['promocion'])){
-                    $array[$aux]=array($campanaactual,$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
-                }else{
-                    $array[$aux]=array($campanaactual,$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
-                }
-            }
-        }else{
-            $aux++;
-            $array[$aux]=array("NA","","");
-        }
-
-        $catalogoscampana1=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$idProducto}' AND idCatalogo = '{$idCatalogoSiguiente}'");
-        $numrows=mysqli_num_rows($catalogoscampana1);
-        if($numrows>0){
-            while ($row1=mysqli_fetch_array($catalogoscampana1)){
-                $aux++;
-                if(!empty($row1['promocion'])){
-                    $array[$aux]=array($campanasiguiente,$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
-                }else{
-                    $array[$aux]=array($campanasiguiente,$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
-                }
-            }
-        }else{
-            $aux++;
-            $array[$aux]=array("NA","","");
-        }
-
-        echo "
-            <select class='form-control' name='precio'>
-                <option disabled>Opciones</option>
-		";
-        for ($i = 0; $i < $aux+1; $i++){
-            if($i===0){
-                echo "
-                <option value='{$array[$i][0]}'>Precio Promedio: S/.{$array[$i][0]}</option>
-            ";
-            }else{
-                echo "
-                    <option value='{$array[$i][2]}|{$array[$i][4]}'>C{$array[$i][0]}({$array[$i][1]}): S/.{$array[$i][2]} ({$array[$i][3]})</option>
-                ";
-            }
-        }
-        echo "
-            </select>
-        ";
-    }
+	if($idCategoria == 1){
+		$catalogoscampana=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$idProducto}'");
+			$numrows=mysqli_num_rows($catalogoscampana);
+			if($numrows>0){
+				while ($row1=mysqli_fetch_array($catalogoscampana)){
+					$aux++;
+					$numeroCampana = explode("C",$row1['idCatalogo']);
+					if(!empty($row1['promocion'])){
+						$array[$aux]=array($numeroCampana[1],$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
+					}else{
+						$array[$aux]=array($numeroCampana[1],$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
+					}
+				}
+			}else{
+				$aux++;
+				$array[$aux]=array("NA","","");
+			}
+	}else{
+		if($tipoProducto==2||$tipoProducto==3){
+			echo "<input type='text' name='precio' class='form-control'>";
+		}else{
+			$catalogos=mysqli_query($link,"SELECT * FROM Catalogo WHERE fechaInicio <= '{$date}' AND fechaFin >= '{$date}' AND tipo != 'Entrenos'");
+			while ($row=mysqli_fetch_array($catalogos)){
+				$campanaactual=$row['idCampana'];
+				$idcatalogoactual=$row['idCatalogo'];
+			}
+	
+			if($campanaactual==1){
+	
+				$anioanterior=$anio[0]-1;
+				$campanasiguiente=$campanaactual+1;
+				$campanaanterior=13;
+				$idCatalogoSiguiente="{$anio[0]}C{$campanasiguiente}";
+				$idCatalogoAnterior="{$anioanterior}C{$campanaanterior}";
+	
+			}elseif ($campanaactual==13){
+	
+				$aniosiguiente=$anio[0]+1;
+				$campanasiguiente=1;
+				$campanaanterior=$campanaactual-1;
+				$idCatalogoSiguiente="{$aniosiguiente}C{$campanasiguiente}";
+				$idCatalogoAnterior="{$anio[0]}C{$campanaanterior}";
+	
+			}else{
+	
+				$campanasiguiente=$campanaactual+1;
+				$campanaanterior=$campanaactual-1;
+				$idCatalogoAnterior="{$anio[0]}C{$campanaanterior}";
+				$idCatalogoSiguiente="{$anio[0]}C{$campanasiguiente}";
+	
+			}
+	
+			$catalogoscampana=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$idProducto}' AND idCatalogo = '{$idCatalogoAnterior}'");
+			$numrows=mysqli_num_rows($catalogoscampana);
+			if($numrows>0){
+				while ($row1=mysqli_fetch_array($catalogoscampana)){
+					$aux++;
+					if(!empty($row1['promocion'])){
+						$array[$aux]=array($campanaanterior,$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
+					}else{
+						$array[$aux]=array($campanaanterior,$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
+					}
+				}
+			}else{
+				$aux++;
+				$array[$aux]=array("NA","","");
+			}
+	
+	
+			$catalogoscampana1=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$idProducto}' AND idCatalogo = '{$idcatalogoactual}'");
+			$numrows=mysqli_num_rows($catalogoscampana1);
+			if($numrows>0){
+				while ($row1=mysqli_fetch_array($catalogoscampana1)){
+					$aux++;
+					if(!empty($row1['promocion'])){
+						$array[$aux]=array($campanaactual,$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
+					}else{
+						$array[$aux]=array($campanaactual,$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
+					}
+				}
+			}else{
+				$aux++;
+				$array[$aux]=array("NA","","");
+			}
+	
+			$catalogoscampana1=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$idProducto}' AND idCatalogo = '{$idCatalogoSiguiente}'");
+			$numrows=mysqli_num_rows($catalogoscampana1);
+			if($numrows>0){
+				while ($row1=mysqli_fetch_array($catalogoscampana1)){
+					$aux++;
+					if(!empty($row1['promocion'])){
+						$array[$aux]=array($campanasiguiente,$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
+					}else{
+						$array[$aux]=array($campanasiguiente,$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
+					}
+				}
+			}else{
+				$aux++;
+				$array[$aux]=array("NA","","");
+			}
+	
+			
+		}	
+	}
+	echo "
+				<select class='form-control' name='precio'>
+					<option disabled>Opciones</option>
+			";
+			for ($i = 0; $i < $aux+1; $i++){
+				if($i===0){
+					echo "
+					<option value='{$array[$i][0]}'>Precio Promedio: S/.{$array[$i][0]}</option>
+				";
+				}else{
+					echo "
+						<option value='{$array[$i][2]}|{$array[$i][4]}'>C{$array[$i][0]}({$array[$i][1]}): S/.{$array[$i][2]} ({$array[$i][3]})</option>
+					";
+				}
+			}
+			echo "
+				</select>
+			";
+    
 }
 
 if (!empty($_POST['getpreciopromID'])) {
@@ -270,116 +295,139 @@ if (!empty($_POST['getpreciopromID'])) {
         $idProducto = $fila['idProducto'];
         $array[$aux]=array($fila['costoEstimado'],'NA');
         $tipoProducto = $fila['idTipoProducto'];
+		$result = mysqli_query($link,"SELECT idCategoria FROM Categoria WHERE idCategoria IN (SELECT idCategoria FROM SubCategoria WHERE idSubCategoria = '{$fila['idSubCategoria']}')");
+		while($fila1 =  mysqli_fetch_array($result)){
+			$idCategoria = $fila1['idCategoria'];
+		}
     }
-    if($tipoProducto==2||$tipoProducto==3){
-        echo "<input type='text' name='precio' class='form-control'>";
-    }else{
-        $catalogos=mysqli_query($link,"SELECT * FROM Catalogo WHERE fechaInicio <= '{$date}' AND fechaFin >= '{$date}' AND tipo != 'Entrenos'");
-        while ($row=mysqli_fetch_array($catalogos)){
-            $campanaactual=$row['idCampana'];
-            $idcatalogoactual=$row['idCatalogo'];
-        }
-
-        if($campanaactual==1){
-
-            $anioanterior=$anio[0]-1;
-            $campanasiguiente=$campanaactual+1;
-            $campanaanterior=13;
-            $idCatalogoSiguiente="{$anio[0]}C{$campanasiguiente}";
-            $idCatalogoAnterior="{$anioanterior}C{$campanaanterior}";
-
-        }elseif ($campanaactual==13){
-
-            $aniosiguiente=$anio[0]+1;
-            $campanasiguiente=1;
-            $campanaanterior=$campanaactual-1;
-            $idCatalogoSiguiente="{$aniosiguiente}C{$campanasiguiente}";
-            $idCatalogoAnterior="{$anio[0]}C{$campanaanterior}";
-
-        }else{
-
-            $campanasiguiente=$campanaactual+1;
-            $campanaanterior=$campanaactual-1;
-            $idCatalogoAnterior="{$anio[0]}C{$campanaanterior}";
-            $idCatalogoSiguiente="{$anio[0]}C{$campanasiguiente}";
-
-        }
-
-        $catalogoscampana=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$_POST['getpreciopromID']}' AND idCatalogo = '{$idCatalogoAnterior}'");
-        $numrows=mysqli_num_rows($catalogoscampana);
-        if($numrows>0){
-            while ($row1=mysqli_fetch_array($catalogoscampana)){
-                $aux++;
-                if(!empty($row1['promocion'])){
-                    $array[$aux]=array($row1['precio'],$row1['promocion'],$row1['precioBase']);
-                }else{
-                    $array[$aux]=array($row1['precio'],"NA",$row1['precioBase']);
-                }
-            }
-        }else{
-            $aux++;
-            $array[$aux]=array("NA","","");
-        }
-
-
-        $catalogoscampana1=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$_POST['getpreciopromID']}' AND idCatalogo = '{$idcatalogoactual}'");
-        $numrows=mysqli_num_rows($catalogoscampana1);
-        if($numrows>0){
-            while ($row1=mysqli_fetch_array($catalogoscampana1)){
-                $aux++;
-                if(!empty($row1['promocion'])){
-                    $array[$aux]=array($row1['precio'],$row1['promocion'],$row1['precioBase']);
-                }else{
-                    $array[$aux]=array($row1['precio'],"NA",$row1['precioBase']);
-                }
-            }
-        }else{
-            $aux++;
-            $array[$aux]=array("NA","","");
-        }
-
-        $catalogoscampana1=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$_POST['getpreciopromID']}' AND idCatalogo = '{$idCatalogoSiguiente}'");
-        $numrows=mysqli_num_rows($catalogoscampana1);
-        if($numrows>0){
-            while ($row1=mysqli_fetch_array($catalogoscampana1)){
-                $aux++;
-                if(!empty($row1['promocion'])){
-                    $array[$aux]=array($row1['precio'],$row1['promocion'],$row1['precioBase']);
-                }else{
-                    $array[$aux]=array($row1['precio'],"NA",$row1['precioBase']);
-                }
-            }
-        }else{
-            $aux++;
-            $array[$aux]=array("NA","","");
-        }
-
-        echo "
-            <select class='form-control' name='precio'>
-                <option disabled>Opciones</option>";
-        for ($i=0;$i<4;$i++){
-            if($i===0){
-                echo "
-                <option value='{$array[$i][0]}'>Precio Promedio: S/.{$array[$i][0]}</option>
-            ";
-            }elseif ($i===1){
-                echo "
-                <option value='{$array[$i][0]}|{$array[$i][2]}'>Catálogo Anterior: S/.{$array[$i][0]} ({$array[$i][1]})</option>
-            ";
-            }elseif ($i===2){
-                echo "
-                <option value='{$array[$i][0]}|{$array[$i][2]}'>Catálogo Actual: S/.{$array[$i][0]} ({$array[$i][1]})</option>
-            ";
-            }elseif ($i===3){
-                echo "
-                <option value='{$array[$i][0]}|{$array[$i][2]}'>Catálogo Siguiente: S/.{$array[$i][0]} ({$array[$i][1]})</option>
-            ";
-            }
-        }
-        echo "
-            </select>
-        ";
-    }
+	if($idCategoria == 1){
+		$catalogoscampana=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$idProducto}'");
+			$numrows=mysqli_num_rows($catalogoscampana);
+			if($numrows>0){
+				while ($row1=mysqli_fetch_array($catalogoscampana)){
+					$aux++;
+					$numeroCampana = explode("C",$row1['idCatalogo']);
+					if(!empty($row1['promocion'])){
+						$array[$aux]=array($numeroCampana[1],$row1['idCatalogoProducto'],$row1['precio'],$row1['promocion'],$row1['precioBase']);
+					}else{
+						$array[$aux]=array($numeroCampana[1],$row1['idCatalogoProducto'],$row1['precio'],"NA",$row1['precioBase']);
+					}
+				}
+			}else{
+				$aux++;
+				$array[$aux]=array("NA","","");
+			}
+	}else{
+		if($tipoProducto==2||$tipoProducto==3){
+			echo "<input type='text' name='precio' class='form-control'>";
+		}else{
+			$catalogos=mysqli_query($link,"SELECT * FROM Catalogo WHERE fechaInicio <= '{$date}' AND fechaFin >= '{$date}' AND tipo != 'Entrenos'");
+			while ($row=mysqli_fetch_array($catalogos)){
+				$campanaactual=$row['idCampana'];
+				$idcatalogoactual=$row['idCatalogo'];
+			}
+	
+			if($campanaactual==1){
+	
+				$anioanterior=$anio[0]-1;
+				$campanasiguiente=$campanaactual+1;
+				$campanaanterior=13;
+				$idCatalogoSiguiente="{$anio[0]}C{$campanasiguiente}";
+				$idCatalogoAnterior="{$anioanterior}C{$campanaanterior}";
+	
+			}elseif ($campanaactual==13){
+	
+				$aniosiguiente=$anio[0]+1;
+				$campanasiguiente=1;
+				$campanaanterior=$campanaactual-1;
+				$idCatalogoSiguiente="{$aniosiguiente}C{$campanasiguiente}";
+				$idCatalogoAnterior="{$anio[0]}C{$campanaanterior}";
+	
+			}else{
+	
+				$campanasiguiente=$campanaactual+1;
+				$campanaanterior=$campanaactual-1;
+				$idCatalogoAnterior="{$anio[0]}C{$campanaanterior}";
+				$idCatalogoSiguiente="{$anio[0]}C{$campanasiguiente}";
+	
+			}
+	
+			$catalogoscampana=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$_POST['getpreciopromID']}' AND idCatalogo = '{$idCatalogoAnterior}'");
+			$numrows=mysqli_num_rows($catalogoscampana);
+			if($numrows>0){
+				while ($row1=mysqli_fetch_array($catalogoscampana)){
+					$aux++;
+					if(!empty($row1['promocion'])){
+						$array[$aux]=array($row1['precio'],$row1['promocion'],$row1['precioBase']);
+					}else{
+						$array[$aux]=array($row1['precio'],"NA",$row1['precioBase']);
+					}
+				}
+			}else{
+				$aux++;
+				$array[$aux]=array("NA","","");
+			}
+	
+	
+			$catalogoscampana1=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$_POST['getpreciopromID']}' AND idCatalogo = '{$idcatalogoactual}'");
+			$numrows=mysqli_num_rows($catalogoscampana1);
+			if($numrows>0){
+				while ($row1=mysqli_fetch_array($catalogoscampana1)){
+					$aux++;
+					if(!empty($row1['promocion'])){
+						$array[$aux]=array($row1['precio'],$row1['promocion'],$row1['precioBase']);
+					}else{
+						$array[$aux]=array($row1['precio'],"NA",$row1['precioBase']);
+					}
+				}
+			}else{
+				$aux++;
+				$array[$aux]=array("NA","","");
+			}
+	
+			$catalogoscampana1=mysqli_query($link,"SELECT * FROM CatalogoProducto WHERE idProducto = '{$_POST['getpreciopromID']}' AND idCatalogo = '{$idCatalogoSiguiente}'");
+			$numrows=mysqli_num_rows($catalogoscampana1);
+			if($numrows>0){
+				while ($row1=mysqli_fetch_array($catalogoscampana1)){
+					$aux++;
+					if(!empty($row1['promocion'])){
+						$array[$aux]=array($row1['precio'],$row1['promocion'],$row1['precioBase']);
+					}else{
+						$array[$aux]=array($row1['precio'],"NA",$row1['precioBase']);
+					}
+				}
+			}else{
+				$aux++;
+				$array[$aux]=array("NA","","");
+			}		
+		}
+	}
+	echo "
+				<select class='form-control' name='precio'>
+					<option disabled>Opciones</option>";
+			for ($i=0;$i<4;$i++){
+				if($i===0){
+					echo "
+					<option value='{$array[$i][0]}'>Precio Promedio: S/.{$array[$i][0]}</option>
+				";
+				}elseif ($i===1){
+					echo "
+					<option value='{$array[$i][0]}|{$array[$i][2]}'>Catálogo Anterior: S/.{$array[$i][0]} ({$array[$i][1]})</option>
+				";
+				}elseif ($i===2){
+					echo "
+					<option value='{$array[$i][0]}|{$array[$i][2]}'>Catálogo Actual: S/.{$array[$i][0]} ({$array[$i][1]})</option>
+				";
+				}elseif ($i===3){
+					echo "
+					<option value='{$array[$i][0]}|{$array[$i][2]}'>Catálogo Siguiente: S/.{$array[$i][0]} ({$array[$i][1]})</option>
+				";
+				}
+			}
+			echo "
+				</select>
+			";
+    
 }
 
 if (!empty($_POST['montorestante'])) {

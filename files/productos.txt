@@ -1,6 +1,7 @@
 ﻿SKU,Nombre Corto,Atributo,Subcategoría,Género,Estado
 0000872,SOLO COLOGNE FOR MEN A/P,Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ,Perfumería Varón,Unisex,Activo
 0000883,OHM COLOGNE SPRAY,Salvia, toronja, lavanda.,Perfumería Varón,Varón,Activo
+0001234,SET ARETES MARIPOSA,ARETES,Aretes,Dama,Activo
 0001390,DENDUR COLOGNE FOR MEN A/P,Pimienta negra, jengibre, tabaco.,Perfumería Varón,Varón,Activo
 0001618,Sentiva Hydra-tonic Locion Tonica Cutis Normal O Mixto 180ml,Negro,Limpiadores y Tónicos,Dama,Activo
 0001831,SOLO TALCO PARA EL CUERPO HOMBRE,Evita exceso de humedad deja la piel suave y perfumada,Perfumería Varón,Unisex,Activo
@@ -217,10 +218,10 @@
 0004185,DELINEADOR PUNTA PINCEL GUINDA METALICO,Punta delgada,Delineadores,Unisex,Activo
 0004195,ULTRA DEFiNITION  DELINEADOR LABIOS PIEL,Labios Piel,Delineadores de Labios,Unisex,Activo
 0004199,Prolong Color Princesa (antigua presentación),Negro,Collares,Unisex,Activo
-0004221,HYDRA LIP HUMENCTANTE PURO SENTIMIENTO,Rosado claro,Labiales,Unisex,Activo
+0004221,HYDRA LIP LABIAL COLOR INTENSO PURO SENTIMIENTO,Rosado claro,Labiales,Unisex,Activo
 0004227,DELINEADOR PUNTA PINCEL MORADO,Punta delgada,Delineadores,Unisex,Activo
-0004232,HYDRA LIP ULTRA AMOR SECRETO,palo de rosa nacarado,Labiales,Unisex,Activo
-0004236,HYDRA LIP HUMENCTANTE ULTRA JUGAR CON FUEGO,Negro,Labiales,Unisex,Activo
+0004232,HYDRA LIP LABIAL COLOR INTENSO  AMOR SECRETO,palo de rosa nacarado,Labiales,Unisex,Activo
+0004236, HYDRA-LIP LABIAL COLOR INTENSO JUGAR CON FUEGO,rojo,Labiales,Unisex,Activo
 0004237,HYDRA-LIP ULTRA MORA MIA,MORADO,Labiales,Unisex,Activo
 0004240,BIO MILK CREMA HIDRATANTE ORIGINAL 750 ML,aroma a base de pomelo blanco, durazno y flor de algodón que hidrata, suaviza y nutre,Cuidado de la Piel,Unisex,Activo
 0004266,TOTALIST 4 ALOE VERA CREMA MULTIACTIVA ,Hidrata, nutre, protege, suaviza,Cuidado de la Piel,Dama,Activo
@@ -247,15 +248,15 @@
 0004379,Clic Brillo Natural y Delineador Azul,Negro,Collares,Unisex,Activo
 0004394,BIO FRUIT SHAMPOO Y  ACONDICIONADOR MANDARINA TROPICAL A/P,Con proteinas de Yogur probiotico Revitalizante,Shampoo,Unisex,Activo
 0004395,BIO FRUIT SHAMPOO Y ACONDICIONADOR COCO CARIBEÑO A/P 350 ML,Ultra Hidratante envase color crema,Shampoo,Unisex,Activo
-0004408,HIDRA LIP HUMECTANTE  JUNTO A TI DLUX,rosado fuerte,Labiales,Unisex,Activo
+0004408, HYDRA-LIP LABIAL COLOR INTENSO JUNTO A TI ,rosado fuerte,Labiales,Unisex,Activo
 0004422,LASH FICTION RIMEL PESTAÑAS DE PELICULA,No es a prueba de agua,Rímeles,Unisex,Activo
 0004469,BODY SPA UÑA DE GATO CREMA PARA PIEL EXTRA SECA A/P,Hidrata y repara la piel seca y extra seca.,Cuidado de la Piel,Unisex,Activo
 0004470,BODY SPA UÑA DE GATO BODY SPA UÑA DE GATO PARA PIEL EXTRA SECA A/P,Exfolia la piel seca y extra seca.,Cuidado de la Piel,Unisex,Activo
 0004471,DESODORANTE ACERK.TE FUEGO,Desodorante corporal envase negro etiqueta anaranjada,Desodorantes,Unisex,Activo
 0004476,CCORI CRISTAL LEAU DE PARFUM,aroma oriental con notas de  fresia, jazmín y vainilla. ,Perfumería Dama,Unisex,Activo
-0004480,Lpstay Larga Duración Sun Bronz,Negro,Collares,Unisex,Activo
-0004483,L/L HYDRA-LIP LD ROSA DE MIS SUEÑOS ,Rosado nacarado,Labiales,Unisex,Activo
-0004486,L/L HYDRA-LIP LD BESO VOLADO,vino,Labiales,Unisex,Activo
+0004480,HYDRA-LIP LARGA DURACION SUN BRONZ,bronce,Labiales,Unisex,Activo
+0004483,HYDRA-LIP LARGA DURACION ROSA DE MIS SUEÑOS  A/P,Rosado nacarado,Labiales,Unisex,Activo
+0004486,HYDRA-LIP LARGA DURACION BESO VOLADO,vino,Labiales,Unisex,Activo
 0004493,SPRIO BLUE SPRAY COLOGNE,Toronja, lavanda, vetiver.,Perfumería Dama,Unisex,Activo
 00044948,HIDRA-LIP ULTRA HIDRATANTE ,rojo vino ,Labiales,Unisex,Activo
 0004495,ZENTRO COLOGNE FOR MEN,Notas orientales con notas de yuzu, cedro y haba tonka.,Perfumería Varón,Unisex,Activo
@@ -294,8 +295,8 @@
 0004654,REVITALIST LIMPIADOR,Limpia, hipoalergenico menores de 35 años,Cremas y Sueros,Unisex,Activo
 0004655,ELIXIR DE VIDA LIMPIADOR,Limpia con resveratrol e hipoalergenico.,Cremas y Sueros,Unisex,Activo
 0004656,BODY SPA UÑA DE GATO CREMA REPARADORA A/P,Repara e hidrata la piel.,Cuidado de la Piel,Unisex,Activo
-0004657,HYDRA LIP ULTRA  DELICATTA FR Delux,palo de rosa oscuro,Labiales,Unisex,Activo
-0004661,HYDRA LIP ULTRA ATARDECER  CARIBE,rosado,Labiales,Unisex,Activo
+0004657,HYDRA LIP LABIAL COLOR INTENSO  DELICATTA ,palo de rosa oscuro,Labiales,Unisex,Activo
+0004661,HYDRA LIP LABIAL COLOR INTENSO  ATARDECER  CARIBE,rosado,Labiales,Unisex,Activo
 0004668,ULTRA DEFINITON PLUMON OJOS MARRON,Trazo Preciso delineado delgado y grueso,Delineadores,Unisex,Activo
 0004669,ULTRA DEFINITION PLUMON OJOS AZUL,Trazo preciso delineado delgado y grueso,Delineadores,Unisex,Activo
 0004670,REVITALIST TONICO,Negro,Collares,Unisex,Activo
@@ -312,12 +313,12 @@
 0004718,SOY DULCE FRESH COLOGNE A/P,Frambuesa azucarada, madera blanca, vainilla.,Perfumería Dama,Dama,Activo
 0004719,SOY FASHION FRESH COLOGNE A/P,Litchi dulce, chocolate blanco, almizcle delicado.,Perfumería Dama,Dama,Activo
 0004720,SOY SEXY FRESH COLOGNE A/P,Nerolí, sándalo sensual, almizcle de piel.,Perfumería Dama,Dama,Activo
-0004724,HYDRA LIP ULTRA LADY ROSE,Rosado claro,Labiales,Unisex,Activo
+0004724, HYDRA-LIP LABIAL COLOR INTENSO ULTRA LADY ROSE,Rosado claro,Labiales,Unisex,Activo
 0004733,ELIXIR DE VIDA ROSTRO,Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol,Cremas y Sueros,Unisex,Activo
 0004734,ELIXIR DE VIDA CREMA DE OJOS,Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.,Cremas y Sueros,Unisex,Activo
 0004741,ESMALTE PERFECT TEN NOCTAMBUL,Verde escamas,Collares,Unisex,Activo
-0004744,HYDRA LIP ULTRA FUCSIA OPULENTO,fucsia,Labiales,Unisex,Activo
-0004749,HYDRA LIP ULTRA  LUJO MALVA,lila oscuro,Labiales,Unisex,Activo
+0004744,HYDRA LIP LABIAL COLOR INTENSO FUCSIA OPULENTO,fucsia,Labiales,Unisex,Activo
+0004749, HYDRA-LIP LABIAL COLOR INTENSO LUJO MALVA,lila oscuro,Labiales,Unisex,Activo
 0004750,CONTROL BLANC RX LIMPIADOR EXFOLIANTE TONIFICANTE,Limpia, exfolia y tonifica.,Antimanchas y Aclarantes,Unisex,Activo
 0004761,Clic Esmalte Party Mood,Negro,Collares,Unisex,Activo
 0004762,CLIC ESMALTE BLACK GLOW,negro encarchado,Collares,Unisex,Activo
@@ -327,7 +328,7 @@
 0004771,C/S COLOR EFFECT URBANA A/P,Oscuros,Sombras,Unisex,Activo
 0004772,BIO MILK CREMA HIDRATANTE VAINILLA FRANCESA,aroma a base de pomelo blanco, vainilla y flor de algodón que hidrata, suaviza y nutre,Cuidado de la Piel,Unisex,Activo
 0004773,BODY SPA LECHE & AVENA CREMA MANOS,hidratacion y suavidad,Cuidado de la Piel,Unisex,Activo
-0004780,HYDRA LIP ULTRA ROSA LIP,rosa claro,Labiales,Unisex,Activo
+0004780,HYDRA LIP LABIAL COLOR INTENSO  ROSA LIP FR,rosa claro,Labiales,Unisex,Activo
 0004791,PERFECT TEN BARNIZ UÑAS MATE,Negro,Collares,Unisex,Activo
 0004792,ULTRA DEFINITION DELINEADOR LIQUIDO OJOS GRIS URBANO,Punta Plumon Efecto Metalico,Delineadores,Unisex,Activo
 0004816,CLIC SOMBRAS COMPACTAS TROPICAL COLORS,azules,Sombras,Unisex,Activo
@@ -353,12 +354,12 @@
 0004850,P/C PERFECT COVER MEDIANO 1,Piel Mediana,Polvos,Unisex,Activo
 0004851,P/C PERFECT COVER MEDIANO 2,Piel Oscura ,Polvos,Unisex,Activo
 0004852,P/C PERFECT COVER OSCURO 1,Piel Oscura,Polvos,Unisex,Activo
-0004854,Lipstay Larga Duracion Rojo Apasionado ,rojo fresa,Labiales,Unisex,Activo
-0004855,Lispstay Larga Duración Rojo Destello,Negro,Collares,Unisex,Activo
-0004857,Lipstay Larga Duración Canela Intenso,Negro,Collares,Unisex,Activo
+0004854,HYDRA-LIP LARGA DURACION ROJO APASIONADO ,rojo fresa,Labiales,Unisex,Activo
+0004855,HYDRA-LIP LARGA DURACION ROJO DESTELLO,rojo,Labiales,Unisex,Activo
+0004857,HYDRA-LIP LARGA DURACION CANELA INTENSO,Cafe,Labiales,Unisex,Activo
 0004866,HYDRA LIP ULTRA ROSA POP,rosado oscuro,Labiales,Unisex,Activo
 0004868,HYDRA-LIP ULTRA POP STYLE FR,lila ,Labiales,Unisex,Activo
-0004869,HYDRA LIP ULTRA FLORIDA LOVE,nude oscuro,Labiales,Unisex,Activo
+0004869,HYDRA LIP LABIAL COLOR INTENSO FLORIDA LOVE,nude oscuro,Labiales,Unisex,Activo
 0004880,AROM ABSOLUT COLOGNE FOR MEN,aroma con notas de limón kaffir, cardamomo y ámbar gris.,Perfumería Varón,Unisex,Activo
 0004881,PD BAILAMOS EN RIO COLOGNE,Fragancia fruta floral  Notas de mango y naranja tropical, con un toque cítrico,Perfumería Dama,Unisex,Activo
 0004882,PD TE ESPERO EN ESTAMBUL COLOGNE,Aroma Oriental Floral con notas dulces de flor de manzana, rosa turca y vainilla,Colonia,Unisex,Activo
@@ -369,19 +370,19 @@
 0004887,RUBOR COLOR EFFECT BRONZAGE,Piel mediana,Rubor,Unisex,Activo
 0004888,RUBOR COLOR EFFECT PETAL ROSE ,Piel mediana,Rubor,Unisex,Activo
 0004889,RUBOR COLOR EFFECT TERRA,Piel Oscura,Rubor,Unisex,Activo
-0004890,L/L HYDRA-LIP COLOR MUSA,NUDE,Labiales,Unisex,Activo
-0004891,L/L HYDRA-LIP COLOR BAILE ROSA,palo de rosa,Labiales,Unisex,Activo
-0004892,L/L HYDRA-LIP COLOR CHOCOLAT MOUSSE,Chocolate,Labiales,Unisex,Activo
-0004893,L/L HYDRA-LIP COLOR TERCIOPELO  NEGRO,vino fuerte,Labiales,Unisex,Activo
+0004890,HIDRA LIP LABIAL COLOR INTENSO MUSA,NUDE,Labiales,Unisex,Activo
+0004891,HYDRA LIP LABIAL COLOR INTENSO BAILE ROSA,palo de rosa,Labiales,Unisex,Activo
+0004892,HYDRA LIP LABIAL COLOR INTENSO  CHOCOLAT MOUSSE,Chocolate,Labiales,Unisex,Activo
+0004893,HYDRA LIP LABIAL COLOR INTENSO  TERCIOPELO  NEGRO,vino fuerte,Labiales,Unisex,Activo
 0004894,L/L HYDRA-LIP COLOR AMBRE,nude oscuro,Labiales,Unisex,Activo
-0004895,L/L HYDRA-LIP COLOR TENTACION,rojo claro,Labiales,Unisex,Activo
-0004896,L/L HYDRA-LIP COLOR RUMORES,coral,Labiales,Unisex,Activo
-0004897,L/L HYDRA-LIP COLOR MORA ZEN,lila,Labiales,Unisex,Activo
-0004898,L/L HYDRA-LIP COLOR VAINILLA CORAL,Coral,Labiales,Unisex,Activo
-0004899,L/L HYDRA-LIP COLOR CORAL&COLO,coral,Labiales,Unisex,Activo
-0004900,L/L HYDRA-LIP COLOR FUCSIA PELIGROSA,fucsia,Labiales,Unisex,Activo
-0004901,L/L HYDRA-LIP COLOR GUINDA ETNICO,guinda oscuro,Labiales,Unisex,Activo
-0004902,L/L HYDRA-LIP COLOR ALMENDRADO,nude claro,Labiales,Unisex,Activo
+0004895,HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION,rojo claro,Labiales,Unisex,Activo
+0004896,HYDRA LIP LABIAL COLOR INTENSO RUMORES,coral,Labiales,Unisex,Activo
+0004897,HYDRA LIP LABIAL COLOR INTENSO  MORA ZEN,lila,Labiales,Unisex,Activo
+0004898,HYDRA LIP LABIAL COLOR INTENSO VAINILLA CORAL,Coral,Labiales,Unisex,Activo
+0004899,HYDRA-LIP LABIAL COLOR INTENSO CORAL&COLOR RAL&COLO,coral,Labiales,Unisex,Activo
+0004900,HYDRA LIP LABIAL COLOR INTENSO FUCSIA PELIGROSA,fucsia,Labiales,Unisex,Activo
+0004901,HYDRA LIP LABIAL COLOR INTENSO  GUINDA ETNICO,guinda oscuro,Labiales,Unisex,Activo
+0004902,HYDRA LIP LABIAL COLOR INTENSO ALMENDRADO,nude claro,Labiales,Unisex,Activo
 0004904,UNIQUE WOMAN INFINITY EAU PARFUM,floral de brotes de cerezo, jazmín y ámbar,Perfumería Dama,Unisex,Activo
 0004905,C/S COLOR EFFECT MIAMI BEACH,Colores Marinos,Sombras,Unisex,Activo
 0004921,CCORI CRISTAL BODY LOTION A/P,Hidrata, protege y suaviza.,Perfumería Dama,Unisex,Activo
@@ -400,22 +401,22 @@
 0004944,B/L PERFECT COVER MAT T3,Acabado mate hasta por 8 horas. SPF 12.,Bases,Unisex,Activo
 0004945,B/L PERFECT COVER MAT T4,Acabado mate hasta por 8 horas. SPF 12.,Bases,Unisex,Activo
 0004946,B/L PERFECT COVER MAT T5,Acabado mate hasta por 8 horas. SPF 12.,Bases,Unisex,Activo
-0004951,HYDRA LIP ULTRA ROJO EUFORIA,rojo brillante,Labiales,Unisex,Activo
+0004951, HYDRA-LIP LABIAL COLOR INTENSO ROJO EUFORIA,rojo brillante,Labiales,Unisex,Activo
 0004959,UNIQUE WOMAN EAU DE PARFUM,Negro,Collares,Unisex,Activo
 0004962,SPRIO PINK COLOGNE FOR HER,Dulce,Perfumería Dama,Unisex,Activo
 0004963,C/S COLOR EFFECT LONDON LOVE,Negro,Collares,Unisex,Activo
 0004964,CLIC SEXTETO DE SOMBRAS COMPACTAS COOL Y CRAZY,varios,Sombras,Unisex,Activo
 0004965,CLIC SEXTETO DE SOMBRAS COMPACTAS FUNNY Y TRENDY,varios,Collares,Unisex,Activo
-0004966,L/L HYDRA-LIP COLOR ROJO PASION,rojo,Labiales,Unisex,Activo
-0004969,HYDRA LIP ULTRA CLASSIC FEM,rosa natural,Labiales,Unisex,Activo
+0004966, HYDRA-LIP LABIAL COLOR INTENSO ROJO PASION,rojo,Labiales,Unisex,Activo
+0004969,HYDRA LIP LABIAL COLOR INTENSO  CLASSIC FEM,rosa natural,Labiales,Unisex,Activo
 0004970,HYDRA-LIP ULTRA ROCK AND ROS,carmin,Labiales,Unisex,Activo
-0004971,HYDRA LIP  ULTRA LADY PINK,rosado-coral,Labiales,Unisex,Activo
+0004971, HYDRA-LIP LABIAL COLOR INTENSO LADY PINK,rosado-coral,Labiales,Unisex,Activo
 0004983,ACENTO PARFUM,Aroma ,Perfumería Dama,Unisex,Activo
 0004984,Clic Esmalte Mango Frozen,Negro,Collares,Unisex,Activo
 0004987,Clic Esmalte Silver Way!,Negro,Collares,Unisex,Activo
-0005003,HYDRA LIP COLOR INTENSO ROSA PARIS,rosado oscuro,Labiales,Unisex,Activo
-0005004,HYDRA LIP COLOR INTENSO FUCSIA BOHEME,fucsia,Labiales,Unisex,Activo
-0005005,HYDRA LIP COLOR INTENSO ALMA GUINDAlma Guinda,guinda ,Labiales,Unisex,Activo
+0005003,HYDRA LIP LABIAL COLOR INTENSO ROSA PARIS,rosado oscuro,Labiales,Unisex,Activo
+0005004,HYDRA LIP LABIAL COLOR INTENSO FUCSIA BOHEME,fucsia,Labiales,Unisex,Activo
+0005005,HYDRA LIP LABIAL COLOR INTENSO ALMA GUINDA,guinda ,Labiales,Unisex,Activo
 0005008,C/S COLOR EFFECT BOHEME,Rosados y celestes,Sombras,Unisex,Activo
 0005009,CONTROL BLANC RX SET ANTIMANCHAS,Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ,Antimanchas y Aclarantes,Unisex,Activo
 0005017,CREMA HIDRATANTE BIO MILK PERA MANZANA,Con proteinas de yogurt probiotico,Cuidado de la Piel,Unisex,Activo
@@ -423,28 +424,28 @@
 0005029,SOLO COLOGNE FOR MEN,Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ,Perfumería Varón,Unisex,Activo
 0005030,DENDUR COLOGNE FOR MEN,Pimienta negra, jengibre, tabaco.,Perfumería Varón,Unisex,Activo
 0005032,O2XYGEN BLANC COLOGNE FOR MEN,Negro,Collares,Unisex,Activo
-0005034,HYDRA LIP COLOR INTENSO CORAL HINDU,coral,Labiales,Unisex,Activo
-0005035,L/L HYDRA-LIP COL ROSE D ORIEN,Negro,Collares,Unisex,Activo
-0005040,HYDRA LIP COLOR INTENSO PIEL DE  DURAZNO,beige nacarado,Labiales,Unisex,Activo
-0005041,HYDRA LIP  COLOR INTENSO ROSA ESENCIAL,Rosa oscuro,Labiales,Unisex,Activo
+0005034,HYDRA LIP LABIAL COLOR INTENSO  CORAL HINDU,coral,Labiales,Unisex,Activo
+0005035, HYDRA  LIP LABIAL COLOR INTENSO ROSA DEL ORIENTE,rosado,Labiales,Unisex,Activo
+0005040,HYDRA LIP LABIAL COLOR INTENSO  PIEL DE  DURAZNO,beige nacarado,Labiales,Unisex,Activo
+0005041,HYDRA LIP LABIAL COLOR INTENSO  ROSA ESENCIAL,Rosa oscuro,Labiales,Unisex,Activo
 0005045,C/S COLOR EFFECT ESSENCIA,Naranja y Cafe,Sombras,Unisex,Activo
-0005050,L/L HYDRA-LIP CRAYON SEXY RED,Rojo ,Labiales Mate,Unisex,Activo
-0005051,L/L HYDRA-LIP CRAYON RED ELEGANCE,rojo,Labiales Mate,Unisex,Activo
-0005052,L/L HYDRA-LIP CRAYON FUCS GLAM,Negro,Collares,Unisex,Activo
-0005053,L/L HYDRA-LIP CRAYON ALME CHIC,Negro,Collares,Unisex,Activo
+0005050,HYDRA-LIP CRAYON SEMI MATE SEXY RED,Rojo ,Labiales Mate,Unisex,Activo
+0005051,HYDRA-LIP CRAYON SEMI MATE RED ELEGANCE,rojo,Labiales Mate,Unisex,Activo
+0005052,HYDRA-LIP CRAYON SEMI MATE FUCSIA GLAMOUR,fucsia,Labiales Mate,Unisex,Activo
+0005053,HYDRA-LIP CRAYON SEMI MATE ALMENDRA CHIC,nude,Labiales Mate,Unisex,Activo
 0005054,CREMA HIDRATANTE BIO MILK COCO CARIBEÑO,Con proteinas de yogurt probiotico,Cuidado de la Piel,Unisex,Activo
-0005055,L/L HYDRA-LIP FUCSIA TOTAL,fucsia,Labiales,Unisex,Activo
-0005056,L/LIQ HYDRA-LIP CREME DE LA FEME,Rosa claro,Labiales,Unisex,Activo
-0005057,L/LIQ HYDRA-LIP ROJO ETERNO,rojo,Labiales,Unisex,Activo
-0005058,L/L HYDRA-LIP COBRISIMO,naranja metalizado,Labiales,Unisex,Activo
-0005059,L/L HYDRA-LIP ROSA PICANTE,rosado oscuro,Labiales,Unisex,Activo
-0005060,L/LIQ HYDRA-LIP UVA MERLOT,Morado,Labiales,Unisex,Activo
-0005061,B/L HYDRA-LIP MELON CHIC,melon,Brillos,Unisex,Activo
-0005062,B/L HYDRA-LIP LILA VINTAGE,lila claro,Brillos,Unisex,Activo
-0005063,B/L HYDRA-LIP IMPULSO,naranja,Brillos,Unisex,Activo
-0005064,B/L HYDRA-LIP ROSA LUMINOSA,rosado nacarado,Labiales,Unisex,Activo
-0005065,B/L HYDRA-LIP MUJER DE ROJO,rojo escarchado,Labiales,Unisex,Activo
-0005066,B/L HYDRA-LIP MORA INTENSE,lila oscuro,Labiales,Unisex,Activo
+0005055,HYDRA-LIP LABIAL LIQUIDO FUCSIA TOTAL,fucsia,Labiales,Unisex,Activo
+0005056, HYDRA-LIP LABIAL LIQUIDO CREME DE LA FEME,Rosa claro,Labiales,Unisex,Activo
+0005057,HYDRA-LIP LABIAL LIQUIDO ROJO ETERNO,rojo,Labiales,Unisex,Activo
+0005058,HYDRA-LIP LABIAL LIQUIDO COBRISIMO,naranja metalizado,Labiales,Unisex,Activo
+0005059, HYDRA-LIP LABIAL LIQUIDO ROSA PICANTE,rosado oscuro,Labiales,Unisex,Activo
+0005060,HYDRA-LIP LABIAL LIQUIDO UVA MERLOT,Morado,Labiales,Unisex,Activo
+0005061, HYDRA-LIP BRILLO LABIAL MELON CHIC,melon,Brillos,Unisex,Activo
+0005062,HYDRA-LIP BRILLO LABIAL LILA VINTAGE,lila claro,Brillos,Unisex,Activo
+0005063, HYDRA-LIP BRILLO LABIAL IMPULSO,naranja,Brillos,Unisex,Activo
+0005064, HYDRA-LIP BRILLO LABIAL ROSA LUMINOSA,rosado nacarado,Labiales,Unisex,Activo
+0005065, HYDRA-LIP BRILLO LABIAL  MUJER DE ROJO,rojo escarchado,Labiales,Unisex,Activo
+0005066, HYDRA-LIP BRILLO LABIAL  MORA INTENSE,lila oscuro,Labiales,Unisex,Activo
 0005069,REVITALIST NUTRITIVA ENERGIZANTE,Fuerza nutritiva, accion hidratante, poder aislante,Cremas y Sueros,Unisex,Activo
 0005083,BIO MILK CREMA HIDRATANTE ORIGINAL,aroma a base de pomelo blanco, durazno y flor de algodón que hidrata, suaviza y nutre,Cuidado de la Piel,Unisex,Activo
 0005087,TOP MODELING CREMA LIPO-REDUCTORA,concentrado de cafeína liposomada y L-Carnitina,Cuidado de la Piel,Unisex,Activo
@@ -460,13 +461,13 @@
 0005109,B/L ELIXIR DE VIDA ANTIEDAD T4,Cubrimiento perfecto con acabado natural. ,Bases,Unisex,Activo
 0005110,B/L ELIXIR DE VIDA ANTIEDAD T5,Cubrimiento perfecto con acabado natural. ,Bases,Unisex,Activo
 0005120,FOCCO COLOGNE FOR MEN,Whisky, pachulí, madera de oud.,Perfumería Varón,Unisex,Activo
-0005121,L/L ELIXIR DE VIDA ENCANTO ELIXIR,rosado oscuro,Labiales,Unisex,Activo
+0005121,LABIAL ANTI-EDAD ELIXIR DE VIDA ENCANTO ELIXIR,rosado oscuro,Labiales,Unisex,Activo
 0005122,L/L ELIXIR DE VIDA ELIX D AMOR,antiedad,Labiales,Unisex,Activo
 0005123,L/L ELIXIR DE VIDA ELIX GLAMOU,antiedad,Labiales,Unisex,Activo
-0005124,L/L ELIXIR DE VIDA ELIXIR FEME,antiedad,Labiales,Unisex,Activo
-0005125,L/L ELIXIR DE VIDA ELIXIR ROSE,antiedad,Labiales,Unisex,Activo
-0005126,L/L  ELIXIR DE VIDA LUJO ELIXIR,rojo,Labiales,Unisex,Activo
-0005127,L/L ELIXIR DE VIDA TERRA ELIXIR FU,antiedad,Labiales,Unisex,Activo
+0005124,LABIEL ANTI-EDAD ELIXIR DE VIDA ELIXIR FEME,antiedad,Labiales,Unisex,Activo
+0005125,LABIAL ANTI-EDAD  ELIXIR DE VIDA ELIXIR ROSE,coral,Labiales,Unisex,Activo
+0005126,LABIAL ANTI-EDAD ELIXIR DE VIDA LUJO ELIXIR,rojo,Labiales,Unisex,Activo
+0005127,LABIAL ANTI-EDAD ELIXIR DE VIDA TERRA ELIXIR ,marron,Labiales,Unisex,Activo
 0005133,TEMPTATION EAU DE PARFUM,flores exóticas y acentos exuberantes de rosa búlgara, gardenia y clavo de olor.,Perfumería Dama,Unisex,Activo
 0005135,TEMPTATION COLOGNE FOR MEN,Menta, flor de naranja, sándalo.,Perfumería Varón,Unisex,Activo
 0005138,ACNI-DERM CREMA HIDRATANTE,Negro,Collares,Unisex,Activo
@@ -489,7 +490,7 @@
 0005156,PERFECT TEN CORRECTOR ESMALTE,Negro,Collares,Unisex,Activo
 0005157,TITANIUM SHAMPOO,Potente activo que inhibe los microorganismos que producen la caspa y previenen su reaparición.,Perfumería Varón,Unisex,Activo
 0005158,C/S COLOR EFFECT URBANA,Oscuros,Sombras,Unisex,Activo
-0005161,Hydra-Lip Color Intenso Femme Rose,Negro,Collares,Unisex,Activo
+0005161, HYDRA-LIP LABIAL COLOR INTENSO FEMME ROSE,rosado,Labiales,Unisex,Activo
 0011001,ZENTRO BLACK COLOGNE FOR MEN,Ámbar negro, tabaco, bergamota.,Perfumería Varón,Unisex,Activo
 0011002,BODY SPA UÑA DE GATO SHAMPOO REPARADOR,ultra hidrante y reparacion para todo tipo de cabello,Shampoo,Unisex,Activo
 0011004,LESENCE BOUQUET ORIENTAL COLOGNE,Aroma  de pera, fressia y tonka.,Colonia,Unisex,Activo
@@ -513,10 +514,8 @@
 0011030,PERFECT COVER CORRECTOR MEDIANO 1,Piel mediana,Correctores,Unisex,Activo
 0011031,PERFECT COVER CORRECTOR MEDIANO 2,Piel Oscura,Correctores,Unisex,Activo
 0011032,C/S COLOR EFFECT OCEANICA ULTRA,Lilas y Celestes,Sombras,Unisex,Activo
-0011034,L/L HYDRA-LIP COL ESTRE COR FR,Negro,Collares,Unisex,Activo
-0011035,L/L HYDRA-LIP COL ROSA SIRENA FR,rosa claro,Labiales,Unisex,Activo
-0011040,ESMALTE PERFECT TEN REFLEJOS MARINOS FR,celeste con escamas,Collares,Unisex,Activo
-0011041,ESMALTE PERFECT TEN ALGAS MARIN FR,verde claro con escamas,Collares,Unisex,Activo
+0011034, HYDRA-LIP LABIAL COLOR INTENSO ESTRELLA CORAL,coral ,Labiales,Unisex,Activo
+0011035,HYDRA LIP LABIAL COLOR INTENSO ROSA SIRENA,rosa claro,Labiales,Unisex,Activo
 0011046,Clic Rimel Negro,Negro,Rímeles,Unisex,Activo
 0011050,ESM PERFECT TEN AMANTES Y ENEM,Negro,Collares,Unisex,Activo
 0011053,ESM PERFECT TEN INSTINTO ANIMA,Negro,Collares,Unisex,Activo
@@ -528,7 +527,7 @@
 0011066,FORTE COLOGNE FOR MEN,Negro,Collares,Unisex,Activo
 0011071,PD ME QUEDO EN SANTORINI COLOGNE,Aroma Floral Fresco con notas de ambar marino limon griego y amapola blanca,Perfumería Dama,Unisex,Activo
 0011072,ESM PERFECT TEN AMANT D MEDIAN,Negro,Collares,Unisex,Activo
-0011073,HYDRA LIP COLOR INTENSO MARSALA,vino oscuro,Labiales,Unisex,Activo
+0011073,HYDRA LIP LABIAL COLOR INTENSO MARSALA,vino oscuro,Labiales,Unisex,Activo
 0011075,Gaia Set Hydra Lip y Esmalte,Negro,Collares,Unisex,Activo
 0011076,Ccori Cristal Set Hydra-lip y Esmalte,Negro,Collares,Unisex,Activo
 0011077,Osadia Set Hydra Lip y Esmalte,Negro,Collares,Unisex,Activo
@@ -544,9 +543,9 @@
 0011091,TOTALIST CONCHA DE NACAR LIMPIADOR,propiedades aclarantes y antimanchas,Cuidado de la Piel,Unisex,Activo
 0011092,TOTALIST ALOE VERA LIMPIADOR MULTIACCION,remover delicadamente las impurezas, grasitud y maquillaje,Cuidado de la Piel,Unisex,Activo
 0011093,C/S COLOR EFFECT ETEREA,Rosado Lila Verde y Negro,Sombras,Unisex,Activo
-0011097,HYDRA LIP COLOR INTENSO GUINDA DEL OESTE,GUINDA OSCURO,Labiales,Unisex,Activo
-0011098,HYDRA LIP COLOR INTENSO COBRE DEL OESTE,COBRE,Labiales,Unisex,Activo
-0011099,HYDRA LIP COLOR INTENSO ROJO DEL OESTE,rojo oscuro,Labiales,Unisex,Activo
+0011097,HYDRA LIP LABIAL COLOR INTENSO  GUINDA DEL OESTE,GUINDA OSCURO,Labiales,Unisex,Activo
+0011098,HYDRA LIP LABIAL COLOR INTENSO COBRE DEL OESTE,COBRE,Labiales,Unisex,Activo
+0011099,HYDRA LIP LABIAL COLOR INTENSO  ROJO DEL OESTE,rojo oscuro,Labiales,Unisex,Activo
 0011110,PERFECT TEN FORTALECEDOR UÑAS,Negro,Collares,Unisex,Activo
 0011111,PERFECT TEN BRI SECAN&PROT ESM,Negro,Collares,Unisex,Activo
 0011112,ULTRA DEF DEL LARGA DURACION OJOS MARRON,A prubea de agua,Collares,Unisex,Activo
@@ -555,34 +554,34 @@
 0011117,C/S COLOR RETRO CHIC,Colores negros y celestes,Sombras,Unisex,Activo
 0011119,ESMALTE PERFECT TEN PSICODELICO,dorado con escarche,Collares,Unisex,Activo
 0011122,Perfect Ten Sudio 54,Negro,Collares,Unisex,Activo
-0011123,HYDRA LIP COLOR INTENSO ROSA  SOFT,rosado,Labiales,Unisex,Activo
-0011124,L/L HYDRA-LIP COLOR ROSE CORAL,rosado / coral,Labiales,Unisex,Activo
-0011125,L/L HYDRA-LIP COLOR ROJO ABBA,Rojo vivo,Labiales,Unisex,Activo
-0011126,L/L HYDRA-LIP COLOR ROJO DISCO,Rojo ,Labiales,Unisex,Activo
+0011123,HYDRA LIP LABIAL COLOR INTENSO  ROSA  SOFT,rosado,Labiales,Unisex,Activo
+0011124, HYDRA-LIP LABIAL COLOR INTENSO ROSE CORAL,rosado / coral,Labiales,Unisex,Activo
+0011125,HYDRA LIP LABIAL COLOR INTENSO  ROJO ABBA,Rojo vivo,Labiales,Unisex,Activo
+0011126,HYDRA LIP LABIAL COLOR INTENSO  ROJO DISCO,Rojo ,Labiales,Unisex,Activo
 0011127,PD ME QUEDO EN SANTORINI BODY LOTION,Aroma Floral Fresco con notas de ambar marino limon griego y amapola blanca,Perfumería Dama,Unisex,Activo
-0011129,HYDRA LIP COLOR INTENSO ROSA LIGHT,Rosado,Labiales,Unisex,Activo
+0011129,HYDRA LIP LABIAL COLOR INTENSO  ROSA LIGHT,Rosado,Labiales,Unisex,Activo
 0011130,Hydra-Lip Color Intenso Mitica,Negro,Collares,Unisex,Activo
 0011131,GAIA EAU DE PARFUM EDICION LIMITADA,Con notas de jacarandá, magnolia y orquídea,Perfumería Dama,Unisex,Activo
 0011132,ACENTO INTENSE EAU DE PARFUM,Negro,Collares,Unisex,Activo
 0011136,L/L HYDRA-LIP LD ROJO APASIONA MY,rojo,Labiales,Unisex,Activo
 0011137,L/L HYDRA-LIP LD AMOR PICANTE MY,rojo oscuro - larga duracion,Labiales,Unisex,Activo
 0011138,L/L HYDRA-LIP LD SOLO MIO MY,Negro,Collares,Unisex,Activo
-0011139,L/L HYDRA-LIP LD AMOR CHOCOLAT MY,Negro,Collares,Unisex,Activo
-0011140,L/L HYDRA-LIP LD ROSA SUEÑOS MY,rosa,Labiales,Unisex,Activo
-0011141,L/L HYDRA-LIP LD BESO GITANO ,cafe claro ,Labiales,Unisex,Activo
-0011142,L/L HYDRA-LIP LD ROJO INTENSO MY,rojo,Labiales,Unisex,Activo
+0011139,HYDRA-LIP LARGA DURACION A/P  AMOR DE  CHOCOLATE,marron,Labiales,Unisex,Activo
+0011140,HYDRA-LIP LARGA DURACION ROSA DE MIS SUEÑOS ,Rosado nacarado,Labiales,Unisex,Activo
+0011141,HYDRA-LIP LARGA DURACION BESO GITANO ,cafe claro ,Labiales,Unisex,Activo
+0011142,HYDRA-LIP LARGA DURACION ROJO INTENSO ,rojo,Labiales,Unisex,Activo
 0011143,L/L HYDRA-LIP LD FUCS ENSUEÑO MY,Negro,Collares,Unisex,Activo
-0011144,Hydra-Lip Color Intenso Kaki,Negro,Collares,Unisex,Activo
+0011144,Hydra-Lip Color Intenso Kaki,Negro,Labiales,Unisex,Activo
 0011145,L/L HYDRA-LIP COLOR MALVA LEYE,Negro,Collares,Unisex,Activo
-0011146,L/L HYDRA-LIP COLOR ROJO SALVAJE,rojo,Labiales,Unisex,Activo
+0011146, HYDRA-LIP LABIAL COLOR INTENSO ROJO SALVAJE,rojo,Labiales,Unisex,Activo
 0011147,L/L HYDRA-LIP COLOR GUIN SALVA,Negro,Collares,Unisex,Activo
-0011148,HYDRA-LIP LABIAL COLOR INTENSO REINO CORAL,coral,Labiales,Unisex,Activo
+0011148,HYDRA LIP LABIAL COLOR INTENSO  REINO CORAL,coral,Labiales,Unisex,Activo
 0011149,L/L HYDRA-LIP COL FLOR D LOTO,Negro,Collares,Unisex,Activo
-0011150,L/L HYDRA-LIP COLOR ROJO ZEN,rojo oscuro,Labiales,Unisex,Activo
+0011150, HYDRA-LIP LABIAL COLOR INTENSO ROJO ZEN,rojo oscuro,Labiales,Unisex,Activo
 0011151,C/S COLOR EFFECT JUNGLARIA,Verdes y Naranjas,Sombras,Unisex,Activo
 0011152,C/S COLOR EFFECT SAKURA,Morados y Rosados,Sombras,Unisex,Activo
-0011163,L/L HYDRA-LIP FLOR CEREZO,rosada mediano,Collares,Unisex,Activo
-0011164,L/LIQ HYDRA-LIP MORA CALMA,morado claro,Labiales,Unisex,Activo
+0011163,HYDRA-LIP LABIAL LIQUIDO FLOR CEREZO,rosada mediano,Labiales,Unisex,Activo
+0011164,HYDRA-LIP LABIAL LIQUIDO MORA CALMA,morado claro,Labiales,Unisex,Activo
 0011180,SENTIVA EXFOLIANTE FACIAL,Accion energizante,Cuidado de la Piel,Unisex,Activo
 0011183,ULTRA DEFINITION DEL LABIOS ALMENDRA,Labios Almendra,Delineadores de Labios,Unisex,Activo
 0011196,TOTAL BLOCK REPELENTE SPF 30 A/P,Doble proteccion rostro y cuerpo , todo tipo de piel,Protectores Solares,Unisex,Activo
@@ -640,8 +639,8 @@
 0011262,SOY SEXY FRESH COLOGNE,Nerolí, sándalo sensual, almizcle de piel.,Perfumería Dama,Unisex,Activo
 0011263,Y. RIMEL NEGRO,Negro,Rímeles,Unisex,Activo
 0011266,EXTRACTO DIVINO CONCENTRADO,Una fórmula revolucionaria con todo el poder antiedad del Extracto de Cáliz de Uchuva,Cremas y Sueros,Unisex,Activo
-0011268,L/L HYDRA-LIP CRAYON FUCS ORIE,Negro,Collares,Unisex,Activo
-0011269,L/L HYDRA-LIP CRAYON LILA ASIATICO,Lila,Labiales Mate,Unisex,Activo
+0011268,HYDRA-LIP CRAYON SEMI MATE FUCSIA ORIENTAL,fucsia,Labiales Mate,Unisex,Activo
+0011269, HYDRA-LIP CRAYON SEMI MATE LILA ASIATICO,Lila,Labiales Mate,Unisex,Activo
 0011272,SENTIVA MASCARILLA FACIAL,Accion purificante,Cuidado de la Piel,Unisex,Activo
 0011273,LOCION DE SEDA,Negro,Collares,Unisex,Activo
 0011274,LOCION DE SEDA DIAMANTES,Hidrata y perfuma,Perfumería Dama,Unisex,Activo
@@ -669,15 +668,15 @@
 0011307,VIVO AQUA COLOGNE FOR MEN,FRESCURA CON ACORDES MARINOS,Perfumería Varón,Varón,Activo
 0011308,C/S COLOR EFFECT HABANA,Azules y Verdes,Sombras,Unisex,Activo
 0011315,L/L HYDRA-LIP COL CORA CAR FR,Negro,Collares,Unisex,Activo
-0011316,L/L HYDRA-LIP COLOR TROPIC FR,Negro,Collares,Unisex,Activo
-0011317,L/L HYDRA-LIP COL HABANERA FR,coral - fucsia,Labiales,Unisex,Activo
-0011318,L/ HYDRA-LIP VARADERO LOV,rojo claro,Labiales,Unisex,Activo
-0011319,L/L HYDRA-LIP AZUUUCAR,marfil claro,Labiales,Unisex,Activo
-0011326,L/L HYDRA-LIP LD SUEÑO D BRONC,Negro,Collares,Unisex,Activo
+0011316, HYDRA-LIP LABIAL COLOR INTENSO TROPICANA,tropical,Labiales,Unisex,Activo
+0011317, HYDRA-LIP LABIAL COLOR INTENSO HABANERA,coral - fucsia,Labiales,Unisex,Activo
+0011318,HYDRA-LIP LABIAL LIQUIDO VARADERO LOVE,rojo claro,Labiales,Unisex,Activo
+0011319,HYDRA-LIP LABIAL LIQUIDO AZUUUCAR,marfil claro,Labiales,Unisex,Activo
+0011326,HYDRA-LIP LARGA DURACION SUEÑO DE BRONCE,bronce,Labiales,Unisex,Activo
 0011327,L/L HYDRA-LIP LD ROJO CARAMEL0,rojo,Collares,Unisex,Activo
-0011328,L/L HYDRA-LIP LD FIESTA PURPURA,lila oscuro,Labiales,Unisex,Activo
-0011329,L/L HYDRA LIP LARGA DURACION ROSA FESTIVA,Rosado oscuro,Labiales,Unisex,Activo
-0011330,L/L HYDRA-LIP LD FUCSIA ENCENDIDO,fucsia,Labiales,Unisex,Activo
+0011328,HYDRA-LIP LARGA DURACION FIESTA PURPURA,lila oscuro,Labiales,Unisex,Activo
+0011329,HYDRA LIP LARGA DURACION ROSA FESTIVA,Rosado oscuro,Labiales,Unisex,Activo
+0011330,HYDRA-LIP LARGA DURACION FUCSIA ENCENDIDO,fucsia,Labiales,Unisex,Activo
 0011331,UNIQUECIL RIMEL NEGRO,A prueba de agua,Rímeles,Unisex,Activo
 0011333,UNIQUECIL RIMEL EXTRA XL NEGRO,A prueba de agua,Rímeles,Unisex,Activo
 0011334,CRECE EXTREME RIMEL ACELERADOR MY,Negro,Rímeles,Unisex,Activo
@@ -689,11 +688,11 @@
 0011344,Y. BRILLO LABIAL ROSALICIOUS,rosa brillante,Brillos,Unisex,Activo
 0011345,Y. BRILLO LABIAL LOVELY CORAL,coral claro,Brillos,Unisex,Activo
 0011346,Y. BRILLO LABIAL ANGEL NUDE,nude,Brillos,Unisex,Activo
-0011352,L/L HYDRA-LIP COLOR FUTUR RED,Negro,Collares,Unisex,Activo
+0011352, HYDRA-LIP LABIAL COLOR INTENSO FUTURISTIC RED,rojo,Labiales,Unisex,Activo
 0011353,L/L HYDRA-LIP COLOR EFEC FRAMB,Negro,Collares,Unisex,Activo
 0011354,L/L HYDRA-LIP COL ENERGY PINK,Negro,Collares,Unisex,Activo
-0011355,L/L HYDRA-LIP COL PSICODE FUCS,Negro,Collares,Unisex,Activo
-0011356,L/L HYDRA-LIP COLOR GEOMETRIC ROSE,rosa claro,Labiales,Unisex,Activo
+0011355, HYDRA-LIP LABIAL COLOR INTENSO PSICODELIC  FUCSIA,FUCSIA,Labiales,Unisex,Activo
+0011356,HYDRA LIP LABIAL COLOR INTENSO  GEOMETRIC ROSE,rosa claro,Labiales,Unisex,Activo
 0011358,JAQUE COLOGNE FOR MEN,Azafrán, roble real y coñac.,Perfumería Varón,Unisex,Activo
 0011359,PD LA HABANA BODY LOTION,Negro,Collares,Unisex,Activo
 0011361,SOY DULCE BODY LOTION,Hidrata, protege y suaviza,Perfumería Dama,Unisex,Activo
@@ -713,21 +712,21 @@
 0011379,ULTRA DEF DELINEADOR BISELADO OJOS NEGRO,Plumon punta biselada,Delineadores,Unisex,Activo
 0011380,C/S COLOR EFFECT FUROR AZUL,Azules,Sombras,Unisex,Activo
 0011381,C/S COLOR EFFECT ROMANCE,Rosados,Sombras,Unisex,Activo
-0011382,L/L HYDRA-LIP COLOR VINO REAL,Vino,Labiales,Unisex,Activo
-0011383,L/L HYDRA-LIP COLOR BESO FRAMBUESA,Rojo- fucsia,Labiales,Unisex,Activo
+0011382, HYDRA-LIP LABIAL COLOR INTENSO VINO REAL,Vino,Labiales,Unisex,Activo
+0011383,HYDRA LIP LABIAL COLOR INTENSO  BESO FRAMBUESA,Rojo- fucsia,Labiales,Unisex,Activo
 0011384,L/L HYDRA-LIP COLOR SUEÑO ROSE,rosa nacarado,Labiales,Unisex,Activo
-0011385,L/L HYDRA-LIP COLOR CLARO ROMANCE,rosa,Collares,Unisex,Activo
-0011386,L/L HYDRA-LIP COLOR DULCE ROSA,Rosado,Labiales,Unisex,Activo
+0011385,HYDRA LIP LABIAL COLOR INTENSO  CLARO ROMANCE,rosa,Collares,Unisex,Activo
+0011386, HYDRA-LIP LABIAL COLOR INTENSO DULCE ROSA,Rosado,Labiales,Unisex,Activo
 0011388,ESM PERFECT TEN SEDA IMPERIAL,Negro,Collares,Unisex,Activo
 0011393,RUBOR EN CREMA Y. ROSADO,Rosado fuerte,Rubor,Unisex,Activo
 0011394,RUBOR EN CREMA Y. BRONZE,Bronce metalico,Rubor,Unisex,Activo
 0011395,RUBOR EN CREMA Y. CORAL,coral,Rubor,Unisex,Activo
 0011400,PD I LOVE NEW YORK COLOGNE,Aroma Floral Frutal con notas de mandarina vibrante hortensias y alamo urbano ,Perfumería Varón,Unisex,Activo
 0011402,OHM COLOGNE SPRAY ANIVERSARIO,Salvia, toronja, lavanda.,Perfumería Varón,Unisex,Activo
-0011404,B/L HYDRA-LIP ROSA DIAMANTE,rosado claro,Labiales,Unisex,Activo
+0011404,HYDRA-LIP BRILLO LABIAL ROSA DIAMANTE,rosado claro,Labiales,Unisex,Activo
 0011405,C/S COLOR EFFECT TERRANOVA,Colores Terra,Sombras,Unisex,Activo
-0011406,L/L HYDRA-LIP COLOR VINO SILVESTRE,Vino,Labiales,Unisex,Activo
-0011407,L/L HYDRA-LIP COLOR ROJO AFRICA,rojo,Labiales,Unisex,Activo
+0011406, HYDRA-LIP LABIAL COLOR INTENSO VINO SILVESTRE,Vino,Labiales,Unisex,Activo
+0011407,HYDRA LIP LABIAL COLOR INTENSO ROJO AFRICA,rojo,Labiales,Unisex,Activo
 0011408,L/L HYDRA-LIP COLOR GACELA NUD,Negro,Collares,Unisex,Activo
 0011415,BIO FRUIT COCO CARIB SHAM & ACON,aroma tropical del coco que además, brinda ultra hidratación,Shampoo,Unisex,Activo
 0011416,BIO FRUIT PERA MANZANA SHAM & ACON, ,Shampoo,Unisex,Activo
@@ -739,23 +738,23 @@
 0011422,BIO FRUIT ORIGINAL ACONDICIONADOR,aroma a base de pomelo blanco, durazno y flor de algodón.,Shampoo,Unisex,Activo
 0011426,SOY FELIZ FRESH COLOGNE,Flor de guayaba, dulce azucena, corteza de maracaibo.,Perfumería Dama,Unisex,Activo
 0011427,ELIXIR DE VIDA ROSTRO ANIVERSARIO,Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol,Cremas y Sueros,Unisex,Activo
-0011429,L/L HYDRA-LIP CRAY MARRON TERR MY,Negro,Collares,Unisex,Activo
-0011430,L/L HYDRA-LIP CRAY ROJO SAFARI MY,rojo oscuro,Labiales Mate,Unisex,Activo
-0011432,L/L HYDRA-LIP LD CORAL ENCENDIDO MY,coral intenso,Labiales,Unisex,Activo
+0011429,HYDRA-LIP CRAYON SEMI MATE MARRON TERRA,cafe,Labiales Mate,Unisex,Activo
+0011430,HYDRA-LIP CRAYON SEMI MATE ROJO SAFARI ,rojo oscuro,Labiales Mate,Unisex,Activo
+0011432,HYDRA-LIP LARGA DURACION CORAL ENCENDIDO MY,coral intenso,Labiales,Unisex,Activo
 0011433,L/L HYDRA-LIP LD FUEGO ELEMENT MY,Negro,Collares,Unisex,Activo
-0011434,L/L HYDRA-LIP LD ROJO SILVESTR MY,Negro,Collares,Unisex,Activo
-0011435,L/L HYDRA-LIP LD TIERRA FUEGO MY,Negro,Collares,Unisex,Activo
-0011436,L/L HYDRA-LIP LD TIERRA MISTIC MY,Negro,Collares,Unisex,Activo
-0011437,L/L HYDRA-LIP CRAY PIEL CORAL MY,piel,Labiales,Unisex,Activo
+0011434, HYDRA-LIP LARGA DURACION ROJO SILVESTRE,rojo,Labiales,Unisex,Activo
+0011435, HYDRA-LIP LARGA DURACION TIERRA DE FUEGO ,marron ladrillo,Labiales,Unisex,Activo
+0011436,HYDRA-LIP LARGA DURACION TIERRA MISTICA,Cafe ,Labiales,Unisex,Activo
+0011437,HYDRA-LIP CRAYON SEMI MATE PIEL CORAL ,piel,Labiales,Unisex,Activo
 0011440,C/S COLOR EFFECT INDUSTRIAL,Oscuros,Sombras,Unisex,Activo
 0011444,ESM PERFECT TEN CIELO PRIMAVER,Negro,Collares,Unisex,Activo
 0011445,ESM PERFECT TEN MAR MEDITERRAN,Negro,Collares,Unisex,Activo
-0011447,L/L HYDRA-LIP COLO COBRE GLAMOUR,cobre oscuro,Labiales,Unisex,Activo
-0011448,L/L HYDRA-LIP COL MARRON INDUSTRIAL,MARRON ,Labiales,Unisex,Activo
-0011449,L/L HYDRA-LIP COLO DORADO D GA,Negro,Collares,Unisex,Activo
-0011450,L/L HYDRA-LIP COLOR ROSA GALACTICO,rosado fuerte,Labiales,Unisex,Activo
-0011451,L/L HYDRA-LIP COLOR ROSADO ACERO,rosa color intenso,Labiales,Unisex,Activo
-0011452,B/L HYDRA-LIP BRILLANTINA,trnasparente,Brillos,Unisex,Activo
+0011447,HYDRA-LIP LABIAL COLOR INTENSO COBRE GLAMOUR,cobre oscuro,Labiales,Unisex,Activo
+0011448,HYDRA LIP LABIAL COLOR INTENSO MARRON INDUSTRIAL,MARRON ,Labiales,Unisex,Activo
+0011449,HYDRA-LIP LABIAL COLOR INTENSO COLO DORADO DE GALA,Dorado,Labiales,Unisex,Activo
+0011450,HYDRA LIP LABIAL COLOR INTENSO ROSA GALACTICO,rosado fuerte,Labiales,Unisex,Activo
+0011451, HYDRA-LIP LABIAL COLOR INTENSO ROSADO ACERO,rosa color intenso,Labiales,Unisex,Activo
+0011452,HYDRA-LIP BRILLO LABIAL BRILLANTINA,transparente,Brillos,Unisex,Activo
 0011457,ESM PERFECT TEN ACERO BRILLANT,Negro,Collares,Unisex,Activo
 0011459,C/S COLOR EFFECT DELUXE,Enpaque dorado,Sombras,Unisex,Activo
 0011460,CCORI LE PARFUM ANV,Negro,Collares,Unisex,Activo
@@ -775,31 +774,33 @@
 0011487,EAU DE SEDA EAU DE PARFUM ANIVERSARIO,Flor de seda, durazno y mimosa sensual.,Perfumería Dama,Unisex,Activo
 0011488,EAU DE SEDA DIAM EAU DE PARFUM ANIVERSARIO,flor de ciruela, el jazmín estrella y el ámbar cristalino.,Perfumería Dama,Unisex,Activo
 0011490,Lesence Orquídeas Exóticas Cologne,Negro,Collares,Unisex,Activo
-0011493,Elixir de Vida Polvos Compactos Anti-edad Mediano 1,Piel Mediana,Polvos,Unisex,Activo
+0011492,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA CLARO 1,Efecto juventud inmediata accion antiedad con el uso continuo,Polvos,Dama,Activo
+0011493,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1,Piel Mediana,Polvos,Unisex,Activo
+0011494,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 2,Efecto juventud inmediata, Accion antiedad con el uso continuo,Polvos,Dama,Activo
 0011501,BIO MILK CREMA HIDRATANTE ORIGINAL  EDICION NAVIDAD,aroma a base de pomelo blanco, durazno y flor de algodón que hidrata, suaviza y nutre,Cuidado de la Piel,Unisex,Activo
-0011503,L/L HYDRA-LIP LD AMOR PICANTE MY,rojo oscuro,Labiales,Unisex,Activo
+0011503, HYDRA-LIP LARGA DURACION AMOR PICANTE ,rojo oscuro,Labiales,Unisex,Activo
 0011504,L/L HYDRA-LIP LD ROJO APASIONADO MY,rojo fresa,Labiales,Unisex,Activo
-0011506,L/L HYDRA-LIP LD AMOR CHOCOLAT MY,Negro,Collares,Unisex,Activo
-0011507,L/L HYDRA-LIP LD ROSA DE MIS SUEÑOS ,Rosado nacarado,Labiales,Unisex,Activo
-0011510,L/L HYDRA-LIP LD FUCSIA ENSUEÑO MY,Negro,Collares,Unisex,Activo
+0011506, HYDRA-LIP LARGA DURACION AMOR DE CHOCOLATE,marron,Labiales,Unisex,Activo
+0011507,HYDRA-LIP LARGA DURACIO ROSA DE MIS SUEÑOS ,Rosado nacarado,Labiales,Unisex,Activo
+0011510, HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY,fucsia,Labiales,Unisex,Activo
 0011512,O/S COLOR EFFECT DIVINA BLUE,Azules,Sombras,Unisex,Activo
 0011514,TOTAL BLOCK KIDS SPF 70,Rostro y Cuerpo,Protectores Solares,Unisex,Activo
 0011516,TOTAL BLOCK ANTI EDAD MATT SPF50+,Rostro con extracto marino acabado mate,Protectores Solares,Unisex,Activo
 0011517,CONTROL BLANC RX DIA,Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ,Antimanchas y Aclarantes,Unisex,Activo
-0011536,L/L HYDRA-LIP COLOR ROSA TOSCANA,palo de rosa claro,Labiales,Unisex,Activo
-0011543,L/L HYDRA-LIP LD CIRUELA LOVE,guinda claro,Labiales,Unisex,Activo
-0011545,L/L HYDRA-LIP LD RED SHINE,Cafe claro,Labiales,Unisex,Activo
-0011546,L/L HYDRA-LIP LD FUCSIA SHOCK,fucsia,Labiales,Unisex,Activo
+0011536,HYDRA LIP COLOR INTENSO ROSA TOSCANA,palo de rosa claro,Labiales,Unisex,Activo
+0011543,HYDRA-LIP LARGA DURACION CIRUELA LOVE,guinda claro,Labiales,Unisex,Activo
+0011545,HYDRA-LIP LARGA DURACION RED SHINE,Cafe claro,Labiales,Unisex,Activo
+0011546, HYDRA-LIP LARGA DURACION FUCSIA SHOCK,fucsia,Labiales,Unisex,Activo
 0011547,LIBERATTA CREMA PERFUM ,hidrata y perfuma,Perfumería Dama,Unisex,Activo
 0011548,LIBERATTA NOIRE CREMA PERFUM ,hidrata y perfuma,Perfumería Dama,Unisex,Activo
 0011554,Perfect Ten Art Sky ,Negro,Collares,Unisex,Activo
 0011556,Perfect Ten Acrylic Blue,Negro,Collares,Unisex,Activo
 0011557,C/S COLOR EFFECT ARTY FEMME,Corales y azules,Sombras,Unisex,Activo
-0011558,HYDRA LIP COLOR INTENSO VIVID FUCSIA,fucsia,Labiales,Unisex,Activo
-0011559,HIDRA LIP COLOR INTENSO AQUARELLA ROSE,rosado,Labiales,Unisex,Activo
+0011558,HYDRA LIP LABIAL COLOR INTENSO  VIVID FUCSIA,fucsia,Labiales,Unisex,Activo
+0011559,HYDRA LIP LABIAL COLOR INTENSO  AQUARELLA ROSE,rosado,Labiales,Unisex,Activo
 0011560,HYDRA LIP ARTY PINK,rosa color intenso,Labiales,Unisex,Activo
-0011561,HYDRA LIP COLOR INTENSO CORAL ART,coral,Labiales,Unisex,Activo
-0011562,HYDRA LIP COLOR INTENSO ROJO PALLETE,rojo,Labiales,Unisex,Activo
+0011561,HYDRA LIP LABIAL COLOR INTENSO  CORAL ART,coral,Labiales,Unisex,Activo
+0011562,HYDRA LIP LABIAL COLOR INTENSO  ROJO PALLETE,rojo,Labiales,Unisex,Activo
 0011566,Ultra Definition Delineador en lapiz para Ojos Graffino,Doble punta azul y plomo oscuro,Delineadores,Unisex,Activo
 0011573,RUBOR COLOR EFFECT ILUMINART,Todo tipo de piel,Rubor,Unisex,Activo
 0011580,TOTAL BLOCK REPELENTE SPF 50 ,Doble proteccion rostro y cuerpo , todo tipo de piel,Protectores Solares,Unisex,Activo
@@ -811,6 +812,7 @@
 0011824,TE DESEO FELICIDAD INFINITA COLOGNE,Frutal dulce con notas de manzana roja, naranja azucarada y canela,Colonia,Unisex,Activo
 003910,Delineador Liquido Punta Plumon Mirame a los Ojos,Negro,Collares,Unisex,Activo
 004280,C/S COLOR EFFECT OASIS,Colores Terra,Sombras,Unisex,Activo
+0123456,ARETES HEXAGONO GLAM,ARETES,Collares,Dama,Activo
 2021755,ARETES NATURAL CRISTAL,Negro,Aretes,Unisex,Activo
 2024184,ARETES COINCIDIR,Negro,Aretes,Unisex,Activo
 2129031,SET ARETES  CRISTAL FEM,Negro,Aretes,Unisex,Activo
@@ -999,6 +1001,9 @@
 2371006,FRAGANCIA 2  PARA O.E. C06 17,Negro,Collares,Unisex,Activo
 2371090,FLYER DE INCORPORACION X8,Negro,Collares,Unisex,Activo
 2371091,CARTILLA MIS PRIMEROS PASOS X8,Negro,Collares,Unisex,Activo
+2371138,ARTY BRUSH,Pincel para diseño uñas,Material Promocional,Dama,Activo
+2371180,LENTES DE SOL HUNTER,LENTES DE SOL ,Material Promocional,Varón,Activo
+2371181,LENTES DE SOL SOLE,LENTES DE MUJER,Material Promocional,Dama,Activo
 2371186,TOT BLOCK ACT DEF SPF 50 PARA OE,Negro,Collares,Unisex,Activo
 2371187,COL POSDATA LA HABANA PARA OE,Negro,Collares,Unisex,Activo
 2371188,BIO MILK MANOS AL AZAR PARA OE,Negro,Collares,Unisex,Activo
@@ -1049,6 +1054,7 @@
 2464469,CARTERA N1-C4,CARTERA,Premio,Dama,Activo
 2464494,SET DE HERRAMEINTAS N1 C5,ROJA,Premio,Unisex,Activo
 2465461,KIT PULSERA ORO,PULSERA DORADA,Premio,Dama,Activo
+2465462,KIT PULSERA PLATA,Pulsera plata,Pulseras,Dama,Activo
 2465463,KIT PULSERA BRONCE,PULSERA BRONCE,Premio,Unisex,Activo
 2467837,CARTILLA PRIMEROS PASOS X 8,Negro,Collares,Unisex,Activo
 2467838,FLYER DE INCORPORACION X8,Negro,Collares,Unisex,Activo
@@ -1166,6 +1172,7 @@
 5023612,ARETES FANTASIA,Negro,Aretes,Unisex,Activo
 5023675,ARETES MARIPI,Negro,Aretes,Unisex,Activo
 5023687,ARETES PARISTIEN,Negro,Aretes,Unisex,Activo
+5023743,ARGOLLAS REAL,ARGOLLAS,Aretes,Dama,Activo
 5023784,ARETES ENTRELAZADOS J9784,Negro,Aretes,Unisex,Activo
 5023816,ARETES SOL Y MAR,Negro,Aretes,Unisex,Activo
 5023870,SET ARETES VINIA,Negro,Aretes,Unisex,Activo
@@ -1296,6 +1303,7 @@
 5028085,ARETES TERRA ORIENT J12553,Negro,Aretes,Unisex,Activo
 5028129,COLLAR CUORE GLAM CJ12570,Negro,Collares,Unisex,Activo
 5028130,ARETES CUORE GLAM,Negro,Aretes,Unisex,Activo
+5028131,COLECCION LOVE KISS,COLLAR Y ARETES,Colecciones,Dama,Activo
 5028185,SORTIJA ENIGMA GOLD T5 J12500,Negro,Sortijas,Unisex,Activo
 5028186,SORTIJA ENIGMA GOLD T6 J12500,Negro,Sortijas,Unisex,Activo
 5028187,SORTIJA ENIGMA GOLD T7 J12500,Negro,Sortijas,Unisex,Activo
@@ -2275,6 +2283,13 @@
 5031957,COLECCION RED MARIPOSINE J16117,Negro,Colecciones,Unisex,Activo
 5031958,COLECCION CRUCI PINK J16118,Negro,Colecciones,Unisex,Activo
 5031960,ARETES FLORENCE PERLA J16120,Negro,Aretes,Unisex,Activo
+5031972,COLLAR LAIA ,Baño de oro de bronce brillante de 24 quilates,Collares,Dama,Activo
+5031973,ARETES LAIA CHIC,ARETES,Aretes,Dama,Activo
+5031990,COLLAR VLINDER ROSE,COLLAR,Collares,Dama,Activo
+5031991,ARETES VLINDER,ARETES,Aretes,Dama,Activo
+5032002,SET ARETES EXQUISITE GLAM,SET ARETES,Aretes,Dama,Activo
+5032007,PULSERA VALENTINE,Brazalete,Pulseras,Dama,Activo
+5032010,PULSERA COQUET PERLE,ORO ROSADO,Pulseras,Dama,Activo
 5032027,ARETES OPULENCE CHIC J16202,Negro,Aretes,Unisex,Activo
 5032029,PULSERA GLAZE EN DORE J16204,Negro,Collares,Unisex,Activo
 5032030,COLLAR FLORISTAR DORE J16205,Negro,Collares,Unisex,Activo
@@ -2285,6 +2300,9 @@
 5032066,COLECCION ANGELI CRYSTAL J16241,Negro,Colecciones,Unisex,Activo
 5032068,ARETES FLORENCE CRISTAL J16243,Negro,Aretes,Unisex,Activo
 5032069,COLECCION INITIAL GLAM ?B? J16244,Negro,Colecciones,Unisex,Activo
+5032081,COLLAR BLACK DIAMOND,COLLAR,Collares,Dama,Activo
+5032082,ARETES DIAMOND CHIC,ARETES,Aretes,Dama,Activo
+5032084,SET PULSERAS LAIA,SET DE 3 PULSERAS,Pulseras,Dama,Activo
 5032095,ARETES SUBLIME BLUE J16245,Negro,Aretes,Unisex,Activo
 5032096,COLLAR CELEBRITY CRISTAL J16246,Negro,Collares,Unisex,Activo
 5032097,COLLAR LOVE POP J16247,Negro,Collares,Unisex,Activo
@@ -2339,7 +2357,9 @@
 5032290,SET ARETES FRESY BERRY,Negro,Aretes,Unisex,Activo
 5032294,ARETES CHIC PLAQUE,ARETES,Aretes,Dama,Activo
 5032301,PULSERA FLOWER POWER,PULSERA,Pulseras,Dama,Activo
+50323014,ARETES MAGNOLIA CRISTAL,ARETES,Aretes,Dama,Activo
 5032303,ARETES TAZALY,ARETE,Aretes,Dama,Activo
+5032348,SET DE SORTIJAS CRISTAL DELYR T8,BAÑO DE ORO ROSADO BRILLANTE,Sortijas,Dama,Activo
 5032572,COLECCION RED PETAL,COLECCION,Colecciones,Dama,Activo
 5058970,SET ARETES PASTEL PARTY,Negro,Aretes,Unisex,Activo
 6120713,COLLAR STAR CHIC,Negro,Collares,Unisex,Activo

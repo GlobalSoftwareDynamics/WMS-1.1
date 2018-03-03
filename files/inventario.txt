@@ -1,14 +1,14 @@
 ﻿SKU;Nombre Corto;Atributo;SubCategoría;Stock;Fecha de Modificación;Precio Promedio
 0000872;SOLO COLOGNE FOR MEN A/P;Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ;;64;2018-02-20;180
-0000883;OHM COLOGNE SPRAY;Salvia, toronja, lavanda.;;566;2018-03-02;0.39
+0000883;OHM COLOGNE SPRAY;Salvia, toronja, lavanda.;;581;2018-03-03;1.77
 0001390;DENDUR COLOGNE FOR MEN A/P;Pimienta negra, jengibre, tabaco.;Cuidado de la Piel;141;2018-02-19;0
 0001618;Sentiva Hydra-tonic Locion Tonica Cutis Normal O Mixto 180ml;Negro;Collares;35;2018-02-19;0
 0001831;SOLO TALCO PARA EL CUERPO HOMBRE;Evita exceso de humedad deja la piel suave y perfumada;Collares;12;2018-02-01;0
 0001891;Expect for men ;Negro;Collares;5;2018-02-01;0
-0002183;GAIA EAU DE PARFUM;Con notas de jacarandá, magnolia y orquídea;Collares;77;2018-02-26;0
+0002183;GAIA EAU DE PARFUM;Con notas de jacarandá, magnolia y orquídea;Collares;78;2018-03-03;0.91
 0002187;O2XYGEN GEL AFTER SHAVE;Hidrata, limpia y suaviza.;Collares;2;2018-02-01;0
-0002279;OSADIA EAU DE PARFUM; naranja brasilera, maracuyá y destellos de granada.;Collares;56;2018-02-28;2.7
-0002426;CIELO EAU DE PARFUM;Flor de loto, jazmín, sándalo.;Collares;114;2018-02-19;0
+0002279;OSADIA EAU DE PARFUM; naranja brasilera, maracuyá y destellos de granada.;Collares;72;2018-03-03;13.51
+0002426;CIELO EAU DE PARFUM;Flor de loto, jazmín, sándalo.;Collares;113;2018-03-02;0
 0002645;OHM BLACK COLOGNE SPRAY;Madera de cachemira, lavanda, pimienta.;Collares;203;2018-03-01;0
 0002647;BODY SPA UÑA DE GATO CREMA PARA MANOS A/P;Hidrata y repara la piel seca y extra seca.;Collares;3;2018-02-01;0
 0002683;COLONIA ALEGRÍA PETIT PON PON;Aroma de lavanda, vainilla y flor de naranja.;Multiactivas;16;2018-02-05;0
@@ -26,7 +26,7 @@
 0002949;MUSK EAU DE PARFUM A/P;Almizcle, ylang ylang, lila.;Antimanchas y Aclarantes;21;2018-02-19;0
 0002950;MUSK COLOGNE FOR MEN A/P;mezcla oriental de toronja, clavo de olor y almizcle.;Antimanchas y Aclarantes;92;2018-02-19;0
 0002994;TOP MODELING CREMA LIPO-REDUCTORA A/P;concentrado de cafeína liposomada y L-Carnitina;Antimanchas y Aclarantes;1;2018-02-01;0
-0002998;OSADIA HOMBRE COLOGNE SPRAY;Hierbabuena, limón, ébano.;Antimanchas y Aclarantes;200;2018-03-02;0
+0002998;OSADIA HOMBRE COLOGNE SPRAY;Hierbabuena, limón, ébano.;Antimanchas y Aclarantes;199;2018-03-02;0
 0002999;MUSK DESODORANTE MUJER;Guinda;Antimanchas y Aclarantes;2;2018-02-01;0
 0003018;TOP MODELING GEL  ANTI-CELULITIS A/P;a base de algas marinas, reafirma, hidrata y reduce la apariencia de celulitis;Antimanchas y Aclarantes;3;2018-02-01;0
 0003034;SISTEMA SKIN 24;Concentrado Anti-Manchas: Con Albacinol RX Focus;Antimanchas y Aclarantes;2;2018-02-01;0
@@ -80,7 +80,7 @@
 0003510;EAU VITALE LAVANDA GEL PARA BAÑO ;Esencia cítrica Lavanda;Labiales;32;2018-02-01;0
 0003511;LESENCE BOUQUET ORIENTAL COLOGNE A/P;Aroma  de pera, fressia y tonka.;Brillos;1;2018-02-01;0
 0003513;LESENCE FLORES & FRUTAS COLOGNE;Aroma de bergamota, lavanda y pachuli.;Esmaltes;503;2018-02-19;0
-0003529;DELINEADOR PUNTA PINCEL NEGRO;Punta delgada;Esmaltes;153;2018-03-01;0
+0003529;DELINEADOR PUNTA PINCEL NEGRO;Punta delgada;Esmaltes;150;2018-03-03;0
 0003530;DELINEADOR PUNTA PINCEL MARRON;Punta delgada;Esmaltes;1;2018-02-01;0
 0003587;COLONIA ZITRIKA LIMÓN;Cítrica con aroma a limón.;Delineadores de Labios;26;2018-02-19;0
 0003588;Colonia Ternura Petit Pon Pon 750ml;Negro;Collares;31;2018-02-19;0
@@ -91,7 +91,7 @@
 0003600;Ultra Definition Delineador Retractil Ojos Verde Militar;Lapiz retractil;Collares;11;2018-02-01;0
 0003601;Ultra Definition Deliniador Retractil  Ojos Negro Humo;Lapiz retractil;Collares;4;2018-02-01;0
 0003603;uLTRA DEFINITION DELINEADOR CEJAS MARRON CLARO;Cejas ;Collares;5;2018-02-01;0
-0003606;ULTRA DEFiNITION  DELINEADOR LABIOS  CHOCOLATE;lapiz Chocolate;Collares;134;2018-02-05;0
+0003606;ULTRA DEFiNITION  DELINEADOR LABIOS  CHOCOLATE;lapiz Chocolate;Collares;134;2018-02-05;24
 0003608;ULTRA DEFINITION DELINEADOR LABIOS ROJO ENCENDIDO;Labios Rojo encendido;Collares;1;2018-02-01;0
 0003609;ULTRA DEFINITION DELINEADOR LABIOS VINO;Labios Vino;Collares;12;2018-02-01;0
 0003611;ULTRA DEFINITION DELINEADOR LABIOS GUINDA;Labios Guinda;Collares;3;2018-02-01;0
@@ -122,7 +122,7 @@
 0003722;EXTRA XOOL EAU DE TOILETTE;Aroma con notas cítricas y frescas.;Collares;1;2018-02-01;0
 0003724;XISS EAU DE TOILETTE; floral frutal de naranja, fresia y sándalo.;Collares;288;2018-03-01;5.8
 0003725;XOOL EAU DE TOILETTE;Bergamota, hojas de higo, salvia.;Collares;226;2018-02-28;0
-0003726;AROM POUR HOMME COLONIA;aroma maderoso que mezcla notas de sándalo, romero y bergamota.;Collares;408;2018-03-01;10.6
+0003726;AROM POUR HOMME COLONIA;aroma maderoso que mezcla notas de sándalo, romero y bergamota.;Collares;407;2018-03-03;10.6
 0003727;AROM SPORT COLONIA;Nautico;Collares;3;2018-02-01;0
 0003737;Clic Rimel Morado;Negro;Collares;1;2018-02-01;0
 0003740;AROM DESODORANTE A/P;Negro;Collares;36;2018-02-19;0
@@ -156,7 +156,7 @@
 0003875;MATIFIX BASE DE MAQUILLAJE MIXTO A  GRASO  T1;Absorve el exeso de grasa;Collares;7;2018-02-01;0
 0003887;Ultra Definition Delineador Retractil Ojos Violeta ;Lapiz retractil;Collares;4;2018-02-01;0
 0003910;DELINEADOR LIQUIDO PUNTA PLUMON MIRAME A LOS OJOSD;Delineado grueso color violeta;Collares;2;2018-02-01;0
-0003911;ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO;Delineado grueso;Collares;78;2018-03-02;0
+0003911;ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO;Delineado grueso;Collares;77;2018-03-03;0
 0003914;Clic Labial Liquido Escarchado Admirador Secreto;Negro;Collares;3;2018-02-01;0
 0003915;CLIC LABIAL LIQUIDO ESCARCHADO AMPAY VIOLETA;morado;Collares;1;2018-02-01;0
 0003916;CLIC LABIAL LIQUIDO ESCARCHADO DETRAS DE CAMARAS;lila;Collares;3;2018-02-01;0
@@ -200,7 +200,7 @@
 0004105;CLIC L/L DULCE VANIDAD;extra suavidad;Collares;4;2018-02-01;0
 0004107;CLIC L/L ROJO EXPLOSION;extra suavidad;Collares;24;2018-02-01;0
 0004120;DELINEADOR PUNTA PINCEL PLATA VIBRANTE;Punta delgada;Collares;3;2018-02-01;0
-0004153;DUETTE MARRON / NEGRO HUMO;Marron y Negro;Collares;25;2018-03-02;0
+0004153;DUETTE MARRON / NEGRO HUMO;Marron y Negro;Collares;23;2018-03-03;0
 0004155;MATIFIX BASE DE MAQUILLAJE MIXTO A  GRASO  T6;Absorve el exeso de grasa;Collares;4;2018-02-01;0
 0004156;CLIC GEL DESMAQUILLADOR OJOS, LABIOS Y ROSTRO;textura ultra fresca libre de grasa;Collares;2;2018-02-01;0
 0004159;COLOR PRISMA DUO SOMBRAS TIERRA DE ORO;alta adherencia-larga duracion;Collares;1;2018-02-01;0
@@ -210,10 +210,10 @@
 0004185;DELINEADOR PUNTA PINCEL GUINDA METALICO;Punta delgada;Collares;3;2018-02-01;0
 0004195;ULTRA DEFiNITION  DELINEADOR LABIOS PIEL;Labios Piel;Collares;4;2018-02-05;0
 0004199;Prolong Color Princesa (antigua presentación);Negro;Collares;2;2018-02-01;0
-0004221;HYDRA LIP HUMENCTANTE PURO SENTIMIENTO;Rosado claro;Collares;12;2018-02-01;0
+0004221;HYDRA LIP LABIAL COLOR INTENSO PURO SENTIMIENTO;Rosado claro;Collares;12;2018-02-01;12
 0004227;DELINEADOR PUNTA PINCEL MORADO;Punta delgada;Collares;2;2018-02-01;0
-0004232;HYDRA LIP ULTRA AMOR SECRETO;palo de rosa nacarado;Collares;5;2018-02-01;0
-0004236;HYDRA LIP HUMENCTANTE ULTRA JUGAR CON FUEGO;Negro;Collares;4;2018-02-01;0
+0004232;HYDRA LIP LABIAL COLOR INTENSO  AMOR SECRETO;palo de rosa nacarado;Collares;5;2018-02-01;16.3
+0004236; HYDRA-LIP LABIAL COLOR INTENSO JUGAR CON FUEGO;rojo;Collares;4;2018-02-01;12
 0004237;HYDRA-LIP ULTRA MORA MIA;MORADO;Collares;1;2018-02-01;0
 0004240;BIO MILK CREMA HIDRATANTE ORIGINAL 750 ML;aroma a base de pomelo blanco, durazno y flor de algodón que hidrata, suaviza y nutre;Collares;25;2018-02-19;0
 0004266;TOTALIST 4 ALOE VERA CREMA MULTIACTIVA ;Hidrata, nutre, protege, suaviza;Limpiadores y Tónicos;67;2018-02-19;0
@@ -228,7 +228,7 @@
 0004308;KERA EXPERT ACONDICIONADOR LISO PROFESIONAL;Enave negro etiqueta morada;Collares;9;2018-02-01;0
 0004309;MACA EXPERT ACONDICIONADOR REPRACION PROFESIONAL;Envase negro etiqueta verde;Collares;5;2018-02-01;0
 0004347;ADRENALINE EAU DE TOILETTE;Mandarina, flor de loto, naranja china;Collares;10;2018-02-05;0
-0004348;CONTROL BLANC RX CREMA ACLARANTE;Con Albacinol RX-11*  ácido hialurónico y filtros solares. ;Collares;43;2018-03-01;0
+0004348;CONTROL BLANC RX CREMA ACLARANTE;Con Albacinol RX-11*  ácido hialurónico y filtros solares. ;Collares;42;2018-03-02;0
 0004365;HYDRO-ACTIVE BASE DE MAQUILLAJE T1;12 horas dce cubrimiento, 12 horas de hidratacion, proteccio spf15;Collares;1;2018-02-01;0
 0004368;HYDRO-ACTIVE BASE DE MAQUILLAJE T4;12 horas dce cubrimiento, 12 horas de hidratacion, proteccio spf15;Collares;1;2018-02-01;0
 0004369;HYDRO-ACTIVE BASE DE MAQUILLAJE T5;12 horas dce cubrimiento, 12 horas de hidratacion, proteccio spf15;Collares;1;2018-02-01;0
@@ -239,15 +239,15 @@
 0004379;Clic Brillo Natural y Delineador Azul;Negro;Collares;1;2018-02-01;0
 0004394;BIO FRUIT SHAMPOO Y  ACONDICIONADOR MANDARINA TROPICAL A/P;Con proteinas de Yogur probiotico Revitalizante;Collares;3;2018-02-01;0
 0004395;BIO FRUIT SHAMPOO Y ACONDICIONADOR COCO CARIBEÑO A/P 350 ML;Ultra Hidratante envase color crema;Collares;1;2018-02-01;0
-0004408;HIDRA LIP HUMECTANTE  JUNTO A TI DLUX;rosado fuerte;Collares;1;2018-02-01;0
+0004408; HYDRA-LIP LABIAL COLOR INTENSO JUNTO A TI ;rosado fuerte;Collares;1;2018-02-01;12
 0004422;LASH FICTION RIMEL PESTAÑAS DE PELICULA;No es a prueba de agua;Collares;47;2018-02-05;0
 0004469;BODY SPA UÑA DE GATO CREMA PARA PIEL EXTRA SECA A/P;Hidrata y repara la piel seca y extra seca.;Collares;15;2018-02-01;0
 0004470;BODY SPA UÑA DE GATO BODY SPA UÑA DE GATO PARA PIEL EXTRA SECA A/P;Exfolia la piel seca y extra seca.;Collares;33;2018-02-01;0
 0004471;DESODORANTE ACERK.TE FUEGO;Desodorante corporal envase negro etiqueta anaranjada;Collares;1;2018-02-01;0
 0004476;CCORI CRISTAL LEAU DE PARFUM;aroma oriental con notas de  fresia, jazmín y vainilla. ;Collares;105;2018-02-23;0
-0004480;Lpstay Larga Duración Sun Bronz;Negro;Collares;2;2018-02-01;0
-0004483;L/L HYDRA-LIP LD ROSA DE MIS SUEÑOS ;Rosado nacarado;Collares;8;2018-02-22;0
-0004486;L/L HYDRA-LIP LD BESO VOLADO;vino;Collares;2;2018-02-01;0
+0004480;HYDRA-LIP LARGA DURACION SUN BRONZ;bronce;Collares;2;2018-02-01;19
+0004483;HYDRA-LIP LARGA DURACION ROSA DE MIS SUEÑOS  A/P;Rosado nacarado;Collares;8;2018-02-22;19
+0004486;HYDRA-LIP LARGA DURACION BESO VOLADO;vino;Collares;2;2018-02-01;19
 0004493;SPRIO BLUE SPRAY COLOGNE;Toronja, lavanda, vetiver.;Collares;35;2018-02-19;14.9
 00044948;HIDRA-LIP ULTRA HIDRATANTE ;rojo vino ;Collares;3;2018-02-01;0
 0004495;ZENTRO COLOGNE FOR MEN;Notas orientales con notas de yuzu, cedro y haba tonka.;Collares;56;2018-02-22;0
@@ -278,19 +278,19 @@
 0004647;TITANIUM HIDRATANTE ENERGIZANT;Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco e hidratado;Collares;13;2018-02-05;0
 0004649;REVITALIST CREMA NUTRITIVA;Fuerza nutritiva, accion hidratante, poder aislante;Collares;5;2018-02-05;0
 0004651;REVITALIST HIDRATANTE;Hidratante y energizante;Collares;20;2018-02-21;0
-0004652;ELIXIR DE VIDA HIDRATANTE;Hidrata, hipoalergenico con resveratrol.;Collares;45;2018-03-02;0
+0004652;ELIXIR DE VIDA HIDRATANTE;Hidrata, hipoalergenico con resveratrol.;Collares;44;2018-03-03;2.17
 0004653;ELIXIR DE VIDA SUERO RECONSTITUYENTE;Resveratrol, que activa las Sirtuínas conocidas como las proteínas de juventud,;Collares;7;2018-02-28;0
 0004654;REVITALIST LIMPIADOR;Limpia, hipoalergenico menores de 35 años;Collares;31;2018-02-22;1.5
-0004655;ELIXIR DE VIDA LIMPIADOR;Limpia con resveratrol e hipoalergenico.;Collares;87;2018-03-02;11.7
+0004655;ELIXIR DE VIDA LIMPIADOR;Limpia con resveratrol e hipoalergenico.;Collares;86;2018-03-03;11.7
 0004656;BODY SPA UÑA DE GATO CREMA REPARADORA A/P;Repara e hidrata la piel.;Perfumería Dama;61;2018-02-19;0
-0004657;HYDRA LIP ULTRA  DELICATTA FR Delux;palo de rosa oscuro;Perfumería Dama;2;2018-02-01;0
-0004661;HYDRA LIP ULTRA ATARDECER  CARIBE;rosado;Perfumería Dama;1;2018-02-01;0
+0004657;HYDRA LIP LABIAL COLOR INTENSO  DELICATTA ;palo de rosa oscuro;Perfumería Dama;2;2018-02-01;12
+0004661;HYDRA LIP LABIAL COLOR INTENSO  ATARDECER  CARIBE;rosado;Perfumería Dama;1;2018-02-01;16.3
 0004668;ULTRA DEFINITON PLUMON OJOS MARRON;Trazo Preciso delineado delgado y grueso;Perfumería Dama;5;2018-02-01;0
 0004669;ULTRA DEFINITION PLUMON OJOS AZUL;Trazo preciso delineado delgado y grueso;Perfumería Dama;5;2018-02-05;0
 0004670;REVITALIST TONICO;Negro;Collares;26;2018-02-21;1.84
 0004671;ELIXIR DE VIDA GEL TONICO;acción integral con Resveratrol, finaliza la limpieza del rostro, suaviza y refresca.;Collares;35;2018-03-01;16.2
 0004683;43 N PARALEL COLOGNE FOR MEN;maderosa de toronja mediterránea, ciprés de Toscana y cuero ibérico.;Collares;183;2018-02-19;0
-0004684;LIBERATTA PARFUM;floral memorable y cautivador con notas de encaje de iris blanca y vainilla.;Collares;40;2018-03-02;3.65
+0004684;LIBERATTA PARFUM;floral memorable y cautivador con notas de encaje de iris blanca y vainilla.;Collares;48;2018-03-03;15.3
 0004686;Brillo de Seda Loción Hidratante;Negro;Collares;57;2018-02-19;0
 0004687;BRILLO DE SEDA DIAMANTES A/P;Hidrata y perfuma;Collares;40;2018-02-19;0
 0004694;TOP MODELING CREMA ANTI-CELULITIS;a base de algas marinas, reafirma, hidrata y reduce la apariencia de celulitis;Collares;28;2018-02-05;0
@@ -301,12 +301,12 @@
 0004718;SOY DULCE FRESH COLOGNE A/P;Frambuesa azucarada, madera blanca, vainilla.;Collares;6;2018-02-01;0
 0004719;SOY FASHION FRESH COLOGNE A/P;Litchi dulce, chocolate blanco, almizcle delicado.;Collares;80;2018-02-19;0
 0004720;SOY SEXY FRESH COLOGNE A/P;Nerolí, sándalo sensual, almizcle de piel.;Collares;15;2018-02-19;0
-0004724;HYDRA LIP ULTRA LADY ROSE;Rosado claro;Collares;3;2018-02-01;0
+0004724; HYDRA-LIP LABIAL COLOR INTENSO ULTRA LADY ROSE;Rosado claro;Collares;3;2018-02-01;12
 0004733;ELIXIR DE VIDA ROSTRO;Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol;Collares;206;2018-03-02;0
 0004734;ELIXIR DE VIDA CREMA DE OJOS;Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.;Collares;13;2018-03-01;0
-0004741;ESMALTE PERFECT TEN NOCTAMBUL;Verde escamas;Collares;1;2018-02-01;0
-0004744;HYDRA LIP ULTRA FUCSIA OPULENTO;fucsia;Collares;2;2018-02-01;0
-0004749;HYDRA LIP ULTRA  LUJO MALVA;lila oscuro;Collares;3;2018-02-01;0
+0004741;ESMALTE PERFECT TEN NOCTAMBUL;Verde escamas;Collares;1;2018-02-01;8
+0004744;HYDRA LIP LABIAL COLOR INTENSO FUCSIA OPULENTO;fucsia;Collares;2;2018-02-01;12
+0004749; HYDRA-LIP LABIAL COLOR INTENSO LUJO MALVA;lila oscuro;Collares;3;2018-02-01;16.3
 0004750;CONTROL BLANC RX LIMPIADOR EXFOLIANTE TONIFICANTE;Limpia, exfolia y tonifica.;Collares;32;2018-03-01;0
 0004761;Clic Esmalte Party Mood;Negro;Collares;1;2018-02-01;0
 0004762;CLIC ESMALTE BLACK GLOW;negro encarchado;Collares;2;2018-02-01;0
@@ -315,7 +315,7 @@
 0004771;C/S COLOR EFFECT URBANA A/P;Oscuros;Collares;1;2018-02-01;0
 0004772;BIO MILK CREMA HIDRATANTE VAINILLA FRANCESA;aroma a base de pomelo blanco, vainilla y flor de algodón que hidrata, suaviza y nutre;Collares;49;2018-02-19;0
 0004773;BODY SPA LECHE & AVENA CREMA MANOS;hidratacion y suavidad;Collares;28;2018-02-19;0
-0004780;HYDRA LIP ULTRA ROSA LIP;rosa claro;Collares;2;2018-02-01;0
+0004780;HYDRA LIP LABIAL COLOR INTENSO  ROSA LIP FR;rosa claro;Collares;2;2018-02-01;18.2
 0004791;PERFECT TEN BARNIZ UÑAS MATE;Negro;Collares;20;2018-02-05;0
 0004792;ULTRA DEFINITION DELINEADOR LIQUIDO OJOS GRIS URBANO;Punta Plumon Efecto Metalico;Collares;4;2018-02-01;0
 0004816;CLIC SOMBRAS COMPACTAS TROPICAL COLORS;azules;Collares;2;2018-02-01;0
@@ -324,7 +324,7 @@
 0004826;BIO FRUIT SHAMPOO Y ACONDICIONADOR GRANADA EXOTICA 350ML A/P;aroma de la granada que además, ofrece su poder antioxidante;Collares;118;2018-02-19;0
 0004828;CONTROL BLANC RX ACLARANTE ANTI-EDAD;Albacinol RX-11 potenciado con extracto de orquídea blanca;Collares;34;2018-03-01;0
 0004829;SENTIVA DESMAQUILLADOR AGUA MICELAR;Frescura purificante;Collares;12;2018-02-19;0
-0004830;SENTIVA DESMAQUILLADOR DOBLE FASE;Facil, rapido ny eficaz;Collares;102;2018-03-01;0
+0004830;SENTIVA DESMAQUILLADOR DOBLE FASE;Facil, rapido ny eficaz;Collares;100;2018-03-03;0
 0004831;Fresh Mousse Sobras Crema Dark Mousse;Oscuro en Crema;Collares;2;2018-02-01;0
 0004833;REVITALIST GEL ENERGIZANTE;Gel energizante con VIT ADVANCE;Collares;1;2018-02-05;0
 0004834;NO LIMITS FUTBOL EDITION;Geranio, lavanda, limón.;Protectores Solares;111;2018-02-19;0
@@ -336,44 +336,44 @@
 0004845;C/S COLOR EFFECT FUROR AZUL;Azules;Protectores Solares;3;2018-02-05;0
 0004848;C/S COLOR EFFECT MIAMI POP ;Corales;Protectores Solares;6;2018-02-01;0
 0004849;P/C PERFECT COVER CLARO 1;Piel Clara;Protectores Solares;58;2018-02-05;0
-0004850;P/C PERFECT COVER MEDIANO 1;Piel Mediana;Protectores Solares;34;2018-02-05;0
+0004850;P/C PERFECT COVER MEDIANO 1;Piel Mediana;Protectores Solares;32;2018-03-03;0
 0004851;P/C PERFECT COVER MEDIANO 2;Piel Oscura ;Protectores Solares;63;2018-02-05;0
 0004852;P/C PERFECT COVER OSCURO 1;Piel Oscura;Protectores Solares;2;2018-02-05;0
-0004854;Lipstay Larga Duracion Rojo Apasionado ;rojo fresa;Protectores Solares;2;2018-02-01;0
-0004855;Lispstay Larga Duración Rojo Destello;Negro;Collares;2;2018-02-01;0
-0004857;Lipstay Larga Duración Canela Intenso;Negro;Collares;9;2018-02-01;0
-0004866;HYDRA LIP ULTRA ROSA POP;rosado oscuro;Collares;1;2018-02-01;0
-0004868;HYDRA-LIP ULTRA POP STYLE FR;lila ;Collares;3;2018-02-01;0
-0004869;HYDRA LIP ULTRA FLORIDA LOVE;nude oscuro;Collares;1;2018-03-01;0
-0004880;AROM ABSOLUT COLOGNE FOR MEN;aroma con notas de limón kaffir, cardamomo y ámbar gris.;Collares;79;2018-02-20;11.2
-0004882;PD TE ESPERO EN ESTAMBUL COLOGNE;Aroma Oriental Floral con notas dulces de flor de manzana, rosa turca y vainilla;Collares;66;2018-02-20;1.7
-0004883;PD UN BESO DESDE VENECIA COLOGNE;Aroma Floral maderoso con notas de bergamota italiana, almizcle e iris;Collares;15;2018-02-26;0
-0004884;RUBOR COLOR EFFECT ROSA IRRESISTIBLE;Piel Clara;Collares;5;2018-02-05;0
-0004886;RUBOR COLOR EFFECT BRIZZA;Piel Oscura;Collares;5;2018-02-05;0
-0004887;RUBOR COLOR EFFECT BRONZAGE;Piel mediana;Collares;24;2018-02-05;0
-0004888;RUBOR COLOR EFFECT PETAL ROSE ;Piel mediana;Collares;10;2018-02-27;0
-0004889;RUBOR COLOR EFFECT TERRA;Piel Oscura;Collares;6;2018-02-05;0
-0004890;L/L HYDRA-LIP COLOR MUSA;NUDE;Collares;12;2018-02-05;0
-0004891;L/L HYDRA-LIP COLOR BAILE ROSA;palo de rosa;Collares;9;2018-02-05;0
-0004892;L/L HYDRA-LIP COLOR CHOCOLAT MOUSSE;Chocolate;Collares;26;2018-02-28;0
-0004893;L/L HYDRA-LIP COLOR TERCIOPELO  NEGRO;vino fuerte;Collares;34;2018-03-01;0
-0004894;L/L HYDRA-LIP COLOR AMBRE;nude oscuro;Collares;1;2018-02-05;0
-0004895;L/L HYDRA-LIP COLOR TENTACION;rojo claro;Collares;14;2018-02-26;0
-0004896;L/L HYDRA-LIP COLOR RUMORES;coral;Collares;18;2018-02-05;0
-0004897;L/L HYDRA-LIP COLOR MORA ZEN;lila;Collares;25;2018-03-02;0
-0004898;L/L HYDRA-LIP COLOR VAINILLA CORAL;Coral;Collares;12;2018-02-05;0
-0004899;L/L HYDRA-LIP COLOR CORAL&COLO;coral;Collares;11;2018-02-05;0
-0004900;L/L HYDRA-LIP COLOR FUCSIA PELIGROSA;fucsia;Collares;9;2018-02-21;0
-0004901;L/L HYDRA-LIP COLOR GUINDA ETNICO;guinda oscuro;Collares;34;2018-02-05;0
-0004902;L/L HYDRA-LIP COLOR ALMENDRADO;nude claro;Collares;12;2018-02-26;0
-0004904;UNIQUE WOMAN INFINITY EAU PARFUM;floral de brotes de cerezo, jazmín y ámbar;Collares;105;2018-02-22;3.7
-0004905;C/S COLOR EFFECT MIAMI BEACH;Colores Marinos;Collares;2;2018-02-01;0
+0004854;HYDRA-LIP LARGA DURACION ROJO APASIONADO ;rojo fresa;Protectores Solares;2;2018-02-01;19
+0004855;HYDRA-LIP LARGA DURACION ROJO DESTELLO;rojo;Protectores Solares;2;2018-02-01;19
+0004857;HYDRA-LIP LARGA DURACION CANELA INTENSO;Cafe;Protectores Solares;9;2018-02-01;19
+0004866;HYDRA LIP ULTRA ROSA POP;rosado oscuro;Protectores Solares;1;2018-02-01;0
+0004868;HYDRA-LIP ULTRA POP STYLE FR;lila ;Protectores Solares;3;2018-02-01;0
+0004869;HYDRA LIP LABIAL COLOR INTENSO FLORIDA LOVE;nude oscuro;Protectores Solares;1;2018-03-01;12
+0004880;AROM ABSOLUT COLOGNE FOR MEN;aroma con notas de limón kaffir, cardamomo y ámbar gris.;Protectores Solares;79;2018-02-20;11.2
+0004882;PD TE ESPERO EN ESTAMBUL COLOGNE;Aroma Oriental Floral con notas dulces de flor de manzana, rosa turca y vainilla;Protectores Solares;66;2018-02-20;1.7
+0004883;PD UN BESO DESDE VENECIA COLOGNE;Aroma Floral maderoso con notas de bergamota italiana, almizcle e iris;Protectores Solares;15;2018-02-26;0
+0004884;RUBOR COLOR EFFECT ROSA IRRESISTIBLE;Piel Clara;Protectores Solares;5;2018-02-05;0
+0004886;RUBOR COLOR EFFECT BRIZZA;Piel Oscura;Protectores Solares;5;2018-02-05;0
+0004887;RUBOR COLOR EFFECT BRONZAGE;Piel mediana;Protectores Solares;22;2018-03-03;0
+0004888;RUBOR COLOR EFFECT PETAL ROSE ;Piel mediana;Protectores Solares;10;2018-02-27;0
+0004889;RUBOR COLOR EFFECT TERRA;Piel Oscura;Protectores Solares;6;2018-02-05;0
+0004890;HIDRA LIP LABIAL COLOR INTENSO MUSA;NUDE;Protectores Solares;11;2018-03-03;16.3
+0004891;HYDRA LIP LABIAL COLOR INTENSO BAILE ROSA;palo de rosa;Protectores Solares;9;2018-02-05;16.3
+0004892;HYDRA LIP LABIAL COLOR INTENSO  CHOCOLAT MOUSSE;Chocolate;Protectores Solares;26;2018-02-28;16.9
+0004893;HYDRA LIP LABIAL COLOR INTENSO  TERCIOPELO  NEGRO;vino fuerte;Protectores Solares;34;2018-03-01;18.2
+0004894;L/L HYDRA-LIP COLOR AMBRE;nude oscuro;Protectores Solares;21;2018-03-03;16.28
+0004895;HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION;rojo claro;Protectores Solares;28;2018-03-03;16.28
+0004896;HYDRA LIP LABIAL COLOR INTENSO RUMORES;coral;Protectores Solares;18;2018-02-05;16.3
+0004897;HYDRA LIP LABIAL COLOR INTENSO  MORA ZEN;lila;Protectores Solares;25;2018-03-02;16.3
+0004898;HYDRA LIP LABIAL COLOR INTENSO VAINILLA CORAL;Coral;Protectores Solares;12;2018-02-05;12
+0004899;HYDRA-LIP LABIAL COLOR INTENSO CORAL&COLOR RAL&COLO;coral;Protectores Solares;11;2018-02-05;12
+0004900;HYDRA LIP LABIAL COLOR INTENSO FUCSIA PELIGROSA;fucsia;Protectores Solares;9;2018-02-21;16.3
+0004901;HYDRA LIP LABIAL COLOR INTENSO  GUINDA ETNICO;guinda oscuro;Protectores Solares;34;2018-02-05;18.2
+0004902;HYDRA LIP LABIAL COLOR INTENSO ALMENDRADO;nude claro;Protectores Solares;12;2018-02-26;16.3
+0004904;UNIQUE WOMAN INFINITY EAU PARFUM;floral de brotes de cerezo, jazmín y ámbar;Protectores Solares;105;2018-02-22;3.7
+0004905;C/S COLOR EFFECT MIAMI BEACH;Colores Marinos;Protectores Solares;2;2018-02-01;0
 0004932; ADRENALINE URBANO DESODORANTE;Azul;Aretes;3;2018-02-01;0
 0004933;CCORI CRISTAL DESODORANTE A/P;Crema;Aretes;21;2018-02-05;0
 0004934;BALSAMO BELLEZA BB CREAM;Negro;Collares;89;2018-02-19;0
 0004935;CCORI CRISTAL LEAU DE PARFUM 7.5 ml.;aroma oriental con notas de  fresia, jazmín y vainilla. ;Collares;1;2018-02-01;0
 0004936;B/L PERFECT COVER HIDRA T1;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;13;2018-03-01;0
-0004937;B/L PERFECT COVER HIDRA T2;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;47;2018-03-01;0
+0004937;B/L PERFECT COVER HIDRA T2;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;46;2018-03-03;0
 0004938;B/L PERFECT COVER HIDRA T3;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;11;2018-02-05;0
 0004939;B/L PERFECT COVER HIDRA T4;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;2;2018-02-05;0
 0004940;B/L PERFECT COVER HIDRA T5;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;1;2018-02-05;0
@@ -382,65 +382,67 @@
 0004944;B/L PERFECT COVER MAT T3;Acabado mate hasta por 8 horas. SPF 12.;Collares;1;2018-03-02;0
 0004945;B/L PERFECT COVER MAT T4;Acabado mate hasta por 8 horas. SPF 12.;Collares;3;2018-03-01;0
 0004946;B/L PERFECT COVER MAT T5;Acabado mate hasta por 8 horas. SPF 12.;Collares;2;2018-02-05;0
-0004951;HYDRA LIP ULTRA ROJO EUFORIA;rojo brillante;Collares;5;2018-02-01;0
+0004951; HYDRA-LIP LABIAL COLOR INTENSO ROJO EUFORIA;rojo brillante;Collares;5;2018-02-01;16.3
 0004959;UNIQUE WOMAN EAU DE PARFUM;Negro;Collares;96;2018-02-19;0
 0004962;SPRIO PINK COLOGNE FOR HER;Dulce;Collares;1;2018-02-05;0
 0004964;CLIC SEXTETO DE SOMBRAS COMPACTAS COOL Y CRAZY;varios;Collares;1;2018-02-01;0
 0004965;CLIC SEXTETO DE SOMBRAS COMPACTAS FUNNY Y TRENDY;varios;Collares;1;2018-02-01;0
-0004966;L/L HYDRA-LIP COLOR ROJO PASION;rojo;Collares;35;2018-02-22;0
-0004969;HYDRA LIP ULTRA CLASSIC FEM;rosa natural;Collares;4;2018-02-01;0
+0004966; HYDRA-LIP LABIAL COLOR INTENSO ROJO PASION;rojo;Collares;35;2018-02-22;18.2
+0004969;HYDRA LIP LABIAL COLOR INTENSO  CLASSIC FEM;rosa natural;Collares;4;2018-02-01;16.3
 0004970;HYDRA-LIP ULTRA ROCK AND ROS;carmin;Collares;3;2018-02-01;0
-0004971;HYDRA LIP  ULTRA LADY PINK;rosado-coral;Collares;4;2018-02-01;0
+0004971; HYDRA-LIP LABIAL COLOR INTENSO LADY PINK;rosado-coral;Collares;4;2018-02-01;12
 0004983;ACENTO PARFUM;Aroma ;Collares;22;2018-02-01;0
 0004984;Clic Esmalte Mango Frozen;Negro;Collares;1;2018-02-01;0
 0004987;Clic Esmalte Silver Way!;Negro;Collares;1;2018-02-01;0
-0005003;HYDRA LIP COLOR INTENSO ROSA PARIS;rosado oscuro;Collares;2;2018-02-01;0
-0005004;HYDRA LIP COLOR INTENSO FUCSIA BOHEME;fucsia;Collares;3;2018-02-01;0
-0005005;HYDRA LIP COLOR INTENSO ALMA GUINDAlma Guinda;guinda ;Collares;5;2018-02-01;0
+0005003;HYDRA LIP LABIAL COLOR INTENSO ROSA PARIS;rosado oscuro;Collares;2;2018-02-01;12
+0005004;HYDRA LIP LABIAL COLOR INTENSO FUCSIA BOHEME;fucsia;Collares;3;2018-02-01;16.3
+0005005;HYDRA LIP LABIAL COLOR INTENSO ALMA GUINDA;guinda ;Collares;5;2018-02-01;18.2
 0005008;C/S COLOR EFFECT BOHEME;Rosados y celestes;Collares;1;2018-02-01;0
 0005009;CONTROL BLANC RX SET ANTIMANCHAS;Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ;Collares;8;2018-02-22;0
-0005017;CREMA HIDRATANTE BIO MILK PERA MANZANA;Con proteinas de yogurt probiotico;Delineadores;187;2018-02-19;0
+0005017;CREMA HIDRATANTE BIO MILK PERA MANZANA;Con proteinas de yogurt probiotico;Delineadores;186;2018-03-02;19
 0005018;CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA A/P;Con proteinas de yogurt probiotico;Delineadores;218;2018-02-19;0
-0005029;SOLO COLOGNE FOR MEN;Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ;Delineadores;95;2018-03-01;0
-0005030;DENDUR COLOGNE FOR MEN;Pimienta negra, jengibre, tabaco.;Cuidado de la Piel;73;2018-02-23;0
+0005029;SOLO COLOGNE FOR MEN;Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ;Delineadores;94;2018-03-03;0
+0005030;DENDUR COLOGNE FOR MEN;Pimienta negra, jengibre, tabaco.;Cuidado de la Piel;72;2018-03-02;0
 0005032;O2XYGEN BLANC COLOGNE FOR MEN;Negro;Collares;1;2018-02-05;0
-0005034;HYDRA LIP COLOR INTENSO CORAL HINDU;coral;Collares;5;2018-02-01;0
-0005035;L/L HYDRA-LIP COL ROSE D ORIEN;Negro;Collares;3;2018-02-05;0
-0005040;HYDRA LIP COLOR INTENSO PIEL DE  DURAZNO;beige nacarado;Collares;5;2018-02-01;0
-0005041;HYDRA LIP  COLOR INTENSO ROSA ESENCIAL;Rosa oscuro;Collares;5;2018-02-01;0
+0005034;HYDRA LIP LABIAL COLOR INTENSO  CORAL HINDU;coral;Collares;5;2018-02-01;16.3
+0005035; HYDRA  LIP LABIAL COLOR INTENSO ROSA DEL ORIENTE;rosado;Collares;3;2018-02-05;16.3
+0005040;HYDRA LIP LABIAL COLOR INTENSO  PIEL DE  DURAZNO;beige nacarado;Collares;5;2018-02-01;16.3
+0005041;HYDRA LIP LABIAL COLOR INTENSO  ROSA ESENCIAL;Rosa oscuro;Collares;5;2018-02-01;16.3
 0005045;C/S COLOR EFFECT ESSENCIA;Naranja y Cafe;Collares;2;2018-02-01;0
-0005050;L/L HYDRA-LIP CRAYON SEXY RED;Rojo ;Collares;9;2018-02-20;4.5
-0005051;L/L HYDRA-LIP CRAYON RED ELEGANCE;rojo;Collares;1;2018-02-05;0
-0005053;L/L HYDRA-LIP CRAYON ALME CHIC;Negro;Collares;2;2018-02-05;0
+0005050;HYDRA-LIP CRAYON SEMI MATE SEXY RED;Rojo ;Collares;9;2018-02-20;22.5
+0005051;HYDRA-LIP CRAYON SEMI MATE RED ELEGANCE;rojo;Collares;1;2018-02-05;22.5
+0005053;HYDRA-LIP CRAYON SEMI MATE ALMENDRA CHIC;nude;Collares;2;2018-02-05;22.5
 0005054;CREMA HIDRATANTE BIO MILK COCO CARIBEÑO;Con proteinas de yogurt probiotico;Delineadores;148;2018-02-19;0
-0005055;L/L HYDRA-LIP FUCSIA TOTAL;fucsia;Delineadores;3;2018-02-05;0
-0005056;L/LIQ HYDRA-LIP CREME DE LA FEME;Rosa claro;Delineadores;3;2018-02-05;0
-0005057;L/LIQ HYDRA-LIP ROJO ETERNO;rojo;Delineadores;2;2018-02-05;0
-0005058;L/L HYDRA-LIP COBRISIMO;naranja metalizado;Delineadores;2;2018-02-05;0
-0005059;L/L HYDRA-LIP ROSA PICANTE;rosado oscuro;Delineadores;5;2018-02-05;0
-0005060;L/LIQ HYDRA-LIP UVA MERLOT;Morado;Delineadores;8;2018-02-05;0
-0005061;B/L HYDRA-LIP MELON CHIC;melon;Delineadores;1;2018-02-05;0
-0005062;B/L HYDRA-LIP LILA VINTAGE;lila claro;Delineadores;3;2018-02-05;0
-0005063;B/L HYDRA-LIP IMPULSO;naranja;Delineadores;24;2018-02-05;0
-0005064;B/L HYDRA-LIP ROSA LUMINOSA;rosado nacarado;Delineadores;12;2018-02-05;0
-0005065;B/L HYDRA-LIP MUJER DE ROJO;rojo escarchado;Delineadores;7;2018-02-05;0
-0005066;B/L HYDRA-LIP MORA INTENSE;lila oscuro;Delineadores;3;2018-02-05;0
+0005055;HYDRA-LIP LABIAL LIQUIDO FUCSIA TOTAL;fucsia;Delineadores;3;2018-02-05;18.2
+0005056; HYDRA-LIP LABIAL LIQUIDO CREME DE LA FEME;Rosa claro;Delineadores;3;2018-02-05;18.2
+0005057;HYDRA-LIP LABIAL LIQUIDO ROJO ETERNO;rojo;Delineadores;2;2018-02-05;18.2
+0005058;HYDRA-LIP LABIAL LIQUIDO COBRISIMO;naranja metalizado;Delineadores;2;2018-02-05;18.2
+0005059; HYDRA-LIP LABIAL LIQUIDO ROSA PICANTE;rosado oscuro;Delineadores;5;2018-02-05;18.2
+0005060;HYDRA-LIP LABIAL LIQUIDO UVA MERLOT;Morado;Delineadores;8;2018-02-05;18.2
+0005061; HYDRA-LIP BRILLO LABIAL MELON CHIC;melon;Delineadores;1;2018-02-05;18.2
+0005062;HYDRA-LIP BRILLO LABIAL LILA VINTAGE;lila claro;Delineadores;3;2018-02-05;18.2
+0005063; HYDRA-LIP BRILLO LABIAL IMPULSO;naranja;Delineadores;24;2018-02-05;18.2
+0005064; HYDRA-LIP BRILLO LABIAL ROSA LUMINOSA;rosado nacarado;Delineadores;12;2018-02-05;18.2
+0005065; HYDRA-LIP BRILLO LABIAL  MUJER DE ROJO;rojo escarchado;Delineadores;7;2018-02-05;18.2
+0005066; HYDRA-LIP BRILLO LABIAL  MORA INTENSE;lila oscuro;Delineadores;3;2018-02-05;18.2
 0005083;BIO MILK CREMA HIDRATANTE ORIGINAL;aroma a base de pomelo blanco, durazno y flor de algodón que hidrata, suaviza y nutre;Delineadores;200;2018-03-01;0.1
-0005087;TOP MODELING CREMA LIPO-REDUCTORA;concentrado de cafeína liposomada y L-Carnitina;Delineadores;32;2018-03-01;0
+0005087;TOP MODELING CREMA LIPO-REDUCTORA;concentrado de cafeína liposomada y L-Carnitina;Delineadores;31;2018-03-03;0
 0005100;B/C PERFECT COVER COMPACT MEDIANO 1;3 EN 1;Delineadores;4;2018-02-05;0
 0005101;B/C PERFECT COVER COMPACT MEDIANO 2;3 en 1;Delineadores;5;2018-02-05;0
 0005102;P/S PERFECT COVER CLARO 1;Piel Clara;Delineadores;4;2018-02-23;0
 0005103;P/S PERFECT COVER MEDIANO 1;Negro;Collares;1;2018-02-26;0
+0005104;P/S PERFECT COVER MEDIANO 2;Piel Oscura;Collares;4;2018-03-03;29.9
 0005106;B/L ELIXIR DE VIDA ANTIEDAD T1;Cubrimiento perfecto con acabado natural. ;Collares;8;2018-02-21;7.8
-0005107;B/L ELIXIR DE VIDA ANTIEDAD T2;Cubrimiento perfecto con acabado natural. ;Collares;7;2018-03-01;7
-0005108;B/L ELIXIR DE VIDA ANTIEDAD T3;Cubrimiento perfecto con acabado natural. ;Collares;3;2018-03-01;17.6
+0005107;B/L ELIXIR DE VIDA ANTIEDAD T2;Cubrimiento perfecto con acabado natural. ;Collares;5;2018-03-03;7
+0005108;B/L ELIXIR DE VIDA ANTIEDAD T3;Cubrimiento perfecto con acabado natural. ;Collares;2;2018-03-03;17.6
 0005109;B/L ELIXIR DE VIDA ANTIEDAD T4;Cubrimiento perfecto con acabado natural. ;Collares;2;2018-02-21;0
 0005110;B/L ELIXIR DE VIDA ANTIEDAD T5;Cubrimiento perfecto con acabado natural. ;Collares;2;2018-02-05;0
 0005120;FOCCO COLOGNE FOR MEN;Whisky, pachulí, madera de oud.;Collares;128;2018-03-01;0
-0005121;L/L ELIXIR DE VIDA ENCANTO ELIXIR;rosado oscuro;Collares;4;2018-02-27;0
-0005125;L/L ELIXIR DE VIDA ELIXIR ROSE;antiedad;Collares;4;2018-03-01;0
-0005126;L/L  ELIXIR DE VIDA LUJO ELIXIR;rojo;Collares;3;2018-02-05;0
-0005127;L/L ELIXIR DE VIDA TERRA ELIXIR FU;antiedad;Collares;2;2018-02-05;0
+0005121;LABIAL ANTI-EDAD ELIXIR DE VIDA ENCANTO ELIXIR;rosado oscuro;Collares;4;2018-02-27;24.8
+0005124;LABIEL ANTI-EDAD ELIXIR DE VIDA ELIXIR FEME;antiedad;Collares;2;2018-03-02;0
+0005125;LABIAL ANTI-EDAD  ELIXIR DE VIDA ELIXIR ROSE;coral;Collares;4;2018-03-01;24.8
+0005126;LABIAL ANTI-EDAD ELIXIR DE VIDA LUJO ELIXIR;rojo;Collares;3;2018-02-05;24.8
+0005127;LABIAL ANTI-EDAD ELIXIR DE VIDA TERRA ELIXIR ;marron;Collares;2;2018-02-05;24.8
 0005133;TEMPTATION EAU DE PARFUM;flores exóticas y acentos exuberantes de rosa búlgara, gardenia y clavo de olor.;Collares;56;2018-03-01;11.3
 0005135;TEMPTATION COLOGNE FOR MEN;Menta, flor de naranja, sándalo.;Modeladoras;49;2018-03-01;36.3
 0005138;ACNI-DERM CREMA HIDRATANTE;Negro;Collares;11;2018-02-05;0
@@ -453,7 +455,7 @@
 0005146;BIO FRUIT PERA MANZANA FRESH COLOGNE;Aroma pera, manzana;Desodorantes;28;2018-02-05;0
 0005147;TITANIUM LIMPIADOR EXFOLIANTE;Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco;Desodorantes;9;2018-02-05;0
 0005148;TITANIUM POST AFEI LOCION ENER;Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco e hidratado;Desodorantes;54;2018-02-19;0.9
-0005149;TOTAL BLOCK SPF 100;Rostro y cuerpo triple defensa, hidratante con vitamina E;Desodorantes;1316;2018-03-02;22.64
+0005149;TOTAL BLOCK SPF 100;Rostro y cuerpo triple defensa, hidratante con vitamina E;Desodorantes;1336;2018-03-03;22.7
 0005150;TOTAL BLOCK ANTI EDAD MATT SPF50+ A/P;Rostro con extracto marino acabado mate;Desodorantes;331;2018-02-19;0
 0005151;ACNI-DERM LIMPIAD MASCARILLA EXFOLIANTE;con un complejo a base de Schinus Molle y Ácido Salicílico;Desodorantes;4;2018-02-22;0
 0005152;ACNI-DERM TONICO ASTRINGENTE;Ácido Salicilico: Exfoliante.;Desodorantes;5;2018-02-22;0
@@ -461,15 +463,15 @@
 0005154;BIO FRUIT ORIGINAL ACONDICIONADOR A/P;aroma a base de pomelo blanco, durazno y flor de algodón.;Desodorantes;25;2018-02-19;0
 0005155;BIO FRUIT ORIGINAL SHAMPOO A/P;aroma a base de base de pomelo blanco, durazno y flor de algodón.;Desodorantes;25;2018-02-19;0
 0005156;PERFECT TEN CORRECTOR ESMALTE;Negro;Collares;2;2018-02-05;0
-0005157;TITANIUM SHAMPOO;Potente activo que inhibe los microorganismos que producen la caspa y previenen su reaparición.;Collares;44;2018-02-19;0
+0005157;TITANIUM SHAMPOO;Potente activo que inhibe los microorganismos que producen la caspa y previenen su reaparición.;Collares;42;2018-03-02;0
 0005158;C/S COLOR EFFECT URBANA;Oscuros;Collares;1;2018-02-05;0
-0005161;Hydra-Lip Color Intenso Femme Rose;Negro;Collares;10;2018-02-01;0
+0005161; HYDRA-LIP LABIAL COLOR INTENSO FEMME ROSE;rosado;Collares;10;2018-02-01;16.3
 0011001;ZENTRO BLACK COLOGNE FOR MEN;Ámbar negro, tabaco, bergamota.;Collares;152;2018-02-22;0
-0011002;BODY SPA UÑA DE GATO SHAMPOO REPARADOR;ultra hidrante y reparacion para todo tipo de cabello;Collares;12;2018-03-01;15
-0011004;LESENCE BOUQUET ORIENTAL COLOGNE;Aroma  de pera, fressia y tonka.;Brillos;113;2018-02-19;0
-0011005;LESENCE FLORES & FRUTAS COL;Negro;Collares;180;2018-02-22;0
+0011002;BODY SPA UÑA DE GATO SHAMPOO REPARADOR;ultra hidrante y reparacion para todo tipo de cabello;Collares;37;2018-03-03;13.65
+0011004;LESENCE BOUQUET ORIENTAL COLOGNE;Aroma  de pera, fressia y tonka.;Brillos;112;2018-03-03;0
+0011005;LESENCE FLORES & FRUTAS COL;Negro;Collares;179;2018-03-03;0
 0011006;LESENCE FLORES DE CEREZO COLOGNE;Floral dulce con notas de magnolia, flor de cerezo y bambu;Collares;41;2018-02-20;0
-0011007;BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR;ultra hidratacion y reparacion para todo tipo de cabello;Collares;36;2018-03-01;3.82
+0011007;BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR;ultra hidratacion y reparacion para todo tipo de cabello;Collares;51;2018-03-03;6.52
 0011009;PD BAILAMOS EN RIO BODY LOTION;Fragancia fruta floral  Notas de mango y naranja tropical, con un toque cítrico;Collares;8;2018-02-05;0
 0011010;PD TE ESPERO EN  ESTAMBUL BODY LOTION;Aroma Oriental Floral con notas dulces de flor de manzana, rosa turca y vainilla;Collares;6;2018-02-05;0
 0011011;PD BESO DESDE VENECIA BODY LOTION;Aroma Floral maderoso con notas de bergamota italiana, almizcle e iris;Collares;2;2018-02-05;0
@@ -479,18 +481,16 @@
 0011017;TITANIUM DESODORANTE ANTITRANS;Negro;Collares;35;2018-03-01;0
 0011020;ULTRA DEFINITION DELINEADOR LIQUIDO OJOS AZUL METAL;PUNTA PLUMON EFECTO METALICO;Collares;2;2018-02-01;0
 0011024;ULTRA DEF DEL LAP OJO NEGRO AB;Negro;Collares;294;2018-03-02;0
-0011025;BIO EFFECTIVE DESODORANTE ORIGINAL;Blanco tapa blanco;Collares;84;2018-02-19;0
+0011025;BIO EFFECTIVE DESODORANTE ORIGINAL;Blanco tapa blanco;Collares;82;2018-03-03;0
 0011026;BIO EFFECTIVE DSEODORANTE GRANADA EXOTICA;Blanco tapa rosado;Collares;34;2018-02-05;0
 0011027;BIO EFFECTIVE DESODORANTE PERA MANZANA;Blanco tapa verde;Collares;69;2018-02-19;0
 0011028;BB CREAM MATT CREMA HIDRATANTE;Efecto perfeccionador MATIFICANTE Hidrata hasta por 24 horas, Protege del sol con SPF 25 y PA+++ ;Collares;99;2018-03-01;0
 0011029;PERFECT COVER CORRECTOR CLARO 1;Piel Clara;Collares;11;2018-03-01;0
-0011030;PERFECT COVER CORRECTOR MEDIANO 1;Piel mediana;Collares;10;2018-03-02;0
+0011030;PERFECT COVER CORRECTOR MEDIANO 1;Piel mediana;Collares;9;2018-03-03;0
 0011031;PERFECT COVER CORRECTOR MEDIANO 2;Piel Oscura;Collares;13;2018-02-28;0
 0011032;C/S COLOR EFFECT OCEANICA ULTRA;Lilas y Celestes;Collares;4;2018-02-01;0
-0011034;L/L HYDRA-LIP COL ESTRE COR FR;Negro;Collares;2;2018-02-05;0
-0011035;L/L HYDRA-LIP COL ROSA SIRENA FR;rosa claro;Collares;4;2018-02-05;0
-0011040;ESMALTE PERFECT TEN REFLEJOS MARINOS FR;celeste con escamas;Collares;5;2018-02-01;0
-0011041;ESMALTE PERFECT TEN ALGAS MARIN FR;verde claro con escamas;Collares;1;2018-02-05;0
+0011034; HYDRA-LIP LABIAL COLOR INTENSO ESTRELLA CORAL;coral ;Collares;2;2018-02-05;12
+0011035;HYDRA LIP LABIAL COLOR INTENSO ROSA SIRENA;rosa claro;Collares;4;2018-02-05;12
 0011046;Clic Rimel Negro;Negro;Collares;1;2018-02-01;0
 0011050;ESM PERFECT TEN AMANTES Y ENEM;Negro;Collares;9;2018-02-27;3.7
 0011053;ESM PERFECT TEN INSTINTO ANIMA;Negro;Collares;10;2018-02-05;0
@@ -500,13 +500,14 @@
 0011066;FORTE COLOGNE FOR MEN;Negro;Collares;6;2018-02-21;0
 0011071;PD ME QUEDO EN SANTORINI COLOGNE;Aroma Floral Fresco con notas de ambar marino limon griego y amapola blanca;Collares;45;2018-02-19;8.1
 0011072;ESM PERFECT TEN AMANT D MEDIAN;Negro;Collares;3;2018-02-05;0
-0011073;HYDRA LIP COLOR INTENSO MARSALA;vino oscuro;Collares;30;2018-02-01;0
+0011073;HYDRA LIP LABIAL COLOR INTENSO MARSALA;vino oscuro;Collares;30;2018-02-01;16.3
 0011075;Gaia Set Hydra Lip y Esmalte;Negro;Collares;2;2018-02-01;0
 0011076;Ccori Cristal Set Hydra-lip y Esmalte;Negro;Collares;2;2018-02-01;0
 0011077;Osadia Set Hydra Lip y Esmalte;Negro;Collares;1;2018-02-01;0
 0011078;Ccori Set Hydra Lip y Esmalte;Negro;Collares;1;2018-02-01;0
 0011083;BS KIDS COLONIA NIÑOS;Negro;Collares;39;2018-03-01;0
 0011084;BS KIDS COLONIA NIÑAS;Negro;Collares;102;2018-03-02;0
+0011085;ULTRA DEF DEL LARGA DURACION OJOS NEGRO;A prueba de agua;Collares;38;2018-03-02;0
 0011086;BS KIDS PITAHAYA SH Y ACON NIÑO;Aroma Citrico No lagrimas;Collares;37;2018-02-19;0
 0011087;BS KIDS PITAHAYA SHA Y ACON NIÑA;Aroma Frutal No lagrimas 2 en 1;Collares;52;2018-02-19;0
 0011088;TOTAL BLOCK KIDS SPF 70 A/P;Rostro y Cuerpo;Collares;56;2018-02-19;0
@@ -515,37 +516,37 @@
 0011091;TOTALIST CONCHA DE NACAR LIMPIADOR;propiedades aclarantes y antimanchas;Collares;14;2018-02-05;0
 0011092;TOTALIST ALOE VERA LIMPIADOR MULTIACCION;remover delicadamente las impurezas, grasitud y maquillaje;Collares;25;2018-02-05;0
 0011093;C/S COLOR EFFECT ETEREA;Rosado Lila Verde y Negro;Collares;6;2018-02-05;0
-0011097;HYDRA LIP COLOR INTENSO GUINDA DEL OESTE;GUINDA OSCURO;Collares;9;2018-02-01;0
-0011098;HYDRA LIP COLOR INTENSO COBRE DEL OESTE;COBRE;Collares;3;2018-02-01;0
-0011099;HYDRA LIP COLOR INTENSO ROJO DEL OESTE;rojo oscuro;Collares;6;2018-02-01;0
+0011097;HYDRA LIP LABIAL COLOR INTENSO  GUINDA DEL OESTE;GUINDA OSCURO;Collares;9;2018-02-01;16.3
+0011098;HYDRA LIP LABIAL COLOR INTENSO COBRE DEL OESTE;COBRE;Collares;3;2018-02-01;12
+0011099;HYDRA LIP LABIAL COLOR INTENSO  ROJO DEL OESTE;rojo oscuro;Collares;6;2018-02-01;16.3
 0011110;PERFECT TEN FORTALECEDOR UÑAS;Negro;Collares;3;2018-02-05;0
 0011111;PERFECT TEN BRI SECAN&PROT ESM;Negro;Collares;9;2018-03-01;0
-0011112;ULTRA DEF DEL LARGA DURACION OJOS MARRON;A prubea de agua;Collares;20;2018-02-22;0
+0011112;ULTRA DEF DEL LARGA DURACION OJOS MARRON;A prubea de agua;Collares;19;2018-03-03;0
 0011114;ULTRA DEF DEL LIQ PLU MARR FRO;Negro;Collares;1;2018-02-05;0
 0011117;C/S COLOR RETRO CHIC;Colores negros y celestes;Collares;2;2018-02-01;0
-0011119;ESMALTE PERFECT TEN PSICODELICO;dorado con escarche;Collares;4;2018-02-01;0
+0011119;ESMALTE PERFECT TEN PSICODELICO;dorado con escarche;Collares;4;2018-02-01;8
 0011122;Perfect Ten Sudio 54;Negro;Collares;9;2018-02-01;0
-0011123;HYDRA LIP COLOR INTENSO ROSA  SOFT;rosado;Collares;10;2018-02-01;0
-0011124;L/L HYDRA-LIP COLOR ROSE CORAL;rosado / coral;Collares;6;2018-02-05;0
-0011125;L/L HYDRA-LIP COLOR ROJO ABBA;Rojo vivo;Collares;5;2018-02-05;0
-0011126;L/L HYDRA-LIP COLOR ROJO DISCO;Rojo ;Collares;5;2018-02-05;0
+0011123;HYDRA LIP LABIAL COLOR INTENSO  ROSA  SOFT;rosado;Collares;10;2018-02-01;16.3
+0011124; HYDRA-LIP LABIAL COLOR INTENSO ROSE CORAL;rosado / coral;Collares;6;2018-02-05;16.3
+0011125;HYDRA LIP LABIAL COLOR INTENSO  ROJO ABBA;Rojo vivo;Collares;5;2018-02-05;18.2
+0011126;HYDRA LIP LABIAL COLOR INTENSO  ROJO DISCO;Rojo ;Collares;5;2018-02-05;16.3
 0011127;PD ME QUEDO EN SANTORINI BODY LOTION;Aroma Floral Fresco con notas de ambar marino limon griego y amapola blanca;Collares;1;2018-02-05;0
-0011129;HYDRA LIP COLOR INTENSO ROSA LIGHT;Rosado;Collares;5;2018-02-01;0
+0011129;HYDRA LIP LABIAL COLOR INTENSO  ROSA LIGHT;Rosado;Collares;5;2018-02-01;16.3
 0011130;Hydra-Lip Color Intenso Mitica;Negro;Collares;8;2018-02-01;0
 0011131;GAIA EAU DE PARFUM EDICION LIMITADA;Con notas de jacarandá, magnolia y orquídea;Collares;41;2018-02-19;0
 0011132;ACENTO INTENSE EAU DE PARFUM;Negro;Collares;14;2018-02-19;0
-0011139;L/L HYDRA-LIP LD AMOR CHOCOLAT MY;Negro;Collares;8;2018-02-05;0
-0011140;L/L HYDRA-LIP LD ROSA SUEÑOS MY;rosa;Collares;1;2018-02-05;0
-0011141;L/L HYDRA-LIP LD BESO GITANO ;cafe claro ;Collares;5;2018-02-15;4.4
-0011142;L/L HYDRA-LIP LD ROJO INTENSO MY;rojo;Collares;3;2018-02-05;0
-0011144;Hydra-Lip Color Intenso Kaki;Negro;Collares;15;2018-02-01;0
-0011146;L/L HYDRA-LIP COLOR ROJO SALVAJE;rojo;Collares;2;2018-02-05;0
-0011148;HYDRA-LIP LABIAL COLOR INTENSO REINO CORAL;coral;Collares;2;2018-02-05;0
-0011150;L/L HYDRA-LIP COLOR ROJO ZEN;rojo oscuro;Collares;1;2018-02-05;0
+0011139;HYDRA-LIP LARGA DURACION A/P  AMOR DE  CHOCOLATE;marron;Collares;8;2018-02-05;19
+0011140;HYDRA-LIP LARGA DURACION ROSA DE MIS SUEÑOS ;Rosado nacarado;Collares;1;2018-02-05;19
+0011141;HYDRA-LIP LARGA DURACION BESO GITANO ;cafe claro ;Collares;5;2018-02-15;19
+0011142;HYDRA-LIP LARGA DURACION ROJO INTENSO ;rojo;Collares;3;2018-02-05;19
+0011144;Hydra-Lip Color Intenso Kaki;Negro;Collares;14;2018-03-03;25
+0011146; HYDRA-LIP LABIAL COLOR INTENSO ROJO SALVAJE;rojo;Collares;2;2018-02-05;18.2
+0011148;HYDRA LIP LABIAL COLOR INTENSO  REINO CORAL;coral;Collares;2;2018-02-05;0
+0011150; HYDRA-LIP LABIAL COLOR INTENSO ROJO ZEN;rojo oscuro;Collares;1;2018-02-05;16.3
 0011151;C/S COLOR EFFECT JUNGLARIA;Verdes y Naranjas;Collares;7;2018-02-05;0
 0011152;C/S COLOR EFFECT SAKURA;Morados y Rosados;Collares;2;2018-02-05;0
-0011163;L/L HYDRA-LIP FLOR CEREZO;rosada mediano;Collares;6;2018-02-05;0
-0011164;L/LIQ HYDRA-LIP MORA CALMA;morado claro;Collares;9;2018-02-05;0
+0011163;HYDRA-LIP LABIAL LIQUIDO FLOR CEREZO;rosada mediano;Collares;6;2018-02-05;18.2
+0011164;HYDRA-LIP LABIAL LIQUIDO MORA CALMA;morado claro;Collares;9;2018-02-05;18.2
 0011180;SENTIVA EXFOLIANTE FACIAL;Accion energizante;Collares;5;2018-02-28;4.6
 0011183;ULTRA DEFINITION DEL LABIOS ALMENDRA;Labios Almendra;Collares;1;2018-02-01;0
 0011196;TOTAL BLOCK REPELENTE SPF 30 A/P;Doble proteccion rostro y cuerpo , todo tipo de piel;Collares;15;2018-02-05;0
@@ -561,7 +562,7 @@
 0011213;ULTRA DEF DEL LAP OJO MARRON;Negro;Collares;12;2018-03-01;0
 0011215;ULTRA DEF DELINEADOR LAPIZ OJO AZUL NOCHE;Azul Noche;Collares;19;2018-02-21;0
 0011216;ULTRA DEF DEL LAP INT OJ PERLA;Negro;Collares;4;2018-02-05;0
-0011218;ULTRA DEF DELiNEADOR CEJAS MARRON MED;Cejas;Collares;14;2018-03-01;0
+0011218;ULTRA DEF DELiNEADOR CEJAS MARRON MED;Cejas;Collares;12;2018-03-03;0
 0011219;ULTRA DEF DEL LAB ROJO ENCENDI;Negro;Collares;32;2018-02-26;0
 0011222;ULTRA DEF DEL LAB TOFFEE IMPER;Negro;Collares;120;2018-02-26;0
 0011224;ULTRA DEF DEL LAB CHOCOLATE;Negro;Collares;43;2018-02-28;0
@@ -581,17 +582,17 @@
 0011248;BIO FRUIT SHAMPOO Y ACONDICIONADOR GRANADA EXOTICA 350 ML.;aroma de la granada que además, ofrece su poder antioxidante tapa plana;Collares;8;2018-02-01;0
 0011249;BIO FRUIT  ORIGINALSHAMPOO  350 ML ;aroma a base de base de pomelo blanco, durazno y flor de algodón.;Collares;34;2018-02-19;0
 0011250;BIO FRUIT ORIGINAL ACONDICIONADOR 350 ML.;aroma a base de pomelo blanco, durazno y flor de algodón.;Collares;1;2018-02-19;0
-0011251;ULTRA DEFINITION  PLUMON OJOS NEGRO;Trazo preciso delineado delgado y grueso;Collares;32;2018-03-02;0
+0011251;ULTRA DEFINITION  PLUMON OJOS NEGRO;Trazo preciso delineado delgado y grueso;Collares;32;2018-03-03;0
 0011252;ULTRA DEF DEL PLUM OJOS MARRON;Negro;Collares;1;2018-02-05;0
 0011253;ULTRA DEF DEL PLUM OJOS AZUL;Negro;Collares;2;2018-02-05;0
 0011254;Y. LABIAL PINK CORAL;coral;Collares;3;2018-03-01;0
 0011260;SOY DULCE FRESH COLOGNE;Frambuesa azucarada, madera blanca, vainilla.;Collares;2;2018-03-01;0
 0011261;SOY FASHION FRESH COLOGNE;Litchi dulce, chocolate blanco, almizcle delicado.;Collares;19;2018-02-23;0
 0011262;SOY SEXY FRESH COLOGNE;Nerolí, sándalo sensual, almizcle de piel.;Collares;19;2018-02-26;0
-0011263;Y. RIMEL NEGRO;Negro;Collares;4;2018-02-24;0
+0011263;Y. RIMEL NEGRO;Negro;Collares;3;2018-03-03;0
 0011266;EXTRACTO DIVINO CONCENTRADO;Una fórmula revolucionaria con todo el poder antiedad del Extracto de Cáliz de Uchuva;Collares;129;2018-02-19;0
-0011268;L/L HYDRA-LIP CRAYON FUCS ORIE;Negro;Collares;2;2018-02-05;0
-0011269;L/L HYDRA-LIP CRAYON LILA ASIATICO;Lila;Collares;2;2018-02-05;0
+0011268;HYDRA-LIP CRAYON SEMI MATE FUCSIA ORIENTAL;fucsia;Collares;2;2018-02-05;22.5
+0011269; HYDRA-LIP CRAYON SEMI MATE LILA ASIATICO;Lila;Collares;2;2018-02-05;22.5
 0011272;SENTIVA MASCARILLA FACIAL;Accion purificante;Collares;9;2018-03-01;0
 0011273;LOCION DE SEDA;Negro;Collares;27;2018-02-26;0
 0011274;LOCION DE SEDA DIAMANTES;Hidrata y perfuma;Collares;4;2018-02-23;0
@@ -602,42 +603,44 @@
 0011282;Y. LABIAL FUCSIA POP;fucsia;Collares;10;2018-02-20;3.9
 0011283;Y. LABIAL NARANJA FUN;Naranja;Collares;5;2018-02-05;0
 0011284;Y. LABIAL ROSA LOVE;rosado;Collares;1;2018-03-02;0
-0011285;Y. LABIAL FEMME NACAR;Nude ;Collares;4;2018-02-05;0
+0011285;Y. LABIAL FEMME NACAR;Nude ;Collares;5;2018-03-03;2.59
 0011286;Y. LABIAL MALVA SPIRIT;cafe claro;Collares;5;2018-02-05;0
 0011287;Y. LABIAL ROJO FASHION;rojo;Collares;4;2018-02-05;0
 0011288;Y. LABIAL TERRA MYSTIC;cafe;Collares;5;2018-02-05;0
-0011289;BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS;Hidrata y repara la piel seca y extra seca.;Collares;194;2018-03-01;0.6
+0011289;BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS;Hidrata y repara la piel seca y extra seca.;Collares;205;2018-03-03;1.33
 0011290;BODY SPA UÑA DE GATO CREMA REPARADORA;Repara e hidrata la piel.;Perfumería Dama;6;2018-02-20;6.6
 0011291;BODY SPA UÑA DE GATO EXFOLIANTE EN GEL PARA MANOS Y CUERPO ;Exfolia la piel seca y extra seca.;Perfumería Dama;9;2018-02-19;0
-0011292;BODY SPA QUINUA CREMA MANOS;delicioso aroma a vainilla y canela.;Perfumería Dama;55;2018-03-01;2.11
+0011292;BODY SPA QUINUA CREMA MANOS;delicioso aroma a vainilla y canela.;Perfumería Dama;59;2018-03-03;2.85
 0011293;BODY SPA QUINUA CREMA CUERPO;extracto natural de quinua, glicerina, manteca de karité y canela.;Perfumería Dama;58;2018-02-19;23.3
 0011301;MUSK BLANC EAU DE PARFUM;Almizcle, ylang ylang, lila.;Perfumería Dama;31;2018-03-01;11.41
-0011302;LIBERATTA NOIRE PARFUM;floral memorable y cautivador con notas de encaje de iris blanca y vainilla;Perfumería Dama;101;2018-02-27;0.74
+0011302;LIBERATTA NOIRE PARFUM;floral memorable y cautivador con notas de encaje de iris blanca y vainilla;Perfumería Dama;109;2018-03-03;3.39
 0011304;INDOMITO COLOGNE FOR MEN;Madera de oud, timur de Nepal y sándalo.;Perfumería Dama;39;2018-02-19;0
-0011305;VIVO TERRA COLOGNE fOR MEN;notas maderosas de ruibarbo, eucalipto y cedro rojo.;Perfumería Dama;1;2018-03-02;0
-0011306;VIVO HERVE COLOGNE fOR MEN;aroma herbal y notas de estragón, lavanda y madera de gaiac.;Perfumería Dama;3;2018-02-28;7.67
-0011307;VIVO AQUA COLOGNE FOR MEN;FRESCURA CON ACORDES MARINOS;Perfumería Dama;1;2018-02-27;0
+0011305;VIVO TERRA COLOGNE fOR MEN;notas maderosas de ruibarbo, eucalipto y cedro rojo.;Perfumería Dama;4;2018-03-03;0
+0011306;VIVO HERVE COLOGNE fOR MEN;aroma herbal y notas de estragón, lavanda y madera de gaiac.;Perfumería Dama;5;2018-03-03;19.94
+0011307;VIVO AQUA COLOGNE FOR MEN;FRESCURA CON ACORDES MARINOS;Perfumería Dama;8;2018-03-03;33.56
 0011308;C/S COLOR EFFECT HABANA;Azules y Verdes;Perfumería Dama;11;2018-02-05;0
 0011315;L/L HYDRA-LIP COL CORA CAR FR;Negro;Collares;12;2018-02-05;0
-0011316;L/L HYDRA-LIP COLOR TROPIC FR;Negro;Collares;5;2018-02-05;0
-0011317;L/L HYDRA-LIP COL HABANERA FR;coral - fucsia;Collares;3;2018-02-05;0
-0011318;L/ HYDRA-LIP VARADERO LOV;rojo claro;Collares;7;2018-02-05;0
-0011319;L/L HYDRA-LIP AZUUUCAR;marfil claro;Collares;2;2018-02-05;0
-0011326;L/L HYDRA-LIP LD SUEÑO D BRONC;Negro;Collares;11;2018-02-05;0
+0011316; HYDRA-LIP LABIAL COLOR INTENSO TROPICANA;tropical;Collares;5;2018-02-05;12
+0011317; HYDRA-LIP LABIAL COLOR INTENSO HABANERA;coral - fucsia;Collares;3;2018-02-05;16.3
+0011318;HYDRA-LIP LABIAL LIQUIDO VARADERO LOVE;rojo claro;Collares;7;2018-02-05;18.2
+0011319;HYDRA-LIP LABIAL LIQUIDO AZUUUCAR;marfil claro;Collares;2;2018-02-05;18.2
+0011326;HYDRA-LIP LARGA DURACION SUEÑO DE BRONCE;bronce;Collares;11;2018-02-05;19
 0011327;L/L HYDRA-LIP LD ROJO CARAMEL0;rojo;Collares;8;2018-02-05;0
-0011328;L/L HYDRA-LIP LD FIESTA PURPURA;lila oscuro;Collares;2;2018-02-01;0
-0011329;L/L HYDRA LIP LARGA DURACION ROSA FESTIVA;Rosado oscuro;Collares;1;2018-02-01;0
-0011330;L/L HYDRA-LIP LD FUCSIA ENCENDIDO;fucsia;Collares;6;2018-02-01;0
-0011331;UNIQUECIL RIMEL NEGRO;A prueba de agua;Collares;46;2018-03-01;0
-0011333;UNIQUECIL RIMEL EXTRA XL NEGRO;A prueba de agua;Collares;34;2018-03-02;0
+0011328;HYDRA-LIP LARGA DURACION FIESTA PURPURA;lila oscuro;Collares;2;2018-02-01;19
+0011329;HYDRA LIP LARGA DURACION ROSA FESTIVA;Rosado oscuro;Collares;1;2018-02-01;19
+0011330;HYDRA-LIP LARGA DURACION FUCSIA ENCENDIDO;fucsia;Collares;6;2018-02-01;19
+0011331;UNIQUECIL RIMEL NEGRO;A prueba de agua;Collares;45;2018-03-03;0
+0011333;UNIQUECIL RIMEL EXTRA XL NEGRO;A prueba de agua;Collares;33;2018-03-02;0
+0011334;CRECE EXTREME RIMEL ACELERADOR MY;Negro;Collares;18;2018-03-03;17.69
+0011337;MUSK EAU DE PARFUM;Almizcle, ylang ylang, lila.;Collares;4;2018-03-03;39
 0011341;Y. BRILLO LABIAL ROJO STOP;rojo claro;Collares;2;2018-02-05;0
 0011342;Y. BRILLO LABIAL FUCSIA KISS;fucsia nacarado;Collares;2;2018-02-05;0
 0011343;Y. BRILLO LABIAL ROSA CHIC;rosa nacarado;Collares;2;2018-02-05;0
 0011344;Y. BRILLO LABIAL ROSALICIOUS;rosa brillante;Collares;1;2018-02-05;0
 0011345;Y. BRILLO LABIAL LOVELY CORAL;coral claro;Collares;3;2018-02-05;0
-0011352;L/L HYDRA-LIP COLOR FUTUR RED;Negro;Collares;2;2018-02-05;0
-0011355;L/L HYDRA-LIP COL PSICODE FUCS;Negro;Collares;3;2018-02-05;0
-0011356;L/L HYDRA-LIP COLOR GEOMETRIC ROSE;rosa claro;Collares;11;2018-02-05;0
+0011352; HYDRA-LIP LABIAL COLOR INTENSO FUTURISTIC RED;rojo;Collares;2;2018-02-05;16.3
+0011355; HYDRA-LIP LABIAL COLOR INTENSO PSICODELIC  FUCSIA;FUCSIA;Collares;3;2018-02-05;16.3
+0011356;HYDRA LIP LABIAL COLOR INTENSO  GEOMETRIC ROSE;rosa claro;Collares;11;2018-02-05;18.2
 0011362;MUSK COLOGNE FOR MEN;mezcla oriental de toronja, clavo de olor y almizcle.;Collares;65;2018-02-22;2.9
 0011363;BIO MILK CREMA MANGO MARAC;Negro;Collares;44;2018-03-02;0
 0011365;BIO FRUIT 2EN1 MANGO MARACUYA;aroma cítrico y tropical del mango y el maracuyá, que además, brinda nutrición y fortaleza ;Collares;47;2018-02-22;0
@@ -647,22 +650,22 @@
 0011376;L/L HYDRA-LIP COL FUC PELI ANV;Negro;Collares;1;2018-02-05;0
 0011378;L/L HYDRA-LIP COL BAILE  ROSA ANIVERSARIO;rosado nacarado;Collares;2;2018-02-05;0
 0011379;ULTRA DEF DELINEADOR BISELADO OJOS NEGRO;Plumon punta biselada;Collares;5;2018-02-05;0
-0011380;C/S COLOR EFFECT FUROR AZUL;Azules;Collares;5;2018-02-05;0
+0011380;C/S COLOR EFFECT FUROR AZUL;Azules;Collares;4;2018-03-03;0
 0011381;C/S COLOR EFFECT ROMANCE;Rosados;Collares;7;2018-02-05;0
-0011382;L/L HYDRA-LIP COLOR VINO REAL;Vino;Collares;2;2018-02-05;0
-0011383;L/L HYDRA-LIP COLOR BESO FRAMBUESA;Rojo- fucsia;Collares;48;2018-02-05;0
+0011382; HYDRA-LIP LABIAL COLOR INTENSO VINO REAL;Vino;Collares;2;2018-02-05;16.3
+0011383;HYDRA LIP LABIAL COLOR INTENSO  BESO FRAMBUESA;Rojo- fucsia;Collares;48;2018-02-05;18.2
 0011384;L/L HYDRA-LIP COLOR SUEÑO ROSE;rosa nacarado;Collares;51;2018-02-05;0
-0011385;L/L HYDRA-LIP COLOR CLARO ROMANCE;rosa;Collares;5;2018-02-05;0
-0011386;L/L HYDRA-LIP COLOR DULCE ROSA;Rosado;Collares;3;2018-02-05;0
+0011385;HYDRA LIP LABIAL COLOR INTENSO  CLARO ROMANCE;rosa;Collares;5;2018-02-05;18.2
+0011386; HYDRA-LIP LABIAL COLOR INTENSO DULCE ROSA;Rosado;Collares;3;2018-02-05;16.3
 0011393;RUBOR EN CREMA Y. ROSADO;Rosado fuerte;Collares;3;2018-02-05;0
 0011394;RUBOR EN CREMA Y. BRONZE;Bronce metalico;Collares;3;2018-02-05;0
-0011395;RUBOR EN CREMA Y. CORAL;coral;Collares;2;2018-02-05;0
+0011395;RUBOR EN CREMA Y. CORAL;coral;Collares;2;2018-03-03;9.07
 0011400;PD I LOVE NEW YORK COLOGNE;Aroma Floral Frutal con notas de mandarina vibrante hortensias y alamo urbano ;Collares;79;2018-02-20;0.3
 0011402;OHM COLOGNE SPRAY ANIVERSARIO;Salvia, toronja, lavanda.;Collares;49;2018-02-19;0
-0011404;B/L HYDRA-LIP ROSA DIAMANTE;rosado claro;Collares;15;2018-02-05;0
+0011404;HYDRA-LIP BRILLO LABIAL ROSA DIAMANTE;rosado claro;Collares;15;2018-02-05;18.2
 0011405;C/S COLOR EFFECT TERRANOVA;Colores Terra;Collares;9;2018-02-05;0
-0011406;L/L HYDRA-LIP COLOR VINO SILVESTRE;Vino;Collares;4;2018-02-05;0
-0011407;L/L HYDRA-LIP COLOR ROJO AFRICA;rojo;Collares;5;2018-02-05;0
+0011406; HYDRA-LIP LABIAL COLOR INTENSO VINO SILVESTRE;Vino;Collares;4;2018-02-05;16.3
+0011407;HYDRA LIP LABIAL COLOR INTENSO ROJO AFRICA;rojo;Collares;5;2018-02-05;16.3
 0011415;BIO FRUIT COCO CARIB SHAM & ACON;aroma tropical del coco que además, brinda ultra hidratación;Collares;56;2018-02-19;0
 0011416;BIO FRUIT PERA MANZANA SHAM & ACON; ;Collares;58;2018-02-19;0
 0011417;BIO FRUIT GRANADA SHAM & ACON;aroma de la granada que además, ofrece su poder antioxidante;Collares;55;2018-02-22;0
@@ -672,21 +675,20 @@
 0011422;BIO FRUIT ORIGINAL ACONDICIONADOR;aroma a base de pomelo blanco, durazno y flor de algodón.;Collares;30;2018-02-22;0
 0011426;SOY FELIZ FRESH COLOGNE;Flor de guayaba, dulce azucena, corteza de maracaibo.;Collares;14;2018-03-01;0
 0011427;ELIXIR DE VIDA ROSTRO ANIVERSARIO;Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol;Collares;197;2018-02-20;0
-0011429;L/L HYDRA-LIP CRAY MARRON TERR MY;Negro;Collares;2;2018-02-05;0
-0011430;L/L HYDRA-LIP CRAY ROJO SAFARI MY;rojo oscuro;Collares;4;2018-02-05;0
-0011432;L/L HYDRA-LIP LD CORAL ENCENDIDO MY;coral intenso;Collares;3;2018-02-05;0
-0011433;L/L HYDRA-LIP LD FUEGO ELEMENT MY;Negro;Collares;1;2018-02-28;18.9
-0011434;L/L HYDRA-LIP LD ROJO SILVESTR MY;Negro;Collares;2;2018-02-05;0
-0011435;L/L HYDRA-LIP LD TIERRA FUEGO MY;Negro;Collares;4;2018-02-05;0
-0011436;L/L HYDRA-LIP LD TIERRA MISTIC MY;Negro;Collares;8;2018-02-05;0
-0011437;L/L HYDRA-LIP CRAY PIEL CORAL MY;piel;Collares;3;2018-02-05;0
+0011429;HYDRA-LIP CRAYON SEMI MATE MARRON TERRA;cafe;Collares;2;2018-02-05;22.5
+0011430;HYDRA-LIP CRAYON SEMI MATE ROJO SAFARI ;rojo oscuro;Collares;4;2018-02-05;22.5
+0011432;HYDRA-LIP LARGA DURACION CORAL ENCENDIDO MY;coral intenso;Collares;3;2018-02-05;19
+0011434; HYDRA-LIP LARGA DURACION ROJO SILVESTRE;rojo;Collares;2;2018-02-05;19
+0011435; HYDRA-LIP LARGA DURACION TIERRA DE FUEGO ;marron ladrillo;Collares;4;2018-02-05;19
+0011436;HYDRA-LIP LARGA DURACION TIERRA MISTICA;Cafe ;Collares;8;2018-02-05;19
+0011437;HYDRA-LIP CRAYON SEMI MATE PIEL CORAL ;piel;Collares;3;2018-02-05;22.5
 0011440;C/S COLOR EFFECT INDUSTRIAL;Oscuros;Collares;6;2018-02-05;0
-0011447;L/L HYDRA-LIP COLO COBRE GLAMOUR;cobre oscuro;Collares;33;2018-02-05;0
-0011448;L/L HYDRA-LIP COL MARRON INDUSTRIAL;MARRON ;Collares;50;2018-03-01;0
-0011449;L/L HYDRA-LIP COLO DORADO D GA;Negro;Collares;16;2018-02-05;0
-0011450;L/L HYDRA-LIP COLOR ROSA GALACTICO;rosado fuerte;Collares;26;2018-02-05;0
-0011451;L/L HYDRA-LIP COLOR ROSADO ACERO;rosa color intenso;Collares;20;2018-02-05;0
-0011452;B/L HYDRA-LIP BRILLANTINA;trnasparente;Collares;5;2018-02-23;0
+0011447;HYDRA-LIP LABIAL COLOR INTENSO COBRE GLAMOUR;cobre oscuro;Collares;33;2018-02-05;18.2
+0011448;HYDRA LIP LABIAL COLOR INTENSO MARRON INDUSTRIAL;MARRON ;Collares;50;2018-03-01;18.2
+0011449;HYDRA-LIP LABIAL COLOR INTENSO COLO DORADO DE GALA;Dorado;Collares;16;2018-02-05;12
+0011450;HYDRA LIP LABIAL COLOR INTENSO ROSA GALACTICO;rosado fuerte;Collares;25;2018-03-03;18.2
+0011451; HYDRA-LIP LABIAL COLOR INTENSO ROSADO ACERO;rosa color intenso;Collares;20;2018-02-05;18.2
+0011452;HYDRA-LIP BRILLO LABIAL BRILLANTINA;transparente;Collares;5;2018-02-23;18.2
 0011459;C/S COLOR EFFECT DELUXE;Enpaque dorado;Collares;1;2018-02-05;0
 0011460;CCORI LE PARFUM ANV;Negro;Collares;6;2018-02-05;0
 0011461;BODY SPA BABY COLONIA;Aceite de Algodon, con aguas florales 100% naturales;Collares;34;2018-03-01;0
@@ -694,38 +696,40 @@
 0011464;POLVO COMPACTO Y. NUDE;Nude;Collares;9;2018-02-26;0
 0011465;POLVOS COMPACTOS Y. BEIGE;Beige;Collares;3;2018-02-22;0
 0011471;SENTIVA BB CREAM;Negro;Collares;47;2018-03-01;0
-0011474;L/L HYDRA-LIP CRAY RED ELEGANC MY;Negro;Collares;24;2018-02-20;2.5
-0011475;HYDRA-LIP LABIAL CRAYÓN SEMI-MATE FUCSIA GLAMOUR ;No necesita tajarse.;Collares;1;2018-02-28;20.2
+0011474;L/L HYDRA-LIP CRAY RED ELEGANC MY;Negro;Collares;23;2018-03-03;2.5
 0011476;L/L HYDRA-LIP CRAY ALMEND CHIC MY;Negro;Collares;40;2018-02-05;0
 0011478;L/L HYDRA-LIP CRAY LIL ASIATIC MY;Negro;Collares;4;2018-02-20;10.1
-0011486;BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA;Extracto de quinua;Collares;62;2018-03-01;17.4
+0011486;BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA;Extracto de quinua;Collares;62;2018-03-03;17.43
 0011487;EAU DE SEDA EAU DE PARFUM ANIVERSARIO;Flor de seda, durazno y mimosa sensual.;Collares;2;2018-02-05;0
 0011490;Lesence Orquídeas Exóticas Cologne;Negro;Collares;61;2018-03-01;18.3
-0011493;Elixir de Vida Polvos Compactos Anti-edad Mediano 1;Piel Mediana;Collares;3;2018-03-01;0
+0011492;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA CLARO 1;Efecto juventud inmediata accion antiedad con el uso continuo;Collares;3;2018-03-03;40.3
+0011493;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1;Piel Mediana;Collares;6;2018-03-03;20.15
+0011494;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 2;Efecto juventud inmediata, Accion antiedad con el uso continuo;Collares;3;2018-03-03;40.3
 0011501;BIO MILK CREMA HIDRATANTE ORIGINAL  EDICION NAVIDAD;aroma a base de pomelo blanco, durazno y flor de algodón que hidrata, suaviza y nutre;Collares;2;2018-02-05;0
-0011503;L/L HYDRA-LIP LD AMOR PICANTE MY;rojo oscuro;Collares;4;2018-02-05;0
-0011506;L/L HYDRA-LIP LD AMOR CHOCOLAT MY;Negro;Collares;18;2018-02-05;0
+0011503; HYDRA-LIP LARGA DURACION AMOR PICANTE ;rojo oscuro;Collares;8;2018-03-03;18.93
+0011506; HYDRA-LIP LARGA DURACION AMOR DE CHOCOLATE;marron;Collares;18;2018-02-05;19
+0011510; HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY;fucsia;Collares;4;2018-03-03;18.85
 0011512;O/S COLOR EFFECT DIVINA BLUE;Azules;Collares;1;2018-02-05;0
 0011514;TOTAL BLOCK KIDS SPF 70;Rostro y Cuerpo;Collares;17;2018-02-20;11.5
-0011516;TOTAL BLOCK ANTI EDAD MATT SPF50+;Rostro con extracto marino acabado mate;Collares;11;2018-03-01;16.1
+0011516;TOTAL BLOCK ANTI EDAD MATT SPF50+;Rostro con extracto marino acabado mate;Collares;9;2018-03-03;16.1
 0011517;CONTROL BLANC RX DIA;Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ;Collares;229;2018-03-02;0
-0011536;L/L HYDRA-LIP COLOR ROSA TOSCANA;palo de rosa claro;Collares;9;2018-02-05;0
-0011543;L/L HYDRA-LIP LD CIRUELA LOVE;guinda claro;Collares;12;2018-02-05;0
-0011545;L/L HYDRA-LIP LD RED SHINE;Cafe claro;Collares;10;2018-02-05;0
-0011546;L/L HYDRA-LIP LD FUCSIA SHOCK;fucsia;Collares;9;2018-02-05;0
+0011536;HYDRA LIP COLOR INTENSO ROSA TOSCANA;palo de rosa claro;Collares;9;2018-02-05;16.3
+0011543;HYDRA-LIP LARGA DURACION CIRUELA LOVE;guinda claro;Collares;12;2018-02-05;19
+0011545;HYDRA-LIP LARGA DURACION RED SHINE;Cafe claro;Collares;10;2018-02-05;19
+0011546; HYDRA-LIP LARGA DURACION FUCSIA SHOCK;fucsia;Collares;9;2018-02-05;19
 0011547;LIBERATTA CREMA PERFUM ;hidrata y perfuma;Collares;2;2018-02-05;0
 0011548;LIBERATTA NOIRE CREMA PERFUM ;hidrata y perfuma;Collares;9;2018-02-01;0
-0011554;Perfect Ten Art Sky ;Negro;Collares;1;2018-02-01;0
+0011554;Perfect Ten Art Sky ;Negro;Collares;4;2018-03-03;8.29
 0011557;C/S COLOR EFFECT ARTY FEMME;Corales y azules;Collares;4;2018-02-01;0
-0011558;HYDRA LIP COLOR INTENSO VIVID FUCSIA;fucsia;Collares;4;2018-02-20;9.1
-0011559;HIDRA LIP COLOR INTENSO AQUARELLA ROSE;rosado;Collares;6;2018-02-27;12.1
-0011560;HYDRA LIP ARTY PINK;rosa color intenso;Collares;5;2018-02-22;15.2
-0011561;HYDRA LIP COLOR INTENSO CORAL ART;coral;Collares;4;2018-02-20;9.1
-0011562;HYDRA LIP COLOR INTENSO ROJO PALLETE;rojo;Collares;6;2018-02-20;15.2
-0011566;Ultra Definition Delineador en lapiz para Ojos Graffino;Doble punta azul y plomo oscuro;Collares;5;2018-02-28;10.52
-0011573;RUBOR COLOR EFFECT ILUMINART;Todo tipo de piel;Collares;5;2018-02-20;10
+0011558;HYDRA LIP LABIAL COLOR INTENSO  VIVID FUCSIA;fucsia;Collares;4;2018-02-20;18.2
+0011559;HYDRA LIP LABIAL COLOR INTENSO  AQUARELLA ROSE;rosado;Collares;6;2018-02-27;18.2
+0011560;HYDRA LIP ARTY PINK;rosa color intenso;Collares;6;2018-03-03;15.7
+0011561;HYDRA LIP LABIAL COLOR INTENSO  CORAL ART;coral;Collares;4;2018-02-20;18.2
+0011562;HYDRA LIP LABIAL COLOR INTENSO  ROJO PALLETE;rojo;Collares;6;2018-02-20;18.2
+0011566;Ultra Definition Delineador en lapiz para Ojos Graffino;Doble punta azul y plomo oscuro;Collares;10;2018-03-03;14.73
+0011573;RUBOR COLOR EFFECT ILUMINART;Todo tipo de piel;Collares;9;2018-03-03;18.84
 0011580;TOTAL BLOCK REPELENTE SPF 50 ;Doble proteccion rostro y cuerpo , todo tipo de piel;Collares;12;2018-03-02;20.6
-0011581;SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS;A prueba de agua y larga duracion;Collares;11;2018-03-01;11.7
+0011581;SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS;A prueba de agua y larga duracion;Collares;24;2018-03-03;14.52
 0011639;O/S COLOR EFFECT GOLDEN PARTY;Negros y Cafes nacarados;Collares;14;2018-02-05;0
 0011678;Perfect Ten Salvaje;Negro;Collares;4;2018-02-27;5.59
 0011822;TE DESEO EXITO POR SIEMPRE COLOGNE;Floral Frutal con notas de melon, jazmin y cedro;Collares;14;2018-02-05;0
@@ -746,7 +750,7 @@
 2353518;U/S COLOR EFFECT HABANO CENIZO;Cenizo;Collares;2;2018-02-05;0
 2364181;ELIXIR DE VIDA COMPLEJO RECONSTITUYENTE 6.5g. ;Resveratrol, que activa las Sirtuínas conocidas como las proteínas de juventud,;Collares;11;2018-02-01;0
 2364623;TAJADOR CORPORATIVO;Negro;Collares;75;2018-02-05;0
-2366120;Rodillo Masajeador Top Modeling;Negro;Collares;1;2018-02-01;0
+2366120;Rodillo Masajeador Top Modeling;Negro;Collares;1;2018-02-01;16.9
 2366816;Alto Contraste Lima de Uñas;Negro;Collares;1;2018-02-01;0
 2367378;Set de Belleza Zenya Rostro Manos y Pies;Negro;Collares;1;2018-02-01;0
 2367723;Porta Cuartetos de Sombras;Negro;Collares;8;2018-02-01;0
@@ -756,6 +760,8 @@
 2368780;Prolong Color Set de Esmaltes Manicure Degrade;Negro;Collares;6;2018-02-01;0
 2369414;ESPONJA DE BAÑO KONJAC;Negro;Collares;2;2018-02-05;0
 2369694;BILLETERA HOMBRE BARLO;Negro;Collares;4;2018-02-05;0
+2371138;ARTY BRUSH;Pincel para diseño uñas;Collares;2;2018-03-03;5.9
+2371181;LENTES DE SOL SOLE;LENTES DE MUJER;Collares;4;2018-03-03;35
 2372383;BOLSA COLECCION DESEO;Negro;Collares;34;2018-02-05;0
 2426200;COLECCIÓN DECO COLOR;Negro;Collares;1;2018-02-01;0
 2426470;COLECCIÓN CRISTAL;Negro;Collares;1;2018-02-01;0
@@ -784,13 +790,14 @@
 2464256;RELOJ SILVER ALT;Silver;Collares;2;2018-02-01;0
 2464257;RELOJ GOLD ALT;Gold;Collares;1;2018-02-01;0
 2464280;RELOJ ANIVERSARIO MUJER;Negro;Collares;10;2018-02-01;0
-2464397;BOLSO VERSATIL UNIQUE;MORRAL NARANJA;Collares;6;2018-03-01;0
+2464397;BOLSO VERSATIL UNIQUE;MORRAL NARANJA;Collares;10;2018-03-03;0
 2464398;COLECCION GRIS URBANO (MOCHILA);PLOMO Y NARANJA;Collares;12;2018-02-20;0
-2464403;FUENTE DE VIDRIO + 6 BOWLS;VIDRIO TRANSPARENTE;Collares;2;2018-02-19;0
+2464403;FUENTE DE VIDRIO + 6 BOWLS;VIDRIO TRANSPARENTE;Collares;6;2018-03-03;0
 2464418;CARTA TEBCA NA- C13 S/. 200;TARJETA POR S/. 200.00;Collares;1;2018-02-19;0
-2464469;CARTERA N1-C4;CARTERA;Collares;1;2018-02-27;0
+2464469;CARTERA N1-C4;CARTERA;Collares;3;2018-03-03;0
 2465461;KIT PULSERA ORO;PULSERA DORADA;Collares;1;2018-03-01;0
-2465463;KIT PULSERA BRONCE;PULSERA BRONCE;Collares;2;2018-02-27;0
+2465462;KIT PULSERA PLATA;Pulsera plata;Collares;2;2018-03-03;0
+2465463;KIT PULSERA BRONCE;PULSERA BRONCE;Collares;3;2018-03-03;0
 25028100;ARETES DUBAI TOPAZ;Negro;Collares;1;2018-02-01;0
 25028202;ARETES FLORE;Negro;Collares;1;2018-02-01;0
 25028320;SET ARETES PETIT COLOR;Negro;Collares;1;2018-02-01;0
@@ -854,7 +861,6 @@
 5022299;ARETES VOLE;Negro;Collares;1;2018-02-01;0
 5022304;ARETES CLARO Y LUNA;Negro;Collares;1;2018-02-01;0
 5022308;SORTIJA VOLE T8;Negro;Collares;1;2018-02-22;0
-5022422;ARETES BRILLA;Negro;Collares;1;2018-02-22;0
 5022461;ARETES VENUS DORE;Negro;Collares;1;2018-02-01;0
 5022542;ARETES SALVA BRILLO;Negro;Collares;1;2018-02-01;0
 5022600;SET ARETES TUYA;Negro;Collares;1;2018-02-01;0
@@ -950,7 +956,7 @@
 5026412;ARETES AZUL MIO;Negro;Collares;1;2018-02-01;0
 5026512;COLECCIÓN CRUZ DIVINA;Negro;Collares;1;2018-02-01;0
 5026514;SET ARETES GLAM CRISTAL;Negro;Collares;19;2018-02-22;0
-5026574;ARETES DOLCETO CRISTAL AJ12246;Negro;Collares;27;2018-02-22;0
+5026574;ARETES DOLCETO CRISTAL AJ12246;Negro;Collares;26;2018-03-02;50
 5026581;COLLAR MIAMI CIELO;Negro;Collares;1;2018-02-01;0
 5026621;ARETES CRISTAL PARK;Negro;Collares;1;2018-02-01;0
 5026709;SORTIJA DELICADEZA T9;Negro;Collares;1;2018-02-22;0
@@ -1156,6 +1162,7 @@
 5030947;ARETES DESIRE J15081;Negro;Collares;1;2018-02-01;0
 5030994;ARETES LUNA BLACK J15128;Negro;Collares;1;2018-02-01;0
 5031024;SET ARETES CORI ROSE J15151;Negro;Collares;2;2018-02-22;0
+5031026;CADENA MILAGROSA J15153;Negro;Collares;1;2018-03-03;107.25
 5031031;PULSERA NAIROBI GLAM J15105;Negro;Collares;2;2018-02-01;0
 5031042;COLECCION BLESSING J15149;Negro;Collares;1;2018-02-01;0
 5031051;ARETES HELENA GLAM J15388;Negro;Collares;2;2018-02-20;11.4
@@ -1167,6 +1174,8 @@
 5031126;ARETES FLORAL GLAM J15239;Negro;Collares;1;2018-02-01;0
 5031129;SET ARETES SFERA ELEGANT J15242;Negro;Collares;1;2018-02-01;0
 5031143;ARETES QUARTZ CHIC J15252;Negro;Collares;1;2018-02-01;0
+5031153;COLLAR GEMA LUX J15262;Negro;Collares;1;2018-03-03;149.5
+5031154;ARETES PERLA LUX J15263;Negro;Collares;1;2018-03-03;52
 5031157;ARETES SOLAZZE J15267;Negro;Collares;1;2018-02-01;0
 5031161;ARETES LUNA STAR J15271;Negro;Collares;1;2018-02-01;0
 5031194;COLECCION PERLI ELEGANT J15295;Negro;Collares;2;2018-02-01;0
@@ -1229,11 +1238,16 @@
 5031869;SORTIJA ROSATTI PETAL T9;SORTIJA;Collares;1;2018-02-20;97.5
 5031896;COLECCION PERLA BELLE;COLECCION;Collares;2;2018-02-20;0
 5031900;ARETES TOSCANE;Negro;Collares;1;2018-02-01;0
-5031913;COLECCIÓN LOVE ROMANCE;Negro;Collares;3;2018-02-20;30.3
+5031913;COLECCIÓN LOVE ROMANCE;Negro;Collares;2;2018-03-02;30.3
 5031915;CADENA CESARI;COLLAR;Collares;1;2018-02-20;113.75
 5031917;SET ARETES DESIREE;SET ARETES;Collares;1;2018-02-20;45.5
 5031922;ARETES ALEXA BLANC;Negro;Collares;1;2018-02-01;0
+5031972;COLLAR LAIA ;Baño de oro de bronce brillante de 24 quilates;Collares;1;2018-03-03;78
+5031973;ARETES LAIA CHIC;ARETES;Collares;1;2018-03-03;42.25
+5032007;PULSERA VALENTINE;Brazalete;Collares;1;2018-03-03;87.75
 5032061;COLECCION TREBOLLI CRYSTAL J16236;Negro;Collares;1;2018-02-01;0
+5032081;COLLAR BLACK DIAMOND;COLLAR;Collares;1;2018-03-03;61.75
+5032082;ARETES DIAMOND CHIC;ARETES;Collares;1;2018-03-03;29.25
 5032099;ARETES LOVE POP J16249;Negro;Collares;2;2018-02-01;0
 5032102;COLECCION INITIAL GLAM ?C? J16252;Negro;Collares;1;2018-02-01;0
 5032117;COLECCION INITIAL GLAM ?R? J16267;Negro;Collares;1;2018-02-01;0
@@ -1251,6 +1265,7 @@
 5032281;ARETES BUHO LOVE;Negro;Collares;2;2018-02-01;0
 5032289;COLECCIÓN FRESI BERRY;Negro;Collares;2;2018-02-19;27.6
 5032290;SET ARETES FRESY BERRY;Negro;Collares;2;2018-02-19;21.1
+50323014;ARETES MAGNOLIA CRISTAL;ARETES;Collares;1;2018-03-03;58.5
 5058970;SET ARETES PASTEL PARTY;Negro;Collares;1;2018-02-01;0
 6120713;COLLAR STAR CHIC;Negro;Collares;1;2018-02-01;0
 675028654;SET ARETES NINETTE;Negro;Collares;1;2018-02-01;0

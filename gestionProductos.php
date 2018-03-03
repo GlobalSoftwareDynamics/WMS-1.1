@@ -145,7 +145,7 @@ if(isset($_SESSION['login'])) {
                 td2 = tr[i].getElementsByTagName("td")[1];
                 td3 = tr[i].getElementsByTagName("td")[3];
                 td4 = tr[i].getElementsByTagName("td")[4];
-                td5 = tr[i].getElementsByTagName("td")[6];
+                td5 = tr[i].getElementsByTagName("td")[5];
                 if ((td)&&(td2)) {
                     if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
                         if(td2.innerHTML.toUpperCase().indexOf(filter2) > -1){

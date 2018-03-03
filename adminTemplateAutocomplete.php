@@ -37,6 +37,7 @@ include('funciones.php');
         <script>
             $( function() {
                 $( "#nombreProducto" ).autocomplete({
+					delay: 1500,
                     source: <?php echo $arrayProductos?>
                 });
             } );
@@ -51,6 +52,7 @@ include('funciones.php');
         <script>
             $( function() {
                 $( "#Productos" ).autocomplete({
+					delay: 1500,
                     source: <?php echo $arrayProductos?>
                 });
             } );
@@ -65,6 +67,7 @@ include('funciones.php');
         <script>
             $( function() {
                 $( "#Productos" ).autocomplete({
+					delay: 1500,
                     source: <?php echo $arrayProductos?>
                 });
             } );
@@ -79,6 +82,7 @@ include('funciones.php');
         <script>
             $( function() {
                 $( "#Productos" ).autocomplete({
+					delay: 1500,
                     source: <?php echo $arrayProductos?>
                 });
             } );
@@ -93,6 +97,7 @@ include('funciones.php');
         <script>
             $( function() {
                 $( "#Productos" ).autocomplete({
+					delay: 1500,
                     source: <?php echo $arrayProductos?>
                 });
             } );
