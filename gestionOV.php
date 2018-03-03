@@ -6,25 +6,25 @@ use Neodynamic\SDK\Web\WebClientPrint;
 use Neodynamic\SDK\Web\Utils;
 include('funciones.php');
 if(isset($_SESSION['login'])) {
-	include('adminTemplate.php');
+    include('adminTemplate.php');
 
     $query = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTipoTransaccion = 5 AND montoRestante <= 0");
     while($row = mysqli_fetch_array($query)){
         $update = mysqli_query($link,"UPDATE Transaccion SET idEstado = 5 WHERE idTransaccion = '{$row['idTransaccion']}'");
     }
 
-	if(isset($_POST['delete'])){
-		$delete = mysqli_query($link, "DELETE FROM TransaccionProducto WHERE idTransaccion = '{$_POST['idTransaccion']}'");
-		$delete = mysqli_query($link, "DELETE FROM Transaccion WHERE idTransaccion = '{$_POST['idTransaccion']}'");
+    if(isset($_POST['delete'])){
+        $delete = mysqli_query($link, "DELETE FROM TransaccionProducto WHERE idTransaccion = '{$_POST['idTransaccion']}'");
+        $delete = mysqli_query($link, "DELETE FROM Transaccion WHERE idTransaccion = '{$_POST['idTransaccion']}'");
 
-		$queryPerformed = "DELETE FROM Transaccion WHERE idTransaccion = {$_POST['idTransaccion']}";
-		$queryPerformed2 = "DELETE FROM TransaccionProducto WHERE idTransaccion = {$_POST['idTransaccion']}";
+        $queryPerformed = "DELETE FROM Transaccion WHERE idTransaccion = {$_POST['idTransaccion']}";
+        $queryPerformed2 = "DELETE FROM TransaccionProducto WHERE idTransaccion = {$_POST['idTransaccion']}";
 
-		$databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','DELETE','OrdenVenta','{$queryPerformed}')");
-		$databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','DELETE','OrdenVentaProducto','{$queryPerformed2}')");
-	}
+        $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','DELETE','OrdenVenta','{$queryPerformed}')");
+        $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','DELETE','OrdenVentaProducto','{$queryPerformed2}')");
+    }
 
-	if(isset($_POST['addOV'])){
+    if(isset($_POST['addOV'])){
 
         $total=0;
         $result=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$_POST['idTransaccion']}'");
@@ -333,7 +333,7 @@ if(isset($_SESSION['login'])) {
         }
     }
 
-	?>
+    ?>
 
     <script>
         function myFunction() {
@@ -414,12 +414,12 @@ if(isset($_SESSION['login'])) {
                                 <label class="sr-only" for="estado">Estado</label>
                                 <select class="form-control mt-2 mb-2 mr-2" id="estado" onchange="myFunction()">
                                     <option disabled selected value="a">Estado</option>
-									<?php
-									$query = mysqli_query($link, "SELECT * FROM Estado WHERE clase = 'estadoTransaccion'");
-									while($row = mysqli_fetch_array($query)){
-										echo "<option value='{$row['descripcion']}'>{$row['descripcion']}</option>";
-									}
-									?>
+                                    <?php
+                                    $query = mysqli_query($link, "SELECT * FROM Estado WHERE clase = 'estadoTransaccion'");
+                                    while($row = mysqli_fetch_array($query)){
+                                        echo "<option value='{$row['descripcion']}'>{$row['descripcion']}</option>";
+                                    }
+                                    ?>
                                 </select>
                                 <input type="submit" class="btn btn-primary" value="Limpiar" style="padding-left:28px; padding-right: 28px;">
                             </form>
@@ -440,30 +440,30 @@ if(isset($_SESSION['login'])) {
                             </tr>
                             </thead>
                             <tbody>
-							<?php
+                            <?php
                             $i = 0;
-							$file = fopen("files/ordenesVenta.txt","w") or die("No se encontró el archivo!");
-							fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-							$txt = "Nro. Orden,Fecha,Cliente,Estado".PHP_EOL;
-							fwrite($file, $txt);
-							$query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '5' ORDER BY fechaTransaccion DESC");
-							while($row = mysqli_fetch_array($query)){
-								$date=explode("|",$row['fechaTransaccion']);
-								$query2 = mysqli_query($link,"SELECT * FROM Estado WHERE idEstado = '{$row['idEstado']}'");
-								while($row2 = mysqli_fetch_array($query2)){
-									$estado = $row2['descripcion'];
-								}
-								echo "<tr>
+                            $file = fopen("files/ordenesVenta.txt","w") or die("No se encontró el archivo!");
+                            fwrite($file, pack("CCC",0xef,0xbb,0xbf));
+                            $txt = "Nro. Orden,Fecha,Cliente,Estado".PHP_EOL;
+                            fwrite($file, $txt);
+                            $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '5' ORDER BY fechaTransaccion DESC");
+                            while($row = mysqli_fetch_array($query)){
+                                $i++;
+                                $date=explode("|",$row['fechaTransaccion']);
+                                $query2 = mysqli_query($link,"SELECT * FROM Estado WHERE idEstado = '{$row['idEstado']}'");
+                                while($row2 = mysqli_fetch_array($query2)){
+                                    $estado = $row2['descripcion'];
+                                }
+                                echo "<tr>
                                         <td class='text-center'>{$row['idTransaccion']}</td>
                                         <td class='text-center'>{$date[0]} - {$date[1]}</td>";
-								$query3=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
-								while ($row3=mysqli_fetch_array($query3)){
-								    $nombre = $row3['nombre'];
-									echo "<td class='text-center'>{$row3['nombre']}</td>";
-								}
+                                $query3=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+                                while ($row3=mysqli_fetch_array($query3)){
+                                    $nombre = $row3['nombre'];
+                                    echo "<td class='text-center'>{$row3['nombre']}</td>";
+                                }
                                 $sida = session_id();
-								$i++;
-								echo "
+                                echo "
                                         <td class='text-center'>{$estado}</td>
                                         <td class='text-center'>
                                             <form method='post' id='myForm{$i}'>
@@ -472,67 +472,67 @@ if(isset($_SESSION['login'])) {
                                                 <div class='dropdown'>
                                                     <input type='hidden' name='idTransaccion' value='".$row['idTransaccion']."'>
                                                     <textarea id='printerCommands' name='printerCommands' class='form-control' hidden>";?>
-                            <?php
-								$replace = [
-									'&lt;' => '', '&gt;' => '', '&#039;' => '', '&amp;' => '',
-									'&quot;' => '', 'À' => 'A', 'Á' => 'A', 'Â' => 'A', 'Ã' => 'A', 'Ä' => 'Ae',
-									'&Auml;' => 'A', 'Å' => 'A', 'Ā' => 'A', 'Ą' => 'A', 'Ă' => 'A', 'Æ' => 'Ae',
-									'Ç' => 'C', 'Ć' => 'C', 'Č' => 'C', 'Ĉ' => 'C', 'Ċ' => 'C', 'Ď' => 'D', 'Đ' => 'D',
-									'Ð' => 'D', 'È' => 'E', 'É' => 'E', 'Ê' => 'E', 'Ë' => 'E', 'Ē' => 'E',
-									'Ę' => 'E', 'Ě' => 'E', 'Ĕ' => 'E', 'Ė' => 'E', 'Ĝ' => 'G', 'Ğ' => 'G',
-									'Ġ' => 'G', 'Ģ' => 'G', 'Ĥ' => 'H', 'Ħ' => 'H', 'Ì' => 'I', 'Í' => 'I',
-									'Î' => 'I', 'Ï' => 'I', 'Ī' => 'I', 'Ĩ' => 'I', 'Ĭ' => 'I', 'Į' => 'I',
-									'İ' => 'I', 'Ĳ' => 'IJ', 'Ĵ' => 'J', 'Ķ' => 'K', 'Ł' => 'K', 'Ľ' => 'K',
-									'Ĺ' => 'K', 'Ļ' => 'K', 'Ŀ' => 'K', 'Ñ' => 'N', 'Ń' => 'N', 'Ň' => 'N',
-									'Ņ' => 'N', 'Ŋ' => 'N', 'Ò' => 'O', 'Ó' => 'O', 'Ô' => 'O', 'Õ' => 'O',
-									'Ö' => 'Oe', '&Ouml;' => 'Oe', 'Ø' => 'O', 'Ō' => 'O', 'Ő' => 'O', 'Ŏ' => 'O',
-									'Œ' => 'OE', 'Ŕ' => 'R', 'Ř' => 'R', 'Ŗ' => 'R', 'Ś' => 'S', 'Š' => 'S',
-									'Ş' => 'S', 'Ŝ' => 'S', 'Ș' => 'S', 'Ť' => 'T', 'Ţ' => 'T', 'Ŧ' => 'T',
-									'Ț' => 'T', 'Ù' => 'U', 'Ú' => 'U', 'Û' => 'U', 'Ü' => 'Ue', 'Ū' => 'U',
-									'&Uuml;' => 'Ue', 'Ů' => 'U', 'Ű' => 'U', 'Ŭ' => 'U', 'Ũ' => 'U', 'Ų' => 'U',
-									'Ŵ' => 'W', 'Ý' => 'Y', 'Ŷ' => 'Y', 'Ÿ' => 'Y', 'Ź' => 'Z', 'Ž' => 'Z',
-									'Ż' => 'Z', 'Þ' => 'T', 'à' => 'a', 'á' => 'a', 'â' => 'a', 'ã' => 'a',
-									'ä' => 'ae', '&auml;' => 'ae', 'å' => 'a', 'ā' => 'a', 'ą' => 'a', 'ă' => 'a',
-									'æ' => 'ae', 'ç' => 'c', 'ć' => 'c', 'č' => 'c', 'ĉ' => 'c', 'ċ' => 'c',
-									'ď' => 'd', 'đ' => 'd', 'ð' => 'd', 'è' => 'e', 'é' => 'e', 'ê' => 'e',
-									'ë' => 'e', 'ē' => 'e', 'ę' => 'e', 'ě' => 'e', 'ĕ' => 'e', 'ė' => 'e',
-									'ƒ' => 'f', 'ĝ' => 'g', 'ğ' => 'g', 'ġ' => 'g', 'ģ' => 'g', 'ĥ' => 'h',
-									'ħ' => 'h', 'ì' => 'i', 'í' => 'i', 'î' => 'i', 'ï' => 'i', 'ī' => 'i',
-									'ĩ' => 'i', 'ĭ' => 'i', 'į' => 'i', 'ı' => 'i', 'ĳ' => 'ij', 'ĵ' => 'j',
-									'ķ' => 'k', 'ĸ' => 'k', 'ł' => 'l', 'ľ' => 'l', 'ĺ' => 'l', 'ļ' => 'l',
-									'ŀ' => 'l', 'ñ' => 'n', 'ń' => 'n', 'ň' => 'n', 'ņ' => 'n', 'ŉ' => 'n',
-									'ŋ' => 'n', 'ò' => 'o', 'ó' => 'o', 'ô' => 'o', 'õ' => 'o', 'ö' => 'oe',
-									'&ouml;' => 'oe', 'ø' => 'o', 'ō' => 'o', 'ő' => 'o', 'ŏ' => 'o', 'œ' => 'oe',
-									'ŕ' => 'r', 'ř' => 'r', 'ŗ' => 'r', 'š' => 's', 'ù' => 'u', 'ú' => 'u',
-									'û' => 'u', 'ü' => 'ue', 'ū' => 'u', '&uuml;' => 'ue', 'ů' => 'u', 'ű' => 'u',
-									'ŭ' => 'u', 'ũ' => 'u', 'ų' => 'u', 'ŵ' => 'w', 'ý' => 'y', 'ÿ' => 'y',
-									'ŷ' => 'y', 'ž' => 'z', 'ż' => 'z', 'ź' => 'z', 'þ' => 't', 'ß' => 'ss',
-									'ſ' => 'ss', 'ый' => 'iy', 'А' => 'A', 'Б' => 'B', 'В' => 'V', 'Г' => 'G',
-									'Д' => 'D', 'Е' => 'E', 'Ё' => 'YO', 'Ж' => 'ZH', 'З' => 'Z', 'И' => 'I',
-									'Й' => 'Y', 'К' => 'K', 'Л' => 'L', 'М' => 'M', 'Н' => 'N', 'О' => 'O',
-									'П' => 'P', 'Р' => 'R', 'С' => 'S', 'Т' => 'T', 'У' => 'U', 'Ф' => 'F',
-									'Х' => 'H', 'Ц' => 'C', 'Ч' => 'CH', 'Ш' => 'SH', 'Щ' => 'SCH', 'Ъ' => '',
-									'Ы' => 'Y', 'Ь' => '', 'Э' => 'E', 'Ю' => 'YU', 'Я' => 'YA', 'а' => 'a',
-									'б' => 'b', 'в' => 'v', 'г' => 'g', 'д' => 'd', 'е' => 'e', 'ё' => 'yo',
-									'ж' => 'zh', 'з' => 'z', 'и' => 'i', 'й' => 'y', 'к' => 'k', 'л' => 'l',
-									'м' => 'm', 'н' => 'n', 'о' => 'o', 'п' => 'p', 'р' => 'r', 'с' => 's',
-									'т' => 't', 'у' => 'u', 'ф' => 'f', 'х' => 'h', 'ц' => 'c', 'ч' => 'ch',
-									'ш' => 'sh', 'щ' => 'sch', 'ъ' => '', 'ы' => 'y', 'ь' => '', 'э' => 'e',
-									'ю' => 'yu', 'я' => 'ya', ':' => '.', '=' => '.'
-								];
+                                <?php
+                                $replace = [
+                                    '&lt;' => '', '&gt;' => '', '&#039;' => '', '&amp;' => '',
+                                    '&quot;' => '', 'À' => 'A', 'Á' => 'A', 'Â' => 'A', 'Ã' => 'A', 'Ä' => 'Ae',
+                                    '&Auml;' => 'A', 'Å' => 'A', 'Ā' => 'A', 'Ą' => 'A', 'Ă' => 'A', 'Æ' => 'Ae',
+                                    'Ç' => 'C', 'Ć' => 'C', 'Č' => 'C', 'Ĉ' => 'C', 'Ċ' => 'C', 'Ď' => 'D', 'Đ' => 'D',
+                                    'Ð' => 'D', 'È' => 'E', 'É' => 'E', 'Ê' => 'E', 'Ë' => 'E', 'Ē' => 'E',
+                                    'Ę' => 'E', 'Ě' => 'E', 'Ĕ' => 'E', 'Ė' => 'E', 'Ĝ' => 'G', 'Ğ' => 'G',
+                                    'Ġ' => 'G', 'Ģ' => 'G', 'Ĥ' => 'H', 'Ħ' => 'H', 'Ì' => 'I', 'Í' => 'I',
+                                    'Î' => 'I', 'Ï' => 'I', 'Ī' => 'I', 'Ĩ' => 'I', 'Ĭ' => 'I', 'Į' => 'I',
+                                    'İ' => 'I', 'Ĳ' => 'IJ', 'Ĵ' => 'J', 'Ķ' => 'K', 'Ł' => 'K', 'Ľ' => 'K',
+                                    'Ĺ' => 'K', 'Ļ' => 'K', 'Ŀ' => 'K', 'Ñ' => 'N', 'Ń' => 'N', 'Ň' => 'N',
+                                    'Ņ' => 'N', 'Ŋ' => 'N', 'Ò' => 'O', 'Ó' => 'O', 'Ô' => 'O', 'Õ' => 'O',
+                                    'Ö' => 'Oe', '&Ouml;' => 'Oe', 'Ø' => 'O', 'Ō' => 'O', 'Ő' => 'O', 'Ŏ' => 'O',
+                                    'Œ' => 'OE', 'Ŕ' => 'R', 'Ř' => 'R', 'Ŗ' => 'R', 'Ś' => 'S', 'Š' => 'S',
+                                    'Ş' => 'S', 'Ŝ' => 'S', 'Ș' => 'S', 'Ť' => 'T', 'Ţ' => 'T', 'Ŧ' => 'T',
+                                    'Ț' => 'T', 'Ù' => 'U', 'Ú' => 'U', 'Û' => 'U', 'Ü' => 'Ue', 'Ū' => 'U',
+                                    '&Uuml;' => 'Ue', 'Ů' => 'U', 'Ű' => 'U', 'Ŭ' => 'U', 'Ũ' => 'U', 'Ų' => 'U',
+                                    'Ŵ' => 'W', 'Ý' => 'Y', 'Ŷ' => 'Y', 'Ÿ' => 'Y', 'Ź' => 'Z', 'Ž' => 'Z',
+                                    'Ż' => 'Z', 'Þ' => 'T', 'à' => 'a', 'á' => 'a', 'â' => 'a', 'ã' => 'a',
+                                    'ä' => 'ae', '&auml;' => 'ae', 'å' => 'a', 'ā' => 'a', 'ą' => 'a', 'ă' => 'a',
+                                    'æ' => 'ae', 'ç' => 'c', 'ć' => 'c', 'č' => 'c', 'ĉ' => 'c', 'ċ' => 'c',
+                                    'ď' => 'd', 'đ' => 'd', 'ð' => 'd', 'è' => 'e', 'é' => 'e', 'ê' => 'e',
+                                    'ë' => 'e', 'ē' => 'e', 'ę' => 'e', 'ě' => 'e', 'ĕ' => 'e', 'ė' => 'e',
+                                    'ƒ' => 'f', 'ĝ' => 'g', 'ğ' => 'g', 'ġ' => 'g', 'ģ' => 'g', 'ĥ' => 'h',
+                                    'ħ' => 'h', 'ì' => 'i', 'í' => 'i', 'î' => 'i', 'ï' => 'i', 'ī' => 'i',
+                                    'ĩ' => 'i', 'ĭ' => 'i', 'į' => 'i', 'ı' => 'i', 'ĳ' => 'ij', 'ĵ' => 'j',
+                                    'ķ' => 'k', 'ĸ' => 'k', 'ł' => 'l', 'ľ' => 'l', 'ĺ' => 'l', 'ļ' => 'l',
+                                    'ŀ' => 'l', 'ñ' => 'n', 'ń' => 'n', 'ň' => 'n', 'ņ' => 'n', 'ŉ' => 'n',
+                                    'ŋ' => 'n', 'ò' => 'o', 'ó' => 'o', 'ô' => 'o', 'õ' => 'o', 'ö' => 'oe',
+                                    '&ouml;' => 'oe', 'ø' => 'o', 'ō' => 'o', 'ő' => 'o', 'ŏ' => 'o', 'œ' => 'oe',
+                                    'ŕ' => 'r', 'ř' => 'r', 'ŗ' => 'r', 'š' => 's', 'ù' => 'u', 'ú' => 'u',
+                                    'û' => 'u', 'ü' => 'ue', 'ū' => 'u', '&uuml;' => 'ue', 'ů' => 'u', 'ű' => 'u',
+                                    'ŭ' => 'u', 'ũ' => 'u', 'ų' => 'u', 'ŵ' => 'w', 'ý' => 'y', 'ÿ' => 'y',
+                                    'ŷ' => 'y', 'ž' => 'z', 'ż' => 'z', 'ź' => 'z', 'þ' => 't', 'ß' => 'ss',
+                                    'ſ' => 'ss', 'ый' => 'iy', 'А' => 'A', 'Б' => 'B', 'В' => 'V', 'Г' => 'G',
+                                    'Д' => 'D', 'Е' => 'E', 'Ё' => 'YO', 'Ж' => 'ZH', 'З' => 'Z', 'И' => 'I',
+                                    'Й' => 'Y', 'К' => 'K', 'Л' => 'L', 'М' => 'M', 'Н' => 'N', 'О' => 'O',
+                                    'П' => 'P', 'Р' => 'R', 'С' => 'S', 'Т' => 'T', 'У' => 'U', 'Ф' => 'F',
+                                    'Х' => 'H', 'Ц' => 'C', 'Ч' => 'CH', 'Ш' => 'SH', 'Щ' => 'SCH', 'Ъ' => '',
+                                    'Ы' => 'Y', 'Ь' => '', 'Э' => 'E', 'Ю' => 'YU', 'Я' => 'YA', 'а' => 'a',
+                                    'б' => 'b', 'в' => 'v', 'г' => 'g', 'д' => 'd', 'е' => 'e', 'ё' => 'yo',
+                                    'ж' => 'zh', 'з' => 'z', 'и' => 'i', 'й' => 'y', 'к' => 'k', 'л' => 'l',
+                                    'м' => 'm', 'н' => 'n', 'о' => 'o', 'п' => 'p', 'р' => 'r', 'с' => 's',
+                                    'т' => 't', 'у' => 'u', 'ф' => 'f', 'х' => 'h', 'ц' => 'c', 'ч' => 'ch',
+                                    'ш' => 'sh', 'щ' => 'sch', 'ъ' => '', 'ы' => 'y', 'ь' => '', 'э' => 'e',
+                                    'ю' => 'yu', 'я' => 'ya', ':' => '.', '=' => '.'
+                                ];
 
                                 $query5 = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$row['idTransaccion']}'");
                                 while($row5 = mysqli_fetch_array($query5)){
-									
-									$result1 = mysqli_query($link,"SELECT nombres FROM Colaborador WHERE idColaborador = '{$row5['idColaborador']}'");
-									while($fila3 = mysqli_fetch_array($result1)){
-											$colaborador = substr($fila3['nombres'],0,25);
-									}
-									$result1 = mysqli_query($link,"SELECT nombre FROM Proveedor WHERE idProveedor = '{$row5['idProveedor']}'");
-									while($fila3 = mysqli_fetch_array($result1)){
-											$cliente = substr($fila3['nombre'],0,30);
-									}
-                                    
+
+                                    $result1 = mysqli_query($link,"SELECT nombres FROM Colaborador WHERE idColaborador = '{$row5['idColaborador']}'");
+                                    while($fila3 = mysqli_fetch_array($result1)){
+                                        $colaborador = substr($fila3['nombres'],0,25);
+                                    }
+                                    $result1 = mysqli_query($link,"SELECT nombre FROM Proveedor WHERE idProveedor = '{$row5['idProveedor']}'");
+                                    while($fila3 = mysqli_fetch_array($result1)){
+                                        $cliente = substr($fila3['nombre'],0,30);
+                                    }
+
                                     $nuevafecha=explode("|",$row5['fechaTransaccion']);
                                     $fechaTransaccion = $nuevafecha[0];
                                     $montoTotal = $row5['montoTotal'];
@@ -551,7 +551,7 @@ if(isset($_SESSION['login'])) {
                                 $cmds = '';
                                 $cmds = $esc . "@"; //Initializes the printer (ESC @)
                                 $cmds .= $esc . '!' . '0x00'; //Emphasized + Double-height + Double-width mode selected (ESC ! (8 + 16 + 32)) 56 dec => 38 hex
-								$cmds .= $newLine;
+                                $cmds .= $newLine;
                                 $cmds .= 'DOCUMENTO DE VENTA';
                                 $cmds .= $newLine;
                                 $cmds .= '-------------------------';
@@ -599,7 +599,7 @@ if(isset($_SESSION['login'])) {
                                     $totalfinal = $fila1['cantidad'] * $descuentoproducto;
 
                                     $subtotalsinsunat=$subtotalsinsunat+$totalfinal;
-									
+
                                     $nombreProd=mysqli_query($link,"SELECT * FROM Producto WHERE idProducto ='{$fila1['idProducto']}'");
                                     while ($fila2=mysqli_fetch_array($nombreProd)){
                                         $nombreCorto=substr($fila2['nombreCorto'],0,10);
@@ -622,28 +622,28 @@ if(isset($_SESSION['login'])) {
                                 $cmds .= $newLine.$newLine;
                                 $cmds .= 'VENTA PUBLICO '.round($subtotalcatalogo,1);
                                 $cmds .= $newLine;
-								$cmds .= 'DESC.  '.round($totaldescuentocatalogo,1);
+                                $cmds .= 'DESC.  '.round($totaldescuentocatalogo,1);
                                 $cmds .= $newLine;
                                 $cmds .= 'DESC. ESP. '.round($totaldescuento,1);
                                 $cmds .= $newLine;
                                 $cmds .= 'FLETE  '.round($flete,1);
                                 $cmds .= $newLine;
-								$cmds .= 'SUB TOTAL  '.round($subtotalsinsunat,1);
+                                $cmds .= 'SUB TOTAL  '.round($subtotalsinsunat,1);
                                 $cmds .= $newLine;
-								$cmds .= 'RSSUNAT  '.round($totalsunat,1);
+                                $cmds .= 'RSSUNAT  '.round($totalsunat,1);
                                 $cmds .= $newLine;
-								$cmds .= 'MONTO TOTAL  '.round($totalventa,1);
+                                $cmds .= 'MONTO TOTAL  '.round($totalventa,1);
                                 $cmds .= $newLine;
                                 $cmds .= 'PENDIENTE DE PAGO  '.round($montoRestante,1);
                                 $cmds .= $newLine;
                                 $cmds .= 'FECHA VENCIMIENTO  '.$fechaVencimiento;
                                 $cmds .= $newLine.$newLine.$newLine;
-								$cmds .= '------------------';
+                                $cmds .= '------------------';
                                 $cmds .=$newLine;
-								$cmds .= ' FIRMA CONSULTORA';
-								$cmds .=$newLine.$newLine.$newLine.$newLine.$newLine;
+                                $cmds .= ' FIRMA CONSULTORA';
+                                $cmds .=$newLine.$newLine.$newLine.$newLine.$newLine;
                                 echo $cmds;
-                            echo "
+                                echo "
                                                     </textarea>
                                                     <input type='hidden' id='useDefaultPrinter' checked/>
                                                     <button class='btn btn-secondary btn-sm dropdown-toggle' type='button' id='dropdownMenuButton' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
@@ -651,25 +651,25 @@ if(isset($_SESSION['login'])) {
                                                     </button>
                                                     <div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
                                                         <button name='verProductos' class='dropdown-item' type='submit' formaction='detalleOV.php'>Ver Detalle</button>
-                                                        <button href='#' onclick='javascript:doClientPrint(getFormId(this.form));' class='dropdown-item'>Imprimir</button>
+                                                        <button href='#' onclick='javascript:doClientPrint();' class='dropdown-item'>Imprimir</button>
                                                         ";
-								if($estado == 'Parcial'){
-									echo "<button name='cancelacion' class='dropdown-item' type='submit' formaction='nuevoMovimiento.php'>Registrar Pago</button>";
-								}
+                                if($estado == 'Parcial'){
+                                    echo "<button name='cancelacion' class='dropdown-item' type='submit' formaction='nuevoMovimiento.php'>Registrar Pago</button>";
+                                }
                                 if ($estado=='Abierta'){
                                     echo "<button name='delete' style='color: red' class='dropdown-item' type='submit' formaction='gestionOV.php'>Eliminar</button>";
                                 }
-								echo "                  
+                                echo "                  
                                                     </div>
                                                 </div>
                                             </form>
                                         </td>
                                       </tr>";
-								$txt = $row['idTransaccion'].",".$date[0]." - ".$date[1].",".$nombre.",".$estado.PHP_EOL;
-								fwrite($file, $txt);
-							}
-							fclose($file);
-							?>
+                                $txt = $row['idTransaccion'].",".$date[0]." - ".$date[1].",".$nombre.",".$estado.PHP_EOL;
+                                fwrite($file, $txt);
+                            }
+                            fclose($file);
+                            ?>
                             </tbody>
                         </table>
                     </div>
@@ -696,19 +696,15 @@ if(isset($_SESSION['login'])) {
 
     //Specify the ABSOLUTE URL to the WebClientPrintController.php and to the file that will create the ClientPrintJob object (DemoPrintCommandsProcess.php)
     echo WebClientPrint::createScript($webClientPrintControllerAbsoluteURL, $demoPrintCommandsProcessAbsoluteURL, session_id());
-    ?>
 
+    for($j=1;$j<=$i;$j++){
+        echo "
+            <script type=\"text/javascript\">
 
-    <script type="text/javascript">
-
-        function getFormId (form){
-            return form.id;
-        }
-
-        function doClientPrint(form) {
+        function doClientPrint() {
 
             //collect printer settings and raw commands
-            var printJobInfo = $(form).serialize();
+            var printJobInfo = $(\"#myForm{$j}\").serialize();
 
             // Launch WCPP at the client side for printing...
             jsWebClientPrint.print(printJobInfo);
@@ -718,22 +714,22 @@ if(isset($_SESSION['login'])) {
 
         $(document).ready(function () {
             //jQuery-based Wizard
-            $("#myForm").formToWizard();
+            $(\"#myForm{$j}\").formToWizard();
 
             //change printer options based on user selection
-            $("#pid").change(function () {
-                var printerId = $("select#pid").val();
+            $(\"#pid\").change(function () {
+                var printerId = $(\"select#pid\").val();
 
                 displayInfo(printerId);
                 hidePrinters();
                 if (printerId == 2)
-                    $("#installedPrinter").show();
+                    $(\"#installedPrinter\").show();
                 else if (printerId == 3)
-                    $("#netPrinter").show();
+                    $(\"#netPrinter\").show();
                 else if (printerId == 4)
-                    $("#parallelPrinter").show();
+                    $(\"#parallelPrinter\").show();
                 else if (printerId == 5)
-                    $("#serialPrinter").show();
+                    $(\"#serialPrinter\").show();
             });
 
             hidePrinters();
@@ -744,21 +740,21 @@ if(isset($_SESSION['login'])) {
 
         function displayInfo(i) {
             if (i == 0)
-                $("#info").html('This will make the WCPP to send the commands to the printer installed in your machine as "Default Printer" without displaying any dialog!');
+                $(\"#info\").html('This will make the WCPP to send the commands to the printer installed in your machine as \"Default Printer\" without displaying any dialog!');
             else if (i == 1)
-                $("#info").html('This will make the WCPP to display the Printer dialog so you can select which printer you want to use.');
+                $(\"#info\").html('This will make the WCPP to display the Printer dialog so you can select which printer you want to use.');
             else if (i == 2)
-                $("#info").html('Please specify the <b>Printer\'s Name</b> as it figures installed under your system.');
+                $(\"#info\").html('Please specify the <b>Printer\'s Name</b> as it figures installed under your system.');
             else if (i == 3)
-                $("#info").html('Please specify the Network Printer info.<br /><strong>On Linux &amp; Mac</strong> it\'s recommended you install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>"Use an installed Printer"</strong> option on this demo.');
+                $(\"#info\").html('Please specify the Network Printer info.<br /><strong>On Linux &amp; Mac</strong> it\'s recommended you install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>\"Use an installed Printer\"</strong> option on this demo.');
             else if (i == 4)
-                $("#info").html('Please specify the Parallel Port which your printer is connected to.<br /><strong>On Linux &amp; Mac</strong> you must install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>"Use an installed Printer"</strong> option on this demo.');
+                $(\"#info\").html('Please specify the Parallel Port which your printer is connected to.<br /><strong>On Linux &amp; Mac</strong> you must install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>\"Use an installed Printer\"</strong> option on this demo.');
             else if (i == 5)
-                $("#info").html('Please specify the Serial RS232 Port info which your printer does support.<br /><strong>On Linux &amp; Mac</strong> you must install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>"Use an installed Printer"</strong> option on this demo.');
+                $(\"#info\").html('Please specify the Serial RS232 Port info which your printer does support.<br /><strong>On Linux &amp; Mac</strong> you must install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>\"Use an installed Printer\"</strong> option on this demo.');
         }
 
         function hidePrinters() {
-            $("#installedPrinter").hide(); $("#netPrinter").hide(); $("#parallelPrinter").hide(); $("#serialPrinter").hide();
+            $(\"#installedPrinter\").hide(); $(\"#netPrinter\").hide(); $(\"#parallelPrinter\").hide(); $(\"#serialPrinter\").hide();
         }
 
 
@@ -772,72 +768,73 @@ if(isset($_SESSION['login'])) {
 
                 var element = this;
 
-                var steps = $(element).find("fieldset");
+                var steps = $(element).find(\"fieldset\");
                 var count = steps.size();
 
 
                 // 2
-                $(element).before("<ul id='steps'></ul>");
+                $(element).before(\"<ul id='steps'></ul>\");
 
                 steps.each(function (i) {
-                    $(this).wrap("<div id='step" + i + "'></div>");
-                    $(this).append("<p id='step" + i + "commands'></p>");
+                    $(this).wrap(\"<div id='step\" + i + \"'></div>\");
+                    $(this).append(\"<p id='step\" + i + \"commands'></p>\");
 
                     // 2
-                    var name = $(this).find("legend").html();
-                    $("#steps").append("<li id='stepDesc" + i + "'>Step " + (i + 1) + "<span>" + name + "</span></li>");
+                    var name = $(this).find(\"legend\").html();
+                    $(\"#steps\").append(\"<li id='stepDesc\" + i + \"'>Step \" + (i + 1) + \"<span>\" + name + \"</span></li>\");
 
                     if (i == 0) {
                         createNextButton(i);
                         selectStep(i);
                     }
                     else if (i == count - 1) {
-                        $("#step" + i).hide();
+                        $(\"#step\" + i).hide();
                         createPrevButton(i);
                     }
                     else {
-                        $("#step" + i).hide();
+                        $(\"#step\" + i).hide();
                         createPrevButton(i);
                         createNextButton(i);
                     }
                 });
 
                 function createPrevButton(i) {
-                    var stepName = "step" + i;
-                    $("#" + stepName + "commands").append("<a href='#' id='" + stepName + "Prev' class='prev btn btn-info'>< Back</a>");
+                    var stepName = \"step\" + i;
+                    $(\"#\" + stepName + \"commands\").append(\"<a href='#' id='\" + stepName + \"Prev' class='prev btn btn-info'>< Back</a>\");
 
-                    $("#" + stepName + "Prev").bind("click", function (e) {
-                        $("#" + stepName).hide();
-                        $("#step" + (i - 1)).show();
+                    $(\"#\" + stepName + \"Prev\").bind(\"click\", function (e) {
+                        $(\"#\" + stepName).hide();
+                        $(\"#step\" + (i - 1)).show();
 
                         selectStep(i - 1);
                     });
                 }
 
                 function createNextButton(i) {
-                    var stepName = "step" + i;
-                    $("#" + stepName + "commands").append("<a href='#' id='" + stepName + "Next' class='next btn btn-info'>Next ></a>");
+                    var stepName = \"step\" + i;
+                    $(\"#\" + stepName + \"commands\").append(\"<a href='#' id='\" + stepName + \"Next' class='next btn btn-info'>Next ></a>\");
 
-                    $("#" + stepName + "Next").bind("click", function (e) {
-                        $("#" + stepName).hide();
-                        $("#step" + (i + 1)).show();
+                    $(\"#\" + stepName + \"Next\").bind(\"click\", function (e) {
+                        $(\"#\" + stepName).hide();
+                        $(\"#step\" + (i + 1)).show();
 
                         selectStep(i + 1);
                     });
                 }
 
                 function selectStep(i) {
-                    $("#steps li").removeClass("current");
-                    $("#stepDesc" + i).addClass("current");
+                    $(\"#steps li\").removeClass(\"current\");
+                    $(\"#stepDesc\" + i).addClass(\"current\");
                 }
 
             }
         })(jQuery);
 
     </script>
+        ";
+    }
 
-	<?php
-	include('footerTemplate.php');
+    include('footerTemplate.php');
 }else{
-	include('sessionError.php');
+    include('sessionError.php');
 }
