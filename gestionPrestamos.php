@@ -358,12 +358,14 @@ if(isset($_SESSION['login'])) {
                             </thead>
                             <tbody>
                             <?php
+                            $i = 0;
                             $file = fopen("files/prestamos.txt","w") or die("No se encontró el archivo!");
                             fwrite($file, pack("CCC",0xef,0xbb,0xbf));
                             $txt = "Nro. Orden,Responsable,Fecha de Préstamo,Fecha de Vencimiento,Deudor,Estado".PHP_EOL;
                             fwrite($file, $txt);
                             $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '6' ORDER BY fechaTransaccion DESC");
                             while($row = mysqli_fetch_array($query)){
+                                $i++;
 	                            $replace = [
 		                            '&lt;' => '', '&gt;' => '', '&#039;' => '', '&amp;' => '',
 		                            '&quot;' => '', 'À' => 'A', 'Á' => 'A', 'Â' => 'A', 'Ã' => 'A', 'Ä' => 'Ae',
@@ -566,7 +568,7 @@ if(isset($_SESSION['login'])) {
 	                            echo "
                                         <td class='text-center'>{$estado}</td>
                                         <td class='text-center'>
-                                            <form method='post' id='myForm'>
+                                            <form method='post' id='myForm{$i}'>
                                             <input type='hidden' id='sid' name='sid' value='{$sida}'>
                                             <input type='hidden' id='pid' name='pid' value='0'>
                                             <textarea id='printerCommands' name='printerCommands' class='form-control' hidden>".$cmds."</textarea>
@@ -582,7 +584,7 @@ if(isset($_SESSION['login'])) {
 	                            }
 	                            echo "  
                                 <button name='verProductos' class='dropdown-item' type='submit' formaction='detallePrestamo.php'>Ver Detalle</button>";?>
-                                <button formaction="#" onclick="javascript:doClientPrint();" class="dropdown-item">Imprimir</button>
+                                <button formaction="#" onclick='javascript:doClientPrint<?php echo $i;?>();' class="dropdown-item">Imprimir</button>
 	                            <?php
                                 if($estado=='Abierta'){
                                     echo "<button name='delete' style='color: red' class='dropdown-item' type='submit' formaction='#'>Eliminar</button>";
@@ -624,15 +626,15 @@ if(isset($_SESSION['login'])) {
 
 	//Specify the ABSOLUTE URL to the WebClientPrintController.php and to the file that will create the ClientPrintJob object (DemoPrintCommandsProcess.php)
 	echo WebClientPrint::createScript($webClientPrintControllerAbsoluteURL, $demoPrintCommandsProcessAbsoluteURL, session_id());
-	?>
 
+	for($j=1;$j<=$i;$j++){
+	    echo "
+	    <script type=\"text/javascript\">
 
-    <script type="text/javascript">
-
-        function doClientPrint() {
+        function doClientPrint{$j}() {
 
             //collect printer settings and raw commands
-            var printJobInfo = $("#myForm").serialize();
+            var printJobInfo = $(\"#myForm{$j}\").serialize();
 
             // Launch WCPP at the client side for printing...
             jsWebClientPrint.print(printJobInfo);
@@ -642,22 +644,22 @@ if(isset($_SESSION['login'])) {
 
         $(document).ready(function () {
             //jQuery-based Wizard
-            $("#myForm").formToWizard();
+            $(\"#myForm{$j}\").formToWizard();
 
             //change printer options based on user selection
-            $("#pid").change(function () {
-                var printerId = $("select#pid").val();
+            $(\"#pid\").change(function () {
+                var printerId = $(\"select#pid\").val();
 
                 displayInfo(printerId);
                 hidePrinters();
                 if (printerId == 2)
-                    $("#installedPrinter").show();
+                    $(\"#installedPrinter\").show();
                 else if (printerId == 3)
-                    $("#netPrinter").show();
+                    $(\"#netPrinter\").show();
                 else if (printerId == 4)
-                    $("#parallelPrinter").show();
+                    $(\"#parallelPrinter\").show();
                 else if (printerId == 5)
-                    $("#serialPrinter").show();
+                    $(\"#serialPrinter\").show();
             });
 
             hidePrinters();
@@ -668,21 +670,21 @@ if(isset($_SESSION['login'])) {
 
         function displayInfo(i) {
             if (i == 0)
-                $("#info").html('This will make the WCPP to send the commands to the printer installed in your machine as "Default Printer" without displaying any dialog!');
+                $(\"#info\").html('This will make the WCPP to send the commands to the printer installed in your machine as \"Default Printer\" without displaying any dialog!');
             else if (i == 1)
-                $("#info").html('This will make the WCPP to display the Printer dialog so you can select which printer you want to use.');
+                $(\"#info\").html('This will make the WCPP to display the Printer dialog so you can select which printer you want to use.');
             else if (i == 2)
-                $("#info").html('Please specify the <b>Printer\'s Name</b> as it figures installed under your system.');
+                $(\"#info\").html('Please specify the <b>Printer\'s Name</b> as it figures installed under your system.');
             else if (i == 3)
-                $("#info").html('Please specify the Network Printer info.<br /><strong>On Linux &amp; Mac</strong> it\'s recommended you install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>"Use an installed Printer"</strong> option on this demo.');
+                $(\"#info\").html('Please specify the Network Printer info.<br /><strong>On Linux &amp; Mac</strong> it\'s recommended you install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>\"Use an installed Printer\"</strong> option on this demo.');
             else if (i == 4)
-                $("#info").html('Please specify the Parallel Port which your printer is connected to.<br /><strong>On Linux &amp; Mac</strong> you must install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>"Use an installed Printer"</strong> option on this demo.');
+                $(\"#info\").html('Please specify the Parallel Port which your printer is connected to.<br /><strong>On Linux &amp; Mac</strong> you must install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>\"Use an installed Printer\"</strong> option on this demo.');
             else if (i == 5)
-                $("#info").html('Please specify the Serial RS232 Port info which your printer does support.<br /><strong>On Linux &amp; Mac</strong> you must install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>"Use an installed Printer"</strong> option on this demo.');
+                $(\"#info\").html('Please specify the Serial RS232 Port info which your printer does support.<br /><strong>On Linux &amp; Mac</strong> you must install the printer through <strong>CUPS</strong> and set the assigned printer name to the <strong>\"Use an installed Printer\"</strong> option on this demo.');
         }
 
         function hidePrinters() {
-            $("#installedPrinter").hide(); $("#netPrinter").hide(); $("#parallelPrinter").hide(); $("#serialPrinter").hide();
+            $(\"#installedPrinter\").hide(); $(\"#netPrinter\").hide(); $(\"#parallelPrinter\").hide(); $(\"#serialPrinter\").hide();
         }
 
 
@@ -696,72 +698,71 @@ if(isset($_SESSION['login'])) {
 
                 var element = this;
 
-                var steps = $(element).find("fieldset");
+                var steps = $(element).find(\"fieldset\");
                 var count = steps.size();
 
 
                 // 2
-                $(element).before("<ul id='steps'></ul>");
+                $(element).before(\"<ul id='steps'></ul>\");
 
                 steps.each(function (i) {
-                    $(this).wrap("<div id='step" + i + "'></div>");
-                    $(this).append("<p id='step" + i + "commands'></p>");
+                    $(this).wrap(\"<div id='step\" + i + \"'></div>\");
+                    $(this).append(\"<p id='step\" + i + \"commands'></p>\");
 
                     // 2
-                    var name = $(this).find("legend").html();
-                    $("#steps").append("<li id='stepDesc" + i + "'>Step " + (i + 1) + "<span>" + name + "</span></li>");
+                    var name = $(this).find(\"legend\").html();
+                    $(\"#steps\").append(\"<li id='stepDesc\" + i + \"'>Step \" + (i + 1) + \"<span>\" + name + \"</span></li>\");
 
                     if (i == 0) {
                         createNextButton(i);
                         selectStep(i);
                     }
                     else if (i == count - 1) {
-                        $("#step" + i).hide();
+                        $(\"#step\" + i).hide();
                         createPrevButton(i);
                     }
                     else {
-                        $("#step" + i).hide();
+                        $(\"#step\" + i).hide();
                         createPrevButton(i);
                         createNextButton(i);
                     }
                 });
 
                 function createPrevButton(i) {
-                    var stepName = "step" + i;
-                    $("#" + stepName + "commands").append("<a href='#' id='" + stepName + "Prev' class='prev btn btn-info'>< Back</a>");
+                    var stepName = \"step\" + i;
+                    $(\"#\" + stepName + \"commands\").append(\"<a href='#' id='\" + stepName + \"Prev' class='prev btn btn-info'>< Back</a>\");
 
-                    $("#" + stepName + "Prev").bind("click", function (e) {
-                        $("#" + stepName).hide();
-                        $("#step" + (i - 1)).show();
+                    $(\"#\" + stepName + \"Prev\").bind(\"click\", function (e) {
+                        $(\"#\" + stepName).hide();
+                        $(\"#step\" + (i - 1)).show();
 
                         selectStep(i - 1);
                     });
                 }
 
                 function createNextButton(i) {
-                    var stepName = "step" + i;
-                    $("#" + stepName + "commands").append("<a href='#' id='" + stepName + "Next' class='next btn btn-info'>Next ></a>");
+                    var stepName = \"step\" + i;
+                    $(\"#\" + stepName + \"commands\").append(\"<a href='#' id='\" + stepName + \"Next' class='next btn btn-info'>Next ></a>\");
 
-                    $("#" + stepName + "Next").bind("click", function (e) {
-                        $("#" + stepName).hide();
-                        $("#step" + (i + 1)).show();
+                    $(\"#\" + stepName + \"Next\").bind(\"click\", function (e) {
+                        $(\"#\" + stepName).hide();
+                        $(\"#step\" + (i + 1)).show();
 
                         selectStep(i + 1);
                     });
                 }
 
                 function selectStep(i) {
-                    $("#steps li").removeClass("current");
-                    $("#stepDesc" + i).addClass("current");
+                    $(\"#steps li\").removeClass(\"current\");
+                    $(\"#stepDesc\" + i).addClass(\"current\");
                 }
 
             }
         })(jQuery);
 
     </script>
-
-
-	<?php
+	    ";
+    }
 
     include('footerTemplate.php');
 }else{
