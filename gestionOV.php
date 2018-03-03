@@ -441,6 +441,7 @@ if(isset($_SESSION['login'])) {
                             </thead>
                             <tbody>
 							<?php
+                            $i = 0;
 							$file = fopen("files/ordenesVenta.txt","w") or die("No se encontró el archivo!");
 							fwrite($file, pack("CCC",0xef,0xbb,0xbf));
 							$txt = "Nro. Orden,Fecha,Cliente,Estado".PHP_EOL;
@@ -461,10 +462,11 @@ if(isset($_SESSION['login'])) {
 									echo "<td class='text-center'>{$row3['nombre']}</td>";
 								}
                                 $sida = session_id();
+								$i++;
 								echo "
                                         <td class='text-center'>{$estado}</td>
                                         <td class='text-center'>
-                                            <form method='post' id='myForm'>
+                                            <form method='post' id='myForm{$i}'>
                                             <input type='hidden' id='sid' name='sid' value='{$sida}'>
                                             <input type='hidden' id='pid' name='pid' value='0'>
                                                 <div class='dropdown'>
@@ -649,7 +651,7 @@ if(isset($_SESSION['login'])) {
                                                     </button>
                                                     <div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
                                                         <button name='verProductos' class='dropdown-item' type='submit' formaction='detalleOV.php'>Ver Detalle</button>
-                                                        <button href='#' onclick='javascript:doClientPrint();' class='dropdown-item'>Imprimir</button>
+                                                        <button href='#' onclick='javascript:doClientPrint(getFormId(this.form));' class='dropdown-item'>Imprimir</button>
                                                         ";
 								if($estado == 'Parcial'){
 									echo "<button name='cancelacion' class='dropdown-item' type='submit' formaction='nuevoMovimiento.php'>Registrar Pago</button>";
@@ -699,10 +701,14 @@ if(isset($_SESSION['login'])) {
 
     <script type="text/javascript">
 
-        function doClientPrint() {
+        function getFormId (form){
+            return form.id;
+        }
+
+        function doClientPrint(form) {
 
             //collect printer settings and raw commands
-            var printJobInfo = $("#myForm").serialize();
+            var printJobInfo = $(form).serialize();
 
             // Launch WCPP at the client side for printing...
             jsWebClientPrint.print(printJobInfo);
