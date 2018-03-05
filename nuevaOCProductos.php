@@ -287,15 +287,21 @@ if(isset($_SESSION['login'])) {
 						while($searchIndex2 = mysqli_fetch_array($search2)){
 						    if($tipoProd == 1){
 						        $precioUnitario = $data -> val ($row,$pu);
-						        if(substr($precioUnitario,0,2) == 'S/' || substr($precioUnitario,0,2 == 's/')){
-						            $precioUnitario = substr(($data -> val($row,$pu)),2);
+                                for($i=0;$i<5;$i++){
+                                    if(in_array((substr($precioUnitario,$i,($i+1))),$arrayNumeros)){
+                                        $precioUnitario = substr($precioUnitario,$i);
+                                        break;
+                                    }
                                 }
 							    $precioUnitario = ($precioUnitario * (100 - $escalaDscto) / 100);
 							    $insert = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProdAdd}','{$_POST['idTransaccion']}',null,null,null,{$precioUnitario},{$cant},null,'Excel',null,null,TRUE,0)");
                             }else{
                                 $precioUnitario = $data -> val ($row,$pu);
-                                if(substr($precioUnitario,0,2) == 'S/' || substr($precioUnitario,0,2 == 's/')){
-                                    $precioUnitario = substr(($data -> val($row,$pu)),2);
+                                for($i=0;$i<5;$i++){
+                                    if(in_array((substr($precioUnitario,$i,($i+1))),$arrayNumeros)){
+                                        $precioUnitario = substr($precioUnitario,$i);
+                                        break;
+                                    }
                                 }
 							    $insert = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProdAdd}','{$_POST['idTransaccion']}',null,null,null,{$precioUnitario},{$cant},null,'Excel',null,null,FALSE,0)");
                             }
