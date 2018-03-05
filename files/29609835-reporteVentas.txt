@@ -1,15 +1,4 @@
 Ventas
 Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
-1,Jessica Adriana Salas Pacheco,OV18B23J0014,2018-02-23,CCORI CRISTAL LEAU DE PARFUM Negro,1,165,165
-2,Jessica Adriana Salas Pacheco,OV18B23J5206,2018-02-23,ULTRA DEF DEL LIQ PINC NEGRO Negro,1,30,30
-3,Jessica Adriana Salas Pacheco,OV18B23J5206,2018-02-23,CRECE EXTREME RIMEL ACELERADOR MY Negro,1,35,35
-4,Jessica Adriana Salas Pacheco,OV18B23J5206,2018-02-23,PERFECT COVER CORRECTOR CLARO1 Negro,2,29.9,59.8
-5,Jessica Adriana Salas Pacheco,OV18B23J5206,2018-02-23,UNIQUECIL RIMEL EXTRA XL NEGRO MY Negro,1,35,35
-6,Jessica Adriana Salas Pacheco,OV18B23J5206,2018-02-23,P/S PERFECT COVER CLARO 1 Negro,1,46,46
-7,Jessica Adriana Salas Pacheco,OV18B23J5206,2018-02-23,ULTRA DEF DEL PLUM OJOS NEGRO Negro,1,32,32
-8,Jessica Adriana Salas Pacheco,OV18B23J5206,2018-02-23,ULTRA DEF DEL CEJAS MARRON MED Negro,1,27,27
-9,Jessica Adriana Salas Pacheco,OV18B23J5206,2018-02-23,Perfect Ten Acrylic Blue Negro,1,17,17
-10,Jessica Adriana Salas Pacheco,OV18B23J5206,2018-02-23,B/L HYDRA-LIP BRILLANTINA Negro,1,27.9,27.9
-11,Jessica Adriana Salas Pacheco,OV18B23L4046,2018-02-23,ULTRA DEF DEL PLUM OJOS NEGRO Negro,1,32,32
-12,Jessica Adriana Salas Pacheco,OV18B23L4717,2018-02-23,EFFECTIVE ORIGINAL DESODORANTE Negro,2,12.9,25.8
-13,Jessica Adriana Salas Pacheco,OV18B23L5716,2018-02-23,SOY FASHION FRESH COLOGNE Negro,1,35,35
+1,Roxana Hinojosa Menendez,OV18C05J0925,2018-03-05,LESENCE FLORES DE CEREZO COLOGNE Floral dulce con notas de magnolia, flor de cerezo y bambu,1,27.5,27.5
+2,Roxana Hinojosa Menendez,OV18C05J0925,2018-03-05,LESENCE BOUQUET ORIENTAL COLOGNE Aroma  de pera, fressia y tonka.,1,27.5,27.5

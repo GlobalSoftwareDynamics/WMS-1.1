@@ -7,6 +7,8 @@ if(isset($_SESSION['login'])) {
 	$fecha2=explode("-",$fechahoyformato2);
 	$fechaInicioDeudas = date("Y-m-d");
 	$fechaFinDeudas = date('Y-m-d', strtotime($fechaInicioDeudas. ' + 15 days'));
+
+	
 	?>
 
     <section class="container">

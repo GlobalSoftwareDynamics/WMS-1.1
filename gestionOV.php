@@ -441,12 +441,14 @@ if(isset($_SESSION['login'])) {
                             </thead>
                             <tbody>
                             <?php
+                            $today = date("Y-m-d");
+                            $ago = date('Y-m-d', strtotime($today. ' - 30 days'));
                             $i = 0;
                             $file = fopen("files/ordenesVenta.txt","w") or die("No se encontró el archivo!");
                             fwrite($file, pack("CCC",0xef,0xbb,0xbf));
                             $txt = "Nro. Orden,Fecha,Cliente,Estado".PHP_EOL;
                             fwrite($file, $txt);
-                            $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '5' ORDER BY fechaTransaccion DESC");
+                            $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '5' AND fechaTransaccion >= '{$ago} 00:00:00' ORDER BY fechaTransaccion DESC");
                             while($row = mysqli_fetch_array($query)){
                                 $i++;
                                 $date=explode("|",$row['fechaTransaccion']);

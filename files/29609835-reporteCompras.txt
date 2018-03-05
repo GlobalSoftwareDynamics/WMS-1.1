@@ -1,2 +1,21 @@
 ﻿Compras
 Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
+1,Jessica Adriana Salas Pacheco,OCP18C05I3706,2018-03-05,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+2,Jessica Adriana Salas Pacheco,OCP18C05I3706,2018-03-05,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+3,Jessica Adriana Salas Pacheco,OCP18C05I3706,2018-03-05,MAQUINA DE CANCHITA ROJA,1,0,0
+4,Jessica Adriana Salas Pacheco,OCP18C05I3706,2018-03-05,6 TAZONES N2 C1-2 TAZONES,1,0,0
+5,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,VIVO TERRA COLOGNE fOR MEN notas maderosas de ruibarbo, eucalipto y cedro rojo.,1,0,0
+6,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+7,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,0,0
+8,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+9,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,ESTACION DE COCINA N3 C1-2 ROJA,1,0,0
+10,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,SET MAKERS O TEBCA N4- SELECTIVO SELECYIVO,1,0,0
+11,Jessica Adriana Salas Pacheco,OCP18C05J1934,2018-03-05,Catálogo 2018C3 N/A,2,0,0
+12,Jessica Adriana Salas Pacheco,OCP18C05J1934,2018-03-05,KIT PULSERA PLATA Pulsera plata,1,0,0
+13,Jessica Adriana Salas Pacheco,OCP18C05J1934,2018-03-05,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+14,Jessica Adriana Salas Pacheco,OCP18C05J1934,2018-03-05,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+15,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+16,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,Catálogo 2018C3 N/A,3,0,0
+17,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,KIT PULSERA PLATA Pulsera plata,1,0,0
+18,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+19,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0

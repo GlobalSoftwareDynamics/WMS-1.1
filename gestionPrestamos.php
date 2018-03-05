@@ -358,11 +358,13 @@ if(isset($_SESSION['login'])) {
                             </thead>
                             <tbody>
                             <?php
+                            $today = date("Y-m-d");
+                            $ago = date('Y-m-d', strtotime($today. ' - 30 days'));
                             $file = fopen("files/prestamos.txt","w") or die("No se encontró el archivo!");
                             fwrite($file, pack("CCC",0xef,0xbb,0xbf));
                             $txt = "Nro. Orden,Responsable,Fecha de Préstamo,Fecha de Vencimiento,Deudor,Estado".PHP_EOL;
                             fwrite($file, $txt);
-                            $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '6' ORDER BY fechaTransaccion DESC");
+                            $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '6' AND fechaTransaccion >= '{$ago} 00:00:00' ORDER BY fechaTransaccion DESC");
                             while($row = mysqli_fetch_array($query)){
 	                            $replace = [
 		                            '&lt;' => '', '&gt;' => '', '&#039;' => '', '&amp;' => '',

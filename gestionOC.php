@@ -147,12 +147,14 @@ if(isset($_SESSION['login'])) {
 						</thead>
 						<tbody>
 						<?php
+                        $today = date("Y-m-d");
+                        $ago = date('Y-m-d', strtotime($today. ' - 30 days'));
 						$file = fopen("files/ordenesCompra.txt","w") or die("No se encontró el archivo!");
 						fwrite($file, pack("CCC",0xef,0xbb,0xbf));
 						$txt = "Nro. Orden,Fecha de Creación,Fecha Estimada de Recepción/OC Relacionada,Estado".PHP_EOL;
 						fwrite($file, $txt);
 						$idOR = idgen("OR");
-						$query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '1' ORDER BY fechaTransaccion DESC");
+						$query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '1' AND fechaTransaccion >= '{$ago} 00:00:00' ORDER BY fechaTransaccion DESC");
 						while($row = mysqli_fetch_array($query)){
 						    $fechaTransaccion = explode("|",$row['fechaTransaccion']);
 							$query2 = mysqli_query($link,"SELECT * FROM Estado WHERE idEstado = '{$row['idEstado']}'");

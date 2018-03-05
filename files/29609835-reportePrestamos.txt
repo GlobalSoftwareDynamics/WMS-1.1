@@ -1,5 +1,5 @@
 Préstamos
 Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
-1,Roxana Hinojosa Menendez,PS18B23K2306,2018-02-23,ELIXIR DE VIDA CR DE OJOS 15 G Negro,1,72,72
-2,Roxana Hinojosa Menendez,PS18B23K2306,2018-02-23,DULCE VANIDAD EAU DE PARFUM Negro,1,78,78
-3,Jessica Adriana Salas Pacheco,PS18B23L3754,2018-02-23,ULTRA DEF DEL LIQ PLUM NEGRO Negro,1,32,32
+1,Jessica Adriana Salas Pacheco,PS18C05K0104,2018-03-05,RUBOR COLOR EFFECT PETAL ROSE  Piel mediana,1,49,49
+2,Jessica Adriana Salas Pacheco,PS18C05K0854,2018-03-05,OSADIA EAU DE PARFUM  naranja brasilera, maracuyá y destellos de granada.,1,99,99
+3,Jessica Adriana Salas Pacheco,PS18C05K2802,2018-03-05,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,35,35

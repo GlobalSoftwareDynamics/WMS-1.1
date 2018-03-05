@@ -400,6 +400,8 @@ if(substr($_POST['idTransaccion'],0,2) != 'PS'){
                                     $cmds .= $newLine;
                                     $cmds .= 'FECHA  '.$date;
                                     $cmds .= $newLine;
+                                    $cmds .= 'CLIENTE  '.$proveedor;
+                                    $cmds .= $newLine;
                                     $cmds .= 'CODIGO  PRODUCTO  CANT  V.U.  FECHA';
                                     $cmds .= $newLine;
                                     $query = mysqli_query($link,"SELECT * FROM Transaccion WHERE referenciaTransaccion = '{$_POST['idTransaccion']}'");

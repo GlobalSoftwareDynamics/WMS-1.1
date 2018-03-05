@@ -120,6 +120,9 @@ if(isset($_SESSION['login'])) {
 $numcuentasquery=mysqli_query($link,"SELECT * FROM Cuenta");
 $numcuentas=mysqli_num_rows($numcuentasquery);
 
+    $today = date("Y-m-d");
+    $ago = date('Y-m-d', strtotime($today. ' - 30 days'));
+
 ?>
     <script>
         function myFunction() {
@@ -278,7 +281,7 @@ $numcuentas=mysqli_num_rows($numcuentasquery);
                                     $medioPago = null;
                                     $comprobante = null;
                                     $tipoMovimiento = null;
-                                    $result=mysqli_query($link,"SELECT * FROM Movimiento ORDER BY fecha DESC");
+                                    $result=mysqli_query($link,"SELECT * FROM Movimiento WHERE fecha >= '{$ago} 00:00:00' ORDER BY fecha DESC");
                                     while ($fila=mysqli_fetch_array($result)){
                                         $fecha=explode("|",$fila['fecha']);
                                         echo "<tr>";
@@ -422,7 +425,7 @@ $numcuentas=mysqli_num_rows($numcuentasquery);
                                     </thead>
                                     <tbody>
                                     <?php
-                                    $result=mysqli_query($link,"SELECT * FROM Movimiento WHERE idCuenta = 1 ORDER BY fecha DESC");
+                                    $result=mysqli_query($link,"SELECT * FROM Movimiento WHERE idCuenta = 1 AND fecha >= '{$ago} 00:00:00' ORDER BY fecha DESC");
                                     while ($fila=mysqli_fetch_array($result)){
                                         $fecha=explode("|",$fila['fecha']);
                                         echo "<tr>";
@@ -565,7 +568,7 @@ $numcuentas=mysqli_num_rows($numcuentasquery);
                                             </tr>
                                             </thead>
                                             <tbody>";
-                                $result4=mysqli_query($link,"SELECT * FROM Movimiento WHERE idCuenta = {$fila['idCuenta']} ORDER BY fecha DESC");
+                                $result4=mysqli_query($link,"SELECT * FROM Movimiento WHERE idCuenta = {$fila['idCuenta']} AND fecha >= '{$ago} 00:00:00' ORDER BY fecha DESC");
                                 while ($fila4=mysqli_fetch_array($result4)){
                                     $fecha=explode("|",$fila4['fecha']);
                                     echo "<tr>";

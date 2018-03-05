@@ -4,6 +4,8 @@ include('funciones.php');
 if(isset($_SESSION['login'])) {
     include('adminTemplate.php');
 
+    $today = date("Y-m-d");
+    $ago = date('Y-m-d', strtotime($today. ' - 30 days'));
     ?>
     <script>
         function myFunction() {
@@ -166,7 +168,7 @@ if(isset($_SESSION['login'])) {
                                     <tbody>
                                     <?php
                                     $value="";
-                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') ORDER BY fechaTransaccion DESC");
+                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
                                         echo "<tr>";
@@ -281,7 +283,7 @@ if(isset($_SESSION['login'])) {
                                     <tbody>
                                     <?php
                                     $value="";
-                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='1' ORDER BY fechaTransaccion DESC");
+                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='1' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
                                         echo "<tr>";
@@ -341,7 +343,7 @@ if(isset($_SESSION['login'])) {
                                     <tbody>
                                     <?php
                                     $value="";
-                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='5' ORDER BY fechaTransaccion DESC");
+                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='5' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
                                         echo "<tr>";
@@ -401,7 +403,7 @@ if(isset($_SESSION['login'])) {
                                     <tbody>
                                     <?php
                                     $value="";
-                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='2' OR idTipoTransaccion = '6' ORDER BY fechaTransaccion DESC");
+                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='2' OR idTipoTransaccion = '6' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
                                         switch($fila['idTipoTransaccion']){
@@ -469,7 +471,7 @@ if(isset($_SESSION['login'])) {
                                     <tbody>
                                     <?php
                                     $value="";
-                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='4' ORDER BY fechaTransaccion DESC");
+                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='4' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
                                         echo "<tr>";
@@ -521,7 +523,7 @@ if(isset($_SESSION['login'])) {
                                     <tbody>
                                     <?php
                                     $value="";
-                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='8' ORDER BY fechaTransaccion DESC");
+                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='8' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
                                         echo "<tr>";
@@ -578,7 +580,7 @@ if(isset($_SESSION['login'])) {
                                     <tbody>
                                     <?php
                                     $value="";
-                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='7' ORDER BY fechaTransaccion DESC");
+                                    $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='7' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
                                         echo "<tr>";
