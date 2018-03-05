@@ -112,15 +112,155 @@ if(isset($_SESSION['login'])) {
 			$row2++;
 			$codigoUnique = $data -> val(5,'A');
 			$escalaDscto = substr($data -> val($row2,'C'),0,2);
-			$subTotal1 = substr($data -> val($row2,'B'),1);
-			$subTotal2 = substr($data -> val($row2,'D'),1);
-			$ofertaCapital = substr($data -> val($row2+1,'D'),1);
-			$materialPromocional = substr($data -> val($row2+2,'D'),1);
-			$subTotal3 = substr($data -> val($row2+3,'D'),1);
-			$flete = substr($data -> val($row2+4,'D'),1);
-			$precioVenta = substr($data -> val($row2+5,'D'),1);
-			$percepcionSUNAT= substr($data -> val($row2+6,'D'),1);
-			$totalPagar = substr($data -> val($row2+7,'D'),1);
+			$subTotal1 = $data -> val($row2,'B');
+            $subTotal2 = $data -> val($row2,'D');
+			$ofertaCapital = $data -> val($row2+1,'D');
+			$materialPromocional = $data -> val($row2+2,'D');
+			$subTotal3 = $data -> val($row2+3,'D');
+			$flete = $data -> val($row2+4,'D');
+			$precioVenta = $data -> val($row2+5,'D');
+			$percepcionSUNAT= $data -> val($row2+6,'D');
+			$totalPagar = $data -> val($row2+7,'D');
+
+            $arrayNumeros = [0,1,2,3,4,5,6,7,8,9];
+
+            for($i=0;$i<5;$i++){
+                if(in_array((substr($subTotal1,$i,($i+1))),$arrayNumeros)){
+                    $subTotal1 = substr($subTotal1,$i);
+                    break;
+                }
+            }
+            for($i=0;$i<5;$i++){
+                if(in_array((substr($subTotal2,$i,($i+1))),$arrayNumeros)){
+                    $subTotal2 = substr($subTotal2,$i);
+                    break;
+                }
+            }
+            for($i=0;$i<5;$i++){
+                if(in_array((substr($ofertaCapital,$i,($i+1))),$arrayNumeros)){
+                    $ofertaCapital = substr($ofertaCapital,$i);
+                    break;
+                }
+            }
+            for($i=0;$i<5;$i++){
+                if(in_array((substr($materialPromocional,$i,($i+1))),$arrayNumeros)){
+                    $materialPromocional = substr($materialPromocional,$i);
+                    break;
+                }
+            }
+            for($i=0;$i<5;$i++){
+                if(in_array((substr($subTotal3,$i,($i+1))),$arrayNumeros)){
+                    $subTotal3 = substr($subTotal3,$i);
+                    break;
+                }
+            }
+            for($i=0;$i<5;$i++){
+                if(in_array((substr($flete,$i,($i+1))),$arrayNumeros)){
+                    $flete = substr($flete,$i);
+                    break;
+                }
+            }
+            for($i=0;$i<5;$i++){
+                if(in_array((substr($precioVenta,$i,($i+1))),$arrayNumeros)){
+                    $precioVenta = substr($precioVenta,$i);
+                    break;
+                }
+            }
+            for($i=0;$i<5;$i++){
+                if(in_array((substr($percepcionSUNAT,$i,($i+1))),$arrayNumeros)){
+                    $percepcionSUNAT = substr($percepcionSUNAT,$i);
+                    break;
+                }
+            }
+            for($i=0;$i<5;$i++){
+                if(in_array((substr($totalPagar,$i,($i+1))),$arrayNumeros)){
+                    $totalPagar = substr($totalPagar,$i);
+                    break;
+                }
+            }
+
+            /*if(substr($subTotal1,0,4) == 'S/. ' || substr($subTotal1,0,4 == 's/. ')){
+                $subTotal1 = substr(($data -> val($row2,'B')),4);
+            }
+            if(substr($subTotal1,0,3) == 'S/.' || substr($subTotal1,0,3 == 's/.' || substr($subTotal1,0,3 == 'S/ ' || substr($subTotal1,0,3 == 's/ ')))){
+                $subTotal1 = substr(($data -> val($row2,'B')),3);
+            }
+            if(substr($subTotal1,0,2) == 'S/' || substr($subTotal1,0,2 == 's/')){
+                $subTotal1 = substr(($data -> val($row2,'B')),2);
+            }
+            if(substr($subTotal2,0,4) == 'S/. ' || substr($subTotal2,0,4 == 's/. ')){
+                $subTotal2 = substr(($data -> val($row2,'D')),4);
+            }
+            if(substr($subTotal2,0,3) == 'S/.' || substr($subTotal2,0,3 == 's/.' || substr($subTotal2,0,3 == 'S/ ' || substr($subTotal2,0,3 == 's/ ')))){
+                $subTotal2 = substr(($data -> val($row2,'D')),3);
+            }
+            if(substr($subTotal2,0,2) == 'S/' || substr($subTotal2,0,2 == 's/')){
+                $subTotal2 = substr(($data -> val($row2,'D')),2);
+            }
+            if(substr($ofertaCapital,0,4) == 'S/. ' || substr($ofertaCapital,0,4 == 's/. ')){
+                $ofertaCapital = substr(($data -> val($row2+1,'D')),4);
+            }
+            if(substr($ofertaCapital,0,3) == 'S/.' || substr($ofertaCapital,0,3 == 's/.' || substr($ofertaCapital,0,3 == 'S/ ' || substr($ofertaCapital,0,3 == 's/ ')))){
+                $ofertaCapital = substr(($data -> val($row2+1,'D')),3);
+            }
+            if(substr($ofertaCapital,0,2) == 'S/' || substr($ofertaCapital,0,2 == 's/')){
+                $ofertaCapital = substr(($data -> val($row2+1,'D')),2);
+            }
+            if(substr($materialPromocional,0,4) == 'S/. ' || substr($materialPromocional,0,4 == 's/. ')){
+                $materialPromocional = substr(($data -> val($row2+2,'D')),4);
+            }
+            if(substr($materialPromocional,0,3) == 'S/.' || substr($materialPromocional,0,3 == 's/.' || substr($materialPromocional,0,3 == 'S/ ' || substr($materialPromocional,0,3 == 's/ ')))){
+                $materialPromocional = substr(($data -> val($row2+2,'D')),3);
+            }
+            if(substr($materialPromocional,0,2) == 'S/' || substr($materialPromocional,0,2 == 's/')){
+                $materialPromocional = substr(($data -> val($row2+2,'D')),2);
+            }
+            if(substr($subTotal3,0,4) == 'S/. ' || substr($subTotal3,0,4 == 's/. ')){
+                $subTotal3 = substr(($data -> val($row2+3,'D')),4);
+            }
+            if(substr($subTotal3,0,3) == 'S/.' || substr($subTotal3,0,3 == 's/.' || substr($subTotal3,0,3 == 'S/ ' || substr($subTotal3,0,3 == 's/ ')))){
+                $subTotal3 = substr(($data -> val($row2+3,'D')),3);
+            }
+            if(substr($subTotal3,0,2) == 'S/' || substr($subTotal3,0,2 == 's/')){
+                $subTotal3 = substr(($data -> val($row2+3,'D')),2);
+            }
+            if(substr($flete,0,4) == 'S/. ' || substr($flete,0,4 == 's/. ')){
+                $flete = substr(($data -> val($row2+4,'D')),4);
+            }
+            if(substr($flete,0,3) == 'S/.' || substr($flete,0,3 == 's/.' || substr($flete,0,3 == 'S/ ' || substr($flete,0,3 == 's/ ')))){
+                $flete = substr(($data -> val($row2+4,'D')),3);
+            }
+            if(substr($flete,0,2) == 'S/' || substr($flete,0,2 == 's/')){
+                $flete = substr(($data -> val($row2+4,'D')),2);
+            }
+            if(substr($precioVenta,0,4) == 'S/. ' || substr($precioVenta,0,4 == 's/. ')){
+                $precioVenta = substr(($data -> val($row2+5,'D')),4);
+            }
+            if(substr($precioVenta,0,3) == 'S/.' || substr($precioVenta,0,3 == 's/.' || substr($precioVenta,0,3 == 'S/ ' || substr($precioVenta,0,3 == 's/ ')))){
+                $precioVenta = substr(($data -> val($row2+5,'D')),3);
+            }
+            if(substr($precioVenta,0,2) == 'S/' || substr($precioVenta,0,2 == 's/')){
+                $precioVenta = substr(($data -> val($row2+5,'D')),2);
+            }
+            if(substr($percepcionSUNAT,0,4) == 'S/. ' || substr($percepcionSUNAT,0,4 == 's/. ')){
+                $percepcionSUNAT = substr(($data -> val($row2+6,'D')),4);
+            }
+            if(substr($percepcionSUNAT,0,3) == 'S/.' || substr($percepcionSUNAT,0,3 == 's/.' || substr($percepcionSUNAT,0,3 == 'S/ ' || substr($percepcionSUNAT,0,3 == 's/ ')))){
+                $percepcionSUNAT = substr(($data -> val($row2+6,'D')),3);
+            }
+            if(substr($percepcionSUNAT,0,2) == 'S/' || substr($percepcionSUNAT,0,2 == 's/')){
+                $percepcionSUNAT = substr(($data -> val($row2+6,'D')),2);
+            }
+            if(substr($totalPagar,0,4) == 'S/. ' || substr($totalPagar,0,4 == 's/. ')){
+                $totalPagar = substr(($data -> val($row2+7,'D')),4);
+            }
+            if(substr($totalPagar,0,3) == 'S/.' || substr($totalPagar,0,3 == 's/.' || substr($totalPagar,0,3 == 'S/ ' || substr($totalPagar,0,3 == 's/ ')))){
+                $totalPagar = substr(($data -> val($row2+7,'D')),3);
+            }
+            if(substr($totalPagar,0,2) == 'S/' || substr($totalPagar,0,2 == 's/')){
+                $totalPagar = substr(($data -> val($row2+7,'D')),2);
+            }*/
+
 			$codigo = 'A';
 			$cantidad = 'B';
 			$descripcion = 'C';
@@ -146,10 +286,17 @@ if(isset($_SESSION['login'])) {
 						$search2 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$idProdAdd}'");
 						while($searchIndex2 = mysqli_fetch_array($search2)){
 						    if($tipoProd == 1){
-							    $precioUnitario = (((substr($data -> val($row,$pu),1)) * (100 - $escalaDscto)) / 100);
+						        $precioUnitario = $data -> val ($row,$pu);
+						        if(substr($precioUnitario,0,2) == 'S/' || substr($precioUnitario,0,2 == 's/')){
+						            $precioUnitario = substr(($data -> val($row,$pu)),2);
+                                }
+							    $precioUnitario = ($precioUnitario * (100 - $escalaDscto) / 100);
 							    $insert = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProdAdd}','{$_POST['idTransaccion']}',null,null,null,{$precioUnitario},{$cant},null,'Excel',null,null,TRUE,0)");
                             }else{
-							    $precioUnitario = (substr($data -> val($row,$pu),1));
+                                $precioUnitario = $data -> val ($row,$pu);
+                                if(substr($precioUnitario,0,2) == 'S/' || substr($precioUnitario,0,2 == 's/')){
+                                    $precioUnitario = substr(($data -> val($row,$pu)),2);
+                                }
 							    $insert = mysqli_query($link, "INSERT INTO TransaccionProducto VALUES ('{$idProdAdd}','{$_POST['idTransaccion']}',null,null,null,{$precioUnitario},{$cant},null,'Excel',null,null,FALSE,0)");
                             }
                         }
