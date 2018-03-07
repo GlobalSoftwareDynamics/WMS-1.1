@@ -1,0 +1,414 @@
+﻿Compras
+Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
+1,Jessica Adriana Salas Pacheco,OC18C01L5941,2018-03-01,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+2,Jessica Adriana Salas Pacheco,OC18C01L5941,2018-03-01,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+3,Jessica Adriana Salas Pacheco,OC18C01L5941,2018-03-01,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+4,Jessica Adriana Salas Pacheco,OC18C01L5941,2018-03-01,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+5,Jessica Adriana Salas Pacheco,OC18C01L5941,2018-03-01,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+6,Jessica Adriana Salas Pacheco,OC18C01L5941,2018-03-01,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+7,Jessica Adriana Salas Pacheco,OC18C01L5941,2018-03-01,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+8,Jessica Adriana Salas Pacheco,OC18C01L5941,2018-03-01,ESMALTE PERFECT TEN AMANTES DE MEDIA NOCHE Vino,2,11.175,22.35
+9,Jessica Adriana Salas Pacheco,OC18C01M1111,2018-03-01,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+10,Jessica Adriana Salas Pacheco,OC18C01M1111,2018-03-01,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+11,Jessica Adriana Salas Pacheco,OC18C01M1111,2018-03-01,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+12,Jessica Adriana Salas Pacheco,OC18C01M1111,2018-03-01,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+13,Jessica Adriana Salas Pacheco,OC18C01M1111,2018-03-01,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+14,Jessica Adriana Salas Pacheco,OC18C01M1111,2018-03-01,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+15,Jessica Adriana Salas Pacheco,OC18C01M1111,2018-03-01,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+16,Jessica Adriana Salas Pacheco,OC18C01M2904,2018-03-01,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,30,60
+17,Jessica Adriana Salas Pacheco,OC18C01M2904,2018-03-01,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,30,60
+18,Jessica Adriana Salas Pacheco,OC18C01M2904,2018-03-01,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+19,Jessica Adriana Salas Pacheco,OC18C01M2904,2018-03-01,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+20,Jessica Adriana Salas Pacheco,OC18C01M2904,2018-03-01,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+21,Jessica Adriana Salas Pacheco,OC18C01M2904,2018-03-01,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+22,Jessica Adriana Salas Pacheco,OC18C01M2904,2018-03-01,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+23,Usuario Prueba,OC18C03I0546,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,6,13,78
+24,Usuario Prueba,OC18C03I0546,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,3,74.75,224.25
+25,Usuario Prueba,OC18C03I0546,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,31.85,127.4
+26,Usuario Prueba,OC18C03I0546,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,10,16.9,169
+27,Usuario Prueba,OC18C03I0546,2018-03-03,VIVO AQUA COLOGNE FOR MEN FRESCURA CON ACORDES MARINOS,3,38.35,115.05
+28,Usuario Prueba,OC18C03I0546,2018-03-03,PULSERA COQUET PERLE ORO ROSADO,1,100.75,100.75
+29,Usuario Prueba,OC18C03I0546,2018-03-03,SET PULSERAS LAIA SET DE 3 PULSERAS,1,97.5,97.5
+30,Usuario Prueba,OC18C03I0546,2018-03-03,SET DE SORTIJAS CRISTAL DELYR T8 BAÑO DE ORO ROSADO BRILLANTE,1,91,91
+31,Usuario Prueba,OC18C03I0546,2018-03-03,TOTAL BLOCK ANTI EDAD MATT SPF50+ Rostro con extracto marino acabado mate,2,31.85,63.7
+32,Usuario Prueba,OC18C03I0546,2018-03-03,COLECCION LOVE KISS COLLAR Y ARETES,1,45.5,45.5
+33,Usuario Prueba,OC18C03I0546,2018-03-03,ARGOLLAS REAL ARGOLLAS,1,42.25,42.25
+34,Usuario Prueba,OC18C03I0546,2018-03-03,C/S COLOR EFFECT ARTY FEMME Corales y azules,1,33.8,33.8
+35,Usuario Prueba,OC18C03I0546,2018-03-03,LENTES DE SOL SOLE LENTES DE MUJER,2,35,70
+36,Dante Luis Carrera Vasquez,OC18C03I1431,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+37,Dante Luis Carrera Vasquez,OC18C03I1431,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+38,Dante Luis Carrera Vasquez,OC18C03I1431,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+39,Dante Luis Carrera Vasquez,OC18C03I1431,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+40,Dante Luis Carrera Vasquez,OC18C03I1431,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+41,Dante Luis Carrera Vasquez,OC18C03I1431,2018-03-03,ESMALTE PERFECT TEN TE QUIERO ROSA rosado claro,2,11.175,22.35
+42,Dante Luis Carrera Vasquez,OC18C03I1431,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+43,Dante Luis Carrera Vasquez,OC18C03I1431,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+44,Dante Luis Carrera Vasquez,OC18C03I2121,2018-03-03,VIVO AQUA COLOGNE FOR MEN FRESCURA CON ACORDES MARINOS,2,41.3,82.6
+45,Dante Luis Carrera Vasquez,OC18C03I2121,2018-03-03,VIVO HERVE COLOGNE fOR MEN aroma herbal y notas de estragón, lavanda y madera de gaiac.,1,41.3,41.3
+46,Dante Luis Carrera Vasquez,OC18C03I2121,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,34.3,137.2
+47,Dante Luis Carrera Vasquez,OC18C03I2121,2018-03-03,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,2,80.5,161
+48,Dante Luis Carrera Vasquez,OC18C03I2121,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,80.5,80.5
+49,Dante Luis Carrera Vasquez,OC18C03I2121,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,80.5,80.5
+50,Dante Luis Carrera Vasquez,OC18C03I2636,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+51,Dante Luis Carrera Vasquez,OC18C03I2636,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+52,Dante Luis Carrera Vasquez,OC18C03I2636,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+53,Dante Luis Carrera Vasquez,OC18C03I2636,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+54,Dante Luis Carrera Vasquez,OC18C03I2636,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+55,Dante Luis Carrera Vasquez,OC18C03I2636,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+56,Dante Luis Carrera Vasquez,OC18C03I2636,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+57,Dante Luis Carrera Vasquez,OC18C03I2636,2018-03-03,ESMALTE PERFECT TEN AZUL INFINITO Azul oscuro,2,11.175,22.35
+58,Usuario Prueba,OC18C03I5738,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,3,70,210
+59,Usuario Prueba,OC18C03I5738,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,70,70
+60,Usuario Prueba,OC18C03I5738,2018-03-03,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,2,70,140
+61,Usuario Prueba,OC18C03I5738,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,36.75,147
+62,Usuario Prueba,OC18C03J0705,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,4,15,60
+63,Usuario Prueba,OC18C03J0705,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+64,Usuario Prueba,OC18C03J0705,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+65,Usuario Prueba,OC18C03J0705,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,3,15,45
+66,Usuario Prueba,OC18C03J0705,2018-03-03,EFFECTIVE ORIGINAL DESODORANTE Blanco tapa celeste,1,9.675,9.68
+67,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,VIVO AQUA COLOGNE FOR MEN FRESCURA CON ACORDES MARINOS,2,41.3,82.6
+68,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,VIVO HERVE COLOGNE fOR MEN aroma herbal y notas de estragón, lavanda y madera de gaiac.,1,41.3,41.3
+69,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,34.3,137.2
+70,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,2,14,28
+71,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,14,28
+72,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,CRECE EXTREME RIMEL ACELERADOR MY Negro,2,24.5,49
+73,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03, HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY fucsia,2,20.3,40.6
+74,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,14,28
+75,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,14,28
+76,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03, HYDRA-LIP LARGA DURACION AMOR PICANTE  rojo oscuro,1,20.3,20.3
+77,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,L/L HYDRA-LIP LD FUEGO ELEMENT MY Negro,2,20.3,40.6
+78,Dante Luis Carrera Vasquez,OC18C03J2634,2018-03-03,OSADIA EAU DE PARFUM  naranja brasilera, maracuyá y destellos de granada.,1,55.3,55.3
+79,Usuario Prueba,OC18C03J2824,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+80,Usuario Prueba,OC18C03J2824,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+81,Usuario Prueba,OC18C03J2824,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+82,Usuario Prueba,OC18C03J2824,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+83,Usuario Prueba,OC18C03J2824,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+84,Usuario Prueba,OC18C03J2824,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+85,Usuario Prueba,OC18C03J2824,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+86,Usuario Prueba,OC18C03J2824,2018-03-03,ESM PERFECT TEN LILA & ROSE Negro,2,11.175,22.35
+87,Usuario Prueba,OC18C03J4723,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,36.75,147
+88,Usuario Prueba,OC18C03J4723,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,3,70,210
+89,Usuario Prueba,OC18C03J4723,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,70,70
+90,Usuario Prueba,OC18C03J4723,2018-03-03,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,2,70,140
+91,Usuario Prueba,OC18C03J5224,2018-03-03,VIVO AQUA COLOGNE FOR MEN FRESCURA CON ACORDES MARINOS,2,38.35,76.7
+92,Usuario Prueba,OC18C03J5224,2018-03-03,VIVO HERVE COLOGNE fOR MEN aroma herbal y notas de estragón, lavanda y madera de gaiac.,1,38.35,38.35
+93,Usuario Prueba,OC18C03J5224,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,3,74.75,224.25
+94,Usuario Prueba,OC18C03J5224,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,31.85,127.4
+95,Usuario Prueba,OC18C03J5224,2018-03-03,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,2,74.75,149.5
+96,Usuario Prueba,OC18C03J5224,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,74.75,74.75
+97,Usuario Prueba,OC18C03J5224,2018-03-03,OSADIA EAU DE PARFUM  naranja brasilera, maracuyá y destellos de granada.,8,51.35,410.8
+98,Usuario Prueba,OC18C03J5224,2018-03-03,MUSK EAU DE PARFUM Almizcle, ylang ylang, lila.,2,39,78
+99,Usuario Prueba,OC18C03J5224,2018-03-03,Ultra Definition Delineador en lapiz para Ojos Graffino Doble punta azul y plomo oscuro,2,17.55,35.1
+100,Usuario Prueba,OC18C03J5224,2018-03-03,ESMALTE PREFECTE TEN DE UÑAS ROSE BRUSH rosa bajito,1,11.05,11.05
+101,Usuario Prueba,OC18C03J5224,2018-03-03,Perfect Ten Art Sky  Negro,2,11.05,22.1
+102,Usuario Prueba,OC18C03J5224,2018-03-03,ARTY BRUSH Pincel para diseño uñas,1,5.9,5.9
+103,Usuario Prueba,OC18C03J5224,2018-03-03,P/S PERFECT COVER MEDIANO 2 Piel Oscura,2,29.9,59.8
+104,Usuario Prueba,OC18C03J5224,2018-03-03,CRECE EXTREME RIMEL ACELERADOR MY Negro,5,22.75,113.75
+105,Usuario Prueba,OC18C03J5224,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,4,16.9,67.6
+106,Usuario Prueba,OC18C03J5224,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO  AMBRE nude oscuro,10,16.25,162.5
+107,Usuario Prueba,OC18C03J5224,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION rojo claro,5,16.25,81.25
+108,Usuario Prueba,OC18C03J5224,2018-03-03, HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY fucsia,2,18.85,37.7
+109,Usuario Prueba,OC18C03J5224,2018-03-03, HYDRA-LIP LARGA DURACION AMOR PICANTE  rojo oscuro,2,18.85,37.7
+110,Usuario Prueba,OC18C03J5224,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,5,13,65
+111,Usuario Prueba,OC18C03J5224,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,5,13,65
+112,Usuario Prueba,OC18C03J5224,2018-03-03,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1 Piel Mediana,1,40.3,40.3
+113,Usuario Prueba,OC18C03J5224,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,4,13,52
+114,Usuario Prueba,OC18C03J5224,2018-03-03,RUBOR COLOR EFFECT ILUMINART Todo tipo de piel,2,29.9,59.8
+115,Usuario Prueba,OC18C03J5224,2018-03-03,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA CLARO 1 Efecto juventud inmediata accion antiedad con el uso continuo,1,40.3,40.3
+116,Usuario Prueba,OC18C03J5224,2018-03-03,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 2 Efecto juventud inmediata, Accion antiedad con el uso continuo,1,40.3,40.3
+117,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,VIVO AQUA COLOGNE FOR MEN FRESCURA CON ACORDES MARINOS,2,38.35,76.7
+118,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,VIVO HERVE COLOGNE fOR MEN aroma herbal y notas de estragón, lavanda y madera de gaiac.,1,38.35,38.35
+119,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,3,74.75,224.25
+120,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,31.85,127.4
+121,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,2,74.75,149.5
+122,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,74.75,74.75
+123,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,OSADIA EAU DE PARFUM  naranja brasilera, maracuyá y destellos de granada.,8,51.35,410.8
+124,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,MUSK EAU DE PARFUM Almizcle, ylang ylang, lila.,4,39,156
+125,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,Ultra Definition Delineador en lapiz para Ojos Graffino Doble punta azul y plomo oscuro,1,17.55,17.55
+126,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,RUBOR COLOR EFFECT ILUMINART Todo tipo de piel,2,29.9,59.8
+127,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,ESMALTE PERFECT TEN ROJO SUNSET Rojo ,2,11.05,22.1
+128,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,Perfect Ten Acrylic Blue Negro,2,11.05,22.1
+129,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,ARTY BRUSH Pincel para diseño uñas,1,5.9,5.9
+130,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,P/S PERFECT COVER MEDIANO 2 Piel Oscura,2,29.9,59.8
+131,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,CRECE EXTREME RIMEL ACELERADOR MY Negro,7,22.75,159.25
+132,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,8,16.9,135.2
+133,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO  AMBRE nude oscuro,8,16.25,130
+134,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION rojo claro,8,16.25,130
+135,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03, HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY fucsia,3,18.85,56.55
+136,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03, HYDRA-LIP LARGA DURACION AMOR PICANTE  rojo oscuro,2,18.85,37.7
+137,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,5,13,65
+138,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,5,13,65
+139,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,4,13,52
+140,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,Perfect Ten Art Sky  Negro,2,11.05,22.1
+141,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,PULSERA VALENTINE Brazalete,1,87.75,87.75
+142,Dante Luis Carrera Vasquez,OC18C03J5552,2018-03-03,PULSERA COQUET PERLE ORO ROSADO,1,100.75,100.75
+143,Dante Luis Carrera Vasquez,OC18C03J5733,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+144,Dante Luis Carrera Vasquez,OC18C03J5733,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+145,Dante Luis Carrera Vasquez,OC18C03J5733,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+146,Dante Luis Carrera Vasquez,OC18C03J5733,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+147,Dante Luis Carrera Vasquez,OC18C03J5733,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+148,Dante Luis Carrera Vasquez,OC18C03J5733,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+149,Dante Luis Carrera Vasquez,OC18C03J5733,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+150,Dante Luis Carrera Vasquez,OC18C03J5733,2018-03-03,ESM PERFECT TEN LILA & ROSE Negro,2,11.175,22.35
+151,Dante Luis Carrera Vasquez,OC18C03K0718,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+152,Dante Luis Carrera Vasquez,OC18C03K0718,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+153,Dante Luis Carrera Vasquez,OC18C03K0718,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+154,Dante Luis Carrera Vasquez,OC18C03K0718,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+155,Dante Luis Carrera Vasquez,OC18C03K0718,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+156,Dante Luis Carrera Vasquez,OC18C03K0718,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+157,Dante Luis Carrera Vasquez,OC18C03K0718,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+158,Dante Luis Carrera Vasquez,OC18C03K0718,2018-03-03,ESMALTE PERFECT TEN AMANTES Y ENEMIGOS vino oscuro,1,11.175,11.18
+159,Dante Luis Carrera Vasquez,OC18C03K0718,2018-03-03,ESMALTE PERFECT TEN AMANTES DE MEDIA NOCHE Vino,1,11.175,11.18
+160,Usuario Prueba,OC18C03K2149,2018-03-03,VIVO AQUA COLOGNE FOR MEN FRESCURA CON ACORDES MARINOS,2,38.35,76.7
+161,Usuario Prueba,OC18C03K2149,2018-03-03,VIVO HERVE COLOGNE fOR MEN aroma herbal y notas de estragón, lavanda y madera de gaiac.,1,38.35,38.35
+162,Usuario Prueba,OC18C03K2149,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,3,74.75,224.25
+163,Usuario Prueba,OC18C03K2149,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,31.85,127.4
+164,Usuario Prueba,OC18C03K2149,2018-03-03,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,2,74.75,149.5
+165,Usuario Prueba,OC18C03K2149,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,74.75,74.75
+166,Usuario Prueba,OC18C03K2149,2018-03-03,OSADIA EAU DE PARFUM  naranja brasilera, maracuyá y destellos de granada.,8,51.35,410.8
+167,Usuario Prueba,OC18C03K2149,2018-03-03,MUSK EAU DE PARFUM Almizcle, ylang ylang, lila.,2,39,78
+168,Usuario Prueba,OC18C03K2149,2018-03-03,Ultra Definition Delineador en lapiz para Ojos Graffino Doble punta azul y plomo oscuro,2,17.55,35.1
+169,Usuario Prueba,OC18C03K2149,2018-03-03,RUBOR COLOR EFFECT ILUMINART Todo tipo de piel,2,29.9,59.8
+170,Usuario Prueba,OC18C03K2149,2018-03-03,ESMALTE PREFECTE TEN DE UÑAS ROSE BRUSH rosa bajito,2,11.05,22.1
+171,Usuario Prueba,OC18C03K2149,2018-03-03,Perfect Ten Art Sky  Negro,1,11.05,11.05
+172,Usuario Prueba,OC18C03K2149,2018-03-03,ARTY BRUSH Pincel para diseño uñas,1,5.9,5.9
+173,Usuario Prueba,OC18C03K2149,2018-03-03,P/S PERFECT COVER MEDIANO 2 Piel Oscura,2,29.9,59.8
+174,Usuario Prueba,OC18C03K2149,2018-03-03,CRECE EXTREME RIMEL ACELERADOR MY Negro,5,22.75,113.75
+175,Usuario Prueba,OC18C03K2149,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,4,16.9,67.6
+176,Usuario Prueba,OC18C03K2149,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO  AMBRE nude oscuro,10,16.25,162.5
+177,Usuario Prueba,OC18C03K2149,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION rojo claro,5,16.25,81.25
+178,Usuario Prueba,OC18C03K2149,2018-03-03, HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY fucsia,2,18.85,37.7
+179,Usuario Prueba,OC18C03K2149,2018-03-03, HYDRA-LIP LARGA DURACION AMOR PICANTE  rojo oscuro,2,18.85,37.7
+180,Usuario Prueba,OC18C03K2149,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,5,13,65
+181,Usuario Prueba,OC18C03K2149,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,5,13,65
+182,Usuario Prueba,OC18C03K2149,2018-03-03,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA CLARO 1 Efecto juventud inmediata accion antiedad con el uso continuo,1,40.3,40.3
+183,Usuario Prueba,OC18C03K2149,2018-03-03,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1 Piel Mediana,1,40.3,40.3
+184,Usuario Prueba,OC18C03K2149,2018-03-03,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 2 Efecto juventud inmediata, Accion antiedad con el uso continuo,1,40.3,40.3
+185,Usuario Prueba,OC18C03K2149,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,4,13,52
+186,Usuario Prueba,OC18C03K2149,2018-03-03,LENTES DE SOL SOLE LENTES DE MUJER,2,35,70
+187,Dante Luis Carrera Vasquez,OC18C03K3841,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,3,70,210
+188,Dante Luis Carrera Vasquez,OC18C03K3841,2018-03-03,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,2,70,140
+189,Dante Luis Carrera Vasquez,OC18C03K3841,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,70,70
+190,Dante Luis Carrera Vasquez,OC18C03K3841,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,36.75,147
+191,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,LENTES DE SOL SOLE LENTES DE MUJER,2,35,70
+192,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,COLLAR GEMA LUX J15262 Negro,1,149.5,149.5
+193,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,10,13,130
+194,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,CADENA MILAGROSA J15153 Negro,1,107.25,107.25
+195,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,CRECE EXTREME RIMEL ACELERADOR MY Negro,4,22.75,91
+196,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,PULSERA VALENTINE Brazalete,1,87.75,87.75
+197,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,COLLAR LAIA  Baño de oro de bronce brillante de 24 quilates,1,78,78
+198,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,GAIA EAU DE PARFUM Con notas de jacarandá, magnolia y orquídea,1,70.85,70.85
+199,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,COLLAR BLACK DIAMOND COLLAR,1,61.75,61.75
+200,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,ARETES MAGNOLIA CRISTAL ARETES,1,58.5,58.5
+201,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,ARETES PERLA LUX J15263 Negro,1,52,52
+202,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,ARETES LAIA CHIC ARETES,1,42.25,42.25
+203,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1 Piel Mediana,1,40.3,40.3
+204,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 2 Efecto juventud inmediata, Accion antiedad con el uso continuo,1,40.3,40.3
+205,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA CLARO 1 Efecto juventud inmediata accion antiedad con el uso continuo,1,40.3,40.3
+206,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,Ultra Definition Delineador en lapiz para Ojos Graffino Doble punta azul y plomo oscuro,2,17.55,35.1
+207,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,ARETES DIAMOND CHIC ARETES,1,29.25,29.25
+208,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA Extracto de quinua,1,19.5,19.5
+209,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO ARTY PINK rosa color intenso,1,18.2,18.2
+210,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,RUBOR EN CREMA Y. CORAL coral,1,18.135,18.14
+211,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,Y. LABIAL FEMME NACAR Nude ,1,12.935,12.94
+212,Dante Luis Carrera Vasquez,OC18C03K4554,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION rojo claro,4,16.25,65
+213,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,VIVO AQUA COLOGNE FOR MEN FRESCURA CON ACORDES MARINOS,3,38.35,115.05
+214,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,3,74.75,224.25
+215,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,2,74.75,149.5
+216,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,74.75,74.75
+217,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,31.85,127.4
+218,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,4,13,52
+219,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,4,13,52
+220,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,5,13,65
+221,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,5,13,65
+222,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,5,16.9,84.5
+223,Dante Luis Carrera Vasquez,OC18C03L0811,2018-03-03,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,3,31.85,95.55
+224,Dante Luis Carrera Vasquez,OC18C03L2350,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+225,Dante Luis Carrera Vasquez,OC18C03L2350,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+226,Dante Luis Carrera Vasquez,OC18C03L2350,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+227,Dante Luis Carrera Vasquez,OC18C03L2350,2018-03-03,ESMALTE PERFECT TEN ROSA FROZEN Rosa oscuro,2,11.175,22.35
+228,Dante Luis Carrera Vasquez,OC18C03L2350,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+229,Dante Luis Carrera Vasquez,OC18C03L2350,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+230,Dante Luis Carrera Vasquez,OC18C03L2350,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+231,Dante Luis Carrera Vasquez,OC18C03L2350,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+232,Dante Luis Carrera Vasquez,OC18C03L3108,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+233,Dante Luis Carrera Vasquez,OC18C03L3108,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+234,Dante Luis Carrera Vasquez,OC18C03L3108,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+235,Dante Luis Carrera Vasquez,OC18C03L3108,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+236,Dante Luis Carrera Vasquez,OC18C03L3108,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+237,Dante Luis Carrera Vasquez,OC18C03L3108,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+238,Dante Luis Carrera Vasquez,OC18C03L3108,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+239,Dante Luis Carrera Vasquez,OC18C03L3108,2018-03-03,ESMALTE PERFECT TEN AMANTES Y ENEMIGOS vino oscuro,2,11.175,22.35
+240,Dante Luis Carrera Vasquez,OC18C03L4303,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+241,Dante Luis Carrera Vasquez,OC18C03L4303,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+242,Dante Luis Carrera Vasquez,OC18C03L4303,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+243,Dante Luis Carrera Vasquez,OC18C03L4303,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+244,Dante Luis Carrera Vasquez,OC18C03L4303,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+245,Dante Luis Carrera Vasquez,OC18C03L4303,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+246,Dante Luis Carrera Vasquez,OC18C03L4303,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+247,Dante Luis Carrera Vasquez,OC18C03L4303,2018-03-03,ESMALTE PERFECT TEN AMANTES Y ENEMIGOS vino oscuro,1,11.175,11.18
+248,Dante Luis Carrera Vasquez,OC18C03L4303,2018-03-03,ESMALTE PERFECT TEN AMANTES DE MEDIA NOCHE Vino,1,11.175,11.18
+249,Dante Luis Carrera Vasquez,OC18C03L4616,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+250,Dante Luis Carrera Vasquez,OC18C03L4616,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+251,Dante Luis Carrera Vasquez,OC18C03L4616,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+252,Dante Luis Carrera Vasquez,OC18C03L4616,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+253,Dante Luis Carrera Vasquez,OC18C03L4616,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+254,Dante Luis Carrera Vasquez,OC18C03L4616,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+255,Dante Luis Carrera Vasquez,OC18C03L4616,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,1,19.5,19.5
+256,Dante Luis Carrera Vasquez,OC18C03L4616,2018-03-03,ESM PERFECT TEN LILA & ROSE Negro,2,11.175,22.35
+257,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,3,74.75,224.25
+258,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,VIVO HERVE COLOGNE fOR MEN aroma herbal y notas de estragón, lavanda y madera de gaiac.,3,38.35,115.05
+259,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,4,31.85,127.4
+260,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,2,74.75,149.5
+261,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,74.75,74.75
+262,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,LENTES DE SOL SOLE LENTES DE MUJER,1,35,35
+263,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,LENTES DE SOL HUNTER LENTES DE SOL ,1,45,45
+264,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,COLLAR VLINDER ROSE COLLAR,1,84.5,84.5
+265,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,ARETES VLINDER ARETES,1,45.5,45.5
+266,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,SET ARETES EXQUISITE GLAM SET ARETES,1,52,52
+267,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,MUSK EAU DE PARFUM Almizcle, ylang ylang, lila.,1,39,39
+268,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,1,39,39
+269,Dante Luis Carrera Vasquez,OC18C03L5112,2018-03-03,OSADIA EAU DE PARFUM  naranja brasilera, maracuyá y destellos de granada.,1,51.35,51.35
+270,Dante Luis Carrera Vasquez,OC18C03M2735,2018-03-03,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,15,30
+271,Dante Luis Carrera Vasquez,OC18C03M2735,2018-03-03,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,15,30
+272,Dante Luis Carrera Vasquez,OC18C03M2735,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,36.75,73.5
+273,Dante Luis Carrera Vasquez,OC18C03M2735,2018-03-03,MUSK BLANC EAU DE PARFUM Almizcle, ylang ylang, lila.,2,45,90
+274,Dante Luis Carrera Vasquez,OC18C03M2735,2018-03-03,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,3,15,45
+275,Dante Luis Carrera Vasquez,OC18C03M2735,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,15,30
+276,Dante Luis Carrera Vasquez,OC18C03M2735,2018-03-03,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS A prueba de agua y larga duracion,2,19.5,39
+277,Dante Luis Carrera Vasquez,OC18C03M5636,2018-03-03,ARGOLLAS MILENE baño de oro bronce brilante de 24 quilates,1,75,75
+278,Dante Luis Carrera Vasquez,OC18C03M5636,2018-03-03,COLLAR CAUTIVANT Baño de oro rosado brillante,1,172.5,172.5
+279,Dante Luis Carrera Vasquez,OC18C03M5636,2018-03-03,ARETES CAUTIVANT  ARETES,1,56.25,56.25
+280,Dante Luis Carrera Vasquez,OC18C03M5636,2018-03-03,SET ARETES FRESY BERRY Negro,1,48.75,48.75
+281,Dante Luis Carrera Vasquez,OC18C03M5636,2018-03-03,ARETES BUHO LOVE Negro,1,21.75,21.75
+282,Jessica Adriana Salas Pacheco,OCP18C01M0406,2018-03-01,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+283,Jessica Adriana Salas Pacheco,OCP18C01M0406,2018-03-01,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+284,Jessica Adriana Salas Pacheco,OCP18C01M0406,2018-03-01,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+285,Jessica Adriana Salas Pacheco,OCP18C01M0406,2018-03-01,KIT PULSERA ORO PULSERA DORADA,1,0,0
+286,Jessica Adriana Salas Pacheco,OCP18C01M1519,2018-03-01,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+287,Jessica Adriana Salas Pacheco,OCP18C01M1519,2018-03-01,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+288,Jessica Adriana Salas Pacheco,OCP18C01M1519,2018-03-01,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+289,Jessica Adriana Salas Pacheco,OCP18C01M3124,2018-03-01,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+290,Jessica Adriana Salas Pacheco,OCP18C01M3124,2018-03-01,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+291,Jessica Adriana Salas Pacheco,OCP18C01M3124,2018-03-01,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+292,Usuario Prueba,OCP18C02L1419,2018-03-02,ULTRA DEF DEL LARGA DURACION OJOS NEGRO A prueba de agua,38,0,0
+293,Jessica Adriana Salas Pacheco,OCP18C02Q1727,2018-03-02,HYDRA-LIP LABIAL CRAYÓN SEMI-MATE FUCSIA GLAMOUR  No necesita tajarse.,1,0,0
+294,Jessica Adriana Salas Pacheco,OCP18C02Q2107,2018-03-02,LABIEL ANTI-EDAD ELIXIR DE VIDA ELIXIR FEME antiedad,3,0,0
+295,Jessica Adriana Salas Pacheco,OCP18C02Q2207,2018-03-02,LABIEL ANTI-EDAD ELIXIR DE VIDA ELIXIR FEME antiedad,3,0,0
+296,Jessica Adriana Salas Pacheco,OCP18C02Q2513,2018-03-02,DUETTE MARRON / NEGRO HUMO Marron y Negro,1,0,0
+297,Jessica Adriana Salas Pacheco,OCP18C03H5959,2018-03-03,CRECE EXTREME RIMEL ACELERADOR MY Negro,5,0,0
+298,Jessica Adriana Salas Pacheco,OCP18C03I0954,2018-03-03,CRECE EXTREME RIMEL ACELERADOR MY Negro,5,0,0
+299,Usuario Prueba,OCP18C03I4716,2018-03-03,VIVO TERRA COLOGNE fOR MEN notas maderosas de ruibarbo, eucalipto y cedro rojo.,1,0,0
+300,Usuario Prueba,OCP18C03I4716,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+301,Usuario Prueba,OCP18C03I4716,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+302,Usuario Prueba,OCP18C03I4716,2018-03-03,ARETES NATURA CRISTAL J15889 Negro,1,0,0
+303,Usuario Prueba,OCP18C03I4716,2018-03-03,PD I LOVE NEW YORK COLOGNE Aroma Floral Frutal con notas de mandarina vibrante hortensias y alamo urbano ,1,0,0
+304,Usuario Prueba,OCP18C03I4716,2018-03-03,ARETES ETERNI LOVE Negro,1,0,0
+305,Usuario Prueba,OCP18C03J0557,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+306,Usuario Prueba,OCP18C03J0557,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,0,0
+307,Usuario Prueba,OCP18C03J0557,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+308,Jessica Adriana Salas Pacheco,OCP18C03J0745,2018-03-03,ARETES HEXAGONO GLAM ARETES,1,0,0
+309,Usuario Prueba,OCP18C03J1657,2018-03-03,SOY FELIZ FRESH COLOGNE Flor de guayaba, dulce azucena, corteza de maracaibo.,1,0,0
+310,Usuario Prueba,OCP18C03J1657,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+311,Usuario Prueba,OCP18C03J1657,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+312,Usuario Prueba,OCP18C03J3939,2018-03-03,PD I LOVE NEW YORK COLOGNE Aroma Floral Frutal con notas de mandarina vibrante hortensias y alamo urbano ,1,0,0
+313,Usuario Prueba,OCP18C03J3939,2018-03-03,ARETES DIAMANTE CRISTAL Negro,1,0,0
+314,Usuario Prueba,OCP18C03J3939,2018-03-03,Catálogo 2018C3 N/A,1,0,0
+315,Usuario Prueba,OCP18C03J5012,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+316,Usuario Prueba,OCP18C03J5012,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,0,0
+317,Usuario Prueba,OCP18C03J5012,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+318,Usuario Prueba,OCP18C03J5012,2018-03-03,Catálogo 2018C3 N/A,1,0,0
+319,Usuario Prueba,OCP18C03K1833,2018-03-03,VIVO TERRA COLOGNE fOR MEN notas maderosas de ruibarbo, eucalipto y cedro rojo.,1,0,0
+320,Usuario Prueba,OCP18C03K1833,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+321,Usuario Prueba,OCP18C03K1833,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,0,0
+322,Usuario Prueba,OCP18C03K1833,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+323,Usuario Prueba,OCP18C03K1833,2018-03-03,Catálogo 2018C3 N/A,1,0,0
+324,Usuario Prueba,OCP18C03K1833,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+325,Usuario Prueba,OCP18C03K1833,2018-03-03,KIT PULSERA BRONCE PULSERA BRONCE,1,0,0
+326,Usuario Prueba,OCP18C03K1833,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+327,Jessica Adriana Salas Pacheco,OCP18C03K3015,2018-03-03,MASAJEADOR TOP MODELING 2014 Negro,1,0,0
+328,Dante Luis Carrera Vasquez,OCP18C03K3615,2018-03-03,VIVO TERRA COLOGNE fOR MEN notas maderosas de ruibarbo, eucalipto y cedro rojo.,1,0,0
+329,Dante Luis Carrera Vasquez,OCP18C03K3615,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+330,Dante Luis Carrera Vasquez,OCP18C03K3615,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,0,0
+331,Dante Luis Carrera Vasquez,OCP18C03K3615,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+332,Dante Luis Carrera Vasquez,OCP18C03K3615,2018-03-03,CARTERA N1-C4 CARTERA,1,0,0
+333,Dante Luis Carrera Vasquez,OCP18C03K3615,2018-03-03,KIT PULSERA PLATA Pulsera plata,1,0,0
+334,Dante Luis Carrera Vasquez,OCP18C03K3615,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+335,Dante Luis Carrera Vasquez,OCP18C03K3615,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+336,Dante Luis Carrera Vasquez,OCP18C03K4240,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+337,Dante Luis Carrera Vasquez,OCP18C03K4240,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,0,0
+338,Dante Luis Carrera Vasquez,OCP18C03K4240,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+339,Dante Luis Carrera Vasquez,OCP18C03K4240,2018-03-03,Catálogo 2018C3 N/A,1,0,0
+340,Dante Luis Carrera Vasquez,OCP18C03K4240,2018-03-03,KIT PULSERA PLATA Pulsera plata,1,0,0
+341,Dante Luis Carrera Vasquez,OCP18C03K4240,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+342,Dante Luis Carrera Vasquez,OCP18C03K4240,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+343,Jessica Adriana Salas Pacheco,OCP18C03K4756,2018-03-03,SET ARETES MARIPOSA ARETES,1,0,0
+344,Dante Luis Carrera Vasquez,OCP18C03L0703,2018-03-03,CARTERA N1-C4 CARTERA,1,0,0
+345,Jessica Adriana Salas Pacheco,OCP18C03L1210,2018-03-03,CRECE EXTREME RIMEL ACELERADOR MY Negro,5,0,0
+346,Dante Luis Carrera Vasquez,OCP18C03L2051,2018-03-03,VIVO TERRA COLOGNE fOR MEN notas maderosas de ruibarbo, eucalipto y cedro rojo.,1,0,0
+347,Dante Luis Carrera Vasquez,OCP18C03L2051,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+348,Dante Luis Carrera Vasquez,OCP18C03L2051,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,0,0
+349,Dante Luis Carrera Vasquez,OCP18C03L2051,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+350,Dante Luis Carrera Vasquez,OCP18C03L2051,2018-03-03,Catálogo 2018C3 N/A,2,0,0
+351,Dante Luis Carrera Vasquez,OCP18C03L2051,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+352,Dante Luis Carrera Vasquez,OCP18C03L2051,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+353,Dante Luis Carrera Vasquez,OCP18C03L3010,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+354,Dante Luis Carrera Vasquez,OCP18C03L3010,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+355,Dante Luis Carrera Vasquez,OCP18C03L3010,2018-03-03,Catálogo 2018C3 N/A,1,0,0
+356,Jessica Adriana Salas Pacheco,OCP18C03L3444,2018-03-03,ESTACION DE COCINA N3 C1-2 ROJA,1,0,0
+357,Dante Luis Carrera Vasquez,OCP18C03L4051,2018-03-03,KIT PULSERA PLATA Pulsera plata,1,0,0
+358,Dante Luis Carrera Vasquez,OCP18C03L4051,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+359,Dante Luis Carrera Vasquez,OCP18C03L4051,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+360,Dante Luis Carrera Vasquez,OCP18C03L4051,2018-03-03,Catálogo 2018C3 N/A,1,0,0
+361,Dante Luis Carrera Vasquez,OCP18C03L4543,2018-03-03,CARTERA N1-C4 CARTERA,1,0,0
+362,Jessica Adriana Salas Pacheco,OCP18C03L4643,2018-03-03,ESTACION DE COCINA N3 C1-2 ROJA,1,0,0
+363,Jessica Adriana Salas Pacheco,OCP18C03L4643,2018-03-03,SET DE HERRAMEINTAS N1 C5 ROJA,1,0,0
+364,Dante Luis Carrera Vasquez,OCP18C03L4907,2018-03-03,ADRENALINE EAU DE TOILETTE Mandarina, flor de loto, naranja china,1,0,0
+365,Dante Luis Carrera Vasquez,OCP18C03L4907,2018-03-03,KIT PULSERA PLATA Pulsera plata,1,0,0
+366,Dante Luis Carrera Vasquez,OCP18C03L4907,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+367,Dante Luis Carrera Vasquez,OCP18C03L4907,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+368,Dante Luis Carrera Vasquez,OCP18C03L4907,2018-03-03,Catálogo 2018C3 N/A,3,0,0
+369,Jessica Adriana Salas Pacheco,OCP18C03L5036,2018-03-03,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+370,Jessica Adriana Salas Pacheco,OCP18C03L5036,2018-03-03,MAQUINA DE CANCHITA ROJA,1,0,0
+371,Jessica Adriana Salas Pacheco,OCP18C03L5036,2018-03-03,6 TAZONES N2 C1-2 TAZONES,1,0,0
+372,Jessica Adriana Salas Pacheco,OCP18C03M0216,2018-03-03,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+373,Jessica Adriana Salas Pacheco,OCP18C03M0216,2018-03-03,MAQUINA DE CANCHITA ROJA,1,0,0
+374,Jessica Adriana Salas Pacheco,OCP18C03M0216,2018-03-03,6 TAZONES N2 C1-2 TAZONES,1,0,0
+375,Jessica Adriana Salas Pacheco,OCP18C03M0216,2018-03-03,ESTACION DE COCINA N3 C1-2 ROJA,1,0,0
+376,Jessica Adriana Salas Pacheco,OCP18C03M0216,2018-03-03,SET DE HERRAMEINTAS N1 C5 ROJA,1,0,0
+377,Dante Luis Carrera Vasquez,OCP18C03M0622,2018-03-03,VIVO TERRA COLOGNE fOR MEN notas maderosas de ruibarbo, eucalipto y cedro rojo.,1,0,0
+378,Dante Luis Carrera Vasquez,OCP18C03M0622,2018-03-03,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+379,Dante Luis Carrera Vasquez,OCP18C03M0622,2018-03-03,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,0,0
+380,Dante Luis Carrera Vasquez,OCP18C03M0622,2018-03-03,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+381,Dante Luis Carrera Vasquez,OCP18C03M0622,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+382,Dante Luis Carrera Vasquez,OCP18C03M0622,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+383,Dante Luis Carrera Vasquez,OCP18C03M0622,2018-03-03,Catálogo 2018C3 N/A,2,0,0
+384,Jessica Adriana Salas Pacheco,OCP18C03M1249,2018-03-03,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+385,Jessica Adriana Salas Pacheco,OCP18C03M1249,2018-03-03,MAQUINA DE CANCHITA ROJA,1,0,0
+386,Jessica Adriana Salas Pacheco,OCP18C03M1249,2018-03-03,6 TAZONES N2 C1-2 TAZONES,1,0,0
+387,Jessica Adriana Salas Pacheco,OCP18C03M1249,2018-03-03,ESTACION DE COCINA N3 C1-2 ROJA,1,0,0
+388,Jessica Adriana Salas Pacheco,OCP18C03M1550,2018-03-03,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+389,Jessica Adriana Salas Pacheco,OCP18C03M1926,2018-03-03,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+390,Dante Luis Carrera Vasquez,OCP18C03M4208,2018-03-03,KIT PULSERA PLATA Pulsera plata,1,0,0
+391,Dante Luis Carrera Vasquez,OCP18C03M4208,2018-03-03,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+392,Dante Luis Carrera Vasquez,OCP18C03M4208,2018-03-03,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+393,Dante Luis Carrera Vasquez,OCP18C03M4208,2018-03-03,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+394,Jessica Adriana Salas Pacheco,OCP18C05I3706,2018-03-05,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+395,Jessica Adriana Salas Pacheco,OCP18C05I3706,2018-03-05,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+396,Jessica Adriana Salas Pacheco,OCP18C05I3706,2018-03-05,MAQUINA DE CANCHITA ROJA,1,0,0
+397,Jessica Adriana Salas Pacheco,OCP18C05I3706,2018-03-05,6 TAZONES N2 C1-2 TAZONES,1,0,0
+398,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,VIVO TERRA COLOGNE fOR MEN notas maderosas de ruibarbo, eucalipto y cedro rojo.,1,0,0
+399,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,0,0
+400,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,0,0
+401,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,0,0
+402,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,ESTACION DE COCINA N3 C1-2 ROJA,1,0,0
+403,Jessica Adriana Salas Pacheco,OCP18C05I4856,2018-03-05,SET MAKERS O TEBCA N4- SELECTIVO SELECYIVO,1,0,0
+404,Jessica Adriana Salas Pacheco,OCP18C05J1934,2018-03-05,Catálogo 2018C3 N/A,2,0,0
+405,Jessica Adriana Salas Pacheco,OCP18C05J1934,2018-03-05,KIT PULSERA PLATA Pulsera plata,1,0,0
+406,Jessica Adriana Salas Pacheco,OCP18C05J1934,2018-03-05,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+407,Jessica Adriana Salas Pacheco,OCP18C05J1934,2018-03-05,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0
+408,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,TERMO ACERO INOXIDABLE TERMOPLATEADO,1,0,0
+409,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,Catálogo 2018C3 N/A,3,0,0
+410,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,KIT PULSERA PLATA Pulsera plata,1,0,0
+411,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,BOLSO VERSATIL UNIQUE MORRAL NARANJA,1,0,0
+412,Jessica Adriana Salas Pacheco,OCP18C05J3000,2018-03-05,FUENTE DE VIDRIO + 6 BOWLS VIDRIO TRANSPARENTE,1,0,0

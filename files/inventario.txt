@@ -7,8 +7,8 @@
 0001891;Expect for men ;Negro;Collares;5;2018-02-01;0
 0002183;GAIA EAU DE PARFUM;Con notas de jacarandá, magnolia y orquídea;Collares;78;2018-03-03;0.91
 0002187;O2XYGEN GEL AFTER SHAVE;Hidrata, limpia y suaviza.;Collares;2;2018-02-01;0
-0002279;OSADIA EAU DE PARFUM; naranja brasilera, maracuyá y destellos de granada.;Collares;81;2018-03-05;18.18
-0002426;CIELO EAU DE PARFUM;Flor de loto, jazmín, sándalo.;Collares;113;2018-03-02;0
+0002279;OSADIA EAU DE PARFUM; naranja brasilera, maracuyá y destellos de granada.;Collares;82;2018-03-05;18.18
+0002426;CIELO EAU DE PARFUM;Flor de loto, jazmín, sándalo.;Collares;105;2018-03-07;0
 0002645;OHM BLACK COLOGNE SPRAY;Madera de cachemira, lavanda, pimienta.;Collares;203;2018-03-01;0
 0002647;BODY SPA UÑA DE GATO CREMA PARA MANOS A/P;Hidrata y repara la piel seca y extra seca.;Collares;3;2018-02-01;0
 0002683;COLONIA ALEGRÍA PETIT PON PON;Aroma de lavanda, vainilla y flor de naranja.;Multiactivas;16;2018-02-05;0
@@ -278,7 +278,7 @@
 0004647;TITANIUM HIDRATANTE ENERGIZANT;Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco e hidratado;Collares;13;2018-02-05;0
 0004649;REVITALIST CREMA NUTRITIVA;Fuerza nutritiva, accion hidratante, poder aislante;Collares;5;2018-02-05;0
 0004651;REVITALIST HIDRATANTE;Hidratante y energizante;Collares;20;2018-02-21;0
-0004652;ELIXIR DE VIDA HIDRATANTE;Hidrata, hipoalergenico con resveratrol.;Collares;50;2018-03-05;2.17
+0004652;ELIXIR DE VIDA HIDRATANTE;Hidrata, hipoalergenico con resveratrol.;Collares;44;2018-03-03;2.17
 0004653;ELIXIR DE VIDA SUERO RECONSTITUYENTE;Resveratrol, que activa las Sirtuínas conocidas como las proteínas de juventud,;Collares;7;2018-02-28;0
 0004654;REVITALIST LIMPIADOR;Limpia, hipoalergenico menores de 35 años;Collares;31;2018-02-22;1.5
 0004655;ELIXIR DE VIDA LIMPIADOR;Limpia con resveratrol e hipoalergenico.;Collares;86;2018-03-03;11.7
@@ -324,7 +324,7 @@
 0004826;BIO FRUIT SHAMPOO Y ACONDICIONADOR GRANADA EXOTICA 350ML A/P;aroma de la granada que además, ofrece su poder antioxidante;Collares;118;2018-02-19;0
 0004828;CONTROL BLANC RX ACLARANTE ANTI-EDAD;Albacinol RX-11 potenciado con extracto de orquídea blanca;Collares;34;2018-03-01;0
 0004829;SENTIVA DESMAQUILLADOR AGUA MICELAR;Frescura purificante;Collares;12;2018-02-19;0
-0004830;SENTIVA DESMAQUILLADOR DOBLE FASE;Facil, rapido ny eficaz;Collares;102;2018-03-05;0
+0004830;SENTIVA DESMAQUILLADOR DOBLE FASE;Facil, rapido ny eficaz;Collares;100;2018-03-03;0
 0004831;Fresh Mousse Sobras Crema Dark Mousse;Oscuro en Crema;Collares;2;2018-02-01;0
 0004833;REVITALIST GEL ENERGIZANTE;Gel energizante con VIT ADVANCE;Collares;1;2018-02-05;0
 0004834;NO LIMITS FUTBOL EDITION;Geranio, lavanda, limón.;Protectores Solares;111;2018-02-19;0
@@ -351,7 +351,7 @@
 0004884;RUBOR COLOR EFFECT ROSA IRRESISTIBLE;Piel Clara;Protectores Solares;5;2018-02-05;0
 0004886;RUBOR COLOR EFFECT BRIZZA;Piel Oscura;Protectores Solares;5;2018-02-05;0
 0004887;RUBOR COLOR EFFECT BRONZAGE;Piel mediana;Protectores Solares;22;2018-03-03;0
-0004888;RUBOR COLOR EFFECT PETAL ROSE ;Piel mediana;Protectores Solares;9;2018-03-05;0
+0004888;RUBOR COLOR EFFECT PETAL ROSE ;Piel mediana;Protectores Solares;10;2018-02-27;0
 0004889;RUBOR COLOR EFFECT TERRA;Piel Oscura;Protectores Solares;6;2018-02-05;0
 0004890;HIDRA LIP LABIAL COLOR INTENSO MUSA;NUDE;Protectores Solares;11;2018-03-03;16.3
 0004891;HYDRA LIP LABIAL COLOR INTENSO BAILE ROSA;palo de rosa;Protectores Solares;9;2018-02-05;16.3
@@ -563,7 +563,7 @@
 0011213;ULTRA DEF DEL LAP OJO MARRON;Negro;Collares;12;2018-03-01;0
 0011215;ULTRA DEF DELINEADOR LAPIZ OJO AZUL NOCHE;Azul Noche;Collares;19;2018-02-21;0
 0011216;ULTRA DEF DEL LAP INT OJ PERLA;Negro;Collares;4;2018-02-05;0
-0011218;ULTRA DEF DELiNEADOR CEJAS MARRON MED;Cejas;Collares;13;2018-03-05;0
+0011218;ULTRA DEF DELiNEADOR CEJAS MARRON MED;Cejas;Collares;12;2018-03-03;0
 0011219;ULTRA DEF DEL LAB ROJO ENCENDI;Negro;Collares;32;2018-02-26;0
 0011222;ULTRA DEF DEL LAB TOFFEE IMPER;Negro;Collares;120;2018-02-26;0
 0011224;ULTRA DEF DEL LAB CHOCOLATE;Negro;Collares;43;2018-02-28;0
@@ -631,7 +631,7 @@
 0011329;HYDRA LIP LARGA DURACION ROSA FESTIVA;Rosado oscuro;Collares;1;2018-02-01;19
 0011330;HYDRA-LIP LARGA DURACION FUCSIA ENCENDIDO;fucsia;Collares;6;2018-02-01;19
 0011331;UNIQUECIL RIMEL NEGRO;A prueba de agua;Collares;45;2018-03-03;0
-0011333;UNIQUECIL RIMEL EXTRA XL NEGRO;A prueba de agua;Collares;32;2018-03-05;0
+0011333;UNIQUECIL RIMEL EXTRA XL NEGRO;A prueba de agua;Collares;33;2018-03-02;0
 0011334;CRECE EXTREME RIMEL ACELERADOR MY;Negro;Collares;27;2018-03-05;19.51
 0011337;MUSK EAU DE PARFUM;Almizcle, ylang ylang, lila.;Collares;9;2018-03-05;39
 0011341;Y. BRILLO LABIAL ROJO STOP;rojo claro;Collares;2;2018-02-05;0
@@ -674,7 +674,7 @@
 0011419;CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA (A/P);con proteina de yogurt probiotico;Collares;2;2018-03-01;0
 0011421;BIO FRUIT ORIGINAL SHAMPOO;aroma a base de base de pomelo blanco, durazno y flor de algodón.;Collares;101;2018-02-22;0
 0011422;BIO FRUIT ORIGINAL ACONDICIONADOR;aroma a base de pomelo blanco, durazno y flor de algodón.;Collares;30;2018-02-22;0
-0011426;SOY FELIZ FRESH COLOGNE;Flor de guayaba, dulce azucena, corteza de maracaibo.;Collares;15;2018-03-05;0
+0011426;SOY FELIZ FRESH COLOGNE;Flor de guayaba, dulce azucena, corteza de maracaibo.;Collares;14;2018-03-01;0
 0011427;ELIXIR DE VIDA ROSTRO ANIVERSARIO;Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol;Collares;197;2018-02-20;0
 0011429;HYDRA-LIP CRAYON SEMI MATE MARRON TERRA;cafe;Collares;2;2018-02-05;22.5
 0011430;HYDRA-LIP CRAYON SEMI MATE ROJO SAFARI ;rojo oscuro;Collares;4;2018-02-05;22.5
@@ -713,7 +713,7 @@
 0011510; HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY;fucsia;Collares;9;2018-03-05;19.3
 0011512;O/S COLOR EFFECT DIVINA BLUE;Azules;Collares;1;2018-02-05;0
 0011514;TOTAL BLOCK KIDS SPF 70;Rostro y Cuerpo;Collares;17;2018-02-20;11.5
-0011516;TOTAL BLOCK ANTI EDAD MATT SPF50+;Rostro con extracto marino acabado mate;Collares;11;2018-03-05;19.25
+0011516;TOTAL BLOCK ANTI EDAD MATT SPF50+;Rostro con extracto marino acabado mate;Collares;10;2018-03-05;19.25
 0011517;CONTROL BLANC RX DIA;Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ;Collares;229;2018-03-02;0
 0011536;HYDRA LIP COLOR INTENSO ROSA TOSCANA;palo de rosa claro;Collares;9;2018-02-05;16.3
 0011543;HYDRA-LIP LARGA DURACION CIRUELA LOVE;guinda claro;Collares;12;2018-02-05;19

@@ -1,0 +1,173 @@
+Ventas
+Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
+1,Jessica Adriana Salas Pacheco,OV18C01I5810,2018-03-01,TEMPTATION COLOGNE FOR MEN Menta, flor de naranja, sándalo.,2,172,344
+2,Roxana Hinojosa Menendez,OV18C01J1031,2018-03-01,ULTRA DEF DELiNEADOR CEJAS MARRON MED Cejas,1,39,39
+3,Roxana Hinojosa Menendez,OV18C01J1031,2018-03-01,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,35,35
+4,Roxana Hinojosa Menendez,OV18C01J1031,2018-03-01,SOY DULCE FRESH COLOGNE Frambuesa azucarada, madera blanca, vainilla.,1,27.5,27.5
+5,Roxana Hinojosa Menendez,OV18C01J1031,2018-03-01,SOY FELIZ FRESH COLOGNE Flor de guayaba, dulce azucena, corteza de maracaibo.,1,27.5,27.5
+6,Roxana Hinojosa Menendez,OV18C01J1031,2018-03-01,FOCCO COLOGNE FOR MEN Whisky, pachulí, madera de oud.,1,89,89
+7,Roxana Hinojosa Menendez,OV18C01J1031,2018-03-01,Lesence Orquídeas Exóticas Cologne Negro,2,32,64
+8,Roxana Hinojosa Menendez,OV18C01J3356,2018-03-01,COLLAR HARMONY LOVE J15282 Negro,1,200,200
+9,Roxana Hinojosa Menendez,OV18C01J3356,2018-03-01,ARETES HARMONY GLAM J15284 Negro,1,85,85
+10,Roxana Hinojosa Menendez,OV18C01J3356,2018-03-01,PULSERA HARMONY LOVE J15285 Negro,1,150,150
+11,Roxana Hinojosa Menendez,OV18C01J5531,2018-03-01,B/L ELIXIR DE VIDA ANTIEDAD T2 Cubrimiento perfecto con acabado natural. ,2,64,128
+12,Roxana Hinojosa Menendez,OV18C01J5649,2018-03-01,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,2,49,98
+13,Roxana Hinojosa Menendez,OV18C01K0250,2018-03-01,L/L ELIXIR DE VIDA ELIX D AMOR antiedad,1,42,42
+14,Roxana Hinojosa Menendez,OV18C01K1113,2018-03-01,TITANIUM DESODORANTE ANTITRANS Negro,1,12.9,12.9
+15,Roxana Hinojosa Menendez,OV18C01K1759,2018-03-01,XISS EAU DE TOILETTE  floral frutal de naranja, fresia y sándalo.,1,65,65
+16,Roxana Hinojosa Menendez,OV18C01K2409,2018-03-01,ELIXIR DE VIDA LIMPIADOR Limpia con resveratrol e hipoalergenico.,1,36,36
+17,Roxana Hinojosa Menendez,OV18C01K2409,2018-03-01,ELIXIR DE VIDA GEL TONICO acción integral con Resveratrol, finaliza la limpieza del rostro, suaviza y refresca.,1,36,36
+18,Roxana Hinojosa Menendez,OV18C01K2409,2018-03-01,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,1,49,49
+19,Roxana Hinojosa Menendez,OV18C01K2409,2018-03-01,SENTIVA MASCARILLA FACIAL Accion purificante,1,32,32
+20,Roxana Hinojosa Menendez,OV18C01K2409,2018-03-01,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,49,98
+21,Roxana Hinojosa Menendez,OV18C01K2409,2018-03-01,AROM DESODORANTE Negro,2,12.9,25.8
+22,Roxana Hinojosa Menendez,OV18C01K2409,2018-03-01,HYDRA LIP LABIAL COLOR INTENSO  TERCIOPELO  NEGRO vino fuerte,1,25,25
+23,Roxana Hinojosa Menendez,OV18C01K2409,2018-03-01,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,20,40
+24,Jessica Adriana Salas Pacheco,OV18C01K2909,2018-03-01,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1 Piel Mediana,1,62,62
+25,Jessica Adriana Salas Pacheco,OV18C01K2909,2018-03-01,SENTIVA BB CREAM Negro,1,60,60
+26,Roxana Hinojosa Menendez,OV18C01K2954,2018-03-01,ELIXIR DE VIDA CREMA DE OJOS Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.,1,72,72
+27,Roxana Hinojosa Menendez,OV18C01K3419,2018-03-01,LABIAL ANTI-EDAD  ELIXIR DE VIDA ELIXIR ROSE coral,1,42,42
+28,Roxana Hinojosa Menendez,OV18C01K3419,2018-03-01,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,1,46,46
+29,Roxana Hinojosa Menendez,OV18C01K3827,2018-03-01,BIO FRUIT GRANADA EXOTICA FRESH COLOGNE Aroma granada ,1,12,12
+30,Roxana Hinojosa Menendez,OV18C01K3827,2018-03-01,HYDRA LIP LABIAL COLOR INTENSO FLORIDA LOVE nude oscuro,1,28,28
+31,Roxana Hinojosa Menendez,OV18C01L0146,2018-03-01,ACNI-DERM CREMA CORRECTORA Schinus Molle, ingrediente natural cultivado en los Andes,,2,26,52
+32,Roxana Hinojosa Menendez,OV18C01L0146,2018-03-01,CRECE EXTREME RIMEL ACELERADOR MY Negro,1,35,35
+33,Roxana Hinojosa Menendez,OV18C01L0146,2018-03-01,UNIQUECIL RIMEL NEGRO A prueba de agua,1,25,25
+34,Roxana Hinojosa Menendez,OV18C01L0146,2018-03-01,UNIQUECIL ROLL RIMEL RIZADO EXTREMO A prueba de agua,2,36,72
+35,Roxana Hinojosa Menendez,OV18C01L0146,2018-03-01,AROM DESODORANTE Negro,4,12.9,51.6
+36,Roxana Hinojosa Menendez,OV18C01L0146,2018-03-01,DELINEADOR PUNTA PINCEL NEGRO Punta delgada,1,30,30
+37,Roxana Hinojosa Menendez,OV18C01L1852,2018-03-01,PERFECT TEN BRI SECAN&PROT ESM Negro,1,14.9,14.9
+38,Jessica Adriana Salas Pacheco,OV18C01L1933,2018-03-01,ELIXIR DE VIDA CREMA DE OJOS Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.,1,72,72
+39,Roxana Hinojosa Menendez,OV18C01L4033,2018-03-01,AROM POUR HOMME COLONIA aroma maderoso que mezcla notas de sándalo, romero y bergamota.,1,86,86
+40,Roxana Hinojosa Menendez,OV18C01L4033,2018-03-01,TEMPTATION EAU DE PARFUM flores exóticas y acentos exuberantes de rosa búlgara, gardenia y clavo de olor.,1,75,75
+41,Roxana Hinojosa Menendez,OV18C01L4033,2018-03-01,TEMPTATION MUJER DESODORANTE Dorado,1,14,14
+42,Roxana Hinojosa Menendez,OV18C01L4652,2018-03-01,B/L ELIXIR DE VIDA ANTIEDAD T3 Cubrimiento perfecto con acabado natural. ,1,64,64
+43,Roxana Hinojosa Menendez,OV18C01L4652,2018-03-01,B/L PERFECT COVER HIDRA T2 Para piel seca a mixta Hasta 12 horas de cubrimiento.,1,44,44
+44,Roxana Hinojosa Menendez,OV18C01L5045,2018-03-01,ELIXIR DE VIDA GEL TONICO acción integral con Resveratrol, finaliza la limpieza del rostro, suaviza y refresca.,2,28.5,57
+45,Roxana Hinojosa Menendez,OV18C01L5045,2018-03-01,SENTIVA BB CREAM Negro,1,58,58
+46,Roxana Hinojosa Menendez,OV18C01L5045,2018-03-01,PERFECT COVER CORRECTOR CLARO 1 Piel Clara,1,29.9,29.9
+47,Roxana Hinojosa Menendez,OV18C01L5703,2018-03-01,PERFECT COVER CORRECTOR MEDIANO 1 Piel mediana,1,31,31
+48,Roxana Hinojosa Menendez,OV18C01L5703,2018-03-01,BB CREAM MATT CREMA HIDRATANTE Efecto perfeccionador MATIFICANTE Hidrata hasta por 24 horas, Protege del sol con SPF 25 y PA+++ ,2,58,116
+49,Roxana Hinojosa Menendez,OV18C01L5703,2018-03-01,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,20,40
+50,Roxana Hinojosa Menendez,OV18C01L5703,2018-03-01,HYDRA LIP LABIAL COLOR INTENSO MARRON INDUSTRIAL MARRON ,2,28,56
+51,Jessica Adriana Salas Pacheco,OV18C01N4006,2018-03-01,ELIXIR DE VIDA ROSTRO Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol,1,99,99
+52,Jessica Adriana Salas Pacheco,OV18C01N4006,2018-03-01,CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA (A/P) con proteina de yogurt probiotico,1,22,22
+53,Jessica Adriana Salas Pacheco,OV18C01N4006,2018-03-01,XISS EAU DE TOILETTE  floral frutal de naranja, fresia y sándalo.,1,49,49
+54,Jessica Adriana Salas Pacheco,OV18C01N4006,2018-03-01,B/L PERFECT COVER HIDRA T1 Para piel seca a mixta Hasta 12 horas de cubrimiento.,1,44,44
+55,Jessica Adriana Salas Pacheco,OV18C01P3901,2018-03-01,ELIXIR DE VIDA CREMA DE OJOS Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.,1,72,72
+56,Jessica Adriana Salas Pacheco,OV18C01P3901,2018-03-01,B/L PERFECT COVER HIDRA T2 Para piel seca a mixta Hasta 12 horas de cubrimiento.,1,44,44
+57,Jessica Adriana Salas Pacheco,OV18C01P3901,2018-03-01,B/L PERFECT COVER MAT T2 Acabado mate hasta por 8 horas. SPF 12.,2,44,88
+58,Jessica Adriana Salas Pacheco,OV18C01P3901,2018-03-01,BODY SPA BABY SHAMPOO Aceite de Algodon con aguas florales 100 % naturales,1,33,33
+59,Jessica Adriana Salas Pacheco,OV18C01P3901,2018-03-01,BODY SPA BABY COLONIA Aceite de Algodon, con aguas florales 100% naturales,1,32,32
+60,Roxana Hinojosa Menendez,OV18C02I1042,2018-03-02,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,3,70,210
+61,Roxana Hinojosa Menendez,OV18C02I1042,2018-03-02,OHM COLOGNE SPRAY Salvia, toronja, lavanda.,1,70,70
+62,Roxana Hinojosa Menendez,OV18C02I1329,2018-03-02,LIBERATTA PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla.,1,115,115
+63,Roxana Hinojosa Menendez,OV18C02I1329,2018-03-02,DUETTE MARRON / NEGRO HUMO Marron y Negro,2,41,82
+64,Roxana Hinojosa Menendez,OV18C02I1329,2018-03-02,ESMALTE PERFECT TEN AMANTES DE MEDIA NOCHE Vino,1,14.9,14.9
+65,Roxana Hinojosa Menendez,OV18C02I1329,2018-03-02,PERFECT COVER CORRECTOR MEDIANO 1 Piel mediana,1,31,31
+66,Roxana Hinojosa Menendez,OV18C02I1329,2018-03-02,CCORI LE PARFUM Negro,1,89,89
+67,Roxana Hinojosa Menendez,OV18C02I1329,2018-03-02,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,49,49
+68,Roxana Hinojosa Menendez,OV18C02I4707,2018-03-02,PERFECT COVER CORRECTOR MEDIANO 2 Piel Oscura,1,31,31
+69,Roxana Hinojosa Menendez,OV18C02I4707,2018-03-02,ESMALTE PERFECT TEN GOLD SHIM dorado escarchado,0,0,0
+70,Roxana Hinojosa Menendez,OV18C02I5945,2018-03-02,VIVO TERRA COLOGNE fOR MEN notas maderosas de ruibarbo, eucalipto y cedro rojo.,1,59,59
+71,Roxana Hinojosa Menendez,OV18C02J0751,2018-03-02,Y. LABIAL ROSA LOVE rosado,1,19.9,19.9
+72,Roxana Hinojosa Menendez,OV18C02J1105,2018-03-02,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,35,35
+73,Roxana Hinojosa Menendez,OV18C02J1322,2018-03-02,TOTALIST ALOE VERA CREMA MULTIACCION Hidrata, nutre y protege.,1,32,32
+74,Roxana Hinojosa Menendez,OV18C02J1322,2018-03-02,AROM DESODORANTE Negro,1,12.9,12.9
+75,Roxana Hinojosa Menendez,OV18C02J1322,2018-03-02,OHM DESODORANTE Azul,1,12.9,12.9
+76,Roxana Hinojosa Menendez,OV18C02J2017,2018-03-02,SET COLLARES CRUZARO J13746 Negro,1,200,200
+77,Roxana Hinojosa Menendez,OV18C02J2414,2018-03-02,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,35,35
+78,Roxana Hinojosa Menendez,OV18C02J2414,2018-03-02,ULTRA DEF DEL LAP OJO NEGRO AB Negro,1,39,39
+79,Roxana Hinojosa Menendez,OV18C02J2847,2018-03-02,ARETES CUORE GLAM Negro,1,24.5,24.5
+80,Roxana Hinojosa Menendez,OV18C02J4921,2018-03-02,ELIXIR DE VIDA LIMPIADOR Limpia con resveratrol e hipoalergenico.,1,36,36
+81,Roxana Hinojosa Menendez,OV18C02J4921,2018-03-02,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,1,49,49
+82,Roxana Hinojosa Menendez,OV18C02J5038,2018-03-02,ELIXIR DE VIDA ROSTRO Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol,1,99,99
+83,Roxana Hinojosa Menendez,OV18C02J5218,2018-03-02,DUETTE MARRON / NEGRO HUMO Marron y Negro,1,41,41
+84,Roxana Hinojosa Menendez,OV18C02J5218,2018-03-02,ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO Delineado grueso,1,30,30
+85,Roxana Hinojosa Menendez,OV18C02J5218,2018-03-02,B/L PERFECT COVER MAT T3 Acabado mate hasta por 8 horas. SPF 12.,1,44,44
+86,Roxana Hinojosa Menendez,OV18C02J5218,2018-03-02,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,35,35
+87,Roxana Hinojosa Menendez,OV18C02J5758,2018-03-02,ULTRA DEFINITION  PLUMON OJOS NEGRO Trazo preciso delineado delgado y grueso,1,32,32
+88,Roxana Hinojosa Menendez,OV18C02K0041,2018-03-02,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,49,98
+89,Roxana Hinojosa Menendez,OV18C02K0250,2018-03-02,HYDRA LIP LABIAL COLOR INTENSO  MORA ZEN lila,1,25,25
+90,Roxana Hinojosa Menendez,OV18C02K0653,2018-03-02,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,1,49,49
+91,Roxana Hinojosa Menendez,OV18C02K0653,2018-03-02,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,49,98
+92,Roxana Hinojosa Menendez,OV18C02K1125,2018-03-02,OHM BLACK DESODORANTE A/P Negro,1,8.4,8.4
+93,Roxana Hinojosa Menendez,OV18C02K2943,2018-03-02,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,49,49
+94,Roxana Hinojosa Menendez,OV18C02K2943,2018-03-02,TOTAL BLOCK REPELENTE SPF 50  Doble proteccion rostro y cuerpo , todo tipo de piel,1,44,44
+95,Roxana Hinojosa Menendez,OV18C02K3136,2018-03-02,CONTROL BLANC RX DIA Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ,1,45,45
+96,Jessica Adriana Salas Pacheco,OV18C02K5927,2018-03-02,BS KIDS COLONIA NIÑAS Negro,1,27,27
+97,Jessica Adriana Salas Pacheco,OV18C02K5927,2018-03-02,BIO MILK CREMA MANGO MARAC Negro,1,19,19
+98,Jessica Adriana Salas Pacheco,OV18C02K5927,2018-03-02,BIO MILK COCO CARIB CREMA Negro,1,19,19
+99,Jessica Adriana Salas Pacheco,OV18C02L4632,2018-03-02,OSADIA HOMBRE COLOGNE SPRAY Hierbabuena, limón, ébano.,1,89,89
+100,Jessica Adriana Salas Pacheco,OV18C02L4632,2018-03-02,Ultra Definition Delineador en lapiz para Ojos Graffino Doble punta azul y plomo oscuro,1,27,27
+101,Jessica Adriana Salas Pacheco,OV18C02L4632,2018-03-02,DUETTE MARRON / NEGRO HUMO Marron y Negro,1,41,41
+102,Jessica Adriana Salas Pacheco,OV18C02L4632,2018-03-02,L/L HYDRA-LIP LD FUEGO ELEMENT MY Negro,1,29,29
+103,Jessica Adriana Salas Pacheco,OV18C02L4632,2018-03-02,CONTROL BLANC RX CREMA ACLARANTE Con Albacinol RX-11*  ácido hialurónico y filtros solares. ,1,55,55
+104,Jessica Adriana Salas Pacheco,OV18C02L4632,2018-03-02,DELINEADOR PUNTA PINCEL NEGRO Punta delgada,1,30,30
+105,Roxana Hinojosa Menendez,OV18C02L5251,2018-03-02,CREMA HIDRATANTE BIO MILK PERA MANZANA Con proteinas de yogurt probiotico,1,19,19
+106,Roxana Hinojosa Menendez,OV18C02L5931,2018-03-02,ESMALTE PERFECT TEN BLANC HARMONY Blanco tiza,1,17,17
+107,Roxana Hinojosa Menendez,OV18C02L5931,2018-03-02,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,35,35
+108,Roxana Hinojosa Menendez,OV18C02M0301,2018-03-02,BIO EFFECTIVE DESODORANTE ORIGINAL Blanco tapa blanco,1,10.9,10.9
+109,Jessica Adriana Salas Pacheco,OV18C02M2107,2018-03-02,RUBOR EN CREMA Y. CORAL coral,1,27.9,27.9
+110,Roxana Hinojosa Menendez,OV18C02M2400,2018-03-02,ARETES DOLCETO CRISTAL AJ12246 Negro,1,50,50
+111,Roxana Hinojosa Menendez,OV18C02M2400,2018-03-02,ARETES BRILLA Negro,1,85,85
+112,Jessica Adriana Salas Pacheco,OV18C02O5829,2018-03-02,TITANIUM SHAMPOO Potente activo que inhibe los microorganismos que producen la caspa y previenen su reaparición.,2,27,54
+113,Jessica Adriana Salas Pacheco,OV18C02Q2758,2018-03-02,DUETTE MARRON / NEGRO HUMO Marron y Negro,1,41,41
+114,Jessica Adriana Salas Pacheco,OV18C02Q2758,2018-03-02,LABIEL ANTI-EDAD ELIXIR DE VIDA ELIXIR FEME antiedad,1,33,33
+115,Jessica Adriana Salas Pacheco,OV18C02Q2758,2018-03-02,HYDRA-LIP LABIAL CRAYÓN SEMI-MATE FUCSIA GLAMOUR  No necesita tajarse.,1,37,37
+116,Jessica Adriana Salas Pacheco,OV18C02R1903,2018-03-02,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,1,26,26
+117,Jessica Adriana Salas Pacheco,OV18C03H3103,2018-03-03,BIO EFFECTIVE DESODORANTE ORIGINAL Blanco tapa blanco,1,10.9,10.9
+118,Jessica Adriana Salas Pacheco,OV18C03H3103,2018-03-03,B/L ELIXIR DE VIDA ANTIEDAD T2 Cubrimiento perfecto con acabado natural. ,1,64,64
+119,Jessica Adriana Salas Pacheco,OV18C03H3103,2018-03-03,DUETTE MARRON / NEGRO HUMO Marron y Negro,1,41,41
+120,Jessica Adriana Salas Pacheco,OV18C03H3848,2018-03-03,L/L HYDRA-LIP CRAY RED ELEGANC MY Negro,1,37,37
+121,Jessica Adriana Salas Pacheco,OV18C03H4052,2018-03-03,B/L ELIXIR DE VIDA ANTIEDAD T3 Cubrimiento perfecto con acabado natural. ,1,64,64
+122,Jessica Adriana Salas Pacheco,OV18C03H4052,2018-03-03,UNIQUECIL RIMEL NEGRO A prueba de agua,1,25,25
+123,Jessica Adriana Salas Pacheco,OV18C03H4052,2018-03-03,PERFECT COVER CORRECTOR MEDIANO 1 Piel mediana,1,31,31
+124,Jessica Adriana Salas Pacheco,OV18C03I1455,2018-03-03,ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO Delineado grueso,1,47,47
+125,Jessica Adriana Salas Pacheco,OV18C03I1630,2018-03-03,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,4,49,196
+126,Jessica Adriana Salas Pacheco,OV18C03I2036,2018-03-03,LESENCE FLORES & FRUTAS COL Negro,1,32,32
+127,Jessica Adriana Salas Pacheco,OV18C03I2036,2018-03-03,LESENCE BOUQUET ORIENTAL COLOGNE Aroma  de pera, fressia y tonka.,1,32,32
+128,Jessica Adriana Salas Pacheco,OV18C03I3518,2018-03-03,HIDRA LIP LABIAL COLOR INTENSO MUSA NUDE,1,25,25
+129,Jessica Adriana Salas Pacheco,OV18C03I3518,2018-03-03,B/L PERFECT COVER HIDRA T2 Para piel seca a mixta Hasta 12 horas de cubrimiento.,1,44,44
+130,Jessica Adriana Salas Pacheco,OV18C03I3518,2018-03-03,ULTRA DEF DELiNEADOR CEJAS MARRON MED Cejas,1,39,39
+131,Jessica Adriana Salas Pacheco,OV18C03I3518,2018-03-03,ESMALTE FORTE DIX FORTALECEDOR DE UÑAS transparente,1,14.9,14.9
+132,Jessica Adriana Salas Pacheco,OV18C03I3518,2018-03-03,AROM POUR HOMME COLONIA aroma maderoso que mezcla notas de sándalo, romero y bergamota.,1,86,86
+133,Jessica Adriana Salas Pacheco,OV18C03I3518,2018-03-03,SOLO COLOGNE FOR MEN Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ,1,105,105
+134,Jessica Adriana Salas Pacheco,OV18C03J2241,2018-03-03,ARETES HEXAGONO GLAM ARETES,1,65,65
+135,Jessica Adriana Salas Pacheco,OV18C03J2950,2018-03-03,C/S COLOR EFFECT FUROR AZUL Azules,1,52,52
+136,Jessica Adriana Salas Pacheco,OV18C03J2950,2018-03-03,ULTRA DEFINITION  PLUMON OJOS NEGRO Trazo preciso delineado delgado y grueso,1,32,32
+137,Jessica Adriana Salas Pacheco,OV18C03J3528,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO ROSA GALACTICO rosado fuerte,1,28,28
+138,Jessica Adriana Salas Pacheco,OV18C03K0626,2018-03-03,RUBOR COLOR EFFECT BRONZAGE Piel mediana,1,54,54
+139,Jessica Adriana Salas Pacheco,OV18C03K0626,2018-03-03,ELIXIR DE VIDA LIMPIADOR Limpia con resveratrol e hipoalergenico.,1,36,36
+140,Jessica Adriana Salas Pacheco,OV18C03K0626,2018-03-03,SENTIVA DESMAQUILLADOR DOBLE FASE Facil, rapido ny eficaz,1,40,40
+141,Jessica Adriana Salas Pacheco,OV18C03K0747,2018-03-03,BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA Extracto de quinua,1,32,32
+142,Jessica Adriana Salas Pacheco,OV18C03K0747,2018-03-03,RUBOR COLOR EFFECT BRONZAGE Piel mediana,1,54,54
+143,Jessica Adriana Salas Pacheco,OV18C03K0747,2018-03-03,SENTIVA DESMAQUILLADOR DOBLE FASE Facil, rapido ny eficaz,1,40,40
+144,Jessica Adriana Salas Pacheco,OV18C03K0747,2018-03-03,B/L ELIXIR DE VIDA ANTIEDAD T2 Cubrimiento perfecto con acabado natural. ,1,64,64
+145,Jessica Adriana Salas Pacheco,OV18C03K0747,2018-03-03,P/C PERFECT COVER MEDIANO 1 Piel Mediana,2,54,108
+146,Jessica Adriana Salas Pacheco,OV18C03K2017,2018-03-03,DELINEADOR PUNTA PINCEL NEGRO Punta delgada,1,30,30
+147,Jessica Adriana Salas Pacheco,OV18C03K2017,2018-03-03,Y. RIMEL NEGRO Negro,1,19.9,19.9
+148,Jessica Adriana Salas Pacheco,OV18C03K2647,2018-03-03,TOP MODELING CREMA LIPO-REDUCTORA concentrado de cafeína liposomada y L-Carnitina,1,62,62
+149,Jessica Adriana Salas Pacheco,OV18C03K2647,2018-03-03,MASAJEADOR TOP MODELING 2014 Negro,1,16.9,16.9
+150,Jessica Adriana Salas Pacheco,OV18C03K4018,2018-03-03,ULTRA DEF DEL LARGA DURACION OJOS MARRON A prubea de agua,1,43,43
+151,Jessica Adriana Salas Pacheco,OV18C03K4229,2018-03-03,DELINEADOR PUNTA PINCEL NEGRO Punta delgada,1,30,30
+152,Jessica Adriana Salas Pacheco,OV18C03L0144,2018-03-03,SET ARETES MARIPOSA ARETES,1,70,70
+153,Jessica Adriana Salas Pacheco,OV18C03L1245,2018-03-03,CRECE EXTREME RIMEL ACELERADOR MY Negro,1,35,35
+154,Jessica Adriana Salas Pacheco,OV18C03L1637,2018-03-03,Hydra-Lip Color Intenso Kaki Negro,1,25,25
+155,Jessica Adriana Salas Pacheco,OV18C03M2019,2018-03-03,ELIXIR DE VIDA ROSTRO Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol,2,99,198
+156,Jessica Adriana Salas Pacheco,OV18C03M2019,2018-03-03,ELIXIR DE VIDA CREMA DE OJOS Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.,1,72,72
+157,Jessica Adriana Salas Pacheco,OV18C03M5248,2018-03-03,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,2,20,40
+158,Jessica Adriana Salas Pacheco,OV18C03M5248,2018-03-03,BIO MILK CREMA HIDRATANTE ORIGINAL aroma a base de pomelo blanco, durazno y flor de algodón que hidrata, suaviza y nutre,1,44,44
+159,Jessica Adriana Salas Pacheco,OV18C03M5248,2018-03-03,BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA Extracto de quinua,1,30,30
+160,Jessica Adriana Salas Pacheco,OV18C03M5248,2018-03-03,TOTAL BLOCK ANTI EDAD MATT SPF50+ Rostro con extracto marino acabado mate,1,45,45
+161,Jessica Adriana Salas Pacheco,OV18C03M5248,2018-03-03,TOTALIST CONCHA DE NACAR CREMA ROSTRO Aclara, reafirma, alisa arrugas,,  nutre,1,25,25
+162,Jessica Adriana Salas Pacheco,OV18C03M5248,2018-03-03,LENTES DE SOL SOLE LENTES DE MUJER,1,35,35
+163,Roxana Hinojosa Menendez,OV18C03N0603,2018-03-03,HYDRA LIP LABIAL COLOR INTENSO FUCSIA PELIGROSA fucsia,1,25,25
+164,Roxana Hinojosa Menendez,OV18C03N0603,2018-03-03,TEMPTATION COLOGNE FOR MEN Menta, flor de naranja, sándalo.,0,86,0
+165,Roxana Hinojosa Menendez,OV18C03N0603,2018-03-03,Shampoo Kids 2 en 1 Uva Negro,1,28,28
+166,Roxana Hinojosa Menendez,OV18C05J0925,2018-03-05,LESENCE FLORES DE CEREZO COLOGNE Floral dulce con notas de magnolia, flor de cerezo y bambu,1,27.5,27.5
+167,Roxana Hinojosa Menendez,OV18C05J0925,2018-03-05,LESENCE BOUQUET ORIENTAL COLOGNE Aroma  de pera, fressia y tonka.,1,27.5,27.5
+168,Usuario Prueba,OV18C07J4010,2018-03-07,CIELO EAU DE PARFUM Flor de loto, jazmín, sándalo.,3,104,312
+169,Usuario Prueba,OV18C07J4010,2018-03-07,CIELO EAU DE PARFUM Flor de loto, jazmín, sándalo.,1,104,104
+170,Usuario Prueba,OV18C07J4340,2018-03-07,CIELO EAU DE PARFUM Flor de loto, jazmín, sándalo.,3,104,312
+171,Usuario Prueba,OV18C07J4340,2018-03-07,CIELO EAU DE PARFUM Flor de loto, jazmín, sándalo.,1,104,104

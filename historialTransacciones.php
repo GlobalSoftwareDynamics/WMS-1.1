@@ -157,7 +157,7 @@ if(isset($_SESSION['login'])) {
                                     <tr>
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Transacción</th>
-                                        <th class="text-center">Responsable</th>
+                                        <th class="text-center">Cliente/Proveedor</th>
                                         <th class="text-center">Stock Inicial</th>
                                         <th class="text-center">Variación</th>
                                         <th class="text-center">Stock Final</th>
@@ -171,9 +171,9 @@ if(isset($_SESSION['login'])) {
                                     $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
-                                        echo "<tr>";
                                         $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idProducto']}'");
                                         while ($fila1=mysqli_fetch_array($result1)){
+                                            echo "<tr>";
                                             switch($fila['idTipoTransaccion']){
                                                 case 1:
                                                     $value="+";
@@ -236,10 +236,10 @@ if(isset($_SESSION['login'])) {
                                             }else{
                                                 echo "<td>{$fila['idTransaccion']}</td>";
                                             }
-                                            $result2=mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$fila['idColaborador']}'");
+                                            $result2=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
                                             while ($fila2=mysqli_fetch_array($result2)){
                                                 echo "
-                                                        <td>{$fila2['nombres']} {$fila2['apellidos']}</td>
+                                                        <td>{$fila2['nombre']}</td>
                                                     ";
                                             }
                                             if($fila['idTipoTransaccion']==='7'){
@@ -272,7 +272,7 @@ if(isset($_SESSION['login'])) {
                                     <tr>
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Código</th>
-                                        <th class="text-center">Responsable</th>
+                                        <th class="text-center">Cliente</th>
                                         <th class="text-center">Stock Inicial</th>
                                         <th class="text-center">Variación</th>
                                         <th class="text-center">Stock Final</th>
@@ -286,9 +286,9 @@ if(isset($_SESSION['login'])) {
                                     $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='1' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
-                                        echo "<tr>";
                                         $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idProducto']}'");
                                         while ($fila1=mysqli_fetch_array($result1)){
+                                            echo "<tr>";
                                             echo "<td>{$date[0]}</td>";
                                             echo "
                                                     <td>
@@ -299,10 +299,10 @@ if(isset($_SESSION['login'])) {
                                                     </form>
                                                     </td>
                                             ";
-                                            $result2=mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$fila['idColaborador']}'");
+                                            $result2=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
                                             while ($fila2=mysqli_fetch_array($result2)){
                                                 echo "
-                                                        <td>{$fila2['nombres']} {$fila2['apellidos']}</td>
+                                                        <td>{$fila2['nombre']}</td>
                                                     ";
                                             }
                                             echo "
@@ -332,7 +332,7 @@ if(isset($_SESSION['login'])) {
                                     <tr>
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Código</th>
-                                        <th class="text-center">Responsable</th>
+                                        <th class="text-center">Cliente</th>
                                         <th class="text-center">Stock Inicial</th>
                                         <th class="text-center">Variación</th>
                                         <th class="text-center">Stock Final</th>
@@ -346,11 +346,13 @@ if(isset($_SESSION['login'])) {
                                     $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='5' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
-                                        echo "<tr>";
                                         $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idProducto']}'");
-                                        while ($fila1=mysqli_fetch_array($result1)){
-                                            echo "<td>{$date[0]}</td>";
-                                            echo "
+                                        $numrow = mysqli_num_rows($result1);
+                                        if($numrow > 1){
+                                            while ($fila1=mysqli_fetch_array($result1)){
+                                                echo "<tr>";
+                                                echo "<td>{$date[0]}</td>";
+                                                echo "
                                                     <td>
                                                     <form method='post' action='detalleOV.php'>
                                                         <input type='hidden' name='idTransaccion' value='{$fila['idTransaccion']}'>
@@ -359,28 +361,64 @@ if(isset($_SESSION['login'])) {
                                                     </form>
                                                     </td>
                                                 ";
-                                            $result2=mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$fila['idColaborador']}'");
-                                            while ($fila2=mysqli_fetch_array($result2)){
-                                                echo "
-                                                        <td>{$fila2['nombres']} {$fila2['apellidos']}</td>
+                                                $result2=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
+                                                while ($fila2=mysqli_fetch_array($result2)){
+                                                    echo "
+                                                        <td>{$fila2['nombre']}</td>
                                                     ";
-                                            }
-                                            echo "
+                                                }
+                                                echo "
                                                     <td>{$fila1['stockInicial']}</td>
                                                     <td>-{$fila1['cantidad']}</td>
                                                     <td>{$fila1['stockFinal']}</td>
                                                 ";
-                                            $result2=mysqli_query($link,"SELECT * FROM Estado WHERE idEstado = '{$fila['idEstado']}'");
-                                            while ($fila2=mysqli_fetch_array($result2)){
-                                                echo " 
+                                                $result2=mysqli_query($link,"SELECT * FROM Estado WHERE idEstado = '{$fila['idEstado']}'");
+                                                while ($fila2=mysqli_fetch_array($result2)){
+                                                    echo " 
                                                         <td>{$fila2['descripcion']}</td>
                                                     ";
-                                            }
-                                            echo " 
+                                                }
+                                                echo " 
                                                     <td>{$fila['observacion']}</td>
                                                 ";
+                                            }
+                                            echo "</tr>";
+                                        }else{
+
+                                            while ($fila1=mysqli_fetch_array($result1)){
+                                                echo "<td>{$date[0]}</td>";
+                                                echo "
+                                                    <td>
+                                                    <form method='post' action='detalleOV.php'>
+                                                        <input type='hidden' name='idTransaccion' value='{$fila['idTransaccion']}'>
+                                                        <input type='hidden' name='idProducto' value='{$_POST['idProducto']}'>
+                                                        <input type='submit' name='detalleHT' value='{$fila['idTransaccion']}' class='btn-link'>
+                                                    </form>
+                                                    </td>
+                                                ";
+                                                $result2=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
+                                                while ($fila2=mysqli_fetch_array($result2)){
+                                                    echo "
+                                                        <td>{$fila2['nombre']}</td>
+                                                    ";
+                                                }
+                                                echo "
+                                                    <td>{$fila1['stockInicial']}</td>
+                                                    <td>-{$fila1['cantidad']}</td>
+                                                    <td>{$fila1['stockFinal']}</td>
+                                                ";
+                                                $result2=mysqli_query($link,"SELECT * FROM Estado WHERE idEstado = '{$fila['idEstado']}'");
+                                                while ($fila2=mysqli_fetch_array($result2)){
+                                                    echo " 
+                                                        <td>{$fila2['descripcion']}</td>
+                                                    ";
+                                                }
+                                                echo " 
+                                                    <td>{$fila['observacion']}</td>
+                                                ";
+                                            }
+                                            echo "</tr>";
                                         }
-                                        echo "</tr>";
                                     }
                                     ?>
                                     </tbody>
@@ -392,7 +430,7 @@ if(isset($_SESSION['login'])) {
                                     <tr>
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Código</th>
-                                        <th class="text-center">Responsable</th>
+                                        <th class="text-center">Cliente</th>
                                         <th class="text-center">Stock Inicial</th>
                                         <th class="text-center">Variación</th>
                                         <th class="text-center">Stock Final</th>
@@ -414,9 +452,9 @@ if(isset($_SESSION['login'])) {
                                                 $value="-";
                                                 break;
                                         }
-                                        echo "<tr>";
                                         $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idProducto']}'");
                                         while ($fila1=mysqli_fetch_array($result1)){
+                                            echo "<tr>";
                                             echo "<td>{$date[0]}</td>";
                                             echo "
                                                     <td>
@@ -427,10 +465,10 @@ if(isset($_SESSION['login'])) {
                                                     </form>
                                                     </td>
                                                     ";
-                                            $result2=mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$fila['idColaborador']}'");
+                                            $result2=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
                                             while ($fila2=mysqli_fetch_array($result2)){
                                                 echo "
-                                                        <td>{$fila2['nombres']} {$fila2['apellidos']}</td>
+                                                        <td>{$fila2['nombre']}</td>
                                                     ";
                                             }
                                             echo "
@@ -474,9 +512,9 @@ if(isset($_SESSION['login'])) {
                                     $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='4' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
-                                        echo "<tr>";
                                         $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idProducto']}'");
                                         while ($fila1=mysqli_fetch_array($result1)){
+                                            echo "<tr>";
                                             echo "<td>{$date[0]}</td>";
                                             echo "<td>{$fila['idTransaccion']}</td>";
                                             $result2=mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$fila['idColaborador']}'");
@@ -526,9 +564,9 @@ if(isset($_SESSION['login'])) {
                                     $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='8' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
-                                        echo "<tr>";
                                         $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idProducto']}'");
                                         while ($fila1=mysqli_fetch_array($result1)){
+                                            echo "<tr>";
                                             if($fila1['stockFinal']>$fila1['stockInicial']){
                                                 $value="+";
                                             }elseif ($fila1['stockFinal']<$fila1['stockInicial']){
@@ -583,9 +621,9 @@ if(isset($_SESSION['login'])) {
                                     $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE fechaTransaccion >= '{$ago} 00:00:00' AND idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idProducto']}') AND idTipoTransaccion ='7' ORDER BY fechaTransaccion DESC");
                                     while($fila=mysqli_fetch_array($result)){
                                         $date=explode("|",$fila['fechaTransaccion']);
-                                        echo "<tr>";
                                         $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idProducto']}'");
                                         while ($fila1=mysqli_fetch_array($result1)){
+                                            echo "<tr>";
                                             echo "<td>{$date[0]}</td>";
                                             echo "<td>{$fila['idTransaccion']}</td>";
                                             $result2=mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$fila['idColaborador']}'");

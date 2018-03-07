@@ -99,12 +99,22 @@ if(isset($_SESSION['login'])) {
             $idProducto = $fila['idProducto'];
         }
 
-        $stockinicial=0;
-        $stock=mysqli_query($link,"SELECT * FROM UbicacionProducto WHERE idProducto = '{$idProducto}'");
-        while ($fila=mysqli_fetch_array($stock)){
-            $stockinicial=$stockinicial+$fila['stock'];
+        $query = mysqli_query($link,"SELECT idProducto, cantidad, stockInicial FROM TransaccionProducto WHERE idTransaccion = '{$_POST['idTransaccion']}' AND idProducto = '{$idProducto}'");
+        $numrow = mysqli_num_rows($query);
+        if ($numrow > 0){
+            while ($fila = mysqli_fetch_array($query)){
+                $stockinicial = $fila['stockInicial'] - $fila['cantidad'];
+                echo $stockinicial;
+                $stockfinal=$stockinicial-$_POST['cantidad'];
+            }
+        }else{
+            $stockinicial=0;
+            $stock=mysqli_query($link,"SELECT * FROM UbicacionProducto WHERE idProducto = '{$idProducto}'");
+            while ($fila=mysqli_fetch_array($stock)){
+                $stockinicial=$stockinicial+$fila['stock'];
+            }
+            $stockfinal=$stockinicial-$_POST['cantidad'];
         }
-        $stockfinal=$stockinicial-$_POST['cantidad'];
 
         $promo="Sin Promoción";
         switch ($_POST['promo']){
