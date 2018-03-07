@@ -1,4 +1,0 @@
-Resumen
-Total Compras,307
-Total Ventas,107.5
-Total Préstamos,115
