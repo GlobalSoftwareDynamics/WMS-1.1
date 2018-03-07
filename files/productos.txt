@@ -9,6 +9,7 @@
 0002183,GAIA EAU DE PARFUM,Con notas de jacarandá, magnolia y orquídea,Perfumería Dama,Unisex,Activo
 0002187,O2XYGEN GEL AFTER SHAVE,Hidrata, limpia y suaviza.,Perfumería Varón,Unisex,Activo
 0002279,OSADIA EAU DE PARFUM, naranja brasilera, maracuyá y destellos de granada.,Perfumería Dama,Unisex,Activo
+0002410,ESMALTE PERFECT TEN ROSA ROMANTICO,beige,Esmaltes,Unisex,Activo
 0002426,CIELO EAU DE PARFUM,Flor de loto, jazmín, sándalo.,Perfumería Dama,Dama,Activo
 0002645,OHM BLACK COLOGNE SPRAY,Madera de cachemira, lavanda, pimienta.,Perfumería Varón,Unisex,Activo
 0002647,BODY SPA UÑA DE GATO CREMA PARA MANOS A/P,Hidrata y repara la piel seca y extra seca.,Cuidado de la Piel,Unisex,Activo
@@ -130,6 +131,7 @@
 0003725,XOOL EAU DE TOILETTE,Bergamota, hojas de higo, salvia.,Perfumería Varón,Unisex,Activo
 0003726,AROM POUR HOMME COLONIA,aroma maderoso que mezcla notas de sándalo, romero y bergamota.,Perfumería Varón,Unisex,Activo
 0003727,AROM SPORT COLONIA,Nautico,Perfumería Varón,Unisex,Activo
+0003732,Clic Esmalte Green Paradise,Negro,Esmaltes,Unisex,Activo
 0003737,Clic Rimel Morado,Negro,Rímeles,Unisex,Activo
 0003740,AROM DESODORANTE A/P,Negro,Desodorantes,Unisex,Activo
 0003741,SOLO DESODORANTE A/P,Plomo,Desodorantes,Unisex,Activo
@@ -151,6 +153,7 @@
 0003784,EAU DE SEDA A/P,Flor de seda, durazno y mimosa sensual.,Perfumería Dama,Dama,Activo
 0003797,O2xigen Cologne Spray,Negro,Collares,Unisex,Activo
 0003801,ULTRA DEFINITION DELINEADOR LABIOS TOFFEE IMPERIAL,Labios Toffe Imperial,Delineadores de Labios,Unisex,Activo
+0003813,PERFECT TEN REMOVEDOR ESMALTE,Negro,Esmaltes,Unisex,Activo
 0003823,SHAMPOO 2 EN 1 MANZANA,Aroma Manzana, no lagrimas,Shampoo,Unisex,Activo
 0003824,SHAMPOO ALEGRÍA PETIT PON PON,No lágrimas aroma a lavanda, flor de naranja y vainilla,Shampoo,Niños,Activo
 0003825,SHAMPOO TERNURA PETIT PON PON,No lágrimas con aroma a manzanilla, limón y agua de rosas ,Shampoo,Niños,Activo
@@ -163,6 +166,7 @@
 0003860,SOY IRRESISTIBLE FRESH COLOGNE,Cereza,Perfumería Dama,Unisex,Activo
 0003875,MATIFIX BASE DE MAQUILLAJE MIXTO A  GRASO  T1,Absorve el exeso de grasa,Bases,Unisex,Activo
 0003887,Ultra Definition Delineador Retractil Ojos Violeta ,Lapiz retractil,Delineadores,Unisex,Activo
+0003906,Professional Maricure Esmalte para Manicure Francesa ,Negro,Esmaltes,Unisex,Activo
 0003910,DELINEADOR LIQUIDO PUNTA PLUMON MIRAME A LOS OJOSD,Delineado grueso color violeta,Delineadores,Unisex,Activo
 0003911,ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO,Delineado grueso,Delineadores,Unisex,Activo
 0003914,Clic Labial Liquido Escarchado Admirador Secreto,Negro,Labiales,Unisex,Activo
@@ -171,6 +175,7 @@
 0003917,CLIC LABIAL LIQUIDO ESCARCHADO PAPARAZZI,rosado fuerte,Labiales,Unisex,Activo
 0003918,CLIC LABIAL LIQUIDO ESCARCHADO ULTIMA FUNCION,morado oscuro,Labiales,Unisex,Activo
 0003919,CLIC LABIAL LIQUIDO ESCARCHADO NARANJA SEXY,naranja,Labiales,Unisex,Activo
+0003921,Esmalte para Diseño de Uñas Negro ,Negro,Esmaltes,Unisex,Activo
 0003929,Clic Delineador en Lapiz para Ojos Azul Electrico,Negro,Collares,Unisex,Activo
 0003930,CLIC LAPIZ DELINEADOR PARA OJOS SEXY BRONZ,cafe,Delineadores,Unisex,Activo
 0003931,CLIC LAPIZ DELINEADOR PARA OJOS MORADO PROFUNDO ,morado,Delineadores,Unisex,Activo
@@ -208,6 +213,9 @@
 0004105,CLIC L/L DULCE VANIDAD,extra suavidad,Labiales,Unisex,Activo
 0004107,CLIC L/L ROJO EXPLOSION,extra suavidad,Labiales,Unisex,Activo
 0004120,DELINEADOR PUNTA PINCEL PLATA VIBRANTE,Punta delgada,Collares,Unisex,Activo
+0004140,ESMALTE PERFECT TEN AMANTES Y ENEMIGOS,vino oscuro,Esmaltes,Unisex,Activo
+0004146,ESMALTE PERFECT TEN PRINCESA,beige,Esmaltes,Unisex,Activo
+0004151,ESMALTE PERFECT TEN VALS,blanco nacarado,Esmaltes,Unisex,Activo
 0004153,DUETTE MARRON / NEGRO HUMO,Marron y Negro,Delineadores,Unisex,Activo
 0004155,MATIFIX BASE DE MAQUILLAJE MIXTO A  GRASO  T6,Absorve el exeso de grasa,Bases,Unisex,Activo
 0004156,CLIC GEL DESMAQUILLADOR OJOS, LABIOS Y ROSTRO,textura ultra fresca libre de grasa,Desmaquilladores,Unisex,Activo
@@ -231,13 +239,22 @@
 0004279,C/S COLOR EFFECT GOLD LIGHTS,Dorados,Sombras,Unisex,Activo
 0004281,Color Prisma Cuarteto de Sombras Neo Chic,Lilas,Sombras,Unisex,Activo
 0004283,C/S COLOR EFFECT TOULOUSSE ,Lilas,Sombras,Unisex,Activo
+0004291,ESMALTE PERFECT TEN LA PURA VERDAD,nude,Esmaltes,Unisex,Activo
 0004305,CRECE EXTREME RIMEL ACE D CREC,Negro,Rímeles,Unisex,Activo
 0004306,Clic Corrector Retractil para Barritos ,Negro,Collares,Unisex,Activo
 0004307,KERA EXPERT SHAMPOO LISO PROFESIONAL,Envase morado etiqueta negra,Cabello,Unisex,Activo
 0004308,KERA EXPERT ACONDICIONADOR LISO PROFESIONAL,Enave negro etiqueta morada,Cabello,Unisex,Activo
 0004309,MACA EXPERT ACONDICIONADOR REPRACION PROFESIONAL,Envase negro etiqueta verde,Cabello,Unisex,Activo
+0004330,CLIC ESMALTE ECO FAN,aquamarine,Esmaltes,Unisex,Activo
+0004331,Clic Esmalte Ratatui,Negro,Esmaltes,Unisex,Activo
+0004332,Clic Esmalte Tinky Winky,Negro,Esmaltes,Unisex,Activo
+0004333,CLIC ESMALTE CRUELA,morado,Esmaltes,Unisex,Activo
+0004343,ESMALTE PERFECT TEN  CRUSH,Naranja,Esmaltes,Unisex,Activo
 0004347,ADRENALINE EAU DE TOILETTE,Mandarina, flor de loto, naranja china,Perfumería Dama,Unisex,Activo
 0004348,CONTROL BLANC RX CREMA ACLARANTE,Con Albacinol RX-11*  ácido hialurónico y filtros solares. ,Antimanchas y Aclarantes,Unisex,Activo
+0004354,ESMALTE PERFECT TEN JUNGLA DE CEMENTO,plomo,Esmaltes,Unisex,Activo
+0004358,ESMALTE PERFECT TEN  DESEOS DE ARENA,arena nacarado,Esmaltes,Unisex,Activo
+0004360,ESMALTE PREFEC TEN BRILLO POR TI,Cafe metalico,Esmaltes,Unisex,Activo
 0004365,HYDRO-ACTIVE BASE DE MAQUILLAJE T1,12 horas dce cubrimiento, 12 horas de hidratacion, proteccio spf15,Bases,Unisex,Activo
 0004368,HYDRO-ACTIVE BASE DE MAQUILLAJE T4,12 horas dce cubrimiento, 12 horas de hidratacion, proteccio spf15,Bases,Unisex,Activo
 0004369,HYDRO-ACTIVE BASE DE MAQUILLAJE T5,12 horas dce cubrimiento, 12 horas de hidratacion, proteccio spf15,Bases,Unisex,Activo
@@ -248,8 +265,12 @@
 0004379,Clic Brillo Natural y Delineador Azul,Negro,Collares,Unisex,Activo
 0004394,BIO FRUIT SHAMPOO Y  ACONDICIONADOR MANDARINA TROPICAL A/P,Con proteinas de Yogur probiotico Revitalizante,Shampoo,Unisex,Activo
 0004395,BIO FRUIT SHAMPOO Y ACONDICIONADOR COCO CARIBEÑO A/P 350 ML,Ultra Hidratante envase color crema,Shampoo,Unisex,Activo
+0004405,ESMALTE PERFECT TEN VERDE AFRICA,Verde claro,Esmaltes,Unisex,Activo
 0004408, HYDRA-LIP LABIAL COLOR INTENSO JUNTO A TI ,rosado fuerte,Labiales,Unisex,Activo
+0004414,ESMALTE PERFECT TEN DORADO METALICO,Dorado metalico,Esmaltes,Unisex,Activo
+0004415,ESMALTE PERFECT TEN ARENHA,arena metalico,Esmaltes,Unisex,Activo
 0004422,LASH FICTION RIMEL PESTAÑAS DE PELICULA,No es a prueba de agua,Rímeles,Unisex,Activo
+0004459,Clic Esmalte Cotton Candy,Negro,Esmaltes,Unisex,Activo
 0004469,BODY SPA UÑA DE GATO CREMA PARA PIEL EXTRA SECA A/P,Hidrata y repara la piel seca y extra seca.,Cuidado de la Piel,Unisex,Activo
 0004470,BODY SPA UÑA DE GATO BODY SPA UÑA DE GATO PARA PIEL EXTRA SECA A/P,Exfolia la piel seca y extra seca.,Cuidado de la Piel,Unisex,Activo
 0004471,DESODORANTE ACERK.TE FUEGO,Desodorante corporal envase negro etiqueta anaranjada,Desodorantes,Unisex,Activo
@@ -267,8 +288,13 @@
 0004515,DESODORANTE ACERK.TE ENERGIA,Desodorante corporal envase negro etiqueta verde limon,Desodorantes,Unisex,Activo
 0004516,DESODORANTE ACERK.TE FRESH,Desodorante corporal envase negro etiqueta turquesa,Desodorantes,Unisex,Activo
 0004517,SUN BLOCK SPF 30  A/P,Rostro y cuerpo, textura ultra ligera ,Protectores Solares,Unisex,Activo
+0004531,ESMALTE PERFECT TEN ORO BLING,dorado,Esmaltes,Unisex,Activo
 0004539,HYDRA-LIP LABIAL COLOR INTENSO VAINILLA ROSA,nude ,Labiales,Unisex,Activo
+0004541,CLIC ESMALTE BLU BLU,azul,Esmaltes,Unisex,Activo
+0004542,Clic Esmalte Mandarin,Negro,Esmaltes,Unisex,Activo
+0004543,ESMALTE FORTE DIX FORTALECEDOR DE UÑAS,transparente,Esmaltes,Unisex,Activo
 0004548,HYDRA-LIP LABIAL COLOR INTENSO VAINILLA INTIMO,natural,Labiales,Unisex,Activo
+0004551,ESMALTE PERFECT TEN PERLAS Y CRISTALES,perla nacarado,Esmaltes,Unisex,Activo
 0004553,EAU VITALE TE VERDE GEL PARA BAÑO,Esencias cítricas y te verdeNegro,Colonia,Unisex,Activo
 0004562,TITANIUM LIMPIADOR EXFOLIANTE A/P,Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco-,Perfumería Varón,Unisex,Activo
 0004566,COLOR PRISMA DUO SOMBRAS CARNAVAL DE RIO,alta adherencia-larga duracion,Sombras,Unisex,Activo
@@ -277,7 +303,11 @@
 0004569,COLOR PRISMA DUO DE SOMBRAS MADE IN TOKIO,alta adherencia-larga duracion,Sombras,Unisex,Activo
 0004570,COLOR PRIMAS DUO DE SOMBRAS ROMANCE EN PARIS,alta adherencia-larga duracion,Sombras,Unisex,Activo
 0004576,MISS AMOUR EAU DE PARFUM,floral con notas de litchi, mimosa francesa y cristal de cedro.,Perfumería Dama,Unisex,Activo
+0004578,Clic Esmalte Galactic Green,Negro,Esmaltes,Unisex,Activo
+0004588,ESMALTE PERFECT TEN OH DIVINA,Morado,Esmaltes,Unisex,Activo
+0004621,Clic Esmalte Metal Glam,Negro,Esmaltes,Unisex,Activo
 0004630,REVITALIST SUERO,Poder Alisante, fuerza tonificante, accion  antiporos.,Cremas y Sueros,Unisex,Activo
+0004635,ESMALTE PERFECT TEN ESCARCHA BRONZ,Bronce metalico,Esmaltes,Unisex,Activo
 0004636,BODY SPA LECHE & AVENA CREMA CUERPO A/P,hidratacion y suavidad,Cuidado de la Piel,Unisex,Activo
 0004638,Prolong Color Dunas (antigua presentación),Negro,Collares,Unisex,Activo
 0004639,BODY SPA UÑA DE GATO EXFOLIANTE EN GEL PARA MANOS Y CUERPO A/P,Exfolia la piel seca y extra seca.,Cuidado de la Piel,Unisex,Activo
@@ -297,6 +327,8 @@
 0004656,BODY SPA UÑA DE GATO CREMA REPARADORA A/P,Repara e hidrata la piel.,Cuidado de la Piel,Unisex,Activo
 0004657,HYDRA LIP LABIAL COLOR INTENSO  DELICATTA ,palo de rosa oscuro,Labiales,Unisex,Activo
 0004661,HYDRA LIP LABIAL COLOR INTENSO  ATARDECER  CARIBE,rosado,Labiales,Unisex,Activo
+0004665,ESMALTE PERFECT TEN NARANJA DO BRAZIL,naranja fuerte,Esmaltes,Unisex,Activo
+0004666,ESMALTE PERFECT TEN DANZA  CARIOCA,Amarillo yema ,Esmaltes,Unisex,Activo
 0004668,ULTRA DEFINITON PLUMON OJOS MARRON,Trazo Preciso delineado delgado y grueso,Delineadores,Unisex,Activo
 0004669,ULTRA DEFINITION PLUMON OJOS AZUL,Trazo preciso delineado delgado y grueso,Delineadores,Unisex,Activo
 0004670,REVITALIST TONICO,Negro,Collares,Unisex,Activo
@@ -307,16 +339,25 @@
 0004687,BRILLO DE SEDA DIAMANTES A/P,Hidrata y perfuma,Perfumería Dama,Unisex,Activo
 0004694,TOP MODELING CREMA ANTI-CELULITIS,a base de algas marinas, reafirma, hidrata y reduce la apariencia de celulitis,Cuidado de la Piel,Unisex,Activo
 0004699,Prolong Color Intensity,Negro,Collares,Unisex,Activo
+0004701,ESMALTE PERFECT TEN INSTINTO ANIMAL,Cafe claro,Esmaltes,Unisex,Activo
+0004709,Clic Esmalte Aqua Shock,Negro,Esmaltes,Unisex,Activo
 0004710,Soy Fashion Fresh Colonia,Negro,Collares,Unisex,Activo
 0004713,Clic Esmalte Hot Pink,Negro,Collares,Unisex,Activo
+0004714,CLIC ESMALTE COOL YELLOW,amarillo,Esmaltes,Unisex,Activo
 0004717,SOY LIBRE FRESH COLOGNE,Oceanica,Perfumería Dama,Unisex,Activo
 0004718,SOY DULCE FRESH COLOGNE A/P,Frambuesa azucarada, madera blanca, vainilla.,Perfumería Dama,Dama,Activo
 0004719,SOY FASHION FRESH COLOGNE A/P,Litchi dulce, chocolate blanco, almizcle delicado.,Perfumería Dama,Dama,Activo
 0004720,SOY SEXY FRESH COLOGNE A/P,Nerolí, sándalo sensual, almizcle de piel.,Perfumería Dama,Dama,Activo
 0004724, HYDRA-LIP LABIAL COLOR INTENSO ULTRA LADY ROSE,Rosado claro,Labiales,Unisex,Activo
+0004729,CLIC ESMALTE BLUE PUNCH,celeste,Esmaltes,Unisex,Activo
 0004733,ELIXIR DE VIDA ROSTRO,Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol,Cremas y Sueros,Unisex,Activo
 0004734,ELIXIR DE VIDA CREMA DE OJOS,Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.,Cremas y Sueros,Unisex,Activo
+0004736,ESMALTE PERFECT TEN AZZULE,azul metalico,Esmaltes,Unisex,Activo
+0004737,ESMALTE PERFECT TEN LUXURY,cobre oscuro,Esmaltes,Unisex,Activo
+0004738,ESMALTE PERFECT TEN OSCURA TENTACION,Cafe oscuro,Esmaltes,Unisex,Activo
+0004739,ESMALTE PERFECT TEN MORADO TOP,guinda nacarado,Esmaltes,Unisex,Activo
 0004741,ESMALTE PERFECT TEN NOCTAMBUL,Verde escamas,Collares,Unisex,Activo
+0004742,ESMALTE PERFECT TEN CITY STAR,turquesa scarchado,Esmaltes,Unisex,Activo
 0004744,HYDRA LIP LABIAL COLOR INTENSO FUCSIA OPULENTO,fucsia,Labiales,Unisex,Activo
 0004749, HYDRA-LIP LABIAL COLOR INTENSO LUJO MALVA,lila oscuro,Labiales,Unisex,Activo
 0004750,CONTROL BLANC RX LIMPIADOR EXFOLIANTE TONIFICANTE,Limpia, exfolia y tonifica.,Antimanchas y Aclarantes,Unisex,Activo
@@ -328,6 +369,8 @@
 0004771,C/S COLOR EFFECT URBANA A/P,Oscuros,Sombras,Unisex,Activo
 0004772,BIO MILK CREMA HIDRATANTE VAINILLA FRANCESA,aroma a base de pomelo blanco, vainilla y flor de algodón que hidrata, suaviza y nutre,Cuidado de la Piel,Unisex,Activo
 0004773,BODY SPA LECHE & AVENA CREMA MANOS,hidratacion y suavidad,Cuidado de la Piel,Unisex,Activo
+0004774,ESMALTE PERFECT TEN ZUL STYLE,Azul oscuro,Esmaltes,Unisex,Activo
+0004776,ESMALTE PERFECT TEN VERDEZZA,Verde hoja,Esmaltes,Unisex,Activo
 0004780,HYDRA LIP LABIAL COLOR INTENSO  ROSA LIP FR,rosa claro,Labiales,Unisex,Activo
 0004791,PERFECT TEN BARNIZ UÑAS MATE,Negro,Collares,Unisex,Activo
 0004792,ULTRA DEFINITION DELINEADOR LIQUIDO OJOS GRIS URBANO,Punta Plumon Efecto Metalico,Delineadores,Unisex,Activo
@@ -357,6 +400,9 @@
 0004854,HYDRA-LIP LARGA DURACION ROJO APASIONADO ,rojo fresa,Labiales,Unisex,Activo
 0004855,HYDRA-LIP LARGA DURACION ROJO DESTELLO,rojo,Labiales,Unisex,Activo
 0004857,HYDRA-LIP LARGA DURACION CANELA INTENSO,Cafe,Labiales,Unisex,Activo
+0004859,ESMALTE PERFECT TEN TANGERIN POP FR,Naranja claro,Esmaltes,Unisex,Activo
+0004860,ESMALTE PERFECT TEN  AQUARIUM,turquesa claro,Esmaltes,Unisex,Activo
+0004862,ESMALTE PERFECT TEN MIAMI AQUA,Turquesa oscuro,Esmaltes,Unisex,Activo
 0004866,HYDRA LIP ULTRA ROSA POP,rosado oscuro,Labiales,Unisex,Activo
 0004868,HYDRA LIP LABIAL COLOR INTENSO  POP STYLE FR,lila ,Labiales,Unisex,Activo
 0004869,HYDRA LIP LABIAL COLOR INTENSO FLORIDA LOVE,nude oscuro,Labiales,Unisex,Activo
@@ -412,9 +458,15 @@
 0004969,HYDRA LIP LABIAL COLOR INTENSO  CLASSIC FEM,rosa natural,Labiales,Unisex,Activo
 0004970,HYDRA-LIP LABIAL COLOR INTENSO ROCK AND ROS,carmin,Labiales,Unisex,Activo
 0004971, HYDRA-LIP LABIAL COLOR INTENSO LADY PINK,rosado-coral,Labiales,Unisex,Activo
+0004975,ESMALTE PERFECT TEN LONDON NIGHT,Negro,Esmaltes,Unisex,Activo
+0004976,ESMALTE PERFECT TEN LONDON  CITY,Negroplomo claro,Esmaltes,Unisex,Activo
+0004977,ESMALTE PERFECT TEN ALMA DORADA,Dorado metalico,Esmaltes,Unisex,Activo
+0004978,ESMALTE PERFECT TEN LILA ROMANTIC,lila claro,Esmaltes,Unisex,Activo
+0004982,ESMALTE PERFECT TEN VERDE ETNICO,Turquesa oscuro,Esmaltes,Unisex,Activo
 0004983,ACENTO PARFUM,Aroma ,Perfumería Dama,Unisex,Activo
 0004984,Clic Esmalte Mango Frozen,Negro,Collares,Unisex,Activo
 0004987,Clic Esmalte Silver Way!,Negro,Collares,Unisex,Activo
+0004994,ESMALTE PERFECT TEN ROJO ETNICO,Rojo ,Esmaltes,Unisex,Activo
 0005003,HYDRA LIP LABIAL COLOR INTENSO ROSA PARIS,rosado oscuro,Labiales,Unisex,Activo
 0005004,HYDRA LIP LABIAL COLOR INTENSO FUCSIA BOHEME,fucsia,Labiales,Unisex,Activo
 0005005,HYDRA LIP LABIAL COLOR INTENSO ALMA GUINDA,guinda ,Labiales,Unisex,Activo
@@ -430,6 +482,7 @@
 0005040,HYDRA LIP LABIAL COLOR INTENSO  PIEL DE  DURAZNO,beige nacarado,Labiales,Unisex,Activo
 0005041,HYDRA LIP LABIAL COLOR INTENSO  ROSA ESENCIAL,Rosa oscuro,Labiales,Unisex,Activo
 0005045,C/S COLOR EFFECT ESSENCIA,Naranja y Cafe,Sombras,Unisex,Activo
+0005046,ESMALTE PERFECT TEN ORO & ENCANTO,dorado metalico,Esmaltes,Unisex,Activo
 0005050,HYDRA-LIP CRAYON SEMI MATE SEXY RED,Rojo ,Labiales Mate,Unisex,Activo
 0005051,HYDRA-LIP CRAYON SEMI MATE RED ELEGANCE,rojo,Labiales Mate,Unisex,Activo
 0005052,HYDRA-LIP CRAYON SEMI MATE FUCSIA GLAMOUR,fucsia,Labiales Mate,Unisex,Activo
@@ -461,6 +514,7 @@
 0005108,B/L ELIXIR DE VIDA ANTIEDAD T3,Cubrimiento perfecto con acabado natural. ,Bases,Unisex,Activo
 0005109,B/L ELIXIR DE VIDA ANTIEDAD T4,Cubrimiento perfecto con acabado natural. ,Bases,Unisex,Activo
 0005110,B/L ELIXIR DE VIDA ANTIEDAD T5,Cubrimiento perfecto con acabado natural. ,Bases,Unisex,Activo
+0005114,ESMALTE PERFECT TEN BASE ESMALTE UÑAS,Beige claro,Esmaltes,Unisex,Activo
 0005120,FOCCO COLOGNE FOR MEN,Whisky, pachulí, madera de oud.,Perfumería Varón,Unisex,Activo
 0005121,LABIAL ANTI-EDAD ELIXIR DE VIDA ENCANTO ELIXIR,rosado oscuro,Labiales,Unisex,Activo
 0005122,L/L ELIXIR DE VIDA ELIX D AMOR,antiedad,Labiales,Unisex,Activo
@@ -517,12 +571,29 @@
 0011032,C/S COLOR EFFECT OCEANICA ULTRA,Lilas y Celestes,Sombras,Unisex,Activo
 0011034, HYDRA-LIP LABIAL COLOR INTENSO ESTRELLA CORAL,coral ,Labiales,Unisex,Activo
 0011035,HYDRA LIP LABIAL COLOR INTENSO ROSA SIRENA,rosa claro,Labiales,Unisex,Activo
+0011039,ESMALTE PERFECT TEN AZUL  PROFUNDO,azul escarchado,Esmaltes,Unisex,Activo
+0011040,ESMALTE PERFECT TEN REFLEJOS MARINOS FR,celeste con escamas,Esmaltes,Unisex,Activo
+0011041,ESMALTE PERFECT TEN ALGAS MARIN FR,verde claro con escamas,Esmaltes,Unisex,Activo
+0011042,ESMALTE PERFECT TEN ROSA TORNASOL,Melon con escamas,Esmaltes,Unisex,Activo
+0011043,ESMALTE PERFECT TEN SPONDYLUS FR,Naranja,Esmaltes,Unisex,Activo
 0011046,Clic Rimel Negro,Negro,Rímeles,Unisex,Activo
+0011047,ESMALTE PERFECT TEN LILA RETRO,humo,Esmaltes,Unisex,Activo
+0011048,ESMALTE PERFECT TEN BURGUNDY,Vino,Esmaltes,Unisex,Activo
+0011049,ESMALTE PERFECT TEN PASION,Rojo vivo,Esmaltes,Unisex,Activo
 0011050,ESM PERFECT TEN AMANTES Y ENEM,Negro,Collares,Unisex,Activo
+0011051,ESMALTE PERFECT TEN PLACER ABSOLUT,Vino,Esmaltes,Unisex,Activo
+0011052,ESMALTE PERFECT TEN AZUL INFINITO,Azul oscuro,Esmaltes,Unisex,Activo
 0011053,ESM PERFECT TEN INSTINTO ANIMA,Negro,Collares,Unisex,Activo
+0011054,ESMALTE PERFECT TEN SALVAJE,morado claro,Esmaltes,Unisex,Activo
 0011055,ESM PERFECT TEN PULSO,Negro,Collares,Unisex,Activo
 0011056,ESM PERFECT TEN DUNAS,Negro,Collares,Unisex,Activo
+0011057,ESMALTE PERFECT TEN ROSA FROZEN,Rosa oscuro,Esmaltes,Unisex,Activo
 0011058,ESM PERFECT TEN LILA & ROSE,Negro,Collares,Unisex,Activo
+0011059,ESMALTE PERFECT TEN INTENSITY,rojo fresa,Esmaltes,Unisex,Activo
+0011060,ESMALTE PERFECT TEN WHITE ROSE,Beige claro,Esmaltes,Unisex,Activo
+0011061,ESMALTE  PERFECT TEN BLANCO NIEVE,Blanco,Esmaltes,Unisex,Activo
+0011062,ESMALTE PERFECT TEN BRILLOS DE ROS,melon claro,Esmaltes,Unisex,Activo
+0011063,ESMALTE PERFECT TEN TE QUIERO ROSA,rosado claro,Esmaltes,Unisex,Activo
 0011064,C/S COLOR EFFECT SAVANNA,Rosados y Cafes,Sombras,Unisex,Activo
 0011065,ACENTO TRENDY EAU DE PARFUM,Floral frutal con amapola morada, lúcuma y suspiro de azúcar ,Perfumería Dama,Unisex,Activo
 0011066,FORTE COLOGNE FOR MEN,Negro,Collares,Unisex,Activo
@@ -544,15 +615,22 @@
 0011091,TOTALIST CONCHA DE NACAR LIMPIADOR,propiedades aclarantes y antimanchas,Cuidado de la Piel,Unisex,Activo
 0011092,TOTALIST ALOE VERA LIMPIADOR MULTIACCION,remover delicadamente las impurezas, grasitud y maquillaje,Cuidado de la Piel,Unisex,Activo
 0011093,C/S COLOR EFFECT ETEREA,Rosado Lila Verde y Negro,Sombras,Unisex,Activo
+0011096,ESMALTE PERFECT TEN ROSADO BALLET,Rosado claro,Esmaltes,Unisex,Activo
 0011097,HYDRA LIP LABIAL COLOR INTENSO  GUINDA DEL OESTE,GUINDA OSCURO,Labiales,Unisex,Activo
 0011098,HYDRA LIP LABIAL COLOR INTENSO COBRE DEL OESTE,COBRE,Labiales,Unisex,Activo
 0011099,HYDRA LIP LABIAL COLOR INTENSO  ROJO DEL OESTE,rojo oscuro,Labiales,Unisex,Activo
+0011101,ESMALTE PERFECT TEN LILA ETEREO,lila claro,Esmaltes,Unisex,Activo
+0011102,ESMALTE PERFECT TEN VERDE FEM,Verde claro,Esmaltes,Unisex,Activo
+0011104,ESMALTE PERFECT TEN AZUL DENIM,Azulino,Esmaltes,Unisex,Activo
+0011105,ESMALTE PERFECT TEN  GUINDA TEJANO,guinda oscuro,Esmaltes,Unisex,Activo
+0011106,ESMALTE PERFECT TEN  ECUESTRE CHIC,Cafe oscuro,Esmaltes,Unisex,Activo
 0011110,PERFECT TEN FORTALECEDOR UÑAS,Negro,Collares,Unisex,Activo
 0011111,PERFECT TEN BRI SECAN&PROT ESM,Negro,Collares,Unisex,Activo
 0011112,ULTRA DEF DEL LARGA DURACION OJOS MARRON,A prubea de agua,Collares,Unisex,Activo
 0011113,ULTRA DEF DEL LIQ PLU AZUL FRO,Negro,Collares,Unisex,Activo
 0011114,ULTRA DEF DEL LIQ PLU MARR FRO,Negro,Collares,Unisex,Activo
 0011117,C/S COLOR RETRO CHIC,Colores negros y celestes,Sombras,Unisex,Activo
+0011118,ESMALTE PERFECT TEN SUPERNOVA,Negroplateado con escarcharo,Esmaltes,Unisex,Activo
 0011119,ESMALTE PERFECT TEN PSICODELICO,dorado con escarche,Collares,Unisex,Activo
 0011122,Perfect Ten Sudio 54,Negro,Collares,Unisex,Activo
 0011123,HYDRA LIP LABIAL COLOR INTENSO  ROSA  SOFT,rosado,Labiales,Unisex,Activo
@@ -581,6 +659,11 @@
 0011150, HYDRA-LIP LABIAL COLOR INTENSO ROJO ZEN,rojo oscuro,Labiales,Unisex,Activo
 0011151,C/S COLOR EFFECT JUNGLARIA,Verdes y Naranjas,Sombras,Unisex,Activo
 0011152,C/S COLOR EFFECT SAKURA,Morados y Rosados,Sombras,Unisex,Activo
+0011155,ESMALTE PERFECT TEN SELVA NOCTURNA,Guinda escarchado,Esmaltes,Unisex,Activo
+0011157,ESMALTE PERFECT TEN FLORESTA,Verde Metalico,Esmaltes,Unisex,Activo
+0011158,ESMALTE PERFECT TEN VERDE  TROPICAL,verde militar,Esmaltes,Unisex,Activo
+0011161,ESMALTE PERFECT TEN FUCSIA IMPERIO,fucsia,Esmaltes,Unisex,Activo
+0011162,ESM PERFECT TEN NOCHE EN TOKIO,Negro,Esmaltes,Unisex,Activo
 0011163,HYDRA-LIP LABIAL LIQUIDO FLOR CEREZO,rosada mediano,Labiales,Unisex,Activo
 0011164,HYDRA-LIP LABIAL LIQUIDO MORA CALMA,morado claro,Labiales,Unisex,Activo
 0011180,SENTIVA EXFOLIANTE FACIAL,Accion energizante,Cuidado de la Piel,Unisex,Activo
@@ -642,6 +725,7 @@
 0011266,EXTRACTO DIVINO CONCENTRADO,Una fórmula revolucionaria con todo el poder antiedad del Extracto de Cáliz de Uchuva,Cremas y Sueros,Unisex,Activo
 0011268,HYDRA-LIP CRAYON SEMI MATE FUCSIA ORIENTAL,fucsia,Labiales Mate,Unisex,Activo
 0011269, HYDRA-LIP CRAYON SEMI MATE LILA ASIATICO,Lila,Labiales Mate,Unisex,Activo
+0011270,ESMALTE PERFECT TEN MARSALA INDOMABLE,Vino,Esmaltes,Unisex,Activo
 0011272,SENTIVA MASCARILLA FACIAL,Accion purificante,Cuidado de la Piel,Unisex,Activo
 0011273,LOCION DE SEDA,Negro,Collares,Unisex,Activo
 0011274,LOCION DE SEDA DIAMANTES,Hidrata y perfuma,Perfumería Dama,Unisex,Activo
@@ -649,6 +733,7 @@
 0011277,UNIQUECIL ROLL RIMEL RIZADO EXTREMO,A prueba de agua,Rímeles,Unisex,Activo
 0011278,SEXTETO DE SOMBRA Y. URBANA FEMME,colores frios,Sombras,Unisex,Activo
 0011279,SEXTETO DE SOMBRAS Y. AVENTURA CHIC,Colores calidos,Sombras,Unisex,Activo
+0011281,ESMALTE PERFECT TEN EXOTICA PASION,palo rosa oscuro,Esmaltes,Unisex,Activo
 0011282,Y. LABIAL FUCSIA POP,fucsia,Labiales,Unisex,Activo
 0011283,Y. LABIAL NARANJA FUN,Naranja,Labiales,Unisex,Activo
 0011284,Y. LABIAL ROSA LOVE,rosado,Labiales,Unisex,Activo
@@ -657,7 +742,7 @@
 0011287,Y. LABIAL ROJO FASHION,rojo,Labiales,Unisex,Activo
 0011288,Y. LABIAL TERRA MYSTIC,cafe,Labiales,Unisex,Activo
 0011289,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS,Hidrata y repara la piel seca y extra seca.,Cuidado de la Piel,Unisex,Activo
-0011290,BODY SPA UÑA DE GATO CREMA REPARADORA,Repara e hidrata la piel.,Cuidado de la Piel,Unisex,Activo
+0011290,BODY SPA UÑA DE GATO CREMA REPARADORA PARA CUERPO,Repara e hidrata la piel.,Cuidado de la Piel,Unisex,Activo
 0011291,BODY SPA UÑA DE GATO EXFOLIANTE EN GEL PARA MANOS Y CUERPO ,Exfolia la piel seca y extra seca.,Cuidado de la Piel,Unisex,Activo
 0011292,BODY SPA QUINUA CREMA MANOS,delicioso aroma a vainilla y canela.,Cuidado de la Piel,Unisex,Activo
 0011293,BODY SPA QUINUA CREMA CUERPO,extracto natural de quinua, glicerina, manteca de karité y canela.,Cuidado de la Piel,Unisex,Activo
@@ -668,11 +753,23 @@
 0011306,VIVO HERVE COLOGNE fOR MEN,aroma herbal y notas de estragón, lavanda y madera de gaiac.,Perfumería Varón,Unisex,Activo
 0011307,VIVO AQUA COLOGNE FOR MEN,FRESCURA CON ACORDES MARINOS,Perfumería Varón,Varón,Activo
 0011308,C/S COLOR EFFECT HABANA,Azules y Verdes,Sombras,Unisex,Activo
+0011309,ESMALTE PERFECT TEN SON DE MORA,Morado,Esmaltes,Unisex,Activo
+0011310,ESMALTE PERFECT TEN MAAAMBO,Naranja oscuro,Esmaltes,Unisex,Activo
+0011311,ESMALTE PERFECT TEN COLORADA,nARANJA FUERTE,Esmaltes,Unisex,Activo
+0011312,ESMALTE  PERFECT TEN SOL DE CARIBE,amarillo patito,Esmaltes,Unisex,Activo
+0011313,ESMALTE PERFECT TEN VERDE RUMBA,Verde loro,Esmaltes,Unisex,Activo
+0011314,ESMALTE PERFECT TEN MOJITO CARIBEÑ,esmeralda,Esmaltes,Unisex,Activo
 0011315,L/L HYDRA-LIP COL CORA CAR FR,Negro,Collares,Unisex,Activo
 0011316, HYDRA-LIP LABIAL COLOR INTENSO TROPICANA,tropical,Labiales,Unisex,Activo
 0011317, HYDRA-LIP LABIAL COLOR INTENSO HABANERA,coral - fucsia,Labiales,Unisex,Activo
 0011318,HYDRA-LIP LABIAL LIQUIDO VARADERO LOVE,rojo claro,Labiales,Unisex,Activo
 0011319,HYDRA-LIP LABIAL LIQUIDO AZUUUCAR,marfil claro,Labiales,Unisex,Activo
+0011320,ESMALTE PERFECT TEN BRILLO D ESTRE,Plateado con escarcha,Esmaltes,Unisex,Activo
+0011321,ESMALTE PERFECT TEN ROJO DE GALA,Rojo oscuro metalico,Esmaltes,Unisex,Activo
+0011322,ESMALTE PERFECT TEN MISS ELEGANCE,rosa metalico,Esmaltes,Unisex,Activo
+0011323,ESMALTE PERFECT TEN SEDA DIAMANTE,Perla oscuro metalico,Esmaltes,Unisex,Activo
+0011324,ESMALTE PERFECT TEN PURPURA GLAMOU,guinda oscuro,Esmaltes,Unisex,Activo
+0011325,ESMALTE PERFECT TEN AZUL MAGICO,azul metalico,Esmaltes,Unisex,Activo
 0011326,HYDRA-LIP LARGA DURACION SUEÑO DE BRONCE,bronce,Labiales,Unisex,Activo
 0011327,L/L HYDRA-LIP LD ROJO CARAMEL0,rojo,Collares,Unisex,Activo
 0011328,HYDRA-LIP LARGA DURACION FIESTA PURPURA,lila oscuro,Labiales,Unisex,Activo
@@ -689,6 +786,11 @@
 0011344,Y. BRILLO LABIAL ROSALICIOUS,rosa brillante,Brillos,Unisex,Activo
 0011345,Y. BRILLO LABIAL LOVELY CORAL,coral claro,Brillos,Unisex,Activo
 0011346,Y. BRILLO LABIAL ANGEL NUDE,nude,Brillos,Unisex,Activo
+0011347,ESMALTE PERFECT TEN RED LINE,Rojo vivo,Esmaltes,Unisex,Activo
+0011348,ESMALTE PERFECT TEN FRAMBUESA 180,fucsia mat,Esmaltes,Unisex,Activo
+0011349,ESMALTE PERFECT TEN ROSA ELECTRICO,Rosa oscuro,Esmaltes,Unisex,Activo
+0011350,ESMALTE PERFECT TEN FUCSIA TECNOLO,fucsia,Esmaltes,Unisex,Activo
+0011351,ESMALTE PERFECT TEN ROSA 3D,rosado oscuro,Esmaltes,Unisex,Activo
 0011352, HYDRA-LIP LABIAL COLOR INTENSO FUTURISTIC RED,rojo,Labiales,Unisex,Activo
 0011353,L/L HYDRA-LIP COLOR EFEC FRAMB,Negro,Collares,Unisex,Activo
 0011354,L/L HYDRA-LIP COL ENERGY PINK,Negro,Collares,Unisex,Activo
@@ -718,7 +820,12 @@
 0011384,L/L HYDRA-LIP COLOR SUEÑO ROSE,rosa nacarado,Labiales,Unisex,Activo
 0011385,HYDRA LIP LABIAL COLOR INTENSO  CLARO ROMANCE,rosa,Collares,Unisex,Activo
 0011386, HYDRA-LIP LABIAL COLOR INTENSO DULCE ROSA,Rosado,Labiales,Unisex,Activo
+0011387,ESMALTE PERFECT TEN SUAVE LAVANDA,lila claro,Esmaltes,Unisex,Activo
 0011388,ESM PERFECT TEN SEDA IMPERIAL,Negro,Collares,Unisex,Activo
+0011389,ESMALTE PERFECT TEN MENTA CRISTAL,Verde claro,Esmaltes,Unisex,Activo
+0011390,ESMALTE PERFECT TEN DORADO VERSALLES,Dorado metalico,Esmaltes,Unisex,Activo
+0011391,ESMALTE PERFECT TEN FLOR DE CIRUELA,Morado,Esmaltes,Unisex,Activo
+0011392,ESMALTE PERFECT TEN SUSPIRO DE ROSA,Rosado claro,Esmaltes,Unisex,Activo
 0011393,RUBOR EN CREMA Y. ROSADO,Rosado fuerte,Rubor,Unisex,Activo
 0011394,RUBOR EN CREMA Y. BRONZE,Bronce metalico,Rubor,Unisex,Activo
 0011395,RUBOR EN CREMA Y. CORAL,coral,Rubor,Unisex,Activo
@@ -729,6 +836,12 @@
 0011406, HYDRA-LIP LABIAL COLOR INTENSO VINO SILVESTRE,Vino,Labiales,Unisex,Activo
 0011407,HYDRA LIP LABIAL COLOR INTENSO ROJO AFRICA,rojo,Labiales,Unisex,Activo
 0011408,L/L HYDRA-LIP COLOR GACELA NUD,Negro,Collares,Unisex,Activo
+0011409,ESMALTE PERFECT TEN PURPURA TRIBAL,guinda oscuro,Esmaltes,Unisex,Activo
+0011410,ESMALTE PERFECT TEN ROJO PRIMITIVO,Rojo ,Esmaltes,Unisex,Activo
+0011411,ESMALTE PERFECT TEN MADERA AFRICANA,Cafe claro,Esmaltes,Unisex,Activo
+0011412,ESMALTE PERFECT TEN ARENA DEL DESIERTO,nude oscuro,Esmaltes,Unisex,Activo
+0011413,ESMALTE PERFECT TEN TERRA AFRICANA,beige oscuro,Esmaltes,Unisex,Activo
+0011414,ESMALTE PERFECT TEN SELVA MISTERIOSA,verde opaco,Esmaltes,Unisex,Activo
 0011415,BIO FRUIT COCO CARIB SHAM & ACON,aroma tropical del coco que además, brinda ultra hidratación,Shampoo,Unisex,Activo
 0011416,BIO FRUIT PERA MANZANA SHAM & ACON, ,Shampoo,Unisex,Activo
 0011417,BIO FRUIT GRANADA SHAM & ACON,aroma de la granada que además, ofrece su poder antioxidante,Shampoo,Unisex,Activo
@@ -748,15 +861,24 @@
 0011436,HYDRA-LIP LARGA DURACION TIERRA MISTICA,Cafe ,Labiales,Unisex,Activo
 0011437,HYDRA-LIP CRAYON SEMI MATE PIEL CORAL ,piel,Labiales,Unisex,Activo
 0011440,C/S COLOR EFFECT INDUSTRIAL,Oscuros,Sombras,Unisex,Activo
+0011441,ESMALTE PERFECT TEN TIERRA VOLCANI,Cafe oscuro,Esmaltes,Unisex,Activo
+0011442,ESMALTE PERFECT TEN ROJO CUARZO,Rojo ,Esmaltes,Unisex,Activo
+0011443,ESMALTE PERFECT TEN INTENSO AMANEC,Naranja oscuro,Esmaltes,Unisex,Activo
 0011444,ESM PERFECT TEN CIELO PRIMAVER,Negro,Collares,Unisex,Activo
 0011445,ESM PERFECT TEN MAR MEDITERRAN,Negro,Collares,Unisex,Activo
+0011446,ESMALTE PERFECT TEN BOSQUE D NOCHE,verde oscuro,Esmaltes,Unisex,Activo
 0011447,HYDRA-LIP LABIAL COLOR INTENSO COBRE GLAMOUR,cobre oscuro,Labiales,Unisex,Activo
 0011448,HYDRA LIP LABIAL COLOR INTENSO MARRON INDUSTRIAL,MARRON ,Labiales,Unisex,Activo
 0011449,HYDRA-LIP LABIAL COLOR INTENSO COLO DORADO DE GALA,Dorado,Labiales,Unisex,Activo
 0011450,HYDRA LIP LABIAL COLOR INTENSO ROSA GALACTICO,rosado fuerte,Labiales,Unisex,Activo
 0011451, HYDRA-LIP LABIAL COLOR INTENSO ROSADO ACERO,rosa color intenso,Labiales,Unisex,Activo
 0011452,HYDRA-LIP BRILLO LABIAL BRILLANTINA,transparente,Brillos,Unisex,Activo
+0011453,ESMALTE PERFECT TEN METALICA ROSE,palo rosa metalico,Esmaltes,Unisex,Activo
+0011454,ESMALTE PERFECT TEN MELON COBRIZO,Melon metalico,Esmaltes,Unisex,Activo
+0011455,ESMALTE  PERFECT TEN COBRE LIQUIDO,cobre metalico,Esmaltes,Unisex,Activo
+0011456,ESMALTE PERFECT TEN ADAMANTIUM,platiado metalico,Esmaltes,Unisex,Activo
 0011457,ESM PERFECT TEN ACERO BRILLANT,Negro,Collares,Unisex,Activo
+0011458,ESMALTE PERFECT TEN AZUL PLATINAD,azul platinado,Esmaltes,Unisex,Activo
 0011459,C/S COLOR EFFECT DELUXE,Enpaque dorado,Sombras,Unisex,Activo
 0011460,CCORI LE PARFUM ANV,Negro,Collares,Unisex,Activo
 0011461,BODY SPA BABY COLONIA,Aceite de Algodon, con aguas florales 100% naturales,Colonia,Unisex,Activo
@@ -788,13 +910,20 @@
 0011514,TOTAL BLOCK KIDS SPF 70,Rostro y Cuerpo,Protectores Solares,Unisex,Activo
 0011516,TOTAL BLOCK ANTI EDAD MATT SPF50+,Rostro con extracto marino acabado mate,Protectores Solares,Unisex,Activo
 0011517,CONTROL BLANC RX DIA,Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ,Antimanchas y Aclarantes,Unisex,Activo
+0011532,ESMALTE PERFECT TEN BEIGE ETERNAL,beige,Esmaltes,Unisex,Activo
+0011533,ESMALTE PERFECT TEN PARTY RED,fucsia-rojo,Esmaltes,Unisex,Activo
 0011536,HYDRA LIP COLOR INTENSO ROSA TOSCANA,palo de rosa claro,Labiales,Unisex,Activo
+001154,ESMALTE PERFECT TEN JUNGLA DE CRISTAL,beige tornasol,Esmaltes,Unisex,Activo
 0011543,HYDRA-LIP LARGA DURACION CIRUELA LOVE,guinda claro,Labiales,Unisex,Activo
 0011545,HYDRA-LIP LARGA DURACION RED SHINE,Cafe claro,Labiales,Unisex,Activo
 0011546, HYDRA-LIP LARGA DURACION FUCSIA SHOCK,fucsia,Labiales,Unisex,Activo
 0011547,LIBERATTA CREMA PERFUM ,hidrata y perfuma,Perfumería Dama,Unisex,Activo
 0011548,LIBERATTA NOIRE CREMA PERFUM ,hidrata y perfuma,Perfumería Dama,Unisex,Activo
+0011551,ESMALTE PREFECTE TEN DE UÑAS ROSE BRUSH,rosa bajito,Esmaltes,Dama,Activo
+0011552,ESMALTE PERFECT TEN ROJO SUNSET,Rojo ,Esmaltes,Unisex,Activo
+0011553,ESMALTE PERFECT TEN AQUA MENTA,celeste claro,Esmaltes,Unisex,Activo
 0011554,Perfect Ten Art Sky ,Negro,Collares,Unisex,Activo
+0011555,ESMALTE PERFECT TEN BLANC HARMONY,Blanco tiza,Esmaltes,Unisex,Activo
 0011556,Perfect Ten Acrylic Blue,Negro,Collares,Unisex,Activo
 0011557,C/S COLOR EFFECT ARTY FEMME,Corales y azules,Sombras,Unisex,Activo
 0011558,HYDRA LIP LABIAL COLOR INTENSO  VIVID FUCSIA,fucsia,Labiales,Unisex,Activo
@@ -806,15 +935,33 @@
 0011573,RUBOR COLOR EFFECT ILUMINART,Todo tipo de piel,Rubor,Unisex,Activo
 0011580,TOTAL BLOCK REPELENTE SPF 50 ,Doble proteccion rostro y cuerpo , todo tipo de piel,Protectores Solares,Unisex,Activo
 0011581,SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS,A prueba de agua y larga duracion,Desmaquilladores,Unisex,Activo
+0011588,ESMALTE PERFECT TEN GOLD SHIM,dorado escarchado,Esmaltes,Unisex,Activo
+0011589,ESMALTE PERFECT TEN DARK RED,vino oscuro,Esmaltes,Unisex,Activo
+0011590,ESMALTE PERFECT TEN BLAC KCHERRY,vino metalico,Esmaltes,Unisex,Activo
 0011639,O/S COLOR EFFECT GOLDEN PARTY,Negros y Cafes nacarados,Sombras,Unisex,Activo
+0011641,ESMALTE PERFECT DELTA RED,COLOR ROJO CORAL,Esmaltes,Dama,Activo
+0011642,ESMALTE PERFECT TEN GOLD MEDAL,DORADO ESCARCHADO,Esmaltes,Dama,Activo
+0011645,ESMALTE PERFECT TEN SKY BLUE ,CELESTE,Esmaltes,Dama,Activo
+0011646,LABIAL HYDRA LIP COLOR INTENSO MAR ROJO,ROJO SEDUCTOR,Labiales,Dama,Activo
+0011647,LABIAL HYDRA LIP COLOR INTENSO CORAL INTENSE,ROJO SALVAVIDAS,Labiales,Dama,Activo
+0011648,LABIAL HYDRA LIP COLOR INTENSO BAHIA BROWN,TONO CALIDO,Labiales,Dama,Activo
+0011649,HYDRA LIP LABIAL COLOR INTENSO NATURAL TAN ,COLOR SUAVE PARA EL DIA A DIA,Labiales,Dama,Activo
+0011671,ESMALTE PERFECT TEN CORAL MARINE,CORAL,Esmaltes,Dama,Activo
 0011678,Perfect Ten Salvaje,Negro,Collares,Unisex,Activo
+0011683,ESMALTE PERFECT TEN AMANTES DE MEDIA NOCHE,Vino,Esmaltes,Unisex,Activo
 0011822,TE DESEO EXITO POR SIEMPRE COLOGNE,Floral Frutal con notas de melon, jazmin y cedro,Colonia,Unisex,Activo
 0011823,TE DESEO AMOR DEL BUENO COLOGNE,Frutal floral con notas de bayas rojas, fresia y vainilla,Colonia,Unisex,Activo
 0011824,TE DESEO FELICIDAD INFINITA COLOGNE,Frutal dulce con notas de manzana roja, naranja azucarada y canela,Colonia,Unisex,Activo
 0012345,SET MAKERS O TEBCA N4- SELECTIVO,SELECYIVO,Premio,Unisex,Activo
+001550,ESMALTE PERFECT TEN FUCSIA FEMME ,fucsia,Esmaltes,Unisex,Activo
+001671,ESMALTE PERFECT TEN CORAL MARINE,COLOR CORAL,Esmaltes,Dama,Activo
 003910,Delineador Liquido Punta Plumon Mirame a los Ojos,Negro,Collares,Unisex,Activo
 004280,C/S COLOR EFFECT OASIS,Colores Terra,Sombras,Unisex,Activo
 0123456,ARETES HEXAGONO GLAM,ARETES,Collares,Dama,Activo
+2017C13,Catálogo 2017C13,N/A,Esmaltes,Unisex,Activo
+2018C1,Catálogo 2018C1,N/A,Esmaltes,Unisex,Activo
+2018C2,Catálogo 2018C2,N/A,Esmaltes,Unisex,Activo
+2018C3,Catálogo 2018C3,N/A,Esmaltes,Unisex,Activo
 2021755,ARETES NATURAL CRISTAL,Negro,Aretes,Unisex,Activo
 2024184,ARETES COINCIDIR,Negro,Aretes,Unisex,Activo
 2129031,SET ARETES  CRISTAL FEM,Negro,Aretes,Unisex,Activo
@@ -868,14 +1015,17 @@
 2353513,SCH BIO MILK CREMA MANG MARAC,Negro,Collares,Unisex,Activo
 2353515,SCH BIO FRUIT 2EN1 MANG MARAC,Negro,Collares,Unisex,Activo
 2353518,U/S COLOR EFFECT HABANO CENIZO,Cenizo,Sombras,Unisex,Activo
+2353522,ESMALTE PERFECT TEN BARNIZ EFECTO MATE,TRANSPARENTE MATE,Esmaltes,Unisex,Activo
 2353528,PROB SOY FELIZ FRESH COLOG 1ML,Negro,Collares,Unisex,Activo
 2353529,PROB PD NEW YORK 1ML,Negro,Collares,Unisex,Activo
 2353564,SCH BS BABY SHAMPOO,Negro,Collares,Unisex,Activo
 2363895,SACHET PARA O.E,Negro,Collares,Unisex,Activo
+2364009,Esmalte para Diseño de Uñas Blanco,blanco,Esmaltes,Unisex,Activo
 2364181,ELIXIR DE VIDA COMPLEJO RECONSTITUYENTE 6.5g. ,Resveratrol, que activa las Sirtuínas conocidas como las proteínas de juventud,,Cremas y Sueros,Unisex,Activo
 2364456,CAPA CON ISOTIPO YANBAL,Negro,Collares,Unisex,Activo
 2364459,VINCHA O BALACA YANBAL,Negro,Collares,Unisex,Activo
 2364623,TAJADOR CORPORATIVO,Negro,Material Promocional,Unisex,Activo
+2364753,Esmalte para Diseño de Uñas Oro,oro,Esmaltes,Unisex,Activo
 2366120,Rodillo Masajeador Top Modeling,Negro,Collares,Unisex,Activo
 2366279,SOLIC.DE INCORPORACION X 10 UN,Negro,Collares,Unisex,Activo
 2366307,SCH CONTROL BLANC RX ACLARANTE,Negro,Collares,Unisex,Activo
@@ -2337,9 +2487,11 @@
 5032123,COLECCION INITIAL GLAM ?X? J16273,Negro,Colecciones,Unisex,Activo
 5032124,COLECCION INITIAL GLAM ?Y? J16274,Negro,Colecciones,Unisex,Activo
 5032125,COLECCION INITIAL GLAM ?Z? J16275,Negro,Colecciones,Unisex,Activo
+5032198,SORTIJA DUAMANTI LOVE T-8,Baño de paladio brillante con finos cristales traslucidos,Sortijas,Dama,Activo
 5032201,ARETES CELEBRITY CRISTAL J16427,Negro,Aretes,Unisex,Activo
 5032202,ARETES GLAZE EN DORE J16429,Negro,Aretes,Unisex,Activo
 5032203,ARETES BELLE LOVE J16430,Negro,Aretes,Unisex,Activo
+5032208,SORTIJA DESTINY LOVE T-8,Baño de paladio brillante con finos cristales traslucidos,Sortijas,Dama,Activo
 5032210,ARETES NATIVITY STAR J16432,Negro,Aretes,Unisex,Activo
 5032211,ARETES CUORE NATIVITY J16433,Negro,Aretes,Unisex,Activo
 5032222,COLLAR ELISSE GLAM J16439,Negro,Collares,Unisex,Activo

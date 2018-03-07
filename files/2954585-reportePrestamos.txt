@@ -1,33 +1,12 @@
 Préstamos
 Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
-1,Roxana Hinojosa Menendez,PS18C01J3933,2018-03-01,ULTRA DEFINITION  PLUMON OJOS NEGRO Trazo preciso delineado delgado y grueso,1,32,32
-2,Roxana Hinojosa Menendez,PS18C01J4621,2018-03-01,ULTRA DEFINITION  PLUMON OJOS NEGRO Trazo preciso delineado delgado y grueso,1,32,32
-3,Roxana Hinojosa Menendez,PS18C01J4621,2018-03-01,SEXTETO DE SOMBRA Y. URBANA FEMME colores frios,1,39.9,39.9
-4,Roxana Hinojosa Menendez,PS18C01J4621,2018-03-01,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,2,20,40
-5,Roxana Hinojosa Menendez,PS18C01J5031,2018-03-01,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,26,52
-6,Roxana Hinojosa Menendez,PS18C01J5031,2018-03-01,CONTROL BLANC RX CREMA ACLARANTE Con Albacinol RX-11*  ácido hialurónico y filtros solares. ,1,55,55
-7,Roxana Hinojosa Menendez,PS18C01J5031,2018-03-01,CONTROL BLANC RX ACLARANTE ANTI-EDAD Albacinol RX-11 potenciado con extracto de orquídea blanca,1,110,110
-8,Roxana Hinojosa Menendez,PS18C01J5031,2018-03-01,CONTROL BLANC RX DIA Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ,3,45,135
-9,Roxana Hinojosa Menendez,PS18C01J5031,2018-03-01,CONTROL BLANC RX LIMPIADOR EXFOLIANTE TONIFICANTE Limpia, exfolia y tonifica.,1,44,44
-10,Roxana Hinojosa Menendez,PS18C01K5338,2018-03-01,ELIXIR DE VIDA LIMPIADOR Limpia con resveratrol e hipoalergenico.,1,36,36
-11,Roxana Hinojosa Menendez,PS18C01K5338,2018-03-01,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,1,49,49
-12,Roxana Hinojosa Menendez,PS18C01K5338,2018-03-01,SENTIVA DESMAQUILLADOR DOBLE FASE Facil, rapido ny eficaz,1,40,40
-13,Roxana Hinojosa Menendez,PS18C01L2605,2018-03-01,OHM BLACK COLOGNE SPRAY Madera de cachemira, lavanda, pimienta.,1,99,99
-14,Roxana Hinojosa Menendez,PS18C01L2605,2018-03-01,BB CREAM MATT CREMA HIDRATANTE Efecto perfeccionador MATIFICANTE Hidrata hasta por 24 horas, Protege del sol con SPF 25 y PA+++ ,1,60,60
-15,Roxana Hinojosa Menendez,PS18C01M1233,2018-03-01,TOTALIST CONCHA DE NACAR CREMA ROSTRO Aclara, reafirma, alisa arrugas,,  nutre,1,25,25
-16,Roxana Hinojosa Menendez,PS18C01M1233,2018-03-01,TOP MODELING CREMA LIPO-REDUCTORA concentrado de cafeína liposomada y L-Carnitina,1,62,62
-17,Roxana Hinojosa Menendez,PS18C01M1538,2018-03-01,B/L PERFECT COVER MAT T4 Acabado mate hasta por 8 horas. SPF 12.,1,44,44
-18,Roxana Hinojosa Menendez,PS18C01M3119,2018-03-01,ELIXIR DE VIDA LIMPIADOR Limpia con resveratrol e hipoalergenico.,1,36,36
-19,Roxana Hinojosa Menendez,PS18C01M3119,2018-03-01,ELIXIR DE VIDA GEL TONICO acción integral con Resveratrol, finaliza la limpieza del rostro, suaviza y refresca.,1,36,36
-20,Roxana Hinojosa Menendez,PS18C01M3119,2018-03-01,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,1,49,49
-21,Roxana Hinojosa Menendez,PS18C01M3335,2018-03-01,ULTRA DEF DEL LAP OJO MARRON Negro,1,19,19
-22,Jessica Adriana Salas Pacheco,PS18C01O0825,2018-03-01,SOLO COLOGNE FOR MEN Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ,1,119,119
-23,Jessica Adriana Salas Pacheco,PS18C01O0825,2018-03-01,BS KIDS COLONIA NIÑOS Negro,1,54,54
-24,Jessica Adriana Salas Pacheco,PS18C01Q4154,2018-03-01,Y. LABIAL PINK CORAL coral,1,19.9,19.9
-25,Roxana Hinojosa Menendez,PS18C02J3123,2018-03-02,OSADIA HOMBRE COLOGNE SPRAY Hierbabuena, limón, ébano.,2,89,178
-26,Roxana Hinojosa Menendez,PS18C02J3123,2018-03-02,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,62,62
-27,Jessica Adriana Salas Pacheco,PS18C02M0136,2018-03-02,TOTAL BLOCK ANTI EDAD MATT SPF50+ Rostro con extracto marino acabado mate,1,49,49
-28,Jessica Adriana Salas Pacheco,PS18C02M1116,2018-03-02,CIELO EAU DE PARFUM Flor de loto, jazmín, sándalo.,1,79,79
-29,Jessica Adriana Salas Pacheco,PS18C02R2334,2018-03-02,DENDUR COLOGNE FOR MEN Pimienta negra, jengibre, tabaco.,1,86,86
-30,Jessica Adriana Salas Pacheco,PS18C03I2343,2018-03-03,TOTAL BLOCK ANTI EDAD MATT SPF50+ Rostro con extracto marino acabado mate,1,45,45
-31,Jessica Adriana Salas Pacheco,PS18C03I2343,2018-03-03,ULTRA DEF DELiNEADOR CEJAS MARRON MED Cejas,1,23,23
+1,Jessica Adriana Salas Pacheco,PS18C06J0039,2018-03-06,HYDRA LIP LABIAL COLOR INTENSO  GUINDA ETNICO guinda oscuro,1,30,30
+2,Roxana Hinojosa Menendez,PS18C06K2319,2018-03-06,TOTALIST CONCHA DE NACAR CREMA ROSTRO Aclara, reafirma, alisa arrugas,,  nutre,1,30,30
+3,Roxana Hinojosa Menendez,PS18C06L3908,2018-03-06,BB CREAM MATT CREMA HIDRATANTE Efecto perfeccionador MATIFICANTE Hidrata hasta por 24 horas, Protege del sol con SPF 25 y PA+++ ,3,60,180
+4,Roxana Hinojosa Menendez,PS18C06L3908,2018-03-06,BODY SPA UÑA DE GATO EXFOLIANTE EN GEL PARA MANOS Y CUERPO  Exfolia la piel seca y extra seca.,1,32,32
+5,Roxana Hinojosa Menendez,PS18C06L3908,2018-03-06,BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA Extracto de quinua,1,32,32
+6,Roxana Hinojosa Menendez,PS18C06L3908,2018-03-06,ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO Delineado grueso,1,30,30
+7,Jessica Adriana Salas Pacheco,PS18C06M2022,2018-03-06,BB CREAM MATT CREMA HIDRATANTE Efecto perfeccionador MATIFICANTE Hidrata hasta por 24 horas, Protege del sol con SPF 25 y PA+++ ,1,60,60
+8,Jessica Adriana Salas Pacheco,PS18C06M2022,2018-03-06,EAU DE SEDA EAU DE PARFUM ORIGINAL Flor de seda, durazno y mimosa sensual.,1,115,115
+9,Jessica Adriana Salas Pacheco,PS18C06M2425,2018-03-06,LOCION DE SEDA Negro,1,28,28
+10,Jessica Adriana Salas Pacheco,PS18C06S0010,2018-03-06,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,2,54,108

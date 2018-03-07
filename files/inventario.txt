@@ -7,8 +7,9 @@
 0001891;Expect for men ;Negro;Collares;5;2018-02-01;0
 0002183;GAIA EAU DE PARFUM;Con notas de jacarandá, magnolia y orquídea;Collares;78;2018-03-03;0.91
 0002187;O2XYGEN GEL AFTER SHAVE;Hidrata, limpia y suaviza.;Collares;2;2018-02-01;0
-0002279;OSADIA EAU DE PARFUM; naranja brasilera, maracuyá y destellos de granada.;Collares;82;2018-03-05;18.18
-0002426;CIELO EAU DE PARFUM;Flor de loto, jazmín, sándalo.;Collares;105;2018-03-07;0
+0002279;OSADIA EAU DE PARFUM; naranja brasilera, maracuyá y destellos de granada.;Collares;80;2018-03-05;18.18
+0002410;ESMALTE PERFECT TEN ROSA ROMANTICO;beige;Collares;3;2018-02-01;10.5
+0002426;CIELO EAU DE PARFUM;Flor de loto, jazmín, sándalo.;Collares;113;2018-03-02;0
 0002645;OHM BLACK COLOGNE SPRAY;Madera de cachemira, lavanda, pimienta.;Collares;203;2018-03-01;0
 0002647;BODY SPA UÑA DE GATO CREMA PARA MANOS A/P;Hidrata y repara la piel seca y extra seca.;Collares;3;2018-02-01;0
 0002683;COLONIA ALEGRÍA PETIT PON PON;Aroma de lavanda, vainilla y flor de naranja.;Multiactivas;16;2018-02-05;0
@@ -80,11 +81,11 @@
 0003510;EAU VITALE LAVANDA GEL PARA BAÑO ;Esencia cítrica Lavanda;Labiales;32;2018-02-01;0
 0003511;LESENCE BOUQUET ORIENTAL COLOGNE A/P;Aroma  de pera, fressia y tonka.;Brillos;1;2018-02-01;0
 0003513;LESENCE FLORES & FRUTAS COLOGNE;Aroma de bergamota, lavanda y pachuli.;Esmaltes;503;2018-02-19;0
-0003529;DELINEADOR PUNTA PINCEL NEGRO;Punta delgada;Esmaltes;150;2018-03-03;0
+0003529;DELINEADOR PUNTA PINCEL NEGRO;Punta delgada;Esmaltes;149;2018-03-05;0
 0003530;DELINEADOR PUNTA PINCEL MARRON;Punta delgada;Esmaltes;1;2018-02-01;0
 0003587;COLONIA ZITRIKA LIMÓN;Cítrica con aroma a limón.;Delineadores de Labios;26;2018-02-19;0
 0003588;Colonia Ternura Petit Pon Pon 750ml;Negro;Collares;31;2018-02-19;0
-0003590;EFFECTIVE BRISA FLORAL DESODORANTE;Blanco tapa morada;Collares;62;2018-02-19;0
+0003590;EFFECTIVE BRISA FLORAL DESODORANTE;Blanco tapa morada;Collares;59;2018-03-06;0
 0003591;BIO EFFECTIVE PODER ABSOLUTO DESODORANTE;Plomo tapa ploma;Collares;47;2018-02-01;0
 0003592;SOY FASHION DESODORANTE;Verde;Collares;1;2018-02-01;0
 0003598;ULTRA DEF DELINEADOR RETRACTIL MARRON;Retractil;Collares;7;2018-02-05;0
@@ -115,15 +116,16 @@
 0003671;SOLO GEL AFTER SHAVE A/P;Hidrata, protege y suaviza;Collares;14;2018-02-05;0
 0003680;OSADIA BODY LOTION;Hidrata, protege y suaviza;Collares;17;2018-02-01;0
 0003693;Sensual Bronz Polvos Bronceadores Sexy Miel ;Negro;Collares;4;2018-02-01;0
-0003701;EFFECTIVE ORIGINAL DESODORANTE;Blanco tapa celeste;Collares;258;2018-03-03;0.04
+0003701;EFFECTIVE ORIGINAL DESODORANTE;Blanco tapa celeste;Collares;257;2018-03-06;0.04
 0003713;CLIC BRILLO LABIAL ALGODON DE AZUCAR;rosa claro;Collares;1;2018-02-01;0
 0003716;CLIC BRILLOS MANZANA ACARAMELADA;rojo claro;Collares;1;2018-02-01;0
 0003717;CLIC BRILLO LABIAL TOFFEE TENTACION ;cafe;Collares;1;2018-02-01;0
 0003722;EXTRA XOOL EAU DE TOILETTE;Aroma con notas cítricas y frescas.;Collares;1;2018-02-01;0
 0003724;XISS EAU DE TOILETTE; floral frutal de naranja, fresia y sándalo.;Collares;288;2018-03-01;5.8
 0003725;XOOL EAU DE TOILETTE;Bergamota, hojas de higo, salvia.;Collares;226;2018-02-28;0
-0003726;AROM POUR HOMME COLONIA;aroma maderoso que mezcla notas de sándalo, romero y bergamota.;Collares;407;2018-03-03;10.6
+0003726;AROM POUR HOMME COLONIA;aroma maderoso que mezcla notas de sándalo, romero y bergamota.;Collares;406;2018-03-05;10.6
 0003727;AROM SPORT COLONIA;Nautico;Collares;3;2018-02-01;0
+0003732;Clic Esmalte Green Paradise;Negro;Collares;2;2018-02-01;0
 0003737;Clic Rimel Morado;Negro;Collares;1;2018-02-01;0
 0003740;AROM DESODORANTE A/P;Negro;Collares;36;2018-02-19;0
 0003741;SOLO DESODORANTE A/P;Plomo;Collares;14;2018-02-05;0
@@ -143,9 +145,10 @@
 0003784;EAU DE SEDA A/P;Flor de seda, durazno y mimosa sensual.;Collares;21;2018-02-19;0
 0003797;O2xigen Cologne Spray;Negro;Collares;2;2018-02-01;0
 0003801;ULTRA DEFINITION DELINEADOR LABIOS TOFFEE IMPERIAL;Labios Toffe Imperial;Collares;42;2018-02-01;0
+0003813;PERFECT TEN REMOVEDOR ESMALTE;Negro;Collares;26;2018-02-05;0
 0003823;SHAMPOO 2 EN 1 MANZANA;Aroma Manzana, no lagrimas;Collares;68;2018-02-19;0
 0003824;SHAMPOO ALEGRÍA PETIT PON PON;No lágrimas aroma a lavanda, flor de naranja y vainilla;Desmaquilladores;63;2018-02-19;0
-0003825;SHAMPOO TERNURA PETIT PON PON;No lágrimas con aroma a manzanilla, limón y agua de rosas ;Cremas y Sueros;51;2018-02-19;0
+0003825;SHAMPOO TERNURA PETIT PON PON;No lágrimas con aroma a manzanilla, limón y agua de rosas ;Cremas y Sueros;47;2018-03-07;28
 0003830;Ultra Definition Delineador en Lapiz Ojos Marrón Cobrizo;Lapiz;Cremas y Sueros;8;2018-02-01;0
 0003831;Ultra Definition Delineador en Lapiz Ojos Verde Jade;Lapiz;Cremas y Sueros;10;2018-02-01;0
 0003832;DELINEADOR PUNTA PINCEL DORADO;Punta delgada;Cremas y Sueros;1;2018-02-01;0
@@ -155,14 +158,16 @@
 0003860;SOY IRRESISTIBLE FRESH COLOGNE;Cereza;Collares;13;2018-02-01;0
 0003875;MATIFIX BASE DE MAQUILLAJE MIXTO A  GRASO  T1;Absorve el exeso de grasa;Collares;7;2018-02-01;0
 0003887;Ultra Definition Delineador Retractil Ojos Violeta ;Lapiz retractil;Collares;4;2018-02-01;0
+0003906;Professional Maricure Esmalte para Manicure Francesa ;Negro;Collares;1;2018-02-01;0
 0003910;DELINEADOR LIQUIDO PUNTA PLUMON MIRAME A LOS OJOSD;Delineado grueso color violeta;Collares;2;2018-02-01;0
-0003911;ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO;Delineado grueso;Collares;77;2018-03-03;0
+0003911;ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO;Delineado grueso;Collares;76;2018-03-06;0
 0003914;Clic Labial Liquido Escarchado Admirador Secreto;Negro;Collares;3;2018-02-01;0
 0003915;CLIC LABIAL LIQUIDO ESCARCHADO AMPAY VIOLETA;morado;Collares;1;2018-02-01;0
 0003916;CLIC LABIAL LIQUIDO ESCARCHADO DETRAS DE CAMARAS;lila;Collares;3;2018-02-01;0
 0003917;CLIC LABIAL LIQUIDO ESCARCHADO PAPARAZZI;rosado fuerte;Collares;1;2018-02-01;0
 0003918;CLIC LABIAL LIQUIDO ESCARCHADO ULTIMA FUNCION;morado oscuro;Collares;1;2018-02-01;0
 0003919;CLIC LABIAL LIQUIDO ESCARCHADO NARANJA SEXY;naranja;Collares;6;2018-02-01;0
+0003921;Esmalte para Diseño de Uñas Negro ;Negro;Collares;6;2018-02-01;0
 0003929;Clic Delineador en Lapiz para Ojos Azul Electrico;Negro;Collares;3;2018-02-01;0
 0003930;CLIC LAPIZ DELINEADOR PARA OJOS SEXY BRONZ;cafe;Collares;67;2018-02-01;0
 0003931;CLIC LAPIZ DELINEADOR PARA OJOS MORADO PROFUNDO ;morado;Collares;2;2018-02-01;0
@@ -192,7 +197,7 @@
 0004083;Clic Brillo Color Mix Corazon de Melon;Negro;Collares;1;2018-02-01;0
 0004085;Clic Brillo Color Mix Toque de Sol;Negro;Collares;15;2018-02-01;0
 0004096;CLIC L/L AMIGAS INTIMAS;extra suavidad;Collares;12;2018-02-01;0
-0004097;CLIC L/L CONFIDENCIAS;extra suavida;Collares;3;2018-02-01;0
+0004097;CLIC L/L CONFIDENCIAS;extra suavida;Collares;2;2018-03-07;19
 0004098;CLIC L/L MONTAÑA RUSA;extra suavida;Collares;2;2018-02-01;0
 0004099;Clic Labial Sellado con un Beso;Negro;Collares;1;2018-02-01;0
 0004102;CLIC L/L REBELDE SIN CAUSA;extra suavidad;Collares;5;2018-02-01;0
@@ -200,7 +205,10 @@
 0004105;CLIC L/L DULCE VANIDAD;extra suavidad;Collares;4;2018-02-01;0
 0004107;CLIC L/L ROJO EXPLOSION;extra suavidad;Collares;24;2018-02-01;0
 0004120;DELINEADOR PUNTA PINCEL PLATA VIBRANTE;Punta delgada;Collares;3;2018-02-01;0
-0004153;DUETTE MARRON / NEGRO HUMO;Marron y Negro;Collares;23;2018-03-03;0
+0004140;ESMALTE PERFECT TEN AMANTES Y ENEMIGOS;vino oscuro;Collares;5;2018-03-03;11.04
+0004146;ESMALTE PERFECT TEN PRINCESA;beige;Collares;1;2018-02-01;10.5
+0004151;ESMALTE PERFECT TEN VALS;blanco nacarado;Collares;2;2018-02-01;8
+0004153;DUETTE MARRON / NEGRO HUMO;Marron y Negro;Collares;22;2018-03-07;0
 0004155;MATIFIX BASE DE MAQUILLAJE MIXTO A  GRASO  T6;Absorve el exeso de grasa;Collares;4;2018-02-01;0
 0004156;CLIC GEL DESMAQUILLADOR OJOS, LABIOS Y ROSTRO;textura ultra fresca libre de grasa;Collares;2;2018-02-01;0
 0004159;COLOR PRISMA DUO SOMBRAS TIERRA DE ORO;alta adherencia-larga duracion;Collares;1;2018-02-01;0
@@ -223,12 +231,21 @@
 0004279;C/S COLOR EFFECT GOLD LIGHTS;Dorados;Catálogo de Premios;8;2018-02-01;0
 0004281;Color Prisma Cuarteto de Sombras Neo Chic;Lilas;Catálogo de Premios;4;2018-02-01;0
 0004283;C/S COLOR EFFECT TOULOUSSE ;Lilas;Catálogo de Premios;1;2018-02-01;0
+0004291;ESMALTE PERFECT TEN LA PURA VERDAD;nude;Catálogo de Premios;4;2018-02-01;8
 0004306;Clic Corrector Retractil para Barritos ;Negro;Collares;20;2018-02-01;0
 0004307;KERA EXPERT SHAMPOO LISO PROFESIONAL;Envase morado etiqueta negra;Collares;16;2018-02-01;0
 0004308;KERA EXPERT ACONDICIONADOR LISO PROFESIONAL;Enave negro etiqueta morada;Collares;9;2018-02-01;0
 0004309;MACA EXPERT ACONDICIONADOR REPRACION PROFESIONAL;Envase negro etiqueta verde;Collares;5;2018-02-01;0
+0004330;CLIC ESMALTE ECO FAN;aquamarine;Collares;1;2018-02-01;0
+0004331;Clic Esmalte Ratatui;Negro;Collares;5;2018-02-01;0
+0004332;Clic Esmalte Tinky Winky;Negro;Collares;1;2018-02-01;0
+0004333;CLIC ESMALTE CRUELA;morado;Collares;3;2018-02-01;0
+0004343;ESMALTE PERFECT TEN  CRUSH;Naranja;Collares;3;2018-02-01;8
 0004347;ADRENALINE EAU DE TOILETTE;Mandarina, flor de loto, naranja china;Collares;10;2018-02-05;0
 0004348;CONTROL BLANC RX CREMA ACLARANTE;Con Albacinol RX-11*  ácido hialurónico y filtros solares. ;Collares;42;2018-03-02;0
+0004354;ESMALTE PERFECT TEN JUNGLA DE CEMENTO;plomo;Collares;4;2018-02-01;8
+0004358;ESMALTE PERFECT TEN  DESEOS DE ARENA;arena nacarado;Collares;9;2018-02-01;8
+0004360;ESMALTE PREFEC TEN BRILLO POR TI;Cafe metalico;Collares;4;2018-02-01;8
 0004365;HYDRO-ACTIVE BASE DE MAQUILLAJE T1;12 horas dce cubrimiento, 12 horas de hidratacion, proteccio spf15;Collares;1;2018-02-01;0
 0004368;HYDRO-ACTIVE BASE DE MAQUILLAJE T4;12 horas dce cubrimiento, 12 horas de hidratacion, proteccio spf15;Collares;1;2018-02-01;0
 0004369;HYDRO-ACTIVE BASE DE MAQUILLAJE T5;12 horas dce cubrimiento, 12 horas de hidratacion, proteccio spf15;Collares;1;2018-02-01;0
@@ -239,12 +256,16 @@
 0004379;Clic Brillo Natural y Delineador Azul;Negro;Collares;1;2018-02-01;0
 0004394;BIO FRUIT SHAMPOO Y  ACONDICIONADOR MANDARINA TROPICAL A/P;Con proteinas de Yogur probiotico Revitalizante;Collares;3;2018-02-01;0
 0004395;BIO FRUIT SHAMPOO Y ACONDICIONADOR COCO CARIBEÑO A/P 350 ML;Ultra Hidratante envase color crema;Collares;1;2018-02-01;0
+0004405;ESMALTE PERFECT TEN VERDE AFRICA;Verde claro;Collares;2;2018-02-01;8
 0004408; HYDRA-LIP LABIAL COLOR INTENSO JUNTO A TI ;rosado fuerte;Collares;1;2018-02-01;12
+0004414;ESMALTE PERFECT TEN DORADO METALICO;Dorado metalico;Collares;4;2018-02-01;8
+0004415;ESMALTE PERFECT TEN ARENHA;arena metalico;Collares;2;2018-02-01;8
 0004422;LASH FICTION RIMEL PESTAÑAS DE PELICULA;No es a prueba de agua;Collares;47;2018-02-05;0
+0004459;Clic Esmalte Cotton Candy;Negro;Collares;1;2018-02-01;0
 0004469;BODY SPA UÑA DE GATO CREMA PARA PIEL EXTRA SECA A/P;Hidrata y repara la piel seca y extra seca.;Collares;15;2018-02-01;0
 0004470;BODY SPA UÑA DE GATO BODY SPA UÑA DE GATO PARA PIEL EXTRA SECA A/P;Exfolia la piel seca y extra seca.;Collares;33;2018-02-01;0
 0004471;DESODORANTE ACERK.TE FUEGO;Desodorante corporal envase negro etiqueta anaranjada;Collares;1;2018-02-01;0
-0004476;CCORI CRISTAL LEAU DE PARFUM;aroma oriental con notas de  fresia, jazmín y vainilla. ;Collares;105;2018-02-23;0
+0004476;CCORI CRISTAL LEAU DE PARFUM;aroma oriental con notas de  fresia, jazmín y vainilla. ;Collares;104;2018-03-05;0
 0004480;HYDRA-LIP LARGA DURACION SUN BRONZ;bronce;Collares;2;2018-02-01;19
 0004483;HYDRA-LIP LARGA DURACION ROSA DE MIS SUEÑOS  A/P;Rosado nacarado;Collares;8;2018-02-22;19
 0004486;HYDRA-LIP LARGA DURACION BESO VOLADO;vino;Collares;2;2018-02-01;19
@@ -255,8 +276,13 @@
 0004515;DESODORANTE ACERK.TE ENERGIA;Desodorante corporal envase negro etiqueta verde limon;Collares;19;2018-02-01;0
 0004516;DESODORANTE ACERK.TE FRESH;Desodorante corporal envase negro etiqueta turquesa;Collares;1;2018-02-01;0
 0004517;SUN BLOCK SPF 30  A/P;Rostro y cuerpo, textura ultra ligera ;Collares;7;2018-02-01;0
+0004531;ESMALTE PERFECT TEN ORO BLING;dorado;Collares;3;2018-02-01;8
 0004539;HYDRA-LIP LABIAL COLOR INTENSO VAINILLA ROSA;nude ;Collares;2;2018-02-01;12
+0004541;CLIC ESMALTE BLU BLU;azul;Collares;3;2018-02-01;8
+0004542;Clic Esmalte Mandarin;Negro;Collares;1;2018-02-01;0
+0004543;ESMALTE FORTE DIX FORTALECEDOR DE UÑAS;transparente;Collares;27;2018-03-03;14.9
 0004548;HYDRA-LIP LABIAL COLOR INTENSO VAINILLA INTIMO;natural;Collares;2;2018-02-01;12
+0004551;ESMALTE PERFECT TEN PERLAS Y CRISTALES;perla nacarado;Collares;2;2018-02-01;8
 0004553;EAU VITALE TE VERDE GEL PARA BAÑO;Esencias cítricas y te verdeNegro;Collares;1;2018-02-01;0
 0004562;TITANIUM LIMPIADOR EXFOLIANTE A/P;Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco-;Collares;16;2018-02-01;0
 0004566;COLOR PRISMA DUO SOMBRAS CARNAVAL DE RIO;alta adherencia-larga duracion;Collares;1;2018-02-01;0
@@ -265,7 +291,11 @@
 0004569;COLOR PRISMA DUO DE SOMBRAS MADE IN TOKIO;alta adherencia-larga duracion;Collares;4;2018-02-01;0
 0004570;COLOR PRIMAS DUO DE SOMBRAS ROMANCE EN PARIS;alta adherencia-larga duracion;Collares;2;2018-02-01;0
 0004576;MISS AMOUR EAU DE PARFUM;floral con notas de litchi, mimosa francesa y cristal de cedro.;Collares;3;2018-02-05;0
+0004578;Clic Esmalte Galactic Green;Negro;Collares;1;2018-02-01;8
+0004588;ESMALTE PERFECT TEN OH DIVINA;Morado;Collares;4;2018-02-01;8
+0004621;Clic Esmalte Metal Glam;Negro;Collares;2;2018-02-01;0
 0004630;REVITALIST SUERO;Poder Alisante, fuerza tonificante, accion  antiporos.;Collares;3;2018-02-05;0
+0004635;ESMALTE PERFECT TEN ESCARCHA BRONZ;Bronce metalico;Collares;3;2018-02-01;8
 0004636;BODY SPA LECHE & AVENA CREMA CUERPO A/P;hidratacion y suavidad;Collares;1;2018-02-01;0
 0004638;Prolong Color Dunas (antigua presentación);Negro;Collares;1;2018-02-01;0
 0004639;BODY SPA UÑA DE GATO EXFOLIANTE EN GEL PARA MANOS Y CUERPO A/P;Exfolia la piel seca y extra seca.;Collares;170;2018-02-19;0
@@ -277,34 +307,45 @@
 0004646;CCORI LE PARFUM;Negro;Collares;124;2018-03-02;0
 0004647;TITANIUM HIDRATANTE ENERGIZANT;Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco e hidratado;Collares;13;2018-02-05;0
 0004649;REVITALIST CREMA NUTRITIVA;Fuerza nutritiva, accion hidratante, poder aislante;Collares;5;2018-02-05;0
-0004651;REVITALIST HIDRATANTE;Hidratante y energizante;Collares;20;2018-02-21;0
-0004652;ELIXIR DE VIDA HIDRATANTE;Hidrata, hipoalergenico con resveratrol.;Collares;44;2018-03-03;2.17
+0004651;REVITALIST HIDRATANTE;Hidratante y energizante;Collares;19;2018-03-06;0
+0004652;ELIXIR DE VIDA HIDRATANTE;Hidrata, hipoalergenico con resveratrol.;Collares;49;2018-03-05;2.17
 0004653;ELIXIR DE VIDA SUERO RECONSTITUYENTE;Resveratrol, que activa las Sirtuínas conocidas como las proteínas de juventud,;Collares;7;2018-02-28;0
 0004654;REVITALIST LIMPIADOR;Limpia, hipoalergenico menores de 35 años;Collares;31;2018-02-22;1.5
 0004655;ELIXIR DE VIDA LIMPIADOR;Limpia con resveratrol e hipoalergenico.;Collares;86;2018-03-03;11.7
 0004656;BODY SPA UÑA DE GATO CREMA REPARADORA A/P;Repara e hidrata la piel.;Perfumería Dama;61;2018-02-19;0
 0004657;HYDRA LIP LABIAL COLOR INTENSO  DELICATTA ;palo de rosa oscuro;Perfumería Dama;2;2018-02-01;12
 0004661;HYDRA LIP LABIAL COLOR INTENSO  ATARDECER  CARIBE;rosado;Perfumería Dama;1;2018-02-01;16.3
+0004665;ESMALTE PERFECT TEN NARANJA DO BRAZIL;naranja fuerte;Perfumería Dama;2;2018-02-01;8
+0004666;ESMALTE PERFECT TEN DANZA  CARIOCA;Amarillo yema ;Perfumería Dama;2;2018-02-01;8
 0004668;ULTRA DEFINITON PLUMON OJOS MARRON;Trazo Preciso delineado delgado y grueso;Perfumería Dama;5;2018-02-01;0
 0004669;ULTRA DEFINITION PLUMON OJOS AZUL;Trazo preciso delineado delgado y grueso;Perfumería Dama;5;2018-02-05;0
 0004670;REVITALIST TONICO;Negro;Collares;26;2018-02-21;1.84
 0004671;ELIXIR DE VIDA GEL TONICO;acción integral con Resveratrol, finaliza la limpieza del rostro, suaviza y refresca.;Collares;35;2018-03-01;16.2
-0004683;43 N PARALEL COLOGNE FOR MEN;maderosa de toronja mediterránea, ciprés de Toscana y cuero ibérico.;Collares;183;2018-02-19;0
+0004683;43 N PARALEL COLOGNE FOR MEN;maderosa de toronja mediterránea, ciprés de Toscana y cuero ibérico.;Collares;182;2018-03-06;0
 0004684;LIBERATTA PARFUM;floral memorable y cautivador con notas de encaje de iris blanca y vainilla.;Collares;58;2018-03-05;25.42
 0004686;Brillo de Seda Loción Hidratante;Negro;Collares;57;2018-02-19;0
 0004687;BRILLO DE SEDA DIAMANTES A/P;Hidrata y perfuma;Collares;40;2018-02-19;0
 0004694;TOP MODELING CREMA ANTI-CELULITIS;a base de algas marinas, reafirma, hidrata y reduce la apariencia de celulitis;Collares;28;2018-02-05;0
 0004699;Prolong Color Intensity;Negro;Collares;2;2018-02-01;0
+0004701;ESMALTE PERFECT TEN INSTINTO ANIMAL;Cafe claro;Collares;14;2018-02-01;10.5
+0004709;Clic Esmalte Aqua Shock;Negro;Collares;1;2018-02-01;0
 0004710;Soy Fashion Fresh Colonia;Negro;Collares;3;2018-02-01;0
 0004713;Clic Esmalte Hot Pink;Negro;Collares;1;2018-02-01;0
+0004714;CLIC ESMALTE COOL YELLOW;amarillo;Collares;2;2018-02-01;0
 0004717;SOY LIBRE FRESH COLOGNE;Oceanica;Collares;65;2018-02-19;0
 0004718;SOY DULCE FRESH COLOGNE A/P;Frambuesa azucarada, madera blanca, vainilla.;Collares;6;2018-02-01;0
 0004719;SOY FASHION FRESH COLOGNE A/P;Litchi dulce, chocolate blanco, almizcle delicado.;Collares;80;2018-02-19;0
 0004720;SOY SEXY FRESH COLOGNE A/P;Nerolí, sándalo sensual, almizcle de piel.;Collares;15;2018-02-19;0
 0004724; HYDRA-LIP LABIAL COLOR INTENSO ULTRA LADY ROSE;Rosado claro;Collares;3;2018-02-01;12
-0004733;ELIXIR DE VIDA ROSTRO;Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol;Collares;204;2018-03-03;0
+0004729;CLIC ESMALTE BLUE PUNCH;celeste;Collares;3;2018-02-01;0
+0004733;ELIXIR DE VIDA ROSTRO;Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol;Collares;203;2018-03-06;0
 0004734;ELIXIR DE VIDA CREMA DE OJOS;Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.;Collares;12;2018-03-03;0
+0004736;ESMALTE PERFECT TEN AZZULE;azul metalico;Collares;1;2018-02-01;10.5
+0004737;ESMALTE PERFECT TEN LUXURY;cobre oscuro;Collares;2;2018-02-01;10.5
+0004738;ESMALTE PERFECT TEN OSCURA TENTACION;Cafe oscuro;Collares;3;2018-02-01;10.5
+0004739;ESMALTE PERFECT TEN MORADO TOP;guinda nacarado;Collares;10;2018-02-01;8
 0004741;ESMALTE PERFECT TEN NOCTAMBUL;Verde escamas;Collares;1;2018-02-01;8
+0004742;ESMALTE PERFECT TEN CITY STAR;turquesa scarchado;Collares;4;2018-02-01;8
 0004744;HYDRA LIP LABIAL COLOR INTENSO FUCSIA OPULENTO;fucsia;Collares;2;2018-02-01;12
 0004749; HYDRA-LIP LABIAL COLOR INTENSO LUJO MALVA;lila oscuro;Collares;3;2018-02-01;16.3
 0004750;CONTROL BLANC RX LIMPIADOR EXFOLIANTE TONIFICANTE;Limpia, exfolia y tonifica.;Collares;32;2018-03-01;0
@@ -315,6 +356,8 @@
 0004771;C/S COLOR EFFECT URBANA A/P;Oscuros;Collares;1;2018-02-01;0
 0004772;BIO MILK CREMA HIDRATANTE VAINILLA FRANCESA;aroma a base de pomelo blanco, vainilla y flor de algodón que hidrata, suaviza y nutre;Collares;49;2018-02-19;0
 0004773;BODY SPA LECHE & AVENA CREMA MANOS;hidratacion y suavidad;Collares;28;2018-02-19;0
+0004774;ESMALTE PERFECT TEN ZUL STYLE;Azul oscuro;Collares;6;2018-02-01;10.5
+0004776;ESMALTE PERFECT TEN VERDEZZA;Verde hoja;Collares;4;2018-02-01;8
 0004780;HYDRA LIP LABIAL COLOR INTENSO  ROSA LIP FR;rosa claro;Collares;2;2018-02-01;18.2
 0004791;PERFECT TEN BARNIZ UÑAS MATE;Negro;Collares;20;2018-02-05;0
 0004792;ULTRA DEFINITION DELINEADOR LIQUIDO OJOS GRIS URBANO;Punta Plumon Efecto Metalico;Collares;4;2018-02-01;0
@@ -324,7 +367,7 @@
 0004826;BIO FRUIT SHAMPOO Y ACONDICIONADOR GRANADA EXOTICA 350ML A/P;aroma de la granada que además, ofrece su poder antioxidante;Collares;118;2018-02-19;0
 0004828;CONTROL BLANC RX ACLARANTE ANTI-EDAD;Albacinol RX-11 potenciado con extracto de orquídea blanca;Collares;34;2018-03-01;0
 0004829;SENTIVA DESMAQUILLADOR AGUA MICELAR;Frescura purificante;Collares;12;2018-02-19;0
-0004830;SENTIVA DESMAQUILLADOR DOBLE FASE;Facil, rapido ny eficaz;Collares;100;2018-03-03;0
+0004830;SENTIVA DESMAQUILLADOR DOBLE FASE;Facil, rapido ny eficaz;Collares;100;2018-03-07;0
 0004831;Fresh Mousse Sobras Crema Dark Mousse;Oscuro en Crema;Collares;2;2018-02-01;0
 0004833;REVITALIST GEL ENERGIZANTE;Gel energizante con VIT ADVANCE;Collares;1;2018-02-05;0
 0004834;NO LIMITS FUTBOL EDITION;Geranio, lavanda, limón.;Protectores Solares;111;2018-02-19;0
@@ -332,16 +375,19 @@
 0004838;C/S COLOR EFFECT VIVA JADE;Verdes;Protectores Solares;3;2018-02-05;0
 0004839;C/S COLOR EFFECT SMOKY ARENHA;Cafes;Protectores Solares;5;2018-02-05;0
 0004841;C/S COLOR EFFECT SMOKY GLAM;Negros;Protectores Solares;6;2018-02-05;0
-0004843;C/S COLOR EFFECT ROMANTIC ROSE;Rosados;Protectores Solares;5;2018-02-27;6.8
+0004843;C/S COLOR EFFECT ROMANTIC ROSE;Rosados;Protectores Solares;4;2018-03-07;6.8
 0004845;C/S COLOR EFFECT FUROR AZUL;Azules;Protectores Solares;3;2018-02-05;0
 0004848;C/S COLOR EFFECT MIAMI POP ;Corales;Protectores Solares;6;2018-02-01;0
-0004849;P/C PERFECT COVER CLARO 1;Piel Clara;Protectores Solares;58;2018-02-05;0
+0004849;P/C PERFECT COVER CLARO 1;Piel Clara;Protectores Solares;56;2018-03-06;0
 0004850;P/C PERFECT COVER MEDIANO 1;Piel Mediana;Protectores Solares;32;2018-03-03;0
 0004851;P/C PERFECT COVER MEDIANO 2;Piel Oscura ;Protectores Solares;63;2018-02-05;0
 0004852;P/C PERFECT COVER OSCURO 1;Piel Oscura;Protectores Solares;2;2018-02-05;0
 0004854;HYDRA-LIP LARGA DURACION ROJO APASIONADO ;rojo fresa;Protectores Solares;2;2018-02-01;19
 0004855;HYDRA-LIP LARGA DURACION ROJO DESTELLO;rojo;Protectores Solares;2;2018-02-01;19
 0004857;HYDRA-LIP LARGA DURACION CANELA INTENSO;Cafe;Protectores Solares;9;2018-02-01;19
+0004859;ESMALTE PERFECT TEN TANGERIN POP FR;Naranja claro;Protectores Solares;2;2018-02-01;8
+0004860;ESMALTE PERFECT TEN  AQUARIUM;turquesa claro;Protectores Solares;12;2018-02-01;8
+0004862;ESMALTE PERFECT TEN MIAMI AQUA;Turquesa oscuro;Protectores Solares;2;2018-02-20;10.5
 0004866;HYDRA LIP ULTRA ROSA POP;rosado oscuro;Protectores Solares;1;2018-02-01;0
 0004868;HYDRA LIP LABIAL COLOR INTENSO  POP STYLE FR;lila ;Protectores Solares;3;2018-02-01;12
 0004869;HYDRA LIP LABIAL COLOR INTENSO FLORIDA LOVE;nude oscuro;Protectores Solares;1;2018-03-01;12
@@ -351,20 +397,20 @@
 0004884;RUBOR COLOR EFFECT ROSA IRRESISTIBLE;Piel Clara;Protectores Solares;5;2018-02-05;0
 0004886;RUBOR COLOR EFFECT BRIZZA;Piel Oscura;Protectores Solares;5;2018-02-05;0
 0004887;RUBOR COLOR EFFECT BRONZAGE;Piel mediana;Protectores Solares;22;2018-03-03;0
-0004888;RUBOR COLOR EFFECT PETAL ROSE ;Piel mediana;Protectores Solares;10;2018-02-27;0
+0004888;RUBOR COLOR EFFECT PETAL ROSE ;Piel mediana;Protectores Solares;9;2018-03-05;0
 0004889;RUBOR COLOR EFFECT TERRA;Piel Oscura;Protectores Solares;6;2018-02-05;0
 0004890;HIDRA LIP LABIAL COLOR INTENSO MUSA;NUDE;Protectores Solares;11;2018-03-03;16.3
 0004891;HYDRA LIP LABIAL COLOR INTENSO BAILE ROSA;palo de rosa;Protectores Solares;9;2018-02-05;16.3
 0004892;HYDRA LIP LABIAL COLOR INTENSO  CHOCOLAT MOUSSE;Chocolate;Protectores Solares;26;2018-02-28;16.9
-0004893;HYDRA LIP LABIAL COLOR INTENSO  TERCIOPELO  NEGRO;vino fuerte;Protectores Solares;34;2018-03-01;18.2
+0004893;HYDRA LIP LABIAL COLOR INTENSO  TERCIOPELO  NEGRO;vino fuerte;Protectores Solares;33;2018-03-06;18.2
 0004894;HYDRA LIP LABIAL COLOR INTENSO  AMBRE;nude oscuro;Protectores Solares;29;2018-03-05;16.29
-0004895;HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION;rojo claro;Protectores Solares;36;2018-03-05;16.29
+0004895;HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION;rojo claro;Protectores Solares;34;2018-03-06;16.29
 0004896;HYDRA LIP LABIAL COLOR INTENSO RUMORES;coral;Protectores Solares;18;2018-02-05;16.3
 0004897;HYDRA LIP LABIAL COLOR INTENSO  MORA ZEN;lila;Protectores Solares;25;2018-03-02;16.3
-0004898;HYDRA LIP LABIAL COLOR INTENSO VAINILLA CORAL;Coral;Protectores Solares;12;2018-02-05;12
+0004898;HYDRA LIP LABIAL COLOR INTENSO VAINILLA CORAL;Coral;Protectores Solares;11;2018-03-07;12
 0004899;HYDRA-LIP LABIAL COLOR INTENSO CORAL&COLOR RAL&COLO;coral;Protectores Solares;11;2018-02-05;12
 0004900;HYDRA LIP LABIAL COLOR INTENSO FUCSIA PELIGROSA;fucsia;Protectores Solares;9;2018-02-21;16.3
-0004901;HYDRA LIP LABIAL COLOR INTENSO  GUINDA ETNICO;guinda oscuro;Protectores Solares;34;2018-02-05;18.2
+0004901;HYDRA LIP LABIAL COLOR INTENSO  GUINDA ETNICO;guinda oscuro;Protectores Solares;33;2018-03-06;18.2
 0004902;HYDRA LIP LABIAL COLOR INTENSO ALMENDRADO;nude claro;Protectores Solares;12;2018-02-26;16.3
 0004904;UNIQUE WOMAN INFINITY EAU PARFUM;floral de brotes de cerezo, jazmín y ámbar;Protectores Solares;105;2018-02-22;3.7
 0004905;C/S COLOR EFFECT MIAMI BEACH;Colores Marinos;Protectores Solares;2;2018-02-01;0
@@ -372,7 +418,7 @@
 0004933;CCORI CRISTAL DESODORANTE A/P;Crema;Aretes;21;2018-02-05;0
 0004934;BALSAMO BELLEZA BB CREAM;Negro;Collares;89;2018-02-19;0
 0004935;CCORI CRISTAL LEAU DE PARFUM 7.5 ml.;aroma oriental con notas de  fresia, jazmín y vainilla. ;Collares;1;2018-02-01;0
-0004936;B/L PERFECT COVER HIDRA T1;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;13;2018-03-01;0
+0004936;B/L PERFECT COVER HIDRA T1;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;12;2018-03-05;0
 0004937;B/L PERFECT COVER HIDRA T2;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;46;2018-03-03;0
 0004938;B/L PERFECT COVER HIDRA T3;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;11;2018-02-05;0
 0004939;B/L PERFECT COVER HIDRA T4;Para piel seca a mixta Hasta 12 horas de cubrimiento.;Collares;2;2018-02-05;0
@@ -383,7 +429,7 @@
 0004945;B/L PERFECT COVER MAT T4;Acabado mate hasta por 8 horas. SPF 12.;Collares;3;2018-03-01;0
 0004946;B/L PERFECT COVER MAT T5;Acabado mate hasta por 8 horas. SPF 12.;Collares;2;2018-02-05;0
 0004951; HYDRA-LIP LABIAL COLOR INTENSO ROJO EUFORIA;rojo brillante;Collares;5;2018-02-01;16.3
-0004959;UNIQUE WOMAN EAU DE PARFUM;Negro;Collares;96;2018-02-19;0
+0004959;UNIQUE WOMAN EAU DE PARFUM;Negro;Collares;94;2018-03-06;0
 0004962;SPRIO PINK COLOGNE FOR HER;Dulce;Collares;1;2018-02-05;0
 0004964;CLIC SEXTETO DE SOMBRAS COMPACTAS COOL Y CRAZY;varios;Collares;1;2018-02-01;0
 0004965;CLIC SEXTETO DE SOMBRAS COMPACTAS FUNNY Y TRENDY;varios;Collares;1;2018-02-01;0
@@ -391,14 +437,20 @@
 0004969;HYDRA LIP LABIAL COLOR INTENSO  CLASSIC FEM;rosa natural;Collares;4;2018-02-01;16.3
 0004970;HYDRA-LIP LABIAL COLOR INTENSO ROCK AND ROS;carmin;Collares;3;2018-02-01;12
 0004971; HYDRA-LIP LABIAL COLOR INTENSO LADY PINK;rosado-coral;Collares;4;2018-02-01;12
+0004975;ESMALTE PERFECT TEN LONDON NIGHT;Negro;Collares;3;2018-02-01;8
+0004976;ESMALTE PERFECT TEN LONDON  CITY;Negroplomo claro;Collares;4;2018-02-01;8
+0004977;ESMALTE PERFECT TEN ALMA DORADA;Dorado metalico;Collares;2;2018-02-01;8
+0004978;ESMALTE PERFECT TEN LILA ROMANTIC;lila claro;Collares;2;2018-02-01;8
+0004982;ESMALTE PERFECT TEN VERDE ETNICO;Turquesa oscuro;Collares;1;2018-02-01;8
 0004983;ACENTO PARFUM;Aroma ;Collares;22;2018-02-01;0
 0004984;Clic Esmalte Mango Frozen;Negro;Collares;1;2018-02-01;0
 0004987;Clic Esmalte Silver Way!;Negro;Collares;1;2018-02-01;0
+0004994;ESMALTE PERFECT TEN ROJO ETNICO;Rojo ;Collares;2;2018-02-01;10.5
 0005003;HYDRA LIP LABIAL COLOR INTENSO ROSA PARIS;rosado oscuro;Collares;2;2018-02-01;12
 0005004;HYDRA LIP LABIAL COLOR INTENSO FUCSIA BOHEME;fucsia;Collares;3;2018-02-01;16.3
 0005005;HYDRA LIP LABIAL COLOR INTENSO ALMA GUINDA;guinda ;Collares;5;2018-02-01;18.2
 0005008;C/S COLOR EFFECT BOHEME;Rosados y celestes;Collares;1;2018-02-01;0
-0005009;CONTROL BLANC RX SET ANTIMANCHAS;Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ;Collares;8;2018-02-22;0
+0005009;CONTROL BLANC RX SET ANTIMANCHAS;Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ;Collares;7;2018-03-06;0
 0005017;CREMA HIDRATANTE BIO MILK PERA MANZANA;Con proteinas de yogurt probiotico;Delineadores;186;2018-03-02;19
 0005018;CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA A/P;Con proteinas de yogurt probiotico;Delineadores;218;2018-02-19;0
 0005029;SOLO COLOGNE FOR MEN;Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ;Delineadores;94;2018-03-03;0
@@ -409,6 +461,7 @@
 0005040;HYDRA LIP LABIAL COLOR INTENSO  PIEL DE  DURAZNO;beige nacarado;Collares;5;2018-02-01;16.3
 0005041;HYDRA LIP LABIAL COLOR INTENSO  ROSA ESENCIAL;Rosa oscuro;Collares;5;2018-02-01;16.3
 0005045;C/S COLOR EFFECT ESSENCIA;Naranja y Cafe;Collares;2;2018-02-01;0
+0005046;ESMALTE PERFECT TEN ORO & ENCANTO;dorado metalico;Collares;2;2018-02-01;8
 0005050;HYDRA-LIP CRAYON SEMI MATE SEXY RED;Rojo ;Collares;9;2018-02-20;22.5
 0005051;HYDRA-LIP CRAYON SEMI MATE RED ELEGANCE;rojo;Collares;1;2018-02-05;22.5
 0005053;HYDRA-LIP CRAYON SEMI MATE ALMENDRA CHIC;nude;Collares;2;2018-02-05;22.5
@@ -430,21 +483,21 @@
 0005100;B/C PERFECT COVER COMPACT MEDIANO 1;3 EN 1;Delineadores;4;2018-02-05;0
 0005101;B/C PERFECT COVER COMPACT MEDIANO 2;3 en 1;Delineadores;5;2018-02-05;0
 0005102;P/S PERFECT COVER CLARO 1;Piel Clara;Delineadores;4;2018-02-23;0
-0005103;P/S PERFECT COVER MEDIANO 1;Negro;Collares;1;2018-02-26;0
-0005104;P/S PERFECT COVER MEDIANO 2;Piel Oscura;Collares;6;2018-03-05;29.9
-0005106;B/L ELIXIR DE VIDA ANTIEDAD T1;Cubrimiento perfecto con acabado natural. ;Collares;8;2018-02-21;7.8
-0005107;B/L ELIXIR DE VIDA ANTIEDAD T2;Cubrimiento perfecto con acabado natural. ;Collares;5;2018-03-03;7
-0005108;B/L ELIXIR DE VIDA ANTIEDAD T3;Cubrimiento perfecto con acabado natural. ;Collares;2;2018-03-03;17.6
-0005109;B/L ELIXIR DE VIDA ANTIEDAD T4;Cubrimiento perfecto con acabado natural. ;Collares;2;2018-02-21;0
-0005110;B/L ELIXIR DE VIDA ANTIEDAD T5;Cubrimiento perfecto con acabado natural. ;Collares;2;2018-02-05;0
-0005120;FOCCO COLOGNE FOR MEN;Whisky, pachulí, madera de oud.;Collares;128;2018-03-01;0
-0005121;LABIAL ANTI-EDAD ELIXIR DE VIDA ENCANTO ELIXIR;rosado oscuro;Collares;4;2018-02-27;24.8
-0005124;LABIEL ANTI-EDAD ELIXIR DE VIDA ELIXIR FEME;antiedad;Collares;2;2018-03-02;0
-0005125;LABIAL ANTI-EDAD  ELIXIR DE VIDA ELIXIR ROSE;coral;Collares;4;2018-03-01;24.8
-0005126;LABIAL ANTI-EDAD ELIXIR DE VIDA LUJO ELIXIR;rojo;Collares;3;2018-02-05;24.8
-0005127;LABIAL ANTI-EDAD ELIXIR DE VIDA TERRA ELIXIR ;marron;Collares;2;2018-02-05;24.8
-0005133;TEMPTATION EAU DE PARFUM;flores exóticas y acentos exuberantes de rosa búlgara, gardenia y clavo de olor.;Collares;56;2018-03-01;11.3
-0005135;TEMPTATION COLOGNE FOR MEN;Menta, flor de naranja, sándalo.;Modeladoras;49;2018-03-01;36.3
+0005104;P/S PERFECT COVER MEDIANO 2;Piel Oscura;Delineadores;6;2018-03-05;29.9
+0005106;B/L ELIXIR DE VIDA ANTIEDAD T1;Cubrimiento perfecto con acabado natural. ;Delineadores;8;2018-02-21;7.8
+0005107;B/L ELIXIR DE VIDA ANTIEDAD T2;Cubrimiento perfecto con acabado natural. ;Delineadores;4;2018-03-07;7
+0005108;B/L ELIXIR DE VIDA ANTIEDAD T3;Cubrimiento perfecto con acabado natural. ;Delineadores;2;2018-03-03;17.6
+0005109;B/L ELIXIR DE VIDA ANTIEDAD T4;Cubrimiento perfecto con acabado natural. ;Delineadores;2;2018-02-21;0
+0005110;B/L ELIXIR DE VIDA ANTIEDAD T5;Cubrimiento perfecto con acabado natural. ;Delineadores;2;2018-02-05;0
+0005114;ESMALTE PERFECT TEN BASE ESMALTE UÑAS;Beige claro;Delineadores;7;2018-02-22;10.5
+0005120;FOCCO COLOGNE FOR MEN;Whisky, pachulí, madera de oud.;Delineadores;128;2018-03-01;0
+0005121;LABIAL ANTI-EDAD ELIXIR DE VIDA ENCANTO ELIXIR;rosado oscuro;Delineadores;4;2018-02-27;24.8
+0005124;LABIEL ANTI-EDAD ELIXIR DE VIDA ELIXIR FEME;antiedad;Delineadores;2;2018-03-02;0
+0005125;LABIAL ANTI-EDAD  ELIXIR DE VIDA ELIXIR ROSE;coral;Delineadores;4;2018-03-01;24.8
+0005126;LABIAL ANTI-EDAD ELIXIR DE VIDA LUJO ELIXIR;rojo;Delineadores;2;2018-03-06;24.8
+0005127;LABIAL ANTI-EDAD ELIXIR DE VIDA TERRA ELIXIR ;marron;Delineadores;2;2018-02-05;24.8
+0005133;TEMPTATION EAU DE PARFUM;flores exóticas y acentos exuberantes de rosa búlgara, gardenia y clavo de olor.;Delineadores;56;2018-03-01;11.3
+0005135;TEMPTATION COLOGNE FOR MEN;Menta, flor de naranja, sándalo.;Modeladoras;49;2018-03-06;36.3
 0005138;ACNI-DERM CREMA HIDRATANTE;Negro;Collares;11;2018-02-05;0
 0005139;O/S COLOR EFFECT NATURAL DIVA;Naturales Dorados y Cafes;Collares;30;2018-02-05;0
 0005140;O/S COLOR EFFECT GLAM FEM;Negro;Collares;1;2018-02-20;40.2
@@ -455,7 +508,7 @@
 0005146;BIO FRUIT PERA MANZANA FRESH COLOGNE;Aroma pera, manzana;Desodorantes;28;2018-02-05;0
 0005147;TITANIUM LIMPIADOR EXFOLIANTE;Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco;Desodorantes;9;2018-02-05;0
 0005148;TITANIUM POST AFEI LOCION ENER;Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco e hidratado;Desodorantes;54;2018-02-19;0.9
-0005149;TOTAL BLOCK SPF 100;Rostro y cuerpo triple defensa, hidratante con vitamina E;Desodorantes;1387;2018-03-05;23.08
+0005149;TOTAL BLOCK SPF 100;Rostro y cuerpo triple defensa, hidratante con vitamina E;Desodorantes;1385;2018-03-07;23.08
 0005150;TOTAL BLOCK ANTI EDAD MATT SPF50+ A/P;Rostro con extracto marino acabado mate;Desodorantes;331;2018-02-19;0
 0005151;ACNI-DERM LIMPIAD MASCARILLA EXFOLIANTE;con un complejo a base de Schinus Molle y Ácido Salicílico;Desodorantes;4;2018-02-22;0
 0005152;ACNI-DERM TONICO ASTRINGENTE;Ácido Salicilico: Exfoliante.;Desodorantes;5;2018-02-22;0
@@ -463,11 +516,11 @@
 0005154;BIO FRUIT ORIGINAL ACONDICIONADOR A/P;aroma a base de pomelo blanco, durazno y flor de algodón.;Desodorantes;25;2018-02-19;0
 0005155;BIO FRUIT ORIGINAL SHAMPOO A/P;aroma a base de base de pomelo blanco, durazno y flor de algodón.;Desodorantes;25;2018-02-19;0
 0005156;PERFECT TEN CORRECTOR ESMALTE;Negro;Collares;2;2018-02-05;0
-0005157;TITANIUM SHAMPOO;Potente activo que inhibe los microorganismos que producen la caspa y previenen su reaparición.;Collares;42;2018-03-02;0
+0005157;TITANIUM SHAMPOO;Potente activo que inhibe los microorganismos que producen la caspa y previenen su reaparición.;Collares;41;2018-03-05;0
 0005158;C/S COLOR EFFECT URBANA;Oscuros;Collares;1;2018-02-05;0
 0005161; HYDRA-LIP LABIAL COLOR INTENSO FEMME ROSE;rosado;Collares;10;2018-02-01;16.3
 0011001;ZENTRO BLACK COLOGNE FOR MEN;Ámbar negro, tabaco, bergamota.;Collares;152;2018-02-22;0
-0011002;BODY SPA UÑA DE GATO SHAMPOO REPARADOR;ultra hidrante y reparacion para todo tipo de cabello;Collares;74;2018-03-05;14.16
+0011002;BODY SPA UÑA DE GATO SHAMPOO REPARADOR;ultra hidrante y reparacion para todo tipo de cabello;Collares;73;2018-03-05;14.16
 0011004;LESENCE BOUQUET ORIENTAL COLOGNE;Aroma  de pera, fressia y tonka.;Brillos;111;2018-03-05;0
 0011005;LESENCE FLORES & FRUTAS COL;Negro;Collares;179;2018-03-03;0
 0011006;LESENCE FLORES DE CEREZO COLOGNE;Floral dulce con notas de magnolia, flor de cerezo y bambu;Collares;40;2018-03-05;0
@@ -480,22 +533,38 @@
 0011014;EAU VITALE TE VERDE COLONIA 200ML;Esencias cítricas y te verde;Labiales Mate;30;2018-02-20;2.1
 0011017;TITANIUM DESODORANTE ANTITRANS;Negro;Collares;35;2018-03-01;0
 0011020;ULTRA DEFINITION DELINEADOR LIQUIDO OJOS AZUL METAL;PUNTA PLUMON EFECTO METALICO;Collares;2;2018-02-01;0
-0011024;ULTRA DEF DEL LAP OJO NEGRO AB;Negro;Collares;294;2018-03-02;0
+0011024;ULTRA DEF DEL LAP OJO NEGRO AB;Negro;Collares;293;2018-03-06;0
 0011025;BIO EFFECTIVE DESODORANTE ORIGINAL;Blanco tapa blanco;Collares;82;2018-03-03;0
 0011026;BIO EFFECTIVE DSEODORANTE GRANADA EXOTICA;Blanco tapa rosado;Collares;34;2018-02-05;0
 0011027;BIO EFFECTIVE DESODORANTE PERA MANZANA;Blanco tapa verde;Collares;69;2018-02-19;0
-0011028;BB CREAM MATT CREMA HIDRATANTE;Efecto perfeccionador MATIFICANTE Hidrata hasta por 24 horas, Protege del sol con SPF 25 y PA+++ ;Collares;99;2018-03-01;0
+0011028;BB CREAM MATT CREMA HIDRATANTE;Efecto perfeccionador MATIFICANTE Hidrata hasta por 24 horas, Protege del sol con SPF 25 y PA+++ ;Collares;95;2018-03-06;0
 0011029;PERFECT COVER CORRECTOR CLARO 1;Piel Clara;Collares;11;2018-03-01;0
 0011030;PERFECT COVER CORRECTOR MEDIANO 1;Piel mediana;Collares;9;2018-03-03;0
 0011031;PERFECT COVER CORRECTOR MEDIANO 2;Piel Oscura;Collares;13;2018-02-28;0
 0011032;C/S COLOR EFFECT OCEANICA ULTRA;Lilas y Celestes;Collares;4;2018-02-01;0
 0011034; HYDRA-LIP LABIAL COLOR INTENSO ESTRELLA CORAL;coral ;Collares;2;2018-02-05;12
 0011035;HYDRA LIP LABIAL COLOR INTENSO ROSA SIRENA;rosa claro;Collares;4;2018-02-05;12
+0011039;ESMALTE PERFECT TEN AZUL  PROFUNDO;azul escarchado;Collares;5;2018-02-01;8
+0011040;ESMALTE PERFECT TEN REFLEJOS MARINOS FR;celeste con escamas;Collares;5;2018-02-01;8
+0011041;ESMALTE PERFECT TEN ALGAS MARIN FR;verde claro con escamas;Collares;1;2018-02-05;8
+0011042;ESMALTE PERFECT TEN ROSA TORNASOL;Melon con escamas;Collares;5;2018-02-01;8
+0011043;ESMALTE PERFECT TEN SPONDYLUS FR;Naranja;Collares;7;2018-02-01;8
 0011046;Clic Rimel Negro;Negro;Collares;1;2018-02-01;0
+0011047;ESMALTE PERFECT TEN LILA RETRO;humo;Collares;7;2018-02-05;10.5
+0011048;ESMALTE PERFECT TEN BURGUNDY;Vino;Collares;16;2018-02-22;10.5
+0011049;ESMALTE PERFECT TEN PASION;Rojo vivo;Collares;16;2018-02-05;10.5
 0011050;ESM PERFECT TEN AMANTES Y ENEM;Negro;Collares;9;2018-02-27;3.7
+0011051;ESMALTE PERFECT TEN PLACER ABSOLUT;Vino;Collares;29;2018-02-05;10.5
+0011052;ESMALTE PERFECT TEN AZUL INFINITO;Azul oscuro;Collares;3;2018-02-22;10.5
 0011053;ESM PERFECT TEN INSTINTO ANIMA;Negro;Collares;10;2018-02-05;0
+0011054;ESMALTE PERFECT TEN SALVAJE;morado claro;Collares;2;2018-02-05;10.5
 0011056;ESM PERFECT TEN DUNAS;Negro;Collares;5;2018-02-05;0
+0011057;ESMALTE PERFECT TEN ROSA FROZEN;Rosa oscuro;Collares;2;2018-03-03;11.18
 0011058;ESM PERFECT TEN LILA & ROSE;Negro;Collares;4;2018-03-03;11.18
+0011060;ESMALTE PERFECT TEN WHITE ROSE;Beige claro;Collares;2;2018-02-05;10.5
+0011061;ESMALTE  PERFECT TEN BLANCO NIEVE;Blanco;Collares;33;2018-02-05;14.9
+0011062;ESMALTE PERFECT TEN BRILLOS DE ROS;melon claro;Collares;6;2018-02-05;10.5
+0011063;ESMALTE PERFECT TEN TE QUIERO ROSA;rosado claro;Collares;9;2018-03-07;10.64
 0011064;C/S COLOR EFFECT SAVANNA;Rosados y Cafes;Collares;8;2018-02-05;0
 0011065;ACENTO TRENDY EAU DE PARFUM;Floral frutal con amapola morada, lúcuma y suspiro de azúcar ;Collares;45;2018-02-19;0
 0011066;FORTE COLOGNE FOR MEN;Negro;Collares;6;2018-02-21;0
@@ -507,24 +576,31 @@
 0011077;Osadia Set Hydra Lip y Esmalte;Negro;Collares;1;2018-02-01;0
 0011078;Ccori Set Hydra Lip y Esmalte;Negro;Collares;1;2018-02-01;0
 0011083;BS KIDS COLONIA NIÑOS;Negro;Collares;39;2018-03-01;0
-0011084;BS KIDS COLONIA NIÑAS;Negro;Collares;102;2018-03-02;0
-0011085;ULTRA DEF DEL LARGA DURACION OJOS NEGRO;A prueba de agua;Collares;38;2018-03-02;0
+0011084;BS KIDS COLONIA NIÑAS;Negro;Collares;99;2018-03-06;0
+0011085;ULTRA DEF DEL LARGA DURACION OJOS NEGRO;A prueba de agua;Collares;37;2018-03-05;0
 0011086;BS KIDS PITAHAYA SH Y ACON NIÑO;Aroma Citrico No lagrimas;Collares;37;2018-02-19;0
-0011087;BS KIDS PITAHAYA SHA Y ACON NIÑA;Aroma Frutal No lagrimas 2 en 1;Collares;52;2018-02-19;0
+0011087;BS KIDS PITAHAYA SHA Y ACON NIÑA;Aroma Frutal No lagrimas 2 en 1;Collares;51;2018-03-05;0
 0011088;TOTAL BLOCK KIDS SPF 70 A/P;Rostro y Cuerpo;Collares;56;2018-02-19;0
-0011089;TOTALIST CONCHA DE NACAR CREMA ROSTRO;Aclara, reafirma, alisa arrugas,,  nutre;Collares;328;2018-03-03;0
+0011089;TOTALIST CONCHA DE NACAR CREMA ROSTRO;Aclara, reafirma, alisa arrugas,,  nutre;Collares;327;2018-03-06;0
 0011090;TOTALIST ALOE VERA CREMA MULTIACCION;Hidrata, nutre y protege.;Collares;82;2018-03-02;0
 0011091;TOTALIST CONCHA DE NACAR LIMPIADOR;propiedades aclarantes y antimanchas;Collares;14;2018-02-05;0
 0011092;TOTALIST ALOE VERA LIMPIADOR MULTIACCION;remover delicadamente las impurezas, grasitud y maquillaje;Collares;25;2018-02-05;0
 0011093;C/S COLOR EFFECT ETEREA;Rosado Lila Verde y Negro;Collares;6;2018-02-05;0
+0011096;ESMALTE PERFECT TEN ROSADO BALLET;Rosado claro;Collares;3;2018-02-01;10.5
 0011097;HYDRA LIP LABIAL COLOR INTENSO  GUINDA DEL OESTE;GUINDA OSCURO;Collares;9;2018-02-01;16.3
 0011098;HYDRA LIP LABIAL COLOR INTENSO COBRE DEL OESTE;COBRE;Collares;3;2018-02-01;12
 0011099;HYDRA LIP LABIAL COLOR INTENSO  ROJO DEL OESTE;rojo oscuro;Collares;6;2018-02-01;16.3
+0011101;ESMALTE PERFECT TEN LILA ETEREO;lila claro;Collares;4;2018-02-01;10.5
+0011102;ESMALTE PERFECT TEN VERDE FEM;Verde claro;Collares;14;2018-02-05;10.5
+0011104;ESMALTE PERFECT TEN AZUL DENIM;Azulino;Collares;4;2018-02-01;8
+0011105;ESMALTE PERFECT TEN  GUINDA TEJANO;guinda oscuro;Collares;2;2018-02-01;10.5
+0011106;ESMALTE PERFECT TEN  ECUESTRE CHIC;Cafe oscuro;Collares;4;2018-02-01;8
 0011110;PERFECT TEN FORTALECEDOR UÑAS;Negro;Collares;3;2018-02-05;0
-0011111;PERFECT TEN BRI SECAN&PROT ESM;Negro;Collares;9;2018-03-01;0
+0011111;PERFECT TEN BRI SECAN&PROT ESM;Negro;Collares;7;2018-03-06;0
 0011112;ULTRA DEF DEL LARGA DURACION OJOS MARRON;A prubea de agua;Collares;19;2018-03-03;0
 0011114;ULTRA DEF DEL LIQ PLU MARR FRO;Negro;Collares;1;2018-02-05;0
 0011117;C/S COLOR RETRO CHIC;Colores negros y celestes;Collares;2;2018-02-01;0
+0011118;ESMALTE PERFECT TEN SUPERNOVA;Negroplateado con escarcharo;Collares;5;2018-02-01;8
 0011119;ESMALTE PERFECT TEN PSICODELICO;dorado con escarche;Collares;4;2018-02-01;8
 0011122;Perfect Ten Sudio 54;Negro;Collares;9;2018-02-01;0
 0011123;HYDRA LIP LABIAL COLOR INTENSO  ROSA  SOFT;rosado;Collares;10;2018-02-01;16.3
@@ -546,31 +622,36 @@
 0011150; HYDRA-LIP LABIAL COLOR INTENSO ROJO ZEN;rojo oscuro;Collares;1;2018-02-05;16.3
 0011151;C/S COLOR EFFECT JUNGLARIA;Verdes y Naranjas;Collares;7;2018-02-05;0
 0011152;C/S COLOR EFFECT SAKURA;Morados y Rosados;Collares;2;2018-02-05;0
+0011155;ESMALTE PERFECT TEN SELVA NOCTURNA;Guinda escarchado;Collares;3;2018-02-01;8
+0011157;ESMALTE PERFECT TEN FLORESTA;Verde Metalico;Collares;3;2018-02-05;10.5
+0011158;ESMALTE PERFECT TEN VERDE  TROPICAL;verde militar;Collares;2;2018-02-01;8
+0011161;ESMALTE PERFECT TEN FUCSIA IMPERIO;fucsia;Collares;2;2018-02-01;10.5
+0011162;ESM PERFECT TEN NOCHE EN TOKIO;Negro;Collares;4;2018-02-19;14.9
 0011163;HYDRA-LIP LABIAL LIQUIDO FLOR CEREZO;rosada mediano;Collares;6;2018-02-05;18.2
 0011164;HYDRA-LIP LABIAL LIQUIDO MORA CALMA;morado claro;Collares;9;2018-02-05;18.2
-0011180;SENTIVA EXFOLIANTE FACIAL;Accion energizante;Collares;5;2018-02-28;4.6
+0011180;SENTIVA EXFOLIANTE FACIAL;Accion energizante;Collares;6;2018-03-05;4.6
 0011183;ULTRA DEFINITION DEL LABIOS ALMENDRA;Labios Almendra;Collares;1;2018-02-01;0
 0011196;TOTAL BLOCK REPELENTE SPF 30 A/P;Doble proteccion rostro y cuerpo , todo tipo de piel;Collares;15;2018-02-05;0
 0011197;COLONIA ZITRIKA LIMON;Citrica refrescante con aroma a Limon;Collares;420;2018-02-19;0
 0011198;COLONIA ZITRICA MANDARINA;Citrica refrescante con aroma a Mandarina;Collares;110;2018-02-19;0
-0011199;EAU DE SEDA EAU DE PARFUM ORIGINAL;Flor de seda, durazno y mimosa sensual.;Collares;128;2018-02-26;0
+0011199;EAU DE SEDA EAU DE PARFUM ORIGINAL;Flor de seda, durazno y mimosa sensual.;Collares;128;2018-03-06;0
 0011200;EAU DE SEDA DIAMANTES EAU DE PARFUM;flor de ciruela, el jazmín estrella y el ámbar cristalino.;Collares;93;2018-02-23;0
 0011202;CCORI BODY LOTION;Hidrata, protege y suaviza.;Collares;18;2018-02-05;0
 0011205;CCORI PASION BODY LOTION;Hidrata, protege y suaviza.;Collares;17;2018-02-05;0
 0011208;TEMPTATION GEL AFTER SHAVE;Hidrata, perfuma y suaviza.;Collares;1;2018-02-05;0
 0011209;AROM GEL AFTER SHAVE;Hidrata, protege y suaviza;Collares;1;2018-02-05;0
 0011212;ZENTRO GEL AFTER AFEITAR;Hidrata, limpia y suaviza.;Collares;1;2018-02-05;0
-0011213;ULTRA DEF DEL LAP OJO MARRON;Negro;Collares;12;2018-03-01;0
+0011213;ULTRA DEF DEL LAP OJO MARRON;Negro;Collares;11;2018-03-05;0
 0011215;ULTRA DEF DELINEADOR LAPIZ OJO AZUL NOCHE;Azul Noche;Collares;19;2018-02-21;0
 0011216;ULTRA DEF DEL LAP INT OJ PERLA;Negro;Collares;4;2018-02-05;0
-0011218;ULTRA DEF DELiNEADOR CEJAS MARRON MED;Cejas;Collares;12;2018-03-03;0
+0011218;ULTRA DEF DELiNEADOR CEJAS MARRON MED;Cejas;Collares;13;2018-03-05;0
 0011219;ULTRA DEF DEL LAB ROJO ENCENDI;Negro;Collares;32;2018-02-26;0
-0011222;ULTRA DEF DEL LAB TOFFEE IMPER;Negro;Collares;120;2018-02-26;0
+0011222;ULTRA DEF DEL LAB TOFFEE IMPER;Negro;Collares;118;2018-03-06;0
 0011224;ULTRA DEF DEL LAB CHOCOLATE;Negro;Collares;43;2018-02-28;0
 0011226;ULTRA DEFINITON DELINEADOR LABIOS PALO DE ROSA;Labios Palo de Rosa;Collares;18;2018-02-26;0
 0011227;ULTRA DEF DEL LAB VINO;Negro;Collares;68;2018-02-05;0
 0011229;AROM DESODORANTE;Negro;Collares;23;2018-03-02;3.2
-0011230;OHM DESODORANTE;Azul;Aretes;53;2018-03-02;0
+0011230;OHM DESODORANTE;Azul;Aretes;52;2018-03-07;0
 0011231;SOLO DESODORANTE;Negro;Collares;4;2018-02-05;0
 0011233;TEMPTATION FOR MEN DESODORANTE;Negro;Collares;7;2018-02-05;0
 0011234;CCORI DESODORANTE;Dorado oscuro;Collares;3;2018-02-22;0
@@ -591,26 +672,28 @@
 0011261;SOY FASHION FRESH COLOGNE;Litchi dulce, chocolate blanco, almizcle delicado.;Collares;19;2018-02-23;0
 0011262;SOY SEXY FRESH COLOGNE;Nerolí, sándalo sensual, almizcle de piel.;Collares;19;2018-02-26;0
 0011263;Y. RIMEL NEGRO;Negro;Collares;3;2018-03-03;0
-0011266;EXTRACTO DIVINO CONCENTRADO;Una fórmula revolucionaria con todo el poder antiedad del Extracto de Cáliz de Uchuva;Collares;129;2018-02-19;0
+0011266;EXTRACTO DIVINO CONCENTRADO;Una fórmula revolucionaria con todo el poder antiedad del Extracto de Cáliz de Uchuva;Collares;127;2018-03-06;0
 0011268;HYDRA-LIP CRAYON SEMI MATE FUCSIA ORIENTAL;fucsia;Collares;2;2018-02-05;22.5
 0011269; HYDRA-LIP CRAYON SEMI MATE LILA ASIATICO;Lila;Collares;2;2018-02-05;22.5
-0011272;SENTIVA MASCARILLA FACIAL;Accion purificante;Collares;9;2018-03-01;0
-0011273;LOCION DE SEDA;Negro;Collares;27;2018-02-26;0
+0011270;ESMALTE PERFECT TEN MARSALA INDOMABLE;Vino;Collares;6;2018-02-01;10.5
+0011272;SENTIVA MASCARILLA FACIAL;Accion purificante;Collares;10;2018-03-05;0
+0011273;LOCION DE SEDA;Negro;Collares;26;2018-03-06;0
 0011274;LOCION DE SEDA DIAMANTES;Hidrata y perfuma;Collares;4;2018-02-23;0
 0011276;DULCE VANIDAD EAU DE PARFUM;Nectarina, frambuesa, vainilla francesa.;Collares;49;2018-02-23;0
-0011277;UNIQUECIL ROLL RIMEL RIZADO EXTREMO;A prueba de agua;Collares;146;2018-03-01;0
-0011278;SEXTETO DE SOMBRA Y. URBANA FEMME;colores frios;Collares;18;2018-03-01;0
+0011277;UNIQUECIL ROLL RIMEL RIZADO EXTREMO;A prueba de agua;Collares;145;2018-03-07;0
+0011278;SEXTETO DE SOMBRA Y. URBANA FEMME;colores frios;Collares;17;2018-03-05;0
 0011279;SEXTETO DE SOMBRAS Y. AVENTURA CHIC;Colores calidos;Collares;20;2018-02-05;0
+0011281;ESMALTE PERFECT TEN EXOTICA PASION;palo rosa oscuro;Collares;10;2018-02-01;10.5
 0011282;Y. LABIAL FUCSIA POP;fucsia;Collares;10;2018-02-20;3.9
 0011283;Y. LABIAL NARANJA FUN;Naranja;Collares;5;2018-02-05;0
 0011284;Y. LABIAL ROSA LOVE;rosado;Collares;1;2018-03-02;0
 0011285;Y. LABIAL FEMME NACAR;Nude ;Collares;5;2018-03-03;2.59
-0011286;Y. LABIAL MALVA SPIRIT;cafe claro;Collares;5;2018-02-05;0
+0011286;Y. LABIAL MALVA SPIRIT;cafe claro;Collares;4;2018-03-06;0
 0011287;Y. LABIAL ROJO FASHION;rojo;Collares;4;2018-02-05;0
 0011288;Y. LABIAL TERRA MYSTIC;cafe;Collares;5;2018-02-05;0
-0011289;BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS;Hidrata y repara la piel seca y extra seca.;Collares;235;2018-03-05;2.98
-0011290;BODY SPA UÑA DE GATO CREMA REPARADORA;Repara e hidrata la piel.;Perfumería Dama;6;2018-02-20;6.6
-0011291;BODY SPA UÑA DE GATO EXFOLIANTE EN GEL PARA MANOS Y CUERPO ;Exfolia la piel seca y extra seca.;Perfumería Dama;9;2018-02-19;0
+0011289;BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS;Hidrata y repara la piel seca y extra seca.;Collares;236;2018-03-05;2.98
+0011290;BODY SPA UÑA DE GATO CREMA REPARADORA PARA CUERPO;Repara e hidrata la piel.;Perfumería Dama;5;2018-03-07;6.6
+0011291;BODY SPA UÑA DE GATO EXFOLIANTE EN GEL PARA MANOS Y CUERPO ;Exfolia la piel seca y extra seca.;Perfumería Dama;8;2018-03-06;0
 0011292;BODY SPA QUINUA CREMA MANOS;delicioso aroma a vainilla y canela.;Perfumería Dama;83;2018-03-05;6.34
 0011293;BODY SPA QUINUA CREMA CUERPO;extracto natural de quinua, glicerina, manteca de karité y canela.;Perfumería Dama;58;2018-02-19;23.3
 0011301;MUSK BLANC EAU DE PARFUM;Almizcle, ylang ylang, lila.;Perfumería Dama;50;2018-03-05;24.05
@@ -620,18 +703,30 @@
 0011306;VIVO HERVE COLOGNE fOR MEN;aroma herbal y notas de estragón, lavanda y madera de gaiac.;Perfumería Dama;11;2018-03-05;30.52
 0011307;VIVO AQUA COLOGNE FOR MEN;FRESCURA CON ACORDES MARINOS;Perfumería Dama;17;2018-03-05;36.79
 0011308;C/S COLOR EFFECT HABANA;Azules y Verdes;Perfumería Dama;11;2018-02-05;0
+0011309;ESMALTE PERFECT TEN SON DE MORA;Morado;Perfumería Dama;4;2018-02-05;8
+0011310;ESMALTE PERFECT TEN MAAAMBO;Naranja oscuro;Perfumería Dama;2;2018-02-05;8
+0011311;ESMALTE PERFECT TEN COLORADA;nARANJA FUERTE;Perfumería Dama;9;2018-02-19;8
+0011312;ESMALTE  PERFECT TEN SOL DE CARIBE;amarillo patito;Perfumería Dama;3;2018-02-05;0
+0011313;ESMALTE PERFECT TEN VERDE RUMBA;Verde loro;Perfumería Dama;3;2018-02-05;8
+0011314;ESMALTE PERFECT TEN MOJITO CARIBEÑ;esmeralda;Perfumería Dama;4;2018-02-05;10.5
 0011315;L/L HYDRA-LIP COL CORA CAR FR;Negro;Collares;12;2018-02-05;0
 0011316; HYDRA-LIP LABIAL COLOR INTENSO TROPICANA;tropical;Collares;5;2018-02-05;12
 0011317; HYDRA-LIP LABIAL COLOR INTENSO HABANERA;coral - fucsia;Collares;3;2018-02-05;16.3
 0011318;HYDRA-LIP LABIAL LIQUIDO VARADERO LOVE;rojo claro;Collares;7;2018-02-05;18.2
 0011319;HYDRA-LIP LABIAL LIQUIDO AZUUUCAR;marfil claro;Collares;2;2018-02-05;18.2
+0011320;ESMALTE PERFECT TEN BRILLO D ESTRE;Plateado con escarcha;Collares;3;2018-02-05;8
+0011321;ESMALTE PERFECT TEN ROJO DE GALA;Rojo oscuro metalico;Collares;6;2018-02-05;10.5
+0011322;ESMALTE PERFECT TEN MISS ELEGANCE;rosa metalico;Collares;1;2018-02-01;10.5
+0011323;ESMALTE PERFECT TEN SEDA DIAMANTE;Perla oscuro metalico;Collares;24;2018-02-01;10.5
+0011324;ESMALTE PERFECT TEN PURPURA GLAMOU;guinda oscuro;Collares;12;2018-02-05;10.5
+0011325;ESMALTE PERFECT TEN AZUL MAGICO;azul metalico;Collares;4;2018-02-05;10.5
 0011326;HYDRA-LIP LARGA DURACION SUEÑO DE BRONCE;bronce;Collares;11;2018-02-05;19
 0011327;L/L HYDRA-LIP LD ROJO CARAMEL0;rojo;Collares;8;2018-02-05;0
 0011328;HYDRA-LIP LARGA DURACION FIESTA PURPURA;lila oscuro;Collares;2;2018-02-01;19
 0011329;HYDRA LIP LARGA DURACION ROSA FESTIVA;Rosado oscuro;Collares;1;2018-02-01;19
 0011330;HYDRA-LIP LARGA DURACION FUCSIA ENCENDIDO;fucsia;Collares;6;2018-02-01;19
 0011331;UNIQUECIL RIMEL NEGRO;A prueba de agua;Collares;45;2018-03-03;0
-0011333;UNIQUECIL RIMEL EXTRA XL NEGRO;A prueba de agua;Collares;33;2018-03-02;0
+0011333;UNIQUECIL RIMEL EXTRA XL NEGRO;A prueba de agua;Collares;28;2018-03-07;0
 0011334;CRECE EXTREME RIMEL ACELERADOR MY;Negro;Collares;27;2018-03-05;19.51
 0011337;MUSK EAU DE PARFUM;Almizcle, ylang ylang, lila.;Collares;9;2018-03-05;39
 0011341;Y. BRILLO LABIAL ROJO STOP;rojo claro;Collares;2;2018-02-05;0
@@ -639,6 +734,11 @@
 0011343;Y. BRILLO LABIAL ROSA CHIC;rosa nacarado;Collares;2;2018-02-05;0
 0011344;Y. BRILLO LABIAL ROSALICIOUS;rosa brillante;Collares;1;2018-02-05;0
 0011345;Y. BRILLO LABIAL LOVELY CORAL;coral claro;Collares;3;2018-02-05;0
+0011347;ESMALTE PERFECT TEN RED LINE;Rojo vivo;Collares;6;2018-02-05;10.5
+0011348;ESMALTE PERFECT TEN FRAMBUESA 180;fucsia mat;Collares;6;2018-02-05;10.5
+0011349;ESMALTE PERFECT TEN ROSA ELECTRICO;Rosa oscuro;Collares;23;2018-02-05;10.5
+0011350;ESMALTE PERFECT TEN FUCSIA TECNOLO;fucsia;Collares;4;2018-02-05;10.5
+0011351;ESMALTE PERFECT TEN ROSA 3D;rosado oscuro;Collares;5;2018-02-05;10.5
 0011352; HYDRA-LIP LABIAL COLOR INTENSO FUTURISTIC RED;rojo;Collares;2;2018-02-05;16.3
 0011355; HYDRA-LIP LABIAL COLOR INTENSO PSICODELIC  FUCSIA;FUCSIA;Collares;3;2018-02-05;16.3
 0011356;HYDRA LIP LABIAL COLOR INTENSO  GEOMETRIC ROSE;rosa claro;Collares;11;2018-02-05;18.2
@@ -646,7 +746,7 @@
 0011363;BIO MILK CREMA MANGO MARAC;Negro;Collares;44;2018-03-02;0
 0011365;BIO FRUIT 2EN1 MANGO MARACUYA;aroma cítrico y tropical del mango y el maracuyá, que además, brinda nutrición y fortaleza ;Collares;47;2018-02-22;0
 0011372;BASE PROTECTORA  Y. NUDE;Nude;Collares;12;2018-02-05;0
-0011373;BASE PROTECTORA Y. BEIGE;beige;Collares;6;2018-02-05;0
+0011373;BASE PROTECTORA Y. BEIGE;beige;Collares;5;2018-03-06;0
 0011375;L/L HYDRA-LIP COL ROJO PAS ANV;Negro;Collares;2;2018-02-05;0
 0011376;L/L HYDRA-LIP COL FUC PELI ANV;Negro;Collares;1;2018-02-05;0
 0011378;L/L HYDRA-LIP COL BAILE  ROSA ANIVERSARIO;rosado nacarado;Collares;2;2018-02-05;0
@@ -658,6 +758,11 @@
 0011384;L/L HYDRA-LIP COLOR SUEÑO ROSE;rosa nacarado;Collares;51;2018-02-05;0
 0011385;HYDRA LIP LABIAL COLOR INTENSO  CLARO ROMANCE;rosa;Collares;5;2018-02-05;18.2
 0011386; HYDRA-LIP LABIAL COLOR INTENSO DULCE ROSA;Rosado;Collares;3;2018-02-05;16.3
+0011387;ESMALTE PERFECT TEN SUAVE LAVANDA;lila claro;Collares;2;2018-02-05;10.5
+0011389;ESMALTE PERFECT TEN MENTA CRISTAL;Verde claro;Collares;3;2018-02-05;10.5
+0011390;ESMALTE PERFECT TEN DORADO VERSALLES;Dorado metalico;Collares;16;2018-02-05;10.5
+0011391;ESMALTE PERFECT TEN FLOR DE CIRUELA;Morado;Collares;1;2018-02-05;10.5
+0011392;ESMALTE PERFECT TEN SUSPIRO DE ROSA;Rosado claro;Collares;2;2018-02-05;10.5
 0011393;RUBOR EN CREMA Y. ROSADO;Rosado fuerte;Collares;3;2018-02-05;0
 0011394;RUBOR EN CREMA Y. BRONZE;Bronce metalico;Collares;3;2018-02-05;0
 0011395;RUBOR EN CREMA Y. CORAL;coral;Collares;2;2018-03-03;9.07
@@ -667,6 +772,12 @@
 0011405;C/S COLOR EFFECT TERRANOVA;Colores Terra;Collares;9;2018-02-05;0
 0011406; HYDRA-LIP LABIAL COLOR INTENSO VINO SILVESTRE;Vino;Collares;4;2018-02-05;16.3
 0011407;HYDRA LIP LABIAL COLOR INTENSO ROJO AFRICA;rojo;Collares;5;2018-02-05;16.3
+0011409;ESMALTE PERFECT TEN PURPURA TRIBAL;guinda oscuro;Collares;7;2018-02-05;10.5
+0011410;ESMALTE PERFECT TEN ROJO PRIMITIVO;Rojo ;Collares;8;2018-02-05;10.5
+0011411;ESMALTE PERFECT TEN MADERA AFRICANA;Cafe claro;Collares;4;2018-02-05;10.5
+0011412;ESMALTE PERFECT TEN ARENA DEL DESIERTO;nude oscuro;Collares;7;2018-02-05;10.5
+0011413;ESMALTE PERFECT TEN TERRA AFRICANA;beige oscuro;Collares;4;2018-02-05;10.5
+0011414;ESMALTE PERFECT TEN SELVA MISTERIOSA;verde opaco;Collares;1;2018-02-05;10.5
 0011415;BIO FRUIT COCO CARIB SHAM & ACON;aroma tropical del coco que además, brinda ultra hidratación;Collares;56;2018-02-19;0
 0011416;BIO FRUIT PERA MANZANA SHAM & ACON; ;Collares;58;2018-02-19;0
 0011417;BIO FRUIT GRANADA SHAM & ACON;aroma de la granada que además, ofrece su poder antioxidante;Collares;55;2018-02-22;0
@@ -674,7 +785,7 @@
 0011419;CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA (A/P);con proteina de yogurt probiotico;Collares;2;2018-03-01;0
 0011421;BIO FRUIT ORIGINAL SHAMPOO;aroma a base de base de pomelo blanco, durazno y flor de algodón.;Collares;101;2018-02-22;0
 0011422;BIO FRUIT ORIGINAL ACONDICIONADOR;aroma a base de pomelo blanco, durazno y flor de algodón.;Collares;30;2018-02-22;0
-0011426;SOY FELIZ FRESH COLOGNE;Flor de guayaba, dulce azucena, corteza de maracaibo.;Collares;14;2018-03-01;0
+0011426;SOY FELIZ FRESH COLOGNE;Flor de guayaba, dulce azucena, corteza de maracaibo.;Collares;15;2018-03-05;0
 0011427;ELIXIR DE VIDA ROSTRO ANIVERSARIO;Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol;Collares;197;2018-02-20;0
 0011429;HYDRA-LIP CRAYON SEMI MATE MARRON TERRA;cafe;Collares;2;2018-02-05;22.5
 0011430;HYDRA-LIP CRAYON SEMI MATE ROJO SAFARI ;rojo oscuro;Collares;4;2018-02-05;22.5
@@ -685,61 +796,84 @@
 0011436;HYDRA-LIP LARGA DURACION TIERRA MISTICA;Cafe ;Collares;8;2018-02-05;19
 0011437;HYDRA-LIP CRAYON SEMI MATE PIEL CORAL ;piel;Collares;3;2018-02-05;22.5
 0011440;C/S COLOR EFFECT INDUSTRIAL;Oscuros;Collares;6;2018-02-05;0
+0011441;ESMALTE PERFECT TEN TIERRA VOLCANI;Cafe oscuro;Collares;7;2018-02-05;10.5
+0011442;ESMALTE PERFECT TEN ROJO CUARZO;Rojo ;Collares;12;2018-02-05;10.5
+0011443;ESMALTE PERFECT TEN INTENSO AMANEC;Naranja oscuro;Collares;4;2018-02-05;10.5
+0011446;ESMALTE PERFECT TEN BOSQUE D NOCHE;verde oscuro;Collares;2;2018-02-05;10.5
 0011447;HYDRA-LIP LABIAL COLOR INTENSO COBRE GLAMOUR;cobre oscuro;Collares;33;2018-02-05;18.2
 0011448;HYDRA LIP LABIAL COLOR INTENSO MARRON INDUSTRIAL;MARRON ;Collares;50;2018-03-01;18.2
 0011449;HYDRA-LIP LABIAL COLOR INTENSO COLO DORADO DE GALA;Dorado;Collares;16;2018-02-05;12
 0011450;HYDRA LIP LABIAL COLOR INTENSO ROSA GALACTICO;rosado fuerte;Collares;25;2018-03-03;18.2
 0011451; HYDRA-LIP LABIAL COLOR INTENSO ROSADO ACERO;rosa color intenso;Collares;20;2018-02-05;18.2
 0011452;HYDRA-LIP BRILLO LABIAL BRILLANTINA;transparente;Collares;5;2018-02-23;18.2
+0011453;ESMALTE PERFECT TEN METALICA ROSE;palo rosa metalico;Collares;3;2018-02-05;10.5
+0011454;ESMALTE PERFECT TEN MELON COBRIZO;Melon metalico;Collares;49;2018-02-05;10.5
+0011455;ESMALTE  PERFECT TEN COBRE LIQUIDO;cobre metalico;Collares;2;2018-02-05;0
+0011456;ESMALTE PERFECT TEN ADAMANTIUM;platiado metalico;Collares;2;2018-02-05;10.5
+0011458;ESMALTE PERFECT TEN AZUL PLATINAD;azul platinado;Collares;6;2018-02-05;10.5
 0011459;C/S COLOR EFFECT DELUXE;Enpaque dorado;Collares;1;2018-02-05;0
 0011460;CCORI LE PARFUM ANV;Negro;Collares;6;2018-02-05;0
-0011461;BODY SPA BABY COLONIA;Aceite de Algodon, con aguas florales 100% naturales;Collares;34;2018-03-01;0
-0011462;BODY SPA BABY SHAMPOO;Aceite de Algodon con aguas florales 100 % naturales;Collares;33;2018-03-01;0
+0011461;BODY SPA BABY COLONIA;Aceite de Algodon, con aguas florales 100% naturales;Collares;35;2018-03-05;0
+0011462;BODY SPA BABY SHAMPOO;Aceite de Algodon con aguas florales 100 % naturales;Collares;34;2018-03-05;0
 0011464;POLVO COMPACTO Y. NUDE;Nude;Collares;9;2018-02-26;0
 0011465;POLVOS COMPACTOS Y. BEIGE;Beige;Collares;3;2018-02-22;0
 0011471;SENTIVA BB CREAM;Negro;Collares;47;2018-03-01;0
-0011474;L/L HYDRA-LIP CRAY RED ELEGANC MY;Negro;Collares;23;2018-03-03;2.5
+0011474;L/L HYDRA-LIP CRAY RED ELEGANC MY;Negro;Collares;22;2018-03-06;2.5
 0011476;L/L HYDRA-LIP CRAY ALMEND CHIC MY;Negro;Collares;40;2018-02-05;0
 0011478;L/L HYDRA-LIP CRAY LIL ASIATIC MY;Negro;Collares;4;2018-02-20;10.1
-0011486;BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA;Extracto de quinua;Collares;61;2018-03-03;17.43
+0011486;BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA;Extracto de quinua;Collares;59;2018-03-06;17.43
 0011487;EAU DE SEDA EAU DE PARFUM ANIVERSARIO;Flor de seda, durazno y mimosa sensual.;Collares;2;2018-02-05;0
 0011490;Lesence Orquídeas Exóticas Cologne;Negro;Collares;61;2018-03-01;18.3
 0011492;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA CLARO 1;Efecto juventud inmediata accion antiedad con el uso continuo;Collares;3;2018-03-03;40.3
 0011493;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1;Piel Mediana;Collares;6;2018-03-03;20.15
-0011494;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 2;Efecto juventud inmediata, Accion antiedad con el uso continuo;Collares;3;2018-03-03;40.3
+0011494;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 2;Efecto juventud inmediata, Accion antiedad con el uso continuo;Collares;2;2018-03-07;40.3
 0011501;BIO MILK CREMA HIDRATANTE ORIGINAL  EDICION NAVIDAD;aroma a base de pomelo blanco, durazno y flor de algodón que hidrata, suaviza y nutre;Collares;2;2018-02-05;0
 0011503; HYDRA-LIP LARGA DURACION AMOR PICANTE ;rojo oscuro;Collares;11;2018-03-05;19.3
 0011506; HYDRA-LIP LARGA DURACION AMOR DE CHOCOLATE;marron;Collares;18;2018-02-05;19
-0011510; HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY;fucsia;Collares;9;2018-03-05;19.3
+0011510; HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY;fucsia;Collares;8;2018-03-05;19.3
 0011512;O/S COLOR EFFECT DIVINA BLUE;Azules;Collares;1;2018-02-05;0
 0011514;TOTAL BLOCK KIDS SPF 70;Rostro y Cuerpo;Collares;17;2018-02-20;11.5
-0011516;TOTAL BLOCK ANTI EDAD MATT SPF50+;Rostro con extracto marino acabado mate;Collares;10;2018-03-05;19.25
-0011517;CONTROL BLANC RX DIA;Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ;Collares;229;2018-03-02;0
+0011516;TOTAL BLOCK ANTI EDAD MATT SPF50+;Rostro con extracto marino acabado mate;Collares;11;2018-03-05;19.25
+0011517;CONTROL BLANC RX DIA;Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ;Collares;228;2018-03-05;0
+0011532;ESMALTE PERFECT TEN BEIGE ETERNAL;beige;Collares;5;2018-02-05;10.5
+0011533;ESMALTE PERFECT TEN PARTY RED;fucsia-rojo;Collares;3;2018-02-05;10.5
 0011536;HYDRA LIP COLOR INTENSO ROSA TOSCANA;palo de rosa claro;Collares;9;2018-02-05;16.3
+001154;ESMALTE PERFECT TEN JUNGLA DE CRISTAL;beige tornasol;Collares;4;2018-02-01;10.5
 0011543;HYDRA-LIP LARGA DURACION CIRUELA LOVE;guinda claro;Collares;12;2018-02-05;19
 0011545;HYDRA-LIP LARGA DURACION RED SHINE;Cafe claro;Collares;10;2018-02-05;19
 0011546; HYDRA-LIP LARGA DURACION FUCSIA SHOCK;fucsia;Collares;9;2018-02-05;19
 0011547;LIBERATTA CREMA PERFUM ;hidrata y perfuma;Collares;2;2018-02-05;0
 0011548;LIBERATTA NOIRE CREMA PERFUM ;hidrata y perfuma;Collares;9;2018-02-01;0
+0011551;ESMALTE PREFECTE TEN DE UÑAS ROSE BRUSH;rosa bajito;Collares;4;2018-03-03;11.26
+0011552;ESMALTE PERFECT TEN ROJO SUNSET;Rojo ;Collares;3;2018-03-05;11.33
+0011553;ESMALTE PERFECT TEN AQUA MENTA;celeste claro;Collares;2;2018-02-01;11.9
 0011554;Perfect Ten Art Sky ;Negro;Collares;6;2018-03-05;9.21
+0011555;ESMALTE PERFECT TEN BLANC HARMONY;Blanco tiza;Collares;1;2018-03-02;11.9
 0011556;Perfect Ten Acrylic Blue;Negro;Collares;2;2018-03-05;11.05
 0011557;C/S COLOR EFFECT ARTY FEMME;Corales y azules;Collares;5;2018-03-05;6.76
 0011558;HYDRA LIP LABIAL COLOR INTENSO  VIVID FUCSIA;fucsia;Collares;4;2018-02-20;18.2
-0011559;HYDRA LIP LABIAL COLOR INTENSO  AQUARELLA ROSE;rosado;Collares;6;2018-02-27;18.2
+0011559;HYDRA LIP LABIAL COLOR INTENSO  AQUARELLA ROSE;rosado;Collares;5;2018-03-05;18.2
 0011560;HYDRA LIP LABIAL COLOR INTENSO ARTY PINK;rosa color intenso;Collares;6;2018-03-03;18.2
 0011561;HYDRA LIP LABIAL COLOR INTENSO  CORAL ART;coral;Collares;4;2018-02-20;18.2
 0011562;HYDRA LIP LABIAL COLOR INTENSO  ROJO PALLETE;rojo;Collares;6;2018-02-20;18.2
-0011566;Ultra Definition Delineador en lapiz para Ojos Graffino;Doble punta azul y plomo oscuro;Collares;11;2018-03-05;14.99
+0011566;Ultra Definition Delineador en lapiz para Ojos Graffino;Doble punta azul y plomo oscuro;Collares;10;2018-03-07;14.99
 0011573;RUBOR COLOR EFFECT ILUMINART;Todo tipo de piel;Collares;11;2018-03-05;20.85
 0011580;TOTAL BLOCK REPELENTE SPF 50 ;Doble proteccion rostro y cuerpo , todo tipo de piel;Collares;12;2018-03-02;20.6
 0011581;SENTIVA DESMAQUILLADOR PARA OJOS Y FORTALECEDOR DE PESTAÑAS;A prueba de agua y larga duracion;Collares;52;2018-03-05;16.3
+0011588;ESMALTE PERFECT TEN GOLD SHIM;dorado escarchado;Collares;2;2018-02-05;10.5
+0011589;ESMALTE PERFECT TEN DARK RED;vino oscuro;Collares;4;2018-02-05;11.9
+0011590;ESMALTE PERFECT TEN BLAC KCHERRY;vino metalico;Collares;7;2018-02-05;11.9
 0011639;O/S COLOR EFFECT GOLDEN PARTY;Negros y Cafes nacarados;Collares;14;2018-02-05;0
 0011678;Perfect Ten Salvaje;Negro;Collares;4;2018-02-27;5.59
+0011683;ESMALTE PERFECT TEN AMANTES DE MEDIA NOCHE;Vino;Collares;7;2018-03-07;10.67
 0011822;TE DESEO EXITO POR SIEMPRE COLOGNE;Floral Frutal con notas de melon, jazmin y cedro;Collares;14;2018-02-05;0
 0011823;TE DESEO AMOR DEL BUENO COLOGNE;Frutal floral con notas de bayas rojas, fresia y vainilla;Collares;6;2018-02-05;0
 0011824;TE DESEO FELICIDAD INFINITA COLOGNE;Frutal dulce con notas de manzana roja, naranja azucarada y canela;Collares;8;2018-02-20;28
+001550;ESMALTE PERFECT TEN FUCSIA FEMME ;fucsia;Collares;2;2018-02-01;11.9
 003910;Delineador Liquido Punta Plumon Mirame a los Ojos;Negro;Collares;2;2018-02-01;0
 004280;C/S COLOR EFFECT OASIS;Colores Terra;Collares;1;2018-02-01;0
+2018C2;Catálogo 2018C2;N/A;Pulseras;29;2018-02-21;0
+2018C3;Catálogo 2018C3;N/A;Pulseras;39;2018-03-05;0
 2021755;ARETES NATURAL CRISTAL;Negro;Collares;1;2018-02-01;0
 2024184;ARETES COINCIDIR;Negro;Collares;1;2018-02-01;0
 2129031;SET ARETES  CRISTAL FEM;Negro;Collares;25;2018-02-01;0
@@ -751,8 +885,11 @@
 2353484;EXTRACTO DIVINO CONCENTRADO 6.5 g.;Una fórmula revolucionaria con todo el poder antiedad del ;Collares;17;2018-02-05;0
 2353509;MN TOTAL BLOCK KIDS SPF 70;Negro;Collares;2;2018-02-05;0
 2353518;U/S COLOR EFFECT HABANO CENIZO;Cenizo;Collares;2;2018-02-05;0
+2353522;ESMALTE PERFECT TEN BARNIZ EFECTO MATE;TRANSPARENTE MATE;Collares;4;2018-02-05;11.9
+2364009;Esmalte para Diseño de Uñas Blanco;blanco;Collares;2;2018-02-01;0
 2364181;ELIXIR DE VIDA COMPLEJO RECONSTITUYENTE 6.5g. ;Resveratrol, que activa las Sirtuínas conocidas como las proteínas de juventud,;Collares;11;2018-02-01;0
 2364623;TAJADOR CORPORATIVO;Negro;Collares;75;2018-02-05;0
+2364753;Esmalte para Diseño de Uñas Oro;oro;Collares;1;2018-02-01;0
 2366120;Rodillo Masajeador Top Modeling;Negro;Collares;1;2018-02-01;16.9
 2366816;Alto Contraste Lima de Uñas;Negro;Collares;1;2018-02-01;0
 2367378;Set de Belleza Zenya Rostro Manos y Pies;Negro;Collares;1;2018-02-01;0

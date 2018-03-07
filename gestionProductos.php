@@ -241,8 +241,6 @@ if(isset($_SESSION['login'])) {
                             $estado = null;
                             $query = mysqli_query($link, "SELECT idProducto,idColor,idSubCategoria,idEstado,idGenero,nombreCorto FROM Producto");
                             while($row = mysqli_fetch_array($query)){
-                                if($row['idSubCategoria'] === '10'){
-                                }else{
 	                                $query2 = mysqli_query($link,"SELECT * FROM Color WHERE idColor = '{$row['idColor']}'");
 	                                while($row2 = mysqli_fetch_array($query2)){
 		                                $color = $row2['descripcion'];
@@ -289,7 +287,6 @@ if(isset($_SESSION['login'])) {
                                       </tr>";
 	                                $txt = $row['idProducto'].",".$row['nombreCorto'].",".$color.",".$subcategoria.",".$genero.",".$estado.PHP_EOL;
 	                                fwrite($file, $txt);
-                                }
                             }
                             fclose($file);
                             ?>

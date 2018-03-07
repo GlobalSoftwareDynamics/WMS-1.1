@@ -207,8 +207,6 @@ if(isset($_SESSION['login'])) {
                             $fechaUltimaModificacion = array();
                             $select = mysqli_query($link, "SELECT idProducto,idSubCategoria,idColor,nombreCorto,costoEstimado FROM Producto WHERE idProducto IN (SELECT idProducto FROM UbicacionProducto WHERE stock > 0)");
                             while($row = mysqli_fetch_array($select)){
-                                if($row['idSubCategoria'] === '10'){
-                                }else{
                                     $stock = 0;
                                     $fechaUltima = array();
                                     $flag = true;
@@ -276,7 +274,6 @@ if(isset($_SESSION['login'])) {
                                       </tr>";
 	                                $txt = $row['idProducto'].";".$row['nombreCorto'].";".$color.";".$subCategoria.";".$stock.";".$mostrarFecha.";".$costoEstimado.PHP_EOL;
 	                                fwrite($file, $txt);
-                                }
                             }
                             fclose($file);
                             ?>

@@ -1,5 +1,59 @@
 Préstamos
 Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
-1,Jessica Adriana Salas Pacheco,PS18C05K0104,2018-03-05,RUBOR COLOR EFFECT PETAL ROSE  Piel mediana,1,49,49
-2,Jessica Adriana Salas Pacheco,PS18C05K0854,2018-03-05,OSADIA EAU DE PARFUM  naranja brasilera, maracuyá y destellos de granada.,1,99,99
-3,Jessica Adriana Salas Pacheco,PS18C05K2802,2018-03-05,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,35,35
+1,Usuario Prueba,PS18B20R2915,2018-02-20,SOLO COLOGNE FOR MEN A/P Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ,1,180,180
+2,Usuario Prueba,PS18B20R2915,2018-02-20,ULTRA DEF DELiNEADOR CEJAS MARRON MED Cejas,1,39,39
+3,Jessica Adriana Salas Pacheco,PS18B20R4710,2018-02-20,CCORI LE PARFUM Negro,1,89,89
+4,Jessica Adriana Salas Pacheco,PS18B20R4710,2018-02-20,BODY SPA UÑA DE GATO CREMA REPARADORA Repara e hidrata la piel.,1,39,39
+5,Jessica Adriana Salas Pacheco,PS18B21R2722,2018-02-21,BB CREAM MATT CREMA HIDRATANTE Efecto perfeccionador MATIFICANTE Hidrata hasta por 24 horas, Protege del sol con SPF 25 y PA+++ ,1,62,62
+6,Jessica Adriana Salas Pacheco,PS18B21R2722,2018-02-21,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,22,44
+7,Jessica Adriana Salas Pacheco,PS18B21R2722,2018-02-21,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,115,115
+8,Jessica Adriana Salas Pacheco,PS18B21R3454,2018-02-21,BB CREAM MATT CREMA HIDRATANTE Efecto perfeccionador MATIFICANTE Hidrata hasta por 24 horas, Protege del sol con SPF 25 y PA+++ ,1,62,62
+9,Jessica Adriana Salas Pacheco,PS18B21R3454,2018-02-21,LIBERATTA NOIRE PARFUM floral memorable y cautivador con notas de encaje de iris blanca y vainilla,1,115,115
+10,Jessica Adriana Salas Pacheco,PS18B21R3454,2018-02-21,BODY SPA QUINUA CREMA MANOS delicioso aroma a vainilla y canela.,2,22,44
+11,Jessica Adriana Salas Pacheco,PS18B21R3705,2018-02-21,B/L ELIXIR DE VIDA ANTIEDAD T1 Cubrimiento perfecto con acabado natural. ,1,64,64
+12,Jessica Adriana Salas Pacheco,PS18B21R3705,2018-02-21,P/S PERFECT COVER CLARO 1 Piel Clara,1,78,78
+13,Jessica Adriana Salas Pacheco,PS18B21R3907,2018-02-21,TOTALIST ALOE VERA CREMA MULTIACCION Hidrata, nutre y protege.,3,25,75
+14,Jessica Adriana Salas Pacheco,PS18B21R3907,2018-02-21,TOTALIST CONCHA DE NACAR CREMA ROSTRO Aclara, reafirma, alisa arrugas,,  nutre,3,25,75
+15,Jessica Adriana Salas Pacheco,PS18B21R4308,2018-02-21,ACNI-DERM CREMA CORRECTORA Schinus Molle, ingrediente natural cultivado en los Andes,,1,26,26
+16,Jessica Adriana Salas Pacheco,PS18B21R5058,2018-02-21,TOTALIST CONCHA DE NACAR CREMA ROSTRO Aclara, reafirma, alisa arrugas,,  nutre,1,25,25
+17,Jessica Adriana Salas Pacheco,PS18B22M0847,2018-02-22,MUSK COLOGNE FOR MEN mezcla oriental de toronja, clavo de olor y almizcle.,1,70,70
+18,Jessica Adriana Salas Pacheco,PS18B22R1857,2018-02-22,ULTRA DEF DEL LARGA DURACION OJOS MARRON A prubea de agua,1,21.5,21.5
+19,Jessica Adriana Salas Pacheco,PS18B22R2826,2018-02-22,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,6,62,372
+20,Jessica Adriana Salas Pacheco,PS18B22R2826,2018-02-22,SENTIVA DESMAQUILLADOR DOBLE FASE Facil, rapido ny eficaz,2,42,84
+21,Jessica Adriana Salas Pacheco,PS18B22R3454,2018-02-22,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,2,98,196
+22,Jessica Adriana Salas Pacheco,PS18B22R3454,2018-02-22,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,32,32
+23,Jessica Adriana Salas Pacheco,PS18B22R3931,2018-02-22,DELINEADOR PUNTA PINCEL NEGRO Punta delgada,1,30,30
+24,Jessica Adriana Salas Pacheco,PS18B22R3931,2018-02-22,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,32,32
+25,Jessica Adriana Salas Pacheco,PS18B22R3931,2018-02-22,BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA Extracto de quinua,1,30,30
+26,Jessica Adriana Salas Pacheco,PS18B22R5326,2018-02-22,CONTROL BLANC RX LIMPIADOR EXFOLIANTE TONIFICANTE Limpia, exfolia y tonifica.,2,44,88
+27,Jessica Adriana Salas Pacheco,PS18B22R5326,2018-02-22,TOTAL BLOCK ANTI EDAD MATT SPF50+ Rostro con extracto marino acabado mate,2,49,98
+28,Jessica Adriana Salas Pacheco,PS18B22R5326,2018-02-22,CONTROL BLANC RX CREMA ACLARANTE Con Albacinol RX-11*  ácido hialurónico y filtros solares. ,1,55,55
+29,Jessica Adriana Salas Pacheco,PS18B22R5326,2018-02-22,BODY SPA UÑA DE GATO ACONDICIONADOR REPARADOR ultra hidratacion y reparacion para todo tipo de cabello,1,20,20
+30,Jessica Adriana Salas Pacheco,PS18B22R5326,2018-02-22,BODY SPA UÑA DE GATO SHAMPOO REPARADOR ultra hidrante y reparacion para todo tipo de cabello,2,20,40
+31,Jessica Adriana Salas Pacheco,PS18B22S1351,2018-02-22,CONTROL BLANC RX SET ANTIMANCHAS Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ,1,105,105
+32,Jessica Adriana Salas Pacheco,PS18B22S2825,2018-02-22,ZENTRO BLACK COLOGNE FOR MEN Ámbar negro, tabaco, bergamota.,1,190,190
+33,Jessica Adriana Salas Pacheco,PS18B22S2825,2018-02-22,XOOL EAU DE TOILETTE Bergamota, hojas de higo, salvia.,1,50,50
+34,Roxana Hinojosa Menendez,PS18B23K2306,2018-02-23,ELIXIR DE VIDA CREMA DE OJOS Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.,1,72,72
+35,Roxana Hinojosa Menendez,PS18B23K2306,2018-02-23,DULCE VANIDAD EAU DE PARFUM Nectarina, frambuesa, vainilla francesa.,1,78,78
+36,Jessica Adriana Salas Pacheco,PS18B23L3754,2018-02-23,ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO Delineado grueso,1,32,32
+37,Roxana Hinojosa Menendez,PS18B26I4232,2018-02-26,CONTROL BLANC RX DIA Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ,1,55,55
+38,Jessica Adriana Salas Pacheco,PS18B26M2834,2018-02-26,P/S PERFECT COVER MEDIANO 1 Negro,1,78,78
+39,Jessica Adriana Salas Pacheco,PS18B26M2834,2018-02-26,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,62,62
+40,Jessica Adriana Salas Pacheco,PS18B26M2834,2018-02-26,PERFECT COVER CORRECTOR MEDIANO 1 Piel mediana,1,31,31
+41,Jessica Adriana Salas Pacheco,PS18B26M3520,2018-02-26,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,62,62
+42,Jessica Adriana Salas Pacheco,PS18B26M3520,2018-02-26,PERFECT COVER CORRECTOR MEDIANO 1 Piel mediana,1,31,31
+43,Jessica Adriana Salas Pacheco,PS18B26N4837,2018-02-26,GAIA EAU DE PARFUM Con notas de jacarandá, magnolia y orquídea,1,109,109
+44,Jessica Adriana Salas Pacheco,PS18B26N4837,2018-02-26,EAU VITALE LAVANDA COLONIA 200 ML Esencia cítrica Lavanda,1,68,68
+45,Jessica Adriana Salas Pacheco,PS18B26N4837,2018-02-26,POLVO COMPACTO Y. NUDE Nude,1,27.9,27.9
+46,Roxana Hinojosa Menendez,PS18B27L1843,2018-02-27,RUBOR COLOR EFFECT PETAL ROSE  Piel mediana,1,49,49
+47,Roxana Hinojosa Menendez,PS18B27L1843,2018-02-27,ESM PERFECT TEN AMANTES Y ENEM Negro,1,18.9,18.9
+48,Jessica Adriana Salas Pacheco,PS18B27O5646,2018-02-27,B/L ELIXIR DE VIDA ANTIEDAD T3 Cubrimiento perfecto con acabado natural. ,1,64,64
+49,Jessica Adriana Salas Pacheco,PS18B28K2843,2018-02-28,SOY FELIZ FRESH COLOGNE Flor de guayaba, dulce azucena, corteza de maracaibo.,1,35,35
+50,Jessica Adriana Salas Pacheco,PS18B28K2843,2018-02-28,OSADIA EAU DE PARFUM  naranja brasilera, maracuyá y destellos de granada.,1,99,99
+51,Jessica Adriana Salas Pacheco,PS18B28P5111,2018-02-28,SENTIVA EXFOLIANTE FACIAL Accion energizante,1,32,32
+52,Jessica Adriana Salas Pacheco,PS18B28P5111,2018-02-28,SENTIVA MASCARILLA FACIAL Accion purificante,1,32,32
+53,Jessica Adriana Salas Pacheco,PS18B28P5111,2018-02-28,BODY SPA BABY SHAMPOO Aceite de Algodon con aguas florales 100 % naturales,1,33,33
+54,Jessica Adriana Salas Pacheco,PS18B28P5111,2018-02-28,BODY SPA BABY COLONIA Aceite de Algodon, con aguas florales 100% naturales,1,32,32
+55,Jessica Adriana Salas Pacheco,PS18B28P5111,2018-02-28,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,1,26,26
+56,Jessica Adriana Salas Pacheco,PS18B28R2843,2018-02-28,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1 Piel Mediana,1,62,62
+57,Jessica Adriana Salas Pacheco,PS18B28R2843,2018-02-28,TOP MODELING CREMA LIPO-REDUCTORA concentrado de cafeína liposomada y L-Carnitina,1,58,58
