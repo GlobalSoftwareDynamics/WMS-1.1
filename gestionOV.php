@@ -62,6 +62,8 @@ if(isset($_SESSION['login'])) {
 
         if($_POST['montofaltante']>0){
 
+            echo "Mayor 0";
+
             $query="UPDATE Transaccion SET idEstado = 6, fechaVencimiento = '{$_POST['fechavencimiento']}', idComprobante = '{$_POST['comprobante']}', montoTotal = '{$_POST['montototal']}',
             montoRestante = '{$_POST['montofaltante']}' WHERE idTransaccion = '{$_POST['idTransaccion']}'";
             $update=mysqli_query($link,$query);
@@ -151,6 +153,8 @@ if(isset($_SESSION['login'])) {
             }
 
         }elseif($_POST['montofaltante']==$_POST['montototal']){
+
+            echo "Iguales";
 
             $query="UPDATE Transaccion SET idEstado = 3, fechaVencimiento = '{$_POST['fechavencimiento']}' , idComprobante = '{$_POST['comprobante']}', montoTotal = '{$_POST['montototal']}',
             montoRestante = 0 WHERE idTransaccion = '{$_POST['idTransaccion']}'";
@@ -268,7 +272,8 @@ if(isset($_SESSION['login'])) {
                     while ($filacuenta=mysqli_fetch_array($cuenta)){
 
                         $saldo = $filacuenta['saldo']+$_POST['montoCancelado'];
-                        $query=mysqli_query($link,"UPDATE Cuenta SET saldo = {$saldo} fechaActualizacion = '{$date}' WHERE idCuenta = '1'");
+
+                        $query=mysqli_query($link,"UPDATE Cuenta SET saldo = {$saldo}, fechaActualizacion = '{$date}' WHERE idCuenta = '1'");
                         $queryPerformed="UPDATE Cuenta SET saldo = {$saldo}, fechaActualizacion = {$date} WHERE idCuenta = 1";
                         $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','UPDATE','Cuenta','{$queryPerformed}')");
 
@@ -305,7 +310,7 @@ if(isset($_SESSION['login'])) {
 
                         $saldo = $filacuenta['saldo']+$_POST['montoCancelado'];
                         $query=mysqli_query($link,"UPDATE Cuenta SET saldo = {$saldo}, fechaActualizacion = '{$date}' WHERE idCuenta = '2'");
-                        $queryPerformed="UPDATE Cuenta SET saldo = {$saldo} fechaActualizacion = {$date} WHERE idCuenta = 2";
+                        $queryPerformed="UPDATE Cuenta SET saldo = {$saldo}, fechaActualizacion = {$date} WHERE idCuenta = 2";
                         $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','UPDATE','Cuenta','{$queryPerformed}')");
 
                     }
@@ -391,6 +396,7 @@ if(isset($_SESSION['login'])) {
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="nuevaOV_DatosGenerales.php">Registrar Nueva Orden de Venta</a>
+                            <a class="dropdown-item" href="busquedaRegistros.php">Busqueda de Registros</a>
                             <a class="dropdown-item" href="files/ordenesVenta.txt" download>Exportar Listado</a>
                         </div>
                     </div>
@@ -412,15 +418,7 @@ if(isset($_SESSION['login'])) {
                                 <label class="sr-only" for="cliente">Cliente</label>
                                 <input type="text" class="search-key form-control mt-2 mb-2 mr-2" id="cliente" placeholder="Cliente" onkeyup="myFunction()">
                                 <label class="sr-only" for="estado">Estado</label>
-                                <select class="form-control mt-2 mb-2 mr-2" id="estado" onchange="myFunction()">
-                                    <option disabled selected value="a">Estado</option>
-                                    <?php
-                                    $query = mysqli_query($link, "SELECT * FROM Estado WHERE clase = 'estadoTransaccion'");
-                                    while($row = mysqli_fetch_array($query)){
-                                        echo "<option value='{$row['descripcion']}'>{$row['descripcion']}</option>";
-                                    }
-                                    ?>
-                                </select>
+                                <input type="text" class="search-key form-control mt-2 mb-2 mr-2" id="estado" placeholder="Estado" onkeyup="myFunction()">
                                 <input type="submit" class="btn btn-primary" value="Limpiar" style="padding-left:28px; padding-right: 28px;">
                             </form>
                         </div>

@@ -180,7 +180,7 @@ if(isset($_SESSION['login'])) {
                 </div>
                 <div class="spacer10"></div>
                 <div class="row">
-                    <div class="col-12" style="overflow-y: scroll; height: 500px;">
+                    <div class="col-12" style="overflow: scroll; height: 500px;">
                         <table class="table table-bordered" id="myTable">
                             <thead class="thead-default">
                             <tr>

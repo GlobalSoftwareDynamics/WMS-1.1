@@ -1,5 +1,6 @@
 <?php
 include('session.php');
+include('declaracionFechas.php');
 if(isset($_SESSION['login'])) {
 	include('adminTemplateAutocomplete.php');
 	$idOC = idgen("OC");

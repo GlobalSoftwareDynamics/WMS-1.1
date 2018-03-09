@@ -1,7 +1,2 @@
 Préstamos
 Item,Colaboradora,Cliente,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
-1,Roxana Hinojosa Menendez,GILDA VALVERDE VALDIVIA,PS18C07L1229,2018-03-07,CONTROL BLANC RX LIMPIADOR EXFOLIANTE TONIFICANTE Limpia, exfolia y tonifica.,1,34,34
-2,Roxana Hinojosa Menendez,GILDA VALVERDE VALDIVIA,PS18C07L1229,2018-03-07,CONTROL BLANC RX CREMA ACLARANTE Con Albacinol RX-11*  ácido hialurónico y filtros solares. ,1,69,69
-3,Roxana Hinojosa Menendez,GILDA VALVERDE VALDIVIA,PS18C07L1229,2018-03-07,CONTROL BLANC RX ACLARANTE ANTI-EDAD Albacinol RX-11 potenciado con extracto de orquídea blanca,1,116,116
-4,Jessica Adriana Salas Pacheco,YONY AYALA,PS18C07P2910,2018-03-07,SENTIVA DESMAQUILLADOR AGUA MICELAR Frescura purificante,1,40,40
-5,Jessica Adriana Salas Pacheco,YONY AYALA,PS18C07P2910,2018-03-07,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,1,59,59

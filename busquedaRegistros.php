@@ -2,17 +2,21 @@
 include('session.php');
 include('declaracionFechas.php');
 if(isset($_SESSION['login'])) {
-	include('adminTemplateAutocomplete.php');
-	?>
+    include('adminTemplateAutocomplete.php');
+
+    if(isset($_POST['completar'])){
+        $query = mysqli_query($link,"UPDATE Transaccion SET idEstado = 5 WHERE idTransaccion = '{$_POST['idTransaccionOC']}'");
+    }
+    ?>
 
     <section class="container">
         <div class="row" id="opcionesMetodoPago">
-            <div class="col-8 offset-2">
+            <div class="col-10 offset-1">
                 <div class="card">
                     <div class="card-header card-inverse card-info">
                         <div class="float-left">
                             <i class="fa fa-camera"></i>
-                            Generación de Reportes
+                            Busqueda de Registros
                         </div>
                     </div>
                     <div class="card-block">
@@ -20,15 +24,12 @@ if(isset($_SESSION['login'])) {
                             <div class="col-12">
                                 <form method="post" action="#" class="form-inline justify-content-center">
                                     <div class="form-group  mt-2 mb-2 mr-2">
-                                        <label class="sr-only" for="idColaboradora">Colaboradora</label>
-                                        <select class="form-control" name="idColaboradora" id="idColaboradora">
-                                            <option selected disabled>Seleccionar Colaboradora</option>
-                                            <?php
-                                            $query = mysqli_query($link,"SELECT * FROM Colaborador");
-                                            while($row = mysqli_fetch_array($query)){
-                                                echo "<option value='{$row['idColaborador']}'>{$row['nombres']} {$row['apellidos']}</option>";
-                                            }
-                                            ?>
+                                        <label class="sr-only" for="selectTipoReporte">Transacción</label>
+                                        <select class="form-control" name="selectTipoReporte" id="selectTipoReporte">
+                                            <option selected disabled>Seleccionar Transacción</option>
+                                            <option value="1">Compras</option>
+                                            <option value="2">Ventas</option>
+                                            <option value="3">Prestamos</option>
                                         </select>
                                     </div>
                                     <div class="form-group  mt-2 mb-2 mr-2">
@@ -51,15 +52,16 @@ if(isset($_SESSION['login'])) {
         </div>
     </section>
 
-	<?php
+    <?php
+    if(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 1 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
+        include('reporteRegistrosCompras.php');
+    }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 2 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
+        include('reporteRegistrosVentas.php');
+    }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 3 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
+        include ('reporteRegistrosPrestamos.php');
+    }
 
-	if(isset($_POST['generar']) && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != ''){
-        include('reporteColaboradora.php');
-	}
-	?>
-
-	<?php
-	include('footerTemplateAutocomplete.php');
+    include('footerTemplateAutocomplete.php');
 }else{
-	include('sessionError.php');
+    include('sessionError.php');
 }

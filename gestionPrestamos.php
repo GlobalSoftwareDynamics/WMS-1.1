@@ -304,6 +304,7 @@ if(isset($_SESSION['login'])) {
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="nuevoPrestamo_DatosGenerales.php">Registrar Nuevo Préstamo</a>
                             <a class="dropdown-item" href="nuevoPrestamoEfectivo.php">Registrar Préstamo de Efectivo</a>
+                            <a class="dropdown-item" href="busquedaRegistros.php">Busqueda de Registros</a>
                             <a class="dropdown-item" href="files/prestamos.txt" download>Exportar Listado</a>
                         </div>
                     </div>
@@ -327,15 +328,7 @@ if(isset($_SESSION['login'])) {
                                 <label class="sr-only" for="colaborador">Colaborador</label>
                                 <input type="text" class="search-key form-control mt-2 mb-2 mr-2" id="colaborador" placeholder="Consultora" onkeyup="myFunction()">
                                 <label class="sr-only" for="estado">Estado</label>
-                                <select class="form-control mt-2 mb-2 mr-2" id="estado" onchange="myFunction()">
-                                    <option disabled selected value="a">Estado</option>
-                                    <?php
-                                    $query = mysqli_query($link, "SELECT * FROM Estado WHERE clase = 'estadoTransaccion'");
-                                    while($row = mysqli_fetch_array($query)){
-                                        echo "<option value='{$row['descripcion']}'>{$row['descripcion']}</option>";
-                                    }
-                                    ?>
-                                </select>
+                                <input type="text" class="search-key form-control mt-2 mb-2 mr-2" id="estado" placeholder="Estado" onkeyup="myFunction()">
                                 <input type="submit" class="btn btn-primary" value="Limpiar" style="padding-left:28px; padding-right: 28px;">
                             </form>
                         </div>
@@ -358,12 +351,14 @@ if(isset($_SESSION['login'])) {
                             </thead>
                             <tbody>
                             <?php
+                            $today = date("Y-m-d");
+                            $ago = date('Y-m-d', strtotime($today. ' - 30 days'));
                             $i = 0;
                             $file = fopen("files/prestamos.txt","w") or die("No se encontró el archivo!");
                             fwrite($file, pack("CCC",0xef,0xbb,0xbf));
                             $txt = "Nro. Orden,Responsable,Fecha de Préstamo,Fecha de Vencimiento,Deudor,Estado".PHP_EOL;
                             fwrite($file, $txt);
-                            $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '6' ORDER BY fechaTransaccion DESC");
+                            $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '6' AND fechaTransaccion >= '{$ago} 00:00:00' ORDER BY fechaTransaccion DESC");
                             while($row = mysqli_fetch_array($query)){
                                 $i++;
                                 $replace = [

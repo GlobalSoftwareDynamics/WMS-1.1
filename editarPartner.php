@@ -1,8 +1,8 @@
 <?php
 include('session.php');
+include('declaracionFechas.php');
 if(isset($_SESSION['login'])) {
     include('adminTemplate.php');
-	include('declaracionFechas.php');
     if(isset($_POST['addDireccion'])){
 
         $direccion=mysqli_query($link,"INSERT INTO Direccion(idCiudad, descripcion) VALUES ('{$_POST['ciudad']}','{$_POST['direccion']}')");

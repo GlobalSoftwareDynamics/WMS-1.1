@@ -1,5 +1,6 @@
 <?php
 include('session.php');
+include('declaracionFechas.php');
 if(isset($_SESSION['login'])) {
 	include('adminTemplate.php');
 	$result=mysqli_query($link,"SELECT * FROM Producto WHERE idProducto='{$_POST['idProducto']}'");

@@ -201,6 +201,25 @@ include('funciones.php');
         </script>
 		<?php
 	}
+
+    $result = mysqli_query($link,"SELECT * FROM UbicacionProducto WHERE fechaModificacion = '{$date}'");
+    while ($fila = mysqli_fetch_array($result)){
+        $result1 = mysqli_query($link,"SELECT * FROM LogStock WHERE idProducto = '{$fila['idProducto']}' AND idUbicacion = '{$fila['idUbicacion']}' AND fechaCierre = '{$date}'");
+        $numrow = mysqli_num_rows($result1);
+        if ($numrow > 0){
+
+            $query = mysqli_query($link,"UPDATE LogStock SET stock = '{$fila['stock']}' WHERE idProducto = '{$fila['idProducto']}' AND idUbicacion = '{$fila['idUbicacion']}' AND fechaCierre = '{$date}'");
+            $queryPerformed = "UPDATE LogStock SET stock = {$fila['stock']} WHERE idProducto = {$fila['idProducto']} AND idUbicacion = {$fila['idUbicacion']} AND fechaCierre = {$date}";
+
+        }else{
+
+            $query = mysqli_query($link,"INSERT INTO LogStock(idProducto,idUbicacion,stock,fechaCierre) VALUES ('{$fila['idProducto']}','{$fila['idUbicacion']}','{$fila['stock']}','{$date}')");
+            $queryPerformed = "INSERT INTO LogStock(idProducto,idUbicacion,stock,fechaCierre) VALUES ({$fila['idProducto']},{$fila['idUbicacion']},{$fila['stock']},{$date})";
+            $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','LogStock','{$queryPerformed}')");
+
+        }
+    }
+
 	?>
 
 

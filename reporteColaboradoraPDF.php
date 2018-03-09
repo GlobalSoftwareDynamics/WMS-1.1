@@ -139,7 +139,6 @@ $html.= '
 							</table>
 						</div>
 					</div>
-					<pagebreak></pagebreak>
                     <div class="row">
 						<div class="col-12">
 							<h6 class="text-center" style="text-decoration: underline">Ventas de Mercadería</h6>
@@ -230,7 +229,6 @@ $html.= '
 							</table>
 						</div>
 					</div>
-					<pagebreak></pagebreak>
                     <div class="row">
 						<div class="col-12">
 							<h6 class="text-center" style="text-decoration: underline">Préstamos de Mercadería</h6>
@@ -325,7 +323,6 @@ $html.= '
 							</table>
 						</div>
 					</div>
-					<pagebreak></pagebreak>
 					<div class="row">
 						<div class="col-12">
 							<h6 class="text-center" style="text-decoration: underline">Resumen</h6>

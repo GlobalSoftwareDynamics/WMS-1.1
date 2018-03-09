@@ -1,5 +1,6 @@
 <?php
 include('session.php');
+include('declaracionFechas.php');
 if(isset($_SESSION['login'])) {
 
 	include('adminTemplate.php');
@@ -141,7 +142,7 @@ if(isset($_SESSION['login'])) {
 										    $deudor = $fila1['nombre'];
 											echo "<td>{$fila1['nombre']}</td>";
 										}
-										echo "<td>{$fila['montoRestante']}</td>";
+										echo "<td>S/. {$fila['montoRestante']}</td>";
 										echo "
                                               <td>
                                                   <form method='post'>
@@ -208,7 +209,7 @@ if(isset($_SESSION['login'])) {
 										while ($fila1= mysqli_fetch_array($result1)){
 											echo "<td>{$fila1['nombre']}</td>";
 										}
-										echo "<td>{$fila['montoRestante']}</td>";
+										echo "<td>S/. {$fila['montoRestante']}</td>";
 										echo "
                                               <td>
                                                   <form method='post'>
@@ -272,7 +273,7 @@ if(isset($_SESSION['login'])) {
 										while ($fila1= mysqli_fetch_array($result1)){
 											echo "<td>{$fila1['nombre']}</td>";
 										}
-										echo "<td>{$fila['montoRestante']}</td>";
+										echo "<td>S/. {$fila['montoRestante']}</td>";
 										echo "
                                               <td>
                                                   <form method='post'>

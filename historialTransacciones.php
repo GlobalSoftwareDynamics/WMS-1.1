@@ -1,5 +1,6 @@
 <?php
 include('session.php');
+include('declaracionFechas.php');
 include('funciones.php');
 if(isset($_SESSION['login'])) {
     include('adminTemplate.php');

@@ -1,5 +1,6 @@
 <?php
 include('session.php');
+include('declaracionFechas.php');
 if(isset($_SESSION['login'])) {
 	include('adminTemplateAutocomplete.php');
 ?>
@@ -25,6 +26,7 @@ if(isset($_SESSION['login'])) {
 											<option value="1">Inventario</option>
 											<option value="2">Caja</option>
 											<option value="3">Compras/Ventas/Prestamos</option>
+                                            <option value="4">Registro de Stock</option>
 										</select>
 									</div>
 									<div class="form-group  mt-2 mb-2 mr-2">
@@ -54,8 +56,9 @@ if(isset($_SESSION['login'])) {
 		include('reporteCajaFechas.php');
 	}elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 3 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
 	    include ('reporteFechasCVP.php');
+    }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 4 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
+        include ('reporteFechasStock.php');
     }
-
 
 	include('footerTemplateAutocomplete.php');
 }else{

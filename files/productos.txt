@@ -907,7 +907,6 @@
 0011507,HYDRA-LIP LARGA DURACIO ROSA DE MIS SUEÑOS ,Rosado nacarado,Labiales,Unisex,Activo
 0011510, HYDRA-LIP LARGA DURACION FUCSIA DE ENSUEÑO MY,fucsia,Labiales,Unisex,Activo
 0011512,O/S COLOR EFFECT DIVINA BLUE,Azules,Sombras,Unisex,Activo
-0011513,PERFECT TEN REMOVEDOR EXPRESS,ENVASE REDONDO,Material Promocional,Dama,Activo
 0011514,TOTAL BLOCK KIDS SPF 70,Rostro y Cuerpo,Protectores Solares,Unisex,Activo
 0011516,TOTAL BLOCK ANTI EDAD MATT SPF50+,Rostro con extracto marino acabado mate,Protectores Solares,Unisex,Activo
 0011517,CONTROL BLANC RX DIA,Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ,Antimanchas y Aclarantes,Unisex,Activo
@@ -2488,7 +2487,7 @@
 5032123,COLECCION INITIAL GLAM ?X? J16273,Negro,Colecciones,Unisex,Activo
 5032124,COLECCION INITIAL GLAM ?Y? J16274,Negro,Colecciones,Unisex,Activo
 5032125,COLECCION INITIAL GLAM ?Z? J16275,Negro,Colecciones,Unisex,Activo
-5032198,SORTIJA DiAMANTI LOVE T-8,Baño de paladio brillante con finos cristales traslucidos,Sortijas,Dama,Activo
+5032198,SORTIJA DUAMANTI LOVE T-8,Baño de paladio brillante con finos cristales traslucidos,Sortijas,Dama,Activo
 5032201,ARETES CELEBRITY CRISTAL J16427,Negro,Aretes,Unisex,Activo
 5032202,ARETES GLAZE EN DORE J16429,Negro,Aretes,Unisex,Activo
 5032203,ARETES BELLE LOVE J16430,Negro,Aretes,Unisex,Activo

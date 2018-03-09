@@ -135,7 +135,6 @@ if(isset($_SESSION['login'])){
 							</table>
 						</div>
 					</div>
-					<pagebreak></pagebreak>
                     <div class="row">
 						<div class="col-12">
 							<h6 class="text-center" style="text-decoration: underline">Salidas de
@@ -220,7 +219,6 @@ if(isset($_SESSION['login'])){
 							</table>
 						</div>
 					</div>
-					<pagebreak></pagebreak>
                     <div class="row">
 						<div class="col-12">
 							<h6 class="text-center" style="text-decoration: underline">Transferencias de
@@ -306,7 +304,6 @@ if(isset($_SESSION['login'])){
 							</table>
 						</div>
 					</div>
-					<pagebreak></pagebreak>
 					<div class="row">
 						<div class="col-12">
 							<h6 class="text-center" style="text-decoration: underline">Correcciones de

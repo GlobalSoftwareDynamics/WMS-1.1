@@ -90,7 +90,7 @@ if(isset($_SESSION['login'])) {
                                         <div class="form-group row">
                                             <label for="medioPago" class="col-4 col-form-label">Medio de Pago:</label>
                                             <div class="col-8 row">
-                                                <select class="form-control" id="medioPago" name="medioPago">
+                                                <select class="form-control" id="medioPago" name="medioPago" required>
                                                     <option>Seleccionar</option>
                                                     <?php
                                                     $query=mysqli_query($link,"SELECT * FROM MedioPago");
@@ -109,7 +109,7 @@ if(isset($_SESSION['login'])) {
                                         <div class="form-group row">
                                             <label for="comprobante" class="col-4 col-form-label">Comprobante:</label>
                                             <div class="col-8 row">
-                                                <select class="form-control" id="comprobante" name="comprobante">
+                                                <select class="form-control" id="comprobante" name="comprobante" required>
                                                     <option>Seleccionar</option>
                                                     <?php
                                                     $query=mysqli_query($link,"SELECT * FROM Comprobante");

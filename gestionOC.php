@@ -30,11 +30,21 @@ if(isset($_SESSION['login'])) {
 	}
 
 	if(isset($_POST['addOC'])){
-		$update = mysqli_query($link, "UPDATE Transaccion SET montoTotal = '{$_POST['montoTotalCompra']}', montoRestante = '{$_POST['montoTotalCompra']}' WHERE idTransaccion = '{$_POST['idTransaccion']}'");
 
-		$queryPerformed = "UPDATE Transaccion SET montoTotal = {$_POST['montoTotalCompra']}, montoRestante = {$_POST['montoTotalCompra']} WHERE idTransaccion = {$_POST['idTransaccion']}";
+        $result = mysqli_query($link,"SELECT idProveedor FROM Transaccion WHERE idTransaccion = '{$_POST['idTransaccion']}'");
+        while ($fila = mysqli_fetch_array($result)){
+            if ($fila['idProveedor'] == 0){
 
-		$databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','UPDATE','Update Monto OC','{$queryPerformed}')");
+            }else{
+
+                $update = mysqli_query($link, "UPDATE Transaccion SET montoTotal = '{$_POST['montoTotalCompra']}', montoRestante = '{$_POST['montoTotalCompra']}' WHERE idTransaccion = '{$_POST['idTransaccion']}'");
+
+                $queryPerformed = "UPDATE Transaccion SET montoTotal = {$_POST['montoTotalCompra']}, montoRestante = {$_POST['montoTotalCompra']} WHERE idTransaccion = {$_POST['idTransaccion']}";
+
+                $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','UPDATE','Update Monto OC','{$queryPerformed}')");
+
+            }
+        }
 	}
 	?>
 
@@ -102,6 +112,7 @@ if(isset($_SESSION['login'])) {
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="nuevaOC.php">Registrar Nueva Orden de Compra</a>
                             <a class="dropdown-item" href="recepcionPremios.php">Recepción de Productos a Costo Cero</a>
+                            <a class="dropdown-item" href="busquedaRegistros.php">Busqueda de Registros</a>
                             <a class="dropdown-item" href="files/ordenesCompra.txt" download>Exportar Listado</a>
                         </div>
                     </div>
