@@ -283,125 +283,127 @@ $numcuentas=mysqli_num_rows($numcuentasquery);
                                     $tipoMovimiento = null;
                                     $result=mysqli_query($link,"SELECT * FROM Movimiento WHERE fecha >= '{$ago} 00:00:00' ORDER BY fecha DESC");
                                     while ($fila=mysqli_fetch_array($result)){
-                                        $fecha=explode("|",$fila['fecha']);
-                                        echo "<tr>";
-                                        echo "
-                                            <td>{$fecha[0]}</td>
-                                            <td>
-                                                <form method='post' action='detalleMovimiento.php'>
-                                                    <input type='hidden' name='idMovimiento' value='{$fila['idMovimiento']}'>
-                                                    <input type='submit' name='detalle' value='{$fila['idMovimiento']}' class='btn-link'>
-                                                </form>
-                                            </td>
-                                        ";
-                                        if($fila['idTransaccionPrimaria']!=null){
-                                            $result2=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$fila['idTransaccionPrimaria']}'");
-                                            while ($fila2=mysqli_fetch_array($result2)){
-                                                if($fila2['idTipoTransaccion']==1){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detalleOC.php'>
-                                                        <input type='hidden' name='idTransaccionOC' value='{$fila['idTransaccionPrimaria']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }elseif ($fila2['idTipoTransaccion']==2||$fila2['idTipoTransaccion']==6){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detallePrestamo.php'>
-                                                        <input type='hidden' name='idTransaccion' value='{$fila['idTransaccionPrimaria']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }elseif ($fila2['idTipoTransaccion']==5){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detalleOV.php'>
-                                                        <input type='hidden' name='idTransaccion' value='{$fila['idTransaccionPrimaria']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }else{
-                                                    echo "<td>{$fila['idTransaccionPrimaria']}</td>";
-                                                }
-                                            }
-                                        }else{
-                                            echo "
-                                            <td></td>
-                                            ";
-                                        }
-                                        if($fila['idTransaccionReferencial']!=null){
-                                            $result2=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$fila['idTransaccionReferencial']}'");
-                                            while ($fila2=mysqli_fetch_array($result2)){
-                                                if($fila2['idTipoTransaccion']==1){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detalleOC.php'>
-                                                        <input type='hidden' name='idTransaccionOC' value='{$fila['idTransaccionReferencial']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }elseif ($fila2['idTipoTransaccion']==2||$fila2['idTipoTransaccion']==6){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detallePrestamo.php'>
-                                                        <input type='hidden' name='idTransaccion' value='{$fila['idTransaccionReferencial']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }elseif ($fila2['idTipoTransaccion']==5){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detalleOV.php'>
-                                                        <input type='hidden' name='idTransaccion' value='{$fila['idTransaccionReferencial']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }else{
-                                                    echo "<td>{$fila['idTransaccionReferencial']}</td>";
-                                                }
-                                            }
-                                        }else{
-                                            echo "
-                                            <td></td>
-                                            ";
-                                        }
-                                        $result3=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
-                                        while ($fila3=mysqli_fetch_array($result3)){
-                                            $proveedor = $fila3['nombre'];
-                                            echo "<td>{$fila3['nombre']}</td>";
-                                        }
-                                        $result4=mysqli_query($link,"SELECT * FROM MedioPago WHERE idMedioPago = '{$fila['idMedioPago']}'");
-                                        $numrows=mysqli_num_rows($result4);
-                                        if($numrows>0){
-                                            while ($fila4=mysqli_fetch_array($result4)){
-                                                $medioPago = $fila4['descripcion'];
-                                                echo "<td>{$fila4['descripcion']}</td>";
-                                            }
-                                        }else{
-                                            echo "<td></td>";
-                                        }
-                                        $result4=mysqli_query($link,"SELECT * FROM TipoMovimiento WHERE idTipoMovimiento = '{$fila['idTipoMovimiento']}'");
-                                        while ($fila4=mysqli_fetch_array($result4)){
-                                            $tipoMovimiento = $fila4['descripcion'];
-                                            echo "<td>{$fila4['descripcion']}</td>";
-                                            if($fila4['tipo']==0){
-                                                $signo="-";
-                                            }else{
-                                                $signo="+";
-                                            }
-                                        }
-                                        echo "<td>S/. {$signo} {$fila['monto']}</td>";
-                                        echo "<td>{$fila['observaciones']}</td>";
-                                        echo "</tr>";
-                                        $txt = $fecha[0].",".$fila['idMovimiento'].",".$fila['idTransaccionPrimaria'].",".$fila['idTransaccionReferencial'].",".$proveedor.",".$medioPago.",".$tipoMovimiento.",".$signo.$fila['monto'].",".$fila['observaciones'].PHP_EOL;
-                                        fwrite($file, $txt);
+                                        if($fila['monto'] > 0){
+											$fecha=explode("|",$fila['fecha']);
+											echo "<tr>";
+											echo "
+												<td>{$fecha[0]}</td>
+												<td>
+													<form method='post' action='detalleMovimiento.php'>
+														<input type='hidden' name='idMovimiento' value='{$fila['idMovimiento']}'>
+														<input type='submit' name='detalle' value='{$fila['idMovimiento']}' class='btn-link'>
+													</form>
+												</td>
+											";
+											if($fila['idTransaccionPrimaria']!=null){
+												$result2=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$fila['idTransaccionPrimaria']}'");
+												while ($fila2=mysqli_fetch_array($result2)){
+													if($fila2['idTipoTransaccion']==1){
+														echo "
+														<td>
+														<form method='post' action='detalleOC.php'>
+															<input type='hidden' name='idTransaccionOC' value='{$fila['idTransaccionPrimaria']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}elseif ($fila2['idTipoTransaccion']==2||$fila2['idTipoTransaccion']==6){
+														echo "
+														<td>
+														<form method='post' action='detallePrestamo.php'>
+															<input type='hidden' name='idTransaccion' value='{$fila['idTransaccionPrimaria']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}elseif ($fila2['idTipoTransaccion']==5){
+														echo "
+														<td>
+														<form method='post' action='detalleOV.php'>
+															<input type='hidden' name='idTransaccion' value='{$fila['idTransaccionPrimaria']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}else{
+														echo "<td>{$fila['idTransaccionPrimaria']}</td>";
+													}
+												}
+											}else{
+												echo "
+												<td></td>
+												";
+											}
+											if($fila['idTransaccionReferencial']!=null){
+												$result2=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$fila['idTransaccionReferencial']}'");
+												while ($fila2=mysqli_fetch_array($result2)){
+													if($fila2['idTipoTransaccion']==1){
+														echo "
+														<td>
+														<form method='post' action='detalleOC.php'>
+															<input type='hidden' name='idTransaccionOC' value='{$fila['idTransaccionReferencial']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}elseif ($fila2['idTipoTransaccion']==2||$fila2['idTipoTransaccion']==6){
+														echo "
+														<td>
+														<form method='post' action='detallePrestamo.php'>
+															<input type='hidden' name='idTransaccion' value='{$fila['idTransaccionReferencial']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}elseif ($fila2['idTipoTransaccion']==5){
+														echo "
+														<td>
+														<form method='post' action='detalleOV.php'>
+															<input type='hidden' name='idTransaccion' value='{$fila['idTransaccionReferencial']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}else{
+														echo "<td>{$fila['idTransaccionReferencial']}</td>";
+													}
+												}
+											}else{
+												echo "
+												<td></td>
+												";
+											}
+											$result3=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
+											while ($fila3=mysqli_fetch_array($result3)){
+												$proveedor = $fila3['nombre'];
+												echo "<td>{$fila3['nombre']}</td>";
+											}
+											$result4=mysqli_query($link,"SELECT * FROM MedioPago WHERE idMedioPago = '{$fila['idMedioPago']}'");
+											$numrows=mysqli_num_rows($result4);
+											if($numrows>0){
+												while ($fila4=mysqli_fetch_array($result4)){
+													$medioPago = $fila4['descripcion'];
+													echo "<td>{$fila4['descripcion']}</td>";
+												}
+											}else{
+												echo "<td></td>";
+											}
+											$result4=mysqli_query($link,"SELECT * FROM TipoMovimiento WHERE idTipoMovimiento = '{$fila['idTipoMovimiento']}'");
+											while ($fila4=mysqli_fetch_array($result4)){
+												$tipoMovimiento = $fila4['descripcion'];
+												echo "<td>{$fila4['descripcion']}</td>";
+												if($fila4['tipo']==0){
+													$signo="-";
+												}else{
+													$signo="+";
+												}
+											}
+											echo "<td>S/. {$signo} {$fila['monto']}</td>";
+											echo "<td>{$fila['observaciones']}</td>";
+											echo "</tr>";
+											$txt = $fecha[0].",".$fila['idMovimiento'].",".$fila['idTransaccionPrimaria'].",".$fila['idTransaccionReferencial'].",".$proveedor.",".$medioPago.",".$tipoMovimiento.",".$signo.$fila['monto'].",".$fila['observaciones'].PHP_EOL;
+											fwrite($file, $txt);
+										}
                                     }
                                     fclose($file);
                                     ?>
@@ -427,120 +429,122 @@ $numcuentas=mysqli_num_rows($numcuentasquery);
                                     <?php
                                     $result=mysqli_query($link,"SELECT * FROM Movimiento WHERE idCuenta = 1 AND fecha >= '{$ago} 00:00:00' ORDER BY fecha DESC");
                                     while ($fila=mysqli_fetch_array($result)){
-                                        $fecha=explode("|",$fila['fecha']);
-                                        echo "<tr>";
-                                        echo "
-                                            <td>{$fecha[0]}</td>
-                                            <td>
-                                                <form method='post' action='detalleMovimiento.php'>
-                                                    <input type='hidden' name='idMovimiento' value='{$fila['idMovimiento']}'>
-                                                    <input type='submit' name='detalle' value='{$fila['idMovimiento']}' class='btn-link'>
-                                                </form>
-                                            </td>
-                                        ";
-                                        if($fila['idTransaccionPrimaria']!=null){
-                                            $result2=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$fila['idTransaccionPrimaria']}'");
-                                            while ($fila2=mysqli_fetch_array($result2)){
-                                                if($fila2['idTipoTransaccion']==1){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detalleOC.php'>
-                                                        <input type='hidden' name='idTransaccionOC' value='{$fila['idTransaccionPrimaria']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }elseif ($fila2['idTipoTransaccion']==2||$fila2['idTipoTransaccion']==6){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detallePrestamo.php'>
-                                                        <input type='hidden' name='idTransaccion' value='{$fila['idTransaccionPrimaria']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }elseif ($fila2['idTipoTransaccion']==5){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detalleOV.php'>
-                                                        <input type='hidden' name='idTransaccion' value='{$fila['idTransaccionPrimaria']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }else{
-                                                    echo "<td>{$fila['idTransaccionPrimaria']}</td>";
-                                                }
-                                            }
-                                        }else{
-                                            echo "
-                                            <td></td>
-                                            ";
-                                        }
-                                        if($fila['idTransaccionReferencial']!=null){
-                                            $result2=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$fila['idTransaccionReferencial']}'");
-                                            while ($fila2=mysqli_fetch_array($result2)){
-                                                if($fila2['idTipoTransaccion']==1){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detalleOC.php'>
-                                                        <input type='hidden' name='idTransaccionOC' value='{$fila['idTransaccionReferencial']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }elseif ($fila2['idTipoTransaccion']==2||$fila2['idTipoTransaccion']==6){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detallePrestamo.php'>
-                                                        <input type='hidden' name='idTransaccion' value='{$fila['idTransaccionReferencial']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }elseif ($fila2['idTipoTransaccion']==5){
-                                                    echo "
-                                                    <td>
-                                                    <form method='post' action='detalleOV.php'>
-                                                        <input type='hidden' name='idTransaccion' value='{$fila['idTransaccionReferencial']}'>
-                                                        <input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
-                                                    </form>
-                                                    </td>
-                                                    ";
-                                                }else{
-                                                    echo "<td>{$fila['idTransaccionReferencial']}</td>";
-                                                }
-                                            }
-                                        }else{
-                                            echo "
-                                            <td></td>
-                                            ";
-                                        }
-                                        $result3=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
-                                        while ($fila3=mysqli_fetch_array($result3)){
-                                            echo "<td>{$fila3['nombre']}</td>";
-                                        }
-                                        $result4=mysqli_query($link,"SELECT * FROM MedioPago WHERE idMedioPago = '{$fila['idMedioPago']}'");
-                                        $numrows=mysqli_num_rows($result4);
-                                        if($numrows>0){
-                                            while ($fila4=mysqli_fetch_array($result4)){
-                                                echo "<td>{$fila4['descripcion']}</td>";
-                                            }
-                                        }else{
-                                            echo "<td></td>";
-                                        }
-                                        $result4=mysqli_query($link,"SELECT * FROM TipoMovimiento WHERE idTipoMovimiento = '{$fila['idTipoMovimiento']}'");
-                                        while ($fila4=mysqli_fetch_array($result4)){
-                                            echo "<td>{$fila4['descripcion']}</td>";
-                                            if($fila4['tipo']==0){
-                                                $signo="-";
-                                            }else{
-                                                $signo="+";
-                                            }
-                                        }
-                                        echo "<td>S/. {$signo} {$fila['monto']}</td>";
-                                        echo "<td>{$fila['observaciones']}</td>";
-                                        echo "</tr>";
+										if($fila['monto'] > 0){
+											$fecha=explode("|",$fila['fecha']);
+											echo "<tr>";
+											echo "
+												<td>{$fecha[0]}</td>
+												<td>
+													<form method='post' action='detalleMovimiento.php'>
+														<input type='hidden' name='idMovimiento' value='{$fila['idMovimiento']}'>
+														<input type='submit' name='detalle' value='{$fila['idMovimiento']}' class='btn-link'>
+													</form>
+												</td>
+											";
+											if($fila['idTransaccionPrimaria']!=null){
+												$result2=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$fila['idTransaccionPrimaria']}'");
+												while ($fila2=mysqli_fetch_array($result2)){
+													if($fila2['idTipoTransaccion']==1){
+														echo "
+														<td>
+														<form method='post' action='detalleOC.php'>
+															<input type='hidden' name='idTransaccionOC' value='{$fila['idTransaccionPrimaria']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}elseif ($fila2['idTipoTransaccion']==2||$fila2['idTipoTransaccion']==6){
+														echo "
+														<td>
+														<form method='post' action='detallePrestamo.php'>
+															<input type='hidden' name='idTransaccion' value='{$fila['idTransaccionPrimaria']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}elseif ($fila2['idTipoTransaccion']==5){
+														echo "
+														<td>
+														<form method='post' action='detalleOV.php'>
+															<input type='hidden' name='idTransaccion' value='{$fila['idTransaccionPrimaria']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionPrimaria']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}else{
+														echo "<td>{$fila['idTransaccionPrimaria']}</td>";
+													}
+												}
+											}else{
+												echo "
+												<td></td>
+												";
+											}
+											if($fila['idTransaccionReferencial']!=null){
+												$result2=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$fila['idTransaccionReferencial']}'");
+												while ($fila2=mysqli_fetch_array($result2)){
+													if($fila2['idTipoTransaccion']==1){
+														echo "
+														<td>
+														<form method='post' action='detalleOC.php'>
+															<input type='hidden' name='idTransaccionOC' value='{$fila['idTransaccionReferencial']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}elseif ($fila2['idTipoTransaccion']==2||$fila2['idTipoTransaccion']==6){
+														echo "
+														<td>
+														<form method='post' action='detallePrestamo.php'>
+															<input type='hidden' name='idTransaccion' value='{$fila['idTransaccionReferencial']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}elseif ($fila2['idTipoTransaccion']==5){
+														echo "
+														<td>
+														<form method='post' action='detalleOV.php'>
+															<input type='hidden' name='idTransaccion' value='{$fila['idTransaccionReferencial']}'>
+															<input type='submit' name='detalle' value='{$fila['idTransaccionReferencial']}' class='btn-link'>
+														</form>
+														</td>
+														";
+													}else{
+														echo "<td>{$fila['idTransaccionReferencial']}</td>";
+													}
+												}
+											}else{
+												echo "
+												<td></td>
+												";
+											}
+											$result3=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
+											while ($fila3=mysqli_fetch_array($result3)){
+												echo "<td>{$fila3['nombre']}</td>";
+											}
+											$result4=mysqli_query($link,"SELECT * FROM MedioPago WHERE idMedioPago = '{$fila['idMedioPago']}'");
+											$numrows=mysqli_num_rows($result4);
+											if($numrows>0){
+												while ($fila4=mysqli_fetch_array($result4)){
+													echo "<td>{$fila4['descripcion']}</td>";
+												}
+											}else{
+												echo "<td></td>";
+											}
+											$result4=mysqli_query($link,"SELECT * FROM TipoMovimiento WHERE idTipoMovimiento = '{$fila['idTipoMovimiento']}'");
+											while ($fila4=mysqli_fetch_array($result4)){
+												echo "<td>{$fila4['descripcion']}</td>";
+												if($fila4['tipo']==0){
+													$signo="-";
+												}else{
+													$signo="+";
+												}
+											}
+											echo "<td>S/. {$signo} {$fila['monto']}</td>";
+											echo "<td>{$fila['observaciones']}</td>";
+											echo "</tr>";
+										}
                                     }
                                     ?>
                                     </tbody>

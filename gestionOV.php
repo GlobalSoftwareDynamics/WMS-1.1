@@ -570,12 +570,14 @@ if(isset($_SESSION['login'])) {
                                 $cmds .= $newLine;
                                 $cmds .= 'CLIENTE  '.$cliente;
                                 $cmds .= $newLine;
-                                $cmds .= 'CODIGO  PRODUCTO  CANT V.U.';
+                                $cmds .= 'PRODUCTO  CODIGO  CANT  V.U.';
                                 $cmds .= $newLine;
                                 $subtotalcatalogo=0;
                                 $totaldescuentocatalogo=0;
                                 $totaldescuento=0;
                                 $subtotalsinsunat=0;
+								$totalVentaNoDesc = 0;
+								$subTotalVentaNoDesc = 0;
                                 $productos=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$row['idTransaccion']}'");
                                 while ($fila1=mysqli_fetch_array($productos)){
 
@@ -598,13 +600,15 @@ if(isset($_SESSION['login'])) {
                                     }
 
                                     $descuentoproducto=($fila1['valorUnitario'] - $fila1['descuentoMonetario']) * $descuento;
-                                    $totalfinal = $fila1['cantidad'] * $descuentoproducto;
+                                    $totalVentaNoDesc = $fila1['cantidad'] * $fila1['valorUnitario'];
+									$totalfinal = $fila1['cantidad'] * $descuentoproducto;
 
+									$subTotalVentaNoDesc = $subTotalVentaNoDesc + $totalVentaNoDesc;
                                     $subtotalsinsunat=$subtotalsinsunat+$totalfinal;
 
                                     $nombreProd=mysqli_query($link,"SELECT * FROM Producto WHERE idProducto ='{$fila1['idProducto']}'");
                                     while ($fila2=mysqli_fetch_array($nombreProd)){
-                                        $nombreCorto=substr($fila2['nombreCorto'],0,10);
+                                        $nombreCorto=$fila2['nombreCorto'];
                                     }
                                     $nombreCorto = strtoupper($nombreCorto);
                                     $nombreCorto = str_replace(array_keys($replace),$replace,$nombreCorto);
@@ -613,7 +617,9 @@ if(isset($_SESSION['login'])) {
                                         $cantidad = "0".$cantidad;
                                     }
                                     $valorUnitario = round($fila1['valorUnitario'],2);
-                                    $cmds .= $fila1['idProducto']." ".strtoupper($nombreCorto)." ".$cantidad."   ".$valorUnitario;
+                                    $cmds .= strtoupper($nombreCorto);
+                                    $cmds .= $newLine;
+									$cmds .= "          ".$fila1['idProducto']."  ".$cantidad."  ".$valorUnitario;
                                     $cmds .= $newLine;
                                 }
 
@@ -622,9 +628,7 @@ if(isset($_SESSION['login'])) {
                                 $totalventa=$subtotalsinsunat+$totalsunat;
 
                                 $cmds .= $newLine.$newLine;
-                                $cmds .= 'VENTA PUBLICO '.round($subtotalcatalogo,1);
-                                $cmds .= $newLine;
-                                $cmds .= 'DESC.  '.round($totaldescuentocatalogo,1);
+                                $cmds .= 'VENTA PUBLICO '.round($subTotalVentaNoDesc,1);
                                 $cmds .= $newLine;
                                 $cmds .= 'DESC. ESP. '.round($totaldescuento,1);
                                 $cmds .= $newLine;

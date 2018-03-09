@@ -1,17 +1,10 @@
 ﻿Ingresos
 Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
-1,2018-03-06,MOV18C06S2446,Jessica Adriana Salas Pacheco,LADY FERRARI,Venta,,0
-2,2018-03-06,MOV18C06Q2157,Jessica Adriana Salas Pacheco,LOURDES SEGOVIA (CAMANA),Venta,,0
-3,2018-03-06,MOV18C06Q0001,Jessica Adriana Salas Pacheco,GLORIA RIVERA,Venta,,0
-4,2018-03-06,MOV18C06P1427,Jessica Adriana Salas Pacheco,MARIA EUGENIA MARTINEZ,Cobro Venta,,86.2
-5,2018-03-06,MOV18C06P1236,Jessica Adriana Salas Pacheco,OLGA ORTEGA,Venta,,25.2
-6,2018-03-06,MOV18C06K1124,Jessica Adriana Salas Pacheco,ALICIA GUERRA SERRANO,Venta,,9.9
-7,2018-03-06,MOV18C06K1023,Jessica Adriana Salas Pacheco,ALICIA GUERRA SERRANO,Venta,,67.2
-8,2018-03-06,MOV18C06J5857,Roxana Hinojosa Menendez,NILDA MERCADO BENAVIDES,Venta,,21.30
-9,2018-03-06,MOV18C06J1615,Jessica Adriana Salas Pacheco,INGRID HUISA,Venta,,0
-10,2018-03-06,MOV18C06I4643,Jessica Adriana Salas Pacheco,HUGO TRONCOZO,Venta,,88
+1,2018-03-08,MOV18C08Q4758,Jessica Adriana Salas Pacheco,MILUSKA MEJIA,Venta,,31.4
+2,2018-03-08,MOV18C08M1007,Jessica Adriana Salas Pacheco,KATHY SUYO TERAN,Venta,,40.7
+3,2018-03-08,MOV18C08L0500,Jessica Adriana Salas Pacheco,MARINA SALAS,Venta,,0
 
-Total,297.8
+Total,72.1
 
 
 Egresos
@@ -30,7 +23,7 @@ Saldos
 
 CAJA CHICA
 
-216.7
+257.4
 
 VISA
 

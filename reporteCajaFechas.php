@@ -58,36 +58,38 @@
 								$totalingresos = 0;
 								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 1) ORDER BY fecha DESC");
 								while($row = mysqli_fetch_array($query)){
-                                    $fechaTransac = explode("|",$row['fecha']);
-                                    $fechaTransaccionCompleta = $fechaTransac[0];
-									if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
-										$aux++;
-										$fecha=explode("|",$row['fecha']);
-										echo "<tr>";
-										echo "<td>{$aux}</td>";
-										echo "<td>{$fecha[0]}</td>";
-										$result = mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$row['idColaborador']}'");
-										while ($fila=mysqli_fetch_array($result)){
-											$nombre = $fila['nombres']." ".$fila['apellidos'];
+									if($row['monto'] > 0){
+										$fechaTransac = explode("|",$row['fecha']);
+										$fechaTransaccionCompleta = $fechaTransac[0];
+										if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
+											$aux++;
+											$fecha=explode("|",$row['fecha']);
+											echo "<tr>";
+											echo "<td>{$aux}</td>";
+											echo "<td>{$fecha[0]}</td>";
+											$result = mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$row['idColaborador']}'");
+											while ($fila=mysqli_fetch_array($result)){
+												$nombre = $fila['nombres']." ".$fila['apellidos'];
+											}
+											$result = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+											while ($fila=mysqli_fetch_array($result)){
+												$nombreProveedor = $fila['nombre'];
+											}
+											$result = mysqli_query($link,"SELECT * FROM TipoMovimiento WHERE idTipoMovimiento = '{$row['idTipoMovimiento']}'");
+											while ($fila=mysqli_fetch_array($result)){
+												$tipo = $fila['descripcion'];
+											}
+											echo "<td>{$row['idMovimiento']}</td>";
+											echo "<td>{$nombre}</td>";
+											echo "<td>{$nombreProveedor}</td>";
+											echo "<td>{$tipo}</td>";
+											echo "<td>{$row['observaciones']}</td>";
+											echo "<td>S/. + {$row['monto']}</td>";
+											echo "</tr>";
+											$totalingresos += $row['monto'];
+											$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$nombre.",".$nombreProveedor.",".$tipo.",".$row['observaciones'].",".$row['monto'].PHP_EOL;
+											fwrite($file, $txt);
 										}
-										$result = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
-										while ($fila=mysqli_fetch_array($result)){
-											$nombreProveedor = $fila['nombre'];
-										}
-										$result = mysqli_query($link,"SELECT * FROM TipoMovimiento WHERE idTipoMovimiento = '{$row['idTipoMovimiento']}'");
-										while ($fila=mysqli_fetch_array($result)){
-											$tipo = $fila['descripcion'];
-										}
-										echo "<td>{$row['idMovimiento']}</td>";
-										echo "<td>{$nombre}</td>";
-										echo "<td>{$nombreProveedor}</td>";
-										echo "<td>{$tipo}</td>";
-										echo "<td>{$row['observaciones']}</td>";
-										echo "<td>S/. + {$row['monto']}</td>";
-										echo "</tr>";
-										$totalingresos += $row['monto'];
-										$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$nombre.",".$nombreProveedor.",".$tipo.",".$row['observaciones'].",".$row['monto'].PHP_EOL;
-										fwrite($file, $txt);
 									}
 								}
 								?>
@@ -130,35 +132,37 @@
 								$totalegresos = 0;
 								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 0) ORDER BY fecha DESC");
 								while($row = mysqli_fetch_array($query)){
-                                    $fechaTransac = explode("|",$row['fecha']);
-                                    $fechaTransaccionCompleta = $fechaTransac[0];
-									if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
-										$fecha=explode("|",$row['fecha']);
-										echo "<tr>";
-										echo "<td>{$aux}</td>";
-										echo "<td>{$fecha[0]}</td>";
-										$result = mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$row['idColaborador']}'");
-										while ($fila=mysqli_fetch_array($result)){
-											$nombre = $fila['nombres']." ".$fila['apellidos'];
+									if($row['monto'] > 0){
+										$fechaTransac = explode("|",$row['fecha']);
+										$fechaTransaccionCompleta = $fechaTransac[0];
+										if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
+											$fecha=explode("|",$row['fecha']);
+											echo "<tr>";
+											echo "<td>{$aux}</td>";
+											echo "<td>{$fecha[0]}</td>";
+											$result = mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$row['idColaborador']}'");
+											while ($fila=mysqli_fetch_array($result)){
+												$nombre = $fila['nombres']." ".$fila['apellidos'];
+											}
+											$result = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+											while ($fila=mysqli_fetch_array($result)){
+												$nombreProveedor = $fila['nombre'];
+											}
+											$result = mysqli_query($link,"SELECT * FROM TipoMovimiento WHERE idTipoMovimiento = '{$row['idTipoMovimiento']}'");
+											while ($fila=mysqli_fetch_array($result)){
+												$tipo = $fila['descripcion'];
+											}
+											echo "<td>{$row['idMovimiento']}</td>";
+											echo "<td>{$nombre}</td>";
+											echo "<td>{$nombreProveedor}</td>";
+											echo "<td>{$tipo}</td>";
+											echo "<td>{$row['observaciones']}</td>";
+											echo "<td>S/. - {$row['monto']}</td>";
+											echo "</tr>";
+											$totalegresos += $row['monto'];
+											$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$nombre.",".$nombreProveedor.",".$tipo.",".$row['observaciones'].",".$row['monto'].PHP_EOL;
+											fwrite($file, $txt);
 										}
-										$result = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
-										while ($fila=mysqli_fetch_array($result)){
-											$nombreProveedor = $fila['nombre'];
-										}
-										$result = mysqli_query($link,"SELECT * FROM TipoMovimiento WHERE idTipoMovimiento = '{$row['idTipoMovimiento']}'");
-										while ($fila=mysqli_fetch_array($result)){
-											$tipo = $fila['descripcion'];
-										}
-										echo "<td>{$row['idMovimiento']}</td>";
-										echo "<td>{$nombre}</td>";
-										echo "<td>{$nombreProveedor}</td>";
-										echo "<td>{$tipo}</td>";
-										echo "<td>{$row['observaciones']}</td>";
-										echo "<td>S/. - {$row['monto']}</td>";
-										echo "</tr>";
-										$totalegresos += $row['monto'];
-										$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$nombre.",".$nombreProveedor.",".$tipo.",".$row['observaciones'].",".$row['monto'].PHP_EOL;
-										fwrite($file, $txt);
 									}
 								}
 								?>
@@ -200,28 +204,29 @@
 								$totalcupones = 0;
 								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idMedioPago = 3 ORDER BY fecha DESC");
 								while($row = mysqli_fetch_array($query)){
-                                    $fechaTransac = explode("|",$row['fecha']);
-                                    $fechaTransaccionCompleta = $fechaTransac[0];
-									if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
-										$fecha=explode("|",$row['fecha']);
-										echo "<tr>";
-										echo "<td>{$aux}</td>";
-										echo "<td>{$fecha[0]}</td>";
-										$result = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
-										while ($fila=mysqli_fetch_array($result)){
-											$nombreProveedor = $fila['nombre'];
+									if($row['monto'] > 0){
+										$fechaTransac = explode("|",$row['fecha']);
+										$fechaTransaccionCompleta = $fechaTransac[0];
+										if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
+											$fecha=explode("|",$row['fecha']);
+											echo "<tr>";
+											echo "<td>{$aux}</td>";
+											echo "<td>{$fecha[0]}</td>";
+											$result = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+											while ($fila=mysqli_fetch_array($result)){
+												$nombreProveedor = $fila['nombre'];
+											}
+											echo "<td>{$row['idMovimiento']}</td>";
+											echo "<td>{$row['idTransaccionPrimaria']}</td>";
+											echo "<td>{$row['idTransaccionReferencial']}</td>";
+											echo "<td>{$nombreProveedor}</td>";
+											echo "<td>S/. + {$row['monto']}</td>";
+											echo "</tr>";
+											$totalcupones += $row['monto'];
+											$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$row['idTransaccionPrimaria'].",".$row['idTransaccionReferencial'].",".$nombreProveedor.",".$row['monto'].PHP_EOL;
+											fwrite($file, $txt);
 										}
-										echo "<td>{$row['idMovimiento']}</td>";
-										echo "<td>{$row['idTransaccionPrimaria']}</td>";
-										echo "<td>{$row['idTransaccionReferencial']}</td>";
-										echo "<td>{$nombreProveedor}</td>";
-										echo "<td>S/. + {$row['monto']}</td>";
-										echo "</tr>";
-										$totalcupones += $row['monto'];
-										$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$row['idTransaccionPrimaria'].",".$row['idTransaccionReferencial'].",".$nombreProveedor.",".$row['monto'].PHP_EOL;
-										fwrite($file, $txt);
 									}
-
 								}
 								?>
                                 <tr>

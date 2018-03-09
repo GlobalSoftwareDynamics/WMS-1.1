@@ -1,44 +1,23 @@
 Resumen
 
-Total Compras,19994.68
-Total Ventas,8812.2
-Total Préstamos,3892.3
+Total Compras,0
+Total Ventas,179.5
+Total Préstamos,308.9
 
 
 Compras
-
-Nombre,Código,Monto
-Dante Luis Carrera Vasquez,29685613,10599.91
-
-Nombre,Código,Monto
-Usuario Prueba,2954585,1507.46
-
-Nombre,Código,Monto
-Jessica Adriana Salas Pacheco,29609835,4839.22
-
-Nombre,Código,Monto
-Roxana Hinojosa Menendez,29625258,3048.09
 
 
 Ventas
 
 Nombre,Código,Monto
-Usuario Prueba,2954585,77
-
-Nombre,Código,Monto
-Jessica Adriana Salas Pacheco,29609835,8048.2
-
-Nombre,Código,Monto
-Roxana Hinojosa Menendez,29625258,687
+Jessica Adriana Salas Pacheco,29609835,179.5
 
 
 Préstamos
 
 Nombre,Código,Monto
-Usuario Prueba,2954585,219
+Roxana Hinojosa Menendez,29625258,90.9
 
 Nombre,Código,Monto
-Jessica Adriana Salas Pacheco,29609835,3400.4
-
-Nombre,Código,Monto
-Roxana Hinojosa Menendez,29625258,272.9
+Jessica Adriana Salas Pacheco,29609835,218

@@ -57,21 +57,22 @@ $aux3 = 0;
                             <table class="table">
                                 <thead>
                                 <tr>
-                                    <th class="text-center">Item</th>
-                                    <th class="text-center">Colaboradora</th>
-                                    <th class="text-center">Transacción</th>
-                                    <th class="text-center">Fecha</th>
-                                    <th class="text-center">Producto</th>
-                                    <th class="text-center">Cantidad</th>
-                                    <th class="text-center">Valor Unitario (S/.)</th>
-                                    <th class="text-center">Total (S/.)</th>
+                                    <th class="text-center" style="width: 5%">Item</th>
+                                    <th class="text-center" style="width: 15%">Colaboradora</th>
+                                    <th class="text-center" style="width: 15%">Cliente</th>
+                                    <th class="text-center" style="width: 10%">Transacción</th>
+                                    <th class="text-center" style="width: 10%">Fecha</th>
+                                    <th class="text-center" style="width: 15%">Producto</th>
+                                    <th class="text-center" style="width: 10%">Cantidad</th>
+                                    <th class="text-center" style="width: 10%">Valor Unitario (S/.)</th>
+                                    <th class="text-center" style="width: 10%">Total (S/.)</th>
                                 </tr>
                                 </thead>
                                 <tbody>
 								<?php
 								$file = fopen($fileName,"w") or die("No se encontró el archivo!");
 								fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-								$txt = "Compras".PHP_EOL."Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total".PHP_EOL;
+								$txt = "Compras".PHP_EOL."Item,Colaboradora,Cliente,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total".PHP_EOL;
 								fwrite($file, $txt);
 								$valorCompras = 0;
 								$dateInicio = explode("-", $_POST['fechaInicioReporte']);
@@ -97,6 +98,11 @@ $aux3 = 0;
 												$nombreColaborador = $nombreColaborador." ".$row3['apellidos'];
 												echo "<td class='text-center'>{$row3['nombres']} {$row3['apellidos']}</td>";
 											}
+											$query3 = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+											while($row3 = mysqli_fetch_array($query3)){
+												$nombreProveedor = $row3['nombre'];
+												echo "<td class='text-center'>{$row3['nombre']}</td>";
+											}
 											echo "<td class='text-center'>{$row['idTransaccion']}</td>";
 											$fechaTransaccion = explode("|",$row['fechaTransaccion']);
 											echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
@@ -115,18 +121,18 @@ $aux3 = 0;
 												$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
 											}else{
 											    $valorUnitario = round($row2['valorUnitario'],2);
-												echo "<td class='text-center'>{$valorUnitario}</td>";
+												echo "<td class='text-center'>S/. {$valorUnitario}</td>";
 												$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
 											}
 											$valorTotal = round($valorTotal,2);
-											echo "<td class='text-center'>{$valorTotal}</td>";
+											echo "<td class='text-center'>S/. {$valorTotal}</td>";
 											$totalCompras += $valorTotal;
 											if(!isset($colaboradorasComprasValores[$aux2])){
 												$colaboradorasComprasValores[$aux2] = 0;
 											}
 											$colaboradorasComprasValores[$aux2] += $valorTotal;
 											echo "</tr>";
-											$txt = $aux.",".$nombreColaborador.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
+											$txt = $aux.",".$nombreColaborador.",".$nombreProveedor.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
 											fwrite($file, $txt);
 										}
 										$aux2++;
@@ -191,6 +197,7 @@ $aux3 = 0;
                                 <tr>
                                     <th class="text-center">Item</th>
                                     <th class="text-center">Colaboradora</th>
+                                    <th class="text-center">Cliente</th>
                                     <th class="text-center">Transacción</th>
                                     <th class="text-center">Fecha</th>
                                     <th class="text-center">Producto</th>
@@ -202,7 +209,7 @@ $aux3 = 0;
                                 <tbody>
 								<?php
 								$file = fopen($fileName,"w") or die("No se encontró el archivo!");
-								$txt = "Ventas".PHP_EOL."Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total".PHP_EOL;
+								$txt = "Ventas".PHP_EOL."Item,Colaboradora,Cliente,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total".PHP_EOL;
 								fwrite($file, $txt);
 								$valorCompras = 0;
 								$dateInicio = explode("-", $_POST['fechaInicioReporte']);
@@ -229,6 +236,11 @@ $aux3 = 0;
 												$nombreColaborador = $nombreColaborador." ".$row3['apellidos'];
 												echo "<td class='text-center'>{$row3['nombres']} {$row3['apellidos']}</td>";
 											}
+											$query3 = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+											while($row3 = mysqli_fetch_array($query3)){
+												$nombreProveedor = $row3['nombre'];
+												echo "<td class='text-center'>{$row3['nombre']}</td>";
+											}
 											echo "<td class='text-center'>{$row['idTransaccion']}</td>";
 											$fechaTransaccion = explode("|",$row['fechaTransaccion']);
 											echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
@@ -247,18 +259,18 @@ $aux3 = 0;
 												$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
 											}else{
 											    $valorUnitario = round($row2['valorUnitario'],2);
-												echo "<td class='text-center'>{$valorUnitario}</td>";
+												echo "<td class='text-center'>S/. {$valorUnitario}</td>";
 												$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
 											}
 											$valorTotal = round($valorTotal,2);
-											echo "<td class='text-center'>{$valorTotal}</td>";
+											echo "<td class='text-center'>S/. {$valorTotal}</td>";
 											$totalVentas += $valorTotal;
 											if(!isset($colaboradorasVentasValores[$aux2])){
 												$colaboradorasVentasValores[$aux2] = 0;
 											}
 											$colaboradorasVentasValores[$aux2] += $valorTotal;
 											echo "</tr>";
-											$txt = $aux.",".$nombreColaborador.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
+											$txt = $aux.",".$nombreColaborador.",".$nombreProveedor.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
 											fwrite($file, $txt);
 										}
 										$aux2++;
@@ -323,6 +335,7 @@ $aux3 = 0;
                                 <tr>
                                     <th class="text-center">Item</th>
                                     <th class="text-center">Colaboradora</th>
+                                    <th class="text-center">Cliente</th>
                                     <th class="text-center">Transacción</th>
                                     <th class="text-center">Fecha</th>
                                     <th class="text-center">Producto</th>
@@ -334,7 +347,7 @@ $aux3 = 0;
                                 <tbody>
 								<?php
 								$file = fopen($fileName,"w") or die("No se encontró el archivo!");
-								$txt = "Préstamos".PHP_EOL."Item,Colaboradora,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total".PHP_EOL;
+								$txt = "Préstamos".PHP_EOL."Item,Colaboradora,Cliente,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total".PHP_EOL;
 								fwrite($file, $txt);
 								$valorCompras = 0;
 								$dateInicio = explode("-", $_POST['fechaInicioReporte']);
@@ -361,6 +374,11 @@ $aux3 = 0;
 												$nombreColaborador = $nombreColaborador." ".$row3['apellidos'];
 												echo "<td class='text-center'>{$row3['nombres']} {$row3['apellidos']}</td>";
 											}
+											$query3 = mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+											while($row3 = mysqli_fetch_array($query3)){
+												$nombreProveedor = $row3['nombre'];
+												echo "<td class='text-center'>{$row3['nombre']}</td>";
+											}
 											echo "<td class='text-center'>{$row['idTransaccion']}</td>";
 											$fechaTransaccion = explode("|",$row['fechaTransaccion']);
 											echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
@@ -379,18 +397,18 @@ $aux3 = 0;
 												$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
 											}else{
 											    $valorUnitario = round($row2['valorUnitario'],2);
-												echo "<td class='text-center'>{$valorUnitario}</td>";
+												echo "<td class='text-center'>S/. {$valorUnitario}</td>";
 												$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
 											}
 											$valorTotal = round($valorTotal,2);
-											echo "<td class='text-center'>{$valorTotal}</td>";
+											echo "<td class='text-center'>S/. {$valorTotal}</td>";
 											$totalPrestamos += $valorTotal;
 											if(!isset($colaboradorasPrestamosValores[$aux2])){
 												$colaboradorasPrestamosValores[$aux2] = 0;
 											}
 											$colaboradorasPrestamosValores[$aux2] += $valorTotal;
 											echo "</tr>";
-											$txt = $aux.",".$nombreColaborador.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
+											$txt = $aux.",".$nombreColaborador.",".$nombreProveedor.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
 											fwrite($file, $txt);
 										}
 										$aux2++;
@@ -465,9 +483,9 @@ $aux3 = 0;
                                 <tbody>
 								<?php
 								echo "<tr>";
-								echo "<td class='text-center'>{$totalCompras}</td>";
-								echo "<td class='text-center'>{$totalVentas}</td>";
-								echo "<td class='text-center'>{$totalPrestamos}</td>";
+								echo "<td class='text-center'>S/. {$totalCompras}</td>";
+								echo "<td class='text-center'>S/. {$totalVentas}</td>";
+								echo "<td class='text-center'>S/. {$totalPrestamos}</td>";
 								echo "</tr>";
 								$file = fopen($fileName,"w") or die("No se encontró el archivo!");
 								$txt = 'Resumen'.PHP_EOL;
@@ -507,7 +525,7 @@ $aux3 = 0;
 										echo"<td class='text-center'>{$row['nombres']} {$row['apellidos']}</td>";
 									}
 									echo"<td class='text-center'>{$comprador}</td>";
-									echo"<td class='text-center'>{$colaboradorasComprasTotales[$aux]}</td>";
+									echo"<td class='text-center'>S/. {$colaboradorasComprasTotales[$aux]}</td>";
 									echo "</tr>";
 									$txt = PHP_EOL."Nombre,Código,Monto".PHP_EOL;
 									fwrite($file, $txt);
@@ -542,7 +560,7 @@ $aux3 = 0;
 										echo"<td class='text-center'>{$row['nombres']} {$row['apellidos']}</td>";
 									}
 									echo"<td class='text-center'>{$comprador}</td>";
-									echo"<td class='text-center'>{$colaboradorasVentasTotales[$aux]}</td>";
+									echo"<td class='text-center'>S/. {$colaboradorasVentasTotales[$aux]}</td>";
 									echo "</tr>";
 									$txt = PHP_EOL."Nombre,Código,Monto".PHP_EOL;
 									fwrite($file, $txt);
@@ -577,7 +595,7 @@ $aux3 = 0;
 										echo"<td class='text-center'>{$row['nombres']} {$row['apellidos']}</td>";
 									}
 									echo"<td class='text-center'>{$comprador}</td>";
-									echo"<td class='text-center'>{$colaboradorasPrestamosTotales[$aux]}</td>";
+									echo"<td class='text-center'>S/. {$colaboradorasPrestamosTotales[$aux]}</td>";
 									echo "</tr>";
 									$txt = PHP_EOL."Nombre,Código,Monto".PHP_EOL;
 									fwrite($file, $txt);
