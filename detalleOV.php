@@ -225,20 +225,8 @@ if(isset($_SESSION['login'])) {
                                     </thead>
                                     <tbody>
                                     <?php
-                                    $result = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTransaccionPrimaria = '{$_POST['idTransaccion']}' ORDER BY fecha DESC");
-                                    while ($fila=mysqli_fetch_array($result)){
-                                        $result3=mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$fila['idColaborador']}'");
-                                        while ($fila3=mysqli_fetch_array($result3)){
-                                            $responsable = $fila3['nombres']." ".$fila3['apellidos'];
-                                        }
-                                        $result3=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
-                                        while ($fila3=mysqli_fetch_array($result3)){
-                                            $proveedor = $fila3['nombre'];
-                                        }
-
-                                        $fecha=explode("|",$fila['fecha']);
-
-                                        $date = date('Y-m-d');
+									
+									$date = date('Y-m-d');
 
                                         $replace = [
                                             '&lt;' => '', '&gt;' => '', '&#039;' => '', '&amp;' => '',
@@ -311,12 +299,22 @@ if(isset($_SESSION['login'])) {
                                         $cmds .= $newLine;
                                         $cmds .= 'CODIGO PAGO   MONTO   FECHA';
                                         $cmds .= $newLine;
+										
+                                    $result = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTransaccionPrimaria = '{$_POST['idTransaccion']}' ORDER BY fecha DESC");
+                                    while ($fila=mysqli_fetch_array($result)){
+                                        $result3=mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$fila['idColaborador']}'");
+                                        while ($fila3=mysqli_fetch_array($result3)){
+                                            $responsable = $fila3['nombres']." ".$fila3['apellidos'];
+                                        }
+                                        $result3=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$fila['idProveedor']}'");
+                                        while ($fila3=mysqli_fetch_array($result3)){
+                                            $proveedor = $fila3['nombre'];
+                                        }
+
+                                        $fecha=explode("|",$fila['fecha']);
+                                      
                                         $cmds .= $fila['idMovimiento']." ".$fila['monto']."  ".$fecha[0];
-                                        $cmds .= $newLine.$newLine.$newLine;
-                                        $cmds .= '------------------';
                                         $cmds .= $newLine;
-                                        $cmds .= ' FIRMA CONSULTORA';
-                                        $cmds .=$newLine.$newLine.$newLine.$newLine.$newLine;
 
                                         echo "<tr>";
                                         echo "<td>{$fila['idMovimiento']}</td>";
@@ -326,6 +324,12 @@ if(isset($_SESSION['login'])) {
                                         echo "<td>S/. {$fila['monto']}</td>";
                                         echo "</tr>";
                                     }
+									
+										$cmds .= $newLine.$newLine.$newLine;
+                                        $cmds .= '------------------';
+                                        $cmds .= $newLine;
+                                        $cmds .= ' FIRMA CONSULTORA';
+                                        $cmds .=$newLine.$newLine.$newLine.$newLine.$newLine;
                                     ?>
                                     <textarea id='printerCommands' name='printerCommands' class='form-control' form="myForm" hidden><?php echo $cmds;?></textarea>
                                     </tbody>

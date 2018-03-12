@@ -1,4 +1,5 @@
 ﻿Fecha,Referencia Primaria,Referencia Secundaria,Persona,Medio de Pago,Comprobante,Tipo,Monto,Destino
+2018-03-12,MOV18C12L2631,OV18C12L1404,,ROSARIO GUTIERREZ,Pago en Efectivo,Cobro Venta,+100.00,
 2018-03-12,MOV18C12J4756,OV18C12J4604,,ELIZABETH RUBINA,Pago en Efectivo,Venta,+40,
 2018-03-12,MOV18C12J4229,OV18C02K0653,,ELIZABETH RUBINA,Pago en Efectivo,Cobro Venta,+97.5,
 2018-03-12,MOV18C12J4155,OV18B26J3520,,ELIZABETH RUBINA,Pago en Efectivo,Cobro Venta,+102.8,

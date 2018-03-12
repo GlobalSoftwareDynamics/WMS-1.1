@@ -343,11 +343,7 @@ if(isset($_SESSION['login'])) {
                     <tbody>
                     <tr>
                         <th>Venta Público:</th>
-                        <td>S/. <?php echo round($subtotalcatalogo,1)?></td>
-                    </tr>
-                    <tr>
-                        <th>Descuento:</th>
-                        <td>S/. <?php echo round($totaldescuentocatalogo,1)?></td>
+                        <td>S/. <?php echo round($subtotal,1)?></td>
                     </tr>
                     <tr>
                         <th>Descuento Especial:</th>

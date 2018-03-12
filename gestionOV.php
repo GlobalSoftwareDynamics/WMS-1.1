@@ -62,8 +62,6 @@ if(isset($_SESSION['login'])) {
 
         if($_POST['montofaltante']>0){
 
-            echo "Mayor 0";
-
             $query="UPDATE Transaccion SET idEstado = 6, fechaVencimiento = '{$_POST['fechavencimiento']}', idComprobante = '{$_POST['comprobante']}', montoTotal = '{$_POST['montototal']}',
             montoRestante = '{$_POST['montofaltante']}' WHERE idTransaccion = '{$_POST['idTransaccion']}'";
             $update=mysqli_query($link,$query);
@@ -153,8 +151,6 @@ if(isset($_SESSION['login'])) {
             }
 
         }elseif($_POST['montofaltante']==$_POST['montototal']){
-
-            echo "Iguales";
 
             $query="UPDATE Transaccion SET idEstado = 3, fechaVencimiento = '{$_POST['fechavencimiento']}' , idComprobante = '{$_POST['comprobante']}', montoTotal = '{$_POST['montototal']}',
             montoRestante = 0 WHERE idTransaccion = '{$_POST['idTransaccion']}'";
