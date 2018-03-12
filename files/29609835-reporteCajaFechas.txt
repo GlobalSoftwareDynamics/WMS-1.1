@@ -1,9 +1,12 @@
 ﻿Ingresos
 Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
-1,2018-03-10,MOV18C10L0858,Jessica Adriana Salas Pacheco,MARIA ELENA QUIROZ,Venta,,16.6
-2,2018-03-10,MOV18C10K0049,Jessica Adriana Salas Pacheco,LIZ VEGA,Venta,,33.2
+1,2018-03-12,MOV18C12L3958,Jessica Adriana Salas Pacheco,ROSARIO GUTIERREZ,Venta,,100
+2,2018-03-12,MOV18C12L2631,Jessica Adriana Salas Pacheco,ROSARIO GUTIERREZ,Cobro Venta,,100.00
+3,2018-03-12,MOV18C12J4756,Jessica Adriana Salas Pacheco,ELIZABETH RUBINA,Venta,,40
+4,2018-03-12,MOV18C12J4229,Jessica Adriana Salas Pacheco,ELIZABETH RUBINA,Cobro Venta,,97.5
+5,2018-03-12,MOV18C12J4155,Jessica Adriana Salas Pacheco,ELIZABETH RUBINA,Cobro Venta,,102.8
 
-Total,49.8
+Total,440.3
 
 
 Egresos

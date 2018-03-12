@@ -68,6 +68,7 @@
                                     $txt = $aux.",".$fila['fechaCierre'].",".$nombreProducto.",".$fila['idUbicacion'].",".$fila['stock'].PHP_EOL;
                                     fwrite($file, $txt);
                                 }
+								fclose($file);
                                 ?>
                                 </tbody>
                             </table>

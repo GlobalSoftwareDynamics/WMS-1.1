@@ -116,7 +116,7 @@
 0003671;SOLO GEL AFTER SHAVE A/P;Hidrata, protege y suaviza;Collares;14;2018-02-05;0
 0003680;OSADIA BODY LOTION;Hidrata, protege y suaviza;Collares;17;2018-02-01;0
 0003693;Sensual Bronz Polvos Bronceadores Sexy Miel ;Negro;Collares;4;2018-02-01;0
-0003701;EFFECTIVE ORIGINAL DESODORANTE;Blanco tapa celeste;Collares;249;2018-03-10;0.04
+0003701;EFFECTIVE ORIGINAL DESODORANTE;Blanco tapa celeste;Collares;245;2018-03-12;0.04
 0003713;CLIC BRILLO LABIAL ALGODON DE AZUCAR;rosa claro;Collares;1;2018-02-01;0
 0003716;CLIC BRILLOS MANZANA ACARAMELADA;rojo claro;Collares;1;2018-02-01;0
 0003717;CLIC BRILLO LABIAL TOFFEE TENTACION ;cafe;Collares;1;2018-02-01;0
@@ -308,10 +308,10 @@
 0004647;TITANIUM HIDRATANTE ENERGIZANT;Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco e hidratado;Collares;13;2018-02-05;0
 0004649;REVITALIST CREMA NUTRITIVA;Fuerza nutritiva, accion hidratante, poder aislante;Collares;5;2018-02-05;0
 0004651;REVITALIST HIDRATANTE;Hidratante y energizante;Collares;18;2018-03-10;0
-0004652;ELIXIR DE VIDA HIDRATANTE;Hidrata, hipoalergenico con resveratrol.;Collares;47;2018-03-12;2.17
+0004652;ELIXIR DE VIDA HIDRATANTE;Hidrata, hipoalergenico con resveratrol.;Collares;46;2018-03-12;2.17
 0004653;ELIXIR DE VIDA SUERO RECONSTITUYENTE;Resveratrol, que activa las Sirtuínas conocidas como las proteínas de juventud,;Collares;7;2018-02-28;0
 0004654;REVITALIST LIMPIADOR;Limpia, hipoalergenico menores de 35 años;Collares;30;2018-03-10;1.5
-0004655;ELIXIR DE VIDA LIMPIADOR;Limpia con resveratrol e hipoalergenico.;Collares;87;2018-03-07;11.7
+0004655;ELIXIR DE VIDA LIMPIADOR;Limpia con resveratrol e hipoalergenico.;Collares;86;2018-03-12;11.7
 0004656;BODY SPA UÑA DE GATO CREMA REPARADORA A/P;Repara e hidrata la piel.;Perfumería Dama;61;2018-02-19;0
 0004657;HYDRA LIP LABIAL COLOR INTENSO  DELICATTA ;palo de rosa oscuro;Perfumería Dama;2;2018-02-01;12
 0004661;HYDRA LIP LABIAL COLOR INTENSO  ATARDECER  CARIBE;rosado;Perfumería Dama;1;2018-02-01;16.3
@@ -403,7 +403,7 @@
 0004891;HYDRA LIP LABIAL COLOR INTENSO BAILE ROSA;palo de rosa;Protectores Solares;9;2018-02-05;16.3
 0004892;HYDRA LIP LABIAL COLOR INTENSO  CHOCOLAT MOUSSE;Chocolate;Protectores Solares;26;2018-02-28;16.9
 0004893;HYDRA LIP LABIAL COLOR INTENSO  TERCIOPELO  NEGRO;vino fuerte;Protectores Solares;33;2018-03-06;18.2
-0004894;HYDRA LIP LABIAL COLOR INTENSO  AMBRE;nude oscuro;Protectores Solares;29;2018-03-05;16.29
+0004894;HYDRA LIP LABIAL COLOR INTENSO  AMBRE;nude oscuro;Protectores Solares;28;2018-03-12;16.29
 0004895;HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION;rojo claro;Protectores Solares;34;2018-03-06;16.29
 0004896;HYDRA LIP LABIAL COLOR INTENSO RUMORES;coral;Protectores Solares;18;2018-02-05;16.3
 0004897;HYDRA LIP LABIAL COLOR INTENSO  MORA ZEN;lila;Protectores Solares;25;2018-03-02;16.3
@@ -449,7 +449,7 @@
 0005004;HYDRA LIP LABIAL COLOR INTENSO FUCSIA BOHEME;fucsia;Collares;3;2018-02-01;16.3
 0005005;HYDRA LIP LABIAL COLOR INTENSO ALMA GUINDA;guinda ;Collares;5;2018-02-01;18.2
 0005008;C/S COLOR EFFECT BOHEME;Rosados y celestes;Collares;1;2018-02-01;0
-0005009;CONTROL BLANC RX SET ANTIMANCHAS;Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ;Collares;19;2018-03-12;32.02
+0005009;CONTROL BLANC RX SET ANTIMANCHAS;Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ;Collares;18;2018-03-12;32.02
 0005017;CREMA HIDRATANTE BIO MILK PERA MANZANA;Con proteinas de yogurt probiotico;Delineadores;186;2018-03-02;19
 0005018;CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA A/P;Con proteinas de yogurt probiotico;Delineadores;218;2018-02-19;0
 0005029;SOLO COLOGNE FOR MEN;Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ;Delineadores;94;2018-03-03;0
@@ -582,7 +582,7 @@
 0011086;BS KIDS PITAHAYA SH Y ACON NIÑO;Aroma Citrico No lagrimas;Collares;37;2018-02-19;0
 0011087;BS KIDS PITAHAYA SHA Y ACON NIÑA;Aroma Frutal No lagrimas 2 en 1;Collares;51;2018-03-05;0
 0011088;TOTAL BLOCK KIDS SPF 70 A/P;Rostro y Cuerpo;Collares;56;2018-02-19;0
-0011089;TOTALIST CONCHA DE NACAR CREMA ROSTRO;Aclara, reafirma, alisa arrugas,,  nutre;Collares;327;2018-03-06;0
+0011089;TOTALIST CONCHA DE NACAR CREMA ROSTRO;Aclara, reafirma, alisa arrugas,,  nutre;Collares;326;2018-03-12;0
 0011090;TOTALIST ALOE VERA CREMA MULTIACCION;Hidrata, nutre y protege.;Collares;82;2018-03-02;0
 0011091;TOTALIST CONCHA DE NACAR LIMPIADOR;propiedades aclarantes y antimanchas;Collares;14;2018-02-05;0
 0011092;TOTALIST ALOE VERA LIMPIADOR MULTIACCION;remover delicadamente las impurezas, grasitud y maquillaje;Collares;25;2018-02-05;0
@@ -630,7 +630,7 @@
 0011162;ESM PERFECT TEN NOCHE EN TOKIO;Negro;Collares;4;2018-02-19;14.9
 0011163;HYDRA-LIP LABIAL LIQUIDO FLOR CEREZO;rosada mediano;Collares;6;2018-02-05;18.2
 0011164;HYDRA-LIP LABIAL LIQUIDO MORA CALMA;morado claro;Collares;9;2018-02-05;18.2
-0011180;SENTIVA EXFOLIANTE FACIAL;Accion energizante;Collares;6;2018-03-05;4.6
+0011180;SENTIVA EXFOLIANTE FACIAL;Accion energizante;Collares;5;2018-03-12;4.6
 0011183;ULTRA DEFINITION DEL LABIOS ALMENDRA;Labios Almendra;Collares;1;2018-02-01;0
 0011196;TOTAL BLOCK REPELENTE SPF 30 A/P;Doble proteccion rostro y cuerpo , todo tipo de piel;Collares;15;2018-02-05;0
 0011197;COLONIA ZITRIKA LIMON;Citrica refrescante con aroma a Limon;Collares;420;2018-02-19;0
@@ -673,11 +673,11 @@
 0011261;SOY FASHION FRESH COLOGNE;Litchi dulce, chocolate blanco, almizcle delicado.;Collares;19;2018-02-23;0
 0011262;SOY SEXY FRESH COLOGNE;Nerolí, sándalo sensual, almizcle de piel.;Collares;19;2018-02-26;0
 0011263;Y. RIMEL NEGRO;Negro;Collares;3;2018-03-03;0
-0011266;EXTRACTO DIVINO CONCENTRADO;Una fórmula revolucionaria con todo el poder antiedad del Extracto de Cáliz de Uchuva;Collares;129;2018-03-12;1.2
+0011266;EXTRACTO DIVINO CONCENTRADO;Una fórmula revolucionaria con todo el poder antiedad del Extracto de Cáliz de Uchuva;Collares;127;2018-03-12;1.2
 0011268;HYDRA-LIP CRAYON SEMI MATE FUCSIA ORIENTAL;fucsia;Collares;2;2018-02-05;22.5
 0011269; HYDRA-LIP CRAYON SEMI MATE LILA ASIATICO;Lila;Collares;2;2018-02-05;22.5
 0011270;ESMALTE PERFECT TEN MARSALA INDOMABLE;Vino;Collares;6;2018-02-01;10.5
-0011272;SENTIVA MASCARILLA FACIAL;Accion purificante;Collares;10;2018-03-05;0
+0011272;SENTIVA MASCARILLA FACIAL;Accion purificante;Collares;9;2018-03-12;0
 0011273;LOCION DE SEDA;Negro;Collares;26;2018-03-06;0
 0011274;LOCION DE SEDA DIAMANTES;Hidrata y perfuma;Collares;4;2018-02-23;0
 0011276;DULCE VANIDAD EAU DE PARFUM;Nectarina, frambuesa, vainilla francesa.;Collares;49;2018-02-23;0
@@ -784,8 +784,8 @@
 0011417;BIO FRUIT GRANADA SHAM & ACON;aroma de la granada que además, ofrece su poder antioxidante;Collares;54;2018-03-10;0
 0011418;BIO MILK COCO CARIB CREMA;Negro;Collares;17;2018-03-09;0
 0011419;CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA (A/P);con proteina de yogurt probiotico;Collares;1;2018-03-09;0
-0011421;BIO FRUIT ORIGINAL SHAMPOO;aroma a base de base de pomelo blanco, durazno y flor de algodón.;Collares;101;2018-02-22;0
-0011422;BIO FRUIT ORIGINAL ACONDICIONADOR;aroma a base de pomelo blanco, durazno y flor de algodón.;Collares;30;2018-02-22;0
+0011421;BIO FRUIT ORIGINAL SHAMPOO;aroma a base de base de pomelo blanco, durazno y flor de algodón.;Collares;100;2018-03-12;0
+0011422;BIO FRUIT ORIGINAL ACONDICIONADOR;aroma a base de pomelo blanco, durazno y flor de algodón.;Collares;29;2018-03-12;0
 0011426;SOY FELIZ FRESH COLOGNE;Flor de guayaba, dulce azucena, corteza de maracaibo.;Collares;15;2018-03-05;0
 0011427;ELIXIR DE VIDA ROSTRO ANIVERSARIO;Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol;Collares;197;2018-02-20;0
 0011429;HYDRA-LIP CRAYON SEMI MATE MARRON TERRA;cafe;Collares;2;2018-02-05;22.5
@@ -826,7 +826,7 @@
 0011487;EAU DE SEDA EAU DE PARFUM ANIVERSARIO;Flor de seda, durazno y mimosa sensual.;Collares;2;2018-02-05;0
 0011490;Lesence Orquídeas Exóticas Cologne;Negro;Collares;59;2018-03-09;18.3
 0011492;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA CLARO 1;Efecto juventud inmediata accion antiedad con el uso continuo;Collares;3;2018-03-03;40.3
-0011493;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1;Piel Mediana;Collares;6;2018-03-03;20.15
+0011493;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1;Piel Mediana;Collares;5;2018-03-12;20.15
 0011494;POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 2;Efecto juventud inmediata, Accion antiedad con el uso continuo;Collares;2;2018-03-07;40.3
 0011501;BIO MILK CREMA HIDRATANTE ORIGINAL  EDICION NAVIDAD;aroma a base de pomelo blanco, durazno y flor de algodón que hidrata, suaviza y nutre;Collares;2;2018-02-05;0
 0011503; HYDRA-LIP LARGA DURACION AMOR PICANTE ;rojo oscuro;Collares;11;2018-03-05;19.3
