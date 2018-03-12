@@ -1,2 +1,0 @@
-Préstamos
-Item,Colaboradora,Cliente,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total

@@ -1,3 +1,0 @@
-Ventas
-Item,Colaboradora,Cliente,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
-1,Usuario Prueba,HUGO TRONCOZO,OV18C09I3129,2018-03-09,CIELO EAU DE PARFUM Flor de loto, jazmín, sándalo.,3,104,312

@@ -1,7 +1,0 @@
-Ventas
-Item,Colaboradora,Cliente,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
-1,Jessica Adriana Salas Pacheco,MARINA SALAS,OV18C08L0345,2018-03-08,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,1,49,49
-2,Jessica Adriana Salas Pacheco,MARINA SALAS,OV18C08L0345,2018-03-08,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,1,27,27
-3,Jessica Adriana Salas Pacheco,KATHY SUYO TERAN,OV18C08M0105,2018-03-08,BODY SPA BABY COLONIA Aceite de Algodon, con aguas florales 100% naturales,1,32,32
-4,Jessica Adriana Salas Pacheco,KATHY SUYO TERAN,OV18C08M0105,2018-03-08,Lesence Orquídeas Exóticas Cologne Negro,1,27.5,27.5
-5,Jessica Adriana Salas Pacheco,MILUSKA MEJIA,OV18C08Q4536,2018-03-08,B/L PERFECT COVER MAT T3 Acabado mate hasta por 8 horas. SPF 12.,1,44,44
