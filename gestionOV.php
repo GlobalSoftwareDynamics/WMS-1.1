@@ -30,7 +30,7 @@ if(isset($_SESSION['login'])) {
         $result=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$_POST['idTransaccion']}'");
         while ($fila=mysqli_fetch_array($result)){
             $cantidad=$fila['cantidad'];
-            $query=mysqli_query($link,"SELECT * FROM Almacen ORDER BY prioridad DESC");
+            $query=mysqli_query($link,"SELECT * FROM Almacen ORDER BY prioridad ASC");
             while ($row=mysqli_fetch_array($query)){
                 $query1=mysqli_query($link,"SELECT * FROM UbicacionProducto WHERE idProducto = '{$fila['idProducto']}' AND idUbicacion IN (SELECT idUbicacion FROM Ubicacion WHERE idAlmacen = '{$row['idAlmacen']}') ORDER BY idUbicacion");
                 while ($row1=mysqli_fetch_array($query1)){
