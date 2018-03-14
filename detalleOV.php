@@ -56,7 +56,7 @@ if(isset($_SESSION['login'])) {
                                 </div>
                                 <div class="row">
                                     <div class="col-3"><p><b>Fecha:</b></p></div>
-                                    <div class="col-9"><p><?php $fecha = explode("|",$row['fechaTransaccion']); echo $fecha[0];?></p></div>
+                                    <div class="col-9"><p><?php $fecha = explode(" ",$row['fechaTransaccion']); echo $fecha[0];?></p></div>
                                 </div>
                                 <?php
                                 if($row['montoRestante']>0){
@@ -311,7 +311,7 @@ if(isset($_SESSION['login'])) {
                                             $proveedor = $fila3['nombre'];
                                         }
 
-                                        $fecha=explode("|",$fila['fecha']);
+                                        $fecha=explode(" ",$fila['fecha']);
                                       
                                         $cmds .= $fila['idMovimiento']." ".$fila['monto']."  ".$fecha[0];
                                         $cmds .= $newLine;

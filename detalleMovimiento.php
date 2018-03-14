@@ -9,7 +9,7 @@ if(isset($_SESSION['login'])) {
     include('adminTemplate.php');
     $result = mysqli_query($link,"SELECT * FROM Movimiento WHERE idMovimiento = '{$_POST['idMovimiento']}'");
     while($row = mysqli_fetch_array($result)) {
-        $fecha = explode("|", $row['fecha']);
+        $fecha = explode(" ", $row['fecha']);
         $result2 = mysqli_query($link, "SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
         while ($row2 = mysqli_fetch_array($result2)) {
             $proveedor = $row2['nombre'];
@@ -57,7 +57,7 @@ if(isset($_SESSION['login'])) {
                                         $transPrimaria=$row5['idTransaccionPrimaria'];
                                         $transReferencial=$row5['idTransaccionReferencial'];
                                         $colaborador = $row5['idColaborador'];
-                                        $nuevafecha=explode("|",$row5['fecha']);
+                                        $nuevafecha=explode(" ",$row5['fecha']);
                                         $fechaTransaccion = $nuevafecha[0];
                                         $cliente = $row5['idProveedor'];
                                         $montoTotal = $row5['monto'];

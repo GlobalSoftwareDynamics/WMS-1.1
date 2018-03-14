@@ -72,7 +72,7 @@ $html='
 								$aux2 = 0;
 								$query = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTipoTransaccion IN (1) AND idColaborador = '{$_POST['idColaboradora']}' ORDER BY fechaTransaccion DESC");
 								while($row = mysqli_fetch_array($query)){
-                                    $fechaTransac = explode("|",$row['fechaTransaccion']);
+                                    $fechaTransac = explode(" ",$row['fechaTransaccion']);
                                     $fechaTransaccionCompleta = $fechaTransac[0];
 									if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
 										$colaboradorasCompras[$aux2] = $row['idColaborador'];
@@ -88,7 +88,7 @@ $html='
 												$html.= "<td class='text-center'>{$row3['nombres']} {$row3['apellidos']}</td>";
 											}
 											$html.= "<td class='text-center'>{$row['idTransaccion']}</td>";
-											$fechaTransaccion = explode("|",$row['fechaTransaccion']);
+											$fechaTransaccion = explode(" ",$row['fechaTransaccion']);
 											$html.= "<td class='text-center'>{$fechaTransaccion[0]}</td>";
 											$query3 = mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$row2['idProducto']}'");
 											while($row3 = mysqli_fetch_array($query3)){
@@ -167,7 +167,7 @@ $html.= '
 								$aux3 = 0;
 								$query = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTipoTransaccion IN (5) AND idColaborador = '{$_POST['idColaboradora']}' ORDER BY fechaTransaccion DESC");
 								while($row = mysqli_fetch_array($query)){
-                                    $fechaTransac = explode("|",$row['fechaTransaccion']);
+                                    $fechaTransac = explode(" ",$row['fechaTransaccion']);
                                     $fechaTransaccionCompleta = $fechaTransac[0];
 									if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
 										$colaboradorasVentas[$aux2] = $row['idColaborador'];
@@ -177,7 +177,7 @@ $html.= '
 											$html.= "<tr>";
 											$html.= "<td class='text-center'>$aux</td>";
 											$html.= "<td class='text-center'>{$row['idTransaccion']}</td>";
-											$fechaTransaccion = explode("|",$row['fechaTransaccion']);
+											$fechaTransaccion = explode(" ",$row['fechaTransaccion']);
 											$html.= "<td class='text-center'>{$fechaTransaccion[0]}</td>";
 											$query3 = mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$row2['idProducto']}'");
 											while($row3 = mysqli_fetch_array($query3)){
@@ -257,7 +257,7 @@ $html.= '
 								$aux3 = 0;
 								$query = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTipoTransaccion IN (6) AND idColaborador = '{$_POST['idColaboradora']}' ORDER BY fechaTransaccion DESC");
 								while($row = mysqli_fetch_array($query)){
-                                    $fechaTransac = explode("|",$row['fechaTransaccion']);
+                                    $fechaTransac = explode(" ",$row['fechaTransaccion']);
                                     $fechaTransaccionCompleta = $fechaTransac[0];
 									if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
 										$colaboradorasPrestamos[$aux2] = $row['idColaborador'];
@@ -267,7 +267,7 @@ $html.= '
 											$html.= "<tr>";
 											$html.= "<td class='text-center'>$aux</td>";
 											$html.= "<td class='text-center'>{$row['idTransaccion']}</td>";
-											$fechaTransaccion = explode("|",$row['fechaTransaccion']);
+											$fechaTransaccion = explode(" ",$row['fechaTransaccion']);
 											$html.= "<td class='text-center'>{$fechaTransaccion[0]}</td>";
 											$query3 = mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$row2['idProducto']}'");
 											while($row3 = mysqli_fetch_array($query3)){

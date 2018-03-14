@@ -237,7 +237,7 @@ if(isset($_SESSION['login'])) {
                                     $select2 = mysqli_query($link, "SELECT * FROM UbicacionProducto WHERE idProducto = '{$row['idProducto']}'");
                                     while($row2 = mysqli_fetch_array($select2)){
                                         $stock += $row2['stock'];
-                                        $fechaAct = explode("|",$row2['fechaModificacion']);
+                                        $fechaAct = explode(" ",$row2['fechaModificacion']);
                                         $fechaActual = explode("-",$fechaAct[0]);
                                         if($flag){
                                             $fechaUltima = $fechaActual;

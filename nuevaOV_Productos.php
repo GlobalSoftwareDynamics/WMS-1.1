@@ -147,7 +147,7 @@ if(isset($_SESSION['login'])) {
             $precio=$_POST['precio'];
             $precioBase=$_POST['precio'];
         }else{
-            $precio1=explode("|",$_POST['precio']);
+            $precio1=explode(" ",$_POST['precio']);
             $precio=$precio1[0]*$_POST['promo'];
             $precioBase=$precio1[1];
         }

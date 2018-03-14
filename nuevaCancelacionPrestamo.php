@@ -56,7 +56,7 @@ if(isset($_SESSION['login'])) {
 	$fechaTransaccion = array();
 	$result = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$_POST['idTransaccion']}'");
 	while($row = mysqli_fetch_array($result)) {
-		$fechaTransaccion = explode("|", $row['fechaTransaccion']);
+		$fechaTransaccion = explode(" ", $row['fechaTransaccion']);
 		$result2 = mysqli_query($link, "SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
 		while ($row2 = mysqli_fetch_array($result2)) {
 			$proveedor = $row2['nombre'];

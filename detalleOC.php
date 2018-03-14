@@ -176,7 +176,7 @@ if(isset($_SESSION['login'])) {
                                         while ($fila3=mysqli_fetch_array($result3)){
                                             $proveedor = $fila3['nombre'];
                                         }
-                                        $fecha=explode("|",$fila['fecha']);
+                                        $fecha=explode(" ",$fila['fecha']);
                                         echo "<tr>";
                                         echo "<td>{$fila['idMovimiento']}</td>";
                                         echo "<td>{$fecha[0]}</td>";

@@ -445,7 +445,7 @@ if(isset($_SESSION['login'])) {
                             $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '5' AND fechaTransaccion >= '{$ago} 00:00:00' ORDER BY fechaTransaccion DESC");
                             while($row = mysqli_fetch_array($query)){
                                 $i++;
-                                $date=explode("|",$row['fechaTransaccion']);
+                                $date=explode(" ",$row['fechaTransaccion']);
                                 $query2 = mysqli_query($link,"SELECT * FROM Estado WHERE idEstado = '{$row['idEstado']}'");
                                 while($row2 = mysqli_fetch_array($query2)){
                                     $estado = $row2['descripcion'];
@@ -529,7 +529,7 @@ if(isset($_SESSION['login'])) {
                                         $cliente = substr($fila3['nombre'],0,30);
                                     }
 
-                                    $nuevafecha=explode("|",$row5['fechaTransaccion']);
+                                    $nuevafecha=explode(" ",$row5['fechaTransaccion']);
                                     $fechaTransaccion = $nuevafecha[0];
                                     $montoTotal = $row5['montoTotal'];
                                     $montoRestante = $row5['montoRestante'];

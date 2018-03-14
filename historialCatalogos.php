@@ -138,7 +138,7 @@ include('adminTemplate.php');
                                         $value="";
                                         $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idCatalogo']}') ORDER BY fechaTransaccion DESC");
                                         while($fila=mysqli_fetch_array($result)){
-                                            $date=explode("|",$fila['fechaTransaccion']);
+                                            $date=explode(" ",$fila['fechaTransaccion']);
                                             switch($fila['idTipoTransaccion']){
                                                 case 1:
                                                     $value="+";
@@ -218,7 +218,7 @@ include('adminTemplate.php');
                                         $value="";
                                         $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idCatalogo']}') AND idTipoTransaccion ='1' ORDER BY fechaTransaccion DESC");
                                         while($fila=mysqli_fetch_array($result)){
-                                            $date=explode("|",$fila['fechaTransaccion']);
+                                            $date=explode(" ",$fila['fechaTransaccion']);
                                             echo "<tr>";
                                             $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idCatalogo']}'");
                                             while ($fila1=mysqli_fetch_array($result1)){
@@ -277,7 +277,7 @@ include('adminTemplate.php');
                                         $value="";
                                         $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idCatalogo']}') AND idTipoTransaccion ='5' ORDER BY fechaTransaccion DESC");
                                         while($fila=mysqli_fetch_array($result)){
-                                            $date=explode("|",$fila['fechaTransaccion']);
+                                            $date=explode(" ",$fila['fechaTransaccion']);
                                             echo "<tr>";
                                             $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idCatalogo']}'");
                                             while ($fila1=mysqli_fetch_array($result1)){
@@ -334,7 +334,7 @@ include('adminTemplate.php');
                                         $value="";
                                         $result=mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion IN (SELECT idTransaccion FROM TransaccionProducto WHERE idProducto = '{$_POST['idCatalogo']}') AND idTipoTransaccion ='4' ORDER BY fechaTransaccion DESC");
                                         while($fila=mysqli_fetch_array($result)){
-                                            $date=explode("|",$fila['fechaTransaccion']);
+                                            $date=explode(" ",$fila['fechaTransaccion']);
                                             echo "<tr>";
                                             $result1=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$fila['idTransaccion']}' AND idProducto = '{$_POST['idCatalogo']}'");
                                             while ($fila1=mysqli_fetch_array($result1)){

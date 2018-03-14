@@ -284,7 +284,7 @@ $numcuentas=mysqli_num_rows($numcuentasquery);
                                     $result=mysqli_query($link,"SELECT * FROM Movimiento WHERE fecha >= '{$ago} 00:00:00' ORDER BY fecha DESC");
                                     while ($fila=mysqli_fetch_array($result)){
                                         if($fila['monto'] > 0){
-											$fecha=explode("|",$fila['fecha']);
+											$fecha=explode(" ",$fila['fecha']);
 											echo "<tr>";
 											echo "
 												<td>{$fecha[0]}</td>
@@ -430,7 +430,7 @@ $numcuentas=mysqli_num_rows($numcuentasquery);
                                     $result=mysqli_query($link,"SELECT * FROM Movimiento WHERE idCuenta = 1 AND fecha >= '{$ago} 00:00:00' ORDER BY fecha DESC");
                                     while ($fila=mysqli_fetch_array($result)){
 										if($fila['monto'] > 0){
-											$fecha=explode("|",$fila['fecha']);
+											$fecha=explode(" ",$fila['fecha']);
 											echo "<tr>";
 											echo "
 												<td>{$fecha[0]}</td>
@@ -574,7 +574,7 @@ $numcuentas=mysqli_num_rows($numcuentasquery);
                                             <tbody>";
                                 $result4=mysqli_query($link,"SELECT * FROM Movimiento WHERE idCuenta = {$fila['idCuenta']} AND fecha >= '{$ago} 00:00:00' ORDER BY fecha DESC");
                                 while ($fila4=mysqli_fetch_array($result4)){
-                                    $fecha=explode("|",$fila4['fecha']);
+                                    $fecha=explode(" ",$fila4['fecha']);
                                     echo "<tr>";
                                     echo "
                                             <td>{$fecha[0]}</td>

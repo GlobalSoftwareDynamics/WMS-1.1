@@ -59,11 +59,11 @@
 								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 1) ORDER BY fecha DESC");
 								while($row = mysqli_fetch_array($query)){
 									if($row['monto'] > 0){
-										$fechaTransac = explode("|",$row['fecha']);
+										$fechaTransac = explode(" ",$row['fecha']);
 										$fechaTransaccionCompleta = $fechaTransac[0];
 										if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
 											$aux++;
-											$fecha=explode("|",$row['fecha']);
+											$fecha=explode(" ",$row['fecha']);
 											echo "<tr>";
 											echo "<td>{$aux}</td>";
 											echo "<td>{$fecha[0]}</td>";
@@ -133,10 +133,10 @@
 								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 0) ORDER BY fecha DESC");
 								while($row = mysqli_fetch_array($query)){
 									if($row['monto'] > 0){
-										$fechaTransac = explode("|",$row['fecha']);
+										$fechaTransac = explode(" ",$row['fecha']);
 										$fechaTransaccionCompleta = $fechaTransac[0];
 										if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
-											$fecha=explode("|",$row['fecha']);
+											$fecha=explode(" ",$row['fecha']);
 											echo "<tr>";
 											echo "<td>{$aux}</td>";
 											echo "<td>{$fecha[0]}</td>";
@@ -205,10 +205,10 @@
 								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idMedioPago = 3 ORDER BY fecha DESC");
 								while($row = mysqli_fetch_array($query)){
 									if($row['monto'] > 0){
-										$fechaTransac = explode("|",$row['fecha']);
+										$fechaTransac = explode(" ",$row['fecha']);
 										$fechaTransaccionCompleta = $fechaTransac[0];
 										if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
-											$fecha=explode("|",$row['fecha']);
+											$fecha=explode(" ",$row['fecha']);
 											echo "<tr>";
 											echo "<td>{$aux}</td>";
 											echo "<td>{$fecha[0]}</td>";

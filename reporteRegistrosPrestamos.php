@@ -199,7 +199,7 @@ use Neodynamic\SDK\Web\Utils;
                                 $colaborador = str_replace(array_keys($replace),$replace,$colaborador);
                                 $cliente = str_replace(array_keys($replace),$replace,$cliente);
 
-                                $fechaTransaccionArray = explode("|",$fechaTransaccion);
+                                $fechaTransaccionArray = explode(" ",$fechaTransaccion);
 
                                 //Create ESC/POS commands for sample receipt
                                 $esc = '0x1B'; //ESC byte in hex notation
@@ -265,7 +265,7 @@ use Neodynamic\SDK\Web\Utils;
                                 $colaborador = str_replace(array_keys($replace),$replace,$colaborador);
                                 $cliente = str_replace(array_keys($replace),$replace,$cliente);
 
-                                $fechaTransac = explode("|",$fechaTransaccion);
+                                $fechaTransac = explode(" ",$fechaTransaccion);
 
                                 //Create ESC/POS commands for sample receipt
                                 $esc = '0x1B'; //ESC byte in hex notation
@@ -307,7 +307,7 @@ use Neodynamic\SDK\Web\Utils;
                             }else{
                                 $sendlink = 'nuevaCancelacionPrestamo.php';
                             }
-                            $fecha=explode("|",$row['fechaTransaccion']);
+                            $fecha=explode(" ",$row['fechaTransaccion']);
                             $query4=mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$row['idColaborador']}'");
                             while ($row4=mysqli_fetch_array($query4)){
                                 $nombre="{$row4['nombres']} {$row4['apellidos']}";

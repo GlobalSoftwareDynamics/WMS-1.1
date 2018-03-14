@@ -120,7 +120,7 @@
                         $idOR = idgen("OR");
                         $query = mysqli_query($link, "SELECT * FROM Transaccion WHERE idTipoTransaccion = '1' AND fechaTransaccion >= '{$fechaInicio} 00:00:00' AND fechaTransaccion <= '{$fechaFin} 23:59:59' ORDER BY fechaTransaccion DESC");
                         while($row = mysqli_fetch_array($query)){
-                            $fechaTransaccion = explode("|",$row['fechaTransaccion']);
+                            $fechaTransaccion = explode(" ",$row['fechaTransaccion']);
                             $query2 = mysqli_query($link,"SELECT * FROM Estado WHERE idEstado = '{$row['idEstado']}'");
                             while($row2 = mysqli_fetch_array($query2)){
                                 $estado = $row2['descripcion'];

@@ -13,7 +13,7 @@ if(substr($_POST['idTransaccion'],0,2) != 'PS'){
 		$fechaTransaccion = array();
 		$result = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$_POST['idTransaccion']}'");
 		while($row = mysqli_fetch_array($result)) {
-			$fechaTransaccion = explode("|", $row['fechaTransaccion']);
+			$fechaTransaccion = explode(" ", $row['fechaTransaccion']);
 			$result2 = mysqli_query($link, "SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
 			while ($row2 = mysqli_fetch_array($result2)) {
 				$proveedor = $row2['nombre'];
@@ -125,7 +125,7 @@ if(substr($_POST['idTransaccion'],0,2) != 'PS'){
                                                     <input type='submit' name='detalle' value='{$row['idMovimiento']}' class='btn-link'>
                                                 </form>
                                             </td>";
-										$fechaMovimiento = explode("|",$row['fecha']);
+										$fechaMovimiento = explode(" ",$row['fecha']);
 										echo "<td class='text-center'>{$fechaMovimiento[0]}</td>";
 										$query2 = mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$row['idColaborador']}'");
 										while($row2 = mysqli_fetch_array($query2)){
@@ -161,7 +161,7 @@ if(substr($_POST['idTransaccion'],0,2) != 'PS'){
 		$fechaTransaccion = array();
 		$result = mysqli_query($link,"SELECT * FROM Transaccion WHERE idTransaccion = '{$_POST['idTransaccion']}'");
 		while($row = mysqli_fetch_array($result)) {
-			$fechaTransaccion = explode("|", $row['fechaTransaccion']);
+			$fechaTransaccion = explode(" ", $row['fechaTransaccion']);
 			$result2 = mysqli_query($link, "SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
 			while ($row2 = mysqli_fetch_array($result2)) {
 				$proveedor = $row2['nombre'];
@@ -408,7 +408,7 @@ if(substr($_POST['idTransaccion'],0,2) != 'PS'){
                                     while($row = mysqli_fetch_array($query)){
                                         echo "<tr>";
                                             echo "<td class='text-center'>{$row['idTransaccion']}</td>";
-	                                        $fechaTransaccion = explode("|",$row['fechaTransaccion']);
+	                                        $fechaTransaccion = explode(" ",$row['fechaTransaccion']);
                                             echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
                                             $query2 = mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$row['idColaborador']}'");
                                             while($row2 = mysqli_fetch_array($query2)){
@@ -447,7 +447,7 @@ if(substr($_POST['idTransaccion'],0,2) != 'PS'){
                                                     <input type='submit' name='detalle' value='{$row['idMovimiento']}' class='btn-link'>
                                                 </form>
                                             </td>";
-                                            $fechaMovimiento = explode("|",$row['fecha']);
+                                            $fechaMovimiento = explode(" ",$row['fecha']);
 	                                        echo "<td class='text-center'>{$fechaMovimiento[0]}</td>";
                                             $query2 = mysqli_query($link,"SELECT * FROM Colaborador WHERE idColaborador = '{$row['idColaborador']}'");
                                             while($row2 = mysqli_fetch_array($query2)){
