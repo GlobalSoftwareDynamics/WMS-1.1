@@ -129,7 +129,7 @@ if (!empty($_POST['getidproducto'])) {
     $nombreProducto = explode("_",$_POST['getidproducto']);
     $query=mysqli_query($link,"SELECT * FROM Producto WHERE nombreCorto = '{$nombreProducto[0]}'");
     while ($row = mysqli_fetch_array($query)) {
-        echo "<input class='form-control' type='text' id='Productos' name='producto' value='{$row['idProducto']}'>";
+        echo "<input class='form-control' type='text' id='idProducto' name='idProducto' value='{$row['idProducto']}'>";
     }
 }
 

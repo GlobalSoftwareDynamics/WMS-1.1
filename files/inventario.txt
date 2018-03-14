@@ -1,5 +1,5 @@
 ﻿SKU;Nombre Corto;Atributo;SubCategoría;Stock;Fecha de Modificación;Precio Promedio
-0000872;SOLO COLOGNE FOR MEN A/P;Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ;;66;2018-03-13;180
+0000872;SOLO COLOGNE FOR MEN A/P;Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ;;64;2018-02-20;180
 0000883;OHM COLOGNE SPRAY;Salvia, toronja, lavanda.;;588;2018-03-12;3.32
 0001390;DENDUR COLOGNE FOR MEN A/P;Pimienta negra, jengibre, tabaco.;Cuidado de la Piel;141;2018-02-19;0
 0001618;Sentiva Hydra-tonic Locion Tonica Cutis Normal O Mixto 180ml;Negro;Collares;35;2018-02-19;0

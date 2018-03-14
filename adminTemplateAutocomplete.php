@@ -45,6 +45,21 @@ include('funciones.php');
 		<?php
 	}
 
+    if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/reporteKardex.php'){
+        $arrayProductos =autocompletarProducto('Producto','nombreCorto',$link);
+
+        ?>
+        <script>
+            $( function() {
+                $( "#nombreProducto" ).autocomplete({
+                    delay: 1500,
+                    source: <?php echo $arrayProductos?>
+                });
+            } );
+        </script>
+        <?php
+    }
+
 	if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/nuevaCancelacionPrestamoProducto.php'){
 		$arrayProductos =autocompletarProducto('Producto','nombreCorto',$link);
 
