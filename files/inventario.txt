@@ -1,5 +1,5 @@
 ﻿SKU;Nombre Corto;Atributo;SubCategoría;Stock;Fecha de Modificación;Precio Promedio
-0000872;SOLO COLOGNE FOR MEN A/P;Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ;;64;2018-02-20;180
+0000872;SOLO COLOGNE FOR MEN A/P;Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ;;66;2018-03-13;180
 0000883;OHM COLOGNE SPRAY;Salvia, toronja, lavanda.;;588;2018-03-12;3.32
 0001390;DENDUR COLOGNE FOR MEN A/P;Pimienta negra, jengibre, tabaco.;Cuidado de la Piel;141;2018-02-19;0
 0001618;Sentiva Hydra-tonic Locion Tonica Cutis Normal O Mixto 180ml;Negro;Collares;35;2018-02-19;0
@@ -9,7 +9,7 @@
 0002187;O2XYGEN GEL AFTER SHAVE;Hidrata, limpia y suaviza.;Collares;2;2018-02-01;0
 0002279;OSADIA EAU DE PARFUM; naranja brasilera, maracuyá y destellos de granada.;Collares;80;2018-03-05;18.18
 0002410;ESMALTE PERFECT TEN ROSA ROMANTICO;beige;Collares;3;2018-02-01;10.5
-0002426;CIELO EAU DE PARFUM;Flor de loto, jazmín, sándalo.;Collares;101;2018-03-09;0
+0002426;CIELO EAU DE PARFUM;Flor de loto, jazmín, sándalo.;Collares;99;2018-03-13;0
 0002645;OHM BLACK COLOGNE SPRAY;Madera de cachemira, lavanda, pimienta.;Collares;203;2018-03-01;0
 0002647;BODY SPA UÑA DE GATO CREMA PARA MANOS A/P;Hidrata y repara la piel seca y extra seca.;Collares;3;2018-02-01;0
 0002683;COLONIA ALEGRÍA PETIT PON PON;Aroma de lavanda, vainilla y flor de naranja.;Multiactivas;16;2018-02-05;0

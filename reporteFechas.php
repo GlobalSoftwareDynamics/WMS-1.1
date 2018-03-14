@@ -23,10 +23,11 @@ if(isset($_SESSION['login'])) {
 										<label class="sr-only" for="selectTipoReporte">Tipo de Reporte</label>
 										<select class="form-control" name="selectTipoReporte" id="selectTipoReporte">
 											<option selected disabled>Seleccionar Tipo de Reporte</option>
-											<option value="1">Inventario</option>
+											<option value="1">Inventario Detallado</option>
 											<option value="2">Caja</option>
 											<option value="3">Compras/Ventas/Prestamos</option>
                                             <option value="4">Registro de Stock</option>
+                                            <option value="5">Inventario Simple Ingresos/Salidas</option>
 										</select>
 									</div>
 									<div class="form-group  mt-2 mb-2 mr-2">
@@ -58,6 +59,8 @@ if(isset($_SESSION['login'])) {
 	    include ('reporteFechasCVP.php');
     }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 4 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
         include ('reporteFechasStock.php');
+    }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 5 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
+        include ('reporteFechasInventarioSimple.php');
     }
 
 	include('footerTemplateAutocomplete.php');
