@@ -467,13 +467,13 @@ if(isset($_SESSION['login'])) {
                                     $cmds .= $newLine;
                                     $cmds .= 'CLIENTE  '.$cliente;
                                     $cmds .= $newLine;
-                                    $cmds .= 'CODIGO  PRODUCTO  CANT V.U.';
+                                    $cmds .= 'PRODUCTO  CODIGO  CANT  V.U.';
                                     $cmds .= $newLine;
                                     $query4 = mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$row['idTransaccion']}'");
                                     while($row4 = mysqli_fetch_array($query4)){
                                         $query5 = mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$row4['idProducto']}'");
                                         while($row5 = mysqli_fetch_array($query5)){
-                                            $nombreCorto = substr($row5['nombreCorto'],0,10);
+                                            $nombreCorto = $row5['nombreCorto'];
                                         }
                                         $nombreCorto = strtoupper($nombreCorto);
                                         $nombreCorto = str_replace(array_keys($replace),$replace,$nombreCorto);
@@ -482,7 +482,9 @@ if(isset($_SESSION['login'])) {
                                             $cantidad = "0".$cantidad;
                                         }
                                         $valorUnitario = round($row4['valorUnitario'],2);
-                                        $cmds .= $row4['idProducto']." ".strtoupper($nombreCorto)." ".$cantidad."   ".$valorUnitario;
+                                        $cmds .= strtoupper($nombreCorto);
+                                        $cmds .= $newLine;
+										$cmds .= "          ".$row4['idProducto']."  ".$cantidad."  ".$valorUnitario;
                                         $cmds .= $newLine;
                                     }
                                     $cmds .= 'MONTO TOTAL  '.$montoTotal;
