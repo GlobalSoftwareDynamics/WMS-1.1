@@ -426,6 +426,17 @@ if(isset($_SESSION['login'])) {
                                         $montoTotal = round($row5['montoTotal'],2);
                                         $montoRestante = round($row5['montoRestante'],2);
                                         $fechaVencimiento = $row5['fechaVencimiento'];
+
+                                        $aux1 = 0;
+                                        $result1 = mysqli_query($link,"SELECT idTransaccion FROM Transaccion WHERE fechaTransaccion LIKE '{$fechaTransaccion}%' AND idTipoTransaccion = '6'");
+                                        $numrow = mysqli_num_rows($result1);
+                                        if($numrow > 0){
+                                            while ($fila1 = mysqli_fetch_array($result1)){
+                                                $aux1++;
+                                            }
+                                        }else{
+                                            $aux1 = 1;
+                                        }
                                     }
 
                                     $colaborador = str_replace(array_keys($replace),$replace,$colaborador);
@@ -440,7 +451,7 @@ if(isset($_SESSION['login'])) {
                                     $cmds = $esc . "@"; //Initializes the printer (ESC @)
                                     $cmds .= $esc . '!' . '0x00'; //Emphasized + Double-height + Double-width mode selected (ESC ! (8 + 16 + 32)) 56 dec => 38 hex
                                     $cmds .= $newLine;
-                                    $cmds .= 'DETALLE PRESTAMO';
+                                    $cmds .= 'DETALLE PRESTAMO             NUM '.$aux1;
                                     $cmds .= $newLine;
                                     $cmds .= '-------------------------';
                                     $cmds .= $newLine;

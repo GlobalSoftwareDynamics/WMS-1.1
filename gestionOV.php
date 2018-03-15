@@ -536,6 +536,16 @@ if(isset($_SESSION['login'])) {
                                     $fechaVencimiento = $row5['fechaVencimiento'];
                                     $flete=$row5['costoTransaccion'];
 
+                                    $aux1 = 0;
+                                    $result1 = mysqli_query($link,"SELECT idTransaccion FROM Transaccion WHERE fechaTransaccion LIKE '{$fechaTransaccion}%' AND idTipoTransaccion = '5'");
+                                    $numrow = mysqli_num_rows($result1);
+                                    if($numrow > 0){
+                                        while ($fila1 = mysqli_fetch_array($result1)){
+                                            $aux1++;
+                                        }
+                                    }else{
+                                        $aux1 = 1;
+                                    }
                                 }
 
                                 $colaborador = str_replace(array_keys($replace),$replace,$colaborador);
@@ -548,7 +558,7 @@ if(isset($_SESSION['login'])) {
                                 $cmds = $esc . "@"; //Initializes the printer (ESC @)
                                 $cmds .= $esc . '!' . '0x00'; //Emphasized + Double-height + Double-width mode selected (ESC ! (8 + 16 + 32)) 56 dec => 38 hex
                                 $cmds .= $newLine;
-                                $cmds .= 'DOCUMENTO DE VENTA';
+                                $cmds .= 'DOCUMENTO DE VENTA           NUM '.$aux1;
                                 $cmds .= $newLine;
                                 $cmds .= '-------------------------';
                                 $cmds .= $newLine;
