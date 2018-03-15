@@ -264,6 +264,17 @@
 									if ($numrows > 0) {
 										while ($rows3 = mysqli_fetch_array($query3)) {
 											echo "<tr>";
+											echo "<td>{$row['alias']}</td>";
+											$txt = PHP_EOL . $row['alias'] . PHP_EOL;
+											fwrite($file, $txt);
+											echo "<td>S/. {$rows3['saldo']}</td>";
+											echo "</tr>";
+											$txt = PHP_EOL . $rows3['saldo'] . PHP_EOL;
+											fwrite($file, $txt);
+										}
+									}elseif($numrows==0){
+										while ($rows3 = mysqli_fetch_array($query3)) {
+											echo "<tr>";
 											$alias = mysqli_query($link, "SELECT * FROM Cuenta WHERE idCuenta = '{$row['idCuenta']}'");
 											while ($fila1 = mysqli_fetch_array($alias)) {
 												echo "<td>{$fila1['alias']}</td>";
@@ -273,18 +284,6 @@
 											echo "<td>S/. {$row['saldo']}</td>";
 											echo "</tr>";
 											$txt = PHP_EOL . $row['saldo'] . PHP_EOL;
-											fwrite($file, $txt);
-										}
-									}elseif($numrows==0){
-										$query3 = mysqli_query($link, "SELECT * FROM LogSaldos WHERE idCuenta = '{$row['idCuenta']}' AND fecha = '{$row['fechaActualizacion']}'");
-										while ($rows3 = mysqli_fetch_array($query3)) {
-											echo "<tr>";
-											echo "<td>{$row['alias']}</td>";
-											$txt = PHP_EOL . $row['alias'] . PHP_EOL;
-											fwrite($file, $txt);
-											echo "<td>S/. {$rows3['saldo']}</td>";
-											echo "</tr>";
-											$txt = PHP_EOL . $rows3['saldo'] . PHP_EOL;
 											fwrite($file, $txt);
 										}
 									}

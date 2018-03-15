@@ -220,20 +220,19 @@ if(isset($_SESSION['login'])){
 		$numrows = mysqli_num_rows($query3);
 		if ($numrows > 0) {
 			while ($rows3 = mysqli_fetch_array($query3)) {
+				$html .= "<tr>";
+				$html .= "<td>{$row['alias']}</td>";
+				$html .= "<td>S/. {$rows3['saldo']}</td>";
+				$html .= "</tr>";
+			}
+		}elseif($numrows==0){
+			while ($rows3 = mysqli_fetch_array($query3)) {
 				$html .="<tr>";
 				$alias = mysqli_query($link, "SELECT * FROM Cuenta WHERE idCuenta = '{$row['idCuenta']}'");
 				while ($fila1 = mysqli_fetch_array($alias)) {
 					$html .= "<td>{$fila1['alias']}</td>";
 				}
 				$html .= "<td>S/. {$row['saldo']}</td>";
-				$html .= "</tr>";
-			}
-		}elseif($numrows==0){
-			$query3 = mysqli_query($link, "SELECT * FROM LogSaldos WHERE idCuenta = '{$row['idCuenta']}' AND fecha = '{$row['fechaActualizacion']}'");
-			while ($rows3 = mysqli_fetch_array($query3)) {
-				$html .= "<tr>";
-				$html .= "<td>{$row['alias']}</td>";
-				$html .= "<td>S/. {$rows3['saldo']}</td>";
 				$html .= "</tr>";
 			}
 		}
