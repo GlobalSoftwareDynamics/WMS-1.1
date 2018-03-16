@@ -113,7 +113,7 @@ $aux3 = 0;
 												while($row4 = mysqli_fetch_array($query4)){
 													$atributo = $row4['descripcion'];
 												}
-												echo "<td class='text-center'>{$row3['nombreCorto']} {$atributo}</td>";
+												echo "<td class='text-center'>{$row3['nombreCorto']}</td>";
 											}
 											echo "<td class='text-center'>{$row2['cantidad']}</td>";
 											if($row2['valorUnitario'] == 0){
@@ -132,7 +132,7 @@ $aux3 = 0;
 											}
 											$colaboradorasComprasValores[$aux2] += $valorTotal;
 											echo "</tr>";
-											$txt = $aux.",".$nombreColaborador.",".$nombreProveedor.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
+											$txt = $aux.",".$nombreColaborador.",".$nombreProveedor.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
 											fwrite($file, $txt);
 										}
 										$aux2++;
@@ -251,7 +251,7 @@ $aux3 = 0;
 												while($row4 = mysqli_fetch_array($query4)){
 													$atributo = $row4['descripcion'];
 												}
-												echo "<td class='text-center'>{$row3['nombreCorto']} {$atributo}</td>";
+												echo "<td class='text-center'>{$row3['nombreCorto']}</td>";
 											}
 											echo "<td class='text-center'>{$row2['cantidad']}</td>";
 											if($row2['valorUnitario'] == 0){
@@ -270,7 +270,7 @@ $aux3 = 0;
 											}
 											$colaboradorasVentasValores[$aux2] += $valorTotal;
 											echo "</tr>";
-											$txt = $aux.",".$nombreColaborador.",".$nombreProveedor.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
+											$txt = $aux.",".$nombreColaborador.",".$nombreProveedor.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
 											fwrite($file, $txt);
 										}
 										$aux2++;
@@ -389,7 +389,7 @@ $aux3 = 0;
 												while($row4 = mysqli_fetch_array($query4)){
 													$atributo = $row4['descripcion'];
 												}
-												echo "<td class='text-center'>{$row3['nombreCorto']} {$atributo}</td>";
+												echo "<td class='text-center'>{$row3['nombreCorto']}</td>";
 											}
 											echo "<td class='text-center'>{$row2['cantidad']}</td>";
 											if($row2['valorUnitario'] == 0){
@@ -408,7 +408,7 @@ $aux3 = 0;
 											}
 											$colaboradorasPrestamosValores[$aux2] += $valorTotal;
 											echo "</tr>";
-											$txt = $aux.",".$nombreColaborador.",".$nombreProveedor.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
+											$txt = $aux.",".$nombreColaborador.",".$nombreProveedor.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto.",".$row2['cantidad'].",".$row2['valorUnitario'].",".$valorTotal.PHP_EOL;
 											fwrite($file, $txt);
 										}
 										$aux2++;

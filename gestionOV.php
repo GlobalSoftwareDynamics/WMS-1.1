@@ -558,7 +558,7 @@ if(isset($_SESSION['login'])) {
                                 $cmds = $esc . "@"; //Initializes the printer (ESC @)
                                 $cmds .= $esc . '!' . '0x00'; //Emphasized + Double-height + Double-width mode selected (ESC ! (8 + 16 + 32)) 56 dec => 38 hex
                                 $cmds .= $newLine;
-                                $cmds .= 'DOCUMENTO DE VENTA           NUM '.$aux1;
+                                $cmds .= 'DOCUMENTO DE VENTA   NUM '.$aux1;
                                 $cmds .= $newLine;
                                 $cmds .= '-------------------------';
                                 $cmds .= $newLine;

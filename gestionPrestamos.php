@@ -305,6 +305,7 @@ if(isset($_SESSION['login'])) {
                             <a class="dropdown-item" href="nuevoPrestamo_DatosGenerales.php">Registrar Nuevo Préstamo</a>
                             <a class="dropdown-item" href="nuevoPrestamoEfectivo.php">Registrar Préstamo de Efectivo</a>
                             <a class="dropdown-item" href="busquedaRegistros.php">Busqueda de Registros</a>
+                            <a class="dropdown-item" href="reporteDeudasPrestamos.php">Reporte de Prestamos en Deuda</a>
                             <a class="dropdown-item" href="files/prestamos.txt" download>Exportar Listado</a>
                         </div>
                     </div>
@@ -451,7 +452,7 @@ if(isset($_SESSION['login'])) {
                                     $cmds = $esc . "@"; //Initializes the printer (ESC @)
                                     $cmds .= $esc . '!' . '0x00'; //Emphasized + Double-height + Double-width mode selected (ESC ! (8 + 16 + 32)) 56 dec => 38 hex
                                     $cmds .= $newLine;
-                                    $cmds .= 'DETALLE PRESTAMO             NUM '.$aux1;
+                                    $cmds .= 'DETALLE PRESTAMO   NUM '.$aux1;
                                     $cmds .= $newLine;
                                     $cmds .= '-------------------------';
                                     $cmds .= $newLine;
