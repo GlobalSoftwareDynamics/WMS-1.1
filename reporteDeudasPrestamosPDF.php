@@ -26,10 +26,11 @@ $html='
 								<th class="text-center">Fecha</th>
                                 <th class="text-center">Cliente</th>
 								<th class="text-center">Producto</th>
+								<th class="text-center">Cantidad</th>
 							</tr>
 							</thead>
 							<tbody>';
-							$query = mysqli_query($link, "SELECT Transaccion.idTransaccion, TransaccionProducto.idProducto, Proveedor.nombre, Transaccion.fechaTransaccion FROM Transaccion INNER JOIN TransaccionProducto ON Transaccion.idTransaccion = TransaccionProducto.idTransaccion INNER JOIN Proveedor ON Transaccion.idProveedor = Proveedor.idProveedor WHERE idTipoTransaccion = 6 AND idEstado = 6 ORDER BY fechaTransaccion DESC");
+							$query = mysqli_query($link, "SELECT Transaccion.idTransaccion, TransaccionProducto.idProducto, Proveedor.nombre, Transaccion.fechaTransaccion, TransaccionProducto.cantidad FROM Transaccion INNER JOIN TransaccionProducto ON Transaccion.idTransaccion = TransaccionProducto.idTransaccion INNER JOIN Proveedor ON Transaccion.idProveedor = Proveedor.idProveedor WHERE idTipoTransaccion = 6 AND idEstado = 6 ORDER BY fechaTransaccion DESC");
 							while($row = mysqli_fetch_array($query)){
 								$query2 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row['idProducto']}'");
 								while($row1 = mysqli_fetch_array($query2)){
@@ -40,6 +41,7 @@ $html='
 								$html .="<td>{$row['fechaTransaccion']}</td>";
 								$html .="<td>{$row['nombre']}</td>";
 								$html .="<td>{$nombreProducto}</td>";
+                                $html .="<td>{$row['cantidad']}</td>";
 								$html .="</tr>";
 							}
 $html.='

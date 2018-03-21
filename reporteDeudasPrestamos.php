@@ -34,15 +34,16 @@ if(isset($_SESSION['login'])) {
 								<th class="text-center">Fecha</th>
                                 <th class="text-center">Cliente</th>
 								<th class="text-center">Producto</th>
+                                <th class="text-center">Cantidad</th>
 							</tr>
 							</thead>
 							<tbody>
 							<?php
 							$file = fopen("files/registroPrestamosEnDeuda.txt","w") or die("No se encontró el archivo!");
                             fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-                            $txt = "idTransaccion,Fecha,Cliente,Producto".PHP_EOL;
+                            $txt = "idTransaccion,Fecha,Cliente,Producto,Cantidad".PHP_EOL;
                             fwrite($file, $txt);
-							$query = mysqli_query($link, "SELECT Transaccion.idTransaccion, TransaccionProducto.idProducto, Proveedor.nombre, Transaccion.fechaTransaccion FROM Transaccion INNER JOIN TransaccionProducto ON Transaccion.idTransaccion = TransaccionProducto.idTransaccion INNER JOIN Proveedor ON Transaccion.idProveedor = Proveedor.idProveedor WHERE idTipoTransaccion = 6 AND idEstado = 6 ORDER BY fechaTransaccion DESC");
+							$query = mysqli_query($link, "SELECT Transaccion.idTransaccion, TransaccionProducto.idProducto, Proveedor.nombre, Transaccion.fechaTransaccion, TransaccionProducto.cantidad FROM Transaccion INNER JOIN TransaccionProducto ON Transaccion.idTransaccion = TransaccionProducto.idTransaccion INNER JOIN Proveedor ON Transaccion.idProveedor = Proveedor.idProveedor WHERE idTipoTransaccion = 6 AND idEstado = 6 ORDER BY fechaTransaccion DESC");
 							while($row = mysqli_fetch_array($query)){
 								$query2 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row['idProducto']}'");
 								while($row1 = mysqli_fetch_array($query2)){
@@ -53,8 +54,9 @@ if(isset($_SESSION['login'])) {
 								echo "<td>{$row['fechaTransaccion']}</td>";
 								echo "<td>{$row['nombre']}</td>";
 								echo "<td>{$nombreProducto}</td>";
+                                echo "<td>{$row['cantidad']}</td>";
 								echo "</tr>";
-								$txt = $row['idTransaccion'].",".$row['fechaTransaccion'].",".$row['nombre'].",".$nombreProducto.PHP_EOL;
+								$txt = $row['idTransaccion'].",".$row['fechaTransaccion'].",".$row['nombre'].",".$nombreProducto.",".$row['cantidad'].PHP_EOL;
                                 fwrite($file, $txt);
 							}
 							fclose($file);
