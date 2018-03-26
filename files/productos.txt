@@ -83,7 +83,7 @@
 0003509,EAU VITALE LAVANDA COLONIA A/P,Esencia cítrica Lavanda,Colonia,Unisex,Activo
 0003510,EAU VITALE LAVANDA GEL PARA BAÑO ,Esencia cítrica Lavanda,Colonia,Unisex,Activo
 0003511,LESENCE BOUQUET ORIENTAL COLOGNE A/P,Aroma  de pera, fressia y tonka.,Colonia,Dama,Activo
-0003513,LESENCE FLORES & FRUTAS COLOGNE,Aroma de bergamota, lavanda y pachuli.,Colonia,Dama,Activo
+0003513,LESENCE FLORES & FRUTAS COLOGNE a/p,Aroma de bergamota, lavanda y pachuli.,Colonia,Dama,Activo
 0003529,DELINEADOR PUNTA PINCEL NEGRO,Punta delgada,Delineadores,Unisex,Activo
 0003530,DELINEADOR PUNTA PINCEL MARRON,Punta delgada,Delineadores,Unisex,Activo
 0003587,COLONIA ZITRIKA LIMÓN,Cítrica con aroma a limón.,Colonia,Unisex,Activo
@@ -420,7 +420,7 @@
 0004891,HYDRA LIP LABIAL COLOR INTENSO BAILE ROSA,palo de rosa,Labiales,Unisex,Activo
 0004892,HYDRA LIP LABIAL COLOR INTENSO  CHOCOLAT MOUSSE,Chocolate,Labiales,Unisex,Activo
 0004893,HYDRA LIP LABIAL COLOR INTENSO  TERCIOPELO  NEGRO,vino fuerte,Labiales,Unisex,Activo
-0004894,HYDRA LIP LABIAL COLOR INTENSO  AMBRE,nude oscuro,Labiales,Unisex,Activo
+0004894,HYDRA LIP LABIAL COLOR INTENSO AMBRE,nude oscuro,Labiales,Unisex,Activo
 0004895,HYDRA LIP LABIAL COLOR INTENSO  COLOR TENTACION,rojo claro,Labiales,Unisex,Activo
 0004896,HYDRA LIP LABIAL COLOR INTENSO RUMORES,coral,Labiales,Unisex,Activo
 0004897,HYDRA LIP LABIAL COLOR INTENSO  MORA ZEN,lila,Labiales,Unisex,Activo
@@ -688,7 +688,7 @@
 0011213,ULTRA DEF DEL LAP OJO MARRON,Negro,Collares,Unisex,Activo
 0011215,ULTRA DEF DELINEADOR LAPIZ OJO AZUL NOCHE,Azul Noche,Delineadores,Unisex,Activo
 0011216,ULTRA DEF DEL LAP INT OJ PERLA,Negro,Collares,Unisex,Activo
-0011218,ULTRA DEF DELiNEADOR CEJAS MARRON MED,Cejas,Delineadores,Unisex,Activo
+0011218,ULTRA DEF DELiNEADOR CEJAS MARRON MEDIANO,Cejas,Delineadores,Unisex,Activo
 0011219,ULTRA DEF DEL LAB ROJO ENCENDI,Negro,Collares,Unisex,Activo
 0011222,ULTRA DEF DEL LAB TOFFEE IMPER,Negro,Collares,Unisex,Activo
 0011224,ULTRA DEF DEL LAB CHOCOLATE,Negro,Collares,Unisex,Activo
@@ -997,7 +997,7 @@
 2353424,SCH BS KIDS PITA SH Y ACO NIÑA,Negro,Collares,Unisex,Activo
 2353425,SCH BS KIDS PITA SH Y ACO NIÑO,Negro,Collares,Unisex,Activo
 2353445,DM B/M ELIXIR DE VIDA TONO 2,Negro,Collares,Unisex,Activo
-2353453,EAU DE SEDA DIAMANTES EAU DE PARFUM,Negro,Collares,Dama,Activo
+2353453,EAU DE SEDA DIAMANTES EAU DE PARFUM Presentación Alterna,Negro,Collares,Dama,Activo
 2353467,PERFECT TEN ESM DISEÑO NEGRO,Negro,Collares,Unisex,Activo
 2353483,SCH SENTIVA EXTRACTO DIVINO CO,Negro,Collares,Unisex,Activo
 2353484,EXTRACTO DIVINO CONCENTRADO 6.5 g.,Una fórmula revolucionaria con todo el poder antiedad del ,Cremas y Sueros,Unisex,Activo

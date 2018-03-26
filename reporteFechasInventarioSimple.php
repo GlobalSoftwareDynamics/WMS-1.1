@@ -8,7 +8,7 @@
                     <div class="float-left">
                         <i class="fa fa-camera"></i>
                         Reporte de Inventario Simple por Fechas - <?php echo $_POST['fechaInicioReporte'] . " - " . $_POST['fechaFinReporte'];
-                        $fileName = "files/".$_SESSION['user']."-reporteInventarioFechas.txt";?>
+                        $fileName = "files/".$_SESSION['user']."-reporteInventarioSimpleFechas.txt";?>
                     </div>
                     <div class="float-right">
                         <div class="dropdown">
@@ -45,7 +45,7 @@
                                 <?php
                                 $file = fopen($fileName,"w") or die("No se encontró el archivo!");
                                 fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-                                $txt = "Ingresos".PHP_EOL."Item,Producto,Ingreso,Salida,Stock Actual".PHP_EOL;
+                                $txt = "Item,Producto,Ingreso,Salida,Stock Actual,".PHP_EOL;
                                 fwrite($file, $txt);
                                 $dateInicio = explode("-", $_POST['fechaInicioReporte']);
                                 $dateFin = explode("-", $_POST['fechaFinReporte']);
@@ -77,7 +77,7 @@
                                         }
                                         echo "<td>{$stockActual}</td>";
                                         echo "</tr>";
-                                        $txt = $aux.",".$nombreProducto." ".$cantidadIngreso.",".$cantidadSalida.",".$stockActual.PHP_EOL;
+                                        $txt = $aux.",".$nombreProducto.",".$cantidadIngreso.",".$cantidadSalida.",".$stockActual.PHP_EOL;
                                         fwrite($file, $txt);
                                     }
                                 }

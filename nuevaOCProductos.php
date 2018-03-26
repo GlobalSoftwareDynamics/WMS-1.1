@@ -346,7 +346,7 @@ if(isset($_SESSION['login'])) {
 							</div>
 							<div class="float-right">
 								<div class="dropdown">
-                                    <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#modalFile">Agregar Excel</button>
+                                    <!--<button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#modalFile">Agregar Excel</button>-->
                                     <button type="submit" value="Guardar" name="addOC" class="btn btn-secondary btn-sm" form="formOC">Guardar</button>
                                 </div>
                             </div>

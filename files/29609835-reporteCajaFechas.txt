@@ -1,0 +1,28 @@
+﻿Ingresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+1,2018-03-24,MOV18C24M0926,Jessica Adriana Salas Pacheco,GLAYS APAZA APAZA,Venta,,75
+2,2018-03-24,MOV18C24L4824,Roxana Hinojosa Menendez,JANY CARI GONZA,Venta,,45
+3,2018-03-24,MOV18C24K1627,Jessica Adriana Salas Pacheco,MARIA DEL CARMEN LLERENA,Venta,,121.4
+4,2018-03-24,MOV18C24J5443,Roxana Hinojosa Menendez,MARIA DEL CARMEN QUIROZ,Venta,,26.80
+5,2018-03-24,MOV18C24J4933,Roxana Hinojosa Menendez,MAYOLI CORNEJO,Venta,,16.60
+
+Total,284.8
+
+
+Egresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+
+Total,0
+
+
+Cupones
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+
+Total,0
+
+
+Saldos
+
+CAJA CHICA
+
+3461.5
