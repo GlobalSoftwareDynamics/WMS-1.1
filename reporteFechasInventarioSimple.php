@@ -81,6 +81,7 @@
                                         fwrite($file, $txt);
                                     }
                                 }
+								fclose($file);
                                 ?>
                                 </tbody>
                             </table>
