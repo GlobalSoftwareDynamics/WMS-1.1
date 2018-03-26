@@ -38,14 +38,24 @@
                                     <th class="text-center">Producto</th>
                                     <th class="text-center">Ingreso</th>
                                     <th class="text-center">Salida</th>
-                                    <th class="text-center">Stock Actual</th>
+                                    <?php
+                                    $result = mysqli_query($link,"SELECT descripcion FROM Almacen ORDER BY prioridad ASC");
+                                    while ($fila = mysqli_fetch_array($result)){
+                                        echo "<th class='text-center'>{$fila['descripcion']}</th>";
+                                    }
+                                    ?>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <?php
                                 $file = fopen($fileName,"w") or die("No se encontró el archivo!");
                                 fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-                                $txt = "Item,Producto,Ingreso,Salida,Stock Actual,".PHP_EOL;
+                                $txt = "Item,Producto,Ingreso,Salida";
+                                $result = mysqli_query($link,"SELECT descripcion FROM Almacen ORDER BY prioridad ASC");
+                                while ($fila = mysqli_fetch_array($result)){
+                                    $txt .= ",".$fila['descripcion'];
+                                }
+                                $txt .= PHP_EOL;
                                 fwrite($file, $txt);
                                 $dateInicio = explode("-", $_POST['fechaInicioReporte']);
                                 $dateFin = explode("-", $_POST['fechaFinReporte']);
@@ -70,14 +80,19 @@
                                         $cantidadIngreso = $row['CantidadIngreso'];
                                         echo "<td>{$row['CantidadSalida']}</td>";
                                         $cantidadSalida = $row['CantidadSalida'];
-                                        $stockActual = 0;
-                                        $select2 = mysqli_query($link, "SELECT * FROM UbicacionProducto WHERE idProducto = '{$row['idProducto']}'");
-                                        while($row2 = mysqli_fetch_array($select2)){
-                                            $stockActual += $row2['stock'];
+                                        $txt = $aux.",".$nombreProducto.",".$cantidadIngreso.",".$cantidadSalida;
+                                        $result = mysqli_query($link,"SELECT idAlmacen FROM Almacen ORDER BY prioridad ASC");
+                                        while ($fila = mysqli_fetch_array($result)){
+                                            $stockActual = 0;
+                                            $select2 = mysqli_query($link, "SELECT * FROM UbicacionProducto WHERE idProducto = '{$row['idProducto']}' AND idUbicacion IN (SELECT idUbicacion FROM Ubicacion WHERE idAlmacen = '{$fila['idAlmacen']}')");
+                                            while($row2 = mysqli_fetch_array($select2)){
+                                                $stockActual += $row2['stock'];
+                                            }
+                                            echo "<td>{$stockActual}</td>";
+                                            $txt .= ",".$stockActual;
                                         }
-                                        echo "<td>{$stockActual}</td>";
                                         echo "</tr>";
-                                        $txt = $aux.",".$nombreProducto.",".$cantidadIngreso.",".$cantidadSalida.",".$stockActual.PHP_EOL;
+                                        $txt .= PHP_EOL;
                                         fwrite($file, $txt);
                                     }
                                 }
