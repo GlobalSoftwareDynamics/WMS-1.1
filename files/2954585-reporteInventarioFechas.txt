@@ -1,0 +1,84 @@
+﻿Ingresos
+Item,Transacción,Referencia,Fecha,Producto,Almacén,Ubicación,Cantidad,Valor Unitario,Total
+1,OR18C26L5313,OCP18C26L5102,2018-03-26,TERMO ACERO INOXIDABLE TERMOPLATEADO,Almacén de Premios,General,1,0,0
+2,CPD18C26L3417,OCP18C26L5102,2018-03-26,SOLO COLOGNE FOR MEN Mezcla maderosa con notas herbales y cítricas de jengibre, cuero y hojas de higo. ,Almacén Principal,C-4-1,1,119,119
+3,CPD18C26L2704,OCP18C26L5102,2018-03-26,ELIXIR DE VIDA LIMPIADOR Limpia con resveratrol e hipoalergenico.,Almacén Principal,H-3-1,1,28.5,28.5
+4,CPD18C26L2657,OCP18C26L5102,2018-03-26,HYDRA LIP LABIAL COLOR INTENSO FUCSIA PELIGROSA fucsia,Almacén Principal,G-2-3,1,32,32
+5,CPD18C26L2651,OCP18C26L5102,2018-03-26,TITANIUM LIMPIADOR EXFOLIANTE Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco,Almacén Principal,C-5-2,1,32,32
+6,CPD18C26L2645,OCP18C26L5102,2018-03-26,CONTROL BLANC RX LIMPIADOR EXFOLIANTE TONIFICANTE Limpia, exfolia y tonifica.,Almacén Principal,H-4-1,1,39,39
+7,CPD18C26L2640,OCP18C26L5102,2018-03-26,REVITALIST HIDRATANTE Hidratante y energizante,Almacén Principal,H-2-2,1,55,55
+8,CPD18C26L2634,OCP18C26L5102,2018-03-26,REVITALIST TONICO Negro,Almacén Principal,H-2-1,1,27,27
+9,CPD18C26L2628,OCP18C26L5102,2018-03-26,REVITALIST LIMPIADOR Limpia, hipoalergenico menores de 35 años,Almacén Principal,H-2-1,1,25.5,25.5
+10,CPD18C26L2620,OCP18C26L5102,2018-03-26,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,Almacén Principal,H-3-1,1,62,62
+11,CPD18C26L2614,OCP18C26L5102,2018-03-26,ELIXIR DE VIDA GEL TONICO acción integral con Resveratrol, finaliza la limpieza del rostro, suaviza y refresca.,Almacén Principal,H-3-1,1,28.5,28.5
+12,OR18C26K5421,OCP18C26K5351,2018-03-26,TERMO ACERO INOXIDABLE TERMOPLATEADO,Almacén de Premios,General,1,0,0
+13,CPD18C26I3527,OCP18C26K5351,2018-03-26,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,Almacén Principal,F-5-2,1,32,32
+14,CPD18C26I3520,OCP18C26K5351,2018-03-26,TOTAL BLOCK SPF 100 Rostro y cuerpo triple defensa, hidratante con vitamina E,Almacén Principal,E-4-2,2,98,196
+
+
+Salidas
+Item,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total
+1,PS18C26S0715,2018-03-26,BODY SPA EXFOLIANTE GOMMAGE EN CREMA QUINUA Extracto de quinua,1,32,32
+2,OV18C26P5307,2018-03-26,CCORI LE PARFUM Negro,1,106,106
+3,OV18C26P2752,2018-03-26,AROM DESODORANTE Negro,1,12.9,12.9
+4,OV18C26P2752,2018-03-26,OHM BLACK COLOGNE SPRAY Madera de cachemira, lavanda, pimienta.,1,0.9125,0.91
+5,OV18C26P2752,2018-03-26,Cielo Desodorante Celeste,1,12.9,12.9
+6,OV18C26P2752,2018-03-26,CCORI PASION DESODORANTE Morado,1,0,0
+7,OV18C26P2752,2018-03-26,UNIQUE WOMAN EAU DE PARFUM Negro,1,75,75
+8,OV18C26P2752,2018-03-26,TOTALIST ALOE VERA CREMA MULTIACCION Hidrata, nutre y protege.,1,30,30
+9,OV18C26P2752,2018-03-26,SENTIVA BB CREAM Negro,1,58,58
+10,OV18C26P2752,2018-03-26,ELIXIR DE VIDA ROSTRO Mayor firmeza de la piel, mayor nutrición, mayor hidratación, mayor luminosidad. con resveratrol,1,99,99
+11,OV18C26P2752,2018-03-26,L/L ELIXIR DE VIDA ELIX D AMOR antiedad,1,33,33
+12,OV18C26P2752,2018-03-26,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,1,59,59
+13,OV18C26P2752,2018-03-26,ELIXIR DE VIDA SUERO RECONSTITUYENTE Resveratrol, que activa las Sirtuínas conocidas como las proteínas de juventud,,1,119,119
+14,OV18C26P2752,2018-03-26,ELIXIR DE VIDA CREMA DE OJOS Actua contra patas de gallo, bolsas y ojeras, flacidez de los párpados, opacidad y deshidratación.,1,85,85
+15,OV18C26P2752,2018-03-26,ELIXIR DE VIDA GEL TONICO acción integral con Resveratrol, finaliza la limpieza del rostro, suaviza y refresca.,1,29.5,29.5
+16,OV18C26P2752,2018-03-26,REVITALIST HIDRATANTE Hidratante y energizante,1,52,52
+17,OV18C26P2752,2018-03-26,EAU DE SEDA EAU DE PARFUM ORIGINAL Flor de seda, durazno y mimosa sensual.,2,57.5,115
+18,PS18C26M2259,2018-03-26,TEMPTATION COLOGNE FOR MEN A/P Menta, flor de naranja, sándalo.,1,89,89
+19,OV18C26M0947,2018-03-26,TEMPTATION EAU DE PARFUM flores exóticas y acentos exuberantes de rosa búlgara, gardenia y clavo de olor.,1,79,79
+20,OV18C26M0947,2018-03-26,Y. RIMEL NEGRO Negro,1,19.9,19.9
+21,OV18C26M0947,2018-03-26,L/L HYDRA-LIP CRAY RED ELEGANC MY Negro,2,29,58
+22,OV18C26M0947,2018-03-26,LOCION DE SEDA DIAMANTES Hidrata y perfuma,1,29,29
+23,OV18C26L3744,2018-03-26,COLONIA MUNDO SAFARI PARA NIÑO Mandarina Melon y bambu,2,28,56
+24,PS18C26L3656,2018-03-26,ESMALTE PERFECT TEN BURGUNDY Vino,1,18.9,18.9
+25,OV18C26L1349,2018-03-26,POSDATA POR SIEMPRE PARIS SPRAY COLOGNE Deliciosas nota de macarron de frambuesa, vainilla francesa y rosas parisinas,1,29,29
+26,OV18C26K2024,2018-03-26,ULTRA DEFINITION  DELINEADOR LIQUIDO PLUMON NEGRO Delineado grueso,1,30,30
+27,OV18C26K2024,2018-03-26,B/L PERFECT COVER MAT T1 Acabado mate hasta por 8 horas. SPF 12.,1,48,48
+28,OV18C26K2024,2018-03-26,C/S COLOR EFFECT DELUXE Enpaque dorado,1,45,45
+29,OV18C26K1819,2018-03-26,LABIAL ANTI-EDAD ELIXIR DE VIDA ENCANTO ELIXIR rosado oscuro,1,33,33
+30,OV18C26K1819,2018-03-26,B/L PERFECT COVER HIDRA T2 Para piel seca a mixta Hasta 12 horas de cubrimiento.,1,48,48
+31,OV18C26K1819,2018-03-26,TEMPTATION COLOGNE FOR MEN A/P Menta, flor de naranja, sándalo.,1,89,89
+32,OV18C26K1819,2018-03-26,TEMPTATION EAU DE PARFUM A/P flores exóticas y acentos exuberantes de rosa búlgara, gardenia y clavo de olor.,1,79,79
+33,OV18C26J4815,2018-03-26,Bio Fruit 2 en 1 Pera Manzana (antigua presentación) Negro,1,22,22
+34,OV18C26J4815,2018-03-26,CREMA HIDRATANTE BIO MILK FRESA FRAMBUESA A/P Con proteinas de yogurt probiotico,2,22,44
+35,OV18C26J3521,2018-03-26,BODY SPA UÑA DE GATO CREMA REPARADORA PARA CUERPO Repara e hidrata la piel.,1,37,37
+36,OV18C26J3521,2018-03-26,CONTROL BLANC RX SET ANTIMANCHAS Pantalla hidratante, ayuda a aclarar con Albacinol RX-11*, ,2,115,230
+37,PS18C26J3444,2018-03-26,POLVOS COMPACTOS ANTI EDAD ELIXIR DE VIDA MEDIANO 1 Piel Mediana,1,56,56
+38,PS18C26J3444,2018-03-26,BODY SPA UÑA DE GATO CREMA REPARADORA PARA MANOS Hidrata y repara la piel seca y extra seca.,1,24,24
+39,PS18C26I1624,2018-03-26,SENTIVA BB CREAM Negro,1,60,60
+40,PS18C26I1624,2018-03-26,ELIXIR DE VIDA LIMPIADOR Limpia con resveratrol e hipoalergenico.,1,28.5,28.5
+41,PS18C26I1624,2018-03-26,ELIXIR DE VIDA GEL TONICO acción integral con Resveratrol, finaliza la limpieza del rostro, suaviza y refresca.,1,28.5,28.5
+42,PS18C26I1624,2018-03-26,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,1,62,62
+43,PS18C26I1624,2018-03-26,REVITALIST TONICO Negro,1,27,27
+44,PS18C26I1624,2018-03-26,XISS EAU DE TOILETTE  floral frutal de naranja, fresia y sándalo.,1,50,50
+45,PS18C26I1624,2018-03-26,UNIQUECIL RIMEL EXTRA XL NEGRO A prueba de agua,2,32,64
+46,PS18C26I1624,2018-03-26,P/S PERFECT COVER CLARO 1 Piel Clara,1,78,78
+47,PS18C26I1624,2018-03-26,DENDUR COLOGNE FOR MEN Pimienta negra, jengibre, tabaco.,1,104,104
+48,PS18C26I0610,2018-03-26,ELIXIR DE VIDA GEL TONICO acción integral con Resveratrol, finaliza la limpieza del rostro, suaviza y refresca.,1,28.5,28.5
+49,PS18C26I0610,2018-03-26,ELIXIR DE VIDA HIDRATANTE Hidrata, hipoalergenico con resveratrol.,1,62,62
+50,PS18C26I0610,2018-03-26,REVITALIST LIMPIADOR Limpia, hipoalergenico menores de 35 años,1,25.5,25.5
+51,PS18C26I0610,2018-03-26,REVITALIST TONICO Negro,1,27,27
+52,PS18C26I0610,2018-03-26,REVITALIST HIDRATANTE Hidratante y energizante,1,55,55
+53,PS18C26I0610,2018-03-26,CONTROL BLANC RX LIMPIADOR EXFOLIANTE TONIFICANTE Limpia, exfolia y tonifica.,1,39,39
+54,PS18C26I0610,2018-03-26,TITANIUM LIMPIADOR EXFOLIANTE Con OXYGEN COMPLEX que favorece la respiración de la piel para lucir un rostro fresco,1,32,32
+55,PS18C26I0610,2018-03-26,HYDRA LIP LABIAL COLOR INTENSO FUCSIA PELIGROSA fucsia,1,32,32
+56,PS18C26I0610,2018-03-26,ELIXIR DE VIDA LIMPIADOR Limpia con resveratrol e hipoalergenico.,1,28.5,28.5
+
+
+Transferencias
+Item,Transacción,Fecha,Producto,Almacén de Salida,Ubicación de Salida,Almacén de Ingreso,Ubicación de Ingreso,Cantidad
+
+
+Correcciones
+Item,Transacción,Fecha,Producto,Almacén,Ubicación,Cantidad Inicial,Cantidad Final,Motivo

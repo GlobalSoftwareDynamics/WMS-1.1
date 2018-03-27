@@ -966,6 +966,7 @@
 2018C1,Catálogo 2018C1,N/A,Esmaltes,Unisex,Activo
 2018C2,Catálogo 2018C2,N/A,Esmaltes,Unisex,Activo
 2018C3,Catálogo 2018C3,N/A,Esmaltes,Unisex,Activo
+2018C4,Catálogo 2018C4,N/A,Esmaltes,Unisex,Activo
 2021755,ARETES NATURAL CRISTAL,Negro,Aretes,Unisex,Activo
 2024184,ARETES COINCIDIR,Negro,Aretes,Unisex,Activo
 2129031,SET ARETES  CRISTAL FEM,Negro,Aretes,Unisex,Activo
@@ -1137,6 +1138,7 @@
 2370670,GUIA UNIQUE EXPRESS,Negro,Collares,Unisex,Activo
 2370755,BOLSA ENTREGA X 8  2017 50 AÑOS,Negro,Collares,Unisex,Activo
 2370790,MINI PARA O.E C2 17,Negro,Collares,Unisex,Activo
+2370803,KIT DE BIENVENIDA (CARTERA NARANJA),CARTERA NARANJA,Material Promocional,Dama,Activo
 2370831,NECESER TOTAL BLOCK ,Celeste con cierre  23 cm x 15.5cm x 2cm,Material Promocional,Unisex,Activo
 2370835,GUIA DE MAQUILLAJE IDEAL A,Negro,Collares,Unisex,Activo
 2370836,SELECTOR DE TONOS BASE IDEAL,Negro,Collares,Unisex,Activo
@@ -1195,6 +1197,8 @@
 2432583,COLECCIÓN AMATISTA DELUXE,Negro,Colecciones,Unisex,Activo
 2439025,ARETES RED FLOR,Negro,Aretes,Unisex,Activo
 2461672,MALETIN MULTIUSOS (CAFE),MALETIN CAFE CON LOGO UNIQUE,Premio,Unisex,Activo
+2463356,NIVEL ESPECIAL C3 BIO MILK FF,CREMA FRESA,Premio,Unisex,Activo
+2463371,COLECCION AMATISTA DELUXE N1 C3,COLLAR CON ARETES,Colecciones,Dama,Activo
 2464098,RELOJ PLATEADO HOMBRE,Plateado,Premio,Unisex,Activo
 2464099,RELOJ DORADO MUJER,Dorado,Premio,Unisex,Activo
 2464256,RELOJ SILVER ALT,Silver,Premio,Unisex,Activo
@@ -1229,6 +1233,7 @@
 50031910,PULSERA DEZZEO MAGIC,PULSERA DORADA,Pulseras,Dama,Activo
 5008632,COLLAR URBAN EXPRESS,Negro,Collares,Unisex,Activo
 5009439,ARETES SKALLI,Negro,Aretes,Unisex,Activo
+5009600,COLECCION NATURY ,Baño de oro amarillo brillante de 24 quilates con esmalte en rojo y negro,Colecciones,Niños,Activo
 5015296,ARETES MELISSA SPORT,Negro,Aretes,Unisex,Activo
 5015641,ARETES MELODIA PERLA,Negro,Aretes,Unisex,Activo
 5016270,PULSERA FLOR DENDITA,Negro,Collares,Unisex,Activo
@@ -2494,6 +2499,7 @@
 5032124,COLECCION INITIAL GLAM ?Y? J16274,Negro,Colecciones,Unisex,Activo
 5032125,COLECCION INITIAL GLAM ?Z? J16275,Negro,Colecciones,Unisex,Activo
 5032130,ARETES ORQUYDE GLAM,Baño de plata y rutenio brillante con finos cristales en gris y esmalte negro,,Aretes,Dama,Activo
+5032149,SET ARETES METAL BLIZ,Baño de oro amarillo brillante de 24 quilates,Aretes,Dama,Activo
 5032198,SORTIJA DiAMANTI LOVE T-8,Baño de paladio brillante con finos cristales traslucidos,Sortijas,Dama,Activo
 5032201,ARETES CELEBRITY CRISTAL J16427,Negro,Aretes,Unisex,Activo
 5032202,ARETES GLAZE EN DORE J16429,Negro,Aretes,Unisex,Activo

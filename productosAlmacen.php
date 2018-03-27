@@ -25,17 +25,11 @@ if(isset($_SESSION['login'])) {
 									<thead>
 									<tr>
                                         <th class="text-center">
-                                            Imágen
-                                        </th>
-                                        <th class="text-center">
                                             SKU
                                         </th>
                                         <th class="text-center">
                                             Producto
                                         </th>
-										<th class="text-center">
-											Almacén
-										</th>
 										<th class="text-center">
 											Ubicación
 										</th>
@@ -58,10 +52,8 @@ if(isset($_SESSION['login'])) {
 												    $imagen = $row3['urlImagen'];
 											    }
 											    echo "<tr>";
-											    echo "<td class='text-center'><a rel=\"popover\" data-img='{$imagen}'><img src='{$imagen}' width='40px' height='40px'></a></td>";
 											    echo "<td class='text-center'>{$row2['idProducto']}</td>";
 											    echo "<td class='text-center'>{$descripcionProducto}</td>";
-											    echo "<td class='text-center'>{$_POST['idAlmacen']}</td>";
 											    echo "<td class='text-center'>{$row2['idUbicacion']}</td>";
 											    echo "<td class='text-center'>{$row2['stock']}</td>";
 											    echo "</tr>";
