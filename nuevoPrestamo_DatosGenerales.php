@@ -15,7 +15,7 @@ if(isset($_SESSION['login'])) {
         $aux1 = 1;
     }
     $aux1++;
-    
+
     $idPS = idgen("PS");
     $idPS = $idPS."-".$aux1;
     ?>

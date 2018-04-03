@@ -60,7 +60,8 @@ if(isset($_SESSION['login'])) {
 			$_POST['notas']=null;
 		}
 
-		$precio=$_POST['precio']*$_POST['promo'];
+        $precio1=explode("|",$_POST['precio']);
+        $precio=$precio1[0]*$_POST['promo'];
 
 		$add = mysqli_query($link, "INSERT INTO TransaccionProducto(idProducto,idTransaccion,idUbicacionInicial,idUbicacionFinal,idDescuento,valorUnitario,cantidad,idPromocion,observacion,stockInicial,stockFinal,descuento,descuentoMonetario) VALUES ('{$idProducto}','{$_POST['idTransaccion']}',null,null,null,'{$precio}','{$_POST['cantidad']}',
 		null,'{$_POST['notas']}','{$stockinicial}','{$stockfinal}',false,0)");

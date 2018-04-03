@@ -142,12 +142,14 @@ if(isset($_SESSION['login'])) {
             $_POST['notas']=null;
         }
 
+
         $checkCatalogo=substr($idProducto,4,1);
+
         if($checkCatalogo=="C"){
             $precio=$_POST['precio'];
             $precioBase=$_POST['precio'];
         }else{
-            $precio1=explode(" ",$_POST['precio']);
+            $precio1=explode("|",$_POST['precio']);
             $precio=$precio1[0]*$_POST['promo'];
             $precioBase=$precio1[1];
         }
@@ -157,7 +159,7 @@ if(isset($_SESSION['login'])) {
 
         $queryPerformed = "INSERT INTO TransaccionProducto(idProducto,idTransaccion,idUbicacionInicial,idUbicacionFinal,idDescuento,valorUnitario,cantidad,idPromocion,observacion,stockInicial,stockFinal,descuento,descuentoMonetario) VALUES ({$idProducto},{$_POST['idTransaccion']},null,null,{$promocion},{$precio},{$_POST['cantidad']},
 		{$precioBase},{$_POST['notas']},{$stockinicial},{$stockfinal},false,{$_POST['descMonetario']})";
-		
+
         $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','OV-addProducto','{$queryPerformed}')");
 
     }
