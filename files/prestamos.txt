@@ -1,4 +1,6 @@
 ﻿Nro. Orden,Responsable,Fecha de Préstamo,Fecha de Vencimiento,Deudor,Estado
+PS18D03L2135-3,Usuario Prueba,2018-04-03,2018-04-18,HUGO TRONCOZO,Abierta
+PS18D03L0448,Usuario Prueba,2018-04-03,2018-04-18,HUGO TRONCOZO,Abierta
 PS18D03L0227,Usuario Prueba,2018-04-03,2018-04-18,HUGO TRONCOZO,Abierta
 PS18C07L1229,Roxana Hinojosa Menendez,2018-03-07,2018-03-22,GILDA VALVERDE VALDIVIA,Parcial
 PS18C06S0010,Jessica Adriana Salas Pacheco,2018-03-06,2018-03-21,MERCEDES DAVILA DE PASTOR,Parcial
