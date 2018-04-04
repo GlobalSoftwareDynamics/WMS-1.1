@@ -61,12 +61,22 @@ if(isset($_SESSION['login'])) {
 			$previousStock = $row['stock'];
 			$stockUpdate = $previousStock + $_POST['cantidadRecibida'];
 			$update = mysqli_query($link, "UPDATE UbicacionProducto SET stock = '{$stockUpdate}', fechaModificacion = '{$date}' WHERE idUbicacion = '{$_POST['ubicacionAlmacen']}' AND idProducto = '{$_POST['idProducto']}'");
+
+            $query2 = mysqli_query($link,"INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ('{$_POST['idOrdenRecepcion']}','{$_POST['idProducto']}','{$_POST['ubicacionAlmacen']}','{$_POST['cantidadRecibida']}','{$previousStock}','{$stockUpdate}')");
+            $queryPerformed = "INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ({$_POST['idOrdenRecepcion']},{$_POST['idProducto']},{$_POST['ubicacionAlmacen']},{$_POST['cantidadRecibida']},{$previousStock},{$stockUpdate})";
+            $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','logMovimientosAlmacen','{$queryPerformed}')");
+
         }
 
         $stockTotalUpdate = $stockTotal + $_POST['cantidadRecibida'];
 
         if(!$flag){
 	        $insert = mysqli_query($link,"INSERT INTO UbicacionProducto VALUES ('{$_POST['idProducto']}','{$_POST['ubicacionAlmacen']}','{$_POST['cantidadRecibida']}','{$date}')");
+
+	        $query2 = mysqli_query($link,"INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ('{$_POST['idOrdenRecepcion']}','{$_POST['idProducto']}','{$_POST['ubicacionAlmacen']}','{$_POST['cantidadRecibida']}','0','{$stockTotalUpdate}')");
+            $queryPerformed = "INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ({$_POST['idOrdenRecepcion']},{$_POST['idProducto']},{$_POST['ubicacionAlmacen']},{$_POST['cantidadRecibida']},0,{$stockTotalUpdate})";
+            $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','logMovimientosAlmacen','{$queryPerformed}')");
+
         }
 
         $insert = mysqli_query($link,"INSERT INTO TransaccionProducto VALUES ('{$_POST['idProducto']}','{$_POST['idOrdenRecepcion']}',null,'{$_POST['ubicacionAlmacen']}',

@@ -35,22 +35,19 @@
                                 <thead>
                                 <tr>
                                     <th class="text-center">Item</th>
-                                    <th class="text-center">Transacción</th>
-                                    <th class="text-center">Referencia</th>
                                     <th class="text-center">Fecha</th>
+                                    <th class="text-center">Transacción</th>
                                     <th class="text-center">Producto</th>
                                     <th class="text-center">Almacén</th>
                                     <th class="text-center">Ubicación</th>
                                     <th class="text-center">Cantidad</th>
-                                    <th class="text-center">Valor Unitario (S/.)</th>
-                                    <th class="text-center">Total (S/.)</th>
                                 </tr>
                                 </thead>
                                 <tbody>
 								<?php
 								$file = fopen($fileName,"w") or die("No se encontró el archivo!");
 								fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-								$txt = "Ingresos".PHP_EOL."Item,Transacción,Referencia,Fecha,Producto,Almacén,Ubicación,Cantidad,Valor Unitario,Total".PHP_EOL;
+								$txt = "Ingresos".PHP_EOL."Item,Fecha,Transacción,Producto,Almacén,Ubicación,Cantidad".PHP_EOL;
 								fwrite($file, $txt);
 								$dateInicio = explode("-", $_POST['fechaInicioReporte']);
 								$dateFin = explode("-", $_POST['fechaFinReporte']);
@@ -66,28 +63,16 @@
 										$valorReferencia = 0;
 										$query2 = mysqli_query($link, "SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$row['idTransaccion']}'");
 										while ($row2 = mysqli_fetch_array($query2)) {
-											if (substr($row['idTransaccion'], 0, 2) == 'OR') {
-												$transaccionReferencia = $row['referenciaTransaccion'];
-												$query3 = mysqli_query($link, "SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$row['referenciaTransaccion']}' AND idProducto = '{$row2['idProducto']}'");
-												while ($row3 = mysqli_fetch_array($query3)) {
-													$valorReferencia = $row3['valorUnitario'];
-												}
-											}
 											$aux++;
 											echo "<tr>";
 											echo "<td class='text-center'>$aux</td>";
+                                            $fechaTransaccion = explode(" ",$row['fechaTransaccion']);
+                                            echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
 											echo "<td class='text-center'>{$row['idTransaccion']}</td>";
-											echo "<td class='text-center'>{$transaccionReferencia}</td>";
-											$fechaTransaccion = explode(" ",$row['fechaTransaccion']);
-											echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
 											$query3 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row2['idProducto']}'");
 											while ($row3 = mysqli_fetch_array($query3)) {
 												$nombreProducto = $row3['nombreCorto'];
-												$query4 = mysqli_query($link,"SELECT * FROM Color WHERE idColor = '{$row3['idColor']}'");
-												while($row4 = mysqli_fetch_array($query4)){
-													$atributo = $row4['descripcion'];
-												}
-												echo "<td class='text-center'>{$row3['nombreCorto']} {$atributo}</td>";
+												echo "<td class='text-center'>{$row3['nombreCorto']}</td>";
 											}
 											$query3 = mysqli_query($link, "SELECT * FROM Ubicacion WHERE idUbicacion = '{$row2['idUbicacionFinal']}'");
 											while ($row3 = mysqli_fetch_array($query3)) {
@@ -99,27 +84,8 @@
 											}
 											echo "<td class='text-center'>{$row2['idUbicacionFinal']}</td>";
 											echo "<td class='text-center'>{$row2['cantidad']}</td>";
-											if ($valorReferencia != 0) {
-											    $valorReferencia = round($valorReferencia,2);
-												echo "<td class='text-center'>{$valorReferencia}</td>";
-												$valorTotal = $row2['cantidad'] * $valorReferencia;
-												$valorUnitPrint = $valorReferencia;
-											} else {
-												if ($row2['valorUnitario'] == 0) {
-													echo "<td class='text-center'>0</td>";
-													$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
-													$valorUnitPrint = 0;
-												} else {
-												    $valorUnitario = round($row2['valorUnitario'],2);
-													echo "<td class='text-center'>{$valorUnitario}</td>";
-													$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
-													$valorUnitPrint = $row2['valorUnitario'];
-												}
-											}
-											$valorTotal = round($valorTotal,2);
-											echo "<td class='text-center'>{$valorTotal}</td>";
 											echo "</tr>";
-											$txt = $aux.",".$row['idTransaccion'].",".$transaccionReferencia.",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$nombreAlmacen.",".$row2['idUbicacionFinal'].",".$row2['cantidad'].",".$valorUnitPrint.",".$valorTotal.PHP_EOL;
+											$txt = $aux.",".$fechaTransaccion[0].",".$row['idTransaccion'].",".$nombreProducto.",".$nombreAlmacen.",".$row2['idUbicacionFinal'].",".$row2['cantidad'].PHP_EOL;
 											fwrite($file, $txt);
 											$atributo = null;
 										}
@@ -140,17 +106,17 @@
                                 <thead>
                                 <tr>
                                     <th class="text-center">Item</th>
-                                    <th class="text-center">Transacción</th>
                                     <th class="text-center">Fecha</th>
+                                    <th class="text-center">Transacción</th>
                                     <th class="text-center">Producto</th>
+                                    <th class="text-center">Almacén</th>
+                                    <th class="text-center">Ubicación</th>
                                     <th class="text-center">Cantidad</th>
-                                    <th class="text-center">Valor Unitario (S/.)</th>
-                                    <th class="text-center">Total (S/.)</th>
                                 </tr>
                                 </thead>
                                 <tbody>
 								<?php
-								$txt = PHP_EOL.PHP_EOL."Salidas".PHP_EOL."Item,Transacción,Fecha,Producto,Cantidad,Valor Unitario,Total".PHP_EOL;
+								$txt = PHP_EOL.PHP_EOL."Salidas".PHP_EOL."Item,Fecha,Transacción,Producto,Almacén,Ubicación,Cantidad".PHP_EOL;
 								fwrite($file, $txt);
 								$dateInicio = explode("-", $_POST['fechaInicioReporte']);
 								$dateFin = explode("-", $_POST['fechaFinReporte']);
@@ -163,52 +129,32 @@
 									$fechaTransaccionCompleta = $fechaTransac[0];
 									if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
 										$valorReferencia = 0;
-										$query2 = mysqli_query($link, "SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$row['idTransaccion']}'");
+										$query2 = mysqli_query($link, "SELECT * FROM logMovimientosAlmacen WHERE idTransaccion = '{$row['idTransaccion']}'");
 										while ($row2 = mysqli_fetch_array($query2)) {
-											if (substr($row['idTransaccion'], 0, 2) == 'OR') {
-												$transaccionReferencia = $row['referenciaTransaccion'];
-												$query3 = mysqli_query($link, "SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$row['referenciaTransaccion']}' AND idProducto = '{$row2['idProducto']}'");
-												while ($row3 = mysqli_fetch_array($query3)) {
-													$valorReferencia = $row3['valorUnitario'];
-												}
-											}
-											$aux++;
+
+										    $aux++;
 											echo "<tr>";
 											echo "<td class='text-center'>$aux</td>";
+                                            $fechaTransaccion = explode(" ",$row['fechaTransaccion']);
+                                            echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
 											echo "<td class='text-center'>{$row['idTransaccion']}</td>";
-											$fechaTransaccion = explode(" ",$row['fechaTransaccion']);
-											echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
 											$query3 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row2['idProducto']}'");
 											while ($row3 = mysqli_fetch_array($query3)) {
 												$nombreProducto = $row3['nombreCorto'];
-												$query4 = mysqli_query($link,"SELECT * FROM Color WHERE idColor = '{$row3['idColor']}'");
-												while($row4 = mysqli_fetch_array($query4)){
-													$atributo = $row4['descripcion'];
-												}
-												echo "<td class='text-center'>{$row3['nombreCorto']} {$atributo}</td>";
+												echo "<td class='text-center'>{$row3['nombreCorto']}</td>";
 											}
+                                            $query3 = mysqli_query($link, "SELECT * FROM Ubicacion WHERE idUbicacion = '{$row2['idUbicacion']}'");
+                                            while ($row3 = mysqli_fetch_array($query3)) {
+                                                $query4 = mysqli_query($link, "SELECT * FROM Almacen WHERE idAlmacen = '{$row3['idAlmacen']}'");
+                                                while ($row4 = mysqli_fetch_array($query4)) {
+                                                    $nombreAlmacen = $row4['descripcion'];
+                                                    echo "<td class='text-center'>{$row4['descripcion']}</td>";
+                                                }
+                                            }
+                                            echo "<td class='text-center'>{$row2['idUbicacion']}</td>";
 											echo "<td class='text-center'>{$row2['cantidad']}</td>";
-											if ($valorReferencia != 0) {
-											    $valorReferencia = round($valorReferencia,2);
-												echo "<td class='text-center'>{$valorReferencia}</td>";
-												$valorTotal = $row2['cantidad'] * $valorReferencia;
-												$valorUnitPrint = $valorReferencia;
-											} else {
-												if ($row2['valorUnitario'] == 0) {
-													echo "<td class='text-center'>0</td>";
-													$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
-													$valorUnitPrint = 0;
-												} else {
-												    $valorUnitario = round($row2['valorUnitario'],2);
-													echo "<td class='text-center'>{$valorUnitario}</td>";
-													$valorTotal = $row2['cantidad'] * $row2['valorUnitario'];
-													$valorUnitPrint = $row2['valorUnitario'];
-												}
-											}
-											$valorTotal = round($valorTotal,2);
-											echo "<td class='text-center'>{$valorTotal}</td>";
 											echo "</tr>";
-											$txt = $aux.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto." ".$atributo.",".$row2['cantidad'].",".$valorUnitPrint.",".$valorTotal.PHP_EOL;
+											$txt = $aux.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto.",".$nombreAlmacen.",".$row2['idUbicacion'].",".$row2['cantidad'].PHP_EOL;
 											fwrite($file, $txt);
 											$atributo = null;
 										}

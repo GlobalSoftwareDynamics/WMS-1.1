@@ -1,0 +1,25 @@
+﻿Ingresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+1,2018-04-04,MOV18D04K4403,Usuario Prueba,HUGO TRONCOZO,Venta,,50
+2,2018-04-04,MOV18D04K4245,Usuario Prueba,HUGO TRONCOZO,Venta,,100
+
+Total,150
+
+
+Egresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+
+Total,0
+
+
+Cupones
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+
+Total,0
+
+
+Saldos
+
+CAJA CHICA
+
+1546.4

@@ -29,11 +29,13 @@ if(isset($_SESSION['login'])) {
 		}
 
 		$stockUbicacion = 0;
+        $stockUbicacionInicial = 0;
 		$flagUbicacion = false;
 
 		$select = mysqli_query($link, "SELECT * FROM UbicacionProducto WHERE idProducto = '{$_POST['idProductoSelect']}' AND idUbicacion = '{$_POST['ubicacionAlmacen']}'");
 		while($row = mysqli_fetch_array($select)){
 		    $stockUbicacion += $row['stock'];
+            $stockUbicacionInicial += $row['stock'];
 		    $flagUbicacion = true;
         }
 
@@ -45,12 +47,22 @@ if(isset($_SESSION['login'])) {
 	    $insert = mysqli_query($link,"INSERT INTO TransaccionProducto VALUES ('{$_POST['idProductoSelect']}','{$idPago}',null,'{$_POST['ubicacionAlmacen']}',null,
                   {$valorUnitarioPrestamo},{$_POST['cantidadDevuelta']},null,'{$_POST['idProductoSelect']}',{$stockTotal},{$stockFinal},null,0)");
 	    $update = mysqli_query($link,"UPDATE Transaccion SET montoRestante = {$montoRestante} WHERE idTransaccion = '{$_POST['idTransaccion']}'");
+
 	    if($flagUbicacion){
 		    $update = mysqli_query($link, "UPDATE UbicacionProducto SET stock = '{$stockUbicacion}', fechaModificacion = '{$date}' WHERE idProducto = '{$_POST['idProductoSelect']}' AND idUbicacion = '{$_POST['ubicacionAlmacen']}'");
+
+            $query2 = mysqli_query($link,"INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ('{$idPago}','{$_POST['idProductoSelect']}','{$_POST['ubicacionAlmacen']}','{$_POST['cantidadDevuelta']}','{$stockUbicacionInicial}','{$stockUbicacion}')");
+            $queryPerformed = "INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ({$idPago},{$_POST['idProductoSelect']},{$_POST['ubicacionAlmacen']},{$_POST['cantidadDevuelta']},{$stockUbicacionInicial},{$stockUbicacion})";
+            $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','logMovimientosAlmacen','{$queryPerformed}')");
+
         }else{
 	        $insert = mysqli_query($link, "INSERT INTO UbicacionProducto VALUES('{$_POST['idProductoSelect']}', '{$_POST['ubicacionAlmacen']}', {$stockUbicacion},'{$dateTime}')");
-        }
 
+            $query2 = mysqli_query($link,"INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ('{$idPago}','{$_POST['idProductoSelect']}','{$_POST['ubicacionAlmacen']}','{$_POST['cantidadDevuelta']}','0','{$stockUbicacion}')");
+            $queryPerformed = "INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ({$idPago},{$_POST['idProductoSelect']},{$_POST['ubicacionAlmacen']},{$_POST['cantidadDevuelta']},0,{$stockUbicacion})";
+            $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','logMovimientosAlmacen','{$queryPerformed}')");
+
+        }
     }
 
 	$fechaTransaccion = array();
@@ -96,11 +108,13 @@ if(isset($_SESSION['login'])) {
 		    $stockFinal = $stockTotal + $_POST['cantidadProducto'];
 
 		    $stockUbicacion = 0;
+            $stockUbicacionInicial = 0;
 		    $flagUbicacion2 = false;
 
 		    $select = mysqli_query($link, "SELECT * FROM UbicacionProducto WHERE idProducto = '{$idProductoPago}' AND idUbicacion = '{$_POST['ubicacionAlmacen']}'");
 		    while($row = mysqli_fetch_array($select)){
 			    $stockUbicacion += $row['stock'];
+                $stockUbicacionInicial += $row['stock'];
 			    $flagUbicacion2 = true;
 		    }
 
@@ -108,16 +122,27 @@ if(isset($_SESSION['login'])) {
 		    $valorPago = $_POST['cantidadProducto'] * $_POST['precio'];
 		    $montoRestanteFinal = $montoRestante - $valorPago;
 
-		    if($flagUbicacion2){
-			    $update = mysqli_query($link, "UPDATE UbicacionProducto SET stock = '{$stockUbicacion}', fechaModificacion = '{$dateTime}' WHERE idProducto = '{$idProductoPago}' AND idUbicacion = '{$_POST['ubicacionAlmacen']}'");
-		    }else{
-			    $insert = mysqli_query($link, "INSERT INTO UbicacionProducto VALUES('{$idProductoPago}', '{$_POST['ubicacionAlmacen']}', {$stockUbicacion},'{$dateTime}')");
-		    }
-	        $insert = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$idPago}',5,'{$idDeudor}',2,'{$_SESSION['user']}',null,null,'{$dateTime}',null,null,0,'{$idProductoPago}','{$_POST['idTransaccion']}',null,null)");
+            $insert = mysqli_query($link,"INSERT INTO Transaccion VALUES ('{$idPago}',5,'{$idDeudor}',2,'{$_SESSION['user']}',null,null,'{$dateTime}',null,null,0,'{$idProductoPago}','{$_POST['idTransaccion']}',null,null)");
 
-	        $insert = mysqli_query($link,"INSERT INTO TransaccionProducto VALUES ('{$idProductoPago}','{$idPago}',null,'{$_POST['ubicacionAlmacen']}',null,{$_POST['precio']},{$_POST['cantidadProducto']},null,
+            $insert = mysqli_query($link,"INSERT INTO TransaccionProducto VALUES ('{$idProductoPago}','{$idPago}',null,'{$_POST['ubicacionAlmacen']}',null,{$_POST['precio']},{$_POST['cantidadProducto']},null,
                                                 '{$idProductoPago}',{$stockTotal},{$stockFinal},null,0)");
-	        $update = mysqli_query($link,"UPDATE Transaccion SET montoRestante = '{$montoRestanteFinal}' WHERE idTransaccion = '{$_POST['idTransaccion']}'");
+            $update = mysqli_query($link,"UPDATE Transaccion SET montoRestante = '{$montoRestanteFinal}' WHERE idTransaccion = '{$_POST['idTransaccion']}'");
+
+            if($flagUbicacion2){
+			    $update = mysqli_query($link, "UPDATE UbicacionProducto SET stock = '{$stockUbicacion}', fechaModificacion = '{$dateTime}' WHERE idProducto = '{$idProductoPago}' AND idUbicacion = '{$_POST['ubicacionAlmacen']}'");
+
+                $consulta = mysqli_query($link,"INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ('{$idPago}','{$idProductoPago}','{$_POST['ubicacionAlmacen']}','{$_POST['cantidadProducto']}','{$stockUbicacionInicial}','{$stockUbicacion}')");
+                $queryPerformed = "INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ({$idPago},{$idProductoPago},{$_POST['ubicacionAlmacen']},{$_POST['cantidadProducto']},{$stockUbicacionInicial},{$stockUbicacion})";
+                $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','logMovimientosAlmacen','{$queryPerformed}')");
+
+            }else{
+			    $insert = mysqli_query($link, "INSERT INTO UbicacionProducto VALUES('{$idProductoPago}', '{$_POST['ubicacionAlmacen']}', {$stockUbicacion},'{$dateTime}')");
+
+                $consulta = mysqli_query($link,"INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ('{$idPago}','{$idProductoPago}','{$_POST['ubicacionAlmacen']}','{$_POST['cantidadProducto']}','0','{$stockUbicacion}')");
+                $queryPerformed = "INSERT INTO logMovimientosAlmacen(idTransaccion,idProducto,idUbicacion,cantidad,stockInicial,stockFinal) VALUES ({$idPago},{$idProductoPago},{$_POST['ubicacionAlmacen']},{$_POST['cantidadProducto']},0,{$stockUbicacion})";
+                $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','logMovimientosAlmacen','{$queryPerformed}')");
+
+            }
         }
 
 		if(($_POST['montoEfectivo']) != ''){

@@ -23,11 +23,15 @@ if(isset($_SESSION['login'])) {
 										<label class="sr-only" for="selectTipoReporte">Tipo de Reporte</label>
 										<select class="form-control" name="selectTipoReporte" id="selectTipoReporte">
 											<option selected disabled>Seleccionar Tipo de Reporte</option>
-											<option value="1">Inventario Detallado</option>
-											<option value="2">Caja</option>
-											<option value="3">Compras/Ventas/Prestamos</option>
-                                            <option value="4">Registro de Stock</option>
-                                            <option value="5">Inventario Simple Ingresos/Salidas</option>
+											<option value="1">Reporte de Inventario Detallado</option>
+											<option value="2">Reporte de Caja</option>
+											<option value="3">Reporte de Compras/Ventas/Prestamos</option>
+                                            <option value="4">Reporte de Registro de Stock</option>
+                                            <option value="5">Reporte de Inventario Simple (Ingresos/Salidas)</option>
+                                            <option value="6">Reporte de Cobranza</option>
+                                            <option value="7">Reporte de Prestamos en Deuda</option>
+                                            <option value="8">Reporte de Premios por Llegar</option>
+                                            <option value="9">Reporte de Deudas</option>
 										</select>
 									</div>
 									<div class="form-group  mt-2 mb-2 mr-2">

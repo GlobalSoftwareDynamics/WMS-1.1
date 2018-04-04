@@ -51,7 +51,7 @@ if(isset($_SESSION['login'])) {
 
     <?php
     if(isset($_POST['generar']) && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
-        include('reporteKardexFechas.php');
+        include('reporteHistorialProductoFechas.php');
         $nombreProducto = explode("_",$_POST['nombreProducto']);
     }
 

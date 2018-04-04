@@ -45,7 +45,7 @@ include('funciones.php');
 		<?php
 	}
 
-    if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/reporteKardex.php'){
+    if($_SERVER['REQUEST_URI'] == '/uniquewmslocal/reporteHistorialProducto.php'){
         $arrayProductos =autocompletarProducto('Producto','nombreCorto',$link);
 
         ?>

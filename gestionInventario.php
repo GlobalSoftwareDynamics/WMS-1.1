@@ -173,7 +173,7 @@ if(isset($_SESSION['login'])) {
                             <a class="dropdown-item" href="gestionAlmacenes.php">Gestionar Almacenes</a>
                             <a class="dropdown-item" href="recepcionPremios.php">Registrar Productos a Costo Cero</a>
                             <form method="post">
-                                <input type="submit" formaction="reporteKardex.php" value="Kardex de Producto" name="reporteKardex" class="dropdown-item" style="font-size: 1rem">
+                                <input type="submit" formaction="reporteHistorialProducto.php" value="Historial por Producto" name="reporteKardex" class="dropdown-item" style="font-size: 1rem">
                                 <input type="submit" formaction="gestionInventario.php" value="Cierre de Inventario" name="cierreInventario" class="dropdown-item" style="font-size: 1rem"/>
                             </form>
                             <a class="dropdown-item" href="files/inventario.txt" download>Exportar Listado</a>
