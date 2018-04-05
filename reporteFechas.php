@@ -29,7 +29,7 @@ if(isset($_SESSION['login'])) {
                                             <option value="4">Reporte de Registro de Stock</option>
                                             <option value="5">Reporte de Inventario Simple (Ingresos/Salidas)</option>
                                             <option value="6">Reporte de Cobranza</option>
-                                            <option value="7">Reporte de Prestamos en Deuda</option>
+                                            <!--<option value="7">Reporte de Prestamos en Deuda</option>-->
                                             <option value="8">Reporte de Premios por Llegar</option>
                                             <option value="9">Reporte de Deudas</option>
 										</select>

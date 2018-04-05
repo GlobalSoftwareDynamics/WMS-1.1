@@ -310,7 +310,6 @@ if(isset($_SESSION['login'])) {
                             <a class="dropdown-item" href="nuevoPrestamo_DatosGenerales.php">Registrar Nuevo Préstamo</a>
                             <a class="dropdown-item" href="nuevoPrestamoEfectivo.php">Registrar Préstamo de Efectivo</a>
                             <a class="dropdown-item" href="busquedaRegistros.php">Busqueda de Registros</a>
-                            <a class="dropdown-item" href="reporteDeudasPrestamos.php">Reporte de Prestamos en Deuda</a>
                             <a class="dropdown-item" href="files/prestamos.txt" download>Exportar Listado</a>
                         </div>
                     </div>
