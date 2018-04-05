@@ -47,8 +47,8 @@ if(isset($_SESSION['login'])){
                                     $html .="<td class='text-center'>{$row['idTransaccionPrimaria']}</td>";
                                     $html .="<td class='text-center'>{$row['nombres']} {$row['apellidos']}</td>";
                                     $html .="<td class='text-center'>{$row['nombre']}</td>";
-                                    $html .="<td class='text-center'>{$row['monto']}</td>";
-                                    $html .="<td class='text-center'>{$row['montoRestante']}</td>";
+                                    $html .="<td class='text-center'>S/ {$row['monto']}</td>";
+                                    $html .="<td class='text-center'>S/ {$row['montoRestante']}</td>";
                                     $html .="<td class='text-center'>{$row['fechaVencimiento']}</td>";
                                     $html .="</tr>";
                                 }

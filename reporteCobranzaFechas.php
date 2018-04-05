@@ -63,11 +63,11 @@
                                     echo "<td class='text-center'>{$row['idTransaccionPrimaria']}</td>";
                                     echo "<td class='text-center'>{$row['nombres']} {$row['apellidos']}</td>";
                                     echo "<td class='text-center'>{$row['nombre']}</td>";
-                                    echo "<td class='text-center'>{$row['monto']}</td>";
-                                    echo "<td class='text-center'>{$row['montoRestante']}</td>";
+                                    echo "<td class='text-center'>S/ {$row['monto']}</td>";
+                                    echo "<td class='text-center'>S/ {$row['montoRestante']}</td>";
                                     echo "<td class='text-center'>{$row['fechaVencimiento']}</td>";
                                     echo "</tr>";
-                                    $txt = $fechaTransaccion[0].",".$row['idMovimiento'].",".$row['idTransaccionPrimaria'].",".$row['nombres']." ".$row['apellidos'].",".$row['nombre'].",".$row['monto'].",".$row['montoRestante'].",".$row['fechaVencimiento'].PHP_EOL;
+                                    $txt = $fechaTransaccion[0].",".$row['idMovimiento'].",".$row['idTransaccionPrimaria'].",".$row['nombres']." ".$row['apellidos'].",".$row['nombre'].",S/ ".$row['monto'].",S/ ".$row['montoRestante'].",".$row['fechaVencimiento'].PHP_EOL;
                                     fwrite($file, $txt);
                                     $atributo = null;
                                 }
