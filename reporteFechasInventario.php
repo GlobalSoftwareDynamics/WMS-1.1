@@ -17,7 +17,7 @@
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="files/<?php echo $_SESSION['user']?>-reporteInventarioFechas.txt" download>Exportar Listado</a>
-                                <form method="post" action="reporteInventarioPDF.php">
+                                <form method="post" action="reporteFechasInventarioPDF.php">
                                     <input type="hidden" name="fechaInicioReporte" value="<?php echo $_POST['fechaInicioReporte'];?>">
                                     <input type="hidden" name="fechaFinReporte" value="<?php echo $_POST['fechaFinReporte'];?>">
                                     <input type="submit" name="pdf" value="Descargar" class="dropdown-item" style="font-size: 16px">

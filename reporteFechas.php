@@ -65,6 +65,14 @@ if(isset($_SESSION['login'])) {
         include ('reporteFechasStock.php');
     }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 5 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
         include ('reporteFechasInventarioSimple.php');
+    }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 6 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
+        include ('reporteCobranzaFechas.php');
+    }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 7 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
+        include ('reportePrestamosDeudaFechas.php');
+    }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 8 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
+        include ('reportePremiosPorLlegarFechas.php');
+    }elseif(isset($_POST['generar']) && $_POST['selectTipoReporte'] == 9 && $_POST['fechaInicioReporte'] != '' && $_POST['fechaFinReporte'] != '') {
+        include ('reporteDeudasFechas.php');
     }
 
 	include('footerTemplateAutocomplete.php');
