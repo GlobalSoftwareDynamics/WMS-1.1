@@ -187,12 +187,7 @@ if(isset($_SESSION['login'])) {
         $result=mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$_POST['idTransaccion']}'");
         while ($fila=mysqli_fetch_array($result)){
             $cantidad=$fila['cantidad'];
-            $descuento=1;
-            $desc=mysqli_query($link,"SELECT * FROM Descuento WHERE idDescuento = '{$fila['idDescuento']}'");
-            while ($fila1=mysqli_fetch_array($desc)){
-                $descuento=1-($fila1['porcentaje']/100);
-            }
-            $totalproducto=$fila['cantidad']*$fila['valorUnitario']*$descuento;
+            $totalproducto=$fila['cantidad']*$fila['valorUnitario'];
             $total+=$totalproducto;
             $query=mysqli_query($link,"SELECT * FROM Almacen ORDER BY prioridad ASC");
             while ($row=mysqli_fetch_array($query)){
@@ -563,7 +558,7 @@ if(isset($_SESSION['login'])) {
                                 echo "<tr>
                                         <td class='text-center'>{$row['idTransaccion']}</td>
                                         <td class='text-center'>{$nombre}</td>
-                                        <td class='text-center'>{$row['fechaTransaccion']}</td>
+                                        <td class='text-center'>{$fecha[0]}</td>
                                         <td class='text-center'>{$row['fechaVencimiento']}</td>
                                         ";
                                 $query3=mysqli_query($link,"SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
