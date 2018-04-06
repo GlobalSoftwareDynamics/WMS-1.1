@@ -37,6 +37,7 @@
                                     <th class="text-center">Item</th>
                                     <th class="text-center">Fecha</th>
                                     <th class="text-center">Transacción</th>
+                                    <th class="text-center">Cliente</th>
                                     <th class="text-center">Producto</th>
                                     <th class="text-center">Almacén</th>
                                     <th class="text-center">Ubicación</th>
@@ -47,7 +48,7 @@
 								<?php
 								$file = fopen($fileName,"w") or die("No se encontró el archivo!");
 								fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-								$txt = "Ingresos".PHP_EOL."Item,Fecha,Transacción,Producto,Almacén,Ubicación,Cantidad".PHP_EOL;
+								$txt = "Ingresos".PHP_EOL."Item,Fecha,Transacción,Cliente,Producto,Almacén,Ubicación,Cantidad".PHP_EOL;
 								fwrite($file, $txt);
 								$dateInicio = explode("-", $_POST['fechaInicioReporte']);
 								$dateFin = explode("-", $_POST['fechaFinReporte']);
@@ -69,6 +70,11 @@
                                             $fechaTransaccion = explode(" ",$row['fechaTransaccion']);
                                             echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
 											echo "<td class='text-center'>{$row['idTransaccion']}</td>";
+                                            $query3 = mysqli_query($link, "SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+                                            while ($row3 = mysqli_fetch_array($query3)) {
+                                                $proveedor = $row3['nombre'];
+                                                echo "<td class='text-center'>{$row3['nombre']}</td>";
+                                            }
 											$query3 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row2['idProducto']}'");
 											while ($row3 = mysqli_fetch_array($query3)) {
 												$nombreProducto = $row3['nombreCorto'];
@@ -85,7 +91,7 @@
 											echo "<td class='text-center'>{$row2['idUbicacionFinal']}</td>";
 											echo "<td class='text-center'>{$row2['cantidad']}</td>";
 											echo "</tr>";
-											$txt = $aux.",".$fechaTransaccion[0].",".$row['idTransaccion'].",".$nombreProducto.",".$nombreAlmacen.",".$row2['idUbicacionFinal'].",".$row2['cantidad'].PHP_EOL;
+											$txt = $aux.",".$fechaTransaccion[0].",".$row['idTransaccion'].",".$proveedor.",".$nombreProducto.",".$nombreAlmacen.",".$row2['idUbicacionFinal'].",".$row2['cantidad'].PHP_EOL;
 											fwrite($file, $txt);
 											$atributo = null;
 										}
@@ -108,6 +114,7 @@
                                     <th class="text-center">Item</th>
                                     <th class="text-center">Fecha</th>
                                     <th class="text-center">Transacción</th>
+                                    <th class="text-center">Cliente</th>
                                     <th class="text-center">Producto</th>
                                     <th class="text-center">Almacén</th>
                                     <th class="text-center">Ubicación</th>
@@ -116,7 +123,7 @@
                                 </thead>
                                 <tbody>
 								<?php
-								$txt = PHP_EOL.PHP_EOL."Salidas".PHP_EOL."Item,Fecha,Transacción,Producto,Almacén,Ubicación,Cantidad".PHP_EOL;
+								$txt = PHP_EOL.PHP_EOL."Salidas".PHP_EOL."Item,Fecha,Transacción,Cliente,Producto,Almacén,Ubicación,Cantidad".PHP_EOL;
 								fwrite($file, $txt);
 								$dateInicio = explode("-", $_POST['fechaInicioReporte']);
 								$dateFin = explode("-", $_POST['fechaFinReporte']);
@@ -131,13 +138,17 @@
 										$valorReferencia = 0;
 										$query2 = mysqli_query($link, "SELECT * FROM logMovimientosAlmacen WHERE idTransaccion = '{$row['idTransaccion']}'");
 										while ($row2 = mysqli_fetch_array($query2)) {
-
 										    $aux++;
 											echo "<tr>";
 											echo "<td class='text-center'>$aux</td>";
                                             $fechaTransaccion = explode(" ",$row['fechaTransaccion']);
                                             echo "<td class='text-center'>{$fechaTransaccion[0]}</td>";
 											echo "<td class='text-center'>{$row['idTransaccion']}</td>";
+                                            $query3 = mysqli_query($link, "SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+                                            while ($row3 = mysqli_fetch_array($query3)) {
+                                                $proveedor = $row3['nombre'];
+                                                echo "<td class='text-center'>{$row3['nombre']}</td>";
+                                            }
 											$query3 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row2['idProducto']}'");
 											while ($row3 = mysqli_fetch_array($query3)) {
 												$nombreProducto = $row3['nombreCorto'];
@@ -154,7 +165,7 @@
                                             echo "<td class='text-center'>{$row2['idUbicacion']}</td>";
 											echo "<td class='text-center'>{$row2['cantidad']}</td>";
 											echo "</tr>";
-											$txt = $aux.",".$row['idTransaccion'].",".$fechaTransaccion[0].",".$nombreProducto.",".$nombreAlmacen.",".$row2['idUbicacion'].",".$row2['cantidad'].PHP_EOL;
+											$txt = $aux.",".$fechaTransaccion[0].",".$row['idTransaccion'].",".$proveedor.",".$nombreProducto.",".$nombreAlmacen.",".$row2['idUbicacion'].",".$row2['cantidad'].PHP_EOL;
 											fwrite($file, $txt);
 											$atributo = null;
 										}

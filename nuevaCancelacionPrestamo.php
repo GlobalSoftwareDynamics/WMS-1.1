@@ -304,8 +304,21 @@ if(isset($_SESSION['login'])) {
 			echo "<td class='text-center'>{$row2['idProducto']} - {$row2['nombreCorto']}</td>";
 		}
 		echo "<td class='text-center'>{$row['cantidad']}</td>";
-		echo "<td class='text-center'>S/. {$row['valorUnitario']}</td>";
-		$total = $row['cantidad'] * $row['valorUnitario'];
+        $descuento = 1;
+        $desc=mysqli_query($link,"SELECT * FROM Descuento WHERE idDescuento = '{$row['idDescuento']}'");
+        $numrow = mysqli_num_rows($desc);
+        if($numrow > 0){
+            while ($fila=mysqli_fetch_array($desc)){
+                if($fila['porcentaje']!=null){
+                    $descuento = 1-($fila['porcentaje']/100);
+                    $descuentounitario = $row['valorUnitario'] * $descuento;
+                }
+            }
+        }else{
+            $descuentounitario = $row['valorUnitario'];
+        }
+		echo "<td class='text-center'>S/. {$descuentounitario}</td>";
+		$total = $row['cantidad'] * $descuentounitario;
 		$sumaTotal += $total;
 		echo "<td class='text-center'>S/. {$total}</td>";
 		$review2 = mysqli_query($link,"SELECT * FROM Transaccion WHERE referenciaTransaccion = '{$_POST['idTransaccion']}'");

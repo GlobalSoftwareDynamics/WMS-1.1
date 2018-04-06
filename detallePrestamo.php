@@ -265,10 +265,23 @@ if(substr($_POST['idTransaccion'],0,2) != 'PS'){
 											echo "<td class='text-center'>{$row2['idProducto']} - {$row2['nombreCorto']}</td>";
 										}
 										echo "<td class='text-center'>{$row['cantidad']}</td>";
-										echo "<td class='text-center'>".round($row['valorUnitario'],2)."</td>";
-										$total = $row['cantidad'] * $row['valorUnitario'];
+                                        $descuento = 1;
+                                        $desc=mysqli_query($link,"SELECT * FROM Descuento WHERE idDescuento = '{$row['idDescuento']}'");
+                                        $numrow = mysqli_num_rows($desc);
+                                        if($numrow > 0){
+                                            while ($fila=mysqli_fetch_array($desc)){
+                                                if($fila['porcentaje']!=null){
+                                                    $descuento = 1-($fila['porcentaje']/100);
+                                                    $descuentounitario = $row['valorUnitario'] * $descuento;
+                                                }
+                                            }
+                                        }else{
+                                            $descuentounitario = $row['valorUnitario'];
+                                        }
+										echo "<td class='text-center'>S/ ".round($descuentounitario,2)."</td>";
+										$total = $row['cantidad'] * $descuentounitario;
 										$sumaTotal += $total;
-										echo "<td class='text-center'>".round($total,2)."</td>";
+										echo "<td class='text-center'>S/ ".round($total,2)."</td>";
 										$review2 = mysqli_query($link,"SELECT * FROM Transaccion WHERE referenciaTransaccion = '{$_POST['idTransaccion']}'");
 										while($reviewIndex2 = mysqli_fetch_array($review2)){
 											$review3 = mysqli_query($link, "SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$reviewIndex2['idTransaccion']}' AND idProducto = '{$row['idProducto']}'");
@@ -477,7 +490,7 @@ if(substr($_POST['idTransaccion'],0,2) != 'PS'){
 						<tbody>
 						<tr>
 							<th>Total (S/.)</th>
-							<td><?php $sumaTotalRedondeada = round($sumaTotal,2); echo $sumaTotalRedondeada;?></td>
+							<td>S/ <?php $sumaTotalRedondeada = round($sumaTotal,2); echo $sumaTotalRedondeada;?></td>
 						</tr>
 
 						<?php
@@ -489,7 +502,7 @@ if(substr($_POST['idTransaccion'],0,2) != 'PS'){
 
 						<tr>
 							<th>Restante (S/.)</th>
-							<td><?php echo $montoRestanteShow;?></td>
+							<td>S/ <?php echo $montoRestanteShow;?></td>
 						</tr>
 						</tbody>
 					</table>

@@ -40,7 +40,6 @@
                                     <th class="text-center">Responsable</th>
                                     <th class="text-center">Cliente/Proveedor</th>
                                     <th class="text-center">Tipo</th>
-                                    <th class="text-center">Notas</th>
                                     <th class="text-center">Monto</th>
                                 </tr>
                                 </thead>
@@ -48,7 +47,7 @@
 								<?php
 								$file = fopen($fileName,"w") or die("No se encontró el archivo!");
 								fwrite($file, pack("CCC",0xef,0xbb,0xbf));
-								$txt = "Ingresos".PHP_EOL."Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto".PHP_EOL;
+								$txt = "Ingresos".PHP_EOL."Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto".PHP_EOL;
 								fwrite($file, $txt);
 								$dateInicio = explode("-", $_POST['fechaInicioReporte']);
 								$dateFin = explode("-", $_POST['fechaFinReporte']);
@@ -56,7 +55,7 @@
 								$fechaFin = $dateFin[0]."-".$dateFin[1]."-".$dateFin[2];
 								$aux = 0;
 								$totalingresos = 0;
-								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 1) ORDER BY fecha DESC");
+								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 1) AND idCuenta = 1 ORDER BY fecha DESC");
 								while($row = mysqli_fetch_array($query)){
 									if($row['monto'] > 0){
 										$fechaTransac = explode(" ",$row['fecha']);
@@ -83,18 +82,17 @@
 											echo "<td>{$nombre}</td>";
 											echo "<td>{$nombreProveedor}</td>";
 											echo "<td>{$tipo}</td>";
-											echo "<td>{$row['observaciones']}</td>";
 											echo "<td>S/. + {$row['monto']}</td>";
 											echo "</tr>";
 											$totalingresos += $row['monto'];
-											$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$nombre.",".$nombreProveedor.",".$tipo.",".$row['observaciones'].",".$row['monto'].PHP_EOL;
+											$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$nombre.",".$nombreProveedor.",".$tipo.",".$row['monto'].PHP_EOL;
 											fwrite($file, $txt);
 										}
 									}
 								}
 								?>
                                 <tr>
-                                    <td colspan="7" class="text-left font-weight-bold">Total Ingresos</td>
+                                    <td colspan="6" class="text-left font-weight-bold">Total Ingresos</td>
                                     <td><?php echo "S/. +".$totalingresos;
 										$txt = PHP_EOL."Total,".$totalingresos.PHP_EOL;
 										fwrite($file, $txt);?></td>
@@ -116,13 +114,12 @@
                                     <th class="text-center">Responsable</th>
                                     <th class="text-center">Cliente/Proveedor</th>
                                     <th class="text-center">Tipo</th>
-                                    <th class="text-center">Notas</th>
                                     <th class="text-center">Monto</th>
                                 </tr>
                                 </thead>
                                 <tbody>
 								<?php
-								$txt = PHP_EOL.PHP_EOL."Egresos".PHP_EOL."Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto".PHP_EOL;
+								$txt = PHP_EOL.PHP_EOL."Egresos".PHP_EOL."Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto".PHP_EOL;
 								fwrite($file, $txt);
 								$dateInicio = explode("-", $_POST['fechaInicioReporte']);
 								$dateFin = explode("-", $_POST['fechaFinReporte']);
@@ -130,7 +127,7 @@
 								$fechaFin = $dateFin[0]."-".$dateFin[1]."-".$dateFin[2];
 								$aux = 0;
 								$totalegresos = 0;
-								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 0) ORDER BY fecha DESC");
+								$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 0) AND idCuenta = 1 ORDER BY fecha DESC");
 								while($row = mysqli_fetch_array($query)){
 									if($row['monto'] > 0){
 										$fechaTransac = explode(" ",$row['fecha']);
@@ -156,18 +153,17 @@
 											echo "<td>{$nombre}</td>";
 											echo "<td>{$nombreProveedor}</td>";
 											echo "<td>{$tipo}</td>";
-											echo "<td>{$row['observaciones']}</td>";
 											echo "<td>S/. - {$row['monto']}</td>";
 											echo "</tr>";
 											$totalegresos += $row['monto'];
-											$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$nombre.",".$nombreProveedor.",".$tipo.",".$row['observaciones'].",".$row['monto'].PHP_EOL;
+											$txt = $aux.",".$fecha[0].",".$row['idMovimiento'].",".$nombre.",".$nombreProveedor.",".$tipo.",".$row['monto'].PHP_EOL;
 											fwrite($file, $txt);
 										}
 									}
 								}
 								?>
                                 <tr>
-                                    <td colspan="7" class="text-left font-weight-bold">Total Egresos</td>
+                                    <td colspan="6" class="text-left font-weight-bold">Total Egresos</td>
                                     <td><?php echo "S/. -".$totalegresos;
 										$txt = PHP_EOL."Total,".$totalegresos.PHP_EOL;
 										fwrite($file, $txt);?></td>
@@ -209,6 +205,7 @@
 										$fechaTransaccionCompleta = $fechaTransac[0];
 										if($fechaTransaccionCompleta <= $fechaFin && $fechaTransaccionCompleta >= $fechaInicio){
 											$fecha=explode(" ",$row['fecha']);
+											$aux++;
 											echo "<tr>";
 											echo "<td>{$aux}</td>";
 											echo "<td>{$fecha[0]}</td>";

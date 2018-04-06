@@ -11,10 +11,10 @@ if(isset($_SESSION['login'])) {
         while ($fila1 = mysqli_fetch_array($result1)){
             $aux1++;
         }
+        $aux1++;
     }else{
         $aux1 = 1;
     }
-    $aux1++;
 
     $idOV = idgen("OV");
     $idOV = $idOV."-".$aux1;

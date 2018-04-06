@@ -1,25 +1,35 @@
 ﻿Ingresos
-Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
-1,2018-04-04,MOV18D04K4403,Usuario Prueba,HUGO TRONCOZO,Venta,,50
-2,2018-04-04,MOV18D04K4245,Usuario Prueba,HUGO TRONCOZO,Venta,,100
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+1,2018-03-14,MOV18C14S1937,Jessica Adriana Salas Pacheco,MARIA MAGDALENA QUISPE COLCA,Venta,17.6
+2,2018-03-14,MOV18C14P2429,Jessica Adriana Salas Pacheco,NEREYDA DIAZ,Cobro Venta,78.2
+3,2018-03-14,MOV18C14O2955,Jessica Adriana Salas Pacheco,FANY CARI GONZA,Venta,8.6
+4,2018-03-14,MOV18C14O2446,Jessica Adriana Salas Pacheco,ANA MARIA CORZO,Cobro Venta,65.6
+5,2018-03-14,MOV18C14O0424,Jessica Adriana Salas Pacheco,ROSA ASCUÑA,Cobro Venta,149.9
+6,2018-03-14,MOV18C14O0004,Jessica Adriana Salas Pacheco,SOCORRO MARTINEZ,Venta,29.4
+7,2018-03-14,MOV18C14N5749,Jessica Adriana Salas Pacheco,CARLOS FERNANDEZ,Venta,37.5
+8,2018-03-14,MOV18C14L3606,Jessica Adriana Salas Pacheco,BERTHA ARIZABAL (KATHY),Venta,67.7
+9,2018-03-14,MOV18C14L1609,Jessica Adriana Salas Pacheco,ISABEL PAREDES DE GARCIA,Venta,15.5
+10,2018-03-14,MOV18C14K3219,Roxana Hinojosa Menendez,MARIA JESUS RODRIGUEZ SALAS,Venta,30.50
+11,2018-03-14,MOV18C14K0838,Jessica Adriana Salas Pacheco,MARCIA VALLE,Venta,37.1
 
-Total,150
+Total,537.6
 
 
 Egresos
-Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Notas,Monto
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
 
 Total,0
 
 
 Cupones
 Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+1,2018-03-14,MOV18C14O1057,OV18C06S2256,,LADY FERRARI,101.4
 
-Total,0
+Total,101.4
 
 
 Saldos
 
 CAJA CHICA
 
-1546.4
+1356.6

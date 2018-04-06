@@ -48,6 +48,7 @@ if(isset($_SESSION['login'])){
 									<th class="text-center">Item</th>
                                     <th class="text-center">Fecha</th>
                                     <th class="text-center">Transacción</th>
+                                    <th class="text-center">Cliente</th>
                                     <th class="text-center">Producto</th>
                                     <th class="text-center">Almacén</th>
                                     <th class="text-center">Ubicación</th>
@@ -75,6 +76,11 @@ if(isset($_SESSION['login'])){
                                             $fechaTransaccion = explode(" ",$row['fechaTransaccion']);
                                             $html .= "<td class='text-center'>{$fechaTransaccion[0]}</td>";
                                             $html .= "<td class='text-center'>{$row['idTransaccion']}</td>";
+                                            $query3 = mysqli_query($link, "SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+                                            while ($row3 = mysqli_fetch_array($query3)) {
+                                                $proveedor = $row3['nombre'];
+                                                $html .="<td class='text-center'>{$row3['nombre']}</td>";
+                                            }
                                             $query3 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row2['idProducto']}'");
                                             while ($row3 = mysqli_fetch_array($query3)) {
                                                 $nombreProducto = $row3['nombreCorto'];
@@ -110,6 +116,7 @@ if(isset($_SESSION['login'])){
 									<th class="text-center">Item</th>
                                     <th class="text-center">Fecha</th>
                                     <th class="text-center">Transacción</th>
+                                    <th class="text-center">Cliente</th>
                                     <th class="text-center">Producto</th>
                                     <th class="text-center">Almacén</th>
                                     <th class="text-center">Ubicación</th>
@@ -136,6 +143,11 @@ if(isset($_SESSION['login'])){
                                             $fechaTransaccion = explode(" ",$row['fechaTransaccion']);
                                             $html .= "<td class='text-center'>{$fechaTransaccion[0]}</td>";
                                             $html .= "<td class='text-center'>{$row['idTransaccion']}</td>";
+                                            $query3 = mysqli_query($link, "SELECT * FROM Proveedor WHERE idProveedor = '{$row['idProveedor']}'");
+                                            while ($row3 = mysqli_fetch_array($query3)) {
+                                                $proveedor = $row3['nombre'];
+                                                $html .="<td class='text-center'>{$row3['nombre']}</td>";
+                                            }
                                             $query3 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row2['idProducto']}'");
                                             while ($row3 = mysqli_fetch_array($query3)) {
                                                 $nombreProducto = $row3['nombreCorto'];

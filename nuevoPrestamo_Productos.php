@@ -21,7 +21,28 @@ if(isset($_SESSION['login'])) {
 
 	if(isset($_POST['addProducto'])){
 
-		$nombreProducto = explode("_",$_POST['nombreProducto']);
+        $promocion = "null";
+        $addPromocion = 1;
+        $query = mysqli_query($link, "SELECT * FROM Descuento");
+        while ($row = mysqli_fetch_array($query)){
+            if($row['porcentaje']==$_POST['promocion']){
+                $addPromocion = 0;
+            }
+        }
+        if(($addPromocion == 1) && ($_POST['promocion'] != null)){
+            $insert = mysqli_query($link, "INSERT INTO Descuento (porcentaje, montoMin, tipo) VALUES ('{$_POST['promocion']}',null,false)");
+            $addPromocion = 0;
+        }
+        if($addPromocion == 0){
+            $query = mysqli_query($link, "SELECT * FROM Descuento");
+            while ($row = mysqli_fetch_array($query)){
+                if($row['porcentaje']==$_POST['promocion']){
+                    $promocion = $row['idDescuento'];
+                }
+            }
+        }
+
+	    $nombreProducto = explode("_",$_POST['nombreProducto']);
 		$id=mysqli_query($link,"SELECT * FROM Producto WHERE nombreCorto = '{$nombreProducto[0]}'");
 		while ($fila=mysqli_fetch_array($id)){
 			$idProducto = $fila['idProducto'];
@@ -63,10 +84,10 @@ if(isset($_SESSION['login'])) {
         $precio1=explode("|",$_POST['precio']);
         $precio=$precio1[0]*$_POST['promo'];
 
-		$add = mysqli_query($link, "INSERT INTO TransaccionProducto(idProducto,idTransaccion,idUbicacionInicial,idUbicacionFinal,idDescuento,valorUnitario,cantidad,idPromocion,observacion,stockInicial,stockFinal,descuento,descuentoMonetario) VALUES ('{$idProducto}','{$_POST['idTransaccion']}',null,null,null,'{$precio}','{$_POST['cantidad']}',
+		$add = mysqli_query($link, "INSERT INTO TransaccionProducto(idProducto,idTransaccion,idUbicacionInicial,idUbicacionFinal,idDescuento,valorUnitario,cantidad,idPromocion,observacion,stockInicial,stockFinal,descuento,descuentoMonetario) VALUES ('{$idProducto}','{$_POST['idTransaccion']}',null,null,'{$promocion}','{$precio}','{$_POST['cantidad']}',
 		null,'{$_POST['notas']}','{$stockinicial}','{$stockfinal}',false,0)");
 
-		$queryPerformed = "INSERT INTO TransaccionProducto(idProducto,idTransaccion,idUbicacionInicial,idUbicacionFinal,idDescuento,valorUnitario,cantidad,idPromocion,observacion,stockInicial,stockFinal,descuento,descuentoMonetario) VALUES ({$idProducto},{$_POST['idTransaccion']},null,null,null,{$precio},{$_POST['cantidad']},
+		$queryPerformed = "INSERT INTO TransaccionProducto(idProducto,idTransaccion,idUbicacionInicial,idUbicacionFinal,idDescuento,valorUnitario,cantidad,idPromocion,observacion,stockInicial,stockFinal,descuento,descuentoMonetario) VALUES ({$idProducto},{$_POST['idTransaccion']},null,null,{$promocion},{$precio},{$_POST['cantidad']},
 		null,{$_POST['notas']},{$stockinicial},{$stockfinal},false,0)";
 
 		$databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','Préstamos-addProducto','{$queryPerformed}')");
@@ -113,12 +134,13 @@ if(isset($_SESSION['login'])) {
                                             <thead>
                                             <tr>
                                             	<th class="text-center" style="width: 10%"><label for="idCatalogo">Cód. Catalogo</label></th>
-                                                <th class="text-center" style="width: 25%"><label for="Productos">Producto</label></th>
-                                                <th class="text-center" style="width: 15%"><label for="cantidad">Cantidad</label></th>
+                                                <th class="text-center" style="width: 20%"><label for="Productos">Producto</label></th>
+                                                <th class="text-center" style="width: 12%"><label for="cantidad">Cantidad</label></th>
                                                 <th class="text-center" style="width: 20%"><label for="precio">Precio Unitario (S/.)</label></th>
-                                                <th class="text-center" style="width: 15%"><label for="descento">Promoción</label></th>
+                                                <th class="text-center" style="width: 10%"><label for="descento">Promoción</label></th>
+                                                <th class="text-center" style="width: 10%"><label for="promocion">Descuento (%)</label></th>
                                                 <th class="text-center" style="width: 10%"><label for="notas">Notas</label></th>
-                                                <th class="text-center" style="width: 10%"><label for="addProducto">Acciones</label></th>
+                                                <th class="text-center" style="width: 8%"><label for="addProducto">Acciones</label></th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -135,6 +157,7 @@ if(isset($_SESSION['login'])) {
                                                         <option value="0.666667">6X4</option>
                                                     </select>
                                                 </td>
+                                                <td><input type="number" name="promocion" class="form-control" id="promocion" placeholder="xx%" min="0" max="100"></td>
                                                 <td><input type="text" name="notas" class="form-control" id="notas"></td>
                                                 <td><input type="submit" class="btn btn-primary" value="Agregar" name="addProducto" id="addProducto" formaction="#"></td>
                                             </tr>
@@ -176,9 +199,17 @@ if(isset($_SESSION['login'])) {
 				while($row2 = mysqli_fetch_array($query2)){
 					echo "<td>{$row2['idProducto']} - {$row2['nombreCorto']}</td>";
 				}
-				$valor=round($row['valorUnitario'],2);
+                $descuento = 1;
+                $desc = mysqli_query($link,"SELECT * FROM Descuento WHERE idDescuento = '{$row['idDescuento']}'");
+                while ($fila=mysqli_fetch_array($desc)){
+                    if($fila['porcentaje']!=null){
+                        $descuento = 1-($fila['porcentaje']/100);
+                        $descuentounitario = $row['cantidad'] *$row['valorUnitario']*$descuento;
+                    }
+                }
+				$valor = round($descuentounitario,2);
 				echo "<td>{$row['cantidad']}</td>";
-				echo "<td>S/. {$valor}</td>";
+				echo "<td>S/ {$valor}</td>";
 				echo "<td>{$row['observacion']}</td>";
 				echo "<td><form method='post' action='#'>
 						<input type='hidden' name='idProducto' value='{$row['idProducto']}'>

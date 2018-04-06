@@ -28,7 +28,6 @@ if(isset($_SESSION['login'])){
                                     <th class="text-center">Responsable</th>
                                     <th class="text-center">Cliente/Proveedor</th>
                                     <th class="text-center">Tipo</th>
-                                    <th class="text-center">Notas</th>
                                     <th class="text-center">Monto</th>
                                 </tr>
                                 </thead>
@@ -39,7 +38,7 @@ if(isset($_SESSION['login'])){
 	$fechaFin = $dateFin[0]."-".$dateFin[1]."-".$dateFin[2];
 	$aux = 0;
 	$totalingresos = 0;
-	$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 1) ORDER BY fecha DESC");
+	$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 1) AND idCuenta = 1 ORDER BY fecha DESC");
 	while($row = mysqli_fetch_array($query)){
 		if($row['monto'] > 0){
 			$fechaTransac = explode(" ",$row['fecha']);
@@ -65,7 +64,6 @@ if(isset($_SESSION['login'])){
 												<td>'.$nombre.'</td>";
 												<td>'.$nombreProveedor.'</td>
 												<td>'.$tipo.'</td>";
-												<td>'.$row['observaciones'].'</td>
 												<td>S/. + '.$row['monto'].'</td>
 												</tr>';
 				$totalingresos += $row['monto'];
@@ -93,7 +91,6 @@ if(isset($_SESSION['login'])){
                                     <th class="text-center">Responsable</th>
                                     <th class="text-center">Cliente/Proveedor</th>
                                     <th class="text-center">Tipo</th>
-                                    <th class="text-center">Notas</th>
                                     <th class="text-center">Monto</th>
                                 </tr>
                                 </thead>
@@ -104,7 +101,7 @@ if(isset($_SESSION['login'])){
 	$fechaFin = $dateFin[0]."-".$dateFin[1]."-".$dateFin[2];
 	$aux = 0;
 	$totalegresos = 0;
-	$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 0) ORDER BY fecha DESC");
+	$query = mysqli_query($link,"SELECT * FROM Movimiento WHERE idTipoMovimiento IN (SELECT idTipoMovimiento FROM TipoMovimiento WHERE tipo = 0) AND idCuenta = 1 ORDER BY fecha DESC");
 	while($row = mysqli_fetch_array($query)){
 		if($row['monto'] > 0){
 			$fechaTransac = explode(" ",$row['fecha']);
@@ -129,7 +126,6 @@ if(isset($_SESSION['login'])){
 											<td>'.$nombre.'</td>
 											<td>'.$nombreProveedor.'</td>
 											<td>'.$tipo.'</td>
-											<td>'.$row['observaciones'].'</td>
 											<td>S/. - '.$row['monto'].'</td>
 											</tr>';
 				$totalegresos += $row['monto'];

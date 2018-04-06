@@ -11,8 +11,20 @@ if(isset($_SESSION['login'])) {
 
 	$result = mysqli_query($link,"SELECT * FROM TransaccionProducto WHERE idTransaccion = '{$_POST['idTransaccion']}' AND idProducto = '{$_POST['idProducto']}'");
 	while($row = mysqli_fetch_array($result)) {
-
-	    $valorUnitario = $row['valorUnitario'];
+        $descuento = 1;
+        $desc=mysqli_query($link,"SELECT * FROM Descuento WHERE idDescuento = '{$row['idDescuento']}'");
+        $numrow = mysqli_num_rows($desc);
+        if($numrow > 0){
+            while ($fila=mysqli_fetch_array($desc)){
+                if($fila['porcentaje']!=null){
+                    $descuento = 1-($fila['porcentaje']/100);
+                    $descuentounitario = $row['valorUnitario'] * $descuento;
+                }
+            }
+        }else{
+            $descuentounitario = $row['valorUnitario'];
+        }
+	    $valorUnitario = $descuentounitario;
 	    $cantidadPrestada = $row['cantidad'];
 		$result2 = mysqli_query($link,"SELECT * FROM Producto WHERE idProducto = '{$row['idProducto']}'");
 		while($row2 = mysqli_fetch_array($result2)){
