@@ -40,28 +40,33 @@ if(isset($_SESSION['login'])){
                     $fechaFin = $dateFin[0]."-".$dateFin[1]."-".$dateFin[2];
                     $aux = 0;
                     $transaccionReferencia = "-";
-                    $query = mysqli_query($link, "SELECT logMovimientosAlmacen.idProducto, Producto.nombreCorto, SUM(CASE WHEN logMovimientosAlmacen.idTransaccion IN (SELECT idTransaccion FROM Transaccion WHERE idTipoTransaccion IN (2,4) AND fechaTransaccion >= '{$fechaInicio} 00:00:00' AND fechaTransaccion <= '{$fechaFin} 23:59:59') THEN logMovimientosAlmacen.cantidad ELSE 0 END) AS CantidadIngreso, SUM(CASE WHEN logMovimientosAlmacen.idTransaccion IN (SELECT idTransaccion FROM Transaccion WHERE idTipoTransaccion IN (5,6) AND fechaTransaccion >= '{$fechaInicio} 00:00:00' AND fechaTransaccion <= '{$fechaFin} 23:59:59') THEN logMovimientosAlmacen.cantidad ELSE 0 END) AS CantidadSalida FROM logMovimientosAlmacen INNER JOIN Producto ON logMovimientosAlmacen.idProducto = Producto.idProducto WHERE logMovimientosAlmacen.idUbicacion IN (SELECT idUbicacion FROM Ubicacion WHERE idAlmacen = '{$fila['idAlmacen']}') GROUP BY idProducto");
+                    $query = mysqli_query($link, "SELECT logMovimientosAlmacen.idProducto, Producto.nombreCorto, SUM(CASE WHEN logMovimientosAlmacen.idTransaccion IN (SELECT idTransaccion FROM Transaccion WHERE idTipoTransaccion IN (2,4) AND fechaTransaccion >= '{$fechaInicio} 00:00:00' AND fechaTransaccion <= '{$fechaFin} 23:59:59') THEN logMovimientosAlmacen.cantidad ELSE 0 END) AS CantidadIngreso, SUM(CASE WHEN logMovimientosAlmacen.idTransaccion IN (SELECT idTransaccion FROM Transaccion WHERE idTipoTransaccion IN (5,6) AND fechaTransaccion >= '{$fechaInicio} 00:00:00' AND fechaTransaccion <= '{$fechaFin} 23:59:59') THEN logMovimientosAlmacen.cantidad ELSE 0 END) AS CantidadSalida FROM logMovimientosAlmacen INNER JOIN Producto ON logMovimientosAlmacen.idProducto = Producto.idProducto WHERE logMovimientosAlmacen.idUbicacion IN (SELECT idUbicacion FROM Ubicacion WHERE idAlmacen = '{$fila['idAlmacen']}') GROUP BY idProducto ORDER BY Producto.nombreCorto ASC");
                     while ($row = mysqli_fetch_array($query)) {
-                        $aux++;
-                        $html .="<tr>";
-                        $html .="<td>{$aux}</td>";
-                        $query3 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row['idProducto']}'");
-                        while ($row3 = mysqli_fetch_array($query3)) {
-                            $nombreProducto = $row3['nombreCorto'];
-                            $html .="<td class='text-center'>{$row3['nombreCorto']}</td>";
-                        }
-                        $html .="<td>{$row['CantidadIngreso']}</td>";
-                        $cantidadIngreso = $row['CantidadIngreso'];
-                        $html .="<td>{$row['CantidadSalida']}</td>";
-                        $cantidadSalida = $row['CantidadSalida'];
-
-                        $stockActual = 0;
-                        $select2 = mysqli_query($link, "SELECT * FROM UbicacionProducto WHERE idProducto = '{$row['idProducto']}' AND idUbicacion IN (SELECT idUbicacion FROM Ubicacion WHERE idAlmacen = '{$fila['idAlmacen']}')");
-                        while($row2 = mysqli_fetch_array($select2)){
-                            $stockActual += $row2['stock'];
-                        }
-                        $html .="<td>{$stockActual}</td>";
-                        $html .="</tr>";
+						if($row['CantidadIngreso'] == 0 && $row['CantidadSalida'] == 0){
+											
+						}else{
+							$aux++;
+							$html .="<tr>";
+							$html .="<td>{$aux}</td>";
+							$query3 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row['idProducto']}'");
+							while ($row3 = mysqli_fetch_array($query3)) {
+								$nombreProducto = $row3['nombreCorto'];
+								$html .="<td class='text-center'>{$row3['nombreCorto']}</td>";
+							}
+							$html .="<td>{$row['CantidadIngreso']}</td>";
+							$cantidadIngreso = $row['CantidadIngreso'];
+							$html .="<td>{$row['CantidadSalida']}</td>";
+							$cantidadSalida = $row['CantidadSalida'];
+	
+							$stockActual = 0;
+							$select2 = mysqli_query($link, "SELECT * FROM UbicacionProducto WHERE idProducto = '{$row['idProducto']}' AND idUbicacion IN (SELECT idUbicacion FROM Ubicacion WHERE idAlmacen = '{$fila['idAlmacen']}')");
+							while($row2 = mysqli_fetch_array($select2)){
+								$stockActual += $row2['stock'];
+							}
+							$html .="<td>{$stockActual}</td>";
+							$html .="</tr>";
+						}
+                        
                     }
                     $html .='
                     </tbody>
