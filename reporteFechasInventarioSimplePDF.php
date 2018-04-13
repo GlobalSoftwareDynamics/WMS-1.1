@@ -50,8 +50,8 @@ if(isset($_SESSION['login'])){
 							$html .="<td>{$aux}</td>";
 							$query3 = mysqli_query($link, "SELECT * FROM Producto WHERE idProducto = '{$row['idProducto']}'");
 							while ($row3 = mysqli_fetch_array($query3)) {
-								$nombreProducto = $row3['nombreCorto'];
-								$html .="<td class='text-center'>{$row3['nombreCorto']}</td>";
+								$nombreProducto = $row['idProducto']."-".$row3['nombreCorto'];
+								$html .="<td class='text-center'>{$row['idProducto']}-{$row3['nombreCorto']}</td>";
 							}
 							$html .="<td>{$row['CantidadIngreso']}</td>";
 							$cantidadIngreso = $row['CantidadIngreso'];
