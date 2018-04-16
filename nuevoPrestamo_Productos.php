@@ -113,9 +113,8 @@ if(isset($_SESSION['login'])) {
                             Agregar Productos a Préstamo <?php echo $_POST['idTransaccion']?>
                         </div>
                         <div class="float-right">
-                            <div class="dropdown">
-                                <button form="formPS" name="formPS" class="btn btn-secondary btn-sm">Guardar</button>
-                            </div>
+                            <button form="formPS" name="formPS" class="btn btn-secondary btn-sm">Guardar</button>
+                            <button form="formPS" name="salir" class="btn btn-secondary btn-sm" formaction="gestionPrestamos.php">Salir</button>
                         </div>
                     </div>
                     <div class="card-block">

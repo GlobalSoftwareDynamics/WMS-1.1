@@ -666,7 +666,8 @@ if(isset($_SESSION['login'])) {
                                     echo "<button name='cancelacion' class='dropdown-item' type='submit' formaction='nuevoMovimiento.php'>Registrar Pago</button>";
                                 }
                                 if ($estado=='Abierta'){
-                                    echo "<button name='delete' style='color: red' class='dropdown-item' type='submit' formaction='gestionOV.php'>Eliminar</button>";
+									echo "<button name='continuar' class='dropdown-item' type='submit' formaction='nuevaOV_Cancelacion.php'>Modificar</button>";
+									echo "<button name='delete' style='color: red' class='dropdown-item' type='submit' formaction='gestionOV.php'>Eliminar</button>";
                                 }
                                 echo "                  
                                                     </div>

@@ -1,0 +1,29 @@
+﻿Ingresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+1,2018-04-16,MOV18D16J1718,Jessica Adriana Salas Pacheco,URSULA DELGADO,Cobro Venta,67.7
+
+Total,67.7
+
+
+Egresos
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+0,2018-04-16,MOV18D16J4028,Jessica Adriana Salas Pacheco,JESSICA ADRIANA SALAS PACHECO,Otros Egreso,394
+
+Total,394
+
+
+Cupones
+Item,Fecha,Movimiento,Responsable,Cliente/Proveedor,Tipo,Monto
+
+Total,0
+
+
+Saldos
+
+CAJA CHICA
+
+67.7
+
+GLENY E.I.R.L.
+
+3041.2

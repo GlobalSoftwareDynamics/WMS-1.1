@@ -594,6 +594,7 @@ if(isset($_SESSION['login'])) {
                                 <button formaction="#" onclick='javascript:doClientPrint<?php echo $i;?>();' class="dropdown-item">Imprimir</button>
                                 <?php
                                 if($estado=='Abierta'){
+									echo "<button name='continuar' class='dropdown-item' type='submit' formaction='nuevoPrestamo_Ubicaciones.php'>Modificar</button>";
                                     echo "<button name='delete' style='color: red' class='dropdown-item' type='submit' formaction='#'>Eliminar</button>";
                                 }
                                 echo "                  </div>

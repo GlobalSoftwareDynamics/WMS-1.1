@@ -184,9 +184,8 @@ if(isset($_SESSION['login'])) {
                             Agregar Productos Orden de Venta <?php echo $_POST['idTransaccion']?>
                         </div>
                         <div class="float-right">
-                            <div class="dropdown">
-                                <button form="formOV" value="Guardar" name="addOC" class="btn btn-secondary btn-sm">Guardar</button>
-                            </div>
+                            <button form="formOV" name="addOC" class="btn btn-secondary btn-sm">Guardar</button>
+                            <button form="formOV" name="salir" class="btn btn-secondary btn-sm" formaction="gestionOV.php">Salir</button>
                         </div>
                     </div>
                     <div class="card-block">
