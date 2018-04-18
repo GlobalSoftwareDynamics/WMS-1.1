@@ -104,7 +104,7 @@ if(isset($_SESSION['login'])) {
 
             }
 
-            $_POST['cuenta']="'{$_POST['cuenta']}'";
+            $_POST['cuenta']="{$_POST['cuenta']}";
         }
 
         $query=mysqli_query($link,"INSERT INTO Movimiento VALUES ('{$_POST['idMovimiento']}',{$_POST['cuenta']},'{$idProveedor}',{$_POST['transaccionPrimaria']},{$_POST['transaccionReferencia']},
@@ -113,8 +113,11 @@ if(isset($_SESSION['login'])) {
         $queryPerformed="INSERT INTO Movimiento VALUES ({$_POST['idMovimiento']},{$_POST['cuenta']},{$idProveedor},{$_POST['transaccionPrimaria']},{$_POST['transaccionReferencia']},
         {$_POST['medioPago']},{$_POST['comprobante']},{$_POST['tipo']},{$_SESSION['user']},{$dateTime},null,{$_POST['monto']},{$_POST['observacion']})";
 
+        echo $queryPerformed;
+
         $databaseLog = mysqli_query($link, "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','Movimiento','{$queryPerformed}')");
 
+        echo "INSERT INTO DatabaseLog (idColaborador,fechaHora,evento,tipo,consulta) VALUES ('{$_SESSION['user']}','{$dateTime}','INSERT','Movimiento','{$queryPerformed}')";
     }
 
 $numcuentasquery=mysqli_query($link,"SELECT * FROM Cuenta");
